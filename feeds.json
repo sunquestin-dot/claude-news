@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793314339459,
+ "updatedAt": 1793317623604,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Codeプラグインを「評価」してから配る：validate＋ヘッドレスevalで回帰テストを自動化する",
+   "link": "https://qiita.com/joinclass/items/8f6b0447b5a1caa0ca74",
+   "date": 1793316607000,
+   "img": "",
+   "desc": "はじめに：スキルが増えるほど「壊れても気づかない」 当社（合同会社ジョインクラス）では、Claude Codeのエージェント・スキルで会社運営の大半を自動化しています。launchdジョブは17個、自動化率は98%です。 ただ、規模が大きくなると困るのがスキルやプラグイン..."
+  },
+  {
+   "src": "qiita",
+   "title": "崩れた232ブロックを1回のトランザクションで並べ直した：EditorView は fiber から探した",
+   "link": "https://qiita.com/kaiyaku_iyada/items/b085cbeac6d89f8f730c",
+   "date": 1793314746000,
+   "img": "",
+   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とも note社とも無関係の個人の実験で、両社の公認や提携ではありません。出典は、2026年10月24日 08:40〜08:46..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code で \"API Error: Stream idle timeout - partial response received\" が出たときの直し方（CLAUDE_STREAM_IDLE_TIMEOUT_MS と長い出力の分割）",
    "link": "https://qiita.com/homhom44/items/34211c5b1960ace4aa0c",
    "date": 1793309475000,
@@ -60,20 +76,12 @@
    "desc": "はじめに 前回の記事の最後に、こう書きました。焼く（アドインの更新登録）の待ちは、まだ測っていません。次に棚を直して焼くときに、内訳を測ります。 測りました。測ってみたら、前回の記事に書いた「約 20 秒」は、すでに縮み始めた後の数でした。その日の午前までは、焼くた..."
   },
   {
-   "src": "qiita",
-   "title": "ヘッドレス実行で SIGTERM 中断に耐えるパイプラインの設計：本番自動化で「途中で殺されても落ちない」実装",
-   "link": "https://qiita.com/akihidem/items/909334131ae62062afd0",
-   "date": 1793296684000,
-   "img": "",
-   "desc": "本番の自動化パイプラインで claude -p をヘッドレス実行していると、デプロイのローリング更新・CI のジョブタイムアウト・Kubernetes の Pod 退避といった「外から来る停止」に必ず当たります。問題は停止そのものではなく、停止されたときにセッションがどの状..."
-  },
-  {
-   "src": "qiita",
-   "title": "2026-10-22 公式ドキュメント更新：サブエージェント名の再起動復元とフックの上限制限が追加",
-   "link": "https://qiita.com/akihidem/items/d52b286b7d11d9bb5b8f",
-   "date": 1793296593000,
-   "img": "",
-   "desc": "2026-10-22 の更新は、サブエージェントの名前解決がコンパクション境界で変わるというルールの明文化と、v2.1.304 からスキルフックに登録数の上限が設けられたという2点を中心に、ループ停止操作の使い分け、パーミッションモードにおける critical-path ..."
+   "src": "zenn",
+   "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
+   "link": "https://zenn.dev/shoyomayabot/articles/ai-dev-env-estimate-by-phase",
+   "date": 1793297126000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--n0q3SW8G--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258F%2597%25E8%25A8%2597%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25A7AI%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%25B7%25A5%25E7%25A8%258B%25E5%2588%25A5%25E3%2581%25AB%25E8%25A6%258B%25E7%25A9%258D%25E3%2582%2582%25E3%2582%258B%25EF%25BC%259A%25E9%2596%2589%25E5%259F%259F%25E6%25A7%258B%25E6%2588%2590%25E3%2583%25BB%25E8%25B2%25BB%25E7%2594%25A8%25E3%2583%25BB%25E5%25A5%2591%25E7%25B4%2584%25E3%2581%25AE%25E6%25B3%25A8%25E6%2584%258F%25E7%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mayabot%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済系のようなミッションクリティカルな大規模システムの改修です。 個人情報や金額を扱うので、セキュリティの要求がとても厳しい領域です。 そのぶん、ここで通用する考え…"
   },
   {
    "src": "zenn",
@@ -244,20 +252,12 @@
    "desc": "UGE で管理されたサーバー（機械的なものを実行するための低い性能のノード）で、VS Code を JupyterLab のように常駐させて使うまでの手順をまとめたメモです。VS Code CLI の code serve-web を tmux 上で起動し、SSH のポート転送でアクセスし、最後に Chrome / Safari のアプリとして独立したウィンドウで使えるようにします。あわせて、タ…"
   },
   {
-   "src": "zenn",
-   "title": "ハーネスエンジニアリング3原則 — 地図・強制・蓄積の三層で考える",
-   "link": "https://zenn.dev/pythona/articles/harness-engineering-three-principles",
-   "date": 1793260956000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--i23XN5Z4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B03%25E5%258E%259F%25E5%2589%2587%2520%25E2%2580%2594%2520%25E5%259C%25B0%25E5%259B%25B3%25E3%2583%25BB%25E5%25BC%25B7%25E5%2588%25B6%25E3%2583%25BB%25E8%2593%2584%25E7%25A9%258D%25E3%2581%25AE%25E4%25B8%2589%25E5%25B1%25A4%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:pythona%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWYyMnNwblpxQUFneElIVXpxRDdlU1dfdzJmbldBWTZNVzNYWDFHX2VOSjI0SUV3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 先日、個人開発アプリに Claude Code のハーネス(CLAUDE.md / Hooks / Skills)を導入した記録を書きました。 https://zenn.dev/pythona/articles/claude-code-harness-first-setup 前回は「実際に何を作ったか」の経験談だったので、今回はその背景にある ハーネスエンジニアリングの 3 原則 を、…"
-  },
-  {
    "src": "hn",
    "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 557 # Comments: 224"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 558 # Comments: 224"
   },
   {
    "src": "status",
@@ -321,7 +321,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 596 # Comments: 295"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 597 # Comments: 295"
   },
   {
    "src": "reddit",
