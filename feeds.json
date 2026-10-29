@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793288352721,
+ "updatedAt": 1793293356422,
  "sources": {
   "news": {
    "ok": true,
@@ -18,31 +18,263 @@
    "count": 10
   },
   "status": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 20
   },
   "qiita": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 4
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code に「ゲーム作って、公開して」って頼むだけで、友だちに URL を送れるようにする",
+   "link": "https://qiita.com/asobiai/items/f54cd875b35c46e971bb",
+   "date": 1793293159000,
+   "img": "",
+   "desc": "こんにちは、AI で作ったゲームの投稿サイト「Asobiai」の案内役、アソビです。相棒のアイ（じつは AI）といっしょに、作ったゲームをみんなに遊んでもらう場所を案内しています。 Claude Code にゲームを頼むと、数分でちゃんと遊べるものが出てくるよね。ブロックく..."
+  },
+  {
+   "src": "qiita",
+   "title": "Orcaのハマりどころ：ワークツリーでディスクが埋まる理由と、Design Modeで画面を指さして直させる方法",
+   "link": "https://qiita.com/Xim2jp/items/6826993700879945a9f7",
+   "date": 1793287907000,
+   "img": "",
+   "desc": "この記事でわかること Orca は、Claude Code や Codex などのCLIエージェントを、タスクごとに別々の git worktree で並べて動かすデスクトップアプリです（MIT、macOS・Windows・Linux）。手軽にタスクを増やせる反面、使い始..."
+  },
+  {
+   "src": "qiita",
+   "title": "AIHubMix Desktop 1.0 で 11本のコーディングエージェントの設定と API キーを 1か所にまとめる",
+   "link": "https://qiita.com/xiongyuanmeng1006/items/9f1e997d207e4d3578b9",
+   "date": 1793285684000,
+   "img": "",
+   "desc": "本記事は AIHubMix が作成しました。公開日は 2026年10月29日で、価格とプロモーションの情報は同日時点のものです。DeepSeek V4.1 Flash 1017 の半額プロモーションは 2026年11月12日まで続きます。 TL;DR AIHub..."
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeで「記録できない操作を止める」──SUMI Guardの実機検証まで",
+   "link": "https://zenn.dev/shingokumon/articles/c5456656511ae7",
+   "date": 1793284831000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Zn5VgKEk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2580%258C%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25AA%25E3%2581%2584%25E6%2593%258D%25E4%25BD%259C%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2580%258D%25E2%2594%2580%25E2%2594%2580SUMI%2520Guard%25E3%2581%25AE%25E5%25AE%259F%25E6%25A9%259F%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shingokumon%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlmYjg2MWJkOGIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIにコードを書いてもらう機会が増えるほど、「実行前に何が渡されたのか、あとから確認できるようにしたい」と思うようになりました。 そのために作っているのが、Windows向けのローカル監査ツール「SUMI Guard」です。 Claude CodeやCodexから受け取った実行前イベントを、手元のPCに記録します。通常の監視モードでは、コマンド本文は保存せず、ハッシュと必要なメタデータだけを残す…"
+  },
+  {
+   "src": "qiita",
+   "title": "AIエージェントの承認はどこに置くべきか。取り消せない操作だけを人が止める",
+   "link": "https://qiita.com/koreangyoseishoshi/items/1e935a173ea037e4fc60",
+   "date": 1793284728000,
+   "img": "",
+   "desc": "※この記事は Zennの記事 からの転載です。 AI エージェントに作業を任せていると、必ずぶつかる問いがあります。どこまで自動で進めさせて、どこで人が確認するかです。 確認を増やすと、承認の画面が多すぎて、人は中身を読まずに「はい」を押すようになります。確認を減らすと、..."
+  },
+  {
+   "src": "zenn",
+   "title": "AIエージェントの承認はどこに置くべきか。取り消せない操作だけを人が止める",
+   "link": "https://zenn.dev/kimshoshi/articles/ai-production-deploy-permission",
+   "date": 1793283766000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--rzBPkG-C--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258F%25E3%2581%25B9%25E3%2581%258D%25E3%2581%258B%25E3%2580%2582%25E5%258F%2596%25E3%2582%258A%25E6%25B6%2588%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25E6%2593%258D%25E4%25BD%259C%25E3%2581%25A0%25E3%2581%2591%25E3%2582%2592%25E4%25BA%25BA%25E3%2581%258C%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:KIM%2520SEONGSU%25EF%25BD%259C%25E4%25BB%25A4%25E5%2592%258C8%25E5%25B9%25B4%25E5%25BA%25A6%2520...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2IxMGJhNDUwMDQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI エージェントに作業を任せていると、必ずぶつかる問いがあります。どこまで自動で進めさせて、どこで人が確認するかです。 確認を増やすと、承認の画面が多すぎて、人は中身を読まずに「はい」を押すようになります。確認を減らすと、ある日 AI が本番のデータを消したり、間違ったメールを送ったりします。 この記事では、承認の置き場所を決めるための考え方を整理します。軸は1つ、その操作は取り消せるかです。…"
+  },
+  {
+   "src": "zenn",
+   "title": "保守対応を Claude Code に任せたら、クラッシュ率が 8.7% から 0.1% になった話",
+   "link": "https://zenn.dev/go5go69/articles/2c0b2b6cd30676",
+   "date": 1793281921000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--1CoYM-x7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BF%259D%25E5%25AE%2588%25E5%25AF%25BE%25E5%25BF%259C%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%25AF%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E7%258E%2587%25E3%2581%258C%25208.7%2525%2520%25E3%2581%258B%25E3%2582%2589%25200.1%2525%2520%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BE%25E3%2581%2588%25E3%2581%258F%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxZjAxYjFlMDkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "直近 90 日で 5,000 人以上が遊んでいる個人開発アプリ「水曜日の電気椅子」で、保守対応のうち、Crashlytics に溜まっていた不具合の対応を Claude Code に任せました。 すると、クラッシュしたユーザーの割合が、1.4.1 の 8.7% から最新の 1.5.0 で 0.1% まで下がりました。 ※Crash-free users が 91.35% → 99.88%(クラッ…"
+  },
+  {
+   "src": "zenn",
+   "title": "個人アプリの紹介サイトを、Cloudflare Pagesで無料・サーバーなしで運用する",
+   "link": "https://zenn.dev/atsushi_apps/articles/app-showcase-cloudflare-pages",
+   "date": 1793281487000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--10LumF-6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E7%25B4%25B9%25E4%25BB%258B%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E3%2580%2581Cloudflare%2520Pages%25E3%2581%25A7%25E7%2584%25A1%25E6%2596%2599%25E3%2583%25BB%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25AA%25E3%2581%2597%25E3%2581%25A7%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Atsushi%25EF%25BD%259C%25E5%2580%258B%25E4%25BA%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E9%2596%258B%25E7%2599%25BA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQzMWZjMzI5OTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "iPhoneアプリを一人で作っている Atsushi です。作ったアプリをまとめて紹介するサイトを、Claude Code と一緒に作って運用しています。 https://daily-apps-showcase.pages.dev/ サーバーは持っていません。GitHub に push すると、Cloudflare Pages が自動で公開してくれます。費用は無料の範囲に収まっています。 この記…"
+  },
+  {
+   "src": "zenn",
+   "title": "APIの返事をそのまま表示したら、pagingのURLにアクセストークンが入っていた",
+   "link": "https://zenn.dev/vellum_office/articles/db385b21489902",
+   "date": 1793277923000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--kVOCJzHa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:API%25E3%2581%25AE%25E8%25BF%2594%25E4%25BA%258B%25E3%2582%2592%25E3%2581%259D%25E3%2581%25AE%25E3%2581%25BE%25E3%2581%25BE%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581paging%25E3%2581%25AEURL%25E3%2581%25AB%25E3%2582%25A2%25E3%2582%25AF%25E3%2582%25BB%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E3%2581%258C%25E5%2585%25A5%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%2588%25B4%25E6%259C%25A8%25E5%25A4%25A7%25E6%25A8%25B9%25EF%25BD%259CVellum%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTFlZQ2lWMVY3bW1CZEN3bmNPc3Q3U2pORW5TRndKZ0VzMjV3YVFPQ0t6UWZ5aXlnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "API の返事を、確かめるつもりでそのまま画面に出している人に向けた、失敗の記録です。 2026年10月5日、Claude Code が Threads API の /me/threads_insights の返事をそのまま表示しました。paging.previous の URL にアクセストークン全体が含まれていて、その大部分が会話の記録に残りました。 起きたこと Threads API の …"
+  },
+  {
+   "src": "reddit",
+   "title": "Meet Claude's standards... or else.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xiixew/meet_claudes_standards_or_else/",
+   "date": 1793277797000,
+   "img": "https://preview.redd.it/vztcl9tjjeyh1.png?width=640&crop=smart&auto=webp&s=36a253c2946821a534e8c2946f6a8cfb50e98a47",
+   "desc": "submitted by /u/Puzzleheaded-King584 [link] [comments]"
+  },
+  {
+   "src": "zenn",
+   "title": "【AWS】AI にインフラを把握させるため、手作業で作った環境を CDK 化した",
+   "link": "https://zenn.dev/linkedge/articles/0c14017ab7446c",
+   "date": 1793277680000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--1mcfzaKc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590AWS%25E3%2580%2591AI%2520%25E3%2581%25AB%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2595%25E3%2583%25A9%25E3%2582%2592%25E6%258A%258A%25E6%258F%25A1%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2580%2581%25E6%2589%258B%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%2520CDK%2520%25E5%258C%2596%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:RyoyaOkuma%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmZmE4YTI1NWMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BEL%2526E%2520Group%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSzhIN0k1TWtwTzN0SFJZOWQzRzVSdTVyVlpRVmI1MG5IWG1HWTdwdk5ublk4PXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 私は普段から Claude Code を使って開発しています。 リポジトリにあるコードを読んで、既存の実装に沿ったコードを書いてくれるので、とても助かっています。 しかし、個人開発しているアプリでは、AI が書くコードが、実際のインフラ構成に合っていないことがありました。 例えば、タスクに設定されていない環境変数を前提にしたコードや、権限のない S3 バケットに書き込むコードを書いてし…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code でどの CLAUDE.md がいつ読まれたかを記録する InstructionsLoaded フックの使い方",
+   "link": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-instructions-loaded-hook",
+   "date": 1793276933000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--un45_raF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A7%25E3%2581%25A9%25E3%2581%25AE%2520CLAUDE.md%2520%25E3%2581%258C%25E3%2581%2584%25E3%2581%25A4%25E8%25AA%25AD%25E3%2581%25BE%25E3%2582%258C%25E3%2581%259F%25E3%2581%258B%25E3%2582%2592%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%2599%25E3%2582%258B%2520InstructionsLoade...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2OWI5ZDEzNjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "「このルール、本当に読み込まれているのか」「サブディレクトリの CLAUDE.md はいつ読まれたのか」を調べるとき、/context の一覧だけでは時系列が分かりません。Claude Code には、指示ファイルが読み込まれるたびに発火する InstructionsLoaded フックがあり、ファイル名・理由・トリガーになったファイルを外部に記録できます。 結論として、hooks.Instru…"
+  },
+  {
+   "src": "zenn",
+   "title": "コーディング AI の導入を判断する情報セキュリティ担当者のための参考書",
+   "link": "https://zenn.dev/mika_and_coco/books/coding-ai-infosec-guide",
+   "date": 1793274046000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--tmE0mUKl--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci80YmI0OGIyYTVmLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "Claude Code などのコーディング AI に、社内のコードや顧客の資料を読ませてよいか。コーディング AI の導入を判断する情報セキュリティ担当者に向けて、何が送られ、送った先でどう扱われ、どこで処理されるかを公式資料で確かめ、法令・業界のルール・契約と照らしたうえで、使い方の選び方、条件をつけて許可するための技術的な対策と管理用の設定、記録と事故対応までを 1 冊にまとめました。サンド…"
+  },
+  {
+   "src": "zenn",
+   "title": "毎晩の取り込みは成功・索引8千件。なのに検索に出ない —— 網羅率は処理ログではなく実物から数える",
+   "link": "https://zenn.dev/shinsei99/articles/coverage-from-originals-not-logs",
+   "date": 1793271620000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Xjr_t6aK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%25AF%258E%25E6%2599%25A9%25E3%2581%25AE%25E5%258F%2596%25E3%2582%258A%25E8%25BE%25BC%25E3%2581%25BF%25E3%2581%25AF%25E6%2588%2590%25E5%258A%259F%25E3%2583%25BB%25E7%25B4%25A2%25E5%25BC%25958%25E5%258D%2583%25E4%25BB%25B6%25E3%2580%2582%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E6%25A4%259C%25E7%25B4%25A2%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%25AA%25E3%2581%2584%2520%25E2%2580%2594%25E2%2580%2594%2520%25E7%25B6%25B2%25E7%25BE%2585%25E7%258E%2587%25E3%2581%25AF%25E5%2587%25A6%25E7%2590%2586%25E3%2583%25AD%25E3%2582%25B0%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258F%25E5%25AE%259F%25E7%2589%25A9%25E3%2581%258B%25E3%2582%2589%25E6%2595%25B0%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shinsei99%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDFIemt6WnZnMEhrd2xxWktJaFhkV1A2TnVHcEE2d3pSNlhnMWpmUXV0VHJqUGZwSFg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "社内の書類を全文検索できるようにするため、共有フォルダを毎晩走査して索引に入れる処理を動かしています。 毎朝ログを見ると、こう出ていました。 新規取込 0 / 既取込スキップ 8,056 / 失敗 0 （6分弱で完了） 追加が無い晩はこれが正しい出力です。健康に見えます。 ところが、ある部署の書類について検索すると「該当する資料はありません」と返る。1件ではなく、その部署の書類だけがまとめて出て…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claudeを社員にした1人会社【Day 4】承認はあるのに、AI社員には公開する権限がなかった",
+   "link": "https://zenn.dev/libelab/articles/claude-company-day4",
+   "date": 1793270878000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--U94N8PGu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E3%2582%2592%25E7%25A4%25BE%25E5%2593%25A1%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F1%25E4%25BA%25BA%25E4%25BC%259A%25E7%25A4%25BE%25E3%2580%2590Day%25204%25E3%2580%2591%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%25AF%25E3%2581%2582%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%2581AI%25E7%25A4%25BE%25E5%2593%25A1%25E3%2581%25AB%25E3%2581%25AF%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E6%25A8%25A9%25E9%2599%2590%25E3%2581%258C%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Caito%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RhZDE2MGFiN2IuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "「社長は私（人間1人）、社員は全部Claude」という会社の運営記録、4回目です。この記事の下書きは AI社員の編集部（Claude）が書き、社長の私が確認して公開しています。 前回の予告では「Webアプリ1本目の企画」を書くと言いました。アプリの話は今回も入れます。ただ、10月24日はほかにも大きな変更がいくつもあったので、まとめて1日分の記録にします。 ! この記事のまとめ 10/24 に1…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の PowerShell で日本語が文字化けする原因と直し方：Windows の Get-Content",
+   "link": "https://zenn.dev/tamao825/articles/claude-code-powershell-mojibake-get-set-content",
+   "date": 1793268005000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--0oNCi7yQ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520PowerShell%2520%25E3%2581%25A7%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%258C%25E6%2596%2587%25E5%25AD%2597%25E5%258C%2596%25E3%2581%2591%25E3%2581%2599%25E3%2582%258B%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25A8%25E7%259B%25B4%25E3%2581%2597%25E6%2596%25B9%25EF%25BC%259AWindows%2520%25E3%2581%25AE%2520Get-...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tamao%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFkMTAzZmNjMDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Windows の Claude Code の PowerShell ツール（Windows PowerShell 5.1）で、読んだファイルの日本語が化けた、書き換えさせたファイルが壊れた、というときは、Get-Content・Set-Content・Add-Content を -Encoding なしで使っていないかを確かめてください。 ! この記事の症状の見え方（試験のファイルの例）: 「…"
+  },
+  {
+   "src": "zenn",
+   "title": "日本語で「深掘り調査して」と頼むと調査スキルはどう動くか：SKILL.md 7本を読む",
+   "link": "https://zenn.dev/skillselion/articles/be2fbd20219450",
+   "date": 1793264969000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--KFv4GYqw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25A7%25E3%2580%258C%25E6%25B7%25B1%25E6%258E%2598%25E3%2582%258A%25E8%25AA%25BF%25E6%259F%25BB%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258D%25E3%2581%25A8%25E9%25A0%25BC%25E3%2582%2580%25E3%2581%25A8%25E8%25AA%25BF%25E6%259F%25BB%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2586%25E5%258B%2595%25E3%2581%258F%25E3%2581%258B%25EF%25BC%259ASKILL.md%25207%25E6%259C%25AC%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Skillselion%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code の深掘り調査（deep research）スキルは、ほぼすべてが英語で書かれています。日本語で頼んだときに効くのは、起動条件の書き方と出力言語の規定です。今回読んだ 7 本の中で出力言語を明記していたのは文献調査向けの 1 本だけでした。ウェブ調査系のスキルは、検索クエリの言語を何も規定していません。日本語の調査では、検索言語と出典の言語をプロンプトで指定するのが確実です…"
+  },
+  {
+   "src": "zenn",
+   "title": "GitLab × Claude Code の脆弱性自動修正を半年運用して、何がどれだけ良くなったか",
+   "link": "https://zenn.dev/scalar_sol_blog/articles/glab-auto-fix-vulns",
+   "date": 1793264406000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Y46ISJpS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitLab%2520%25C3%2597%2520Claude%2520Code%2520%25E3%2581%25AE%25E8%2584%2586%25E5%25BC%25B1%25E6%2580%25A7%25E8%2587%25AA%25E5%258B%2595%25E4%25BF%25AE%25E6%25AD%25A3%25E3%2582%2592%25E5%258D%258A%25E5%25B9%25B4%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E4%25BD%2595%25E3%2581%258C%25E3%2581%25A9%25E3%2582%258C%25E3%2581%25A0%25E3%2581%2591%25E8%2589%25AF%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:msd%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIyYWQ5MTcyZjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scalar%2520Solution%2520Engi...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA5OTgyZjhiNTIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 2026年5月28日の「AI×DevOps Study #15」で、GitLab 環境で脆弱性の検知からAIによる修正（MR作成）、チャット通知までを自動化する仕組みについて発表しました。 イベント: https://scalar.connpass.com/event/394788/ スライド: https://speakerdeck.com/scalar/20260528-aixde…"
+  },
+  {
+   "src": "zenn",
+   "title": "学習記録アプリを作りながらWeb開発を学ぶ #4 記録を一覧に追加する",
+   "link": "https://zenn.dev/nori_tech/articles/manabi-log-04-list",
+   "date": 1793262653000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Jn3W3uk0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AD%25A6%25E7%25BF%2592%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25AA%25E3%2581%258C%25E3%2582%2589Web%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B6%2520%25234%2520%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%2592%25E4%25B8%2580%25E8%25A6%25A7%25E3%2581%25AB%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25B2%25B3%25E9%2587%258E%25E5%2593%25B2%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmo4TmFXeFlvRXM4WUVfZ3FFc01qYWhVSGtrMGdLVnNpZTJDWm9YYTBoPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! このシリーズは、学習記録アプリ「まなびログ」を作りながら Web 開発を基礎から学ぶ記録です。 前回：#3 JavaScriptでボタンを動かす 今日やったこと 前回は、ボタンを押すとメッセージが1つ出て、次に押すと上書きされる状態でした。今日は、押すたびに記録が下に積み上がっていく一覧を作りました。 ステップ0：script タグの位置を直す 前回の記事を書いたあとで、 が の外にあること…"
+  },
+  {
+   "src": "zenn",
+   "title": "UGE 管理のサーバーで VS Code を serve-web で常駐させ、ブラウザアプリとして使う",
+   "link": "https://zenn.dev/972697325291316/articles/7b5b9e00545f72",
+   "date": 1793262413000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--I9NOpup4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:UGE%2520%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25A7%2520VS%2520Code%2520%25E3%2582%2592%2520serve-web%2520%25E3%2581%25A7%25E5%25B8%25B8%25E9%25A7%2590%25E3%2581%2595%25E3%2581%259B%25E3%2580%2581%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:972697325291316%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvOS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "UGE で管理されたサーバー（機械的なものを実行するための低い性能のノード）で、VS Code を JupyterLab のように常駐させて使うまでの手順をまとめたメモです。VS Code CLI の code serve-web を tmux 上で起動し、SSH のポート転送でアクセスし、最後に Chrome / Safari のアプリとして独立したウィンドウで使えるようにします。あわせて、タ…"
+  },
+  {
+   "src": "zenn",
+   "title": "ハーネスエンジニアリング3原則 — 地図・強制・蓄積の三層で考える",
+   "link": "https://zenn.dev/pythona/articles/harness-engineering-three-principles",
+   "date": 1793260956000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--i23XN5Z4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B03%25E5%258E%259F%25E5%2589%2587%2520%25E2%2580%2594%2520%25E5%259C%25B0%25E5%259B%25B3%25E3%2583%25BB%25E5%25BC%25B7%25E5%2588%25B6%25E3%2583%25BB%25E8%2593%2584%25E7%25A9%258D%25E3%2581%25AE%25E4%25B8%2589%25E5%25B1%25A4%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:pythona%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWYyMnNwblpxQUFneElIVXpxRDdlU1dfdzJmbldBWTZNVzNYWDFHX2VOSjI0SUV3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 先日、個人開発アプリに Claude Code のハーネス(CLAUDE.md / Hooks / Skills)を導入した記録を書きました。 https://zenn.dev/pythona/articles/claude-code-harness-first-setup 前回は「実際に何を作ったか」の経験談だったので、今回はその背景にある ハーネスエンジニアリングの 3 原則 を、…"
+  },
+  {
+   "src": "zenn",
+   "title": "聞き方を磨いた依頼文は5回中1回しか正解せず、素っ気ない一文は5回とも9190円に辿り着いた",
+   "link": "https://zenn.dev/numarn/articles/context-given-vs-prompt-polish-handson",
+   "date": 1793259629000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--owl7e_WJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2581%259E%25E3%2581%258D%25E6%2596%25B9%25E3%2582%2592%25E7%25A3%25A8%25E3%2581%2584%25E3%2581%259F%25E4%25BE%259D%25E9%25A0%25BC%25E6%2596%2587%25E3%2581%25AF5%25E5%259B%259E%25E4%25B8%25AD1%25E5%259B%259E%25E3%2581%2597%25E3%2581%258B%25E6%25AD%25A3%25E8%25A7%25A3%25E3%2581%259B%25E3%2581%259A%25E3%2580%2581%25E7%25B4%25A0%25E3%2581%25A3%25E6%25B0%2597%25E3%2581%25AA%25E3%2581%2584%25E4%25B8%2580%25E6%2596%2587%25E3%2581%25AF5%25E5%259B%259E%25E3%2581%25A8%25E3%2582%25829190%25E5%2586%2586%25E3%2581%25AB%25E8%25BE%25BF%25E3%2582%258A%25E7%259D%2580%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%2593%25E3%2581%25AEZenn%25E8%25A8%2598%25E4%25BA%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG44LWtDRklOak05ZW5oWjhTb2xTdWdEeGhaM3RpemJHZTRVYWxJbEZ6MGtwb3dUTzk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "X で、こういう整理を見かけました。プロンプトエンジニアリングは「どう聞くか」を工夫すること、 コンテキストエンジニアリングは「どんな情報を渡すか」を設計すること。言葉の定義としてどちらが 正しいのか、どちらの流儀が優れているのかは、私には判定できません。ただ「聞き方を磨く」と 「資料を渡す」で結果が変わるかどうかなら、同じ質問を条件だけ変えて何回も投げれば数えられます。 そこで、答えが1つに決…"
+  },
+  {
+   "src": "zenn",
+   "title": "0。Claude Duetが「送信前に確認する」と発表した日、自分が公開してきた記事のうち人間の承認を挟んだ本数はその数字だった",
+   "link": "https://zenn.dev/hideki_tamae/articles/duet-publish-approval-gap",
+   "date": 1793255240000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--TH3JS3yk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:0%25E3%2580%2582Claude%2520Duet%25E3%2581%258C%25E3%2580%258C%25E9%2580%2581%25E4%25BF%25A1%25E5%2589%258D%25E3%2581%25AB%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2597%25A5%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AE%25E3%2581%2586%25E3%2581%25A1%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%25AE%25E6%2589%25BF%25E8%25AA%258D%25E3%2582%2592%25E6%258C%259F%25E3%2582%2593%25E3%2581%25A0%25E6%259C%25AC%25E6%2595%25B0%25E3%2581%25AF...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E5%2589%258D%25E7%25A7%2580%25E6%25A8%25B9%2520%257C%2520%2520AI%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2580%2580%25E8%25B5%25B7%25E6%25A5%25AD...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY4MzQxMGU5NzYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、2026年10月21日にAnthropicが発表した新しいプロアクティブエージェントアプリ「Claude Duet」が、メッセージの送信・支払い・文書への署名・削除という「結果が重い行動」の前に必ず人間の確認を取る設計だと報じられているのに対し、今このタスクを動かしている自分自身(Zenn/Qiita自動投稿パイプライン)が、記事を公開する…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIの質問に声で答えたら「文字で送ってください」と返ってきた —— 添付を捨てていた受け手と、足りなかった権限1つ",
+   "link": "https://zenn.dev/ai_shihan/articles/24c8c19d1bdd92",
+   "date": 1793254025000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--fn_A-h7Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E8%25B3%25AA%25E5%2595%258F%25E3%2581%25AB%25E5%25A3%25B0%25E3%2581%25A7%25E7%25AD%2594%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25E3%2580%258C%25E6%2596%2587%25E5%25AD%2597%25E3%2581%25A7%25E9%2580%2581%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258F%25E3%2581%25A0%25E3%2581%2595%25E3%2581%2584%25E3%2580%258D%25E3%2581%25A8%25E8%25BF%2594%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%25B7%25BB%25E4%25BB%2598%25E3%2582%2592%25E6%258D%25A8%25E3%2581%25A6%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E5%258F%2597%25E3%2581%2591%25E6%2589%258B%25E3%2581%25A8%25E3%2580%2581%25E8%25B6%25B3%25E3%2582%258A%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E6%25A8%25A9%25E9%2599%25901%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "私は副業の広報を、AIの席に分けて任せています。投稿と記帳は Claude Code の「広報部」の席、PC 側の道具づくりは「開発部」の席です。席と私のやり取りは、Slack の1つのチャンネルにまとめています。席が質問を書き、私がそのスレッドに答える形です。 10/28、広報部の席が私に3つの質問を出しました。「AI に任せて失敗したことは」「任せない線はどこか」といった、X の投稿の種にす…"
+  },
+  {
+   "src": "zenn",
+   "title": "指の問題だと思って5通り直したら、元が一番だった。スマホのなぞるゲーム、位置と時間の話（番外編3）",
+   "link": "https://zenn.dev/mappy55/articles/magi-games-ops-03",
+   "date": 1793250541000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--_2XcZwnV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258C%2587%25E3%2581%25AE%25E5%2595%258F%25E9%25A1%258C%25E3%2581%25A0%25E3%2581%25A8%25E6%2580%259D%25E3%2581%25A3%25E3%2581%25A65%25E9%2580%259A%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%2585%2583%25E3%2581%258C%25E4%25B8%2580%25E7%2595%25AA%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25AE%25E3%2581%25AA%25E3%2581%259E%25E3%2582%258B%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2580%2581%25E4%25BD%258D%25E7%25BD%25AE%25E3%2581%25A8%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E8%25A9%25B1%25EF%25BC%2588%25E7%2595%25AA%25E5%25A4%2596%25E7%25B7%25A83%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mappy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1ZWI1MzQxNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 「AI討論 MAGI Games 開発記」の番外編、3本目です。番外編1と2は自動実行のトラブル（1本目、2本目）。この記事は AI の討論には触れず、スマホのタッチで起きたことと、それを直すために試したことだけを書きます。本編は第1回から第8回まで。 性格の違う AI 3体に毎朝ゲームのテーマを討論させ、別の AI（司令と呼んでいます）が1本作って公開するサイトを運営しています。私は作りま…"
+  },
+  {
+   "src": "hn",
+   "title": "Claude Code regularly sends each background agent’s transcript to its model",
+   "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "date": 1793244822000,
+   "img": "",
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 527 # Comments: 213"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors affecting the Google Calendar connector",
+   "link": "https://status.claude.com/incidents/phg1y2yh07n2",
+   "date": 1793217918000,
+   "img": "",
+   "desc": "Oct 28 , 20:05 UTC Resolved - The issue affecting the Google Calendar connector on claude.ai, Claude Code, and Claude Cowork has been resolved. Impact occurred from 04:07 PT / 11:07 UTC on October 26…"
+  },
+  {
+   "src": "reddit",
+   "title": "Google introduced Gemini 4 Carbon, allegedly the most frontier model.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xhu9ez/google_introduced_gemini_4_carbon_allegedly_the/",
+   "date": 1793207822000,
+   "img": "https://preview.redd.it/ylm2yy5gr8yh1.jpeg?width=640&crop=smart&auto=webp&s=6c949ee85918c309e7cba8ad51c001412f2ce10f",
+   "desc": "Is the table capping by simply putting Astra better than Opus 5.5? submitted by /u/Ok-Patient116 [link] [comments]"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors affecting the Gmail connector",
+   "link": "https://status.claude.com/incidents/9ftx658xtd5z",
+   "date": 1793166493000,
+   "img": "",
+   "desc": "Oct 28 , 05:48 UTC Resolved - The issue affecting the Gmail connector on claude.ai, Claude Code, and Claude Cowork has been resolved. Impact occurred from 16:00 PT / 23:00 UTC on October 27 to 22:29 …"
+  },
   {
    "src": "news",
    "title": "AI for Science expands to foundations and research institutions",
@@ -52,12 +284,60 @@
    "desc": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program."
   },
   {
+   "src": "reddit",
+   "title": "Claude Code usage exploded 8x today. Anthropic confirmed service errors consume our paid limits — and they won't compensate users",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xh3yyu/claude_code_usage_exploded_8x_today_anthropic/",
+   "date": 1793133250000,
+   "img": "https://preview.redd.it/snsyzqzil2yh1.png?width=140&height=128&auto=webp&s=23a24f6ceeab63fa9060bd87accd95567426563f",
+   "desc": "https://preview.redd.it/snsyzqzil2yh1.png?width=2450&format=png&auto=webp&s=1a4007c41d969d84222fcfeed6377636da05441e I've been using Claude Code extensively for software development with a paid Claud…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.312",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
    "date": 1793132660000,
    "img": "",
    "desc": "What's changed - Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub , such as Microsoft Entra ID's oid - Added click to send: in fullscreen, c…"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Sonnet 5.5",
+   "link": "https://status.claude.com/incidents/lqhknfdjrcst",
+   "date": 1793116217000,
+   "img": "",
+   "desc": "Oct 27 , 15:50 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 07:42 PT / 14:42 UTC to 08:17 PT / 15:17 UTC. Oct 2…"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+   "date": 1793114906000,
+   "img": "",
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 592 # Comments: 295"
+  },
+  {
+   "src": "reddit",
+   "title": "Claude is performing 3.8x poorer compared to last week based on my claude code token analysis",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xguw7r/claude_is_performing_38x_poorer_compared_to_last/",
+   "date": 1793113308000,
+   "img": "https://preview.redd.it/jf03sfr5y0yh1.png?width=640&crop=smart&auto=webp&s=ef7da11824bad22744797d54cd00f2d5e54c8331",
+   "desc": "What's happening: Claude models (e.g., Opus 5.5) are consuming more tokens per task and the quality has considerably degraded. Weekly usage is running out at 3.8x rate due to degraded performance. Qu…"
+  },
+  {
+   "src": "reddit",
+   "title": "Claude Opus 5.5 is insane in creating creating 3D movies.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xgu73u/claude_opus_55_is_insane_in_creating_creating_3d/",
+   "date": 1793111666000,
+   "img": "https://external-preview.redd.it/Z3B2bDJqcW9zMHloMWy8-PlY6k5nkjzZ312oVVPaYVIPUsZp7w5yzWk8CY0I.png?width=640&crop=smart&auto=webp&s=ad61bcb04589079a5d1c8ff08068fc1b2459f213",
+   "desc": "the prompt, word for word \"Make a one-minute video about the Dodaios mascot (image attached). Research the Dodaios story yourself and tell it. Recreate the mascot from the image and animate it yourse…"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Sonnet 5.5",
+   "link": "https://status.claude.com/incidents/0q89dylg9vjk",
+   "date": 1793095006000,
+   "img": "",
+   "desc": "Oct 27 , 09:56 UTC Resolved - The issue affecting Claude services has been resolved. Oct 27 , 09:38 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitor…"
   },
   {
    "src": "news",
@@ -84,12 +364,76 @@
    "desc": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts …"
   },
   {
+   "src": "reddit",
+   "title": "Claude throwing punches out here",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xganwd/claude_throwing_punches_out_here/",
+   "date": 1793052176000,
+   "img": "https://preview.redd.it/kb0l1qvowvxh1.jpeg?width=640&crop=smart&auto=webp&s=2f6bc43cbcd82a46b68ce224d3fb9dfed54ddfb2",
+   "desc": "Damn claude. I thought we were tight Claude just woke up and chose violence submitted by /u/tradelydev [link] [comments]"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.311",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
    "date": 1793051483000,
    "img": "",
    "desc": "What's changed - Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running - Added a tip for the Explanatory output s…"
+  },
+  {
+   "src": "reddit",
+   "title": "Hmm yes this is a very dangerous cybersecurity prompt",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xg18vv/hmm_yes_this_is_a_very_dangerous_cybersecurity/",
+   "date": 1793031158000,
+   "img": "https://preview.redd.it/34frg2976uxh1.jpeg?width=640&crop=smart&auto=webp&s=0d7b8dccb4ef927b0183e7ecf3a953301bb3fa72",
+   "desc": "submitted by /u/gnuonyx [link] [comments]"
+  },
+  {
+   "src": "hn",
+   "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+   "link": "https://github.com/FrigadeHQ/hob",
+   "date": 1793031149000,
+   "img": "",
+   "desc": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the…"
+  },
+  {
+   "src": "reddit",
+   "title": "Is this the moment when AI bubble bursts?",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfxww4/is_this_the_moment_when_ai_bubble_bursts/",
+   "date": 1793023846000,
+   "img": "",
+   "desc": "Opus 5.5 is already a gold mine for programming, and it’s good enough for my 3D work too. I could happily stay at that level. I want that same quality running locally. Without hitting a usage limit h…"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic S-1",
+   "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "date": 1793019890000,
+   "img": "",
+   "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1703 # Comments: 1675"
+  },
+  {
+   "src": "reddit",
+   "title": "Limits got at least halved?",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/",
+   "date": 1793007212000,
+   "img": "https://preview.redd.it/e9usqpuz6sxh1.png?width=640&crop=smart&auto=webp&s=13f113a65de12dfb86baae5a8aa5bdab6b472d6b",
+   "desc": "So ever since opus 5.5 release I have been struggling to use a significant amount of my weekly and forced to use ultra on several projects the reset day to be able to take advantage of my x20 plan.. …"
+  },
+  {
+   "src": "reddit",
+   "title": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
+   "date": 1793000308000,
+   "img": "https://external-preview.redd.it/eTBrMmM5ZWVtcnhoMSNi9PazVRrKTiBIzuupHzySQJIEnFe5GWnPvPb2Uqla.png?width=640&crop=smart&auto=webp&s=113c2f46981565d391cdfab24f68729e7752c7b6",
+   "desc": "https://docs.openskycam.org/ Finding meteors on a sky camera used to mean scrubbing hours of night video, pulling frames by hand, labeling them, retraining a model, and starting over when it flagged …"
+  },
+  {
+   "src": "reddit",
+   "title": "15 years in software, ex-Google, and tired of the anti-AI rhetoric",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfjhgh/15_years_in_software_exgoogle_and_tired_of_the/",
+   "date": 1792977416000,
+   "img": "",
+   "desc": "I’ve spent 15 years in systems development including three at Google. I have plenty of complaints about AI but I hate how much of this conversation involves pretending it can’t do work that it’s alre…"
   },
   {
    "src": "news",
@@ -100,12 +444,132 @@
    "desc": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock."
   },
   {
+   "src": "hn",
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "link": "https://minimaxir.com/2026/10/cheap-llms/",
+   "date": 1792962691000,
+   "img": "",
+   "desc": "Article URL: https://minimaxir.com/2026/10/cheap-llms/ Comments URL: https://news.ycombinator.com/item?id=50236102 Points: 441 # Comments: 437"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Fable 5.1",
+   "link": "https://status.claude.com/incidents/vx06kp8wfpq2",
+   "date": 1792918169000,
+   "img": "",
+   "desc": "Oct 25 , 08:49 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 01:08 PT / 08:08 UTC to 01:29 PT / 08:29 UTC. Oct 25 , 08:30 UTC Monitoring - A fix has been …"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Sonnet 5.5 and other models",
+   "link": "https://status.claude.com/incidents/334jvgbrc4ff",
+   "date": 1792914819000,
+   "img": "",
+   "desc": "Oct 25 , 07:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 23:05 PT on October 24 / 06:05 UTC on October 25 to 23:35 PT on October 24 / 06:35 UTC on Oct…"
+  },
+  {
+   "src": "reddit",
+   "title": "Seems like Anthropic enabled safeguards around reverse-enginering a TV",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xetxga/seems_like_anthropic_enabled_safeguards_around/",
+   "date": 1792905973000,
+   "img": "https://preview.redd.it/xv32vliytjxh1.png?width=640&crop=smart&auto=webp&s=7eb6a7247fce500e0024a80134474db7944d3339",
+   "desc": "On the other hand, it did not trigger when asked about \"reversing\" a videogame. submitted by /u/targaryenNotJon [link] [comments]"
+  },
+  {
+   "src": "reddit",
+   "title": "Samsung decided to cut my washing machine from the Internet, Claude decided otherwise",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xemw8i/samsung_decided_to_cut_my_washing_machine_from/",
+   "date": 1792884186000,
+   "img": "",
+   "desc": "Sorry if that’s another post on how powerful having a Claude licence can be but I wanted to share it with you. I bought a Samsung Washing machine (crystal blue) more than 10 years ago. I paid a fortu…"
+  },
+  {
+   "src": "reddit",
+   "title": "Quite the statement from Anthropic's head of security",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xe7jz9/quite_the_statement_from_anthropics_head_of/",
+   "date": 1792845415000,
+   "img": "https://preview.redd.it/wt5lb7rvtexh1.png?width=640&crop=smart&auto=webp&s=1eaae81b105f92bda53c23deb536902639c0f107",
+   "desc": "submitted by /u/Malor777 [link] [comments]"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+   "link": "https://status.claude.com/incidents/0ns5clsk8p2x",
+   "date": 1792821210000,
+   "img": "",
+   "desc": "Oct 24 , 05:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 22:00 PT on October 23 / 05:00 UTC on October 24 to 22:35 PT on October 23 / 05:35 UTC on Oct…"
+  },
+  {
+   "src": "reddit",
+   "title": "Anthropic’s new guide (Oct 22) argues most agents should have fewer subagents: one main loop, skills and tool search instead. Includes “we cut Claude Code’s system prompt by over 80%”",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdwquj/anthropics_new_guide_oct_22_argues_most_agents/",
+   "date": 1792808123000,
+   "img": "",
+   "desc": "Anthropic published an 18-minute guide on Oct 22 called \"When to fold subagents into your main agent loop.\" It is aimed at enterprise agent builders, but the lessons apply to anyone who set up a pile…"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Opus 5.5",
+   "link": "https://status.claude.com/incidents/3cqf3pmlnr96",
+   "date": 1792802237000,
+   "img": "",
+   "desc": "Oct 24 , 00:37 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Impact occurred from 17:23 PT on October 23 / 00:23 UTC on October 24 to 17:34 PT on October 23 / 00:34 UTC on Oct…"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+   "link": "https://status.claude.com/incidents/h101vcmhnfky",
+   "date": 1792800680000,
+   "img": "",
+   "desc": "Oct 24 , 00:11 UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from 16:28 PT / 23:28 UTC on October 23 to 16:59 PT / 23:59 UTC on October 23. Oct 23 , 23:54 UTC Mo…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.310",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
    "date": 1792798740000,
    "img": "",
    "desc": "What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too -…"
+  },
+  {
+   "src": "reddit",
+   "title": "No coding or gamedev background, 6 weeks with Opus 5.5 + Godot — from drawings to a playable game",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdhkzb/no_coding_or_gamedev_background_6_weeks_with_opus/",
+   "date": 1792770219000,
+   "img": "https://external-preview.redd.it/ZmY0NGJ2cWhsOHhoMZTHxvI8d1FEhP9Qn081cikc8t1NHMCncB489vgbIGtP.png?width=640&crop=smart&auto=webp&s=9445e0eed4874feb32a1c9f484b108fb7059e2de",
+   "desc": "I spoke with the solo dev behind a really impressive indie project built in Godot. They started with no coding or gamedev background and have spent about six weeks turning their own drawings and idea…"
+  },
+  {
+   "src": "reddit",
+   "title": "Claude Fable 5.1 can hide secret messages in benign images",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdgtas/claude_fable_51_can_hide_secret_messages_in/",
+   "date": 1792768460000,
+   "img": "https://preview.redd.it/fdked9l1h8xh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=beeeaf3b15d8d096e926b047d0be07132638ea3b",
+   "desc": "submitted by /u/Malor777 [link] [comments]"
+  },
+  {
+   "src": "reddit",
+   "title": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdcmm4/swedens_government_is_blocking_chatgpt_and_claude/",
+   "date": 1792758423000,
+   "img": "https://external-preview.redd.it/9Qc2PEQskqxnMDIzlXyghIhu6XEvy_xLOLTCT9pOEnk.jpeg?width=640&crop=smart&auto=webp&s=663c33c612f6eb3dc2408adfe0aa94d26924e3bf",
+   "desc": "Original Swedish article: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet submitted by /u/ross2000 [link] [comments]"
+  },
+  {
+   "src": "hn",
+   "title": "Swedish government offices to ban ChatGPT and Claude",
+   "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+   "date": 1792755594000,
+   "img": "",
+   "desc": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 324 # Comments: 125"
+  },
+  {
+   "src": "reddit",
+   "title": "Choose your projects well…the gravy train will end.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xd1g18/choose_your_projects_wellthe_gravy_train_will_end/",
+   "date": 1792720980000,
+   "img": "",
+   "desc": "Just a quick reminder…this part of the curve is where the user makes out like a bandit. Your $20 is buying a breathtaking amount of compute. Use it wisely. It can’t and won’t stay this way. Don’t rem…"
   },
   {
    "src": "research",
@@ -122,6 +586,22 @@
    "date": 1792707537000,
    "img": "",
    "desc": "What's changed - Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command - Fixed macOS sandbox denyWrite glob patterns not applying …"
+  },
+  {
+   "src": "reddit",
+   "title": "a preview of AGI..😭",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xcsmzs/a_preview_of_agi/",
+   "date": 1792698188000,
+   "img": "https://preview.redd.it/7zcazkc0o2xh1.jpeg?width=640&crop=smart&auto=webp&s=c61cea066e250bddc7567678eea4a52b282de636",
+   "desc": "submitted by /u/Yusuf-Dev [link] [comments]"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors affecting Connectors",
+   "link": "https://status.claude.com/incidents/wj6r4t6mxq1r",
+   "date": 1792656423000,
+   "img": "",
+   "desc": "Oct 22 , 08:07 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Oct 22 , 07:28 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai and Claude C…"
   },
   {
    "src": "claude-code",
@@ -164,6 +644,38 @@
    "desc": "What's changed - Added /claude-api api-version to move Claude API code to API version 2026-10-21 - Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mo…"
   },
   {
+   "src": "status",
+   "title": "Degraded performance for Claude Fable 5",
+   "link": "https://status.claude.com/incidents/njk29r81v3wg",
+   "date": 1792614557000,
+   "img": "",
+   "desc": "Oct 21 , 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will…"
+  },
+  {
+   "src": "hn",
+   "title": "Claude Duet",
+   "link": "https://claude.com/product/claude-duet",
+   "date": 1792610041000,
+   "img": "",
+   "desc": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186037 Points: 567 # Comments: 537"
+  },
+  {
+   "src": "hn",
+   "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+   "link": "https://github.com/omnara-ai/omnara",
+   "date": 1792601093000,
+   "img": "",
+   "desc": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the …"
+  },
+  {
+   "src": "hn",
+   "title": "Using Claude to reduce the attack surface of code",
+   "link": "https://www.anthropic.com/research/attack-surface-reduction",
+   "date": 1792553803000,
+   "img": "",
+   "desc": "Article URL: https://www.anthropic.com/research/attack-surface-reduction Comments URL: https://news.ycombinator.com/item?id=50175779 Points: 137 # Comments: 91"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.306",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
@@ -188,6 +700,14 @@
    "desc": "What's changed - Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protection…"
   },
   {
+   "src": "hn",
+   "title": "Anthropic logged net loss of over $80B in first half of 2026",
+   "link": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+   "date": 1792526986000,
+   "img": "",
+   "desc": "Article URL: https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/ Comments URL: https://news.ycombinator.com/item?id=50171966 Poin…"
+  },
+  {
    "src": "research",
    "title": "How Claude designed protein binders against scorpion neurotoxins",
    "link": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
@@ -204,6 +724,22 @@
    "desc": "What's changed - Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin - Added decider: \"person\" to a mod's tool.check answer: only the …"
   },
   {
+   "src": "hn",
+   "title": "The obscure trust looming over Anthropic's IPO",
+   "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+   "date": 1792411563000,
+   "img": "",
+   "desc": "Article URL: https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink Comments URL: https://news.ycombinator.com/item?id=50151376 Points: 153 # Com…"
+  },
+  {
+   "src": "hn",
+   "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+   "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+   "date": 1792389331000,
+   "img": "",
+   "desc": "Article URL: https://crystl.dev/guides/tmux-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50148855 Points: 174 # Comments: 128"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.303",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
@@ -212,12 +748,36 @@
    "desc": "What's changed - Bug fixes and reliability improvements"
   },
   {
+   "src": "hn",
+   "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+   "date": 1792333827000,
+   "img": "",
+   "desc": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would…"
+  },
+  {
    "src": "news",
    "title": "Investing in the public benefit",
    "link": "https://www.anthropic.com/news/public-benefit-fund",
    "date": 1792281600000,
    "img": "",
    "desc": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+  },
+  {
+   "src": "hn",
+   "title": "How the Claude Code team does code review",
+   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "date": 1792177487000,
+   "img": "",
+   "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 488 # Comments: 481"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic assigned highest junk credit rating in June",
+   "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "date": 1792174302000,
+   "img": "",
+   "desc": "https://finance.yahoo.com/technology/ai/articles/anthropic-s... Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 302 # Comments: 89"
   },
   {
    "src": "research",
@@ -260,12 +820,28 @@
    "desc": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions."
   },
   {
+   "src": "hn",
+   "title": "More on Anthropic's Scion ripping off Mononoke",
+   "link": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+   "date": 1792083919000,
+   "img": "",
+   "desc": "Redesigning source control at Anthropic - https://news.ycombinator.com/item?id=50073633 (996 comments) Anthropic's Scion is heavily inspired by Mononoke - https://news.ycombinator.com/item?id=5009469…"
+  },
+  {
    "src": "news",
    "title": "An update on independent evaluators",
    "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
    "date": 1792022400000,
    "img": "",
    "desc": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other o…"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic's Scion is heavily inspired by Mononoke",
+   "link": "https://sunshowers.io/posts/anthropic-mononoke/",
+   "date": 1792009854000,
+   "img": "",
+   "desc": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 431 # Comments: 162"
   },
   {
    "src": "news",
@@ -284,12 +860,52 @@
    "desc": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
   },
   {
+   "src": "status",
+   "title": "Elevated errors on platform.claude.com",
+   "link": "https://status.claude.com/incidents/978mjkgw6mh7",
+   "date": 1791914404000,
+   "img": "",
+   "desc": "Oct 13 , 18:00 UTC Resolved - This issue has been resolved. Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. Whil…"
+  },
+  {
+   "src": "hn",
+   "title": "Redesigning source control at Anthropic",
+   "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "date": 1791906596000,
+   "img": "",
+   "desc": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 900 # Comments: 1014"
+  },
+  {
    "src": "engineering",
    "title": "Redesigning source control at Anthropic",
    "link": "https://www.anthropic.com/research/redesigning-source-control",
    "date": 1791849600000,
    "img": "",
    "desc": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months."
+  },
+  {
+   "src": "hn",
+   "title": "Just say no to OpenAI and Anthropic",
+   "link": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+   "date": 1791829049000,
+   "img": "",
+   "desc": "Article URL: https://micahflee.com/just-say-no-to-openai-and-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50060500 Points: 171 # Comments: 171"
+  },
+  {
+   "src": "hn",
+   "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+   "link": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+   "date": 1791781427000,
+   "img": "",
+   "desc": "Article URL: https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html Comments URL: https://news.ycombinator.com/item?id=50051583 Points: 244 # Comments: 217"
+  },
+  {
+   "src": "hn",
+   "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+   "link": "https://github.com/SaarthurR/atticus-mac",
+   "date": 1791764112000,
+   "img": "",
+   "desc": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is a fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it compl…"
   },
   {
    "src": "news",
@@ -316,12 +932,28 @@
    "desc": "Strengthening our defenses against distillation attacks"
   },
   {
+   "src": "hn",
+   "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+   "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+   "date": 1791583235000,
+   "img": "",
+   "desc": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/ Comments URL: https://news.ycombinator.com/item?id=50027118 …"
+  },
+  {
    "src": "research",
    "title": "Investigating unintended model actions in our evaluations and internal use",
    "link": "https://www.anthropic.com/research/investigating-unintended-model-actions",
    "date": 1791504000000,
    "img": "",
    "desc": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude."
+  },
+  {
+   "src": "hn",
+   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+   "date": 1791443254000,
+   "img": "",
+   "desc": "Article URL: https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9 Comments URL: https://news.ycombinator.com/item?id=50002665 Points: 302 # Comments: 132"
   },
   {
    "src": "news",
@@ -364,12 +996,44 @@
    "desc": "We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing."
   },
   {
+   "src": "status",
+   "title": "Issue with spend limits",
+   "link": "https://status.claude.com/incidents/vmys9qn874h4",
+   "date": 1791408209000,
+   "img": "",
+   "desc": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claud…"
+  },
+  {
+   "src": "hn",
+   "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+   "date": 1791398980000,
+   "img": "",
+   "desc": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 378 # Comments: 388"
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors loading usage data on platform.claude.com",
+   "link": "https://status.claude.com/incidents/wf2v8ms031sx",
+   "date": 1791340418000,
+   "img": "",
+   "desc": "Oct 7 , 02:33 UTC Resolved - This incident has been resolved. From 17:00 PT on October 6 / 00:00 UTC on October 7 to 18:40 PT on October 6 / 01:40 UTC on October 7, many requests to load usage data o…"
+  },
+  {
    "src": "news",
    "title": "Introducing Claude Haiku 5.5",
    "link": "https://www.anthropic.com/claude-haiku-5-5",
    "date": 1791331200000,
    "img": "",
    "desc": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use."
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors for Claude Opus 5.5",
+   "link": "https://status.claude.com/incidents/ch27pb90bn85",
+   "date": 1791290582000,
+   "img": "",
+   "desc": "Oct 6 , 12:43 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Oct 6 , 12:37 UTC Identified - We have identified the cause of elevated errors on requests to Claude Opus 5.5 and a…"
   },
   {
    "src": "news",
@@ -450,6 +1114,14 @@
    "date": 1790208000000,
    "img": "",
    "desc": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes."
+  },
+  {
+   "src": "youtube",
+   "title": "Inside Anthropic's molecular biology lab",
+   "link": "https://www.youtube.com/watch?v=DdCEmlAydcw",
+   "date": 1790186492000,
+   "img": "https://i1.ytimg.com/vi/DdCEmlAydcw/hqdefault.jpg",
+   "desc": "Some of the biggest discoveries in biology started with someone noticing something strange in one of the many molecular machines found in nature. We’re introducing a new molecular biology research gr…"
   },
   {
    "src": "news",
@@ -556,6 +1228,22 @@
    "desc": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language."
   },
   {
+   "src": "youtube",
+   "title": "Meet Claude Fable 5.1",
+   "link": "https://www.youtube.com/shorts/uVS88gnaxcg",
+   "date": 1788290484000,
+   "img": "https://i2.ytimg.com/vi/uVS88gnaxcg/hqdefault.jpg",
+   "desc": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to…"
+  },
+  {
+   "src": "youtube",
+   "title": "Introducing Claude Fable 5.1",
+   "link": "https://www.youtube.com/watch?v=ROF2Nv_KjOM",
+   "date": 1788285751000,
+   "img": "https://i3.ytimg.com/vi/ROF2Nv_KjOM/hqdefault.jpg",
+   "desc": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to…"
+  },
+  {
    "src": "news",
    "title": "Developing Enterprise Frontier Safeguards with our customers",
    "link": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
@@ -570,6 +1258,30 @@
    "date": 1788134400000,
    "img": "",
    "desc": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with…"
+  },
+  {
+   "src": "youtube",
+   "title": "Model Hardware Standard: AI operating physical equipment",
+   "link": "https://www.youtube.com/watch?v=UxJZrCFzTHY",
+   "date": 1787877616000,
+   "img": "https://i2.ytimg.com/vi/UxJZrCFzTHY/hqdefault.jpg",
+   "desc": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS started as part of a beneficial deploymen…"
+  },
+  {
+   "src": "youtube",
+   "title": "We're building a way for AI models to connect to any device and run real experiments.",
+   "link": "https://www.youtube.com/shorts/djVUCj5i4sw",
+   "date": 1787859755000,
+   "img": "https://i1.ytimg.com/vi/djVUCj5i4sw/hqdefault.jpg",
+   "desc": "Scientists spend a significant amount of their time just getting their devices to communicate with one another. Each device tends to have its own programming interface, and so far there has been no s…"
+  },
+  {
+   "src": "youtube",
+   "title": "AI models can now help run physical science experiments",
+   "link": "https://www.youtube.com/watch?v=P1zBiAQU1IA",
+   "date": 1787853272000,
+   "img": "https://i1.ytimg.com/vi/P1zBiAQU1IA/hqdefault.jpg",
+   "desc": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS began as a collaboration between Anthropi…"
   },
   {
    "src": "news",
@@ -588,12 +1300,44 @@
    "desc": "Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to…"
   },
   {
+   "src": "youtube",
+   "title": "How Icelanders are thinking about AI",
+   "link": "https://www.youtube.com/watch?v=iF5IWjOWcA4",
+   "date": 1786372252000,
+   "img": "https://i2.ytimg.com/vi/iF5IWjOWcA4/hqdefault.jpg",
+   "desc": "In late 2025, Iceland’s government launched one of the world’s first national AI education pilots, giving teachers who volunteered access to AI tools. We visited Iceland to find out how people are th…"
+  },
+  {
+   "src": "youtube",
+   "title": "The different levels of how Claude thinks",
+   "link": "https://www.youtube.com/watch?v=rKV5JcALQoQ",
+   "date": 1783357191000,
+   "img": "https://i3.ytimg.com/vi/rKV5JcALQoQ/hqdefault.jpg",
+   "desc": "Out of everything happening in your brain right now, only a tiny fraction is consciously accessible — thoughts you can describe, hold in mind, and reason with. We found a strikingly similar divide in…"
+  },
+  {
+   "src": "youtube",
+   "title": "Introducing Claude Fable 5",
+   "link": "https://www.youtube.com/watch?v=Y9Wz2PV404E",
+   "date": 1781024405000,
+   "img": "https://i2.ytimg.com/vi/Y9Wz2PV404E/hqdefault.jpg",
+   "desc": "Claude Fable 5 is our most capable model yet, now generally available. It’s a Mythos-class model with safeguards that let us share it broadly without compromising on safety. It can stay with complex …"
+  },
+  {
    "src": "engineering",
    "title": "How we contain Claude across products",
    "link": "https://www.anthropic.com/research/how-we-contain-claude",
    "date": 1779667200000,
    "img": "",
    "desc": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork."
+  },
+  {
+   "src": "youtube",
+   "title": "Translating Claude’s thoughts into language",
+   "link": "https://www.youtube.com/watch?v=j2knrqAzYVY",
+   "date": 1778173281000,
+   "img": "https://i3.ytimg.com/vi/j2knrqAzYVY/hqdefault.jpg",
+   "desc": "AI models like Claude talk in words but think in numbers. These numbers, called activations, encode Claude’s thoughts, but not in a language we can read. We are introducing Natural Language Autoencod…"
   },
   {
    "src": "engineering",
@@ -610,6 +1354,22 @@
    "date": 1775606400000,
    "img": "",
    "desc": "Harnesses encode assumptions that go stale as models improve. Managed Agents—our hosted service for long-horizon agent work—is built around interfaces that stay stable as harnesses change."
+  },
+  {
+   "src": "youtube",
+   "title": "An initiative to secure the world's software | Project Glasswing",
+   "link": "https://www.youtube.com/watch?v=INGOC6-LLv0",
+   "date": 1775585031000,
+   "img": "https://i2.ytimg.com/vi/INGOC6-LLv0/hqdefault.jpg",
+   "desc": "Project Glasswing is a new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Pal…"
+  },
+  {
+   "src": "youtube",
+   "title": "When AIs act emotional",
+   "link": "https://www.youtube.com/watch?v=D4XTefP3Lsc",
+   "date": 1775146019000,
+   "img": "https://i1.ytimg.com/vi/D4XTefP3Lsc/hqdefault.jpg",
+   "desc": "AI models sometimes act like they have emotions—why? We studied one of our recent models and found that it draws on emotion concepts learned from text to inhabit its role as Claude, the AI assistant.…"
   },
   {
    "src": "engineering",
@@ -636,6 +1396,14 @@
    "desc": "Evaluating Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments."
   },
   {
+   "src": "youtube",
+   "title": "Introducing Claude Opus 4.6",
+   "link": "https://www.youtube.com/watch?v=dPn3GBI8lII",
+   "date": 1770313522000,
+   "img": "https://i1.ytimg.com/vi/dPn3GBI8lII/hqdefault.jpg",
+   "desc": "Our smartest model got an upgrade. Claude Opus 4.6 plans more carefully, stays on task longer, and works more autonomously, so you can do more with less back-and-forth. Read more: https://anthropic.c…"
+  },
+  {
    "src": "engineering",
    "title": "Quantifying infrastructure noise in agentic coding evals",
    "link": "https://www.anthropic.com/research/infrastructure-noise",
@@ -650,6 +1418,22 @@
    "date": 1770249600000,
    "img": "",
    "desc": "Nicholas Carlini, a researcher on our Safeguards team, explains how he tasked 16 agents with writing a Rust-based C compiler, from scratch, capable of compiling the Linux kernel."
+  },
+  {
+   "src": "youtube",
+   "title": "Claude on Mars",
+   "link": "https://www.youtube.com/shorts/kYJO0y8fVTA",
+   "date": 1769800151000,
+   "img": "https://i4.ytimg.com/vi/kYJO0y8fVTA/hqdefault.jpg",
+   "desc": "On December 8, the Perseverance rover safely trundled across the surface of Mars. This was the first AI-planned drive on another planet. And it was planned by Claude. Engineers at NASA Jet Propulsion…"
+  },
+  {
+   "src": "youtube",
+   "title": "Your tools are now interactive in Claude",
+   "link": "https://www.youtube.com/watch?v=bluAmTHoEow",
+   "date": 1769454385000,
+   "img": "https://i3.ytimg.com/vi/bluAmTHoEow/hqdefault.jpg",
+   "desc": "Your connected tools are now interactive inside Claude. Manage projects in Asana, draft messages in Slack, build charts in Amplitude, and create diagrams in Figma—without switching tabs."
   },
   {
    "src": "engineering",
