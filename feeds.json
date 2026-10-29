@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793307331095,
+ "updatedAt": 1793310779007,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code で \"API Error: Stream idle timeout - partial response received\" が出たときの直し方（CLAUDE_STREAM_IDLE_TIMEOUT_MS と長い出力の分割）",
+   "link": "https://qiita.com/homhom44/items/34211c5b1960ace4aa0c",
+   "date": 1793309475000,
+   "img": "",
+   "desc": "Claude Code が長く考えたり大きなファイルを書いたりしている最中に API Error: Stream idle timeout - partial response received で止まるときの手順です。まず settings.json の env に CL..."
+  },
+  {
+   "src": "qiita",
    "title": "1秒ずつ削ったら、50秒が5秒になった ― オーパス先生の改修の話",
    "link": "https://qiita.com/shu15511551/items/307e3d3f9542da890655",
    "date": 1793299257000,
@@ -68,12 +76,20 @@
    "desc": "2026-10-22 の更新は、サブエージェントの名前解決がコンパクション境界で変わるというルールの明文化と、v2.1.304 からスキルフックに登録数の上限が設けられたという2点を中心に、ループ停止操作の使い分け、パーミッションモードにおける critical-path ..."
   },
   {
-   "src": "qiita",
-   "title": "OpenTelemetry エクスポート（ベータ）で Messages API リクエストと Claude Managed Agents セッションをトレースする",
-   "link": "https://qiita.com/akihidem/items/5f6bb2ee078d3002e824",
-   "date": 1793296502000,
-   "img": "",
-   "desc": "Claude Platform は、OpenTelemetry 形式でトレースをエクスポートする機能をベータとして提供しています。これにより、Messages API への各リクエストと Claude Managed Agents のセッションを、自分の観測基盤（obser..."
+   "src": "zenn",
+   "title": "Claude Code に最初の依頼を出して、差分を読んでから承認するまで",
+   "link": "https://zenn.dev/deepai/articles/claude-code-first-request-diff-approve",
+   "date": 1793288705000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--i31XbbfE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E4%25BE%259D%25E9%25A0%25BC%25E3%2582%2592%25E5%2587%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E5%25B7%25AE%25E5%2588%2586%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A7%25E3%2581%258B%25E3%2582%2589%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:deepai%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk1VNndCSGFIRWRIQTl1aV9PRU5ZcnpTUUJxd1dlcDh4am9VOHF3cHpTU00wWTVnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事で扱うこと Claude Code を入れたあと、最初の1回で何を頼み、どの画面で何を確認するか。この記事では**「確認が入るモードにして、読み取りの依頼から始め、書き込みの差分を読んで承認する」**流れだけを説明します。画面は、練習用のフォルダ（祝日の CSV と、それを月別に数える短い Python スクリプトの2つ。Git で管理）で、2026年10月12日に実際に操作して撮影した…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code（クロードコード）を新しい環境に入れて最初の作業まで――初心者がつまずく3か所を実画面で確認した（v2.1.304）",
+   "link": "https://zenn.dev/deepai/articles/claude-code-cm-article",
+   "date": 1793288704000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--WcouW2Pa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25EF%25BC%2588%25E3%2582%25AF%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25EF%25BC%2589%25E3%2582%2592%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%25BE%25E3%2581%25A7%25E2%2580%2595%25E2%2580%2595%25E5%2588%259D%25E5%25BF%2583%25E8%2580%2585%25E3%2581%258C%25E3%2581%25A4%25E3%2581%25BE%25E3%2581%259A%25E3%2581%258F3%25E3%2581%258B%25E6%2589%2580%25E3%2582%2592%25E5%25AE%259F%25E7%2594%25BB%25E9%259D%25A2%25E3%2581%25A7%25E7%25A2%25BA%25E8%25AA%258D...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:deepai%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk1VNndCSGFIRWRIQTl1aV9PRU5ZcnpTUUJxd1dlcDh4am9VOHF3cHpTU00wWTVnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事について AI企業・クリスタルメソッド株式会社で、Claude Code を日々の業務で使っているチームの記録です。 2026年10月20日に、Claude Code v2.1.304 をまっさらなフォルダにインストールし、初めて起動して、1つ作業を頼むまでを実際に操作して録画しました。そのとき、初めて使う人が手を止めそうな場所が3か所ありました。画面はすべて実際の出力そのままです（Li…"
   },
   {
    "src": "zenn",
@@ -172,6 +188,14 @@
    "desc": "社内の書類を全文検索できるようにするため、共有フォルダを毎晩走査して索引に入れる処理を動かしています。 毎朝ログを見ると、こう出ていました。 新規取込 0 / 既取込スキップ 8,056 / 失敗 0 （6分弱で完了） 追加が無い晩はこれが正しい出力です。健康に見えます。 ところが、ある部署の書類について検索すると「該当する資料はありません」と返る。1件ではなく、その部署の書類だけがまとめて出て…"
   },
   {
+   "src": "reddit",
+   "title": "We used Claude to get a full PS2 emulator running in a browser tab: TabStationToo",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xigpgr/we_used_claude_to_get_a_full_ps2_emulator_running/",
+   "date": 1793271171000,
+   "img": "https://external-preview.redd.it/MTU1OGwzdWh6ZHloMVQcmCS5mMpHTnm2bhAD8W90KwX25in2Oims4u9df0Xa.png?width=640&crop=smart&auto=webp&s=15dad6678e5cade5ce8fb41318b99243ac9b82c7",
+   "desc": "My buddy u/aegyptiacus11 and I have been working on fun side project, TabStationToo, a PS2 emulator that runs right in your browser. It's built on PCSX2 (GPL-3.0). We took its core, made it run insid…"
+  },
+  {
    "src": "zenn",
    "title": "Claudeを社員にした1人会社【Day 4】承認はあるのに、AI社員には公開する権限がなかった",
    "link": "https://zenn.dev/libelab/articles/claude-company-day4",
@@ -228,28 +252,12 @@
    "desc": "はじめに 先日、個人開発アプリに Claude Code のハーネス(CLAUDE.md / Hooks / Skills)を導入した記録を書きました。 https://zenn.dev/pythona/articles/claude-code-harness-first-setup 前回は「実際に何を作ったか」の経験談だったので、今回はその背景にある ハーネスエンジニアリングの 3 原則 を、…"
   },
   {
-   "src": "zenn",
-   "title": "聞き方を磨いた依頼文は5回中1回しか正解せず、素っ気ない一文は5回とも9190円に辿り着いた",
-   "link": "https://zenn.dev/numarn/articles/context-given-vs-prompt-polish-handson",
-   "date": 1793259629000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--owl7e_WJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2581%259E%25E3%2581%258D%25E6%2596%25B9%25E3%2582%2592%25E7%25A3%25A8%25E3%2581%2584%25E3%2581%259F%25E4%25BE%259D%25E9%25A0%25BC%25E6%2596%2587%25E3%2581%25AF5%25E5%259B%259E%25E4%25B8%25AD1%25E5%259B%259E%25E3%2581%2597%25E3%2581%258B%25E6%25AD%25A3%25E8%25A7%25A3%25E3%2581%259B%25E3%2581%259A%25E3%2580%2581%25E7%25B4%25A0%25E3%2581%25A3%25E6%25B0%2597%25E3%2581%25AA%25E3%2581%2584%25E4%25B8%2580%25E6%2596%2587%25E3%2581%25AF5%25E5%259B%259E%25E3%2581%25A8%25E3%2582%25829190%25E5%2586%2586%25E3%2581%25AB%25E8%25BE%25BF%25E3%2582%258A%25E7%259D%2580%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%2593%25E3%2581%25AEZenn%25E8%25A8%2598%25E4%25BA%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG44LWtDRklOak05ZW5oWjhTb2xTdWdEeGhaM3RpemJHZTRVYWxJbEZ6MGtwb3dUTzk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "X で、こういう整理を見かけました。プロンプトエンジニアリングは「どう聞くか」を工夫すること、 コンテキストエンジニアリングは「どんな情報を渡すか」を設計すること。言葉の定義としてどちらが 正しいのか、どちらの流儀が優れているのかは、私には判定できません。ただ「聞き方を磨く」と 「資料を渡す」で結果が変わるかどうかなら、同じ質問を条件だけ変えて何回も投げれば数えられます。 そこで、答えが1つに決…"
-  },
-  {
-   "src": "zenn",
-   "title": "0。Claude Duetが「送信前に確認する」と発表した日、自分が公開してきた記事のうち人間の承認を挟んだ本数はその数字だった",
-   "link": "https://zenn.dev/hideki_tamae/articles/duet-publish-approval-gap",
-   "date": 1793255240000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--TH3JS3yk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:0%25E3%2580%2582Claude%2520Duet%25E3%2581%258C%25E3%2580%258C%25E9%2580%2581%25E4%25BF%25A1%25E5%2589%258D%25E3%2581%25AB%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2597%25A5%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AE%25E3%2581%2586%25E3%2581%25A1%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%25AE%25E6%2589%25BF%25E8%25AA%258D%25E3%2582%2592%25E6%258C%259F%25E3%2582%2593%25E3%2581%25A0%25E6%259C%25AC%25E6%2595%25B0%25E3%2581%25AF...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E5%2589%258D%25E7%25A7%2580%25E6%25A8%25B9%2520%257C%2520%2520AI%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2580%2580%25E8%25B5%25B7%25E6%25A5%25AD...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY4MzQxMGU5NzYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、2026年10月21日にAnthropicが発表した新しいプロアクティブエージェントアプリ「Claude Duet」が、メッセージの送信・支払い・文書への署名・削除という「結果が重い行動」の前に必ず人間の確認を取る設計だと報じられているのに対し、今このタスクを動かしている自分自身(Zenn/Qiita自動投稿パイプライン)が、記事を公開する…"
-  },
-  {
    "src": "hn",
    "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 553 # Comments: 221"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 553 # Comments: 223"
   },
   {
    "src": "status",
@@ -313,7 +321,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 595 # Comments: 295"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 596 # Comments: 295"
   },
   {
    "src": "reddit",
@@ -338,14 +346,6 @@
    "date": 1793095006000,
    "img": "",
    "desc": "Oct 27 , 09:56 UTC Resolved - The issue affecting Claude services has been resolved. Oct 27 , 09:38 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitor…"
-  },
-  {
-   "src": "reddit",
-   "title": "Incredible accomplishment",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xgjqrf/incredible_accomplishment/",
-   "date": 1793077514000,
-   "img": "https://preview.redd.it/xx09b7pzzxxh1.png?width=640&crop=smart&auto=webp&s=10d1dae3114f8e354b08fd4a8750f7dc0653f846",
-   "desc": "Just truly amazing. credit to loss.sh (original creator) submitted by /u/turtle-toaster [link] [comments]"
   },
   {
    "src": "news",
