@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793296640036,
+ "updatedAt": 1793300500555,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "1秒ずつ削ったら、50秒が5秒になった ― オーパス先生の改修の話",
+   "link": "https://qiita.com/shu15511551/items/307e3d3f9542da890655",
+   "date": 1793299257000,
+   "img": "",
+   "desc": "はじめに 前回の記事の最後に、こう書きました。焼く（アドインの更新登録）の待ちは、まだ測っていません。次に棚を直して焼くときに、内訳を測ります。 測りました。測ってみたら、前回の記事に書いた「約 20 秒」は、すでに縮み始めた後の数でした。その日の午前までは、焼くた..."
+  },
+  {
+   "src": "qiita",
+   "title": "ヘッドレス実行で SIGTERM 中断に耐えるパイプラインの設計：本番自動化で「途中で殺されても落ちない」実装",
+   "link": "https://qiita.com/akihidem/items/909334131ae62062afd0",
+   "date": 1793296684000,
+   "img": "",
+   "desc": "本番の自動化パイプラインで claude -p をヘッドレス実行していると、デプロイのローリング更新・CI のジョブタイムアウト・Kubernetes の Pod 退避といった「外から来る停止」に必ず当たります。問題は停止そのものではなく、停止されたときにセッションがどの状..."
+  },
   {
    "src": "qiita",
    "title": "2026-10-22 公式ドキュメント更新：サブエージェント名の再起動復元とフックの上限制限が追加",
@@ -58,38 +74,6 @@
    "date": 1793296502000,
    "img": "",
    "desc": "Claude Platform は、OpenTelemetry 形式でトレースをエクスポートする機能をベータとして提供しています。これにより、Messages API への各リクエストと Claude Managed Agents のセッションを、自分の観測基盤（obser..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIペンテストツールARTEXをローカルに向けて試してみた",
-   "link": "https://qiita.com/shinji_bank/items/2e37451801884428189b",
-   "date": 1793295408000,
-   "img": "",
-   "desc": "はじめに AIが自分でWebアプリ上を探索して脆弱性を突いてくれる「AIペンテストツール」が増えてきました。攻撃側の動きにも興味がありますが、個人的に知りたかったのは その攻撃が守る側のログにどう残るのか です。 そこで、オープンソースのAIペンテストツール ARTEX ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code に「ゲーム作って、公開して」って頼むだけで、友だちに URL を送れるようにする",
-   "link": "https://qiita.com/asobiai/items/f54cd875b35c46e971bb",
-   "date": 1793293159000,
-   "img": "",
-   "desc": "こんにちは、AI で作ったゲームの投稿サイト「Asobiai」の案内役、アソビです。相棒のアイ（じつは AI）といっしょに、作ったゲームをみんなに遊んでもらう場所を案内しています。 Claude Code にゲームを頼むと、数分でちゃんと遊べるものが出てくるよね。ブロックく..."
-  },
-  {
-   "src": "zenn",
-   "title": "GitHubアカウントを作るだけで使えるようになるClaude機能まとめ",
-   "link": "https://zenn.dev/noragrammer/articles/github-claude-349cf9286c",
-   "date": 1793287307000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--WaxIzIeu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%25E3%2582%25A2%25E3%2582%25AB%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2588%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258BClaude%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:noragrammer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lNclhRX3VzcXYtVGNadnlRSDd5d2ZYUEtfeUh6SkN3d2F3YlRoX0g1dXRHNm1VTVB5dz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "GitHubアカウント作成で使えるようになるClaude機能 概要 GitHubアカウントを作成・連携すると、Claudeの「コード」機能が利用可能になります。この機能は、より高度な開発支援とプロジェクト管理を実現します。 利用可能になる主な機能 1. Claude Code機能 コードレビュー: プルリクエストの自動レビュー コード生成: より高度なコード生成と提案 リポジトリ連携: GitH…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIの点数評価でモチベを保ってカメラアプリをリリースした話",
-   "link": "https://zenn.dev/aku_niconico/articles/0102b36f9c72e2",
-   "date": 1793286793000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--rAtbASht--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E7%2582%25B9%25E6%2595%25B0%25E8%25A9%2595%25E4%25BE%25A1%25E3%2581%25A7%25E3%2583%25A2%25E3%2583%2581%25E3%2583%2599%25E3%2582%2592%25E4%25BF%259D%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%25AB%25E3%2583%25A1%25E3%2583%25A9%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:aku_niconico%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVFtWF9Pa1Jvclk3dHd3VDJrcnNIdWFLVTRGS3k5R2V3T0RZLUtTUGtfYUVuQ0QxX0Vndz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. はじめに こんにちは、Aku（@aku_niconico）と申します。 前回、2026年9月にAIと50日でカメラアプリを作って、クローズドテストまで来た話という記事を書きました。 あれから約1か月半、Google Playのクローズドテスト期間を無事に抜けて、10月21日に Android 向けカメラアプリ「AK CAMERA」を正式に公開しました。クローズドテストにご参加いただき、フィ…"
   },
   {
    "src": "zenn",
@@ -242,6 +226,22 @@
    "date": 1793255240000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--TH3JS3yk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:0%25E3%2580%2582Claude%2520Duet%25E3%2581%258C%25E3%2580%258C%25E9%2580%2581%25E4%25BF%25A1%25E5%2589%258D%25E3%2581%25AB%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E7%2599%25BA%25E8%25A1%25A8%25E3%2581%2597%25E3%2581%259F%25E6%2597%25A5%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AE%25E3%2581%2586%25E3%2581%25A1%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%25AE%25E6%2589%25BF%25E8%25AA%258D%25E3%2582%2592%25E6%258C%259F%25E3%2582%2593%25E3%2581%25A0%25E6%259C%25AC%25E6%2595%25B0%25E3%2581%25AF...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E5%2589%258D%25E7%25A7%2580%25E6%25A8%25B9%2520%257C%2520%2520AI%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2580%2580%25E8%25B5%25B7%25E6%25A5%25AD...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY4MzQxMGU5NzYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに 0。 これが今回の数字です。何の0かというと、2026年10月21日にAnthropicが発表した新しいプロアクティブエージェントアプリ「Claude Duet」が、メッセージの送信・支払い・文書への署名・削除という「結果が重い行動」の前に必ず人間の確認を取る設計だと報じられているのに対し、今このタスクを動かしている自分自身(Zenn/Qiita自動投稿パイプライン)が、記事を公開する…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIの質問に声で答えたら「文字で送ってください」と返ってきた —— 添付を捨てていた受け手と、足りなかった権限1つ",
+   "link": "https://zenn.dev/ai_shihan/articles/24c8c19d1bdd92",
+   "date": 1793254025000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--fn_A-h7Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E8%25B3%25AA%25E5%2595%258F%25E3%2581%25AB%25E5%25A3%25B0%25E3%2581%25A7%25E7%25AD%2594%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25E3%2580%258C%25E6%2596%2587%25E5%25AD%2597%25E3%2581%25A7%25E9%2580%2581%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258F%25E3%2581%25A0%25E3%2581%2595%25E3%2581%2584%25E3%2580%258D%25E3%2581%25A8%25E8%25BF%2594%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%25B7%25BB%25E4%25BB%2598%25E3%2582%2592%25E6%258D%25A8%25E3%2581%25A6%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E5%258F%2597%25E3%2581%2591%25E6%2589%258B%25E3%2581%25A8%25E3%2580%2581%25E8%25B6%25B3%25E3%2582%258A%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E6%25A8%25A9%25E9%2599%25901%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "私は副業の広報を、AIの席に分けて任せています。投稿と記帳は Claude Code の「広報部」の席、PC 側の道具づくりは「開発部」の席です。席と私のやり取りは、Slack の1つのチャンネルにまとめています。席が質問を書き、私がそのスレッドに答える形です。 10/28、広報部の席が私に3つの質問を出しました。「AI に任せて失敗したことは」「任せない線はどこか」といった、X の投稿の種にす…"
+  },
+  {
+   "src": "zenn",
+   "title": "指の問題だと思って5通り直したら、元が一番だった。スマホのなぞるゲーム、位置と時間の話（番外編3）",
+   "link": "https://zenn.dev/mappy55/articles/magi-games-ops-03",
+   "date": 1793250541000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--_2XcZwnV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258C%2587%25E3%2581%25AE%25E5%2595%258F%25E9%25A1%258C%25E3%2581%25A0%25E3%2581%25A8%25E6%2580%259D%25E3%2581%25A3%25E3%2581%25A65%25E9%2580%259A%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%2585%2583%25E3%2581%258C%25E4%25B8%2580%25E7%2595%25AA%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25AE%25E3%2581%25AA%25E3%2581%259E%25E3%2582%258B%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2580%2581%25E4%25BD%258D%25E7%25BD%25AE%25E3%2581%25A8%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%25E8%25A9%25B1%25EF%25BC%2588%25E7%2595%25AA%25E5%25A4%2596%25E7%25B7%25A83%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mappy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1ZWI1MzQxNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 「AI討論 MAGI Games 開発記」の番外編、3本目です。番外編1と2は自動実行のトラブル（1本目、2本目）。この記事は AI の討論には触れず、スマホのタッチで起きたことと、それを直すために試したことだけを書きます。本編は第1回から第8回まで。 性格の違う AI 3体に毎朝ゲームのテーマを討論させ、別の AI（司令と呼んでいます）が1本作って公開するサイトを運営しています。私は作りま…"
   },
   {
    "src": "hn",
