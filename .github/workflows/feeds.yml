@@ -1,5 +1,4 @@
 # 1時間ごとに Claude 関連の新着を集めて feeds.json を更新する
-# リポジトリの Secrets に ANTHROPIC_API_KEY を入れると、日本語の要約と週のまとめも作る
 name: Claudeの新着を集める
 
 on:
@@ -17,16 +16,13 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci --no-audit --no-fund
       - run: node fetch-claude.mjs
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: 変わっていれば保存する
         run: |
           # 更新時刻だけが変わった場合は保存しない

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Claude便り</title>
-<meta name="description" content="Claude・Anthropic の公式発表、Claude Code のリリース、障害情報、話題の記事を日本語の要約つきでまとめて読めるアプリ">
+<meta name="description" content="Claude・Anthropic の公式発表、Claude Code のリリース、障害情報、話題の記事をまとめて読めるアプリ">
 <meta name="theme-color" content="#1f1d1a" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#f5f1e8" media="(prefers-color-scheme: light)">
 <link rel="manifest" href="manifest.webmanifest">
@@ -100,10 +100,9 @@ header.top .wrap { display: flex; align-items: center; gap: 12px; padding-block:
 }
 .item .body { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
 .item .title { font-size: 15px; font-weight: 500; line-height: 1.5; }
-.item .orig { font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
 .item .sum {
-  font-size: 13.5px; color: var(--muted); line-height: 1.6;
-  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  font-size: 13px; color: var(--muted); line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
 .item.read .title { color: var(--muted); font-weight: 400; }
 .thumb { width: 88px; aspect-ratio: 16 / 9; border-radius: 6px; object-fit: cover; background: var(--chip); align-self: start; }
@@ -120,27 +119,17 @@ header.top .wrap { display: flex; align-items: center; gap: 12px; padding-block:
 .digest { padding-block: 16px 8px; }
 .digest .when { font-size: 12px; color: var(--muted); font-family: var(--font-mono); letter-spacing: .04em; }
 .digest h2 { font-size: 19px; line-height: 1.45; margin: 4px 0 14px; }
-.points { list-style: none; margin: 0; padding: 0; counter-reset: p; }
-.points li {
-  counter-increment: p; position: relative;
-  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
-  padding: 12px 14px 12px 44px; margin-bottom: 10px;
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 8px; }
+.tile {
+  border: 1px solid var(--line); background: var(--surface); border-radius: 10px;
+  padding: 10px 12px; text-align: left; cursor: pointer;
 }
-.points li::before {
-  content: counter(p); position: absolute; left: 14px; top: 12px;
-  font-family: var(--font-mono); font-size: 13px; color: var(--accent); font-weight: 500;
-}
-.points .refs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.points .refs a {
-  font-size: 12px; color: var(--accent); background: var(--chip); border-radius: 4px; padding: 1px 8px;
-  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-}
+.tile b { display: block; font-family: var(--font-mono); font-size: 22px; font-weight: 500; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.tile span { font-size: 12px; color: var(--muted); }
+.tile.k-official b { color: var(--official); }
+.tile.k-alert b { color: var(--alert); }
+.tile.k-release b { color: var(--accent); }
 .section-h { font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .08em; margin: 22px 0 4px; }
-.note {
-  font-size: 13px; color: var(--muted); background: var(--surface); border: 1px dashed var(--line);
-  border-radius: 10px; padding: 12px 14px; margin-top: 16px;
-}
-.note code { font-family: var(--font-mono); font-size: 12px; }
 
 /* リンク集 */
 section.links h2 { font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .08em; margin: 20px 0 8px; }
@@ -328,10 +317,8 @@ function itemRow(it) {
   const li = el("li", "item" + (read.has(it.link) ? " read" : ""));
   const a = el("a"); a.href = it.link; a.target = "_blank"; a.rel = "noopener";
   const body = el("div", "body");
-  body.append(el("div", "title", it.ja?.title || it.title));
-  if (it.ja) body.append(el("div", "orig", it.title));
-  const sum = it.ja?.summary || it.desc;
-  if (sum) body.append(el("div", "sum", sum));
+  body.append(el("div", "title", it.title));
+  if (it.desc) body.append(el("div", "sum", it.desc));
   const meta = el("div", "meta");
   if (seenAt && it.date > seenAt && !read.has(it.link)) meta.append(el("span", "new", "NEW"));
   const t = el("time", null, timeAgo(it.date)); t.dateTime = new Date(it.date).toISOString();
@@ -370,54 +357,42 @@ function renderList() {
   $("list").replaceChildren(...shown.map(itemRow));
 }
 
+// まとめ：直近1週間の件数と、種類ごとの新しい記事
 function renderDigest() {
-  const box = $("digest");
-  const byLink = new Map(data.items.map((it) => [it.link, it]));
-  const parts = [];
-  const d = data.digest;
-  if (d?.points?.length) {
-    const when = new Date(d.at);
-    parts.push(el("div", "when", "直近1週間 · " + (when.getMonth() + 1) + "/" + when.getDate() + " " + when.getHours() + ":" + String(when.getMinutes()).padStart(2, "0") + " 時点"));
-    parts.push(el("h2", null, d.headline));
-    const ol = el("ol", "points");
-    for (const p of d.points) {
-      const li = el("li");
-      li.append(el("div", null, p.text));
-      const refs = el("div", "refs");
-      for (const link of p.links || []) {
-        const it = byLink.get(link);
-        const a = el("a", null, it ? SOURCES[it.src].name + "：" + (it.ja?.title || it.title) : "元の記事");
-        a.href = link; a.target = "_blank"; a.rel = "noopener";
-        a.addEventListener("click", () => markRead(link));
-        refs.append(a);
-      }
-      if (refs.childElementCount) li.append(refs);
-      ol.append(li);
-    }
-    parts.push(ol);
-  } else {
-    parts.push(el("h2", null, "この1週間の Claude"));
-    const n = el("div", "note");
-    n.append("AI による週のまとめはまだありません。GitHub のリポジトリ設定で Secrets に ",
-      el("code", null, "ANTHROPIC_API_KEY"), " を登録すると、1時間ごとに日本語の要約とまとめが作られます。");
-    parts.push(n);
-  }
-
-  // 公式発表とリリースは、まとめとは別に直近のものを並べておく
   const week = Date.now() - 7 * 864e5;
+  const recent = data.items.filter((it) => it.date > week);
+  const parts = [];
+  const d = new Date();
+  parts.push(el("div", "when", "直近1週間 · " + (d.getMonth() + 1) + "/" + d.getDate() + " 時点"));
+  parts.push(el("h2", null, recent.length ? "この1週間の Claude（" + recent.length + "件）" : "この1週間の Claude"));
+
+  const tiles = el("div", "tiles");
+  for (const k of KINDS.slice(1)) {
+    const n = recent.filter((it) => SOURCES[it.src].kind === k).length;
+    if (!n) continue;
+    const b = el("button", "tile " + (KIND_CLASS[k] || "")); b.type = "button";
+    b.append(el("b", null, String(n)), el("span", null, k));
+    b.addEventListener("click", () => { activeKind = k; store.set(KEY_KIND, k); renderChips(); renderList(); showTab("feed"); });
+    tiles.append(b);
+  }
+  if (tiles.childElementCount) parts.push(tiles);
+
   const groups = [
-    ["公式の発表", (it) => SOURCES[it.src].kind === "公式"],
-    ["Claude Code のリリース", (it) => it.src === "claude-code"],
-    ["障害情報", (it) => it.src === "status"]
+    ["公式の発表", (it) => SOURCES[it.src].kind === "公式", 8],
+    ["Claude Code のリリース", (it) => it.src === "claude-code", 5],
+    ["障害情報", (it) => it.src === "status", 5],
+    ["話題（Hacker News・Reddit）", (it) => SOURCES[it.src].kind === "話題", 6],
+    ["日本語の記事", (it) => SOURCES[it.src].kind === "日本語", 6]
   ];
-  for (const [label, fn] of groups) {
-    const rows = data.items.filter((it) => it.date > week && fn(it)).slice(0, 8);
+  for (const [label, fn, max] of groups) {
+    const rows = recent.filter(fn).slice(0, max);
     if (!rows.length) continue;
     parts.push(el("div", "section-h", label));
     const ul = el("ul", "list"); ul.append(...rows.map(itemRow));
     parts.push(ul);
   }
-  box.replaceChildren(...parts);
+  if (!recent.length) parts.push(el("div", "empty", "この1週間の記事はまだありません。"));
+  $("digest").replaceChildren(...parts);
 }
 
 function setStatus(text, failedNames) {

@@ -1,7 +1,7 @@
 {
   "name": "Claude便り",
   "short_name": "Claude便り",
-  "description": "Claude・Anthropic のニュースを日本語の要約つきでまとめて読むアプリ",
+  "description": "Claude・Anthropic のニュースをまとめて読むアプリ",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",
