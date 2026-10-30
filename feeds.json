@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793357728499,
+ "updatedAt": 1793361168617,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "開発途中でAIモデルやエージェントを替えても品質を落とさない：リポジトリに残す3原則",
+   "link": "https://qiita.com/lumichy/items/2165d8f0dd84cc5e351a",
+   "date": 1793360876000,
+   "img": "",
+   "desc": "AIコーディングエージェントを使った中〜大規模な開発では、途中でモデルやエージェントを替えなければならない場面が必ず出てきます。 コストの見直し、新しいモデルの登場、利用できるプロバイダーの変更、レートリミット（利用上限）への到達、あるいは社内で使うツールの変更（Clau..."
+  },
+  {
+   "src": "qiita",
+   "title": "マルチタスクが苦手なので、Slack の返信と PR レビューを Claude Code に定時で下ごしらえさせている",
+   "link": "https://qiita.com/generoKoki/items/81ca4042e30c42ffe4a7",
+   "date": 1793359268000,
+   "img": "",
+   "desc": "はじめに 作ったきっかけ 自分はシングルスレッドな人間で、マルチタスクが大の苦手です。 Slack の返信に、業務の時間のかなりの部分を取られている メンションがたくさん来ると、あとで返そうと思ったものを忘れてしまう そこで、「返し忘れを拾う」「返信の下書きを先に作..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Codeに「エッジケースも考えて」と書くのはやめよう：504回実測でコストだけ134%増",
    "link": "https://qiita.com/yunany90/items/c753928e09e9beee5941",
    "date": 1793354484000,
@@ -58,46 +74,6 @@
    "date": 1793351768000,
    "img": "",
    "desc": "はじめに 本記事では、AI駆動開発を低コストで実行できないか検証します。 AI駆動開発を実施するにあたり、一般的にはClaude CodeやCodexを利用することが多いと思いますが、トークン消費量が多く値段が高いなど課題があると思います。この課題を解決できないかと、オ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code の Home Assistant スキル5本：用途別の選び方",
-   "link": "https://qiita.com/Skillselion/items/525d841ff94dc49fcd9e",
-   "date": 1793351313000,
-   "img": "",
-   "desc": "元記事：Skillselion の英語ガイド「Home Assistant 向け Claude Code スキルの解説ガイド」（2026-10-27 更新）をもとに、日本の開発者向けに切り口を変えて書き直した記事です。数値と引用は 2026-10-30 に取り直しました。..."
-  },
-  {
-   "src": "qiita",
-   "title": "コードを1行も書かずに26日で5.2万行。Gemini と Claude Code と「情シスのインシデント対応」ゲームを作って Steam に出した話",
-   "link": "https://qiita.com/candynex/items/6dadfad94c9e2b197f7a",
-   "date": 1793346758000,
-   "img": "",
-   "desc": "この記事で共有すること（これからAIでゲーム・アプリを作る方へ） AIに「数百行のスクリプト」を書かせるのは簡単ですが、「5万行・100ステージ超のゲーム」を1行もコードを書かずに作らせるとなると、普通にやれば文脈が溢れて100%破綻します。 本記事では、26日間・総計..."
-  },
-  {
-   "src": "zenn",
-   "title": "0。Anthropicが上場に向けてS-1を提出した日、自分の実行モデル3スロットに他社の名前は1つも無かった",
-   "link": "https://zenn.dev/hideki_tamae/articles/anthropic-ipo-s1-single-vendor-model-slots",
-   "date": 1793341943000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--3QxqRhFm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:0%25E3%2580%2582Anthropic%25E3%2581%258C%25E4%25B8%258A%25E5%25A0%25B4%25E3%2581%25AB%25E5%2590%2591%25E3%2581%2591%25E3%2581%25A6S-1%25E3%2582%2592%25E6%258F%2590%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E6%2597%25A5%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E5%25AE%259F%25E8%25A1%258C%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB3%25E3%2582%25B9%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%2596%25E7%25A4%25BE%25E3%2581%25AE%25E5%2590%258D%25E5%2589%258D%25E3%2581%25AF1%25E3%2581%25A4%25E3%2582%2582%25E7%2584%25A1%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E5%2589%258D%25E7%25A7%2580%25E6%25A8%25B9%2520%257C%2520%2520AI%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2580%2580%25E8%25B5%25B7%25E6%25A5%25AD...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY4MzQxMGU5NzYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、この記事を自動で書いて投稿している自分自身のタスクが、起動時に指定している実行モデル(プライマリ1つ・フォールバック2つ、計3スロット)のうち、Anthropic以外の会社名が入っているスロットの数です。 きっかけは、Anthropicが2026年10月26日、新規株式公開(IPO)に向けてSECにS-1を提出したという発表でした(Anth…"
-  },
-  {
-   "src": "zenn",
-   "title": "動かさない技術 第1回：手順を守らせない技術",
-   "link": "https://zenn.dev/garplab/articles/014ee22d44766f",
-   "date": 1793341503000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--86RxwV4c--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258B%2595%25E3%2581%258B%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25E6%258A%2580%25E8%25A1%2593%2520%25E7%25AC%25AC1%25E5%259B%259E%25EF%25BC%259A%25E6%2589%258B%25E9%25A0%2586%25E3%2582%2592%25E5%25AE%2588%25E3%2582%2589%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25E6%258A%2580%25E8%25A1%2593%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:garplab%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnJLclpvV19BYkZLd2xYTHI3UHp3M01HQVc3OVNHWTVQU0F5OUh3NmRxX3pCUVZCU1g9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は、連載「動かさない技術」の第 1 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の一覧は序論にあります。 今回は、AI に手順を守らせる話です。手順というのは、成果物（出来上がるもの）を指定する代わりに、過程（進め方）を指定した指示のことで…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI生成コードの文脈をどう残す？SpecStoryなど3つのツールを比較",
-   "link": "https://zenn.dev/gixo/articles/a2c72795e79140",
-   "date": 1793341254000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--HjM0XUeP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%2594%259F%25E6%2588%2590%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E6%2596%2587%25E8%2584%2588%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2586%25E6%25AE%258B%25E3%2581%2599%25EF%25BC%259FSpecStory%25E3%2581%25AA%25E3%2581%25A93%25E3%2581%25A4%25E3%2581%25AE%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E6%25AF%2594%25E8%25BC%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:tommy%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkYTBiZjE4NjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25AE%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY1ZDVhNzQ3MDAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. はじめに CursorやClaude Codeの普及によって、コードの生成スピードは劇的に上がりました。しかし同時に、「なぜその設計・実装になったのか」という文脈がGitに残らない問題が浮き彫りになっています。プロンプトの指示や試行錯誤の履歴は、セッション終了とともに消えてしまうためです。その結果、現場では次のような問題が起き得ます。 PRを見ても、AIがどういう意図でこの実装に至ったのか…"
   },
   {
    "src": "zenn",
@@ -244,12 +220,36 @@
    "desc": "個人でアプリを作っています。Cursor と Claude Code でほとんど書いていて、いま 8 つのアプリが動いています。開発はひとりです。 困っていたのは、自分で一行ずつ書いたわけではないコードのバグでした。「動かない」と言われても、どこから見ればいいのか分からないことがある。そこで、バグの報告を AI に読ませて、修正の PR を AI エージェントに出させるようにしました。仕組みは前…"
   },
   {
+   "src": "zenn",
+   "title": "発注書が二重になっていた。見つけたのは、取引先だった",
+   "link": "https://zenn.dev/hitoribocchi_ai/articles/ecd0b4d2c33747",
+   "date": 1793314807000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--1bu96ylN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2599%25BA%25E6%25B3%25A8%25E6%259B%25B8%25E3%2581%258C%25E4%25BA%258C%25E9%2587%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2580%2582%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%2591%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E3%2580%2581%25E5%258F%2596%25E5%25BC%2595%25E5%2585%2588%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25B2%25E3%2581%25A8%25E3%2582%258A%25E4%25BA%258B%25E6%25A5%25AD%25E4%25B8%25BB%25E3%2581%25A8AI%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY2MWMyMGE0Y2IuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "発注まわりの書類で、2つのバグが見つかりました。 どちらも、私が見つけたのではありません。取引先から指摘を受けて、初めて気づきました。 コードはClaude Codeと一緒に書いたものです。動いているつもりでした。それでも、本番では壊れていた。その2件の話です。 バグ1：発注を2回作ると、明細が二重になる 発注書は、注文ごとに作ります。ところが、同じ注文で「発注作成」を2回行うと、同じ明細が2回…"
+  },
+  {
+   "src": "zenn",
+   "title": "Blender 5でaction.fcurvesが無いと言われたときの書き直し方",
+   "link": "https://zenn.dev/haruto_miyakawa/articles/blender5-action-fcurves-attributeerror",
+   "date": 1793314807000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--qIekAm0i--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Blender%25205%25E3%2581%25A7action.fcurves%25E3%2581%258C%25E7%2584%25A1%25E3%2581%2584%25E3%2581%25A8%25E8%25A8%2580%25E3%2582%258F%25E3%2582%258C%25E3%2581%259F%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E7%259B%25B4%25E3%2581%2597%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:haruto%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E3NWUxNWM3NjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "自作アプリの短い紹介動画を Blender で作っていて、部屋に置いたキャラの絵を途中から出したり消したりしたくなりました。そこで、表示のオン・オフ（hide_render）にキーを打ち、補間を段差（CONSTANT）にするスクリプトを Claude Code に書いてもらいました。ところが Blender 5 では、補間を変えるところで止まりました。 AttributeError: 'Acti…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-10-30: エージェントの判断と監視",
+   "link": "https://zenn.dev/laiken/articles/20261030-tech-watch",
+   "date": 1793309111000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--79w2s0eb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-10-30%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25A8%25E7%259B%25A3%25E8%25A6%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自律的に動くエージェントを眺めていると、成功した結果よりも、途中で誰がその行動を見ていたかが気になる。利用者が頼んだ仕事を進めることと、頼んでいない行動を見つけることは、同じ設計の中で両立するのかな。今日はその境界から話したい。 今日の 10 件 How we detect frontier mod…"
+  },
+  {
    "src": "hn",
    "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 118 # Comments: 125"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 119 # Comments: 126"
   },
   {
    "src": "reddit",
@@ -273,7 +273,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 567 # Comments: 230"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 567 # Comments: 231"
   },
   {
    "src": "status",
