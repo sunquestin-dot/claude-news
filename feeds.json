@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793347856937,
+ "updatedAt": 1793350917067,
  "sources": {
   "news": {
    "ok": true,
@@ -241,7 +241,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 115 # Comments: 116"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 116 # Comments: 120"
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 566 # Comments: 229"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 567 # Comments: 230"
   },
   {
    "src": "status",
@@ -337,7 +337,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 598 # Comments: 296"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 599 # Comments: 296"
   },
   {
    "src": "reddit",
