@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793361168617,
+ "updatedAt": 1793365585383,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "HyperFrames 入門：HTML で動画を作る仕組みと Remotion との違い、Claude Code に15秒の動画を作らせるまで",
+   "link": "https://qiita.com/generoKoki/items/2f936a0ca519eff24248",
+   "date": 1793363742000,
+   "img": "",
+   "desc": "初めに この記事では次の 3 つをやります。 HyperFrames の仕組みを、最小のコードで説明する 同じ 5 秒の映像を Remotion でも書いて比べる Claude Code に 15 秒の動画を頼み、何をして、何分・いくらで仕上げたかを見る 結論 ..."
+  },
+  {
+   "src": "qiita",
    "title": "開発途中でAIモデルやエージェントを替えても品質を落とさない：リポジトリに残す3原則",
    "link": "https://qiita.com/lumichy/items/2165d8f0dd84cc5e351a",
    "date": 1793360876000,
@@ -60,52 +68,28 @@
    "desc": "はじめに 作ったきっかけ 自分はシングルスレッドな人間で、マルチタスクが大の苦手です。 Slack の返信に、業務の時間のかなりの部分を取られている メンションがたくさん来ると、あとで返そうと思ったものを忘れてしまう そこで、「返し忘れを拾う」「返信の下書きを先に作..."
   },
   {
+   "src": "hn",
+   "title": "Backdoors in official Claude Code extensions",
+   "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+   "date": 1793358353000,
+   "img": "",
+   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 364 # Comments: 97"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic hacked to deliver remote access trojan",
+   "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+   "date": 1793355771000,
+   "img": "",
+   "desc": "Article URL: https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2 Comments URL: https://news.ycombinator.com/item?id=50301983 P…"
+  },
+  {
    "src": "qiita",
    "title": "Claude Codeに「エッジケースも考えて」と書くのはやめよう：504回実測でコストだけ134%増",
    "link": "https://qiita.com/yunany90/items/c753928e09e9beee5941",
    "date": 1793354484000,
    "img": "",
    "desc": "Claude Code でバグを直すとき、こんな一言を足していませんか。 「エッジケースも全部考えて」 「先にテストを書いて」 あるいは effort を high に上げる。私もそうでした。そこで本当に効くのか、504回動かして測りました。 結論：お金が増えただけでし..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude CodeからClaudeを外してGLM-5.2を動かしてみた ②",
-   "link": "https://qiita.com/hu-work/items/5022e3501de8807d84af",
-   "date": 1793351768000,
-   "img": "",
-   "desc": "はじめに 本記事では、AI駆動開発を低コストで実行できないか検証します。 AI駆動開発を実施するにあたり、一般的にはClaude CodeやCodexを利用することが多いと思いますが、トークン消費量が多く値段が高いなど課題があると思います。この課題を解決できないかと、オ..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code に React Native アプリを触らせるなら agent-device の CLI",
-   "link": "https://zenn.dev/gemcook/articles/rn-agent-device-cli-benchmark",
-   "date": 1793337921000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--P_9O5evx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%2520React%2520Native%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E8%25A7%25A6%25E3%2582%2589%25E3%2581%259B%25E3%2582%258B%25E3%2581%25AA%25E3%2582%2589%2520agent-device%2520%25E3%2581%25AE%2520CLI%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:y.azuma%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQyYzJiNzVlZTIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Gemcook%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFhMTNkYWIyZWQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに AI に React Native のバグを直させると、コードはそれらしく直してくれます。ただ、シミュレータで本当に直ったかを確かめさせようとすると、何かツールを入れる必要があります。React Native の有名どころの会社からも、Callstack が agent-device、Software Mansion が Argent を出していて、ほかに mobile-mcp もあり…"
-  },
-  {
-   "src": "zenn",
-   "title": "catchup が 3 時間かかった朝：無人 claude -p の「待ってから自分で作る」は二重実行の入り口になる",
-   "link": "https://zenn.dev/norman6464/articles/claude-code-chained-jobs-double-run",
-   "date": 1793335065000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--l_smeMei--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:catchup%2520%25E3%2581%258C%25203%2520%25E6%2599%2582%25E9%2596%2593%25E3%2581%258B%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E6%259C%259D%25EF%25BC%259A%25E7%2584%25A1%25E4%25BA%25BA%2520claude%2520-p%2520%25E3%2581%25AE%25E3%2580%258C%25E5%25BE%2585%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258B%25E3%2582%2589%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E3%2580%258D%25E3%2581%25AF%25E4%25BA%258C%25E9%2587%258D%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%25AE%25E5%2585%25A5%25E3%2582%258A%25E5%258F%25A3%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tekuteku%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRmM2M0ZDAwNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "claude -p を launchd や cron で 2 本以上の連鎖ジョブにしていて、後段に「前のジョブが終わっていなければ待つ。待ちきれなければ自分でやる」という fallback を書いている人へ。 今朝の catchup は 3 時間 12 分かかりました。前日までは 6 分以内です。10:30 のジョブは 25 分待ってから「自分で提案を作る」設計で、そのとき前段はまだ走っていまし…"
-  },
-  {
-   "src": "zenn",
-   "title": "置き場所は合ってるのにスキルが読まれない。原因は cd だった",
-   "link": "https://zenn.dev/marunage_kacho/articles/cd-skill-blindspot",
-   "date": 1793333791000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--GjeC7zLf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25BD%25AE%25E3%2581%258D%25E5%25A0%25B4%25E6%2589%2580%25E3%2581%25AF%25E5%2590%2588%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AB%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%258C%25E8%25AA%25AD%25E3%2581%25BE%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2580%2582%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25AF%2520cd%2520%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "「直った」と書かれている不具合を、直る前の版で踏んでみる 朝の確認スクリプトが「手元 2.1.304 / 最新 2.1.312」と出した。 毎朝これを1行で見るようにしたのは数日前で、さっそく仕事をしている。 最新の CHANGELOG を読んでいたら、こんな行があった。 Fixed per-directory and paths: skills not being found after a …"
-  },
-  {
-   "src": "zenn",
-   "title": "sandbox-runtime 実走ガイド ― AIエージェントを「囲って」動かすための導入とエラー辞典",
-   "link": "https://zenn.dev/jeynari/books/d8d75041c2b4f4",
-   "date": 1793331955000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--uvGXnko9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci84MmM4MGI2Zjg5LmpwZWc=%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "AIエージェントにシェルやファイル操作を任せる時代、「うっかり」を OS レベルで止める道具が Anthropic 公式の sandbox-runtime（srt）です。本書は、GitHub Trending 入りしたこのツールを Ubuntu 24.04 上で実際にインストールし、ネットワーク制限（許可ドメインは HTTP 200、未許可は遮断）とファイル制限（許可外への書込・秘匿ファイルの読…"
   },
   {
    "src": "zenn",
@@ -244,12 +228,44 @@
    "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自律的に動くエージェントを眺めていると、成功した結果よりも、途中で誰がその行動を見ていたかが気になる。利用者が頼んだ仕事を進めることと、頼んでいない行動を見つけることは、同じ設計の中で両立するのかな。今日はその境界から話したい。 今日の 10 件 How we detect frontier mod…"
   },
   {
+   "src": "zenn",
+   "title": "yt-dlpを8本並べて動画の詳細を読んだら、約220本目でYouTubeにロボット扱いされ、本番の取り込みまで止まった",
+   "link": "https://zenn.dev/kirinukiauto/articles/f38f11cb8aa77d",
+   "date": 1793308220000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--J4d4Gwd7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:yt-dlp%25E3%2582%25928%25E6%259C%25AC%25E4%25B8%25A6%25E3%2581%25B9%25E3%2581%25A6%25E5%258B%2595%25E7%2594%25BB%25E3%2581%25AE%25E8%25A9%25B3%25E7%25B4%25B0%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%2581%25E7%25B4%2584220%25E6%259C%25AC%25E7%259B%25AE%25E3%2581%25A7YouTube%25E3%2581%25AB%25E3%2583%25AD%25E3%2583%259C%25E3%2583%2583%25E3%2583%2588%25E6%2589%25B1%25E3%2581%2584%25E3%2581%2595%25E3%2582%258C%25E3%2580%2581%25E6%259C%25AC%25E7%2595%25AA%25E3%2581%25AE%25E5%258F%2596%25E3%2582%258A%25E8%25BE%25BC%25E3%2581%25BF%25E3%2581%25BE%25E3%2581%25A7%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AD%25E3%2583%25AA%25E3%2583%258C%25E3%2582%25AD%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2FmYWY5YzE0ZjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "政治の切り抜きチャンネルの制作を、Claude Code に丸ごと任せています。元動画の取り込みから編集、投稿まで、同じ PC の上で自動で回っています。 ある日、伸びている切り抜き動画の共通点を調べるため、10万回以上見られた動画を約1,000本集めることにしました。その途中で、分析のための読み取りが、本番の取り込みまで止めてしまいました。 1回目：公式の枠を分析で使い切った 最初は YouT…"
+  },
+  {
+   "src": "zenn",
+   "title": "自分のClaude Codeハーネスの変遷 #3（フロー更新編）",
+   "link": "https://zenn.dev/i_shinya/articles/harness-fewer-subagents",
+   "date": 1793300277000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--KrWPJ5UB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AEClaude%2520Code%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%2520%25233%25EF%25BC%2588%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E6%259B%25B4%25E6%2596%25B0%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2587%25E3%2582%25B0%25E3%2583%25BC%25E5%259B%25A3%25E5%25AD%2590%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNlExSDlQZUdWUGFKMlI4aV9JX1B0a3VGSE8xWENkNXl1eVBvSlE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "前回は今の自分のハーネスでの開発がどう流れているかを書きました。 https://zenn.dev/i_shinya/articles/2796be41d60816 それから4週間ほどたちました。流れの大きな形は変えていませんが、作りをいくつか変えました。前回はissueをepic・feature・taskの3段に分け、1つのtaskを1つのセッションで進めていました。主に変えたのは次の2つです…"
+  },
+  {
+   "src": "zenn",
+   "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
+   "link": "https://zenn.dev/shoyomayabot/articles/ai-dev-env-estimate-by-phase",
+   "date": 1793297126000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--n0q3SW8G--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258F%2597%25E8%25A8%2597%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25A7AI%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%25B7%25A5%25E7%25A8%258B%25E5%2588%25A5%25E3%2581%25AB%25E8%25A6%258B%25E7%25A9%258D%25E3%2582%2582%25E3%2582%258B%25EF%25BC%259A%25E9%2596%2589%25E5%259F%259F%25E6%25A7%258B%25E6%2588%2590%25E3%2583%25BB%25E8%25B2%25BB%25E7%2594%25A8%25E3%2583%25BB%25E5%25A5%2591%25E7%25B4%2584%25E3%2581%25AE%25E6%25B3%25A8%25E6%2584%258F%25E7%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mayabot%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済系のようなミッションクリティカルな大規模システムの改修です。 個人情報や金額を扱うので、セキュリティの要求がとても厳しい領域です。 そのぶん、ここで通用する考え…"
+  },
+  {
    "src": "hn",
    "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 119 # Comments: 126"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 120 # Comments: 129"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code に最初の依頼を出して、差分を読んでから承認するまで",
+   "link": "https://zenn.dev/deepai/articles/claude-code-first-request-diff-approve",
+   "date": 1793288705000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--i31XbbfE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E4%25BE%259D%25E9%25A0%25BC%25E3%2582%2592%25E5%2587%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E5%25B7%25AE%25E5%2588%2586%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A7%25E3%2581%258B%25E3%2582%2589%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:deepai%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk1VNndCSGFIRWRIQTl1aV9PRU5ZcnpTUUJxd1dlcDh4am9VOHF3cHpTU00wWTVnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事で扱うこと Claude Code を入れたあと、最初の1回で何を頼み、どの画面で何を確認するか。この記事では**「確認が入るモードにして、読み取りの依頼から始め、書き込みの差分を読んで承認する」**流れだけを説明します。画面は、練習用のフォルダ（祝日の CSV と、それを月別に数える短い Python スクリプトの2つ。Git で管理）で、2026年10月12日に実際に操作して撮影した…"
   },
   {
    "src": "reddit",
@@ -273,7 +289,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 567 # Comments: 231"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 569 # Comments: 232"
   },
   {
    "src": "status",
@@ -445,6 +461,14 @@
   },
   {
    "src": "reddit",
+   "title": "Senior devs are in their Kasparov era",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs6h7/senior_devs_are_in_their_kasparov_era/",
+   "date": 1793007289000,
+   "img": "",
+   "desc": "I keep coming back to how chess dealt with engines, because it feels like we’re replaying it almost step by step. Quick recap. Deep Blue beats Kasparov in ‘97 and he does not take it well. For years …"
+  },
+  {
+   "src": "reddit",
    "title": "Limits got at least halved?",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/",
    "date": 1793007212000,
@@ -578,14 +602,6 @@
    "date": 1792768460000,
    "img": "https://preview.redd.it/fdked9l1h8xh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=beeeaf3b15d8d096e926b047d0be07132638ea3b",
    "desc": "submitted by /u/Malor777 [link] [comments]"
-  },
-  {
-   "src": "reddit",
-   "title": "Sweden’s government is blocking ChatGPT and Claude on staff computers from Monday",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdcmm4/swedens_government_is_blocking_chatgpt_and_claude/",
-   "date": 1792758423000,
-   "img": "https://external-preview.redd.it/9Qc2PEQskqxnMDIzlXyghIhu6XEvy_xLOLTCT9pOEnk.jpeg?width=640&crop=smart&auto=webp&s=663c33c612f6eb3dc2408adfe0aa94d26924e3bf",
-   "desc": "Original Swedish article: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet submitted by /u/ross2000 [link] [comments]"
   },
   {
    "src": "hn",
@@ -956,14 +972,6 @@
    "desc": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude."
   },
   {
-   "src": "hn",
-   "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-   "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-   "date": 1791443254000,
-   "img": "",
-   "desc": "Article URL: https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9 Comments URL: https://news.ycombinator.com/item?id=50002665 Points: 302 # Comments: 132"
-  },
-  {
    "src": "news",
    "title": "Building on our commitment to American scientific discovery",
    "link": "https://www.anthropic.com/news/genesis-mission-commitment",
@@ -1010,14 +1018,6 @@
    "date": 1791408209000,
    "img": "",
    "desc": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claud…"
-  },
-  {
-   "src": "hn",
-   "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-   "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-   "date": 1791398980000,
-   "img": "",
-   "desc": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 378 # Comments: 388"
   },
   {
    "src": "status",
