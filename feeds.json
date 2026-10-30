@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793336216818,
+ "updatedAt": 1793339720042,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "【AI駆動開発】AIの「中継係」をやめたら、寝ている間に開発が進んでいた ― Claude Codeに司令塔を立てる運用",
-   "link": "https://qiita.com/enomoso_pm/items/ce1be1b22a1dc07722c2",
-   "date": 1793334563000,
+   "title": "open-slide：Claude Code / Codex にスライドを React で書かせるフレームワークを試してみた",
+   "link": "https://qiita.com/SK5uta/items/58de799c8d2f0a13463e",
+   "date": 1793337720000,
    "img": "",
-   "desc": "何が起きたか 朝起きてCursorを開いたら、AIの作業が8回目まで進んでいました。 寝る前にやったのは、方針を決めて、Claude Codeのセッションをいくつか開いておいたことだけです。1回1時間ほどの作業が終わるたびに、数分後には次の回が勝手に始まっていました。その..."
+   "desc": "はじめに スライド作りを AI に任せようとすると、「それっぽい文章は出るけれど、見た目は結局自分で整える」ということになりがちです。 open-slide はこの問題を「スライドもコードとして書かせる」という方向で解決するフレームワークです。コーディングエージェント（C..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeでブログ・Webアプリを量産する仕組み ― 1サイトを作るより「作る工程」を作る",
-   "link": "https://qiita.com/kazukichi_0914/items/ac1a7ef36d047071ce7d",
-   "date": 1793332757000,
+   "title": "GitHub MCPサーバーとblastengine MCPで、リリースノートから利用者向けのお知らせメールを作って一斉配信する",
+   "link": "https://qiita.com/skillogy/items/2b163ed9ae90b1cce227",
+   "date": 1793337550000,
    "img": "",
-   "desc": "はじめに Claude Codeを使い始めると、最初は「1つのアプリを速く作れる」ことに驚きます。 でも、さらに効くのは 「作る工程そのもの」をClaude Codeに覚えさせて、2本目、3本目と同じ品質で回すこと です。 この記事では、地域情報ブログや小さなWebアプ..."
+   "desc": "GitHubのリリースノートは、開発者が開発者に向けて書くものです。「Fix all Dependabot alerts」「bump version」のような書き方では、ツールを使っているだけの利用者には何をすればいいのかが伝わりません。リリースのたびに、利用者向けにお知ら..."
   },
   {
    "src": "qiita",
-   "title": "Codex のいいところだけを、Claude Code や Muse から使う",
-   "link": "https://qiita.com/tatsuya582/items/4d79021c9f78f4015992",
-   "date": 1793332723000,
+   "title": "kintone MCPサーバーとblastengine MCPで、顧客への案内メールを送って配信結果をkintoneに書き戻す",
+   "link": "https://qiita.com/skillogy/items/1f9759240355d4d2db69",
+   "date": 1793337533000,
    "img": "",
-   "desc": "はじめに 私は Claude Code、Meta の Muse、DeepSeek Harness を使い分けています。Codex も使っていて、特に Computer Use（Mac のアプリを操作する機能）と Meetings（会議の録音と議事録）は、ほかのツールより使..."
+   "desc": "kintoneの標準の通知は、kintoneのユーザーにしか届きません。顧客リストをkintoneで管理していても、そこに載っている社外の担当者へメールを送るには、別の仕組みが必要になります。 サイボウズが公開しているkintoneの公式MCPサーバーと、blastengi..."
   },
   {
    "src": "qiita",
-   "title": "−20の恐怖が+100の利益を消す ― 損失回避と機関のインセンティブ : システム設計視点の行動経済学 (52)",
-   "link": "https://qiita.com/maskot1977/items/910811e6837af1db8165",
-   "date": 1793331916000,
+   "title": "Googleスプレッドシートの宛先リストからblastengine MCPで差し込みメールを送り、配信結果をシートに書き戻す",
+   "link": "https://qiita.com/skillogy/items/b187cdf095ae3fb7fa97",
+   "date": 1793337515000,
    "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第52回を始めましょう。その前に、まず前回の復習として、 沈黙させられた問いを起動する ― 多文化共生の強制という設計バグ : システム設計視点の行動経済学 (51) https://qiita.com/maskot1977/..."
+   "desc": "顧客への案内メールの宛先を、スプレッドシートで管理しているチームは多いと思います。会社名や担当者名、契約プランを1行ずつ並べたシートがあれば、あとは「1行ずつ差し込んで送り、送った結果を同じ行に残す」ができれば足ります。 Googleスプレッドシートを読み書きするMCPサー..."
   },
   {
    "src": "claude-code",
@@ -84,12 +84,20 @@
    "desc": "What's changed - Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode - Added an optional groups…"
   },
   {
+   "src": "zenn",
+   "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
+   "link": "https://zenn.dev/shoyomayabot/articles/ai-dev-env-estimate-by-phase",
+   "date": 1793297126000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--n0q3SW8G--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258F%2597%25E8%25A8%2597%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25A7AI%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%25B7%25A5%25E7%25A8%258B%25E5%2588%25A5%25E3%2581%25AB%25E8%25A6%258B%25E7%25A9%258D%25E3%2582%2582%25E3%2582%258B%25EF%25BC%259A%25E9%2596%2589%25E5%259F%259F%25E6%25A7%258B%25E6%2588%2590%25E3%2583%25BB%25E8%25B2%25BB%25E7%2594%25A8%25E3%2583%25BB%25E5%25A5%2591%25E7%25B4%2584%25E3%2581%25AE%25E6%25B3%25A8%25E6%2584%258F%25E7%2582%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mayabot%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済系のようなミッションクリティカルな大規模システムの改修です。 個人情報や金額を扱うので、セキュリティの要求がとても厳しい領域です。 そのぶん、ここで通用する考え…"
+  },
+  {
    "src": "hn",
    "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 113 # Comments: 100"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 114 # Comments: 113"
   },
   {
    "src": "zenn",
@@ -260,20 +268,12 @@
    "desc": "UGE で管理されたサーバー（機械的なものを実行するための低い性能のノード）で、VS Code を JupyterLab のように常駐させて使うまでの手順をまとめたメモです。VS Code CLI の code serve-web を tmux 上で起動し、SSH のポート転送でアクセスし、最後に Chrome / Safari のアプリとして独立したウィンドウで使えるようにします。あわせて、タ…"
   },
   {
-   "src": "zenn",
-   "title": "ハーネスエンジニアリング3原則 — 地図・強制・蓄積の三層で考える",
-   "link": "https://zenn.dev/pythona/articles/harness-engineering-three-principles",
-   "date": 1793260956000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--i23XN5Z4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B03%25E5%258E%259F%25E5%2589%2587%2520%25E2%2580%2594%2520%25E5%259C%25B0%25E5%259B%25B3%25E3%2583%25BB%25E5%25BC%25B7%25E5%2588%25B6%25E3%2583%25BB%25E8%2593%2584%25E7%25A9%258D%25E3%2581%25AE%25E4%25B8%2589%25E5%25B1%25A4%25E3%2581%25A7%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:pythona%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWYyMnNwblpxQUFneElIVXpxRDdlU1dfdzJmbldBWTZNVzNYWDFHX2VOSjI0SUV3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 先日、個人開発アプリに Claude Code のハーネス(CLAUDE.md / Hooks / Skills)を導入した記録を書きました。 https://zenn.dev/pythona/articles/claude-code-harness-first-setup 前回は「実際に何を作ったか」の経験談だったので、今回はその背景にある ハーネスエンジニアリングの 3 原則 を、…"
-  },
-  {
    "src": "hn",
    "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 563 # Comments: 228"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 565 # Comments: 228"
   },
   {
    "src": "status",
