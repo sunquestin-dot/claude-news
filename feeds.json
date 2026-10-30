@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793382692727,
+ "updatedAt": 1793386583611,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,30 @@
  "items": [
   {
    "src": "qiita",
+   "title": "エージェントに構造化出力をさせる本番設計：draft-07 スキーマと失敗モードの受け止め方",
+   "link": "https://qiita.com/akihidem/items/b430fc7b97007f219a6b",
+   "date": 1793383084000,
+   "img": "",
+   "desc": "Claude Agent SDK で output_format / outputFormat を設定したのに、返ってくるのが構造化データではなく素のテキストだった——あるいはリトライ上限で error になった。本稿は、2026-10-24 時点の公式ドキュメントで確認で..."
+  },
+  {
+   "src": "qiita",
+   "title": "プラグインマーケットプレイスのパス検証：claude plugin validate が検出するエラーと、通過してしまう落とし穴",
+   "link": "https://qiita.com/akihidem/items/c7a5ba2998fdf4601898",
+   "date": 1793382993000,
+   "img": "",
+   "desc": "自作プラグインをマーケットプレイス経由で配布する際、設定ファイル marketplace.json のパス記述を誤ると、検証は通っても利用者のインストール時に初めて失敗が露呈することがあります。本稿は、公式ドキュメント（2026-10-24 時点）で検証済みの事実のみを用い..."
+  },
+  {
+   "src": "qiita",
+   "title": "10/23 の公式ドキュメント更新：MCP v2 ランタイムの既定条件とセキュリティ監視イベントの詳細化",
+   "link": "https://qiita.com/akihidem/items/5ddba1a2af301b7cdb7a",
+   "date": 1793382902000,
+   "img": "",
+   "desc": "2026-10-23 のドキュメント更新は、MCP クライアントランタイムの v2 が既定で使われる条件の明確化と、OpenTelemetry の safety_event 属性の大幅な拡充が中心だ。加えて、サブエージェントへのパーミッションモード継承、環境変数によるリソー..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code・Codex・Antigravity を1つのローカルチャットで協働させる方法（Excalibur Agent Hub）",
    "link": "https://qiita.com/nezle02/items/1bea25898503056b95c2",
    "date": 1793374112000,
@@ -68,14 +92,6 @@
    "desc": "VS Code のターミナルで claude を起動すると、拡張機能「Claude Code for VS Code」が自動でインストールされます。これ、デフォルトの仕様です。 If you run claude in a VS Code integrated terminal, Claude Code reinstalls the extension automatically. — 公式 d…"
   },
   {
-   "src": "qiita",
-   "title": "Claude CodeのMCPツール呼び出しが60秒でtimed outする — 幽霊二重実行を止めるジョブ投入パターンの完全実装",
-   "link": "https://qiita.com/yukihayama/items/ccfccdd1970291a9a834",
-   "date": 1793369668000,
-   "img": "",
-   "desc": "Claude Codeに「PDFフォルダ30個を一括テキスト化する」MCPツールを任せたら、呼び出しが60秒でtimed outした。さらに悪いことに、AIは「失敗したので再試行します」と言って同じ処理をもう1回投入した。サーバー側では1回目の処理がまだ生きており、二重実行..."
-  },
-  {
    "src": "zenn",
    "title": "同じ6工程を工程ごとに6回に分けたら、達成件数は30/30で同じまま、料金1.55倍・所要1.85倍になった",
    "link": "https://zenn.dev/numarn/articles/task-steps-split-vs-one-request-handson",
@@ -84,28 +100,12 @@
    "desc": "X で、検定試験の練習問題を見かけました。「複雑な仕事をAIに依頼します。より適切なプロンプト設計は どれ?」という問いに、「すべての作業を曖昧な一文で指示する」「『いい感じにやって』と任せる」 「作業を工程ごとに分けて順番に処理させる」の3つが並んでいます。設問自体には数値が1つも無いので、 どれが正解かという話は扱いません。ただ「工程ごとに分けて順番に頼む」と「まとめて1回で頼む」で 手元の…"
   },
   {
-   "src": "qiita",
-   "title": "AIエージェントと人間が協働する開発環境を設計する  はじめに",
-   "link": "https://qiita.com/hervekom37/items/abd6c8ed28ce2179c811",
-   "date": 1793367120000,
-   "img": "",
-   "desc": "しかし、複数のAIエージェントを開発プロジェクトに導入すると、新しい課題も生まれます。 それぞれのエージェントに何を担当させるのか 複数のタスクをどのように並行して進めるのか エージェントの作業状況をどう把握するのか 人間によるレビューや承認をどこに組み込むのか 重要なのは..."
-  },
-  {
    "src": "zenn",
    "title": "学習記録アプリを作りながらWeb開発を学ぶ #5 ブラウザに保存する（localStorage）",
    "link": "https://zenn.dev/nori_tech/articles/manabi-log-05-localstorage",
    "date": 1793366313000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s---AuzO9xW--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AD%25A6%25E7%25BF%2592%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25AA%25E3%2581%258C%25E3%2582%2589Web%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B6%2520%25235%2520%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%25AB%25E4%25BF%259D%25E5%25AD%2598%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588localStorage%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25B2%25B3%25E9%2587%258E%25E5%2593%25B2%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmo4TmFXeFlvRXM4WUVfZ3FFc01qYWhVSGtrMGdLVnNpZTJDWm9YYTBoPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! このシリーズは、学習記録アプリ「まなびログ」を作りながら Web 開発を基礎から学ぶ記録です。 前回：#4 記録を一覧に追加する 今日やったこと 前回までのアプリは、F5 を押すと記録が全部消えていました。今日は、ブラウザに記録を保存して、ページを開き直しても記録が残るようにしました。 追加したのはたった3行です。 なぜ消えていたのか 記録は JavaScript の中（メモリ）の配列に入っ…"
-  },
-  {
-   "src": "qiita",
-   "title": "HyperFrames 入門：HTML で動画を作る仕組みと Remotion との違い、Claude Code に15秒の動画を作らせるまで",
-   "link": "https://qiita.com/generoKoki/items/2f936a0ca519eff24248",
-   "date": 1793363742000,
-   "img": "",
-   "desc": "初めに この記事では次の 3 つをやります。 HyperFrames の仕組みを、最小のコードで説明する 同じ 5 秒の映像を Remotion でも書いて比べる Claude Code に 15 秒の動画を頼み、何をして、何分・いくらで仕上げたかを見る 結論 ..."
   },
   {
    "src": "zenn",
@@ -193,7 +193,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 442 # Comments: 369"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 509 # Comments: 391"
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 122 # Comments: 137"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 122 # Comments: 138"
   },
   {
    "src": "reddit",
@@ -305,7 +305,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 573 # Comments: 234"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 574 # Comments: 234"
   },
   {
    "src": "status",
