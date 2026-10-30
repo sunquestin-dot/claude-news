@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793339720042,
+ "updatedAt": 1793344132057,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "12。Qiitaの記事120本をgrep一発でタイトル重複チェックしたら、本文を読めていなかった記事の数はこの数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/24f78d5b0ee6299792e3",
+   "date": 1793341981000,
+   "img": "",
+   "desc": "はじめに 12。 これが今回の数字です。何の12かというと、この定期タスクの指示書にある「既存記事とのタイトル重複を避けるため、両リポジトリの全ファイルのtitleを確認する」というステップ2-1を、今日実際にgrep \"^title:\"1行で済ませたときに、本物のタイト..."
+  },
   {
    "src": "qiita",
    "title": "open-slide：Claude Code / Codex にスライドを React で書かせるフレームワークを試してみた",
@@ -68,20 +76,36 @@
    "desc": "kintoneの標準の通知は、kintoneのユーザーにしか届きません。顧客リストをkintoneで管理していても、そこに載っている社外の担当者へメールを送るには、別の仕組みが必要になります。 サイボウズが公開しているkintoneの公式MCPサーバーと、blastengi..."
   },
   {
-   "src": "qiita",
-   "title": "Googleスプレッドシートの宛先リストからblastengine MCPで差し込みメールを送り、配信結果をシートに書き戻す",
-   "link": "https://qiita.com/skillogy/items/b187cdf095ae3fb7fa97",
-   "date": 1793337515000,
-   "img": "",
-   "desc": "顧客への案内メールの宛先を、スプレッドシートで管理しているチームは多いと思います。会社名や担当者名、契約プランを1行ずつ並べたシートがあれば、あとは「1行ずつ差し込んで送り、送った結果を同じ行に残す」ができれば足ります。 Googleスプレッドシートを読み書きするMCPサー..."
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.314",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
    "date": 1793322386000,
    "img": "",
    "desc": "What's changed - Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode - Added an optional groups…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-10-30: エージェントの判断と監視",
+   "link": "https://zenn.dev/laiken/articles/20261030-tech-watch",
+   "date": 1793309111000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--79w2s0eb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-10-30%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25A8%25E7%259B%25A3%25E8%25A6%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自律的に動くエージェントを眺めていると、成功した結果よりも、途中で誰がその行動を見ていたかが気になる。利用者が頼んだ仕事を進めることと、頼んでいない行動を見つけることは、同じ設計の中で両立するのかな。今日はその境界から話したい。 今日の 10 件 How we detect frontier mod…"
+  },
+  {
+   "src": "zenn",
+   "title": "yt-dlpを8本並べて動画の詳細を読んだら、約220本目でYouTubeにロボット扱いされ、本番の取り込みまで止まった",
+   "link": "https://zenn.dev/kirinukiauto/articles/f38f11cb8aa77d",
+   "date": 1793308220000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--J4d4Gwd7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:yt-dlp%25E3%2582%25928%25E6%259C%25AC%25E4%25B8%25A6%25E3%2581%25B9%25E3%2581%25A6%25E5%258B%2595%25E7%2594%25BB%25E3%2581%25AE%25E8%25A9%25B3%25E7%25B4%25B0%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%2581%25E7%25B4%2584220%25E6%259C%25AC%25E7%259B%25AE%25E3%2581%25A7YouTube%25E3%2581%25AB%25E3%2583%25AD%25E3%2583%259C%25E3%2583%2583%25E3%2583%2588%25E6%2589%25B1%25E3%2581%2584%25E3%2581%2595%25E3%2582%258C%25E3%2580%2581%25E6%259C%25AC%25E7%2595%25AA%25E3%2581%25AE%25E5%258F%2596%25E3%2582%258A%25E8%25BE%25BC%25E3%2581%25BF%25E3%2581%25BE%25E3%2581%25A7%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AD%25E3%2583%25AA%25E3%2583%258C%25E3%2582%25AD%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2FmYWY5YzE0ZjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "政治の切り抜きチャンネルの制作を、Claude Code に丸ごと任せています。元動画の取り込みから編集、投稿まで、同じ PC の上で自動で回っています。 ある日、伸びている切り抜き動画の共通点を調べるため、10万回以上見られた動画を約1,000本集めることにしました。その途中で、分析のための読み取りが、本番の取り込みまで止めてしまいました。 1回目：公式の枠を分析で使い切った 最初は YouT…"
+  },
+  {
+   "src": "zenn",
+   "title": "自分のClaude Codeハーネスの変遷 #3（フロー更新編）",
+   "link": "https://zenn.dev/i_shinya/articles/harness-fewer-subagents",
+   "date": 1793300277000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--KrWPJ5UB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AEClaude%2520Code%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%2520%25233%25EF%25BC%2588%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E6%259B%25B4%25E6%2596%25B0%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2587%25E3%2582%25B0%25E3%2583%25BC%25E5%259B%25A3%25E5%25AD%2590%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNlExSDlQZUdWUGFKMlI4aV9JX1B0a3VGSE8xWENkNXl1eVBvSlE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "前回は今の自分のハーネスでの開発がどう流れているかを書きました。 https://zenn.dev/i_shinya/articles/2796be41d60816 それから4週間ほどたちました。流れの大きな形は変えていませんが、作りをいくつか変えました。前回はissueをepic・feature・taskの3段に分け、1つのtaskを1つのセッションで進めていました。主に変えたのは次の2つです…"
   },
   {
    "src": "zenn",
@@ -97,7 +121,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 114 # Comments: 113"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 114 # Comments: 115"
   },
   {
    "src": "zenn",
@@ -244,36 +268,12 @@
    "desc": "Claude Code の深掘り調査（deep research）スキルは、ほぼすべてが英語で書かれています。日本語で頼んだときに効くのは、起動条件の書き方と出力言語の規定です。今回読んだ 7 本の中で出力言語を明記していたのは文献調査向けの 1 本だけでした。ウェブ調査系のスキルは、検索クエリの言語を何も規定していません。日本語の調査では、検索言語と出典の言語をプロンプトで指定するのが確実です…"
   },
   {
-   "src": "zenn",
-   "title": "GitLab × Claude Code の脆弱性自動修正を半年運用して、何がどれだけ良くなったか",
-   "link": "https://zenn.dev/scalar_sol_blog/articles/glab-auto-fix-vulns",
-   "date": 1793264406000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Y46ISJpS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitLab%2520%25C3%2597%2520Claude%2520Code%2520%25E3%2581%25AE%25E8%2584%2586%25E5%25BC%25B1%25E6%2580%25A7%25E8%2587%25AA%25E5%258B%2595%25E4%25BF%25AE%25E6%25AD%25A3%25E3%2582%2592%25E5%258D%258A%25E5%25B9%25B4%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E4%25BD%2595%25E3%2581%258C%25E3%2581%25A9%25E3%2582%258C%25E3%2581%25A0%25E3%2581%2591%25E8%2589%25AF%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:msd%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIyYWQ5MTcyZjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scalar%2520Solution%2520Engi...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA5OTgyZjhiNTIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 2026年5月28日の「AI×DevOps Study #15」で、GitLab 環境で脆弱性の検知からAIによる修正（MR作成）、チャット通知までを自動化する仕組みについて発表しました。 イベント: https://scalar.connpass.com/event/394788/ スライド: https://speakerdeck.com/scalar/20260528-aixde…"
-  },
-  {
-   "src": "zenn",
-   "title": "学習記録アプリを作りながらWeb開発を学ぶ #4 記録を一覧に追加する",
-   "link": "https://zenn.dev/nori_tech/articles/manabi-log-04-list",
-   "date": 1793262653000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Jn3W3uk0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AD%25A6%25E7%25BF%2592%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25AA%25E3%2581%258C%25E3%2582%2589Web%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B6%2520%25234%2520%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%2592%25E4%25B8%2580%25E8%25A6%25A7%25E3%2581%25AB%25E8%25BF%25BD%25E5%258A%25A0%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25B2%25B3%25E9%2587%258E%25E5%2593%25B2%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmo4TmFXeFlvRXM4WUVfZ3FFc01qYWhVSGtrMGdLVnNpZTJDWm9YYTBoPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! このシリーズは、学習記録アプリ「まなびログ」を作りながら Web 開発を基礎から学ぶ記録です。 前回：#3 JavaScriptでボタンを動かす 今日やったこと 前回は、ボタンを押すとメッセージが1つ出て、次に押すと上書きされる状態でした。今日は、押すたびに記録が下に積み上がっていく一覧を作りました。 ステップ0：script タグの位置を直す 前回の記事を書いたあとで、 が の外にあること…"
-  },
-  {
-   "src": "zenn",
-   "title": "UGE 管理のサーバーで VS Code を serve-web で常駐させ、ブラウザアプリとして使う",
-   "link": "https://zenn.dev/972697325291316/articles/7b5b9e00545f72",
-   "date": 1793262413000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--I9NOpup4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:UGE%2520%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25A7%2520VS%2520Code%2520%25E3%2582%2592%2520serve-web%2520%25E3%2581%25A7%25E5%25B8%25B8%25E9%25A7%2590%25E3%2581%2595%25E3%2581%259B%25E3%2580%2581%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E4%25BD%25BF%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:972697325291316%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvOS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "UGE で管理されたサーバー（機械的なものを実行するための低い性能のノード）で、VS Code を JupyterLab のように常駐させて使うまでの手順をまとめたメモです。VS Code CLI の code serve-web を tmux 上で起動し、SSH のポート転送でアクセスし、最後に Chrome / Safari のアプリとして独立したウィンドウで使えるようにします。あわせて、タ…"
-  },
-  {
    "src": "hn",
    "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 565 # Comments: 228"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 566 # Comments: 229"
   },
   {
    "src": "status",
@@ -337,7 +337,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 597 # Comments: 296"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 598 # Comments: 296"
   },
   {
    "src": "reddit",
