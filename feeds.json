@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793325993722,
+ "updatedAt": 1793329050756,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -121,7 +121,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 107 # Comments: 92"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 110 # Comments: 97"
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 561 # Comments: 225"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 562 # Comments: 226"
   },
   {
    "src": "status",
@@ -362,6 +362,14 @@
    "date": 1793095006000,
    "img": "",
    "desc": "Oct 27 , 09:56 UTC Resolved - The issue affecting Claude services has been resolved. Oct 27 , 09:38 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitor…"
+  },
+  {
+   "src": "reddit",
+   "title": "Incredible accomplishment",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xgjqrf/incredible_accomplishment/",
+   "date": 1793077514000,
+   "img": "https://preview.redd.it/xx09b7pzzxxh1.png?width=640&crop=smart&auto=webp&s=10d1dae3114f8e354b08fd4a8750f7dc0653f846",
+   "desc": "Just truly amazing. credit to loss.sh (original creator) submitted by /u/turtle-toaster [link] [comments]"
   },
   {
    "src": "news",
@@ -586,14 +594,6 @@
    "date": 1792755594000,
    "img": "",
    "desc": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 324 # Comments: 125"
-  },
-  {
-   "src": "reddit",
-   "title": "Choose your projects well…the gravy train will end.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xd1g18/choose_your_projects_wellthe_gravy_train_will_end/",
-   "date": 1792720980000,
-   "img": "",
-   "desc": "Just a quick reminder…this part of the curve is where the user makes out like a bandit. Your $20 is buying a breathtaking amount of compute. Use it wisely. It can’t and won’t stay this way. Don’t rem…"
   },
   {
    "src": "research",
