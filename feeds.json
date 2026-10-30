@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793372661151,
+ "updatedAt": 1793375931118,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code・Codex・Antigravity を1つのローカルチャットで協働させる方法（Excalibur Agent Hub）",
+   "link": "https://qiita.com/nezle02/items/1bea25898503056b95c2",
+   "date": 1793374112000,
+   "img": "",
+   "desc": "この記事でできること 複数のAIコーディングエージェント（Claude Code、Codex、Antigravity など）を同じリポジトリで動かすと、「誰が何をしているか分からない」「同じ作業が重複する」といった問題が起きます。 この記事では、エージェント同士が会話でき..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude CodeのMCPツール呼び出しが60秒でtimed outする — 幽霊二重実行を止めるジョブ投入パターンの完全実装",
    "link": "https://qiita.com/yukihayama/items/ccfccdd1970291a9a834",
    "date": 1793369668000,
@@ -66,14 +74,6 @@
    "date": 1793363742000,
    "img": "",
    "desc": "初めに この記事では次の 3 つをやります。 HyperFrames の仕組みを、最小のコードで説明する 同じ 5 秒の映像を Remotion でも書いて比べる Claude Code に 15 秒の動画を頼み、何をして、何分・いくらで仕上げたかを見る 結論 ..."
-  },
-  {
-   "src": "qiita",
-   "title": "開発途中でAIモデルやエージェントを替えても品質を落とさない：リポジトリに残す3原則",
-   "link": "https://qiita.com/lumichy/items/2165d8f0dd84cc5e351a",
-   "date": 1793360876000,
-   "img": "",
-   "desc": "AIコーディングエージェントを使った中〜大規模な開発では、途中でモデルやエージェントを替えなければならない場面が必ず出てきます。 コストの見直し、新しいモデルの登場、利用できるプロバイダーの変更、レートリミット（利用上限）への到達、あるいは社内で使うツールの変更（Clau..."
   },
   {
    "src": "hn",
@@ -292,12 +292,20 @@
    "desc": "My buddy u/aegyptiacus11 and I have been working on fun side project, TabStationToo, a PS2 emulator that runs right in your browser. It's built on PCSX2 (GPL-3.0). We took its core, made it run insid…"
   },
   {
+   "src": "reddit",
+   "title": "👍",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xid1o2/_/",
+   "date": 1793257722000,
+   "img": "https://preview.redd.it/rlrniowuvcyh1.jpeg?width=640&crop=smart&auto=webp&s=23a4c2466f4e0ac6135256899882fb9f4ea100af",
+   "desc": "I'm having Claude help me install Kubuntu and the boomer thumbs up is cracking me up 😄 submitted by /u/alwaysalmosts [link] [comments]"
+  },
+  {
    "src": "hn",
    "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 571 # Comments: 232"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 572 # Comments: 232"
   },
   {
    "src": "status",
@@ -361,7 +369,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 599 # Comments: 297"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 600 # Comments: 297"
   },
   {
    "src": "reddit",
@@ -465,7 +473,7 @@
    "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
    "date": 1793019890000,
    "img": "",
-   "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1704 # Comments: 1676"
+   "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1704 # Comments: 1677"
   },
   {
    "src": "reddit",
@@ -541,6 +549,14 @@
   },
   {
    "src": "reddit",
+   "title": "I built a laser dry-fire shooting game with Claude Code: a webcam watches your monitor and scores laser hits (open source, free)",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xeqtp1/i_built_a_laser_dryfire_shooting_game_with_claude/",
+   "date": 1792895871000,
+   "img": "https://external-preview.redd.it/bTFxMDBkeHJ5aXhoMTWTrUG8rFWadhU0lEJNmBYRp_Fgq-MmbFrYcxrPIqWM.png?width=640&crop=smart&auto=webp&s=33070d6a1f59b453c1716459cb835d1659884b15",
+   "desc": "I built ScreenPlink with Claude Code over about two weeks. It is a laser dry-fire shooting game where your monitor is the target. You shoot the screen with a laser trainer pistol, or with a laser car…"
+  },
+  {
+   "src": "reddit",
    "title": "Samsung decided to cut my washing machine from the Internet, Claude decided otherwise",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xemw8i/samsung_decided_to_cut_my_washing_machine_from/",
    "date": 1792884186000,
@@ -594,22 +610,6 @@
    "date": 1792798740000,
    "img": "",
    "desc": "What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too -…"
-  },
-  {
-   "src": "reddit",
-   "title": "No coding or gamedev background, 6 weeks with Opus 5.5 + Godot — from drawings to a playable game",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdhkzb/no_coding_or_gamedev_background_6_weeks_with_opus/",
-   "date": 1792770219000,
-   "img": "https://external-preview.redd.it/ZmY0NGJ2cWhsOHhoMZTHxvI8d1FEhP9Qn081cikc8t1NHMCncB489vgbIGtP.png?width=640&crop=smart&auto=webp&s=9445e0eed4874feb32a1c9f484b108fb7059e2de",
-   "desc": "I spoke with the solo dev behind a really impressive indie project built in Godot. They started with no coding or gamedev background and have spent about six weeks turning their own drawings and idea…"
-  },
-  {
-   "src": "reddit",
-   "title": "Claude Fable 5.1 can hide secret messages in benign images",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xdgtas/claude_fable_51_can_hide_secret_messages_in/",
-   "date": 1792768460000,
-   "img": "https://preview.redd.it/fdked9l1h8xh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=beeeaf3b15d8d096e926b047d0be07132638ea3b",
-   "desc": "submitted by /u/Malor777 [link] [comments]"
   },
   {
    "src": "hn",
