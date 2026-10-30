@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793379370384,
+ "updatedAt": 1793382692727,
  "sources": {
   "news": {
    "ok": true,
@@ -77,14 +77,6 @@
   },
   {
    "src": "zenn",
-   "title": "会話を引き継ぐ道具を4つ読み比べたら、自分の道具だけ鍵を伏せていなかった",
-   "link": "https://zenn.dev/shoujiki_panman/articles/session-relay-compare-and-redact",
-   "date": 1793368862000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--iNI1EHwl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BC%259A%25E8%25A9%25B1%25E3%2582%2592%25E5%25BC%2595%25E3%2581%258D%25E7%25B6%2599%25E3%2581%2590%25E9%2581%2593%25E5%2585%25B7%25E3%2582%25924%25E3%2581%25A4%25E8%25AA%25AD%25E3%2581%25BF%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E9%2581%2593%25E5%2585%25B7%25E3%2581%25A0%25E3%2581%2591%25E9%258D%25B5%25E3%2582%2592%25E4%25BC%258F%25E3%2581%259B%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E6%25B2%25BC%25E7%25A7%2580%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3dBR0d4cGMtVEYxbUt3cnRSQUVTZEVVVFZTUTZRWFQ5MG9WRllkY1Jrekxxazk4ODQ9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIの会話を別のAIへ引き継ぐ道具を、自分の session-relay を含めて4つ、READMEで読み比べました。ChatGPTのdots（常に動いているエージェント）から会話を預けられるのは、session-relay だけでした。一方で、会話に混ざったAPIキーを伏せていないのも、session-relay だけでした。 伏せる処理を足して、0.4.2 として公開しました。この記事はその…"
-  },
-  {
-   "src": "zenn",
    "title": "同じ6工程を工程ごとに6回に分けたら、達成件数は30/30で同じまま、料金1.55倍・所要1.85倍になった",
    "link": "https://zenn.dev/numarn/articles/task-steps-split-vs-one-request-handson",
    "date": 1793367238000,
@@ -137,7 +129,7 @@
    "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "date": 1793358353000,
    "img": "",
-   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 645 # Comments: 17"
+   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 646 # Comments: 17"
   },
   {
    "src": "zenn",
@@ -201,7 +193,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... https://cyberplace.social/@GossiTheDog/117528831681803563 https://doublepulsar.com/anthropic-hacked-to-deliver-remote-... Comments URL:…"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 442 # Comments: 369"
   },
   {
    "src": "zenn",
@@ -260,6 +252,14 @@
    "desc": "「直った」と書かれている不具合を、直る前の版で踏んでみる 朝の確認スクリプトが「手元 2.1.304 / 最新 2.1.312」と出した。 毎朝これを1行で見るようにしたのは数日前で、さっそく仕事をしている。 最新の CHANGELOG を読んでいたら、こんな行があった。 Fixed per-directory and paths: skills not being found after a …"
   },
   {
+   "src": "zenn",
+   "title": "sandbox-runtime 実走ガイド ― AIエージェントを「囲って」動かすための導入とエラー辞典",
+   "link": "https://zenn.dev/jeynari/books/d8d75041c2b4f4",
+   "date": 1793331955000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--uvGXnko9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci84MmM4MGI2Zjg5LmpwZWc=%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "AIエージェントにシェルやファイル操作を任せる時代、「うっかり」を OS レベルで止める道具が Anthropic 公式の sandbox-runtime（srt）です。本書は、GitHub Trending 入りしたこのツールを Ubuntu 24.04 上で実際にインストールし、ネットワーク制限（許可ドメインは HTTP 200、未許可は遮断）とファイル制限（許可外への書込・秘匿ファイルの読…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.314",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
@@ -273,7 +273,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 122 # Comments: 136"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 122 # Comments: 137"
   },
   {
    "src": "reddit",
@@ -305,7 +305,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 573 # Comments: 233"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 573 # Comments: 234"
   },
   {
    "src": "status",
