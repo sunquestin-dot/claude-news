@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793386583611,
+ "updatedAt": 1793390061571,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,14 @@
  },
  "items": [
   {
+   "src": "zenn",
+   "title": "Claude Code 拡張機能のバックドア事件まとめ（2.1.313・Cursor のマーケットプレイス）",
+   "link": "https://zenn.dev/sonsu/articles/67fbd9a1cf8914",
+   "date": 1793385000000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--EXWC1mQc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AE%25E3%2583%2590%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2589%25E3%2582%25A2%25E4%25BA%258B%25E4%25BB%25B6%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25EF%25BC%25882.1.313%25E3%2583%25BBCursor%2520%25E3%2581%25AE%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25B1%25E3%2583%2583%25E3%2583%2588%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:sonsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U2ZGVkNzE0NjcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "2026年10月29日、Claude Code 拡張機能の悪意あるバージョン（2.1.313）が Cursor の拡張機能マーケットプレイスに公開され、約11時間にわたって配布されました。このバージョンをインストールすると、攻撃者が SSH で PC に接続できるように設定が変更されます。この記事では、何が起きたのかを整理したうえで、自分が該当するかどうかの確認方法と、該当した場合の対応を順に説…"
+  },
+  {
    "src": "qiita",
    "title": "エージェントに構造化出力をさせる本番設計：draft-07 スキーマと失敗モードの受け止め方",
    "link": "https://qiita.com/akihidem/items/b430fc7b97007f219a6b",
@@ -66,6 +74,22 @@
    "date": 1793382902000,
    "img": "",
    "desc": "2026-10-23 のドキュメント更新は、MCP クライアントランタイムの v2 が既定で使われる条件の明確化と、OpenTelemetry の safety_event 属性の大幅な拡充が中心だ。加えて、サブエージェントへのパーミッションモード継承、環境変数によるリソー..."
+  },
+  {
+   "src": "zenn",
+   "title": "Mistral、1兆規模AIの中身を公開。AIは「持つ」時代へ",
+   "link": "https://zenn.dev/sugawara_ai/articles/ai-news-20261030",
+   "date": 1793382780000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--fecLca9R--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Mistral%25E3%2580%25811%25E5%2585%2586%25E8%25A6%258F%25E6%25A8%25A1AI%25E3%2581%25AE%25E4%25B8%25AD%25E8%25BA%25AB%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2580%2582AI%25E3%2581%25AF%25E3%2580%258C%25E6%258C%2581%25E3%2581%25A4%25E3%2580%258D%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%258F%2585%25E5%258E%259F%25E5%258F%258B%25E5%2592%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUJfd2tWRGJ6UktoZC11RldsQUxwZU5lTUpaUGxGWXAyeWJpRTdIamlDbWNPMTgwT3M9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "2026年10月30日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は「AIをどう持つか、どう使うか」が動いた日です。1兆規模のAIが中身ごと公開されて、自分の会社で「持てる」選択肢が出てきました。一方で、毎日使う道具の裏で使用量が食われているという指摘も出ています。資料作りが楽になる新機能、集客に響く検索の変化、来週のうわさまで、5本お話しします。自…"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+   "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+   "date": 1793381245000,
+   "img": "",
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 130 # Comments: 59"
   },
   {
    "src": "qiita",
@@ -129,7 +153,7 @@
    "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "date": 1793358353000,
    "img": "",
-   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 646 # Comments: 17"
+   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 648 # Comments: 17"
   },
   {
    "src": "zenn",
@@ -193,7 +217,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 509 # Comments: 391"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 575 # Comments: 397"
   },
   {
    "src": "zenn",
@@ -244,22 +268,6 @@
    "desc": "claude -p を launchd や cron で 2 本以上の連鎖ジョブにしていて、後段に「前のジョブが終わっていなければ待つ。待ちきれなければ自分でやる」という fallback を書いている人へ。 今朝の catchup は 3 時間 12 分かかりました。前日までは 6 分以内です。10:30 のジョブは 25 分待ってから「自分で提案を作る」設計で、そのとき前段はまだ走っていまし…"
   },
   {
-   "src": "zenn",
-   "title": "置き場所は合ってるのにスキルが読まれない。原因は cd だった",
-   "link": "https://zenn.dev/marunage_kacho/articles/cd-skill-blindspot",
-   "date": 1793333791000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--GjeC7zLf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25BD%25AE%25E3%2581%258D%25E5%25A0%25B4%25E6%2589%2580%25E3%2581%25AF%25E5%2590%2588%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AB%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%258C%25E8%25AA%25AD%25E3%2581%25BE%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2580%2582%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25AF%2520cd%2520%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "「直った」と書かれている不具合を、直る前の版で踏んでみる 朝の確認スクリプトが「手元 2.1.304 / 最新 2.1.312」と出した。 毎朝これを1行で見るようにしたのは数日前で、さっそく仕事をしている。 最新の CHANGELOG を読んでいたら、こんな行があった。 Fixed per-directory and paths: skills not being found after a …"
-  },
-  {
-   "src": "zenn",
-   "title": "sandbox-runtime 実走ガイド ― AIエージェントを「囲って」動かすための導入とエラー辞典",
-   "link": "https://zenn.dev/jeynari/books/d8d75041c2b4f4",
-   "date": 1793331955000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--uvGXnko9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci84MmM4MGI2Zjg5LmpwZWc=%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "AIエージェントにシェルやファイル操作を任せる時代、「うっかり」を OS レベルで止める道具が Anthropic 公式の sandbox-runtime（srt）です。本書は、GitHub Trending 入りしたこのツールを Ubuntu 24.04 上で実際にインストールし、ネットワーク制限（許可ドメインは HTTP 200、未許可は遮断）とファイル制限（許可外への書込・秘匿ファイルの読…"
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.314",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
@@ -273,7 +281,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 122 # Comments: 138"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 123 # Comments: 139"
   },
   {
    "src": "reddit",
@@ -930,14 +938,6 @@
    "date": 1791781427000,
    "img": "",
    "desc": "Article URL: https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html Comments URL: https://news.ycombinator.com/item?id=50051583 Points: 244 # Comments: 217"
-  },
-  {
-   "src": "hn",
-   "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-   "link": "https://github.com/SaarthurR/atticus-mac",
-   "date": 1791764112000,
-   "img": "",
-   "desc": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is a fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it compl…"
   },
   {
    "src": "news",
