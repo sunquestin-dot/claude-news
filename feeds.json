@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793425819800,
+ "updatedAt": 1793430136314,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "0。Anthropicが『サブエージェントを畳むなら実測してから』と発表した日、自分の委任判断に実測(eval)を伴っていた回数",
+   "link": "https://qiita.com/Hideki_Tamae/items/5f784e1b1e283d0d7ef2",
+   "date": 1793428079000,
+   "img": "",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプライン(このタスク自身)が、これまでの公開記事の中で「サブエージェントに作業を委任するかどうか」を判断した場面のうち、その判断にeval(小規模な実測比較)を伴っていたものの数で..."
+  },
+  {
+   "src": "qiita",
+   "title": "claspでやるのが馬鹿らしくなってきた ── Python MCPでGASを直撃したら、修正が爆速になってコードの質まで上がった話",
+   "link": "https://qiita.com/shu15511551/items/67a07b5e10025aeb121a",
+   "date": 1793427247000,
+   "img": "",
+   "desc": "はじめに これまで私は、Excel と VBA を AI に操作させるための専用道具「秀エクセルマネージャー」を作り、記事にも書いてきました。AI が自分でマクロを読み、差分を直し、コンパイルしてアドインに登録する。手作業で画面を行き来するのをやめ、AI が直接 Exce..."
+  },
+  {
+   "src": "qiita",
    "title": "ADRを書いて、AIに \"Why\" を理解させよう【Architecture Decision Record】",
    "link": "https://qiita.com/tetsuro731/items/65590daa94499e705850",
    "date": 1793424675000,
@@ -60,28 +76,28 @@
    "desc": "今回の記事は生成AIにより大部分を記述しています。 AIにスライドを作らせ、仕上げは手で。自分専用の資料作成ツール「deck-weave」を作った 勉強会のスライドを作るための、自分専用の Mac アプリを Claude Code と一緒に作りました。名前は d..."
   },
   {
-   "src": "qiita",
-   "title": "RAG を入れて、自分の判断を蓄積し AI を育てる ── 発言のたびに、関係する過去の記録を渡す",
-   "link": "https://qiita.com/chooser/items/2c43a0609a8e75faaf31",
-   "date": 1793422834000,
-   "img": "",
-   "desc": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 RAG を入れて、自..."
-  },
-  {
-   "src": "qiita",
-   "title": "要件定義書から利用者目線の受入テストチェックリストをAIで作り、キャプチャ欄つきで回す",
-   "link": "https://qiita.com/vaon-luandv/items/67fece9a9434bfd9fed8",
-   "date": 1793416652000,
-   "img": "",
-   "desc": "はじめに 受入テストのチェックリストを、要件定義書からAIで下書きし、画面キャプチャの欄をつけて発注側と一緒に回す手順を書きます。チェックリストを書くのが開発者だと、どうしても開発者の言葉になり、業務担当の方が読んでも何を押せばよいか分からない、ということが起きます。そこ..."
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.316",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
    "date": 1793408495000,
    "img": "",
    "desc": "What's changed - Added CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off - Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の .claude/rules/ でファイル種別ごとにルールを分ける(paths 指定の書き方)",
+   "link": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-rules-path-scoped",
+   "date": 1793397647000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ymOmj4X6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520.claude%252Frules%252F%2520%25E3%2581%25A7%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E7%25A8%25AE%25E5%2588%25A5%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%2588%2586%25E3%2581%2591%25E3%2582%258B%2528paths%2520%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2OWI5ZDEzNjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "CLAUDE.md にテストの規約、API の設計方針、フロントエンドのスタイル規則まで書いていくと、あっという間に 200 行を超えます。公式ドキュメントは「長いほど指示への追従が下がる」と明記しており、関係ない規約まで毎回読ませるのは損です。 結論として、.claude/rules/ にトピック別の Markdown を置き、必要なものには paths フロントマターを付けると、そのパターン…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-10-31: エージェントの境界を設計する",
+   "link": "https://zenn.dev/laiken/articles/20261031-tech-watch",
+   "date": 1793395811000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--gqcWOCqV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-10-31%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E5%25A2%2583%25E7%2595%258C%25E3%2582%2592%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 野生動物を識別する仕事で、写真に写る模様を手がかりに個体を追うという話が気になった。人が現場で確かめる部分と、AIに任せる部分の境目は、どこに置けばいいのだろう。自動化の価値を認めつつ、結果への責任を曖昧にしたくない。 今日の 10 件 Using Codex and ChatGPT to Moni…"
   },
   {
    "src": "reddit",
@@ -121,7 +137,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 301 # Comments: 248"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 303 # Comments: 250"
   },
   {
    "src": "zenn",
@@ -249,7 +265,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 856 # Comments: 512"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 867 # Comments: 513"
   },
   {
    "src": "zenn",
@@ -282,22 +298,6 @@
    "date": 1793341254000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--HjM0XUeP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%2594%259F%25E6%2588%2590%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E6%2596%2587%25E8%2584%2588%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2586%25E6%25AE%258B%25E3%2581%2599%25EF%25BC%259FSpecStory%25E3%2581%25AA%25E3%2581%25A93%25E3%2581%25A4%25E3%2581%25AE%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E6%25AF%2594%25E8%25BC%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:tommy%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkYTBiZjE4NjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25AE%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY1ZDVhNzQ3MDAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "1. はじめに CursorやClaude Codeの普及によって、コードの生成スピードは劇的に上がりました。しかし同時に、「なぜその設計・実装になったのか」という文脈がGitに残らない問題が浮き彫りになっています。プロンプトの指示や試行錯誤の履歴は、セッション終了とともに消えてしまうためです。その結果、現場では次のような問題が起き得ます。 PRを見ても、AIがどういう意図でこの実装に至ったのか…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code に React Native アプリを触らせるなら agent-device の CLI",
-   "link": "https://zenn.dev/gemcook/articles/rn-agent-device-cli-benchmark",
-   "date": 1793337921000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--P_9O5evx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%2520React%2520Native%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E8%25A7%25A6%25E3%2582%2589%25E3%2581%259B%25E3%2582%258B%25E3%2581%25AA%25E3%2582%2589%2520agent-device%2520%25E3%2581%25AE%2520CLI%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:y.azuma%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQyYzJiNzVlZTIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Gemcook%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFhMTNkYWIyZWQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに AI に React Native のバグを直させると、コードはそれらしく直してくれます。ただ、シミュレータで本当に直ったかを確かめさせようとすると、何かツールを入れる必要があります。React Native の有名どころの会社からも、Callstack が agent-device、Software Mansion が Argent を出していて、ほかに mobile-mcp もあり…"
-  },
-  {
-   "src": "zenn",
-   "title": "catchup が 3 時間かかった朝：無人 claude -p の「待ってから自分で作る」は二重実行の入り口になる",
-   "link": "https://zenn.dev/norman6464/articles/claude-code-chained-jobs-double-run",
-   "date": 1793335065000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--l_smeMei--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:catchup%2520%25E3%2581%258C%25203%2520%25E6%2599%2582%25E9%2596%2593%25E3%2581%258B%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E6%259C%259D%25EF%25BC%259A%25E7%2584%25A1%25E4%25BA%25BA%2520claude%2520-p%2520%25E3%2581%25AE%25E3%2580%258C%25E5%25BE%2585%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258B%25E3%2582%2589%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E3%2580%258D%25E3%2581%25AF%25E4%25BA%258C%25E9%2587%258D%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%25AE%25E5%2585%25A5%25E3%2582%258A%25E5%258F%25A3%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tekuteku%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRmM2M0ZDAwNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "claude -p を launchd や cron で 2 本以上の連鎖ジョブにしていて、後段に「前のジョブが終わっていなければ待つ。待ちきれなければ自分でやる」という fallback を書いている人へ。 今朝の catchup は 3 時間 12 分かかりました。前日までは 6 分以内です。10:30 のジョブは 25 分待ってから「自分で提案を作る」設計で、そのとき前段はまだ走っていまし…"
   },
   {
    "src": "claude-code",
@@ -345,7 +345,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 582 # Comments: 235"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 583 # Comments: 235"
   },
   {
    "src": "status",
@@ -409,7 +409,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 601 # Comments: 298"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 602 # Comments: 298"
   },
   {
    "src": "reddit",
