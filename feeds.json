@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793433525597,
+ "updatedAt": 1793436785419,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Codeでセキュリティ検証をしていたら5.5モデルが使えなくなった話",
+   "link": "https://qiita.com/yama3133/items/f60d8e504058bdef8ec0",
+   "date": 1793436024000,
+   "img": "",
+   "desc": "はじめに Claude Code で AI エージェントへのプロンプトインジェクション(入力に紛れ込ませた指示でモデルの判断を書き換える攻撃)を検証していたところ、応答が途中で止まり、そのセッションでは Opus 5.5 や Sonnet 5.5 が選べなくなりました。 ..."
+  },
+  {
+   "src": "qiita",
    "title": "WordPressからAstroへ：AIにお任せで簡単に移行？",
    "link": "https://qiita.com/blogjiraiya377/items/3af62ebab84a58f49b99",
    "date": 1793432039000,
@@ -66,14 +74,6 @@
    "date": 1793428079000,
    "img": "",
    "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプライン(このタスク自身)が、これまでの公開記事の中で「サブエージェントに作業を委任するかどうか」を判断した場面のうち、その判断にeval(小規模な実測比較)を伴っていたものの数で..."
-  },
-  {
-   "src": "qiita",
-   "title": "claspでやるのが馬鹿らしくなってきた ── Python MCPでGASを直撃したら、修正が爆速になってコードの質まで上がった話",
-   "link": "https://qiita.com/shu15511551/items/67a07b5e10025aeb121a",
-   "date": 1793427247000,
-   "img": "",
-   "desc": "はじめに これまで私は、Excel と VBA を AI に操作させるための専用道具「秀エクセルマネージャー」を作り、記事にも書いてきました。AI が自分でマクロを読み、差分を直し、コンパイルしてアドインに登録する。手作業で画面を行き来するのをやめ、AI が直接 Exce..."
   },
   {
    "src": "claude-code",
@@ -161,7 +161,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 305 # Comments: 252"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 309 # Comments: 252"
   },
   {
    "src": "zenn",
@@ -185,7 +185,7 @@
    "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
    "date": 1793370172000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 106 # Comments: 104"
+   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 107 # Comments: 104"
   },
   {
    "src": "zenn",
@@ -289,7 +289,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 875 # Comments: 514"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 884 # Comments: 522"
   },
   {
    "src": "zenn",
@@ -409,7 +409,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 602 # Comments: 298"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 603 # Comments: 298"
   },
   {
    "src": "reddit",
