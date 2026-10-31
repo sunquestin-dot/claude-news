@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793408986034,
+ "updatedAt": 1793412241725,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "1案件4セッション - 統合リポのClaude Codeにサブリポを横断レビューさせる",
+   "link": "https://qiita.com/zucky-quest/items/74ed4d7fd676dd5f5556",
+   "date": 1793412050000,
+   "img": "",
+   "desc": "TL;DR 統合リポの下に 5 つのサブリポがある構成で、案件で触るリポごとに Claude Code のセッションを 1 つずつ並べて開発しています。たとえば最近の案件では、統合リポと 3 つのサブリポを触ったので 4 セッションでした。インフラ（Terraform）..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.311 - v2.1.316）",
+   "link": "https://qiita.com/NaokiIshimura/items/d74fc44a0aa8ee403e21",
+   "date": 1793409048000,
+   "img": "",
+   "desc": "Claude Code の v2.1.311 〜 v2.1.316 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. Opus 4.8 の..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code v2.1.311 - v2.1.316 リリースノートまとめ",
+   "link": "https://qiita.com/NaokiIshimura/items/7bacddded498225b9e46",
+   "date": 1793409013000,
+   "img": "",
+   "desc": "Claude Code v2.1.311 〜 v2.1.316 のリリースノートをまとめました（v2.1.313 / v2.1.315 は CHANGELOG に存在しません）。今回のハイライトは、ultrathink の xhigh 実行と無効化用の環境変数、idle c..."
+  },
   {
    "src": "claude-code",
    "title": "v2.1.316",
@@ -60,60 +84,12 @@
    "desc": "何に困ったか 複数の Claude Code セッションを、同じ1つのクローンで同時に動かしています。 CLAUDE.md には「git add -A と reset --hard と stash は使わない」と書いていました。 ただ、文章での「お願い」は、守られないこと..."
   },
   {
-   "src": "qiita",
-   "title": "0。OpenAIのモデルが公開済みのリカバリーフレーズから資金を見つけ最終報告に書かなかったと公表された日、自分が同じ探索を実行できた回数",
-   "link": "https://qiita.com/Hideki_Tamae/items/74c2cf81a282777fc6ca",
-   "date": 1793407608000,
+   "src": "reddit",
+   "title": "Claude now watermarks everything it writes, and you're the one who can't check",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjqyv2/claude_now_watermarks_everything_it_writes_and/",
+   "date": 1793393323000,
    "img": "",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプラインを動かしている自分(Claude)が、今回の記事を書くための「自己点検」として、自分の実行環境に認証情報らしきものがどれだけ転がっているかを数えようとしたとき、実際にコマン..."
-  },
-  {
-   "src": "qiita",
-   "title": "CLAUDE.md の【重要】や YOU MUST に、効果はあるのか？",
-   "link": "https://qiita.com/kakushigoto/items/7baa88b5e07a858c897e",
-   "date": 1793406836000,
-   "img": "",
-   "desc": "🤖 AI が試して書きました。ネタは人が選び、検証と執筆は Claude Code が行いました。人は公開前の確認もしています。数字は実際に回した結果です。 CLAUDE.md やプロンプトで、守ってほしい 1 行に「【重要】」「必ず」「IMPORTANT: YOU..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code v2.1.311の修正、企業運用環境に直結する10件",
-   "link": "https://qiita.com/Sidejob/items/a2bf7ebeafc6590dfce0",
-   "date": 1793406073000,
-   "img": "",
-   "desc": "深夜の自動実行ログを朝確認すると、「Usage credits required for 1M context」を残してセッションが止まっていた。 200Kトークンを超えた処理が、標準コンテキストでは1Mのコンテキストが必要と判断されて強制終了していた。 v2.1.311で..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の .claude/rules/ でファイル種別ごとにルールを分ける(paths 指定の書き方)",
-   "link": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-rules-path-scoped",
-   "date": 1793397647000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ymOmj4X6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520.claude%252Frules%252F%2520%25E3%2581%25A7%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E7%25A8%25AE%25E5%2588%25A5%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E5%2588%2586%25E3%2581%2591%25E3%2582%258B%2528paths%2520%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2OWI5ZDEzNjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "CLAUDE.md にテストの規約、API の設計方針、フロントエンドのスタイル規則まで書いていくと、あっという間に 200 行を超えます。公式ドキュメントは「長いほど指示への追従が下がる」と明記しており、関係ない規約まで毎回読ませるのは損です。 結論として、.claude/rules/ にトピック別の Markdown を置き、必要なものには paths フロントマターを付けると、そのパターン…"
-  },
-  {
-   "src": "zenn",
-   "title": "Tech Watch 2026-10-31: エージェントの境界を設計する",
-   "link": "https://zenn.dev/laiken/articles/20261031-tech-watch",
-   "date": 1793395811000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--gqcWOCqV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-10-31%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E5%25A2%2583%25E7%2595%258C%25E3%2582%2592%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 野生動物を識別する仕事で、写真に写る模様を手がかりに個体を追うという話が気になった。人が現場で確かめる部分と、AIに任せる部分の境目は、どこに置けばいいのだろう。自動化の価値を認めつつ、結果への責任を曖昧にしたくない。 今日の 10 件 Using Codex and ChatGPT to Moni…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code 拡張機能のバックドア事件まとめ（2.1.313・Cursor のマーケットプレイス）",
-   "link": "https://zenn.dev/sonsu/articles/67fbd9a1cf8914",
-   "date": 1793385000000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--EXWC1mQc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2581%25AE%25E3%2583%2590%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2589%25E3%2582%25A2%25E4%25BA%258B%25E4%25BB%25B6%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25EF%25BC%25882.1.313%25E3%2583%25BBCursor%2520%25E3%2581%25AE%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25B1%25E3%2583%2583%25E3%2583%2588%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:sonsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U2ZGVkNzE0NjcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "2026年10月29日、Claude Code 拡張機能の悪意あるバージョン（2.1.313）が Cursor の拡張機能マーケットプレイスに公開され、約11時間にわたって配布されました。このバージョンをインストールすると、攻撃者が SSH で PC に接続できるように設定が変更されます。この記事では、何が起きたのかを整理したうえで、自分が該当するかどうかの確認方法と、該当した場合の対応を順に説…"
-  },
-  {
-   "src": "zenn",
-   "title": "Mistral、1兆規模AIの中身を公開。AIは「持つ」時代へ",
-   "link": "https://zenn.dev/sugawara_ai/articles/ai-news-20261030",
-   "date": 1793382780000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--fecLca9R--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Mistral%25E3%2580%25811%25E5%2585%2586%25E8%25A6%258F%25E6%25A8%25A1AI%25E3%2581%25AE%25E4%25B8%25AD%25E8%25BA%25AB%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2580%2582AI%25E3%2581%25AF%25E3%2580%258C%25E6%258C%2581%25E3%2581%25A4%25E3%2580%258D%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%258F%2585%25E5%258E%259F%25E5%258F%258B%25E5%2592%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUJfd2tWRGJ6UktoZC11RldsQUxwZU5lTUpaUGxGWXAyeWJpRTdIamlDbWNPMTgwT3M9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "2026年10月30日（金）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日は「AIをどう持つか、どう使うか」が動いた日です。1兆規模のAIが中身ごと公開されて、自分の会社で「持てる」選択肢が出てきました。一方で、毎日使う道具の裏で使用量が食われているという指摘も出ています。資料作りが楽になる新機能、集客に響く検索の変化、来週のうわさまで、5本お話しします。自…"
+   "desc": "Starting November 3, Anthropic extends its invisible text watermark to Mythos 5, Opus 4.7, Opus 4.6 and Sonnet 4.6. Every model released since August already has it. It applies worldwide, not just in…"
   },
   {
    "src": "reddit",
@@ -154,6 +130,14 @@
    "date": 1793370172000,
    "img": "",
    "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 102 # Comments: 101"
+  },
+  {
+   "src": "zenn",
+   "title": "会話を引き継ぐ道具を4つ読み比べたら、自分の道具だけ鍵を伏せていなかった",
+   "link": "https://zenn.dev/shoujiki_panman/articles/session-relay-compare-and-redact",
+   "date": 1793368862000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--iNI1EHwl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BC%259A%25E8%25A9%25B1%25E3%2582%2592%25E5%25BC%2595%25E3%2581%258D%25E7%25B6%2599%25E3%2581%2590%25E9%2581%2593%25E5%2585%25B7%25E3%2582%25924%25E3%2581%25A4%25E8%25AA%25AD%25E3%2581%25BF%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E9%2581%2593%25E5%2585%25B7%25E3%2581%25A0%25E3%2581%2591%25E9%258D%25B5%25E3%2582%2592%25E4%25BC%258F%25E3%2581%259B%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E6%25B2%25BC%25E7%25A7%2580%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3dBR0d4cGMtVEYxbUt3cnRSQUVTZEVVVFZTUTZRWFQ5MG9WRllkY1Jrekxxazk4ODQ9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIの会話を別のAIへ引き継ぐ道具を、自分の session-relay を含めて4つ、READMEで読み比べました。ChatGPTのdots（常に動いているエージェント）から会話を預けられるのは、session-relay だけでした。一方で、会話に混ざったAPIキーを伏せていないのも、session-relay だけでした。 伏せる処理を足して、0.4.2 として公開しました。この記事はその…"
   },
   {
    "src": "zenn",
@@ -292,6 +276,30 @@
    "desc": "1. はじめに CursorやClaude Codeの普及によって、コードの生成スピードは劇的に上がりました。しかし同時に、「なぜその設計・実装になったのか」という文脈がGitに残らない問題が浮き彫りになっています。プロンプトの指示や試行錯誤の履歴は、セッション終了とともに消えてしまうためです。その結果、現場では次のような問題が起き得ます。 PRを見ても、AIがどういう意図でこの実装に至ったのか…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Code に React Native アプリを触らせるなら agent-device の CLI",
+   "link": "https://zenn.dev/gemcook/articles/rn-agent-device-cli-benchmark",
+   "date": 1793337921000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--P_9O5evx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%2520React%2520Native%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E8%25A7%25A6%25E3%2582%2589%25E3%2581%259B%25E3%2582%258B%25E3%2581%25AA%25E3%2582%2589%2520agent-device%2520%25E3%2581%25AE%2520CLI%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:y.azuma%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQyYzJiNzVlZTIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Gemcook%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFhMTNkYWIyZWQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに AI に React Native のバグを直させると、コードはそれらしく直してくれます。ただ、シミュレータで本当に直ったかを確かめさせようとすると、何かツールを入れる必要があります。React Native の有名どころの会社からも、Callstack が agent-device、Software Mansion が Argent を出していて、ほかに mobile-mcp もあり…"
+  },
+  {
+   "src": "zenn",
+   "title": "catchup が 3 時間かかった朝：無人 claude -p の「待ってから自分で作る」は二重実行の入り口になる",
+   "link": "https://zenn.dev/norman6464/articles/claude-code-chained-jobs-double-run",
+   "date": 1793335065000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--l_smeMei--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:catchup%2520%25E3%2581%258C%25203%2520%25E6%2599%2582%25E9%2596%2593%25E3%2581%258B%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E6%259C%259D%25EF%25BC%259A%25E7%2584%25A1%25E4%25BA%25BA%2520claude%2520-p%2520%25E3%2581%25AE%25E3%2580%258C%25E5%25BE%2585%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258B%25E3%2582%2589%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E3%2580%258D%25E3%2581%25AF%25E4%25BA%258C%25E9%2587%258D%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%25AE%25E5%2585%25A5%25E3%2582%258A%25E5%258F%25A3%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tekuteku%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRmM2M0ZDAwNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "claude -p を launchd や cron で 2 本以上の連鎖ジョブにしていて、後段に「前のジョブが終わっていなければ待つ。待ちきれなければ自分でやる」という fallback を書いている人へ。 今朝の catchup は 3 時間 12 分かかりました。前日までは 6 分以内です。10:30 のジョブは 25 分待ってから「自分で提案を作る」設計で、そのとき前段はまだ走っていまし…"
+  },
+  {
+   "src": "zenn",
+   "title": "置き場所は合ってるのにスキルが読まれない。原因は cd だった",
+   "link": "https://zenn.dev/marunage_kacho/articles/cd-skill-blindspot",
+   "date": 1793333791000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--GjeC7zLf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25BD%25AE%25E3%2581%258D%25E5%25A0%25B4%25E6%2589%2580%25E3%2581%25AF%25E5%2590%2588%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AB%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%258C%25E8%25AA%25AD%25E3%2581%25BE%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2580%2582%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25AF%2520cd%2520%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "「直った」と書かれている不具合を、直る前の版で踏んでみる 朝の確認スクリプトが「手元 2.1.304 / 最新 2.1.312」と出した。 毎朝これを1行で見るようにしたのは数日前で、さっそく仕事をしている。 最新の CHANGELOG を読んでいたら、こんな行があった。 Fixed per-directory and paths: skills not being found after a …"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.314",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
@@ -322,14 +330,6 @@
    "date": 1793271171000,
    "img": "https://external-preview.redd.it/MTU1OGwzdWh6ZHloMVQcmCS5mMpHTnm2bhAD8W90KwX25in2Oims4u9df0Xa.png?width=640&crop=smart&auto=webp&s=15dad6678e5cade5ce8fb41318b99243ac9b82c7",
    "desc": "My buddy u/aegyptiacus11 and I have been working on fun side project, TabStationToo, a PS2 emulator that runs right in your browser. It's built on PCSX2 (GPL-3.0). We took its core, made it run insid…"
-  },
-  {
-   "src": "reddit",
-   "title": "👍",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xid1o2/_/",
-   "date": 1793257722000,
-   "img": "https://preview.redd.it/rlrniowuvcyh1.jpeg?width=640&crop=smart&auto=webp&s=23a4c2466f4e0ac6135256899882fb9f4ea100af",
-   "desc": "I'm having Claude help me install Kubuntu and the boomer thumbs up is cracking me up 😄 submitted by /u/alwaysalmosts [link] [comments]"
   },
   {
    "src": "hn",
