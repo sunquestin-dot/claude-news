@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793403951694,
+ "updatedAt": 1793408986034,
  "sources": {
   "news": {
    "ok": true,
@@ -22,16 +22,16 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": true,
    "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -44,60 +44,44 @@
  },
  "items": [
   {
-   "src": "qiita",
-   "title": "Claude Code内蔵cronでlaunchdを置き換える — 移行手順と、置き換えてはいけないジョブの見分け方",
-   "link": "https://qiita.com/joinclass/items/da83ea0eb203e28e693d",
-   "date": 1793403002000,
+   "src": "claude-code",
+   "title": "v2.1.316",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+   "date": 1793408495000,
    "img": "",
-   "desc": "はじめに：33個のlaunchdジョブを抱えて 当社（合同会社ジョインクラス）は、記事公開・売上取得・朝のダイジェスト生成などをClaude Codeで自動化しています。動かしているのはmacOSのlaunchdで、2026年9月に棚卸ししたところ 33ジョブ ありました..."
-  },
-  {
-   "src": "qiita",
-   "title": "EmDash on CloudflareでWebサイトを公開してClaudeからAIで更新してみた",
-   "link": "https://qiita.com/tamaoki_t/items/d68f0cf4883100546e7b",
-   "date": 1793401814000,
-   "img": "",
-   "desc": "「WordPressのプラグイン更新やセキュリティ対策に疲れた」「生成AIにブログ更新を任せたいけど、管理画面を操作させるのは不安」——そんな悩みを抱えていませんか。2026年9月に正式版となったCloudflare発のCMS「EmDash」は、サーバーレスで動き、AIとつ..."
+   "desc": "What's changed - Added CLAUDE_CODE_DISABLE_ULTRATHINK , which turns the ultrathink keyword off - Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share…"
   },
   {
    "src": "qiita",
-   "title": "Claude Code の副エージェントに読み手6人を演じさせたら、6人とも同じ5か所で離れた",
-   "link": "https://qiita.com/kaiyaku_iyada/items/814d3a8b8c3ddc4e8538",
-   "date": 1793401216000,
+   "title": "Claude Code の PreToolUse フックで git add -A や reset --hard を機械的に止める(誤検知の避け方つき)",
+   "link": "https://qiita.com/takamatt_ai/items/2ed447a87f8d7900cea0",
+   "date": 1793408262000,
    "img": "",
-   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とは無関係の個人の実験で、同社の公認や提携ではありません。書いてあるのは、2026年10月24日までの計画書・台帳・調査メモ、副..."
-  },
-  {
-   "src": "zenn",
-   "title": "Skills / Hooks / MCP / CLAUDE.md の使い分け — 判断フローチャート付き",
-   "link": "https://zenn.dev/joinclass/articles/skills-hooks-mcp-claude-md-20260916220024-25755",
-   "date": 1793401215000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--eHtWK_fT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Skills%2520%252F%2520Hooks%2520%252F%2520MCP%2520%252F%2520CLAUDE.md%2520%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%2520%25E2%2580%2594%2520%25E5%2588%25A4%25E6%2596%25AD%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2581%25E3%2583%25A3%25E3%2583%25BC%25E3%2583%2588%25E4%25BB%2598%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:JOINCLASS%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NhOWUwY2FiYmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "なぜこの整理が必要になったか 僕は合同会社ジョインクラスという一人会社を、Claude Code を中心に据えて運営している。記事執筆、書籍出版、営業、経理まで .claude/ 配下の設定で回している。 その過程で一番時間を溶かしたのは、コードを書くことではなく 「この処理はどこに書くのが正解なのか」 という判断だった。CLAUDE.md に書いたルールが守られない。Skill にしたら呼ばれ…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code のスライド作成スキル5つ＋スキルなしで、同じ原稿から資料を作り比べた",
-   "link": "https://zenn.dev/khayashida/articles/5e9837519646fd",
-   "date": 1793400093000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Te5PcF56--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2589%25E4%25BD%259C%25E6%2588%2590%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB5%25E3%2581%25A4%25EF%25BC%258B%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AA%25E3%2581%2597%25E3%2581%25A7%25E3%2580%2581%25E5%2590%258C%25E3%2581%2598%25E5%258E%259F%25E7%25A8%25BF%25E3%2581%258B%25E3%2582%2589%25E8%25B3%2587%25E6%2596%2599%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%259E%2597%25E7%2594%25B0%25E5%25B9%25B8%25E4%25B8%2580%25EF%25BC%2588%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25A8%25E3%2582%25A4%25E3%2583%2581%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEZoaEpBTWphaUtOLWtHb2RGeUZ1OFVsTG9Rc3RwMUhUam9fRzVOY3pTaDREXzR3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code でスライドを作るスキル（Agent Skills）を5つ選び、「スキルを使わない場合」も加えた6条件で、同じテキスト原稿から5枚の資料を作りました。出力された PDF をページごとに並べて比べた結果をまとめます。 ! 結論 見た目の差は思ったより小さく、スキルなしでも見劣りしなかった 差が出たのは「編集できる PPTX を出せるか」と「機械で検査する仕組みがあるか」の2点…"
-  },
-  {
-   "src": "zenn",
-   "title": "Zenn に毎日1本ずつ記事を出したかった。でも、いつ送れば通るのかが分からなかった",
-   "link": "https://zenn.dev/claire_ai/articles/zenn-jougen-iriguchi",
-   "date": 1793399000000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--rlxYmsU0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Zenn%2520%25E3%2581%25AB%25E6%25AF%258E%25E6%2597%25A51%25E6%259C%25AC%25E3%2581%259A%25E3%2581%25A4%25E8%25A8%2598%25E4%25BA%258B%25E3%2582%2592%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%25E3%2581%25A7%25E3%2582%2582%25E3%2580%2581%25E3%2581%2584%25E3%2581%25A4%25E9%2580%2581%25E3%2582%258C%25E3%2581%25B0%25E9%2580%259A%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%25E3%2581%258C%25E5%2588%2586%25E3%2581%258B%25E3%2582%2589%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI（Claude Code）に、記事を Zenn・note・Substack・Medium の4つに出させている。Zenn には GitHub の連携で出していて、送るのは AI の仕事だ。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/nf24cf05b3b2…"
+   "desc": "何に困ったか 複数の Claude Code セッションを、同じ1つのクローンで同時に動かしています。 CLAUDE.md には「git add -A と reset --hard と stash は使わない」と書いていました。 ただ、文章での「お願い」は、守られないこと..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code の Agent Skill を自作する（本の表紙つき本棚と、記事の下書き保存を例に）",
-   "link": "https://qiita.com/takibito/items/28800a2e79ec63c3a3bd",
-   "date": 1793397783000,
+   "title": "0。OpenAIのモデルが公開済みのリカバリーフレーズから資金を見つけ最終報告に書かなかったと公表された日、自分が同じ探索を実行できた回数",
+   "link": "https://qiita.com/Hideki_Tamae/items/74c2cf81a282777fc6ca",
+   "date": 1793407608000,
    "img": "",
-   "desc": "この記事でできること Claude Code の Agent Skill を自分で作り、決まった手順を1つの依頼で実行できるようにします。例として、私が Obsidian の読書ログと Qiita の記事づくりで使っているスキルを2つ紹介します。 add-book：本..."
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプラインを動かしている自分(Claude)が、今回の記事を書くための「自己点検」として、自分の実行環境に認証情報らしきものがどれだけ転がっているかを数えようとしたとき、実際にコマン..."
+  },
+  {
+   "src": "qiita",
+   "title": "CLAUDE.md の【重要】や YOU MUST に、効果はあるのか？",
+   "link": "https://qiita.com/kakushigoto/items/7baa88b5e07a858c897e",
+   "date": 1793406836000,
+   "img": "",
+   "desc": "🤖 AI が試して書きました。ネタは人が選び、検証と執筆は Claude Code が行いました。人は公開前の確認もしています。数字は実際に回した結果です。 CLAUDE.md やプロンプトで、守ってほしい 1 行に「【重要】」「必ず」「IMPORTANT: YOU..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code v2.1.311の修正、企業運用環境に直結する10件",
+   "link": "https://qiita.com/Sidejob/items/a2bf7ebeafc6590dfce0",
+   "date": 1793406073000,
+   "img": "",
+   "desc": "深夜の自動実行ログを朝確認すると、「Usage credits required for 1M context」を残してセッションが止まっていた。 200Kトークンを超えた処理が、標準コンテキストでは1Mのコンテキストが必要と判断されて強制終了していた。 v2.1.311で..."
   },
   {
    "src": "zenn",
@@ -145,7 +129,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 269 # Comments: 216"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 276 # Comments: 225"
   },
   {
    "src": "zenn",
@@ -162,6 +146,14 @@
    "date": 1793371805000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--B8QqbQo7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:VS%2520Code%2520%25E3%2581%25AE%2520Claude%2520Code%2520%25E6%258B%25A1%25E5%25BC%25B5%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2590%25E3%2581%25A7%25E8%25B1%25A1%2520%257C%2520%25E3%2582%25A8%25E3%2582%25A2%25E3%2582%25B3%25E3%2583%25B3%25E8%25A7%25A3%25E7%25A6%2581%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFjNDM2M2U2OTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "VS Code のターミナルで claude を起動すると、拡張機能「Claude Code for VS Code」が自動でインストールされます。これ、デフォルトの仕様です。 If you run claude in a VS Code integrated terminal, Claude Code reinstalls the extension automatically. — 公式 d…"
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic Cracking Down on Video Game Rewrites",
+   "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+   "date": 1793370172000,
+   "img": "",
+   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 102 # Comments: 101"
   },
   {
    "src": "zenn",
@@ -265,7 +257,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 726 # Comments: 454"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 766 # Comments: 479"
   },
   {
    "src": "zenn",
@@ -274,6 +266,30 @@
    "date": 1793343498000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--LaURDNqN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E5%2590%258D%25E3%2582%2592%25E4%25B8%2580%25E6%258B%25AC%25E3%2581%25A7%25E5%25AE%2589%25E5%2585%25A8%25E3%2581%25AB%25E4%25BB%2598%25E3%2581%2591%25E6%259B%25BF%25E3%2581%2588%25E3%2582%258B%2520%25E3%2580%259C%25E4%25B8%258A%25E6%259B%25B8%25E3%2581%258D%25E4%25BA%258B%25E6%2595%2585%25E3%2582%2592%25E8%25B5%25B7%25E3%2581%2593%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25E9%25A0%25BC%25E3%2581%25BF%25E6%2596%25B9%25E3%2580%259C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25B7%25E3%2583%25A5%25E3%2583%25B3%25E3%2582%25AF%25E5%25A0%2582%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVh1QWozU2dVaFYwSVM5T2kwM3RJWmlBeUU0YTZxcTRGWExzWDRKZGl2QW54UUtVcml0Zz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! これは「Claude Codeで、手元の仕事を片付ける」シリーズ——手順どおりやれば、その日のうちに成果物が手に入るハンズオンです。 （姉妹編：Claude Code初心者向け教科書 全8章） #1: まず「元に戻せる状態」を作る #2: 散らかったフォルダを片付ける #3: ExcelとCSVをAIに読ませて集計する #4: 請求書・領収書のPDFから一覧表を作る #5: ファイル名を一括…"
+  },
+  {
+   "src": "zenn",
+   "title": "0。Anthropicが上場に向けてS-1を提出した日、自分の実行モデル3スロットに他社の名前は1つも無かった",
+   "link": "https://zenn.dev/hideki_tamae/articles/anthropic-ipo-s1-single-vendor-model-slots",
+   "date": 1793341943000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--3QxqRhFm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:0%25E3%2580%2582Anthropic%25E3%2581%258C%25E4%25B8%258A%25E5%25A0%25B4%25E3%2581%25AB%25E5%2590%2591%25E3%2581%2591%25E3%2581%25A6S-1%25E3%2582%2592%25E6%258F%2590%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E6%2597%25A5%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E5%25AE%259F%25E8%25A1%258C%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB3%25E3%2582%25B9%25E3%2583%25AD%25E3%2583%2583%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%2596%25E7%25A4%25BE%25E3%2581%25AE%25E5%2590%258D%25E5%2589%258D%25E3%2581%25AF1%25E3%2581%25A4%25E3%2582%2582%25E7%2584%25A1%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2594%25B0%25E5%2589%258D%25E7%25A7%2580%25E6%25A8%25B9%2520%257C%2520%2520AI%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2580%2580%25E8%25B5%25B7%25E6%25A5%25AD...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY4MzQxMGU5NzYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、この記事を自動で書いて投稿している自分自身のタスクが、起動時に指定している実行モデル(プライマリ1つ・フォールバック2つ、計3スロット)のうち、Anthropic以外の会社名が入っているスロットの数です。 きっかけは、Anthropicが2026年10月26日、新規株式公開(IPO)に向けてSECにS-1を提出したという発表でした(Anth…"
+  },
+  {
+   "src": "zenn",
+   "title": "動かさない技術 第1回：手順を守らせない技術",
+   "link": "https://zenn.dev/garplab/articles/014ee22d44766f",
+   "date": 1793341503000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--86RxwV4c--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258B%2595%25E3%2581%258B%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25E6%258A%2580%25E8%25A1%2593%2520%25E7%25AC%25AC1%25E5%259B%259E%25EF%25BC%259A%25E6%2589%258B%25E9%25A0%2586%25E3%2582%2592%25E5%25AE%2588%25E3%2582%2589%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25E6%258A%2580%25E8%25A1%2593%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:garplab%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnJLclpvV19BYkZLd2xYTHI3UHp3M01HQVc3OVNHWTVQU0F5OUh3NmRxX3pCUVZCU1g9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事は、連載「動かさない技術」の第 1 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の一覧は序論にあります。 今回は、AI に手順を守らせる話です。手順というのは、成果物（出来上がるもの）を指定する代わりに、過程（進め方）を指定した指示のことで…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI生成コードの文脈をどう残す？SpecStoryなど3つのツールを比較",
+   "link": "https://zenn.dev/gixo/articles/a2c72795e79140",
+   "date": 1793341254000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HjM0XUeP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%2594%259F%25E6%2588%2590%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E6%2596%2587%25E8%2584%2588%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2586%25E6%25AE%258B%25E3%2581%2599%25EF%25BC%259FSpecStory%25E3%2581%25AA%25E3%2581%25A93%25E3%2581%25A4%25E3%2581%25AE%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E6%25AF%2594%25E8%25BC%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:tommy%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkYTBiZjE4NjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25AE%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY1ZDVhNzQ3MDAuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "1. はじめに CursorやClaude Codeの普及によって、コードの生成スピードは劇的に上がりました。しかし同時に、「なぜその設計・実装になったのか」という文脈がGitに残らない問題が浮き彫りになっています。プロンプトの指示や試行錯誤の履歴は、セッション終了とともに消えてしまうためです。その結果、現場では次のような問題が起き得ます。 PRを見ても、AIがどういう意図でこの実装に至ったのか…"
   },
   {
    "src": "claude-code",
@@ -321,7 +337,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 579 # Comments: 235"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 581 # Comments: 235"
   },
   {
    "src": "status",
@@ -764,14 +780,6 @@
    "desc": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins."
   },
   {
-   "src": "claude-code",
-   "title": "v2.1.304",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
-   "date": 1792445679000,
-   "img": "",
-   "desc": "What's changed - Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin - Added decider: \"person\" to a mod's tool.check answer: only the …"
-  },
-  {
    "src": "hn",
    "title": "The obscure trust looming over Anthropic's IPO",
    "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
@@ -930,14 +938,6 @@
    "date": 1791829049000,
    "img": "",
    "desc": "Article URL: https://micahflee.com/just-say-no-to-openai-and-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50060500 Points: 171 # Comments: 171"
-  },
-  {
-   "src": "hn",
-   "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-   "link": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-   "date": 1791781427000,
-   "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html Comments URL: https://news.ycombinator.com/item?id=50051583 Points: 244 # Comments: 217"
   },
   {
    "src": "news",
