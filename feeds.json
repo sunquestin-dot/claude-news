@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793451485781,
+ "updatedAt": 1793454733273,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Codeの利用料を計測する（New Relic、Langfuse、ccusage）",
+   "link": "https://qiita.com/suzuki_sh/items/34871b7d49c0a27e83af",
+   "date": 1793451763000,
+   "img": "",
+   "desc": "Claude CodeのMaxやTeamプランは基本的に定額制となっていますが、従量課金制のプランや追加クレジットもあります。しかし普段から定額制で使っていると、従量課金でどれくらいの金額になるのかは、よく分かりません。 定額制プランのClaude Codeでも、利用状況を..."
+  },
+  {
+   "src": "qiita",
    "title": "【ServiceNow】これから始めるAI Control Tower実践：実画面で見る「何ができるのか」",
    "link": "https://qiita.com/AoraNow_Yoshiyuki_Ito/items/c780df751b781bc06d6c",
    "date": 1793451317000,
@@ -68,12 +76,28 @@
    "desc": "先に結果 同じコードベースから、5 つの AI（Claude・Gemini・Grok・GPT・Codex）に別々の作業場を作り、同じ課題を 5 ラウンド渡して比べました（2026 年 8 月 30 日、実行は 1 日）。 結果は、1 つの順位には決まりませんでした。やった..."
   },
   {
-   "src": "qiita",
-   "title": "claude-mem入門 — Claude Codeへ永続メモリを足す仕組み",
-   "link": "https://qiita.com/kai_kou/items/04ab428a9168b6fe76dc",
-   "date": 1793445047000,
-   "img": "",
-   "desc": "はじめに Claude Code のセッションを終えるたびに、直前まで積み上げた文脈が消える。次のセッションで同じ説明をもう一度書く手間に覚えがある人は多いはずだ。この「セッションをまたぐ記憶」を OSS で解決しようとしているのが claude-mem で、npm の..."
+   "src": "zenn",
+   "title": "ChatGPTのコピペ開発はもう終わり！AIエージェント「最初の一歩」完全入門",
+   "link": "https://zenn.dev/yui_dev_ai/articles/01-ai-coding-agent-beginner-guide",
+   "date": 1793440806000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Kwv0Ish3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%2594%25E3%2583%259A%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AF%25E3%2582%2582%25E3%2581%2586%25E7%25B5%2582%25E3%2582%258F%25E3%2582%258A%25EF%25BC%2581AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2580%258C%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E4%25B8%2580%25E6%25AD%25A9%25E3%2580%258D%25E5%25AE%258C%25E5%2585%25A8%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:YUI%2520%2540%2520AI%2520Developer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlNGZlY2IyMWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに：ブラウザ往復の限界 日々のプログラミングやWeb制作、業務効率化スクリプトの作成において、ChatGPTやClaudeといった生成AIを活用する方は非常に増えています。エラーメッセージをブラウザのチャット画面に貼り付けて原因を聞いたり、「〇〇する関数を書いて」とお願いして出力されたコードを自分のエディタにコピー＆ペーストしたりするスタイルは、今や多くの開発者にとって当たり前の光景になり…"
+  },
+  {
+   "src": "zenn",
+   "title": "個人開発の数字を、Claude Codeの定期実行で3時間おきに集める",
+   "link": "https://zenn.dev/atsushi_apps/articles/auto-collect-app-sns-stats",
+   "date": 1793440805000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--bWlZAC5C--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E6%2595%25B0%25E5%25AD%2597%25E3%2582%2592%25E3%2580%2581Claude%2520Code%25E3%2581%25AE%25E5%25AE%259A%25E6%259C%259F%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%25A73%25E6%2599%2582%25E9%2596%2593%25E3%2581%258A%25E3%2581%258D%25E3%2581%25AB%25E9%259B%2586%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Atsushi%25EF%25BD%259C%25E5%2580%258B%25E4%25BA%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E9%2596%258B%25E7%2599%25BA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQzMWZjMzI5OTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "iPhoneアプリを一人で作っている Atsushi です。アプリの告知のために、X・Threads・Instagram・TikTok・YouTube・note の6つのSNSを運用しています。 公開すると、数字が気になります。でも、SNSごと・アプリごとに画面を開いて回るのは大変です。そこで、数字を3時間おきに自動で集めて、1つのダッシュボードにまとめるようにしました。 この記事では、その仕組…"
+  },
+  {
+   "src": "zenn",
+   "title": "バイブコーディングのセキュリティリスクとは？12個のアプリで脆弱性を検証",
+   "link": "https://zenn.dev/nocodesolutions/articles/2169ac02f3820a",
+   "date": 1793438482000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--8gudWXo4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25AA%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25A8%25E3%2581%25AF%25EF%25BC%259F12%25E5%2580%258B%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A7%25E8%2584%2586%25E5%25BC%25B1%25E6%2580%25A7%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2583%258E%25E3%2583%25BC%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%25BD%25E3%2583%25AA%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%25BA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzMxZTE5ZGQ2NDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに：AIで作った社内アプリは、そのまま使って安全か 社内の案件管理や日報を、AIで作っていないでしょうか。エンジニアでない経営者が、Claude Codeで1か月に社内アプリを13本作ったという事例もあります（@DIME、2026年8月3日）。コードを書かずに、AIに言葉で指示してアプリを作る流れはバイブコーディングと呼ばれ、ここ最近急速に広がっています。 一方で、セキュリティ面で不安にな…"
   },
   {
    "src": "zenn",
@@ -220,30 +244,6 @@
    "desc": "これからClaude Code・Gemini・Antigravity等を始める初心者から実務者まで、フォルダにコピペして置くだけで「安全に自走するAI開発チーム」が完成する実践設計書＆テンプレートセット。汎用AGENTS.md、現場で最も使う5大実用SKILL.mdテンプレート、新規スキル生成メタスキル、AIに.envやURLを見せない秘匿デプロイスクリプト、main保護Git自動化まで全コード…"
   },
   {
-   "src": "zenn",
-   "title": "なぜAIは10ターン目から指示を忘れるのか？暴走を止める「AGENTS.md」と「SKILL.md」の黄金分割",
-   "link": "https://zenn.dev/yui_dev_ai/articles/ai-agent-rules-and-skills-design",
-   "date": 1793406566000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--e83dHgzn--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%25AA%25E3%2581%259CAI%25E3%2581%25AF10%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E7%259B%25AE%25E3%2581%258B%25E3%2582%2589%25E6%258C%2587%25E7%25A4%25BA%25E3%2582%2592%25E5%25BF%2598%25E3%2582%258C%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%25EF%25BC%259F%25E6%259A%25B4%25E8%25B5%25B0%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2580%258CAGENTS.md%25E3%2580%258D%25E3%2581%25A8%25E3%2580%258CSKILL.md%25E3%2580%258D%25E3%2581%25AE%25E9%25BB%2584%25E9%2587%2591%25E5%2588%2586%25E5%2589%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:YUI%2520%2540%2520AI%2520Developer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlNGZlY2IyMWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "なぜAIは「10ターン目」から暴走するのか Claude Code、Gemini、Antigravity、Cursorといった自律型AIコーディングエージェントを実務に導入した開発者の多くが、ある共通の現象に頭を抱えています。 プロジェクト立ち上げ直後は、あなたが書いた AGENTS.md（あるいは CLAUDE.md / GEMINI.md）の規約を忠実に守っていたはずのエージェントが、運用開…"
-  },
-  {
-   "src": "zenn",
-   "title": "Skills / Hooks / MCP / CLAUDE.md の使い分け — 判断フローチャート付き",
-   "link": "https://zenn.dev/joinclass/articles/skills-hooks-mcp-claude-md-20260916220024-25755",
-   "date": 1793401215000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--eHtWK_fT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Skills%2520%252F%2520Hooks%2520%252F%2520MCP%2520%252F%2520CLAUDE.md%2520%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%2520%25E2%2580%2594%2520%25E5%2588%25A4%25E6%2596%25AD%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2581%25E3%2583%25A3%25E3%2583%25BC%25E3%2583%2588%25E4%25BB%2598%25E3%2581%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:JOINCLASS%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NhOWUwY2FiYmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "なぜこの整理が必要になったか 僕は合同会社ジョインクラスという一人会社を、Claude Code を中心に据えて運営している。記事執筆、書籍出版、営業、経理まで .claude/ 配下の設定で回している。 その過程で一番時間を溶かしたのは、コードを書くことではなく 「この処理はどこに書くのが正解なのか」 という判断だった。CLAUDE.md に書いたルールが守られない。Skill にしたら呼ばれ…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code のスライド作成スキル5つ＋スキルなしで、同じ原稿から資料を作り比べた",
-   "link": "https://zenn.dev/khayashida/articles/5e9837519646fd",
-   "date": 1793400093000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Te5PcF56--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2589%25E4%25BD%259C%25E6%2588%2590%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB5%25E3%2581%25A4%25EF%25BC%258B%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AA%25E3%2581%2597%25E3%2581%25A7%25E3%2580%2581%25E5%2590%258C%25E3%2581%2598%25E5%258E%259F%25E7%25A8%25BF%25E3%2581%258B%25E3%2582%2589%25E8%25B3%2587%25E6%2596%2599%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%259E%2597%25E7%2594%25B0%25E5%25B9%25B8%25E4%25B8%2580%25EF%25BC%2588%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25A8%25E3%2582%25A4%25E3%2583%2581%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEZoaEpBTWphaUtOLWtHb2RGeUZ1OFVsTG9Rc3RwMUhUam9fRzVOY3pTaDREXzR3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code でスライドを作るスキル（Agent Skills）を5つ選び、「スキルを使わない場合」も加えた6条件で、同じテキスト原稿から5枚の資料を作りました。出力された PDF をページごとに並べて比べた結果をまとめます。 ! 結論 見た目の差は思ったより小さく、スキルなしでも見劣りしなかった 差が出たのは「編集できる PPTX を出せるか」と「機械で検査する仕組みがあるか」の2点…"
-  },
-  {
    "src": "reddit",
    "title": "Claude now watermarks everything it writes, and you're the one who can't check",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjqyv2/claude_now_watermarks_everything_it_writes_and/",
@@ -265,7 +265,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 311 # Comments: 261"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 312 # Comments: 262"
   },
   {
    "src": "hn",
@@ -297,7 +297,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 918 # Comments: 536"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 925 # Comments: 537"
   },
   {
    "src": "claude-code",
@@ -345,7 +345,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 583 # Comments: 235"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 584 # Comments: 235"
   },
   {
    "src": "status",
