@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793440214900,
+ "updatedAt": 1793443586870,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Codeが「昨日の続き」を忘れる問題と、claude-memを入れて分かった最大の罠",
+   "link": "https://qiita.com/0x000x7f/items/2c5e1dd52b66bb965484",
+   "date": 1793442590000,
+   "img": "",
+   "desc": "セッションを閉じると、文脈は消える Claude Codeの文脈はセッション単位です。ターミナルを閉じた瞬間に「昨日どこまでやったか」「あのバグをどう直したか」は消え、次のセッションでは毎回説明し直しになります。プロジェクトが数日規模になると、この再説明だけでトークンと時..."
+  },
   {
    "src": "qiita",
    "title": "逸般家庭のProxmoxにPenpotを立てて、Claude Codeにデザインを見ながらアプリを作ってもらう",
@@ -66,38 +74,6 @@
    "date": 1793437215000,
    "img": "",
    "desc": "Claude Code を使って開発していると、次のような経験はないでしょうか。 「TypeScript のエラーを修正して」と指示したところ、Claude は修正を完了したと報告してきた。しかし、実際に npm run build を実行すると、まだ別のエラーが残っている..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeでセキュリティ検証をしていたら5.5モデルが使えなくなった話",
-   "link": "https://qiita.com/yama3133/items/f60d8e504058bdef8ec0",
-   "date": 1793436024000,
-   "img": "",
-   "desc": "はじめに Claude Code で AI エージェントへのプロンプトインジェクション(入力に紛れ込ませた指示でモデルの判断を書き換える攻撃)を検証していたところ、応答が途中で止まり、そのセッションでは Opus 5.5 や Sonnet 5.5 が選べなくなりました。 ..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code への引き継ぎ書に、守るガイドラインを1行ずつ表にして付けています。1つでも満たせなければ、実装を止めて質問させます",
-   "link": "https://zenn.dev/rapls/articles/a5a81af5defe41",
-   "date": 1793424953000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--3xzJFUrj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25B8%25E3%2581%25AE%25E5%25BC%2595%25E3%2581%258D%25E7%25B6%2599%25E3%2581%258E%25E6%259B%25B8%25E3%2581%25AB%25E3%2580%2581%25E5%25AE%2588%25E3%2582%258B%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25921%25E8%25A1%258C%25E3%2581%259A%25E3%2581%25A4%25E8%25A1%25A8%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E4%25BB%2598%25E3%2581%2591%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25BE%25E3%2581%2599%25E3%2580%25821%25E3%2581%25A4%25E3%2581%25A7%25E3%2582%2582%25E6%25BA%2580%25E3%2581%259F%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2591%25E3%2582%258C%25E3%2581%25B0%25E3%2580%2581...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Rapls%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlODIyZTEyOWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "WordPress.org で公開している自作の無料プラグインに、ほかの自作プラグインを紹介する欄を足すことにしました。設定画面の中に、短い説明と「詳細」のリンクを3本まで並べるだけの欄です。 作業は Claude Code に頼みます。引き継ぎ書は、チャットの Claude と一緒に作っています。 宣伝にかかわる作業なので、WordPress.org のプラグインガイドラインに触れないかが心配…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Agent SDK を使ってみた。何往復もの作業におすすめ",
-   "link": "https://zenn.dev/keisato848/articles/agent-sdk-cache-bill",
-   "date": 1793422408000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--OmstQwKu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Agent%2520SDK%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2580%2582%25E4%25BD%2595%25E5%25BE%2580%25E5%25BE%25A9%25E3%2582%2582%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2599%25E3%2581%2599%25E3%2582%2581%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:keisato%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NlNzhjMjhhNmEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Agent SDK を 405 回動かした記録で、使ったトークン(AI が文章を数える単位)の量と請求の内訳を並べました。 Sonnet の入力トークンの内訳(100% = 約 4.0 億) 読み　　 ████████████████████████████ 93.3% 書き込み ██ 6.7% Sonnet の請求の内訳(100% = $183.62) 出力　　 █████████████ 4…"
-  },
-  {
-   "src": "zenn",
-   "title": "10問に答えるだけで、Claude Code に渡す設計の4ファイルを作るツールを作った",
-   "link": "https://zenn.dev/sivami/articles/79d6de9644a4f7",
-   "date": 1793421780000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ZlyV5Mo7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:10%25E5%2595%258F%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25AE4%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:sivami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3QxM0MwTEhvSVJ2dUw2dGRudzM0Z01DMHVTTWhqcmlPUk5CUGtrVjVuSE9iVUJ3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code に「これを作って」と頼むとき、最初の説明があいまいだと、あとで手戻りが増えます。かといって、CLAUDE.md や要件のメモを毎回ゼロから書くのは重い。 そこで、AI からの質問に10問答えるだけで、Claude Code に渡す4つのファイルができる Web ツールを作りました。登録なしで、1日3回まで無料で使えます。 使う: https://specchat-eta.…"
   },
   {
    "src": "zenn",
@@ -274,6 +250,30 @@
    "date": 1793367238000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--gRy4fe6T--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2590%258C%25E3%2581%25986%25E5%25B7%25A5%25E7%25A8%258B%25E3%2582%2592%25E5%25B7%25A5%25E7%25A8%258B%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB6%25E5%259B%259E%25E3%2581%25AB%25E5%2588%2586%25E3%2581%2591%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E9%2581%2594%25E6%2588%2590%25E4%25BB%25B6%25E6%2595%25B0%25E3%2581%25AF30%252F30%25E3%2581%25A7%25E5%2590%258C%25E3%2581%2598%25E3%2581%25BE%25E3%2581%25BE%25E3%2580%2581%25E6%2596%2599%25E9%2587%25911.55%25E5%2580%258D%25E3%2583%25BB%25E6%2589%2580%25E8%25A6%25811.85%25E5%2580%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%2593%25E3%2581%25AEZenn%25E8%25A8%2598%25E4%25BA%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG44LWtDRklOak05ZW5oWjhTb2xTdWdEeGhaM3RpemJHZTRVYWxJbEZ6MGtwb3dUTzk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "X で、検定試験の練習問題を見かけました。「複雑な仕事をAIに依頼します。より適切なプロンプト設計は どれ?」という問いに、「すべての作業を曖昧な一文で指示する」「『いい感じにやって』と任せる」 「作業を工程ごとに分けて順番に処理させる」の3つが並んでいます。設問自体には数値が1つも無いので、 どれが正解かという話は扱いません。ただ「工程ごとに分けて順番に頼む」と「まとめて1回で頼む」で 手元の…"
+  },
+  {
+   "src": "zenn",
+   "title": "学習記録アプリを作りながらWeb開発を学ぶ #5 ブラウザに保存する（localStorage）",
+   "link": "https://zenn.dev/nori_tech/articles/manabi-log-05-localstorage",
+   "date": 1793366313000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s---AuzO9xW--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AD%25A6%25E7%25BF%2592%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25AA%25E3%2581%258C%25E3%2582%2589Web%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E5%25AD%25A6%25E3%2581%25B6%2520%25235%2520%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%25AB%25E4%25BF%259D%25E5%25AD%2598%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588localStorage%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25B2%25B3%25E9%2587%258E%25E5%2593%25B2%25E5%25BF%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmo4TmFXeFlvRXM4WUVfZ3FFc01qYWhVSGtrMGdLVnNpZTJDWm9YYTBoPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! このシリーズは、学習記録アプリ「まなびログ」を作りながら Web 開発を基礎から学ぶ記録です。 前回：#4 記録を一覧に追加する 今日やったこと 前回までのアプリは、F5 を押すと記録が全部消えていました。今日は、ブラウザに記録を保存して、ページを開き直しても記録が残るようにしました。 追加したのはたった3行です。 なぜ消えていたのか 記録は JavaScript の中（メモリ）の配列に入っ…"
+  },
+  {
+   "src": "zenn",
+   "title": "開発途中でAIモデルやエージェントを替えても品質を落とさない：リポジトリに残す3原則",
+   "link": "https://zenn.dev/lumichy/articles/ai-agent-model-switch-guide-2026",
+   "date": 1793360896000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--qnQZ1zeX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%2596%258B%25E7%2599%25BA%25E9%2580%2594%25E4%25B8%25AD%25E3%2581%25A7AI%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2582%2584%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%259B%25BF%25E3%2581%2588%25E3%2581%25A6%25E3%2582%2582%25E5%2593%2581%25E8%25B3%25AA%25E3%2582%2592%25E8%2590%25BD%25E3%2581%25A8%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259A%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2581%25AB%25E6%25AE%258B%25E3%2581%25993%25E5%258E%259F%25E5%2589%2587%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:lumichy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2JKREhqSzZDZU9QaFNKLXlfcUFhT1FuS0kwY0JmSWJVZEZUQnJGUWRGNWJNSUU5T2s9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIコーディングエージェントを使った中〜大規模な開発では、途中でモデルやエージェントを替えなければならない場面が必ず出てきます。 コストの見直し、新しいモデルの登場、利用できるプロバイダーの変更、レートリミット（利用上限）への到達、あるいは社内で使うツールの変更（Claude Code から Cursor や Cline への移行など）が典型的な理由です。 しかし、いざ開発の途中でモデルを切り替…"
+  },
+  {
+   "src": "zenn",
+   "title": "設計記録（ADR）が増えて AI が古い仕様で判断する問題を解く ── 記録は消さず、現行を索引で示す",
+   "link": "https://zenn.dev/chooser/articles/cp-057-ai-dev-process",
+   "date": 1793358432000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--RtOlmQUr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25A8%25AD%25E8%25A8%2588%25E8%25A8%2598%25E9%258C%25B2%25EF%25BC%2588ADR%25EF%25BC%2589%25E3%2581%258C%25E5%25A2%2597%25E3%2581%2588%25E3%2581%25A6%2520AI%2520%25E3%2581%258C%25E5%258F%25A4%25E3%2581%2584%25E4%25BB%2595%25E6%25A7%2598%25E3%2581%25A7%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%2599%25E3%2582%258B%25E5%2595%258F%25E9%25A1%258C%25E3%2582%2592%25E8%25A7%25A3%25E3%2581%258F%2520%25E2%2594%2580%25E2%2594%2580%2520%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%25AF%25E6%25B6%2588%25E3%2581%2595%25E3%2581%259A%25E3%2580%2581%25E7%258F%25BE%25E8%25A1%258C%25E3%2582%2592%25E7%25B4%25A2%25E5%25BC%2595%25E3%2581%25A7%25E7%25A4%25BA%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:chooser%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFjSFR0ZW50bzlLbnMwUG1sVmVrYjRWM2wyOWtROUl6MlJDY0J0cndoQ2otc0RySzlnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 設計記録（ADR）が増えて AI が古い仕様で判断する問題を解く ── 記録は消さず、現行を索引で示す 自社の Claude Code 用プラグイン…"
   },
   {
    "src": "hn",
