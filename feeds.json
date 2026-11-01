@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793530164903,
+ "updatedAt": 1793533525685,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "OpenWikiを動かしたら、CLAUDE.mdとAGENTS.mdまで書き換えられた",
+   "link": "https://qiita.com/kai_kou/items/a4a1268abec4d06979c0",
+   "date": 1793531407000,
+   "img": "",
+   "desc": "はじめに CLAUDE.md や AGENTS.md にプロジェクトの前提を書いておくと、コーディングエージェントの精度は上がる。ただし、これらのファイルはコードが変わっても自動では更新されない。PRを重ねるたびに「あの説明、もう古いのでは」という不安が積み上がっていく。..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code v2.1.316：企業ゲートウェイ運用者が気にすべき4つの変更",
    "link": "https://qiita.com/Sidejob/items/1b17bb4cc959b97cfcfb",
    "date": 1793529003000,
@@ -68,12 +76,36 @@
    "desc": "この記事で扱うこと VS Code に Claude Code の拡張機能を入れたあと、最初に身につけたいのは「Claude がファイルを書き換える前に、差分を見て承認する」という1手順です。この記事では、その手順だけを説明します。画面は、買い物かごの合計を計算する小さな..."
   },
   {
-   "src": "qiita",
+   "src": "zenn",
    "title": "Windows の Claude Code：ネイティブ版か WSL 2 かは「プロジェクトの置き場所」で決める",
-   "link": "https://qiita.com/kei_kawai_g/items/aacc9b1c41014dedec18",
-   "date": 1793522375000,
-   "img": "",
-   "desc": "この記事で扱うこと Windows で Claude Code を使うとき、ネイティブ Windows で動かすか、WSL 2 で動かすかで迷う人は多いと思います。この記事では、公式ドキュメントの情報をもとに、プロジェクトを置く場所で選ぶという判断の仕方を1つだけ説明しま..."
+   "link": "https://zenn.dev/deepai/articles/claude-code-windows-native-or-wsl",
+   "date": 1793522583000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mGIwfL6n--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Windows%2520%25E3%2581%25AE%2520Claude%2520Code%25EF%25BC%259A%25E3%2583%258D%25E3%2582%25A4%25E3%2583%2586%25E3%2582%25A3%25E3%2583%2596%25E7%2589%2588%25E3%2581%258B%2520WSL%25202%2520%25E3%2581%258B%25E3%2581%25AF%25E3%2580%258C%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25AE%25E7%25BD%25AE%25E3%2581%258D%25E5%25A0%25B4%25E6%2589%2580%25E3%2580%258D%25E3%2581%25A7%25E6%25B1%25BA%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:deepai%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSk1VNndCSGFIRWRIQTl1aV9PRU5ZcnpTUUJxd1dlcDh4am9VOHF3cHpTU00wWTVnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事で扱うこと Windows で Claude Code を使うとき、ネイティブ Windows で動かすか、WSL 2 で動かすかで迷う人は多いと思います。この記事では、公式ドキュメントの情報をもとに、プロジェクトを置く場所で選ぶという判断の仕方を1つだけ説明します。情報は2026年10月時点の公式ドキュメントによります。 公式が示す2つの判断材料 公式のセットアップの案内では、選ぶ材料…"
+  },
+  {
+   "src": "zenn",
+   "title": "実データをクラウドのAIに送らずにAIを使う設計 ― 処理プログラムだけを作らせて、手元で回す",
+   "link": "https://zenn.dev/tmiyachi/articles/23-ai-program-local-data",
+   "date": 1793522080000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--vRDUpm44--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AE%259F%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%2592%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2581%25AEAI%25E3%2581%25AB%25E9%2580%2581%25E3%2582%2589%25E3%2581%259A%25E3%2581%25ABAI%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E8%25A8%25AD%25E8%25A8%2588%2520%25E2%2580%2595%2520%25E5%2587%25A6%25E7%2590%2586%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%25A0%25E3%2581%25A0%25E3%2581%2591%25E3%2582%2592%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%25A6%25E3%2580%2581%25E6%2589%258B%25E5%2585%2583%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A1%2520Toshimitsu%2520Mi...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlOGEzNzVmY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "8月と10月に、社労士向けのAI勉強会に講師として呼んでいただきました。2回とも、まったく同じ質問をいただきました。「顧問先の個人情報を、AIに渡していいんですか？」です。 私（株式会社AI Orchestraのみやっち🧑‍💻）はこの質問に、YouTubeで答えました（8分ほど）。動画の答えは、「法律上、認められているか」と「顧問先との契約上、認められているか」を分けて考えること。そして顧問…"
+  },
+  {
+   "src": "zenn",
+   "title": "GPT-6.1 Terra を開発に使い、使い勝手やトークン消費を普段使っているAIモデルと比べてみた",
+   "link": "https://zenn.dev/marvelousu/articles/gpt61-terra-usage-review",
+   "date": 1793521917000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--xD437chj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GPT-6.1%2520Terra%2520%25E3%2582%2592%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AB%25E4%25BD%25BF%25E3%2581%2584%25E3%2580%2581%25E4%25BD%25BF%25E3%2581%2584%25E5%258B%259D%25E6%2589%258B%25E3%2582%2584%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E6%25B6%2588%25E8%25B2%25BB%25E3%2582%2592%25E6%2599%25AE%25E6%25AE%25B5%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258BAI%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2581%25A8%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tom%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmOWVjOTE5YjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "GPT-6.1 Terra に作業を任せてみると、画面操作や実装は速く進む一方で意図を説明し直すことも何度もありました。最近メインで使っているモデルのログも集計し、使い勝手とトークン消費を比べてみました。 TL;DR Terra は GUI の操作や日常の簡単なタスクが速いです。コードの修正や実装もテンポよく進みます。 仕様を相談していると意図が伝わらず、何度も説明し直すことに不満を感じます。L…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code、Codex、Gemini CLI を1つのターミナルで並べて回す（tmux ベースの運用メモ）",
+   "link": "https://zenn.dev/agentmanagerdev/articles/8f32460a358bc1",
+   "date": 1793516986000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--K3IMxAtV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2580%2581Codex%25E3%2580%2581Gemini%2520CLI%2520%25E3%2582%25921%25E3%2581%25A4%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%259F%25E3%2583%258A%25E3%2583%25AB%25E3%2581%25A7%25E4%25B8%25A6%25E3%2581%25B9%25E3%2581%25A6%25E5%259B%259E%25E3%2581%2599%25EF%25BC%2588tmux%2520%25E3%2583%2599%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%25AE%25E9%2581%258B%25E7%2594%25A8%25E3%2583%25A1%25E3%2583%25A2%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:agent%2520manager%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU5YzExYTc0ZGQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "agent manager は、今お使いのサブスクリプションとツールにそのままつながるローカルのターミナルアプリです。私たちはこれを Go と tmux で作っていて、自分たちの開発でも毎日 Claude Code、Codex、Gemini CLI を同時に動かしています。この記事では、複数のコーディングエージェントを1つのターミナルで並べて回すときに、私たちが実際にどう運用しているかをまとめま…"
   },
   {
    "src": "zenn",
@@ -204,28 +236,12 @@
    "desc": "Claude Code との会話は、1回のセッションごとに1本のファイルとして手元に残ります。この記録は放っておくと 勝手に消えます。では何日で消えるのか、その日数をどこに書けば効くのか。 X でこの設定(cleanupPeriodDays)に触れている投稿を見かけたので、人の説明は前提にせず、全部自分で測り直しました。 やり方は単純です。日付をずらした偽の記録ファイルを並べ、何件消えたかを数え…"
   },
   {
-   "src": "zenn",
-   "title": "AI に決まった時刻の作業を任せていたら、送った覚えの無い1回が記録に残っていた",
-   "link": "https://zenn.dev/claire_ai/articles/resume-iriguchi",
-   "date": 1793489361000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Mt77TI39--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E6%25B1%25BA%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E6%2599%2582%25E5%2588%25BB%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E9%2580%2581%25E3%2581%25A3%25E3%2581%259F%25E8%25A6%259A%25E3%2581%2588%25E3%2581%25AE%25E7%2584%25A1%25E3%2581%25841%25E5%259B%259E%25E3%2581%258C%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%25AB%25E6%25AE%258B%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI（Claude Code）に、記事を4つの媒体へ出させている。Zenn だけは短い間に送りすぎると止められるので、送れなかった記事は順番待ちにして、会話の中の予約で時間をおいて送り直させていた。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n58aaad79…"
-  },
-  {
-   "src": "zenn",
-   "title": "Tech Watch 2026-11-01: 検証ループの設計",
-   "link": "https://zenn.dev/laiken/articles/20261101-tech-watch",
-   "date": 1793482511000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--4z8QCm0k--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-01%253A%2520%25E6%25A4%259C%25E8%25A8%25BC%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2597%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 一度通った検査が、次の実行でも通るとは限らない。そこを人の注意力だけで埋めようとすると、長く動くエージェントほど運用が難しくなる気がする。検査を仕事の周りに置くとき、何を確認し、どこで止めるべきだろう。 今日の 10 件 Claude Code 2.1.316 Claude Code 2.1.316…"
-  },
-  {
    "src": "hn",
    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 149 # Comments: 95"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 150 # Comments: 96"
   },
   {
    "src": "hn",
@@ -233,23 +249,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 365 # Comments: 208"
-  },
-  {
-   "src": "zenn",
-   "title": "公式のClaude拡張に裏口、約12時間。AI道具をどう守るか",
-   "link": "https://zenn.dev/sugawara_ai/articles/ai-news-20261031",
-   "date": 1793472848000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--k_0SccK8--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25AC%25E5%25BC%258F%25E3%2581%25AEClaude%25E6%258B%25A1%25E5%25BC%25B5%25E3%2581%25AB%25E8%25A3%258F%25E5%258F%25A3%25E3%2580%2581%25E7%25B4%258412%25E6%2599%2582%25E9%2596%2593%25E3%2580%2582AI%25E9%2581%2593%25E5%2585%25B7%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2586%25E5%25AE%2588%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%258F%2585%25E5%258E%259F%25E5%258F%258B%25E5%2592%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUJfd2tWRGJ6UktoZC11RldsQUxwZU5lTUpaUGxGWXAyeWJpRTdIamlDbWNPMTgwT3M9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "2026年10月31日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日の話、いちばん大事なのは「公式だから安心」が崩れたことなんですよ。公式のAI道具に裏口が見つかって、約12時間も配られていました。他にも、AIの代理注文はまだ数百件、ハイテク株の急落、AIの書き込みを止める新設定、Starbucksの個別メニュー案まで。熱狂と現実の距離が見える5本です…"
-  },
-  {
-   "src": "zenn",
-   "title": "Workers の cron で Threads に毎日投稿する — 周回で計測記録ごと消していた1行",
-   "link": "https://zenn.dev/zeroyen_dev/articles/threads-worker-d1-rotation",
-   "date": 1793469492000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--3XjRlYbo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Workers%2520%25E3%2581%25AE%2520cron%2520%25E3%2581%25A7%2520Threads%2520%25E3%2581%25AB%25E6%25AF%258E%25E6%2597%25A5%25E6%258A%2595%25E7%25A8%25BF%25E3%2581%2599%25E3%2582%258B%2520%25E2%2580%2594%2520%25E5%2591%25A8%25E5%259B%259E%25E3%2581%25A7%25E8%25A8%2588%25E6%25B8%25AC%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%2594%25E3%2581%25A8%25E6%25B6%2588%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F1%25E8%25A1%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BC%25E3%2583%25AD%25E5%2586%2586%25E9%2596%258B%25E7%2599%25BA%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEF4OG9kWE1vN1BudHNJMEsyWjJ3X1c0YVR2bkpSbWo1OVNwckJnVmJwX2NXcktFLVF4Zz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Threads に毎日21時、自動で1本投稿しています。Cloudflare Workers の cron と D1（SQLite）で動いていて、費用は0円です。2026年8月22日から1日も欠けていません。 この記事は、その仕組みと、原稿を一周したときに計測の記録まで消していた1行の話です。2026年10月16日に見つけました。 仕組み cron (0 12 * * * = 21:00 JST…"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 380 # Comments: 219"
   },
   {
    "src": "reddit",
@@ -329,7 +329,7 @@
    "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "date": 1793358353000,
    "img": "",
-   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 658 # Comments: 17"
+   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 659 # Comments: 17"
   },
   {
    "src": "hn",
@@ -345,7 +345,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 978 # Comments: 547"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 979 # Comments: 548"
   },
   {
    "src": "claude-code",
