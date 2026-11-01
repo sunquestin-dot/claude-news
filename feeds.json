@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793505559227,
+ "updatedAt": 1793509115431,
  "sources": {
   "news": {
    "ok": true,
@@ -58,14 +58,6 @@
    "date": 1793503302000,
    "img": "",
    "desc": "はじめに note で覚えた「番号で進むプロンプト構成」を、Qiita 記事作成のスキルにしました。素材を渡して番号を選んでいくだけで、事実ベースの記事の下書きまでたどり着きます。 公開リポジトリ tokon-agent-skills に、qiita-artic..."
-  },
-  {
-   "src": "zenn",
-   "title": "プレゼンの冒頭をElevenLabsで作った自分の声に任せた",
-   "link": "https://zenn.dev/takamasa_ai/articles/b33ee351811404",
-   "date": 1793502521000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--tdvb_Etb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25BC%25E3%2583%25B3%25E3%2581%25AE%25E5%2586%2592%25E9%25A0%25AD%25E3%2582%2592ElevenLabs%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E5%25A3%25B0%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:takamasa_ai%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY5OGMxMjNiZmUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 52歳です。いくつかの事業をやりながら、毎日Claude Codeを使っています。 10月に生成AIの勉強会で60分話すことになりました。テーマは「AIエージェントとは何か」です。 AIで何ができるかを話すなら、最初に目の前で見せるのがいちばん早いと考えました。そこで冒頭の約4分を、まるごと自分のAIの声に任せることにしました。スライドを1枚めくるごとに、私の声で説明が流れます。最後に…"
   },
   {
    "src": "zenn",
@@ -177,7 +169,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 114 # Comments: 72"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 121 # Comments: 75"
   },
   {
    "src": "hn",
@@ -185,7 +177,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 247 # Comments: 132"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 271 # Comments: 145"
   },
   {
    "src": "zenn",
@@ -260,6 +252,14 @@
    "desc": "TL;DR 何をした：ISUCON2026に2人で出て、Claude CodeとCodexの4セッションに改善を回させました 結果（数字）：3,538点から約6万点まで、約17倍です。1位は約60万点なので、10分の1ほどです。最終順位は250〜300位くらいの予想です（約600チーム中） 一番の学び：細かい改善を積んでも、天井が別の場所にあると点は動きません。重い処理を別サーバーに任せたら、停…"
   },
   {
+   "src": "zenn",
+   "title": "/usage を何度も開くのが面倒で、Claude Code のステータスラインを自作してみた",
+   "link": "https://zenn.dev/nhinata/articles/tallyline-claude-code-statusline",
+   "date": 1793456257000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--0SloQB_J--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%252Fusage%2520%25E3%2582%2592%25E4%25BD%2595%25E5%25BA%25A6%25E3%2582%2582%25E9%2596%258B%25E3%2581%258F%25E3%2581%25AE%25E3%2581%258C%25E9%259D%25A2%25E5%2580%2592%25E3%2581%25A7%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E8%2587%25AA%25E4%25BD%259C%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nhinata%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM4NDhmZjZjZTIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "ここ数か月、Claude Codeに任せる作業がだいぶ増えました。業務でも個人でも毎日のように使っていて、個人のほうは今のところProプランです。 以前の使用頻度では上限に届くことはほとんどなかったのですが、最近は上限に達することが増えてきました。そうなると、「上限まであとどれくらい残っているか」「自分は実際どれくらい使っているのか」が気になってきて、作業の合間に /usage を開くのが癖にな…"
+  },
+  {
    "src": "reddit",
    "title": "Claude Opus 5.5 can generate images even though it will initially say it can't.",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjxl4s/claude_opus_55_can_generate_images_even_though_it/",
@@ -297,7 +297,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 322 # Comments: 287"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 323 # Comments: 288"
   },
   {
    "src": "hn",
@@ -305,7 +305,7 @@
    "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
    "date": 1793370172000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 124 # Comments: 127"
+   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 124 # Comments: 128"
   },
   {
    "src": "hn",
@@ -329,7 +329,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 971 # Comments: 547"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 972 # Comments: 547"
   },
   {
    "src": "claude-code",
@@ -441,7 +441,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 604 # Comments: 298"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 605 # Comments: 298"
   },
   {
    "src": "reddit",
