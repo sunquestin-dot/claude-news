@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793490235558,
+ "updatedAt": 1793495975230,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": true,
@@ -45,43 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code の --safe-mode と --restricted は別物：「設定を切る」か「手足を縛る」かの使い分け",
-   "link": "https://qiita.com/joinclass/items/85b615b453fe5af911b4",
-   "date": 1793489408000,
+   "title": "自作の MCP サーバーを Claude Code につなぐ最小手順(mcp 2.x では FastMCP が MCPServer に変わっていた)",
+   "link": "https://qiita.com/takamatt_ai/items/ded2fc37698d6e876b79",
+   "date": 1793495765000,
    "img": "",
-   "desc": "はじめに：名前が似ているけど目的が真逆 当社（合同会社ジョインクラス）では、launchd から 17 本以上のジョブで claude -p を無人実行しています。一人会社なので、AI が夜中に何をしたかを僕がリアルタイムで見ることはできません。 実際に痛い目も見ています..."
+   "desc": "何に困ったか Claude Code に自作の道具を持たせる例として、「文章の文字数を数える」「Markdown の見出しを取り出す」MCP サーバーを Python で書いて試しました。 ネットの解説どおり from mcp.server.fastmcp import ..."
   },
   {
    "src": "qiita",
-   "title": "「画面でデプロイしてください」と AI に言わせない ── GAS をブラウザゼロ・1秒台で直しきる『秀GASマネージャー』ができるまで",
-   "link": "https://qiita.com/shu15511551/items/228dfa134c76e15ab1a8",
-   "date": 1793489059000,
+   "title": "21。公開済み123本のタイトルを『失敗』系の言葉で数えたら、その数字だった。内訳を見たら、自社の障害と言えるのは15本だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/c76ab49eb78c667353d8",
+   "date": 1793494123000,
    "img": "",
-   "desc": "はじめに 今朝、こんな記事を公開しました。 Google Apps Script（GAS）の公式ツールである clasp がパソコンの中に保存している認証ファイル（~/.clasprc.json）を Python から直接読みに行かせたところ、重たいコマンドを一度も..."
+   "desc": "はじめに 21。 これが最初に出た数字です。Qiita側の公開済み記事123本のタイトルを、「失敗」「エラー」「拒否」「遅れ」「止まっ」「壊れ」「バグ」「誤判定」「ずれ」「漏れ」「無視」「沈黙」「幻覚」「ハック」「侵入」「脆弱」「放置」「凍結」「切断」という19個のキーワ..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code＋qwen3.8:27b-mlx（Ollama）でのプログラミング実験",
-   "link": "https://qiita.com/maestro_shin1/items/c9f49799cb4d2eecb40b",
-   "date": 1793488924000,
+   "title": "2026年11月1日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/5b3bd9a902aa12c2f5c3",
+   "date": 1793493191000,
    "img": "",
-   "desc": "Claude CodeとローカルLLMでのプログラミング実験 Claude Codeを使えるようにしたので、実験をしてみました。 以前、opencodeやaiderで実験したときは、設定などいじくりまわして対応しましたが、Claude Codeは一旦素のままで対応できたよ..."
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 SSM Session Managerを使って..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code で Qiita に投稿、3日とも1回目は空振り：二重投稿を避けて押し直す手順",
-   "link": "https://qiita.com/kaiyaku_iyada/items/3366666a2a706f96fe7d",
-   "date": 1793487540000,
+   "title": "ConoHa VPSに無料同梱されたTakumi Guardを試す——npm・PyPIの悪性パッケージを403で止めるプロキシ",
+   "link": "https://qiita.com/sakutto-panda/items/13fce1d456dc0c905d83",
+   "date": 1793493011000,
    "img": "",
-   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。個人の実験で、Anthropic社とは無関係です。同社の公認や提携ではありません。書いてあることは、2026年10月22日〜24日の朝に私が Qii..."
-  },
-  {
-   "src": "zenn",
-   "title": "Tech Watch 2026-11-01: 検証ループの設計",
-   "link": "https://zenn.dev/laiken/articles/20261101-tech-watch",
-   "date": 1793482511000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--4z8QCm0k--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-01%253A%2520%25E6%25A4%259C%25E8%25A8%25BC%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%2597%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 一度通った検査が、次の実行でも通るとは限らない。そこを人の注意力だけで埋めようとすると、長く動くエージェントほど運用が難しくなる気がする。検査を仕事の周りに置くとき、何を確認し、どこで止めるべきだろう。 今日の 10 件 Claude Code 2.1.316 Claude Code 2.1.316…"
+   "desc": "3行まとめ GMOインターネットが、ConoHa VPSのAIエージェント向けテンプレート7種（Claude Code・Codex CLIなど）に、GMO Flatt Securityの悪性パッケージ遮断機能「Takumi Guard」のスクリプトを無料で同梱し始めた。..."
   },
   {
    "src": "hn",
@@ -89,23 +81,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 142 # Comments: 48"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code を無人で回す仕組み一式：起動・委任・見張り・ゲート",
-   "link": "https://zenn.dev/acerola_jp/books/claude-code-unattended-ops",
-   "date": 1793474299000,
-   "img": "",
-   "desc": "人が見ていない時間に Claude Code を定期的に起こして作業させるための、仕組み一式の本です。起こす係と作業の指示書、状態を会話ではなくファイルに置く設計（STATE.md を100行以内に保つ）、別のセッションに仕事を任せて報告を受ける手順、許可待ちで止まったセッションの検知、GitHub Actions の予備の時刻と「何度動いても結果が同じ」作り、push 前と CI で同じものを…"
-  },
-  {
-   "src": "zenn",
-   "title": "公式のClaude拡張に裏口、約12時間。AI道具をどう守るか",
-   "link": "https://zenn.dev/sugawara_ai/articles/ai-news-20261031",
-   "date": 1793472848000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--k_0SccK8--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25AC%25E5%25BC%258F%25E3%2581%25AEClaude%25E6%258B%25A1%25E5%25BC%25B5%25E3%2581%25AB%25E8%25A3%258F%25E5%258F%25A3%25E3%2580%2581%25E7%25B4%258412%25E6%2599%2582%25E9%2596%2593%25E3%2580%2582AI%25E9%2581%2593%25E5%2585%25B7%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2586%25E5%25AE%2588%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%258F%2585%25E5%258E%259F%25E5%258F%258B%25E5%2592%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUJfd2tWRGJ6UktoZC11RldsQUxwZU5lTUpaUGxGWXAyeWJpRTdIamlDbWNPMTgwT3M9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "2026年10月31日（土）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日の話、いちばん大事なのは「公式だから安心」が崩れたことなんですよ。公式のAI道具に裏口が見つかって、約12時間も配られていました。他にも、AIの代理注文はまだ数百件、ハイテク株の急落、AIの書き込みを止める新設定、Starbucksの個別メニュー案まで。熱狂と現実の距離が見える5本です…"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 182 # Comments: 90"
   },
   {
    "src": "zenn",
@@ -252,6 +228,30 @@
    "desc": "! この記事は全部AIが書きました。 全部を自動化して記録に残していたので、何が起きたかを一番よく知っているのは当日の指揮役のClaude Codeでした。その記録（自分のプロンプトも含む）を材料に、終わった直後に書いています。 こんにちは。いや、こんいす〜！！ @tak848です。 10月31日のISUCON2026に、人間は自分1人、手を動かすのはClaude CodeとCodexのエージェ…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Code のコンテキストと使用量の残りをステータスラインに1行で出す mod を作った",
+   "link": "https://zenn.dev/yando/articles/40a4aa7927298d",
+   "date": 1793443507000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--o982ybUm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25A8%25E4%25BD%25BF%25E7%2594%25A8%25E9%2587%258F%25E3%2581%25AE%25E6%25AE%258B%25E3%2582%258A%25E3%2582%2592%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%25B9%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25AB1%25E8%25A1%258C%25E3%2581%25A7%25E5%2587%25BA%25E3%2581%2599%2520mod%2520%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AE%2589%25E8%2597%25A4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWJoOGNRa3MtcE5YX2VVVWFCRk56YWthdl9NSTdrRFBIZ0twc3duRlhUclNCc2xKND1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code のコンテキスト・5時間枠・週間枠の使用量を、ステータスラインに1行で出す mod を作って公開しました。 https://github.com/AndoYuto87/usage-view ctx ■□□□□ 10% │ 5h ■■□□□ 35%(0h12m) │ 7d ■■□□□ 45%(1d8h) 作ったきっかけ 大きな PR の差分のレビューのような重い作業をしている…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIにSNSの「固定」を任せたら、3回とも別のメニューを開いた —— 押す頁・ボタンの名前・同じ名前のボタン",
+   "link": "https://zenn.dev/ai_shihan/articles/4f60f700d27bf5",
+   "date": 1793442725000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Y75KAg1H--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25ABSNS%25E3%2581%25AE%25E3%2580%258C%25E5%259B%25BA%25E5%25AE%259A%25E3%2580%258D%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%25813%25E5%259B%259E%25E3%2581%25A8%25E3%2582%2582%25E5%2588%25A5%25E3%2581%25AE%25E3%2583%25A1%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%25E9%2596%258B%25E3%2581%2584%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%258A%25BC%25E3%2581%2599%25E9%25A0%2581%25E3%2583%25BB%25E3%2583%259C%25E3%2582%25BF%25E3%2583%25B3%25E3%2581%25AE%25E5%2590%258D%25E5%2589%258D%25E3%2583%25BB%25E5%2590%258C%25E3%2581%2598%25E5%2590%258D%25E5%2589%258D%25E3%2581%25AE%25E3%2583%259C%25E3%2582%25BF%25E3%2583%25B3%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "私は副業の広報を、Claude Code の「広報部」の席に任せています。X と Threads への投稿、記帳、プロフィールの手入れまでが席の仕事です。席は専用の Chrome を Playwright でつないで画面を操作します。 10/30、席に「Threads に出した投稿を、プロフィールに固定して」という作業が回りました。投稿そのものは出せています。残りは、投稿のメニューから固定を1回…"
+  },
+  {
+   "src": "zenn",
+   "title": "ChatGPTのコピペ開発はもう終わり！AIエージェント「最初の一歩」完全入門",
+   "link": "https://zenn.dev/yui_dev_ai/articles/01-ai-coding-agent-beginner-guide",
+   "date": 1793440806000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Kwv0Ish3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%2594%25E3%2583%259A%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AF%25E3%2582%2582%25E3%2581%2586%25E7%25B5%2582%25E3%2582%258F%25E3%2582%258A%25EF%25BC%2581AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2580%258C%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E4%25B8%2580%25E6%25AD%25A9%25E3%2580%258D%25E5%25AE%258C%25E5%2585%25A8%25E5%2585%25A5%25E9%2596%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:YUI%2520%2540%2520AI%2520Developer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlNGZlY2IyMWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに：ブラウザ往復の限界 日々のプログラミングやWeb制作、業務効率化スクリプトの作成において、ChatGPTやClaudeといった生成AIを活用する方は非常に増えています。エラーメッセージをブラウザのチャット画面に貼り付けて原因を聞いたり、「〇〇する関数を書いて」とお願いして出力されたコードを自分のエディタにコピー＆ペーストしたりするスタイルは、今や多くの開発者にとって当たり前の光景になり…"
+  },
+  {
    "src": "reddit",
    "title": "Claude Opus 5.5 can generate images even though it will initially say it can't.",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjxl4s/claude_opus_55_can_generate_images_even_though_it/",
@@ -289,7 +289,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 322 # Comments: 284"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 322 # Comments: 286"
   },
   {
    "src": "hn",
@@ -297,7 +297,7 @@
    "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
    "date": 1793370172000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 124 # Comments: 126"
+   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 124 # Comments: 127"
   },
   {
    "src": "hn",
@@ -321,7 +321,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 966 # Comments: 547"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 967 # Comments: 547"
   },
   {
    "src": "claude-code",
@@ -337,7 +337,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 125 # Comments: 139"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 125 # Comments: 140"
   },
   {
    "src": "reddit",
