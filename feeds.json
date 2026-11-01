@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793554961205,
+ "updatedAt": 1793559231988,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,30 @@
  },
  "items": [
   {
+   "src": "qiita",
+   "title": "managed settings の OpenTelemetry 設定が効かない：settings precedence で原因を特定して直す",
+   "link": "https://qiita.com/akihidem/items/235a37595808ab047cb0",
+   "date": 1793555884000,
+   "img": "",
+   "desc": "テレメトリの宛先を managed settings で固定したはずなのに、コレクターに何も届かない。あるいは届いてはいるが、ログだけが別の宛先に吸い込まれている。この種の事故は「設定ミス」ではなく、Claude Code が起動時に変数をどう解決するか（settings ..."
+  },
+  {
+   "src": "qiita",
+   "title": "フックの重複送信が修正、プラグインのサブモジュール取得も最適化：2026-10-26 公式ドキュメント更新",
+   "link": "https://qiita.com/akihidem/items/2a205cfe68c2c7255752",
+   "date": 1793555793000,
+   "img": "",
+   "desc": "2026-10-26 のドキュメント追加は、フックの SessionStart 挙動の変更点の明文化、プラグインマーケットプレイスにおける Git サブモジュールの取得ルール、Desktop 経由の SSH 接続時における環境変数の扱いの 3 点に集中している。フックとプラ..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude のツール呼び出し判定を system prompt で制御する：auto から tool_choice までの実装（2026-10-26 時点）",
+   "link": "https://qiita.com/akihidem/items/3217f1b0adb5c1c5a87a",
+   "date": 1793555702000,
+   "img": "",
+   "desc": "エージェントや MCP サーバーを組むと、ほぼ必ず「ツールを呼ぶ／呼ばない」のさじ加減に悩みます。期待した場面で呼んでくれない、あるいは何でもない応答にまでツールを叩きにいく。この境界は乱数ではなく、system プロンプトの一文で動かせます。本稿は、空のディレクトリから動..."
+  },
+  {
    "src": "zenn",
    "title": "Java 17 + Spring Bootではじめるマイクロサービス開発 〜REST / gRPC / GKE / Claude Cod〜",
    "link": "https://zenn.dev/rgbkids/books/ce5d3983abfd8f",
@@ -58,30 +82,6 @@
    "date": 1793545766000,
    "img": "",
    "desc": "※この記事は Zennの記事 からの転載です。 ターミナルで手で打つと動くコマンドが、Claude Code や Codex などの AI エージェントに実行させると「command not found」になる。cron で定時に動かすと失敗する。サイトでは動くプログラム..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIが呼ぶCLIは人間用と別設計 — エージェントフレンドリーなスクリプトの5原則",
-   "link": "https://qiita.com/fuji1009_REBELL/items/a29ad5c0b542968b568d",
-   "date": 1793545539000,
-   "img": "",
-   "desc": "人間が毎日叩くシェルスクリプトは、多少雑でも回ります。短縮オプションは指が覚えているし、エラーが出れば画面を見て気づくからです。ところが同じスクリプトを Claude Code のようなAIエージェントに呼ばせると、「人間なら暗黙に補っていた部分」が全部、誤用の入口になりま..."
-  },
-  {
-   "src": "qiita",
-   "title": "300行の注文コントローラをAIと「1責務ずつ」Service Objectに切り出した手順（在庫→決済→通知）",
-   "link": "https://qiita.com/fuji1009_REBELL/items/4cab0ddac4324bac272b",
-   "date": 1793545519000,
-   "img": "",
-   "desc": "300行を超える注文処理のアクションを、Claude Code に「Service Object に分けて」と一括で頼んだことがあります。出てきた分割は一見きれいでしたが、在庫の引き当てと決済の境界が誤っていて、決済失敗時に在庫だけ減ったまま残る構造になっていました。 そこ..."
-  },
-  {
-   "src": "qiita",
-   "title": "【みのるん式】Claude Code仕事術を読んだら、自分のモノレポの答え合わせになりました！",
-   "link": "https://qiita.com/yosuke-suzuki/items/94a3794c8c6bb5e10079",
-   "date": 1793545168000,
-   "img": "",
-   "desc": "はじめに こんにちは。 最近職場でもボソボソ音声入力をしているすずきです。 みのるんさん(@minorun365)の『［みのるん式］ビジネスパーソンのためのClaude Code仕事術』を読み「これは学ぶことが多いぞ！」と思ったため書籍レビュー(?)という名の感想を記事に..."
   },
   {
    "src": "zenn",
@@ -257,7 +257,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 171 # Comments: 105"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 173 # Comments: 106"
   },
   {
    "src": "hn",
@@ -265,7 +265,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 430 # Comments: 239"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 434 # Comments: 244"
   },
   {
    "src": "reddit",
@@ -329,7 +329,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 323 # Comments: 290"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 324 # Comments: 291"
   },
   {
    "src": "hn",
@@ -337,7 +337,7 @@
    "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
    "date": 1793370172000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 125 # Comments: 131"
+   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 125 # Comments: 132"
   },
   {
    "src": "hn",
@@ -345,7 +345,7 @@
    "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "date": 1793358353000,
    "img": "",
-   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 659 # Comments: 17"
+   "desc": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 660 # Comments: 17"
   },
   {
    "src": "hn",
@@ -361,7 +361,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 985 # Comments: 549"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 986 # Comments: 549"
   },
   {
    "src": "claude-code",
@@ -401,7 +401,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 584 # Comments: 236"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 585 # Comments: 236"
   },
   {
    "src": "status",
@@ -410,14 +410,6 @@
    "date": 1793217918000,
    "img": "",
    "desc": "Oct 28 , 20:05 UTC Resolved - The issue affecting the Google Calendar connector on claude.ai, Claude Code, and Claude Cowork has been resolved. Impact occurred from 04:07 PT / 11:07 UTC on October 26…"
-  },
-  {
-   "src": "reddit",
-   "title": "Google introduced Gemini 4 Carbon, allegedly the most frontier model.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xhu9ez/google_introduced_gemini_4_carbon_allegedly_the/",
-   "date": 1793207822000,
-   "img": "https://preview.redd.it/ylm2yy5gr8yh1.jpeg?width=640&crop=smart&auto=webp&s=6c949ee85918c309e7cba8ad51c001412f2ce10f",
-   "desc": "Is the table capping by simply putting Astra better than Opus 5.5? submitted by /u/Ok-Patient116 [link] [comments]"
   },
   {
    "src": "status",
@@ -570,6 +562,14 @@
    "date": 1793019890000,
    "img": "",
    "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1709 # Comments: 1679"
+  },
+  {
+   "src": "reddit",
+   "title": "Senior devs are in their Kasparov era",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs6h7/senior_devs_are_in_their_kasparov_era/",
+   "date": 1793007289000,
+   "img": "",
+   "desc": "I keep coming back to how chess dealt with engines, because it feels like we’re replaying it almost step by step. Quick recap. Deep Blue beats Kasparov in ‘97 and he does not take it well. For years …"
   },
   {
    "src": "reddit",
