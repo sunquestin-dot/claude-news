@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793495975230,
+ "updatedAt": 1793501845738,
  "sources": {
   "news": {
    "ok": true,
@@ -23,11 +23,11 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 404"
+   "error": "HTTP 500"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "GAS × Antigravity で「会話するだけでGASが直る」 秀GASマネージャーを作った話",
+   "link": "https://qiita.com/shu15511551/items/e542f4e7e61639f2d122",
+   "date": 1793499921000,
+   "img": "",
+   "desc": "はじめに 先日、Google Apps Script（GAS）を clasp を介さずに Python の MCP サーバーから直接操作する記事を書きました。 前回の記事: claspでやるのが馬鹿らしくなってきた ── Python MCPでGASを直撃したら、修正が..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code の変更を CI で止める検査一式",
+   "link": "https://qiita.com/acerola_jp/items/a57143a0340be26d953a",
+   "date": 1793499071000,
+   "img": "",
+   "desc": "Claude Code に push まで任せると、人が毎回の差分を読むことはできなくなります。そこで、人のレビューの代わりに push のたびに必ず走る検査 を門番にします。 この記事は、Zenn の記事・本の原稿と小さな Web ツール、それを動かすスクリプトを1つのリ..."
+  },
+  {
+   "src": "qiita",
    "title": "自作の MCP サーバーを Claude Code につなぐ最小手順(mcp 2.x では FastMCP が MCPServer に変わっていた)",
    "link": "https://qiita.com/takamatt_ai/items/ded2fc37698d6e876b79",
    "date": 1793495765000,
@@ -60,36 +76,12 @@
    "desc": "はじめに 21。 これが最初に出た数字です。Qiita側の公開済み記事123本のタイトルを、「失敗」「エラー」「拒否」「遅れ」「止まっ」「壊れ」「バグ」「誤判定」「ずれ」「漏れ」「無視」「沈黙」「幻覚」「ハック」「侵入」「脆弱」「放置」「凍結」「切断」という19個のキーワ..."
   },
   {
-   "src": "qiita",
-   "title": "2026年11月1日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "link": "https://qiita.com/ennagara128/items/5b3bd9a902aa12c2f5c3",
-   "date": 1793493191000,
-   "img": "",
-   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 SSM Session Managerを使って..."
-  },
-  {
-   "src": "qiita",
-   "title": "ConoHa VPSに無料同梱されたTakumi Guardを試す——npm・PyPIの悪性パッケージを403で止めるプロキシ",
-   "link": "https://qiita.com/sakutto-panda/items/13fce1d456dc0c905d83",
-   "date": 1793493011000,
-   "img": "",
-   "desc": "3行まとめ GMOインターネットが、ConoHa VPSのAIエージェント向けテンプレート7種（Claude Code・Codex CLIなど）に、GMO Flatt Securityの悪性パッケージ遮断機能「Takumi Guard」のスクリプトを無料で同梱し始めた。..."
-  },
-  {
    "src": "hn",
    "title": "Anthropic blocks users for anything touching training larger models",
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
    "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 182 # Comments: 90"
-  },
-  {
-   "src": "zenn",
-   "title": "Workers の cron で Threads に毎日投稿する — 周回で計測記録ごと消していた1行",
-   "link": "https://zenn.dev/zeroyen_dev/articles/threads-worker-d1-rotation",
-   "date": 1793469492000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--3XjRlYbo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Workers%2520%25E3%2581%25AE%2520cron%2520%25E3%2581%25A7%2520Threads%2520%25E3%2581%25AB%25E6%25AF%258E%25E6%2597%25A5%25E6%258A%2595%25E7%25A8%25BF%25E3%2581%2599%25E3%2582%258B%2520%25E2%2580%2594%2520%25E5%2591%25A8%25E5%259B%259E%25E3%2581%25A7%25E8%25A8%2588%25E6%25B8%25AC%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%2594%25E3%2581%25A8%25E6%25B6%2588%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F1%25E8%25A1%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BC%25E3%2583%25AD%25E5%2586%2586%25E9%2596%258B%25E7%2599%25BA%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEF4OG9kWE1vN1BudHNJMEsyWjJ3X1c0YVR2bkpSbWo1OVNwckJnVmJwX2NXcktFLVF4Zz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Threads に毎日21時、自動で1本投稿しています。Cloudflare Workers の cron と D1（SQLite）で動いていて、費用は0円です。2026年8月22日から1日も欠けていません。 この記事は、その仕組みと、原稿を一周したときに計測の記録まで消していた1行の話です。2026年10月16日に見つけました。 仕組み cron (0 12 * * * = 21:00 JST…"
   },
   {
    "src": "reddit",
@@ -252,6 +244,14 @@
    "desc": "はじめに：ブラウザ往復の限界 日々のプログラミングやWeb制作、業務効率化スクリプトの作成において、ChatGPTやClaudeといった生成AIを活用する方は非常に増えています。エラーメッセージをブラウザのチャット画面に貼り付けて原因を聞いたり、「〇〇する関数を書いて」とお願いして出力されたコードを自分のエディタにコピー＆ペーストしたりするスタイルは、今や多くの開発者にとって当たり前の光景になり…"
   },
   {
+   "src": "zenn",
+   "title": "個人開発の数字を、Claude Codeの定期実行で3時間おきに集める",
+   "link": "https://zenn.dev/atsushi_apps/articles/auto-collect-app-sns-stats",
+   "date": 1793440805000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--bWlZAC5C--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E6%2595%25B0%25E5%25AD%2597%25E3%2582%2592%25E3%2580%2581Claude%2520Code%25E3%2581%25AE%25E5%25AE%259A%25E6%259C%259F%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%25A73%25E6%2599%2582%25E9%2596%2593%25E3%2581%258A%25E3%2581%258D%25E3%2581%25AB%25E9%259B%2586%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Atsushi%25EF%25BD%259C%25E5%2580%258B%25E4%25BA%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E9%2596%258B%25E7%2599%25BA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQzMWZjMzI5OTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "iPhoneアプリを一人で作っている Atsushi です。アプリの告知のために、X・Threads・Instagram・TikTok・YouTube・note の6つのSNSを運用しています。 公開すると、数字が気になります。でも、SNSごと・アプリごとに画面を開いて回るのは大変です。そこで、数字を3時間おきに自動で集めて、1つのダッシュボードにまとめるようにしました。 この記事では、その仕組…"
+  },
+  {
    "src": "reddit",
    "title": "Claude Opus 5.5 can generate images even though it will initially say it can't.",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjxl4s/claude_opus_55_can_generate_images_even_though_it/",
@@ -354,6 +354,14 @@
    "date": 1793271171000,
    "img": "https://external-preview.redd.it/MTU1OGwzdWh6ZHloMVQcmCS5mMpHTnm2bhAD8W90KwX25in2Oims4u9df0Xa.png?width=640&crop=smart&auto=webp&s=15dad6678e5cade5ce8fb41318b99243ac9b82c7",
    "desc": "My buddy u/aegyptiacus11 and I have been working on fun side project, TabStationToo, a PS2 emulator that runs right in your browser. It's built on PCSX2 (GPL-3.0). We took its core, made it run insid…"
+  },
+  {
+   "src": "reddit",
+   "title": "👍",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xid1o2/_/",
+   "date": 1793257722000,
+   "img": "https://preview.redd.it/rlrniowuvcyh1.jpeg?width=640&crop=smart&auto=webp&s=23a4c2466f4e0ac6135256899882fb9f4ea100af",
+   "desc": "I'm having Claude help me install Kubuntu and the boomer thumbs up is cracking me up 😄 submitted by /u/alwaysalmosts [link] [comments]"
   },
   {
    "src": "hn",
@@ -602,14 +610,6 @@
    "date": 1792905973000,
    "img": "https://preview.redd.it/xv32vliytjxh1.png?width=640&crop=smart&auto=webp&s=7eb6a7247fce500e0024a80134474db7944d3339",
    "desc": "On the other hand, it did not trigger when asked about \"reversing\" a videogame. submitted by /u/targaryenNotJon [link] [comments]"
-  },
-  {
-   "src": "reddit",
-   "title": "I built a laser dry-fire shooting game with Claude Code: a webcam watches your monitor and scores laser hits (open source, free)",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xeqtp1/i_built_a_laser_dryfire_shooting_game_with_claude/",
-   "date": 1792895871000,
-   "img": "https://external-preview.redd.it/bTFxMDBkeHJ5aXhoMTWTrUG8rFWadhU0lEJNmBYRp_Fgq-MmbFrYcxrPIqWM.png?width=640&crop=smart&auto=webp&s=33070d6a1f59b453c1716459cb835d1659884b15",
-   "desc": "I built ScreenPlink with Claude Code over about two weeks. It is a laser dry-fire shooting game where your monitor is the target. You shoot the screen with a laser trainer pistol, or with a laser car…"
   },
   {
    "src": "status",
