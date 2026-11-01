@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793551635668,
+ "updatedAt": 1793554961205,
  "sources": {
   "news": {
    "ok": true,
@@ -265,7 +265,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 426 # Comments: 237"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 430 # Comments: 239"
   },
   {
    "src": "reddit",
@@ -361,7 +361,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 982 # Comments: 549"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 985 # Comments: 549"
   },
   {
    "src": "claude-code",
