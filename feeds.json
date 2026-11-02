@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793625623633,
+ "updatedAt": 1793631840865,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "AI-DLC ライブ 0 章",
+   "link": "https://qiita.com/unr/items/fbced0d3d1ee891b8a3a",
+   "date": 1793625838000,
+   "img": "",
+   "desc": "User: /aidlc --doctor Model: AI-DLC doctor Machine warn Update: binary 2.11.1; update cache is stale fix: run `aidlc update ..."
+  },
   {
    "src": "qiita",
    "title": "ISUCON2026 本選に参加しました（チーム otona）：AI エージェントと 2 人で 9.6 万点まで",
@@ -66,14 +74,6 @@
    "date": 1793622303000,
    "img": "",
    "desc": "はじめに AWS上の開発環境の構築を、Claude Codeを使って3ヶ月→1ヶ月で終えました。 この記事では、何をClaude Codeに任せ、何を任せなかったのか、なぜ短縮できたのかを書きます。 ※案件が特定されないよう、構成は一般化しています。 作った環境 クラ..."
-  },
-  {
-   "src": "qiita",
-   "title": "画面しか入口がない管理画面を任せる",
-   "link": "https://qiita.com/pitaspot/items/207c3bc801dca9e0729d",
-   "date": 1793619395000,
-   "img": "",
-   "desc": "📰 今日のZenn記事 元記事：コネクタも API も無いサービスを、Claude Code に操作させる（Zenn） SRE（サイト信頼性エンジニア。システムを安定して動かす仕事）の著者が、Claude Codeに自分のChromeブラウザを操作させて、業務で..."
   },
   {
    "src": "zenn",
@@ -444,6 +444,14 @@
    "desc": "Is the table capping by simply putting Astra better than Opus 5.5? submitted by /u/Ok-Patient116 [link] [comments]"
   },
   {
+   "src": "reddit",
+   "title": "Is Claude Pro actually worth it, or is the free plan enough? (As a student on a tight budget)",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xhp4o7/is_claude_pro_actually_worth_it_or_is_the_free/",
+   "date": 1793196611000,
+   "img": "https://preview.redd.it/8nwhqtf6u7yh1.jpeg?width=320&crop=smart&auto=webp&s=ebed3431c987ac45ef4d40aad5be4ca2af1db96e",
+   "desc": "I'm a student studying to become a Spanish teacher, and I mainly use Claude to help me create teaching materials for my classes, write essays, and work on other academic assignments. However, I'm not…"
+  },
+  {
    "src": "status",
    "title": "Elevated errors affecting the Gmail connector",
    "link": "https://status.claude.com/incidents/9ftx658xtd5z",
@@ -578,14 +586,6 @@
    "date": 1793031149000,
    "img": "",
    "desc": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the…"
-  },
-  {
-   "src": "reddit",
-   "title": "Is this the moment when AI bubble bursts?",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfxww4/is_this_the_moment_when_ai_bubble_bursts/",
-   "date": 1793023846000,
-   "img": "",
-   "desc": "Opus 5.5 is already a gold mine for programming, and it’s good enough for my 3D work too. I could happily stay at that level. I want that same quality running locally. Without hitting a usage limit h…"
   },
   {
    "src": "hn",
