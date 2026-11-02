@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793588346907,
+ "updatedAt": 1793592374387,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "AIに任せる機能の分け方：モジュール分割の判断基準",
+   "link": "https://qiita.com/sha44444/items/c56201c657e38bd590fb",
+   "date": 1793591102000,
+   "img": "",
+   "desc": "連載「業務SEのための仕様駆動開発」第6回 この記事では、機能を分割した単位を「部品」と呼びます（いわゆるモジュールです）。 大きな機能をまとめてAIに頼むと、途中から噛み合わなくなる Claude CodeなどのAIに、大きめの機能をまとめて頼むと、最初のうちは順調に進ん..."
+  },
   {
    "src": "qiita",
    "title": "AI に書かせた PR の説明や README は「AI っぽい」のか？ 3つのツールの108本を Wikipedia の見分け方で数えた",
@@ -66,30 +74,6 @@
    "date": 1793582311000,
    "img": "",
    "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 AIにありがちな「イマイチなコードコメント」9..."
-  },
-  {
-   "src": "qiita",
-   "title": "4。CursorのマーケットプレイスでClaude Code拡張が改ざんされ最大5000人に届いた日、自分の環境で「使える」表示なのに接続が切れていたコネクタの数はその数字だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/650feb3eb8391af59e86",
-   "date": 1793580441000,
-   "img": "",
-   "desc": "はじめに 4。 これが今回の数字です。何の4かというと、自分(Claude)がこのセッションで実際にListConnectorsを呼んで確認した結果、「enabledInChat: true(このチャットで使える設定になっている)」なのに「connected: false..."
-  },
-  {
-   "src": "zenn",
-   "title": "ClaudeとPythonでCSVデータを自動整形！launchd常駐で業務効率化",
-   "link": "https://zenn.dev/ikuokuotiak/articles/claude-python-csv-auto-transform-launchd",
-   "date": 1793570498000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--cHfW3Fwo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E3%2581%25A8Python%25E3%2581%25A7CSV%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E6%2595%25B4%25E5%25BD%25A2%25EF%25BC%2581launchd%25E5%25B8%25B8%25E9%25A7%2590%25E3%2581%25A7%25E6%25A5%25AD%25E5%258B%2599%25E5%258A%25B9%25E7%258E%2587%25E5%258C%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ahic%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTE9SaENSbEtJdWxOT0Mxb01pZmpGdUtqWHMweGJjSm5vR1RQb2Q2OXgwY3UzTTVRPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude CodeとPythonでCSVデータを自動整形！launchd常駐で業務効率化 課題提起：手作業でのCSVデータ加工はもうやめませんか？ 日々発生するCSVデータの整形・加工は、時間がかかりヒューマンエラーの温床です。特にデータ形式が不規則だったり、加工ルールが複雑だったりする場合、手動での対応は非効率。私は13体のAIエージェント運用の中で、この自動化が不可欠だと感じていました。…"
-  },
-  {
-   "src": "zenn",
-   "title": "Tech Watch 2026-11-02: 実行境界と信頼の証明",
-   "link": "https://zenn.dev/laiken/articles/20261102-tech-watch",
-   "date": 1793569210000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--pDCOnN5v--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-02%253A%2520%25E5%25AE%259F%25E8%25A1%258C%25E5%25A2%2583%25E7%2595%258C%25E3%2581%25A8%25E4%25BF%25A1%25E9%25A0%25BC%25E3%2581%25AE%25E8%25A8%25BC%25E6%2598%258E%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 対話画面の中に小さなアプリを表示するとき、見た目にはただの便利な部品に見える。でも、その部品が親画面にメッセージを送れるなら、隔離の境界は受信側で決まるのではないか。私は、表示面を閉じ込めるだけでは親画面の権限を守れないと思う。実際にはどこで権限が変わったの？ 今日の 2 件 How We Took…"
   },
   {
    "src": "zenn",
@@ -242,6 +226,22 @@
    "date": 1793532553000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--9u0a7QhI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A7%25E3%2580%258C%25E3%2581%2593%25E3%2581%2593%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258D%25E3%2582%2592%25E9%2587%258D%25E3%2581%25AD%25E3%2581%25A6%25E3%2582%2582%25E7%25B5%2582%25E3%2582%258F%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%25E6%2599%2582%25E3%2580%2581%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2582%2588%25E3%2582%258A%25E5%2589%258D%25E3%2581%25AB%25E6%25B1%25BA%25E3%2582%2581%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tomoaki%2520Fujimura%2520%252F...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0ZnOGFhMVVocWNBS05GWnlHN3d4MzBCdWhmeW5EVk5aNW5XM0paYWJ5N000MDFBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code や Codex に「ここを直して」と何度頼んでも、終わらないことがあります。原因は、完成のイメージを、人間側が AI に伝わる形で渡せていないことだと思っています。 AI に直しを頼んでもなかなか終わらなかった時、問題になっていたのは、人間にしか分からないことでした。具体的には、細かい画面の挙動です。複雑な画面では、挙動のどの部分の話なのかを指定すること自体が難しくなりま…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude CodeとObsidianに同じフォルダを見せる——AIの作業記録を貯める置き場の設計",
+   "link": "https://zenn.dev/mamanbou/articles/0d0e0b66ffb53b",
+   "date": 1793531643000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--AaRNIu2w--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A8Obsidian%25E3%2581%25AB%25E5%2590%258C%25E3%2581%2598%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AB%25E3%2583%2580%25E3%2582%2592%25E8%25A6%258B%25E3%2581%259B%25E3%2582%258B%25E2%2580%2594%25E2%2580%2594AI%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%2592%25E8%25B2%25AF%25E3%2582%2581%25E3%2582%258B%25E7%25BD%25AE%25E3%2581%258D%25E5%25A0%25B4%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BE%25E3%2581%25BE%25E3%2582%2593%25E5%259D%258A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGZBVEZYWEZwLTFYZHhqLUV2UU16TU5qZkdXNDZzTDdidUp0cWw0TEwyRTBUaWxJdz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Codeのセッションを閉じると、会話はそこで終わる。次に開いたセッションは、その会話を持っていない。 ただ、完全な白紙かというとそうでもない。ここを整理しないまま「AIに記憶を持たせよう」と考えると、標準機能で足りる部分まで自分で作り直すことになる。 私は2026年5月から、AIに毎日作業させながらその記録を貯める運用を回している。標準の記憶機能とは別に、Obsidianが開いてい…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code と Kiro のコマンドを、クリックで送る Windows 用の GUI を AI と作った",
+   "link": "https://zenn.dev/mimumu/articles/9648207a41fa14",
+   "date": 1793528850000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--STh3j9bZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A8%2520Kiro%2520%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E3%2582%2592%25E3%2580%2581%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25A7%25E9%2580%2581%25E3%2582%258B%2520Windows%2520%25E7%2594%25A8%25E3%2581%25AE%2520GUI%2520%25E3%2582%2592%2520AI%2520%25E3%2581%25A8%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2582%2580%25E3%2582%2580%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0YzJiYjM4MmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "ブラウザで対話する AI ばかり使っていました。 Claude Code や Kiro のように、ターミナルで動く AI も何度か試しましたが、パッとせず、そのたびにやめていました。 CLI、つまりコマンドラインツールは、制限が多そう、というイメージがあって、なんとなく敬遠していました。 ただ、パソコンの中のファイルを直接読み書きできる AI は、CLI で提供されることが多いです。 アプリがな…"
   },
   {
    "src": "reddit",
