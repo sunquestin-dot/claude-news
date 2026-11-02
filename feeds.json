@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793596326263,
+ "updatedAt": 1793600008731,
  "sources": {
   "news": {
    "ok": true,
@@ -23,11 +23,11 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 404"
+   "error": "HTTP 500"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,27 +45,43 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code超入門①：画面の見方とAIに「変えて」と頼む基本動作",
+   "link": "https://qiita.com/OANDA123/items/c1a3ef6f21569dd56252",
+   "date": 1793599909000,
+   "img": "",
+   "desc": "本記事は連載 「非エンジニアでもわかる！AIと作るFX自動売買入門」 の1本です。 前回（第3回）「環境を整える② OANDA APIを動かす」では、OANDA APIを設定してClaude Codeに「ドル円のレートを取得して」と頼むだけでレートが取れる状態を作りました。..."
+  },
+  {
+   "src": "qiita",
+   "title": "見える被害と見えない被害 ― 利用可能性ヒューリスティックの逆転 : システム設計視点の行動経済学 (54)",
+   "link": "https://qiita.com/maskot1977/items/124e3010ec939c1d910b",
+   "date": 1793599848000,
+   "img": "",
+   "desc": "user: 「システム設計視点の行動経済学」、第54回を始めましょう。その前に、まず前回の復習として、 デフォルト設定としての沈黙 ― 現状バイアスが並行社会を許容する : システム設計視点の行動経済学 (53) https://qiita.com/maskot1977/..."
+  },
+  {
+   "src": "qiita",
+   "title": "「Qiita Conference 2026 Autumn」アフターイベントに参加しました",
+   "link": "https://qiita.com/like-mountain/items/e110f0ca62c2dccc39c2",
+   "date": 1793597873000,
+   "img": "",
+   "desc": "はじめに ラッキーなことにチケットが当選し、「Qiita Conference 2026 Autumn」アフターイベントに参加させていただきました。 ミノ駆動氏の基調講演や、こにふぁー氏、みのるん氏のパネルディスカッションを聞くことができました。 メモ 当日のメモを箇..."
+  },
+  {
+   "src": "zenn",
+   "title": "「月1で確認する」と決めた6日後に見たら、もう更新が6本出ていた",
+   "link": "https://zenn.dev/marunage_kacho/articles/version-drift-monthly-check",
+   "date": 1793596079000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--RomnBK51--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E6%259C%25881%25E3%2581%25A7%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F6%25E6%2597%25A5%25E5%25BE%258C%25E3%2581%25AB%25E8%25A6%258B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%2582%25E3%2581%2586%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%258C6%25E6%259C%25AC%25E5%2587%25BA%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "先週、毎日使っている CLI が1ヶ月半も古いままだったことに気づきました。自動更新がいつの間にか切れていて、その間に出た更新が46本。全部素通りしていた。 そのときに「自動更新は勝手に戻さない。代わりに月1回、自分で確認する」と決めたんです。切ったのが過去の自分の意図的な判断かもしれないので、設定は触らずに運用でカバーしようと。 その6日後（10/29）に見てみました。もう更新が6本出てました…"
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code × DeepSeek-V4-Flashで同じアプリケーション開発してみた",
    "link": "https://qiita.com/hu-work/items/2a0fc0bad714b1324f48",
    "date": 1793595337000,
    "img": "",
    "desc": "はじめに Claude Codeのモデルを別モデルに差し換えて、アプリケーション開発をすると本家よりお安くできるのではないか？という疑問から、前回はGLM-5.2に差し換えて検証してみました。 今回は続編でDeepSeek-V4-Flashで同じ機能仕様書と受入検査表でア..."
-  },
-  {
-   "src": "qiita",
-   "title": "非エンジニアのAI業務自動化（AIエンジニアリング4段）/記録しても、直すのは人のまま",
-   "link": "https://qiita.com/horiken_chu2byo/items/d430149a69569e6240ce",
-   "date": 1793592382000,
-   "img": "",
-   "desc": "AIが作ったものを、毎回自分の目で確かめるのが大変なコトってありますよね？ 前回は、段2のハーネスを書きました。 AIが先へ進む前に必ず止まる関所を作りましたが、関所で止められるのは動き方までで、作ったものの中身が正しいかは分かりません。 今回は、確かめて直す輪の話で..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIに任せる機能の分け方：モジュール分割の判断基準",
-   "link": "https://qiita.com/sha44444/items/c56201c657e38bd590fb",
-   "date": 1793591102000,
-   "img": "",
-   "desc": "連載「業務SEのための仕様駆動開発」第6回 この記事では、機能を分割した単位を「部品」と呼びます（いわゆるモジュールです）。 大きな機能をまとめてAIに頼むと、途中から噛み合わなくなる Claude CodeなどのAIに、大きめの機能をまとめて頼むと、最初のうちは順調に進ん..."
   },
   {
    "src": "zenn",
@@ -98,14 +114,6 @@
    "date": 1793587449000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--B-28iq9g--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E3%2581%258A%25E8%25A9%25AB%25E3%2581%25B3%25E3%2580%258D%25E3%2581%25AF55%25E5%25BF%259C%25E7%25AD%2594%25E4%25B8%25AD0%25E4%25BB%25B6%25E3%2580%2582%25E5%25A4%25B1%25E6%2595%259719%25E4%25BB%25B6%25E3%2581%25A7%25E3%2582%2582%25E7%25B5%2582%25E4%25BA%2586%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AF%25E5%2585%25A8%25E9%2583%25A80%25E3%2581%25A7%25E3%2580%2581%25E5%25B7%25AE%25E3%2581%258C%25E5%2587%25BA%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E5%25BF%259C%25E7%25AD%2594%25E3%2581%25AE%25E9%2595%25B7%25E3%2581%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%2593%25E3%2581%25AEZenn%25E8%25A8%2598%25E4%25BA%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG44LWtDRklOak05ZW5oWjhTb2xTdWdEeGhaM3RpemJHZTRVYWxJbEZ6MGtwb3dUTzk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "結論 X でこんな投稿を見かけました。 Claude Codeのエージェントに作業を依頼した後、最後に「お詫び」と出てくるとドキッとする。 分かる気がします。作業を頼んだのに最後に謝られたら、何か失敗したのかと身構えます。ただ、この投稿はどのくらいの頻度で謝るのかも、謝ったとき本当に失敗しているのかも書いていません。そこで自分で測りました。 確実にできる作業・前提が足りない作業・この環境では到達…"
-  },
-  {
-   "src": "qiita",
-   "title": "AI に書かせた PR の説明や README は「AI っぽい」のか？ 3つのツールの108本を Wikipedia の見分け方で数えた",
-   "link": "https://qiita.com/suwa_nobu/items/6037f16f524d82638f1c",
-   "date": 1793587317000,
-   "img": "",
-   "desc": "9月に Qiita で「生成AIが書いたドキュメントを読みたくない」という記事が、500を超えるいいねを集めました。私も PR の説明や README を AI に書かせています。読む側から見て、どこが「AI っぽい」のでしょうか。 英語版 Wikipedia には、AI ..."
   },
   {
    "src": "zenn",
@@ -234,14 +242,6 @@
    "date": 1793574443000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--ua0ldGnj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2590%258C%25E3%2581%2598%25E5%25A4%2589%25E6%259B%25B4%25E3%2582%25924%25E5%259B%259E%25E6%25B8%25AC%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%258D%25B4%25E4%25B8%258B%25E2%2586%2592%25E6%258E%25A1%25E7%2594%25A8%25E2%2586%2592%25E5%258D%25B4%25E4%25B8%258B%25E2%2586%2592%25E5%2588%25A4%25E5%25AE%259A%25E4%25B8%258D%25E8%2583%25BD%25E3%2581%25A8%25E7%25AD%2594%25E3%2581%2588%25E3%2581%258C%25E6%25AF%258E%25E5%259B%259E%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CodeCraft%25EF%25BD%259C%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I3NThjMWQ2NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "暗号資産の自動売買Botを作っています。口座2万円ほどの少額で動かしながら、検証と本番の動きが一致しているかを毎週点検しています。 今回は、ある小さな変更を入れるかどうかを決めるために同じ問いを4回測り、4回とも違う答えが出た話です。どの回も、その時点では「ちゃんと測った」と思っていました。間違っていたのは変更ではなく、毎回の測り方でした。 1. 問い: 追加で入金したら、順張りの枠を買い増すべ…"
-  },
-  {
-   "src": "zenn",
-   "title": "serverToolUseでAIが裏で何を呼んだかを把握する — 取引先に説明できるAI利用ログの作り方",
-   "link": "https://zenn.dev/joinclass/articles/servertooluses-ai-ai-20261031220032-17602",
-   "date": 1793574009000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--sNSb9wNW--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:serverToolUse%25E3%2581%25A7AI%25E3%2581%258C%25E8%25A3%258F%25E3%2581%25A7%25E4%25BD%2595%25E3%2582%2592%25E5%2591%25BC%25E3%2582%2593%25E3%2581%25A0%25E3%2581%258B%25E3%2582%2592%25E6%258A%258A%25E6%258F%25A1%25E3%2581%2599%25E3%2582%258B%2520%25E2%2580%2594%2520%25E5%258F%2596%25E5%25BC%2595%25E5%2585%2588%25E3%2581%25AB%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258BAI%25E5%2588%25A9%25E7%2594%25A8%25E3%2583%25AD%25E3%2582%25B0%25E3%2581%25AE%25E4%25BD%259C%25E3%2582%258A%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:JOINCLASS%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NhOWUwY2FiYmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "なぜこれを作ったか 当社（合同会社ジョインクラス）は、Claude Codeを claude -p でヘッドレス実行するジョブを毎日いくつも回しています。以前、営業メールを確認なしで自動送信して、敬語のおかしいメールが取引先に届いたことがありました。それ以来、対外アクションはすべて draft → 承認 → 実行 の順に通しています。 ただ、承認の段階で見えるのは出力だけです。「このドラフトを書…"
   },
   {
    "src": "reddit",
