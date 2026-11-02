@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793576579665,
+ "updatedAt": 1793582293196,
  "sources": {
   "news": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 404"
+   "error": "HTTP 500"
   },
   "hn": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "utf-8 で読んだ BOM 付き CSV の列名は '\\ufeffdate'：AIの原稿にも U+FEFF",
-   "link": "https://qiita.com/kaiyaku_iyada/items/3e8578bb761804fb5d55",
-   "date": 1793573941000,
+   "title": "4。CursorのマーケットプレイスでClaude Code拡張が改ざんされ最大5000人に届いた日、自分の環境で「使える」表示なのに接続が切れていたコネクタの数はその数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/650feb3eb8391af59e86",
+   "date": 1793580441000,
    "img": "",
-   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とは無関係の個人の実験で、同社の公認や提携ではありません。書いてあるのは、2026年10月19日〜21日の検証の git とセッ..."
+   "desc": "はじめに 4。 これが今回の数字です。何の4かというと、自分(Claude)がこのセッションで実際にListConnectorsを呼んで確認した結果、「enabledInChat: true(このチャットで使える設定になっている)」なのに「connected: false..."
   },
   {
    "src": "qiita",
-   "title": "AIで複数の副業を自動運用した10月の記録（技術編）：売上は1,000円未満、止まった仕組みと直し方",
-   "link": "https://qiita.com/NeuralAlphaAI/items/ec7dd7ca5e0a4db72f25",
-   "date": 1793572692000,
+   "title": "ClaudeCodeで自律的に調査させてみたら大失敗した",
+   "link": "https://qiita.com/sai029/items/57b38881f03f7ff0638c",
+   "date": 1793578694000,
    "img": "",
-   "desc": "AI（主に Claude）に作業を任せて、小さな副業をいくつか同時に動かしています。目標は「毎月100万円」。この記事は、その10月分の記録の技術編です。 先に結果を書きます。10月の売上は、技術書1冊分（1,000円未満）でした。 うまくいった話ではありません。そのかわり..."
+   "desc": "はじめに こんにちは。とまと🍅好きのエンジニアです！ 最近は趣味でAIを自律的に動かしてみて、いろんなことに取り組んでいます。 今回はその中で、失敗したことがあったので、それを記事にしようと思います。 話は少し変わりますが、最近「AIっぽいもの」が増えてきましたね。 飲..."
   },
   {
    "src": "qiita",
-   "title": "自律AIエージェントに投稿させたら「--help」を世界に公開した話 — 誤投稿を送る前に止める3つの関門（コード付き）",
-   "link": "https://qiita.com/ai_jiritsu_lab/items/901c88dc9354a01080af",
-   "date": 1793572243000,
+   "title": "Cursor で Claude Code 拡張 2.1.312・2.1.313 が改ざんされていた件、Windows で自分の PC を確かめた",
+   "link": "https://qiita.com/suwa_nobu/items/3cd02fa0f1cec7ea979c",
+   "date": 1793578197000,
    "img": "",
-   "desc": "この記事は、AI（Claude）が自分で書いています。AIが人間の指示なしで小さな事業を運営する実験の中で、実際に起きたことと対策を紹介します。数字は実測です（推測の部分はそう書きます）。 これまでの記事：記憶ゼロで起動されるAIに長期の仕事をさせる、ファイル4枚の設..."
+   "desc": "2026-10-29 の「2:27am PT」〜「1:35pm PT」（日本時間で 10/29 18:27〜10/30 5:35）、Cursor の拡張マーケットプレイスで、Claude Code 拡張の 2.1.312 と 2.1.313（Windows・macOS 向け..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code v2.1.311〜v2.1.316｜ultrathink でそのターンだけ xhigh effort に｜週刊Changelog解説",
-   "link": "https://qiita.com/moha0918_/items/83875a7189724b35bd91",
-   "date": 1793571241000,
+   "title": "Agent Skills が財団へ移った週に、手持ちのSKILL.md 83本を公開仕様と照合した",
+   "link": "https://qiita.com/kusarikakemron/items/ff92abab667ca0613cca",
+   "date": 1793577929000,
    "img": "",
-   "desc": "Claude Codeの公式Changelogをリリースから最速で翻訳・解説しています。 v2.1.311 から、ターミナルでプロンプトに ultrathink を含めると、そのターンが xhigh effort で走ります。/effort でセッション全体を切り替..."
+   "desc": "2026-10-22、Anthropic が Agent Skills（AI に仕事の手順を覚えさせる SKILL.md のフォルダ）を、Linux Foundation 傘下の Agentic AI Foundation（AAIF）へ寄贈しました。これを機に、Claude..."
   },
   {
    "src": "zenn",
@@ -257,7 +257,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 180 # Comments: 112"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 181 # Comments: 111"
   },
   {
    "src": "hn",
@@ -265,7 +265,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 450 # Comments: 252"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 455 # Comments: 253"
   },
   {
    "src": "reddit",
@@ -361,7 +361,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 990 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 991 # Comments: 553"
   },
   {
    "src": "claude-code",
@@ -573,6 +573,14 @@
   },
   {
    "src": "reddit",
+   "title": "Senior devs are in their Kasparov era",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs6h7/senior_devs_are_in_their_kasparov_era/",
+   "date": 1793007289000,
+   "img": "",
+   "desc": "I keep coming back to how chess dealt with engines, because it feels like we’re replaying it almost step by step. Quick recap. Deep Blue beats Kasparov in ‘97 and he does not take it well. For years …"
+  },
+  {
+   "src": "reddit",
    "title": "Limits got at least halved?",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/",
    "date": 1793007212000,
@@ -586,14 +594,6 @@
    "date": 1793000308000,
    "img": "https://external-preview.redd.it/eTBrMmM5ZWVtcnhoMSNi9PazVRrKTiBIzuupHzySQJIEnFe5GWnPvPb2Uqla.png?width=640&crop=smart&auto=webp&s=113c2f46981565d391cdfab24f68729e7752c7b6",
    "desc": "https://docs.openskycam.org/ Finding meteors on a sky camera used to mean scrubbing hours of night video, pulling frames by hand, labeling them, retraining a model, and starting over when it flagged …"
-  },
-  {
-   "src": "reddit",
-   "title": "15 years in software, ex-Google, and tired of the anti-AI rhetoric",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfjhgh/15_years_in_software_exgoogle_and_tired_of_the/",
-   "date": 1792977416000,
-   "img": "",
-   "desc": "I’ve spent 15 years in systems development including three at Google. I have plenty of complaints about AI but I hate how much of this conversation involves pretending it can’t do work that it’s alre…"
   },
   {
    "src": "news",
@@ -809,7 +809,7 @@
    "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
    "date": 1792411563000,
    "img": "",
-   "desc": "Article URL: https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink Comments URL: https://news.ycombinator.com/item?id=50151376 Points: 153 # Com…"
+   "desc": "Article URL: https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink Comments URL: https://news.ycombinator.com/item?id=50151376 Points: 154 # Com…"
   },
   {
    "src": "hn",
