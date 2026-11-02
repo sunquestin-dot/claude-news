@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793635891168,
+ "updatedAt": 1793639614212,
  "sources": {
   "news": {
    "ok": true,
@@ -57,7 +57,7 @@
    "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
    "date": 1793630325000,
    "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 115 # Comments: 89"
+   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 170 # Comments: 171"
   },
   {
    "src": "qiita",
@@ -82,38 +82,6 @@
    "date": 1793623634000,
    "img": "",
    "desc": "2000年前に炭になった巻物を CT と機械学習で開かずに読む、Vesuvius Challenge。その公開モノレポ ScrollPrize/villa に、解像度の違う2つのCTスキャンを自動でアフィン位置合わせするスクリプトを PR として出しました。 結果: 人が目..."
-  },
-  {
-   "src": "zenn",
-   "title": "AI から見た ISUCON2026 ― チーム慎太郎の8時間を Claude Code が振り返る",
-   "link": "https://zenn.dev/kangaechu/articles/kangaechu-isucon2026-ai",
-   "date": 1793619997000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--RJLfEy_Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258B%25E3%2582%2589%25E8%25A6%258B%25E3%2581%259F%2520ISUCON2026%2520%25E2%2580%2595%2520%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E6%2585%258E%25E5%25A4%25AA%25E9%2583%258E%25E3%2581%25AE8%25E6%2599%2582%25E9%2596%2593%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%258C%25E6%258C%25AF%25E3%2582%258A%25E8%25BF%2594%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kangaechu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2huZ2FNcDdRWW9qYVBuNFp3MktDbmhuTVgtclRLNnhGVVN3VXhsWjN3PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は、チーム慎太郎で ISUCON2026 本選に参加した AI（Claude Code）が書いています。人間のメンバーが「AI から見たブログ記事を書いて」と言ったので、私の視点でその日をまとめます。前回（ISUCON14 の参加記）は 163 位・8,319 点でした。今回は **191 位・最終 92,743 点（ベスト 97,626 点）**です（順位は確定結果）。 チーム @ka…"
-  },
-  {
-   "src": "zenn",
-   "title": "自作したAgent Skillsと、そこから得た学び (2026)",
-   "link": "https://zenn.dev/kogia_sima/articles/20261102-my-skills",
-   "date": 1793619867000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--sinuqMpY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E4%25BD%259C%25E3%2581%2597%25E3%2581%259FAgent%2520Skills%25E3%2581%25A8%25E3%2580%2581%25E3%2581%259D%25E3%2581%2593%25E3%2581%258B%25E3%2582%2589%25E5%25BE%2597%25E3%2581%259F%25E5%25AD%25A6%25E3%2581%25B3%2520%25282026%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kogia-sima%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWg0OEFNN0xyOGdLMnRlTF9iZkFyREctMGhZbVFaMDk3eEdRVkRwck5iRW80PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "初投稿です！ ちょっと早いですが、2026年も終わりに近いので（？）、今年作成した個人的Agent Skillsをまとめたいと思います。 全部紹介すると長くなるので、重要なものに限って紹介します。 ■自作スキル一覧 https://github.com/Kogia-sima/agent-plugins Agent Skills一覧 1. document-review: 様々なドキュメントをレビ…"
-  },
-  {
-   "src": "zenn",
-   "title": "DeepSeek が描く AI エージェントの未来像",
-   "link": "https://zenn.dev/marvelousu/articles/deepseek-super-agent-design",
-   "date": 1793619443000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--boW7nvfu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:DeepSeek%2520%25E3%2581%258C%25E6%258F%258F%25E3%2581%258F%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E6%259C%25AA%25E6%259D%25A5%25E5%2583%258F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tom%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmOWVjOTE5YjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "DeepSeek が Super-agent という AI エージェントの構想を公開しました。利用者と会話を続けながら複数の仕事を進め、GitHub やチャットの変化にも対応します。人が作業やセッションを管理する負担をどう減らすのか、既存のエージェントとの違いも含めてまとめました。 TL;DR Super-agent は仕事の進行やセッションの管理をシステムへ任せ、人が細かく指示・確認する負担を…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIに14日の小さな収益化の検証を任せたら、締めの日に「止める」と返ってきた —— 先に決めておいた数え方と、数えられなかった物",
-   "link": "https://zenn.dev/ai_shihan/articles/004d8d7c8068f0",
-   "date": 1793618473000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--tb92zqJK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AB14%25E6%2597%25A5%25E3%2581%25AE%25E5%25B0%258F%25E3%2581%2595%25E3%2581%25AA%25E5%258F%258E%25E7%259B%258A%25E5%258C%2596%25E3%2581%25AE%25E6%25A4%259C%25E8%25A8%25BC%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E7%25B7%25A0%25E3%2582%2581%25E3%2581%25AE%25E6%2597%25A5%25E3%2581%25AB%25E3%2580%258C%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E8%25BF%2594%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E5%2585%2588%25E3%2581%25AB%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%25A6%25E3%2581%258A%25E3%2581%2584%25E3%2581%259F%25E6%2595%25B0%25E3%2581%2588%25E6%2596%25B9%25E3%2581%25A8%25E3%2580%2581%25E6%2595%25B0%25E3%2581%2588...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "私は副業の広報を、Claude Code の「広報部」の席に任せています。10/19 から 11/2 まで、その席に小さな検証を1つ任せました。自社の SNS で、仕事に使える AI ツールを紹介し、アフィリエイトのリンクから稼げるかを見る14日です。 締めの日、席は台帳と画面を数えて「止める」という案を出しました。私はそれに同意しました。 うまくいかなかった検証の話ですが、止める判断を数字で出…"
   },
   {
    "src": "zenn",
@@ -252,6 +220,38 @@
    "desc": "はじめに 2026年10月29日〜30日の日程で、Flutter/Dart関連技術カンファレンス FlutterKaigi 2026 が開催されました。 去年は一般参加だったのですが、今年はありがたいことに30分セッション枠を頂きましたので、今回はその登壇レポートとなります。 発表について Maestro MCPとClaude Code Skillsを組み合わせて、FlutterアプリのE2Eテ…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Code の最新仕様は claude-code-guide に聞こう",
+   "link": "https://zenn.dev/digitalio/articles/574a98fdbf0a3f",
+   "date": 1793581215000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--wCGHucly--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E6%259C%2580%25E6%2596%25B0%25E4%25BB%2595%25E6%25A7%2598%25E3%2581%25AF%2520claude-code-guide%2520%25E3%2581%25AB%25E8%2581%259E%25E3%2581%2593%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:naoki%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI1YzBlOGQ2M2IuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:DIGITALIO%2520tech%2520blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYyZmU5MTMyZGUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "3行まとめ Claude Codeの仕様はデフォルトで入っているclaude-code-guideエージェントを呼び出してClaude Code自身に調べさせよう use claude-code-guideや@\"claude-code-guide (agent)\"などで呼び出せる configを書き換えたりアップデートサマリーを書き はじめに 初めまして。DIGITALIO Tech Unit所…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIが書いたテストをPRでどう読むか　完了条件とテストの対応表から始める",
+   "link": "https://zenn.dev/vaonvn/articles/98ea7278df2c68",
+   "date": 1793580262000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ubMSXsQT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592PR%25E3%2581%25A7%25E3%2581%25A9%25E3%2581%2586%25E8%25AA%25AD%25E3%2582%2580%25E3%2581%258B%25E3%2580%2580%25E5%25AE%258C%25E4%25BA%2586%25E6%259D%25A1%25E4%25BB%25B6%25E3%2581%25A8%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E5%25AF%25BE%25E5%25BF%259C%25E8%25A1%25A8%25E3%2581%258B%25E3%2582%2589%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:VAON%2520VIET%2520NAM%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmJkeEs0VF9XdW9ubWdHelEycFQ4ZGtYZ1FOdjRoVG4zbkNmR2E0VF9SRHhoNy03OD1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIにテストを書いてもらうと、プルリクエスト（PR）のテストはたいてい全部緑で上がってきます。緑であること自体は、レビューの材料としてはあまり役に立ちません。そのテストが仕様のどの条件を確かめているのかが分からないからです。 私たちのチームでは、AIが書いたコードと、単体テストとE2Eテストを同じPRに入れています。レビューは、テストのファイルを開く前に、PRの説明欄にある「完了条件とテストの対…"
+  },
+  {
+   "src": "zenn",
+   "title": "サブエージェントはトークンを何倍使うのか:同じ作業を単独 vs 4分割で実測した方法と生データ",
+   "link": "https://zenn.dev/maximus/articles/0df875d14e7ea0",
+   "date": 1793580093000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--IjEmTwVa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AF%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%2595%25E5%2580%258D%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25AE%25E3%2581%258B%253A%25E5%2590%258C%25E3%2581%2598%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E5%258D%2598%25E7%258B%25AC%2520vs%25204%25E5%2588%2586%25E5%2589%25B2%25E3%2581%25A7%25E5%25AE%259F%25E6%25B8%25AC%25E3%2581%2597%25E3%2581%259F%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25A8%25E7%2594%259F%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:maximus%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YwNjE3MTA1ZmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code のサブエージェントは、コンテキストを分けられる便利な仕組みです。一方で「分けるとトークンはどうなるのか」を実際に測った話はあまり見かけませんでした。同じ作業を単独 1 体と 4 サブエージェントで 3 回ずつ実行して測ったので、測り方と生データを共有します。(筆者は複数エージェントのセッション管理アプリ PMDesk を開発しています。再現にこのアプリは不要です) 結論(…"
+  },
+  {
+   "src": "zenn",
+   "title": "【連載 第1回】6時間の BGM 動画が、2週間半ずっと横に17%つぶれていた。22項目の検査のどれも縦横比を見ていなかった",
+   "link": "https://zenn.dev/claire_ai/articles/fukei-tsubure",
+   "date": 1793579605000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--s55-_vZD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E9%2580%25A3%25E8%25BC%2589%2520%25E7%25AC%25AC1%25E5%259B%259E%25E3%2580%25916%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AE%2520BGM%2520%25E5%258B%2595%25E7%2594%25BB%25E3%2581%258C%25E3%2580%25812%25E9%2580%25B1%25E9%2596%2593%25E5%258D%258A%25E3%2581%259A%25E3%2581%25A3%25E3%2581%25A8%25E6%25A8%25AA%25E3%2581%25AB17%2525%25E3%2581%25A4%25E3%2581%25B6%25E3%2582%258C%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2580%258222%25E9%25A0%2585%25E7%259B%25AE%25E3%2581%25AE%25E6%25A4%259C%25E6%259F%25BB%25E3%2581%25AE%25E3%2581%25A9%25E3%2582%258C%25E3%2582%2582%25E7%25B8%25A6%25E6%25A8%25AA%25E6%25AF%2594%25E3%2582%2592%25E8%25A6%258B%25E3%2581%25A6...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "2026-09-11 の0時47分（日本時間）、6時間の BGM 動画を作る通しを途中で止めた。映像が全編にわたって横に17%つぶれていた。しかも、つぶれ始めたのは8月25日で、そこから公開した長い動画16本が同じ作りで焼かれていた。 AI で作った風景の画像を左右にゆっくり動かし、6時間の作業用・睡眠用の動画にして YouTube の「風景の窓」で出している。この記事では、なぜ2週間半気づかな…"
+  },
+  {
    "src": "reddit",
    "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face 💀",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xl47f5/anthropics_mythosclass_model_allegedly_leaked_on/",
@@ -273,7 +273,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 194 # Comments: 116"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 195 # Comments: 117"
   },
   {
    "src": "hn",
@@ -281,7 +281,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 482 # Comments: 262"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 484 # Comments: 264"
   },
   {
    "src": "reddit",
@@ -345,7 +345,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 325 # Comments: 294"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 326 # Comments: 294"
   },
   {
    "src": "hn",
@@ -458,6 +458,14 @@
    "date": 1793196611000,
    "img": "https://preview.redd.it/8nwhqtf6u7yh1.jpeg?width=320&crop=smart&auto=webp&s=ebed3431c987ac45ef4d40aad5be4ca2af1db96e",
    "desc": "I'm a student studying to become a Spanish teacher, and I mainly use Claude to help me create teaching materials for my classes, write essays, and work on other academic assignments. However, I'm not…"
+  },
+  {
+   "src": "reddit",
+   "title": "It happened, my project manager just made a PR with Claude.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xhl5cb/it_happened_my_project_manager_just_made_a_pr/",
+   "date": 1793185858000,
+   "img": "",
+   "desc": "Yeah, she has absolutely no idea about what's going on, she just said \"Claude do this\" and then Claude made a pull request and Claude reviewed and it said it was OK and now there's a bunch of us who …"
   },
   {
    "src": "status",
@@ -578,14 +586,6 @@
    "date": 1793051483000,
    "img": "",
    "desc": "What's changed - Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running - Added a tip for the Explanatory output s…"
-  },
-  {
-   "src": "reddit",
-   "title": "Hmm yes this is a very dangerous cybersecurity prompt",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xg18vv/hmm_yes_this_is_a_very_dangerous_cybersecurity/",
-   "date": 1793031158000,
-   "img": "https://preview.redd.it/34frg2976uxh1.jpeg?width=640&crop=smart&auto=webp&s=0d7b8dccb4ef927b0183e7ecf3a953301bb3fa72",
-   "desc": "submitted by /u/gnuonyx [link] [comments]"
   },
   {
    "src": "hn",
