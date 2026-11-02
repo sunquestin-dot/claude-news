@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793600008731,
+ "updatedAt": 1793605180902,
  "sources": {
   "news": {
    "ok": true,
@@ -23,11 +23,11 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 500"
+   "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -45,27 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code超入門①：画面の見方とAIに「変えて」と頼む基本動作",
-   "link": "https://qiita.com/OANDA123/items/c1a3ef6f21569dd56252",
-   "date": 1793599909000,
+   "title": "Claude Codeを導入して開発速度が5倍になったのに、なぜ私の疲労度は10倍になったのか",
+   "link": "https://qiita.com/xiaoy/items/c4340fda4f660e9c2e4b",
+   "date": 1793604286000,
    "img": "",
-   "desc": "本記事は連載 「非エンジニアでもわかる！AIと作るFX自動売買入門」 の1本です。 前回（第3回）「環境を整える② OANDA APIを動かす」では、OANDA APIを設定してClaude Codeに「ドル円のレートを取得して」と頼むだけでレートが取れる状態を作りました。..."
+   "desc": "はじめに：爆速開発の果てに待っていた「前例のない脳疲労」 ここ数週間、日々の開発に Claude Code や Cursor を徹底的に組み込み、いわゆる「AIネイティブ開発」を本気で回してきました。 表面的な数字だけを見れば、大成功と言っていいはずでした。 これまで設計..."
   },
   {
    "src": "qiita",
-   "title": "見える被害と見えない被害 ― 利用可能性ヒューリスティックの逆転 : システム設計視点の行動経済学 (54)",
-   "link": "https://qiita.com/maskot1977/items/124e3010ec939c1d910b",
-   "date": 1793599848000,
+   "title": "全プロジェクト共通のファイルに「現在地」を書くのをやめた — basou が SessionStart フックに移るまでの3手",
+   "link": "https://qiita.com/takashi-matsuyama/items/59c16696a8a7d4efdbbe",
+   "date": 1793603405000,
    "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第54回を始めましょう。その前に、まず前回の復習として、 デフォルト設定としての沈黙 ― 現状バイアスが並行社会を許容する : システム設計視点の行動経済学 (53) https://qiita.com/maskot1977/..."
+   "desc": "🔗 この記事は https://blog.tak3.jp/ja/blog/basou-session-start-position/ からの転載です（一次情報源）。 AI のコーディングエージェントには、どのプロジェクトで起動しても自動で読むファイルがある。既定の設定で..."
   },
   {
    "src": "qiita",
-   "title": "「Qiita Conference 2026 Autumn」アフターイベントに参加しました",
-   "link": "https://qiita.com/like-mountain/items/e110f0ca62c2dccc39c2",
-   "date": 1793597873000,
+   "title": "第5回 AIに頼みやすい単位で開発を分割するコツ（プロンプト設計の基本）",
+   "link": "https://qiita.com/oanda2/items/16ef492fb3daae0aabf7",
+   "date": 1793601616000,
    "img": "",
-   "desc": "はじめに ラッキーなことにチケットが当選し、「Qiita Conference 2026 Autumn」アフターイベントに参加させていただきました。 ミノ駆動氏の基調講演や、こにふぁー氏、みのるん氏のパネルディスカッションを聞くことができました。 メモ 当日のメモを箇..."
+   "desc": "本記事は連載 「非エンジニアでもわかる！AIと作るFX自動売買入門」 の1本です。 第4回では、Claude Codeに「作って」「変えて」と頼む基本の型を押さえました。 ◀️ 前の記事：Claude Code超入門①：画面の見方とAIに「変えて」と頼む基本動作 今回は..."
+  },
+  {
+   "src": "qiita",
+   "title": "22。本文は同一のはずの記事105本をZennとQiitaで突き合わせたら、タイトルだけが食い違っていた本数だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/1e041735624ce806143e",
+   "date": 1793601213000,
+   "img": "",
+   "desc": "はじめに 22。 これが今回の数字です。何の22かというと、ZennとQiitaの両リポジトリに同じファイル名で存在する記事105本を1本ずつ突き合わせたとき、本文(frontmatter以降の本文テキスト)は完全に一致しているのに、frontmatterのtitleだけ..."
   },
   {
    "src": "zenn",
@@ -74,14 +82,6 @@
    "date": 1793596079000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--RomnBK51--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E6%259C%25881%25E3%2581%25A7%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F6%25E6%2597%25A5%25E5%25BE%258C%25E3%2581%25AB%25E8%25A6%258B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%2582%25E3%2581%2586%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%258C6%25E6%259C%25AC%25E5%2587%25BA%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "先週、毎日使っている CLI が1ヶ月半も古いままだったことに気づきました。自動更新がいつの間にか切れていて、その間に出た更新が46本。全部素通りしていた。 そのときに「自動更新は勝手に戻さない。代わりに月1回、自分で確認する」と決めたんです。切ったのが過去の自分の意図的な判断かもしれないので、設定は触らずに運用でカバーしようと。 その6日後（10/29）に見てみました。もう更新が6本出てました…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code × DeepSeek-V4-Flashで同じアプリケーション開発してみた",
-   "link": "https://qiita.com/hu-work/items/2a0fc0bad714b1324f48",
-   "date": 1793595337000,
-   "img": "",
-   "desc": "はじめに Claude Codeのモデルを別モデルに差し換えて、アプリケーション開発をすると本家よりお安くできるのではないか？という疑問から、前回はGLM-5.2に差し換えて検証してみました。 今回は続編でDeepSeek-V4-Flashで同じ機能仕様書と受入検査表でア..."
   },
   {
    "src": "zenn",
@@ -265,7 +265,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 182 # Comments: 113"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 185 # Comments: 113"
   },
   {
    "src": "hn",
@@ -273,7 +273,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 459 # Comments: 256"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 464 # Comments: 259"
   },
   {
    "src": "reddit",
@@ -345,7 +345,7 @@
    "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
    "date": 1793370172000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 125 # Comments: 139"
+   "desc": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 125 # Comments: 140"
   },
   {
    "src": "hn",
@@ -369,7 +369,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 994 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 995 # Comments: 553"
   },
   {
    "src": "claude-code",
@@ -581,19 +581,19 @@
   },
   {
    "src": "reddit",
+   "title": "Senior devs are in their Kasparov era",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs6h7/senior_devs_are_in_their_kasparov_era/",
+   "date": 1793007289000,
+   "img": "",
+   "desc": "I keep coming back to how chess dealt with engines, because it feels like we’re replaying it almost step by step. Quick recap. Deep Blue beats Kasparov in ‘97 and he does not take it well. For years …"
+  },
+  {
+   "src": "reddit",
    "title": "Limits got at least halved?",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfs5q8/limits_got_at_least_halved/",
    "date": 1793007212000,
    "img": "https://preview.redd.it/e9usqpuz6sxh1.png?width=640&crop=smart&auto=webp&s=13f113a65de12dfb86baae5a8aa5bdab6b472d6b",
    "desc": "So ever since opus 5.5 release I have been struggling to use a significant amount of my weekly and forced to use ultra on several projects the reset day to be able to take advantage of my x20 plan.. …"
-  },
-  {
-   "src": "reddit",
-   "title": "I built an open source sky camera that Claude Code can actually run. Saturday night it caught 17 meteors and had them sorted before I woke up.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
-   "date": 1793000308000,
-   "img": "https://external-preview.redd.it/eTBrMmM5ZWVtcnhoMSNi9PazVRrKTiBIzuupHzySQJIEnFe5GWnPvPb2Uqla.png?width=640&crop=smart&auto=webp&s=113c2f46981565d391cdfab24f68729e7752c7b6",
-   "desc": "https://docs.openskycam.org/ Finding meteors on a sky camera used to mean scrubbing hours of night video, pulling frames by hand, labeling them, retraining a model, and starting over when it flagged …"
   },
   {
    "src": "news",
