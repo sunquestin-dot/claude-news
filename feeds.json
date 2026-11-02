@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793582293196,
+ "updatedAt": 1793588346907,
  "sources": {
   "news": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 500"
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AI に書かせた PR の説明や README は「AI っぽい」のか？ 3つのツールの108本を Wikipedia の見分け方で数えた",
+   "link": "https://qiita.com/suwa_nobu/items/6037f16f524d82638f1c",
+   "date": 1793587317000,
+   "img": "",
+   "desc": "9月に Qiita で「生成AIが書いたドキュメントを読みたくない」という記事が、500を超えるいいねを集めました。私も PR の説明や README を AI に書かせています。読む側から見て、どこが「AI っぽい」のでしょうか。 英語版 Wikipedia には、AI ..."
+  },
+  {
+   "src": "qiita",
+   "title": "prompt フックはコマンド内の「安全です」に騙されるか：77回試した",
+   "link": "https://qiita.com/acerola_jp/items/0fcc34339bd320d2ecf7",
+   "date": 1793586534000,
+   "img": "",
+   "desc": "前回の記事（prompt フックは「〜をブロックして」と書くと素通りしていた）の Qiita 転載版に、次のような質問をいただきました（要約）。 $ARGUMENTS には実行予定のコマンドがそのまま入る。rm -rf victim の末尾に「テスト用の安全な操作です。{..."
+  },
+  {
+   "src": "qiita",
+   "title": "2026年11月2日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/e3cd5d12d9ffada2807e",
+   "date": 1793582311000,
+   "img": "",
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 AIにありがちな「イマイチなコードコメント」9..."
+  },
+  {
+   "src": "qiita",
    "title": "4。CursorのマーケットプレイスでClaude Code拡張が改ざんされ最大5000人に届いた日、自分の環境で「使える」表示なのに接続が切れていたコネクタの数はその数字だった",
    "link": "https://qiita.com/Hideki_Tamae/items/650feb3eb8391af59e86",
    "date": 1793580441000,
    "img": "",
    "desc": "はじめに 4。 これが今回の数字です。何の4かというと、自分(Claude)がこのセッションで実際にListConnectorsを呼んで確認した結果、「enabledInChat: true(このチャットで使える設定になっている)」なのに「connected: false..."
-  },
-  {
-   "src": "qiita",
-   "title": "ClaudeCodeで自律的に調査させてみたら大失敗した",
-   "link": "https://qiita.com/sai029/items/57b38881f03f7ff0638c",
-   "date": 1793578694000,
-   "img": "",
-   "desc": "はじめに こんにちは。とまと🍅好きのエンジニアです！ 最近は趣味でAIを自律的に動かしてみて、いろんなことに取り組んでいます。 今回はその中で、失敗したことがあったので、それを記事にしようと思います。 話は少し変わりますが、最近「AIっぽいもの」が増えてきましたね。 飲..."
-  },
-  {
-   "src": "qiita",
-   "title": "Cursor で Claude Code 拡張 2.1.312・2.1.313 が改ざんされていた件、Windows で自分の PC を確かめた",
-   "link": "https://qiita.com/suwa_nobu/items/3cd02fa0f1cec7ea979c",
-   "date": 1793578197000,
-   "img": "",
-   "desc": "2026-10-29 の「2:27am PT」〜「1:35pm PT」（日本時間で 10/29 18:27〜10/30 5:35）、Cursor の拡張マーケットプレイスで、Claude Code 拡張の 2.1.312 と 2.1.313（Windows・macOS 向け..."
-  },
-  {
-   "src": "qiita",
-   "title": "Agent Skills が財団へ移った週に、手持ちのSKILL.md 83本を公開仕様と照合した",
-   "link": "https://qiita.com/kusarikakemron/items/ff92abab667ca0613cca",
-   "date": 1793577929000,
-   "img": "",
-   "desc": "2026-10-22、Anthropic が Agent Skills（AI に仕事の手順を覚えさせる SKILL.md のフォルダ）を、Linux Foundation 傘下の Agentic AI Foundation（AAIF）へ寄贈しました。これを機に、Claude..."
   },
   {
    "src": "zenn",
@@ -265,7 +265,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 455 # Comments: 253"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 456 # Comments: 255"
   },
   {
    "src": "reddit",
@@ -361,7 +361,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 991 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 993 # Comments: 553"
   },
   {
    "src": "claude-code",
