@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793617750500,
+ "updatedAt": 1793620918618,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "fetch failed"
   },
   "reddit": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "画面しか入口がない管理画面を任せる",
+   "link": "https://qiita.com/pitaspot/items/207c3bc801dca9e0729d",
+   "date": 1793619395000,
+   "img": "",
+   "desc": "📰 今日のZenn記事 元記事：コネクタも API も無いサービスを、Claude Code に操作させる（Zenn） SRE（サイト信頼性エンジニア。システムを安定して動かす仕事）の著者が、Claude Codeに自分のChromeブラウザを操作させて、業務で..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code のスキル、前提は Python 系が9.8%で Node.js 系が7.9%。でもインストール数は Node 側が約2.6倍だった",
+   "link": "https://qiita.com/Skillselion/items/19e60e4612b6d1c5447e",
+   "date": 1793618367000,
+   "img": "",
+   "desc": "エージェントスキルの前提条件に Python を挙げるスキルのほうが、Node.js などの JavaScript ランタイムを挙げるスキルより多いです。それでもインストール数では順位が逆になり、JavaScript ランタイム側が約2.6倍です。2026年10月30日時点..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code v2.1.314——外部パス書き込みブロック追加と企業ゲートウェイに影響する変更点",
    "link": "https://qiita.com/Sidejob/items/02c5e1b7f8c2157f7dc2",
    "date": 1793615404000,
@@ -58,14 +74,6 @@
    "date": 1793611700000,
    "img": "",
    "desc": "AI に動画を作らせ、別の AI に検品させ、さらに別の AI に直させるループを組みました。3周で「ok」が出ました。喜んで動画を開きました。SSH のコマンドの末尾に、見覚えのない一行が増えていました。 ssh -o PubkeyAuthentication=no \\..."
-  },
-  {
-   "src": "qiita",
-   "title": "ミニゲーム28本！ブラウザで遊べる3Dパーティーゲームを作った",
-   "link": "https://qiita.com/Uri_memo/items/8efa1a2c47a0c38b4c85",
-   "date": 1793611589000,
-   "img": "",
-   "desc": "🌰 まずは遊んでみてください! ▶ ドングリンピックで遊ぶ インストールなし・登録なし・無料。ブラウザで開くだけで遊べます スマホ(縦持ち)向けに作っていますが、PC でも遊べます(矢印キー / WASD + スペース) ホーム画面に追加するとアプリのように起動でき、..."
   },
   {
    "src": "zenn",
@@ -90,14 +98,6 @@
    "date": 1793607967000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--WcMrAr-f--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25B2%25A9%25E5%25A3%25B2%25E5%2585%2588%25E3%2582%25921%25E3%2581%25A4%25E5%25A2%2597%25E3%2582%2584%25E3%2581%2599%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2582AI%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%2599%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E8%25A1%25A8%25E3%2581%25B8%25E8%25B6%25B3%25E3%2581%25995%25E3%2581%25A4%25E3%2581%25AE%25E5%2588%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:EC%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E5%25B7%25A5%25E6%2588%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWxKZmNjaVBta3ZVNlAtbzRQc0piX2R0NzV5U1NacHFNMWgyWS1SYUdNMzhKQkxRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」では、ストーンウェアのマグカップを新しい販売先にも並べることになりました。商品ページの文章はすでにあります。では、今あるCSVをそのまま渡せば登録できるでしょうか。 答えは、確認してみないと分かりません。同じ商品情報でも、販売先によって必要な項目や入力方法が違うことがあります。ここではBASEやAmazonなど、商品ページ量産キットの対象…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeを導入して開発速度が5倍になったのに、なぜ私の疲労度は10倍になったのか",
-   "link": "https://qiita.com/xiaoy/items/c4340fda4f660e9c2e4b",
-   "date": 1793604286000,
-   "img": "",
-   "desc": "はじめに：爆速開発の果てに待っていた「前例のない脳疲労」 ここ数週間、日々の開発に Claude Code や Cursor を徹底的に組み込み、いわゆる「AIネイティブ開発」を本気で回してきました。 表面的な数字だけを見れば、大成功と言っていいはずでした。 これまで設計..."
   },
   {
    "src": "zenn",
