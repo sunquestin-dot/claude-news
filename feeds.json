@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793735992502,
+ "updatedAt": 1793739405859,
  "sources": {
   "news": {
    "ok": true,
@@ -45,19 +45,19 @@
  "items": [
   {
    "src": "qiita",
+   "title": "python-dotenv の load_dotenv() は親フォルダの .env まで読む：プロジェクトに .env が無くても値が入るのを実機で確認（Node --env-file との違い）",
+   "link": "https://qiita.com/supportapp3/items/b68d540ce16defef186c",
+   "date": 1793737036000,
+   "img": "",
+   "desc": "結論 Python の python-dotenv の load_dotenv() は、引数なしだとスクリプトのあるフォルダから上の階層へ順に .env を探し、最初に見つかった1つを読みます。 そのため、プロジェクトに .env が無くても、親フォルダに置いた別の ...."
+  },
+  {
+   "src": "qiita",
    "title": "⚪︎⚪︎はしないで！AI エージェントの行動を制限する 5 つの方法を、守られる強さで比べた",
    "link": "https://qiita.com/songchong/items/945479177d4dcbb80f69",
    "date": 1793734502000,
    "img": "",
    "desc": "AI エージェントに「⚪︎⚪︎はしないで」と書けば、その通りにしてくれるのでしょうか。 答えは、🔴 問題: 「しないで」と禁止だけを頼むと、守られないことがありました、です。IT連携マップ編集部は、AI エージェント（Claude Code・Antigravity CLI・..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claudeで『コードが書けるようになる』の、その先にある話",
-   "link": "https://zenn.dev/noragrammer/articles/claude-2a8c707059",
-   "date": 1793732431000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--s4Ol0ETm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E3%2581%25A7%25E3%2580%258E%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%258F%25E3%2581%25AE%25E3%2580%2581%25E3%2581%259D%25E3%2581%25AE%25E5%2585%2588%25E3%2581%25AB%25E3%2581%2582%25E3%2582%258B%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:noragrammer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lNclhRX3VzcXYtVGNadnlRSDd5d2ZYUEtfeUh6SkN3d2F3YlRoX0g1dXRHNm1VTVB5dz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claudeで「コードが使えるようになる」の、その先の話 ──スマホ版Claude × GitHub連携の実例 前回の記事では、 GitHubアカウントを作ってClaudeに接続すると、 「コード」が使えるようになる というところまでを書いた。 ▼前回の記事 https://note.com/noragrammer/n/na44b7faaea49 今回はその続き。 「で、それを繋いだ結果、実際に…"
   },
   {
    "src": "qiita",
@@ -74,14 +74,6 @@
    "date": 1793728686000,
    "img": "",
    "desc": "2026-10-31 に検知した追加文は 5 ページです。内容は、/doctor によるセットアップ点検の対象範囲の明文化と、auto モードがセッションの開始モードになる条件の整理の 2 つに分かれます。5 ページすべてで、Pro、Max と並べて Ultra プランが記..."
-  },
-  {
-   "src": "qiita",
-   "title": "接続が切れても二重作成しない MCP サーバーの作り方: idempotentHint を実装で裏づける",
-   "link": "https://qiita.com/akihidem/items/e866bad5fed7ad166f93",
-   "date": 1793728595000,
-   "img": "",
-   "desc": "MCP サーバーに「チケットを作る」「通知を送る」といった書き込み系のツールを載せていると、ネットワークが一瞬切れたあとに「さっきの呼び出しは通ったのか」が分からなくなることがあります。作業は成功していて応答だけが失われたのなら、もう一度呼ぶと同じ作業が2回行われます。失敗..."
   },
   {
    "src": "zenn",
@@ -101,11 +93,11 @@
   },
   {
    "src": "zenn",
-   "title": "AIが残した負債をNeo4jで見つける「depgraph」をリリースした",
+   "title": "AIが残した負債をNeo4jで見つける「depgraph」v0.1.0をリリースした",
    "link": "https://zenn.dev/nozomi720/articles/depgraph-ai-code-debt",
    "date": 1793715939000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--QvIfEMzz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%25AE%258B%25E3%2581%2597%25E3%2581%259F%25E8%25B2%25A0%25E5%2582%25B5%25E3%2582%2592Neo4j%25E3%2581%25A7%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%2591%25E3%2582%258B%25E3%2580%258Cdepgraph%25E3%2580%258D%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nonchan7720%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKelRlaFE0TU1pMDFic2tRUTZ0dGFNOTdUUExGQzktUHQ2NnJmNU49czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "TL;DR AIエージェントが書いたコードの依存関係を Neo4j に入れて、コンパイラやlinterが報告しない負債を検出するツール depgraph の をリリースしました 対象は「誰も使っていない export / ファイル / パッケージ」「名前を変えて複製された同じロジック」「循環 import・レイヤー違反・何でも依存されるハブパッケージ」です。コンパイルエラーや未使用のローカル変数…"
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ESzNK3LD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%25AE%258B%25E3%2581%2597%25E3%2581%259F%25E8%25B2%25A0%25E5%2582%25B5%25E3%2582%2592Neo4j%25E3%2581%25A7%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%2591%25E3%2582%258B%25E3%2580%258Cdepgraph%25E3%2580%258Dv0.1.0%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nonchan7720%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKelRlaFE0TU1pMDFic2tRUTZ0dGFNOTdUUExGQzktUHQ2NnJmNU49czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "TL;DR AIエージェントが書いたコードの依存関係を Neo4j に入れて、コンパイラやlinterが報告しない負債を検出するツール depgraph の v0.1.0 をリリースしました 対象は「誰も使っていない export / ファイル / パッケージ」「名前を変えて複製された同じロジック」「循環 import・レイヤー違反・何でも依存されるハブパッケージ」です。コンパイルエラーや未使用…"
   },
   {
    "src": "zenn",
@@ -236,6 +228,14 @@
    "desc": "安価な Claude Code 向けリレー（API 中継）を使う前に、「本当に Claude が答えているのか」を自分で確かめる手順をまとめます。前半は Claude Code が読む環境変数の話、後半はどのリレーにも使える検証方法です。筆者は CoreCode というリレーを運営しています（末尾に開示）。 1. Claude Code が読む環境変数 公式ドキュメント（環境変数、LLM ゲート…"
   },
   {
+   "src": "zenn",
+   "title": "Claude CodeのHooks入門：ファイル編集後に自動フォーマットする設定を全公開",
+   "link": "https://zenn.dev/gokigentachiuo/articles/6606034f14da02",
+   "date": 1793690546000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--5vhyyXDY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AEHooks%25E5%2585%25A5%25E9%2596%2580%25EF%25BC%259A%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E7%25B7%25A8%25E9%259B%2586%25E5%25BE%258C%25E3%2581%25AB%25E8%2587%25AA%25E5%258B%2595%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%259E%25E3%2583%2583%25E3%2583%2588%25E3%2581%2599%25E3%2582%258B%25E8%25A8%25AD%25E5%25AE%259A%25E3%2582%2592%25E5%2585%25A8%25E5%2585%25AC%25E9%2596%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2594%25E3%2581%258D%25E3%2581%2592%25E3%2582%2593%25E3%2581%259F%25E3%2581%25A1%25E3%2581%2586%25E3%2581%258A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY0MjE4MzBlZjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Codeにコードを書かせると、動くけれどフォーマットが微妙に崩れている、ということがよくあります。インデントや改行位置がプロジェクトの流儀とずれていて、結局あとから手で整形し直す。その往復が地味に時間を溶かします。 これはモデルの性能の問題ではなく、Hooks で解決できます。この記事では、Claude Codeがファイルを編集するたびに Prettier で自動整形する設定を、設…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.317",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
@@ -249,7 +249,7 @@
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 227 # Comments: 256"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 227 # Comments: 262"
   },
   {
    "src": "hn",
@@ -257,7 +257,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 390 # Comments: 308"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 392 # Comments: 309"
   },
   {
    "src": "reddit",
@@ -289,7 +289,15 @@
    "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
    "date": 1793630325000,
    "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 236 # Comments: 283"
+   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 236 # Comments: 284"
+  },
+  {
+   "src": "reddit",
+   "title": "i dont understand all this \"claude + obsidian\" obsession",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xlm85t/i_dont_understand_all_this_claude_obsidian/",
+   "date": 1793588687000,
+   "img": "",
+   "desc": "i honestly just dont see the point. a lot of people are saying its like a \"second brain\" but i tried it, and in my opinion, it just adds a ton of unnecesary fluff and ui. the alternative that i have …"
   },
   {
    "src": "reddit",
@@ -425,7 +433,7 @@
    "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
    "date": 1793381245000,
    "img": "",
-   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 326 # Comments: 295"
+   "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 326 # Comments: 296"
   },
   {
    "src": "hn",
@@ -562,14 +570,6 @@
    "date": 1793145600000,
    "img": "",
    "desc": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program."
-  },
-  {
-   "src": "reddit",
-   "title": "Claude Code usage exploded 8x today. Anthropic confirmed service errors consume our paid limits — and they won't compensate users",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xh3yyu/claude_code_usage_exploded_8x_today_anthropic/",
-   "date": 1793133250000,
-   "img": "https://preview.redd.it/snsyzqzil2yh1.png?width=140&height=128&auto=webp&s=23a24f6ceeab63fa9060bd87accd95567426563f",
-   "desc": "https://preview.redd.it/snsyzqzil2yh1.png?width=2450&format=png&auto=webp&s=1a4007c41d969d84222fcfeed6377636da05441e I've been using Claude Code extensively for software development with a paid Claud…"
   },
   {
    "src": "claude-code",
