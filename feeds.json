@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793672019391,
+ "updatedAt": 1793674929609,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -44,6 +44,38 @@
  },
  "items": [
   {
+   "src": "qiita",
+   "title": "PowerShellの引数名に自動変数37個を入れて試した",
+   "link": "https://qiita.com/taka0429/items/a92642ed43abb9ca5ce4",
+   "date": 1793674870000,
+   "img": "",
+   "desc": "何が起きたか 私の環境では、毎週日曜の朝にタスクスケジューラが ps1 を1本起動し、Python の掃除スクリプト2本を呼んでいます。古いファイルを別のフォルダへ退避し、退避して7日たった物を消す処理です。掃除スクリプトは --apply と --purge を付けたと..."
+  },
+  {
+   "src": "qiita",
+   "title": "9行直してgit差分3,649行、open()の改行指定を試した",
+   "link": "https://qiita.com/taka0429/items/2c9c38e808785380b4d4",
+   "date": 1793674759000,
+   "img": "",
+   "desc": "何が起きたか 私の環境では、AIエージェントがタスク管理用の Markdown を Python で書き換えます。その場で書く短いスクリプトは、open() に newline 引数を渡さないことが多くあります。 ある晩、9行しか変えていないタスク管理用のファイルの差分が..."
+  },
+  {
+   "src": "qiita",
+   "title": "e-Taxのエラー番号から確認先を引くAgent Skillを作った（Claude Code / Codex、無料）",
+   "link": "https://qiita.com/hitori-hojin-tax/items/837fa31b7aa984360a80",
+   "date": 1793673444000,
+   "img": "",
+   "desc": "自分の会社の法人税をClaude Codeと申告したとき、e-Taxソフトで何度も止まりました。そのとき控えておいたエラーと症状を、15項目の索引にまとめてAgent Skillにしました。Claude CodeとCodexで使えます。MITライセンスで、GitHubに置い..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude CodeとArduino CLIは相性バツグン！時代はバイブIoTだー",
+   "link": "https://qiita.com/moritalous/items/744f13ec61892e9c520b",
+   "date": 1793672077000,
+   "img": "",
+   "desc": "M5STACKご存知でしょうか？こういうやつです。 私が持ってるのは「Core2 For AWS」というAWSカラーのものです！ この四角いもの以外にも、色んな形があります。ケーブルで接続するだけで使えるセンサーとかもあって、楽しいです。 一昔前（？）までは..."
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.317",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
@@ -52,44 +84,12 @@
    "desc": "What's changed - Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them - Added a check that asks before a web or shell tool call se…"
   },
   {
-   "src": "qiita",
-   "title": "拒否Hookが「壊れたら通す」になっていないか ─ 終了コードとmatcherの点検リスト",
-   "link": "https://qiita.com/itaraiguma/items/15fd11d4d91197c14a83",
-   "date": 1793668974000,
-   "img": "",
-   "desc": "この記事でできること Claude CodeなどのAIエージェントには、ツールを実行する直前に呼ばれるHook（Claude CodeではPreToolUse）があります。危ないコマンドを止める「拒否Hook」を置いている人も多いと思います。 拒否Hookは、判定ロジック..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIで稼げるは嘘。それでもAIを使う価値がある3つの理由",
-   "link": "https://qiita.com/Next-Survive/items/c2c7380bb96c4fc02a79",
-   "date": 1793668141000,
-   "img": "",
-   "desc": "「AIを使えば、お金が稼げる」という言葉を、よく見かけると思います。 正直に言うと、AIはそれだけで勝手にお金を生んでくれる機械ではありません。 ボタンを押せば稼げる、という形で考えると、がっかりすることになります。 ここが「嘘」だと書いた理由です。 でも、AIを使うと確か..."
-  },
-  {
-   "src": "qiita",
-   "title": "【実測】Claude Codeのログを単純に足すと、トークンが2.5倍に！？",
-   "link": "https://qiita.com/phibi-soon/items/5ed45250fd5d2175983b",
-   "date": 1793666491000,
-   "img": "",
-   "desc": "こんにちは、もんすんです。 今回は、Claude Code を使っていて、自分がどれだけ使ったかをログから確認してみたい人向けの記事です。 Claude Code のログを1行ずつ足していくと、使ったトークンが2倍以上に水増しされます。 私のログでは、出力トークンが 2.4..."
-  },
-  {
-   "src": "qiita",
-   "title": "Ollama v0.34入門、プロンプトキャッシュで評価時間が3.6倍速くなった",
-   "link": "https://qiita.com/kai_kou/items/cdd951ac2efd50dfeb52",
-   "date": 1793664608000,
-   "img": "",
-   "desc": "はじめに Ollama は 2026 年 8 月から 9 月にかけて v0.33.0 から v0.34.0 まで一気に版を重ね、Claude Desktop / ChatGPT Desktop へのゲートウェイ統合、MLX エンジンのマルチモーダル対応、プロンプトキャッシ..."
-  },
-  {
    "src": "hn",
    "title": "Anthropic's growth just flattened",
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 148 # Comments: 180"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 177 # Comments: 203"
   },
   {
    "src": "hn",
@@ -97,15 +97,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 165 # Comments: 104"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code で Haiku・Sonnet・Opus とエフォートを変えて22課題を解かせたら、差が出たのは実装より上流だった",
-   "link": "https://zenn.dev/okzaq/articles/claude-code-model-effort-bench",
-   "date": 1793658605000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--jGZzVcai--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A7%2520Haiku%25E3%2583%25BBSonnet%25E3%2583%25BBOpus%2520%25E3%2581%25A8%25E3%2582%25A8%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E5%25A4%2589%25E3%2581%2588%25E3%2581%25A622%25E8%25AA%25B2%25E9%25A1%258C%25E3%2582%2592%25E8%25A7%25A3%25E3%2581%258B%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%25B7%25AE%25E3%2581%258C%25E5%2587%25BA%25E3%2581%259F...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:OKZAQ%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2hkbTI3eUczS0JjR1YzNXpMVUhmLVVhWkloVnkyZjBUN0J1UGpxTkNoTXVEVW5uRUc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code で、同じ課題をモデル（Haiku 5.5 / Sonnet 5.5 / Opus 5.5）とエフォート（low / medium / high / xhigh / max）を変えて解かせ、精度・時間・費用を測りました。課題は実装・不明点の洗い出し・資料読解・仕様書・試験仕様の22題で、測定は2026年10月です。 結果から決めた使い分けは次のとおりです。 工程 設定 要求…"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 223 # Comments: 154"
   },
   {
    "src": "zenn",
@@ -137,7 +129,7 @@
    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
    "date": 1793637629000,
    "img": "",
-   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 287 # Comments: 2…"
+   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 295 # Comments: 2…"
   },
   {
    "src": "zenn",
@@ -169,7 +161,7 @@
    "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
    "date": 1793630325000,
    "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 226 # Comments: 263"
+   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 227 # Comments: 266"
   },
   {
    "src": "zenn",
@@ -284,6 +276,14 @@
    "desc": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 RAG を入れて、自分の判断を蓄積し AI を育てる ── 発言のたびに、関係する過去の記録を渡す この記事は、連載「RAG 導入 ── 自分の判断…"
   },
   {
+   "src": "zenn",
+   "title": "「月1で確認する」と決めた6日後に見たら、もう更新が6本出ていた",
+   "link": "https://zenn.dev/marunage_kacho/articles/version-drift-monthly-check",
+   "date": 1793596079000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--RomnBK51--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E6%259C%25881%25E3%2581%25A7%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F6%25E6%2597%25A5%25E5%25BE%258C%25E3%2581%25AB%25E8%25A6%258B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%2582%25E3%2581%2586%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%258C6%25E6%259C%25AC%25E5%2587%25BA%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "先週、毎日使っている CLI が1ヶ月半も古いままだったことに気づきました。自動更新がいつの間にか切れていて、その間に出た更新が46本。全部素通りしていた。 そのときに「自動更新は勝手に戻さない。代わりに月1回、自分で確認する」と決めたんです。切ったのが過去の自分の意図的な判断かもしれないので、設定は触らずに運用でカバーしようと。 その6日後（10/29）に見てみました。もう更新が6本出てました…"
+  },
+  {
    "src": "reddit",
    "title": "“Now fix all mistakes you’ve made”",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xllzsf/now_fix_all_mistakes_youve_made/",
@@ -329,7 +329,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 488 # Comments: 266"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 489 # Comments: 267"
   },
   {
    "src": "reddit",
@@ -449,7 +449,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 126 # Comments: 141"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 126 # Comments: 142"
   },
   {
    "src": "reddit",
