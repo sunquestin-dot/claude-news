@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793668525812,
+ "updatedAt": 1793672019391,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "claude-code",
+   "title": "v2.1.317",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+   "date": 1793669146000,
+   "img": "",
+   "desc": "What's changed - Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them - Added a check that asks before a web or shell tool call se…"
+  },
+  {
+   "src": "qiita",
+   "title": "拒否Hookが「壊れたら通す」になっていないか ─ 終了コードとmatcherの点検リスト",
+   "link": "https://qiita.com/itaraiguma/items/15fd11d4d91197c14a83",
+   "date": 1793668974000,
+   "img": "",
+   "desc": "この記事でできること Claude CodeなどのAIエージェントには、ツールを実行する直前に呼ばれるHook（Claude CodeではPreToolUse）があります。危ないコマンドを止める「拒否Hook」を置いている人も多いと思います。 拒否Hookは、判定ロジック..."
+  },
   {
    "src": "qiita",
    "title": "AIで稼げるは嘘。それでもAIを使う価値がある3つの理由",
@@ -68,14 +84,6 @@
    "desc": "はじめに Ollama は 2026 年 8 月から 9 月にかけて v0.33.0 から v0.34.0 まで一気に版を重ね、Claude Desktop / ChatGPT Desktop へのゲートウェイ統合、MLX エンジンのマルチモーダル対応、プロンプトキャッシ..."
   },
   {
-   "src": "qiita",
-   "title": "本番WebアプリをAIにブラウザゼロで直させたら、0.5秒の連打にも完全追従する怪物になった話 ―― 秀GASマネージャー実戦証明と『からくりポケット』の同梱公開",
-   "link": "https://qiita.com/shu15511551/items/aa66286ba2daf4e50259",
-   "date": 1793662810000,
-   "img": "",
-   "desc": "はじめに ―― 直近4記事の大反響に背中を押されて 直近で公開した『秀GASマネージャー』に関する一連の4記事に、予想をはるかに超える大きな反響をいただきました。 claspでやるのが馬鹿らしくなってきた ── Python MCPでGASを直撃したら、修正が爆速になっ..."
-  },
-  {
    "src": "hn",
    "title": "Anthropic's growth just flattened",
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
@@ -90,6 +98,22 @@
    "date": 1793658647000,
    "img": "",
    "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 165 # Comments: 104"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code で Haiku・Sonnet・Opus とエフォートを変えて22課題を解かせたら、差が出たのは実装より上流だった",
+   "link": "https://zenn.dev/okzaq/articles/claude-code-model-effort-bench",
+   "date": 1793658605000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--jGZzVcai--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A7%2520Haiku%25E3%2583%25BBSonnet%25E3%2583%25BBOpus%2520%25E3%2581%25A8%25E3%2582%25A8%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E5%25A4%2589%25E3%2581%2588%25E3%2581%25A622%25E8%25AA%25B2%25E9%25A1%258C%25E3%2582%2592%25E8%25A7%25A3%25E3%2581%258B%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%25B7%25AE%25E3%2581%258C%25E5%2587%25BA%25E3%2581%259F...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:OKZAQ%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2hkbTI3eUczS0JjR1YzNXpMVUhmLVVhWkloVnkyZjBUN0J1UGpxTkNoTXVEVW5uRUc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code で、同じ課題をモデル（Haiku 5.5 / Sonnet 5.5 / Opus 5.5）とエフォート（low / medium / high / xhigh / max）を変えて解かせ、精度・時間・費用を測りました。課題は実装・不明点の洗い出し・資料読解・仕様書・試験仕様の22題で、測定は2026年10月です。 結果から決めた使い分けは次のとおりです。 工程 設定 要求…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-11-03: 人の判断を残す設計",
+   "link": "https://zenn.dev/laiken/articles/20261103-tech-watch",
+   "date": 1793655910000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--DwPSMo46--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-03%253A%2520%25E4%25BA%25BA%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2582%2592%25E6%25AE%258B%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 行政の審査書類を機械が下書きし、最後は担当者が承認する。その構図は分かりやすい。でも、下書きがよくできているほど、人はどこを確かめるのだろう。今日いちばん考えたいのは、判断を人に残すとは具体的にどんな作業を残すことなのか、という点だ。 今日の 4 件 Speeding up planning dec…"
   },
   {
    "src": "zenn",
@@ -258,22 +282,6 @@
    "date": 1793601938000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--GHamJ8mk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:RAG%2520%25E3%2582%2592%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2582%2592%25E8%2593%2584%25E7%25A9%258D%25E3%2581%2597%2520AI%2520%25E3%2582%2592%25E8%2582%25B2%25E3%2581%25A6%25E3%2582%258B%2520%25E2%2594%2580%25E2%2594%2580%2520%25E7%2599%25BA%25E8%25A8%2580%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB%25E3%2580%2581%25E9%2596%25A2%25E4%25BF%2582%25E3%2581%2599%25E3%2582%258B%25E9%2581%258E%25E5%258E%25BB%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:chooser%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFjSFR0ZW50bzlLbnMwUG1sVmVrYjRWM2wyOWtROUl6MlJDY0J0cndoQ2otc0RySzlnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 RAG を入れて、自分の判断を蓄積し AI を育てる ── 発言のたびに、関係する過去の記録を渡す この記事は、連載「RAG 導入 ── 自分の判断…"
-  },
-  {
-   "src": "zenn",
-   "title": "「月1で確認する」と決めた6日後に見たら、もう更新が6本出ていた",
-   "link": "https://zenn.dev/marunage_kacho/articles/version-drift-monthly-check",
-   "date": 1793596079000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--RomnBK51--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E6%259C%25881%25E3%2581%25A7%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2581%25A8%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F6%25E6%2597%25A5%25E5%25BE%258C%25E3%2581%25AB%25E8%25A6%258B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%2582%25E3%2581%2586%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%258C6%25E6%259C%25AC%25E5%2587%25BA%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "先週、毎日使っている CLI が1ヶ月半も古いままだったことに気づきました。自動更新がいつの間にか切れていて、その間に出た更新が46本。全部素通りしていた。 そのときに「自動更新は勝手に戻さない。代わりに月1回、自分で確認する」と決めたんです。切ったのが過去の自分の意図的な判断かもしれないので、設定は触らずに運用でカバーしようと。 その6日後（10/29）に見てみました。もう更新が6本出てました…"
-  },
-  {
-   "src": "zenn",
-   "title": "コードはAIが書く。品質は自分が守る ── 元QAが1人で作ったiOSアプリが世界最大級ハッカソンの最終選考へ",
-   "link": "https://zenn.dev/kurigaki/articles/e3aba0881b85ad",
-   "date": 1793590234000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--7_DONwWn--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AFAI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258F%25E3%2580%2582%25E5%2593%2581%25E8%25B3%25AA%25E3%2581%25AF%25E8%2587%25AA%25E5%2588%2586%25E3%2581%258C%25E5%25AE%2588%25E3%2582%258B%2520%25E2%2594%2580%25E2%2594%2580%2520%25E5%2585%2583QA%25E3%2581%258C1%25E4%25BA%25BA%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259FiOS%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%258C%25E4%25B8%2596%25E7%2595%258C%25E6%259C%2580%25E5%25A4%25A7%25E7%25B4%259A%25E3%2583%258F%25E3%2583%2583%25E3%2582%25AB%25E3%2582%25BD%25E3%2583%25B3%25E3%2581%25AE%25E6%259C%2580%25E7%25B5%2582%25E9%2581%25B8%25E8%2580%2583%25E3%2581%25B8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25A0%2597%25E5%259E%25A3%25E5%2581%25A5%25E4%25BA%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzllNDU3YzNmOWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに コードは、ほとんど書いていません。それでも、品質の責任は自分にあります。 英単語学習アプリ「Word Spell Master」を1人で開発し、2026年9月19日に App Store で公開しました。 このアプリは、世界最大級のハッカソン「RevenueCat Shipaton 2026」（参加者3万人弱）で、最終選考に進出しました。 コードの大半は AI（Claude Code）…"
   },
   {
    "src": "reddit",
@@ -810,14 +818,6 @@
    "date": 1792540800000,
    "img": "",
    "desc": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expert…"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.305",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
-   "date": 1792529210000,
-   "img": "",
-   "desc": "What's changed - Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protection…"
   },
   {
    "src": "hn",
