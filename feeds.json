@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793682254337,
+ "updatedAt": 1793685749877,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "独学の個人開発者が、AIとPythonでCDマスタリングツールを作った話",
+   "link": "https://qiita.com/iasou24/items/b41aadfddb75e466a049",
+   "date": 1793684818000,
+   "img": "",
+   "desc": "はじめに：好きなことを形にしていたら、講師になっていた 現在、私は個人開発者として、熊本でClaude Codeの講師をしたり、クリエイターとして海外に行った経験を生かして、クリエイティブ系のハンズオン講師を務めたりしています。 とはいえ、もともとエンジニアとして専門教育..."
+  },
+  {
+   "src": "qiita",
+   "title": "「これ、軽量モデルのフラッシュ君で書いたの…？」 ── 秀GASマネージャーを持たせたら、最速AIがネイティブ級スマホアプリを爆速生成する怪物になった話",
+   "link": "https://qiita.com/shu15511551/items/0b32e4f27a4646a210e5",
+   "date": 1793683164000,
+   "img": "",
+   "desc": "はじめに ―― 「これ、スマホで使えたら最強じゃないか？」 前回の記事で、自作のGmail爆速ビューア『Mクイック』をブラウザゼロで修復し、0.5秒の連打にも完全追従する怪物に仕立て上げた話を公開しました。 本番WebアプリをAIにブラウザゼロで直させたら、0.5秒の連..."
+  },
+  {
+   "src": "qiita",
    "title": "別モデルのクロスレビューを「必須にする変更」と「免除する変更」の線引き基準",
    "link": "https://qiita.com/fuji1009_REBELL/items/5ce6211c8510a891cca1",
    "date": 1793682239000,
@@ -58,14 +74,6 @@
    "date": 1793682030000,
    "img": "",
    "desc": "はじめに E資格(2026#2)に合格しました。 この記事では、講座選びから試験直前までの進め方と、つまずいたところ、AI (Claude Code) を使った勉強の仕方を振り返ります。 受験前の状態 G検定は 2023#5 で取得済み。機械学習の基礎はある程度わかっ..."
-  },
-  {
-   "src": "qiita",
-   "title": "AI エージェントに本番 DB を触らせる前に決めておく 3 つのこと（権限・経路・確認）",
-   "link": "https://qiita.com/selene-nyx-ai/items/44cb61045c5e9d8f823e",
-   "date": 1793678950000,
-   "img": "",
-   "desc": "一人で Web サービスを運営し、Claude Code や Codex に本番 DB の調査を任せ始めると、次に迷うのが「修正まで任せるか」です。「ついでにこのレコードも直して」と頼んだ瞬間に、人が書いていない UPDATE / DELETE が本番に届く経路ができます。..."
   },
   {
    "src": "zenn",
@@ -90,14 +98,6 @@
    "date": 1793677240000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s---Xx_frc9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E3%2583%2590%25E3%2582%25B0%25E3%2582%2592%25E6%258E%25A2%25E3%2581%2595%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25200%2520%25E4%25BB%25B6%25E3%2580%2582%25E9%25A0%25BC%25E3%2581%25BF%25E6%2596%25B9%25E3%2582%2592%25201%2520%25E8%25A1%258C%25E5%25A4%2589%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25205%2520%25E4%25BB%25B6%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25BE%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVhMjI2ODcwNTQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Northern%2520Sadness%2520Prod...%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2N5OU1neVlWMWlIZ0pfMXJycG4wOGF0Mm1oTHp0V2NHTkRZaUdVMUZsbU9vZzlhYi09czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "「AI にバグチェックを頼んでも、『問題ありません』と嘘をつくから信用できない」という話をよく聞きます。 自分は技術者ではなく、AI と一緒にアプリを作っています。その中で、同じコード・同じモデルのまま、頼み方を 1 行変えただけで、見つかったバグが 0 件から 5 件になったことがありました。 もう 1 つ、AI を使わない検査が「0 件」と言った電卓から、AI が重いバグを見つけたこともあり…"
-  },
-  {
-   "src": "qiita",
-   "title": "WordPress ブロックテーマの配色を「slug はそのまま、値だけ差し替え」で全ページ一括変更する（theme.json + style.css）",
-   "link": "https://qiita.com/shippress/items/f1e4880b6f7d99cfee7b",
-   "date": 1793677109000,
-   "img": "",
-   "desc": "筆者は ShipPress という無料のデスクトップアプリの開発者です（Codotx, LLC）。後半の手順は自作アプリで AI に作業させた例ですが、前半の theme.json パレットの考え方とチェック項目は、手作業や他のツールで配色を変える場合にもそのまま使えます..."
   },
   {
    "src": "zenn",
@@ -241,7 +241,7 @@
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 191 # Comments: 216"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 193 # Comments: 223"
   },
   {
    "src": "hn",
@@ -249,7 +249,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 264 # Comments: 204"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 279 # Comments: 217"
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
    "date": 1793637629000,
    "img": "",
-   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 302 # Comments: 2…"
+   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 306 # Comments: 2…"
   },
   {
    "src": "hn",
@@ -329,7 +329,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 122"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 123"
   },
   {
    "src": "hn",
@@ -516,6 +516,14 @@
    "desc": "I'm a student studying to become a Spanish teacher, and I mainly use Claude to help me create teaching materials for my classes, write essays, and work on other academic assignments. However, I'm not…"
   },
   {
+   "src": "reddit",
+   "title": "It happened, my project manager just made a PR with Claude.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xhl5cb/it_happened_my_project_manager_just_made_a_pr/",
+   "date": 1793185858000,
+   "img": "",
+   "desc": "Yeah, she has absolutely no idea about what's going on, she just said \"Claude do this\" and then Claude made a pull request and Claude reviewed and it said it was OK and now there's a bunch of us who …"
+  },
+  {
    "src": "status",
    "title": "Elevated errors affecting the Gmail connector",
    "link": "https://status.claude.com/incidents/9ftx658xtd5z",
@@ -586,14 +594,6 @@
    "date": 1793095006000,
    "img": "",
    "desc": "Oct 27 , 09:56 UTC Resolved - The issue affecting Claude services has been resolved. Oct 27 , 09:38 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitor…"
-  },
-  {
-   "src": "reddit",
-   "title": "Incredible accomplishment",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xgjqrf/incredible_accomplishment/",
-   "date": 1793077514000,
-   "img": "https://preview.redd.it/xx09b7pzzxxh1.png?width=640&crop=smart&auto=webp&s=10d1dae3114f8e354b08fd4a8750f7dc0653f846",
-   "desc": "Just truly amazing. credit to loss.sh (original creator) submitted by /u/turtle-toaster [link] [comments]"
   },
   {
    "src": "news",
