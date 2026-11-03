@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793678428387,
+ "updatedAt": 1793682254337,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "別モデルのクロスレビューを「必須にする変更」と「免除する変更」の線引き基準",
+   "link": "https://qiita.com/fuji1009_REBELL/items/5ce6211c8510a891cca1",
+   "date": 1793682239000,
+   "img": "",
+   "desc": "「別のモデルにもレビューさせると見落としが減る」という話は、よく見かけるようになりました。私も同意見です。ただ、実際に運用してみて詰まったのは、効果の有無ではなく どの変更に適用するか でした。全変更に通すとコストも待ち時間も合わず、かといって気分で選ぶと、いちばん通すべき..."
+  },
+  {
+   "src": "qiita",
+   "title": "SAP歴20年のエンジニアがE資格に合格したので、勉強の進め方を振り返る",
+   "link": "https://qiita.com/asyoroa/items/726bf81a7abd71e7070e",
+   "date": 1793682030000,
+   "img": "",
+   "desc": "はじめに E資格(2026#2)に合格しました。 この記事では、講座選びから試験直前までの進め方と、つまずいたところ、AI (Claude Code) を使った勉強の仕方を振り返ります。 受験前の状態 G検定は 2023#5 で取得済み。機械学習の基礎はある程度わかっ..."
+  },
+  {
+   "src": "qiita",
+   "title": "AI エージェントに本番 DB を触らせる前に決めておく 3 つのこと（権限・経路・確認）",
+   "link": "https://qiita.com/selene-nyx-ai/items/44cb61045c5e9d8f823e",
+   "date": 1793678950000,
+   "img": "",
+   "desc": "一人で Web サービスを運営し、Claude Code や Codex に本番 DB の調査を任せ始めると、次に迷うのが「修正まで任せるか」です。「ついでにこのレコードも直して」と頼んだ瞬間に、人が書いていない UPDATE / DELETE が本番に届く経路ができます。..."
+  },
   {
    "src": "zenn",
    "title": "claude -p の --allowedTools は道具を絞らない。settingsの許可があれば「読むだけ」でもシェルが動く",
@@ -106,30 +130,6 @@
    "date": 1793675665000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--XoJQgYsb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E6%2599%2582%25E4%25BB%25A3%25E3%2580%2581%25E7%25B7%25B4%25E7%25BF%2592%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258F%25EF%25BC%259F%25EF%25BC%259A%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AE%25E8%25A1%25B0%25E3%2581%2588%25E3%2582%2592%25E3%2582%2581%25E3%2581%2590%25E3%2582%258B%25E8%25AD%2598%25E8%2580%2585%25E3%2581%25AE%25E8%25A6%258B%25E6%2596%25B9%25E3%2581%25A8%25E8%25A9%25A6%25E3%2581%2597%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259A%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2582%25E3%2582%2593%25E3%2581%25AE%25E5%25AE%259F%25E9%25A8%2593%25E9%2581%2593%25E5%2585%25B7%25E7%25AE%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJiNGRhMmQyODEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI に仕事を任せると、仕事は終わります。でも、それで腕が上がったとは限りません。Addy Osmani は、これを「Agentic Skill Decay」（スキルの衰え）と書きました。 識者の見方は、「終わった仕事は練習とは限らない」「見分ける力は今も要る」で揃い、「慣れない所で、AI に任せて書き始めていいか」で割れました。 エージェントを毎日使う開発者が今日からできるのは、直させる前に、…"
-  },
-  {
-   "src": "qiita",
-   "title": "タイトル: PHP で API を書いているエンジニアが、AI エージェントにレビューの決まりを持たせて、FPS の履歴書ツールを作った話",
-   "link": "https://qiita.com/bachikawa/items/75002e519da06fb7c9eb",
-   "date": 1793675607000,
-   "img": "",
-   "desc": "はじめに FPS ゲーム「VALORANT」のプレイヤー向けに、所属歴・担当ロール・大会実績を 1 枚にまとめる「プレイヤー履歴書」の作成ツール VALOFOLIO を作って公開しました。 私は、自社開発の企業で API を作っているエンジニアです。会社では、最近..."
-  },
-  {
-   "src": "qiita",
-   "title": "PowerShellの引数名に自動変数37個を入れて試した",
-   "link": "https://qiita.com/taka0429/items/a92642ed43abb9ca5ce4",
-   "date": 1793674870000,
-   "img": "",
-   "desc": "何が起きたか 私の環境では、毎週日曜の朝にタスクスケジューラが ps1 を1本起動し、Python の掃除スクリプト2本を呼んでいます。古いファイルを別のフォルダへ退避し、退避して7日たった物を消す処理です。掃除スクリプトは --apply と --purge を付けたと..."
-  },
-  {
-   "src": "qiita",
-   "title": "9行直してgit差分3,649行、open()の改行指定を試した",
-   "link": "https://qiita.com/taka0429/items/2c9c38e808785380b4d4",
-   "date": 1793674759000,
-   "img": "",
-   "desc": "何が起きたか 私の環境では、AIエージェントがタスク管理用の Markdown を Python で書き換えます。その場で書く短いスクリプトは、open() に newline 引数を渡さないことが多くあります。 ある晩、9行しか変えていないタスク管理用のファイルの差分が..."
   },
   {
    "src": "zenn",
@@ -241,7 +241,7 @@
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 177 # Comments: 203"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 191 # Comments: 216"
   },
   {
    "src": "hn",
@@ -249,7 +249,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 223 # Comments: 154"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 264 # Comments: 204"
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
    "date": 1793637629000,
    "img": "",
-   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 295 # Comments: 2…"
+   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 302 # Comments: 2…"
   },
   {
    "src": "hn",
@@ -281,7 +281,7 @@
    "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
    "date": 1793630325000,
    "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 227 # Comments: 266"
+   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 228 # Comments: 270"
   },
   {
    "src": "reddit",
@@ -298,6 +298,14 @@
    "date": 1793583414000,
    "img": "https://external-preview.redd.it/OWdxMGJobzhzM3poMdxjX-GahTXJ19uxJOTzbS5B9K2crQer2XNiKUd00dBv.png?width=640&crop=smart&auto=webp&s=4f5c93a1fbe89f2dc190a66c9b537515483f4e7c",
    "desc": "I'm curious to know what you guys think. For those using Claude Code regularly, is Opus 5.5 still your go-to model? Or has your experience changed over the past month? Credit: Video shared by TekonBu…"
+  },
+  {
+   "src": "research",
+   "title": "Progress on provable inference for large language models",
+   "link": "https://www.anthropic.com/research/provable-inference",
+   "date": 1793577600000,
+   "img": "",
+   "desc": "Progress on provable inference for large language models"
   },
   {
    "src": "reddit",
@@ -321,7 +329,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 121"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 122"
   },
   {
    "src": "hn",
@@ -425,7 +433,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1007 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1008 # Comments: 553"
   },
   {
    "src": "claude-code",
@@ -1242,14 +1250,6 @@
    "date": 1788912000000,
    "img": "",
    "desc": "Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, an…"
-  },
-  {
-   "src": "research",
-   "title": "Formalizing Fermat's Last Theorem",
-   "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-   "date": 1788480000000,
-   "img": "",
-   "desc": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language."
   },
   {
    "src": "youtube",
