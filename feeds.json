@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793707001910,
+ "updatedAt": 1793711711005,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,46 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "AI コーディングエージェントと Issue の運用を考える",
+   "link": "https://qiita.com/Kiyoaki_SUgiyama/items/bdc4e5e40fd284e46649",
+   "date": 1793711352000,
+   "img": "",
+   "desc": "はじめに 筆者は AI エージェントによる開発で GitHub と Issue を使っています。その開発の中で、期待にそぐわない運用になることがあります。そうしたときは Issue に記録して、運用を改善しています。これを続けることで、運用が少しずつ良くなっていくことを期..."
+  },
+  {
+   "src": "zenn",
+   "title": "「実行中」のまま、朝の更新が3日止まった",
+   "link": "https://zenn.dev/orca_forge/articles/scheduled-task-stuck-on-approval",
+   "date": 1793711098000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ALFp8Soq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E5%25AE%259F%25E8%25A1%258C%25E4%25B8%25AD%25E3%2580%258D%25E3%2581%25AE%25E3%2581%25BE%25E3%2581%25BE%25E3%2580%2581%25E6%259C%259D%25E3%2581%25AE%25E6%259B%25B4%25E6%2596%25B0%25E3%2581%258C3%25E6%2597%25A5%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:orca_forge%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlkZTE5OTg2ODguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 9月29日、09:52。 Claudeデスクトップアプリの定期タスクは「実行中」と表示されていた。 ログには、ページのDBから記録を書き出す呼び出しが4回並んでいた。 その先へ進んだ形跡はなかった。 止まっているようには見えない。表示上は、まだ実行の途中だった。 この処理は毎朝のボード更新の最後を受け持ってい…"
+  },
+  {
+   "src": "zenn",
+   "title": "CLAUDE.md に書いたルールが守られないのはなぜか ── settings.json との違い",
+   "link": "https://zenn.dev/super_yumenosan/articles/4b547a9a807d29",
+   "date": 1793710281000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--olQ3YYmv--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%258C%25E5%25AE%2588%25E3%2582%2589%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%259C%25E3%2581%258B%2520%25E2%2594%2580%25E2%2594%2580%2520settings.json%2520%25E3%2581%25A8%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A4%25A2%25E4%25B9%2583%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3pwY0NiZERlNWs4Z1Y0OU5VcDJZMFFaaHlYUWlFQWVVNHVORWFYYWNYbHNQazZIajU9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに はじめまして、Yumenoです。 仕様駆動開発を学び始めて数か月、主にClaude Code を使いながら開発手法を学んでいます。 この記事は学習のアウトプットとして、調べたことと実際に手を動かして困ったものをまとめたものです。 趣味で個人開発を行ったり、友人の業務改善に携わったりと、インプットしたものを積極的にアウトプットしていこうと奮闘しております。 間違いや補足があれば、コメント…"
+  },
+  {
+   "src": "zenn",
+   "title": "GitHubで年5万コントリビューションを超える10人の、AIエージェントのハーネスを読んだ",
+   "link": "https://zenn.dev/sodeyama/articles/tech-github-top-contributors-agents",
+   "date": 1793708982000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--0LBVwvkj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%25E3%2581%25A7%25E5%25B9%25B45%25E4%25B8%2587%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25AA%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E8%25B6%2585%25E3%2581%2588%25E3%2582%258B10%25E4%25BA%25BA%25E3%2581%25AE%25E3%2580%2581AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E8%25A2%2596%25E5%25B1%25B1%25E5%2589%259B%2540DeploAI%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YwN2Q1YzZjMWUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 株式会社DeploAIで代表取締役CTOをしている袖山剛です。 営業を科学するプロダクトの開発と、お客様の業務にAIを組み込む仕事をしています。開発では Claude Code や Codex を並べて動かし、その周りの仕組み（ハーネス）と、エージェントに自律的に作業を回させる仕組み（ループ）を自分たちで作っています。 エージェントに開発を任せるようになってから、私の GitHub の…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeが利用上限で止まっても、解除された瞬間に続きを頼む見張り役",
+   "link": "https://zenn.dev/gear_aiteam/articles/claude-code-quota-auto-resume",
+   "date": 1793707921000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--0XStTy2x--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%258C%25E5%2588%25A9%25E7%2594%25A8%25E4%25B8%258A%25E9%2599%2590%25E3%2581%25A7%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E3%2580%2581%25E8%25A7%25A3%25E9%2599%25A4%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E7%259E%25AC%25E9%2596%2593%25E3%2581%25AB%25E7%25B6%259A%25E3%2581%258D%25E3%2582%2592%25E9%25A0%25BC%25E3%2582%2580%25E8%25A6%258B%25E5%25BC%25B5%25E3%2582%258A%25E5%25BD%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AE%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRiZjAzM2I3MTguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は AI（Claude Code）が書いています。筆者の「ギア」は、ある個人開発者の AI チームで実装を担当している Claude Code です。書いているのは、実際に毎日動いている仕組みとコードです。 何が困っていたか ギア（Claude Code）は、自宅PCの tmux の中で常駐しています。仕事は2つあります。1つは、通勤中のリバラン（開発者）から音声経由で届く発注。もう…"
+  },
   {
    "src": "qiita",
    "title": "2026 年 10 月 30 日、Claude Code に作業フォルダの外への書き込みを止める公式の設定が入りました",
@@ -65,7 +105,7 @@
    "link": "https://qiita.com/Tadataka_Takahashi/items/a2fe82f1a2a661b6ebe2",
    "date": 1793704794000,
    "img": "",
-   "desc": "はじめに Claude CodeやCursorなどのAIコーディングエージェントに不具合修正を頼んだとき、「コードは直したと言っているけれど、本当に問題が解消したのだろうか」と感じることがあります。 そこで気になったのが、Lauren Tanさん（@poteto）が公開し..."
+   "desc": "はじめに Claude CodeやCursorなどのAIコーディングエージェントに不具合修正を頼んだとき、「コードは直したと言っているけれど、本当に問題が解消したのだろうか」と感じることがあります。 そこで気になったのが、Lauren Tanさん（@poteto）が公開..."
   },
   {
    "src": "qiita",
@@ -82,14 +122,6 @@
    "date": 1793704427000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--REwnYpyV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259D%25A1%25E4%25BB%25B6%25E3%2582%2592%25E6%258C%2587%25E5%25AE%259A%25E3%2581%2597%25E3%2581%25A6%25E3%2582%2582%25E5%2587%25BA%25E3%2581%25A6%25E3%2581%2593%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259A%25E3%2583%2599%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AB%25E6%25A4%259C%25E7%25B4%25A2%25E3%2581%25AF%25E7%25B5%259E%25E3%2582%258A%25E8%25BE%25BC%25E3%2581%25BF%25E3%2582%2592%25E7%2584%25A1%25E8%25A6%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2582%2582%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592%25E8%25BF%2594%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shinsei99%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDFIemt6WnZnMEhrd2xxWktJaFhkV1A2TnVHcEE2d3pSNlhnMWpmUXV0VHJqUGZwSFg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "社内メール約5万通を自然文で探す画面を作っています。 「今月の、あの会社から、英語で送られてきたメール」——3つの条件を書いて投げました。 目当ての1通は出てきません。エラーは出ません。それらしいメールが並んだ画面が、普通に表示されます。 症状 検索は成功している。並んでいるメールも、文面だけ見れば確かに近い。 ただ、探している1通がどこにもいない。 まずやったのは、何位に出ているかを測ることで…"
-  },
-  {
-   "src": "qiita",
-   "title": "自律型PRレビュー基盤「Reviewers Forest」のアーキテクチャ",
-   "link": "https://qiita.com/scottlz0310/items/08d2094f6e375d90337b",
-   "date": 1793702984000,
-   "img": "",
-   "desc": "1. はじめに：予告していた「レビュー自動化」の裏側をすべて明かします 前回の記事『AIを実装役とレビュー役に分けてローテーションし、コード品質を上げる』では、AIにコードを書かせたときに発生する数々の問題（テストの削除や弱体化、勝手な機能追加、エッジケース抜け）を取り上..."
   },
   {
    "src": "zenn",
@@ -204,38 +236,6 @@
    "desc": "先に結論を書きます。用意したのは、同じ頼みごとの3通りの書き方です。「普通の文章」「擬似コード風の入れ子」「平らな key: value の列」。これを claude -p(Claude Code を画面操作なしで1回だけ呼ぶコマンド)に渡して、合計72回動かしました。返ってきた文章は2通りしかありません。依頼は条件のきつさで2ラウンド(同じ頼みごとを、制約の数を変えて2セット回したもの)に分け…"
   },
   {
-   "src": "zenn",
-   "title": "AI にバグを探させたら 0 件。頼み方を 1 行変えたら 5 件見つかった",
-   "link": "https://zenn.dev/sadnorth_blog/articles/49600115501d25",
-   "date": 1793677240000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s---Xx_frc9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E3%2583%2590%25E3%2582%25B0%25E3%2582%2592%25E6%258E%25A2%25E3%2581%2595%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25200%2520%25E4%25BB%25B6%25E3%2580%2582%25E9%25A0%25BC%25E3%2581%25BF%25E6%2596%25B9%25E3%2582%2592%25201%2520%25E8%25A1%258C%25E5%25A4%2589%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25205%2520%25E4%25BB%25B6%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25BE%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVhMjI2ODcwNTQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Northern%2520Sadness%2520Prod...%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2N5OU1neVlWMWlIZ0pfMXJycG4wOGF0Mm1oTHp0V2NHTkRZaUdVMUZsbU9vZzlhYi09czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "「AI にバグチェックを頼んでも、『問題ありません』と嘘をつくから信用できない」という話をよく聞きます。 自分は技術者ではなく、AI と一緒にアプリを作っています。その中で、同じコード・同じモデルのまま、頼み方を 1 行変えただけで、見つかったバグが 0 件から 5 件になったことがありました。 もう 1 つ、AI を使わない検査が「0 件」と言った電卓から、AI が重いバグを見つけたこともあり…"
-  },
-  {
-   "src": "zenn",
-   "title": "バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ",
-   "link": "https://zenn.dev/uguisu_blog/articles/45d1f446ece415",
-   "date": 1793676605000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Dn48nZt6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E6%25A9%259F%25E8%2583%25BD%25E3%2582%2592%25E7%25B6%2599%25E3%2581%258E%25E8%25B6%25B3%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25A6%25E8%25A6%258B%25E3%2581%2588%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259FClaudeCode%25E3%2581%25AE%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%25AE%25E3%2582%25AF%25E3%2582%25BB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%25B4%25E3%2582%2588%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NmOTQzNjQ0NjQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2581%2586%25E3%2581%2590%25E3%2581%2584%25E3%2581%2599%25E3%2582%25BD%25E3%2583%25AA%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%25BATechBlog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NlMTI5YjA2YTkuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "「業務フローがよくわからないんだよね」という状態でも、チャラくバイブコーディングで自力でシステムが作れる時代が来ました。特にエンジニアは、アイディアをすぐに形にできます。普段からClaude CodeなどのAIエージェントに慣れ親しんでいれば、バイブコーディングのハードルは数ミリ程度まで下がっています。その結果、要件定義できるほどの解像度はない、できてからいろいろ意見はしたい、でも人の介在は最小…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code に書かせた記事の事実の文に、出典の印を付けさせて照合する",
-   "link": "https://zenn.dev/tasukina/articles/claude-code-article-source-markers",
-   "date": 1793676505000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--F6jDQUS2--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2581%259F%25E8%25A8%2598%25E4%25BA%258B%25E3%2581%25AE%25E4%25BA%258B%25E5%25AE%259F%25E3%2581%25AE%25E6%2596%2587%25E3%2581%25AB%25E3%2580%2581%25E5%2587%25BA%25E5%2585%25B8%25E3%2581%25AE%25E5%258D%25B0%25E3%2582%2592%25E4%25BB%2598%25E3%2581%2591%25E3%2581%2595%25E3%2581%259B%25E3%2581%25A6%25E7%2585%25A7%25E5%2590%2588%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%258A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTFNibm9FRkpaenBORkJKZ2Y1dEhzaS0xYTNhT2VQQmdubU1KMjdwcW1DTnF3S1JXRT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は Claude Code が会社の記録をもとに書いた。 AI に記録から技術記事を書かせると、文はなめらかに通るのに、主語や日付や順番が記録とずれることがある。 この記事の材料にした小さな「会社」でも、note の記事14本と本の原稿1冊を書く中で、記録と食いちがう文が30件見つかり、そのうち19件は公開した後に見つかった。 ここでいう会社は登記した法人ではなく、1台の PC の中…"
-  },
-  {
-   "src": "zenn",
-   "title": "FPS プレイヤーの「履歴書」を作るツールを、AI エージェントと 3 週間で作って公開しました",
-   "link": "https://zenn.dev/bachikawa/articles/b1812f1ff47dd6",
-   "date": 1793676335000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ZD6T9JH0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:FPS%2520%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%25A4%25E3%2583%25BC%25E3%2581%25AE%25E3%2580%258C%25E5%25B1%25A5%25E6%25AD%25B4%25E6%259B%25B8%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E3%2580%2581AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A8%25203%2520%25E9%2580%25B1%25E9%2596%2593%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25B0%25E3%2581%25A1%25E3%2581%25A1%25E3%2582%2583%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA2ZDcxZDRjZTIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに FPS ゲーム「VALORANT」のプレイヤー向けに、所属歴・担当ロール・大会実績・活動条件を 1 枚にまとめる「プレイヤー履歴書」の作成ツール VALOFOLIO を公開しました。 ログインなしでもブラウザだけで作れて、X に貼れる画像と A4 の PDF に書き出せます。Google でログインすると、サーバーに保存して、公開 URL でプロフィールを見せることもできます。 自己紹…"
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.317",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
@@ -249,7 +249,7 @@
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 210 # Comments: 244"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 216 # Comments: 249"
   },
   {
    "src": "hn",
@@ -257,7 +257,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 362 # Comments: 267"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 371 # Comments: 279"
   },
   {
    "src": "reddit",
@@ -273,7 +273,15 @@
    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
    "date": 1793637629000,
    "img": "",
-   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 329 # Comments: 2…"
+   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 334 # Comments: 2…"
+  },
+  {
+   "src": "hn",
+   "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+   "link": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+   "date": 1793636733000,
+   "img": "",
+   "desc": "Article URL: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now Comments URL: https://news.ycombinator.com/item?id=50339224 Points: 101 # Comments: 33"
   },
   {
    "src": "hn",
@@ -281,7 +289,7 @@
    "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
    "date": 1793630325000,
    "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 233 # Comments: 274"
+   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 233 # Comments: 275"
   },
   {
    "src": "reddit",
@@ -337,7 +345,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 490 # Comments: 269"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 491 # Comments: 269"
   },
   {
    "src": "reddit",
@@ -874,14 +882,6 @@
    "date": 1792281600000,
    "img": "",
    "desc": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
-  },
-  {
-   "src": "hn",
-   "title": "How the Claude Code team does code review",
-   "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "date": 1792177487000,
-   "img": "",
-   "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 488 # Comments: 481"
   },
   {
    "src": "research",
