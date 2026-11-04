@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793765005477,
+ "updatedAt": 1793768916286,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -45,51 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "プロンプト屋を卒業した",
+   "link": "https://qiita.com/konaito/items/9b8c509e05c3fbfcd73b",
+   "date": 1793768182000,
+   "img": "",
+   "desc": "最近、プロンプト屋を卒業した。この記事は、僕の仕事のやり方が変わったという記録だ。 これまでの仕事 AIに頼むこともできない。プログラミングももちろんできない。 これまで僕は、そういう人のために、自分でAIエージェントを使って、その人のサービスを作ってあげていた。 いまの..."
+  },
+  {
+   "src": "qiita",
+   "title": "#207 なぞかけでAI性能をお手軽測定",
+   "link": "https://qiita.com/nxted_sapporo/items/d83e0fcabf1db00a3873",
+   "date": 1793767457000,
+   "img": "",
+   "desc": "はじめに 以前から、たまにAIになぞかけをお願いしていたのですが、ちゃんとなぞかけになっていると感じるクオリティのものは出たことがありませんでした。 しかし、最近リリースされたClaude Opus 5.5で試してみたところ2つの意味でかかっていて、正しくなぞかけになって..."
+  },
+  {
+   "src": "qiita",
+   "title": "OutSystems 11のMCPとmablで、AIエージェントにE2Eテストを任せる(6) メンテナンス編",
+   "link": "https://qiita.com/mfunaki/items/9e9f046bbe76ef03139e",
+   "date": 1793765847000,
+   "img": "",
+   "desc": "はじめに 第5回(修正ループ編)では、AIが不具合を直し、人が Compare and Merge で取り込み、mabl のテストで再検証するところまでを紹介しました。 最終回の今回は、この仕組みを回し続けるためのメンテナンスです。アプリもテストも、作った後に変わっていき..."
+  },
+  {
+   "src": "qiita",
    "title": "OutSystems 11のMCPとmablで、AIエージェントにE2Eテストを任せる(5) 修正ループ編",
    "link": "https://qiita.com/mfunaki/items/4c3a084120940da024ca",
    "date": 1793764847000,
    "img": "",
    "desc": "はじめに 第4回(テスト作成・実行編)では、仕様どおりの期待値で mabl のテストを作り、3件中2件(R4 と A5)が不具合を検出して失敗するところまでを紹介しました。 第5回の今回は、その不具合を直します。AIエージェントに原因を特定させて O11 のモデルを修正さ..."
-  },
-  {
-   "src": "qiita",
-   "title": "OutSystems 11のMCPとmablで、AIエージェントにE2Eテストを任せる(4) テスト作成・実行編",
-   "link": "https://qiita.com/mfunaki/items/c20185f89cf181b65dc9",
-   "date": 1793763443000,
-   "img": "",
-   "desc": "はじめに 第3回(仕様とモデルの突き合わせ編)では、エージェントに O11 のモデルと業務ルールを突き合わせさせ、仕様と実装の食い違いを2つ(R4 と A5)見つけました。 第4回の今回は、その結果をもとに mabl でテストを作り、実行します。ポイントは、テストの期待値..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code・Codex・OpenCodeで`!`コマンドの結果をLLMに解釈させない方法",
-   "link": "https://qiita.com/takahashi-ry/items/f965cf096bedd2510a22",
-   "date": 1793761214000,
-   "img": "",
-   "desc": "はじめに Claude CodeやCodex CLI、OpenCodeでは、!を利用してシェルコマンドを実行できます。 例えば以下のようなものです。 !git status !ls -la !pwd ただ、単純にシェルコマンドを実行したいだけなのに、その結果に対してLL..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code のモデル4種に同じ課題を96回解かせた",
-   "link": "https://qiita.com/acerola_jp/items/619dc8d4f579204dbf06",
-   "date": 1793761188000,
-   "img": "",
-   "desc": "Haiku 5.5・Sonnet 5.5・Opus 5.5・Fable 5.1 のどれを使うか。「難しいことは上のモデルに」とよく言われますが、どのくらいの難しさから上が要るのか、そのとき費用と時間はどれだけ変わるのかは、自分で測らないと分かりません。 そこで、隠しテストで..."
-  },
-  {
-   "src": "zenn",
-   "title": "Supabase × Claude Code 本番運用の教科書",
-   "link": "https://zenn.dev/shingokumon/books/supabase-claude-prod-review",
-   "date": 1793751333000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--JkTYWsZW--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci8zMzdjNGIzMWUwLmpwZWc=%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "「動いた」から「公開してよい」へ。本人だけのメモを題材に、RLSと列権限、許可・拒否の試験、Claude Codeへの作業依頼、変更・復旧の判断を学びます。演習・解答例・実行できる教材付きの無料β版（全9章）。WindowsとLinuxでDB単体38項目を確認済み。実際の認証・HTTP経路、Claude Code実機、実際の変更・復旧は未検証です。"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeが/clearで全部忘れる問題。claude-memで記憶を持たせる前に知っておきたい4つのこと",
-   "link": "https://zenn.dev/290oss/articles/603baac55c6950",
-   "date": 1793751078000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--i4SXYOZ7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%258C%252Fclear%25E3%2581%25A7%25E5%2585%25A8%25E9%2583%25A8%25E5%25BF%2598%25E3%2582%258C%25E3%2582%258B%25E5%2595%258F%25E9%25A1%258C%25E3%2580%2582claude-mem%25E3%2581%25A7%25E8%25A8%2598%25E6%2586%25B6%25E3%2582%2592%25E6%258C%2581%25E3%2581%259F%25E3%2581%259B%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E7%259F%25A5%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258A%25E3%2581%258D%25E3%2581%259F%25E3%2581%25844%25E3%2581%25A4%25E3%2581%25AE%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:290oss%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkzOGNkNjljNGIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "/clear を打つたびに、さっきまでの作業をAIに説明し直していませんか。 「このファイルはもう直した」「このエラーはこう解決した」——会話を整理するたびに、それが全部消えます。長い作業ほど、説明し直す手間は増えていきます。 この記事では、その手間を減らす記憶プラグイン claude-mem を取り上げます。GitHub のスターは約10万9千（2026年11月2日調べ）、調べた日は日次トレン…"
   },
   {
    "src": "claude-code",
@@ -130,14 +114,6 @@
    "date": 1793750406000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--1524WGY5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:YouTube%2520API%2520%25E3%2581%25AE%2520uploadLimitExceeded%2520%25E3%2581%25AF24%25E6%2599%2582%25E9%2596%259310%25E6%259C%25AC%25E3%2581%25A7%25E5%2587%25BA%25E3%2581%259F%25E3%2580%2582%25E9%259D%259E%25E5%2585%25AC%25E9%2596%258B%25E3%2581%25AE%25E5%259B%25BA%25E5%25AE%259A%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2597%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%2599%25A9%25E7%2599%25BD%25E6%259F%259A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk4OWU4N2JhNmQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "この記事で分かること YouTube Data API で動画を上げるとき、API のクォータ（API の呼び出し量の割り当て。1日 10,000 ユニット）とは別に、チャンネル側の投稿本数の上限に当たること。手元では直近24時間に10本を上げた次の1本が uploadLimitExceeded で止まった。上限は暦日ではなく直近24時間で数えていた 「審査を受けていない API プロジェクトか…"
-  },
-  {
-   "src": "zenn",
-   "title": "UI のスキルを 5 つ同じ条件で比べたら、案外スキルなしが良かった",
-   "link": "https://zenn.dev/akaringo1109/articles/ui-skill-same-prompt-comparison",
-   "date": 1793750400000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--SI9Jb-aM--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:UI%2520%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2582%2592%25205%2520%25E3%2581%25A4%25E5%2590%258C%25E3%2581%2598%25E6%259D%25A1%25E4%25BB%25B6%25E3%2581%25A7%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%25A1%2588%25E5%25A4%2596%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AA%25E3%2581%2597%25E3%2581%258C%25E8%2589%25AF%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2582%25E3%2581%258B%25E3%2582%258A%25E3%2582%2593%25E3%2581%2594%2528Akaringo%2529%25EF%25BD%259C%25E3%2582%25B3%25E3%2583%25B3...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2JlYWMzOTViZjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code 向けの人気の UI スキルを 5 つ選び、スキルなしも入れた 6 組で、同じ LP を作らせました。 モデルもプロンプトも同じにして 3 回ずつ回し、どれがどのスキルかを伏せて、私が見比べました。 3 回とも一番は UI UX Pro Max で、2・3 回目は次にスキルなしが来ました。 残りの 4 つのスキルは、スキルなしより下に見えた回が多くなりました。 taste-…"
   },
   {
    "src": "zenn",
@@ -244,6 +220,30 @@
    "desc": "TL;DR AIエージェントが書いたコードの依存関係を Neo4j に入れて、コンパイラやlinterが報告しない負債を検出するツール depgraph の をリリースしました 対象は「誰も使っていない export / ファイル / パッケージ」「名前を変えて複製された同じロジック」「循環 import・レイヤー違反・何でも依存されるハブパッケージ」です。コンパイルエラーや未使用のローカル変数…"
   },
   {
+   "src": "zenn",
+   "title": "動画生成 AI には「描く」だけを任せる — Gemini 32 秒の相性ドラマ 9 本に 15,000 円かかった話",
+   "link": "https://zenn.dev/naiki9982/articles/c06cea30c02993",
+   "date": 1793715796000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hQp60zvL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258B%2595%25E7%2594%25BB%25E7%2594%259F%25E6%2588%2590%2520AI%2520%25E3%2581%25AB%25E3%2581%25AF%25E3%2580%258C%25E6%258F%258F%25E3%2581%258F%25E3%2580%258D%25E3%2581%25A0%25E3%2581%2591%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%2520%25E2%2580%2594%2520Gemini%252032%2520%25E7%25A7%2592%25E3%2581%25AE%25E7%259B%25B8%25E6%2580%25A7%25E3%2583%2589%25E3%2583%25A9%25E3%2583%259E%25209%2520%25E6%259C%25AC%25E3%2581%25AB%252015%252C000%2520%25E5%2586%2586%25E3%2581%258B%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AA%25E3%2581%2584%25E3%2581%258D%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzcyNGU1NzQ5ZmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "9 本で 15,000 円、クレジットの残りは 25,000 円 キャラ 2 人が日本語で掛け合う 32 秒の縦動画を、1 日で 9 本作りました。 描いたのは Google の Gemini Omni 1.1 Flash（Vertex AI のプレビュー）です。Google Cloud のクレジットは 15,000 円 減り、残りは 25,000 円 になりました。 項目 金額・本数 1 本（…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeを49エージェントのゲームスタジオにするテンプレートで、実際に1本作ってみた",
+   "link": "https://zenn.dev/matsushima_a/articles/day-035-claude-code-game-studios",
+   "date": 1793715451000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--LsClej_h--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2582%259249%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%25B9%25E3%2582%25BF%25E3%2582%25B8%25E3%2582%25AA%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25A7%25E3%2580%2581%25E5%25AE%259F%25E9%259A%259B%25E3%2581%25AB1%25E6%259C%25AC%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:matsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkY2YwMTZjYWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "本記事は「海外で話題のAI関連ニュース/OSSを毎日検証する」100日チャレンジのDay 035。この連載自体もClaude Code Routines(クラウド上の自動実行)で運用しているが、今回検証したClaude Code Game Studios(以下CCGS、MIT License)は、Claude Codeの1セッションを49体のサブエージェント・74個のスラッシュコマンド形式スキル…"
+  },
+  {
+   "src": "zenn",
+   "title": "日本語のコミットメッセージをClaude Codeに書かせる：既存の履歴から規約を読み取らせ、形式はフックで検査する",
+   "link": "https://zenn.dev/aishigoto/articles/claude-code-japanese-commit-message",
+   "date": 1793712420000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--V1tqFv0m--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%259F%25E3%2583%2583%25E3%2583%2588%25E3%2583%25A1%25E3%2583%2583%25E3%2582%25BB%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592Claude%2520Code%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%25EF%25BC%259A%25E6%2597%25A2%25E5%25AD%2598%25E3%2581%25AE%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2581%258B%25E3%2582%2589%25E8%25A6%258F%25E7%25B4%2584%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BF%25E5%258F%2596%25E3%2582%2589%25E3%2581%259B%25E3%2580%2581%25E5%25BD%25A2%25E5%25BC%258F%25E3%2581%25AF%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25A7%25E6%25A4%259C%25E6%259F%25BB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2581%2597%25E3%2581%2594%25E3%2581%25A8%25E9%2581%2593%25E5%2585%25B7%25E5%25BA%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUwMTdjMzdhMWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "※ この記事は Claude Code（AI）を使って執筆し、掲載しているコードと出力例はすべて実際に実行して確認しています。 Claude Codeにコミットメッセージを頼むと、チームの書き方と違う形式で返ってくることがあります。 この記事では、既存のコミット履歴と設定ファイルから規約を読み取らせる指示と、その結果を機械的に検査するcommit-msgフックを紹介します。小さなリポジトリで実際…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.317",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
@@ -257,7 +257,7 @@
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 227 # Comments: 268"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 227 # Comments: 271"
   },
   {
    "src": "hn",
@@ -265,7 +265,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 397 # Comments: 313"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 397 # Comments: 314"
   },
   {
    "src": "reddit",
@@ -281,7 +281,7 @@
    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
    "date": 1793637629000,
    "img": "",
-   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 349 # Comments: 2…"
+   "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 350 # Comments: 2…"
   },
   {
    "src": "hn",
@@ -297,7 +297,7 @@
    "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
    "date": 1793630325000,
    "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 236 # Comments: 285"
+   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 237 # Comments: 284"
   },
   {
    "src": "reddit",
@@ -473,7 +473,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1009 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1010 # Comments: 553"
   },
   {
    "src": "claude-code",
