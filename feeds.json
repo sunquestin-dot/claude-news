@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793787313687,
+ "updatedAt": 1793791596173,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code v2.1.317——企業IT管理者が確認する5点",
+   "link": "https://qiita.com/Sidejob/items/7c65cc115c1841ff23e4",
+   "date": 1793788203000,
+   "img": "",
+   "desc": "この記事の対象：Claude Codeを企業のゲートウェイ環境で運用しているIT担当者。v2.1.317の変更点のうち、管理・セキュリティ・コスト管理に関わるものに絞って整理します。出典：https://github.com/anthropics/claude-code/..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Codeのサンドボックスはシェルだけを囲う、既定はオフだと確認した話",
    "link": "https://qiita.com/J-WORKS_HQ/items/bbfe44436e927d940cc8",
    "date": 1793786430000,
@@ -68,12 +76,12 @@
    "desc": "はじめに 評価シートの振り返りを書く時期になると、毎回同じところで手が止まります。半年分の仕事を思い出せないのです。結局、覚えている仕事だけを書き、地味だけれど評価に効く実績が漏れていきます。 今回、評価期間中の Slack での活動を、評価シートの振り返りに反映する作..."
   },
   {
-   "src": "qiita",
-   "title": "Claude に進捗の図を作らせるなら Mermaid がおすすめな理由",
-   "link": "https://qiita.com/taro0214/items/90967dc9927dae07749c",
-   "date": 1793769691000,
-   "img": "",
-   "desc": "仕事のタスクが増えてくると、どれが終わっていて、どれが止まっているのかが分かりにくくなります。そこで私は、Claude にタスクの進み具合を色分けした図にしてもらっています。 最初は、色付きの図を HTML（Web ページ）で作ってもらっていました。見た目はきれいなのですが..."
+   "src": "zenn",
+   "title": "Claude Codeでひとり会社に21の担当をつくった設計メモ",
+   "link": "https://zenn.dev/bay_cat/articles/830c576c8ceb25",
+   "date": 1793765732000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Ju6wr4em--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2581%25B2%25E3%2581%25A8%25E3%2582%258A%25E4%25BC%259A%25E7%25A4%25BE%25E3%2581%25AB21%25E3%2581%25AE%25E6%258B%2585%25E5%25BD%2593%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2581%25A3%25E3%2581%259F%25E8%25A8%25AD%25E8%25A8%2588%25E3%2583%25A1%25E3%2583%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Bay_Cat%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnV5dWM5Z25hQ0RhSkJCX3VBOHBIV3BNc090ejcta0s5TVQ5RHVZbi0xMTlNM3dhOWc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 自分はBay_Catという屋号で、ひとりで仕事をしています。その仕事を21の担当に分け、Claude Codeを使って回しています。担当には、ギリシャ神話に由来する名前を付けています。 結論からいうと、全部をサブエージェントにはしていません。受付をOLYMPUSにまとめ、仕事に合う仕組みへ振り分けています。本人が話しかける入口は、ここだけです。 この記事でいう「担当」は、仕事の役割を数…"
   },
   {
    "src": "zenn",
@@ -236,14 +244,6 @@
    "desc": "Claude Code 向けの人気の UI スキルを 5 つ選び、スキルなしも入れた 6 組で、同じ LP を作らせました。 モデルもプロンプトも同じにして 3 回ずつ回し、どれがどのスキルかを伏せて、私が見比べました。 3 回とも一番は UI UX Pro Max で、2・3 回目は次にスキルなしが来ました。 残りの 4 つのスキルは、スキルなしより下に見えた回が多くなりました。 taste-…"
   },
   {
-   "src": "zenn",
-   "title": "「いい感じに作って」はなぜAIに通じないのか — 注文住宅で理解する「仕様駆動開発（SDD）」の基本",
-   "link": "https://zenn.dev/suzuki_tech/articles/spec-driven-development-basics",
-   "date": 1793749534000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--C9pCWxRU--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E3%2581%2584%25E3%2581%2584%25E6%2584%259F%25E3%2581%2598%25E3%2581%25AB%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2580%258D%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%259CAI%25E3%2581%25AB%25E9%2580%259A%25E3%2581%2598%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AE%25E3%2581%258B%2520%25E2%2580%2594%2520%25E6%25B3%25A8%25E6%2596%2587%25E4%25BD%258F%25E5%25AE%2585%25E3%2581%25A7%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2599%25E3%2582%258B%25E3%2580%258C%25E4%25BB%2595%25E6%25A7%2598%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25EF%25BC%2588SDD%25EF%25BC%2589%25E3%2580%258D%25E3%2581%25AE%25E5%259F%25BA%25E6%259C%25AC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:SuzukiTech%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlmOWFlZDc0MzMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに：「ログイン機能つけて」の、その先 AIコーディングツールに「ログイン機能つけて」と頼むと、それっぽいものが一瞬でできあがります。画面もあり、入力チェックもあり、ログインもできます。 でも、少し触ってみると気づきます。 パスワードを忘れたときの再設定は？ 何回間違えたらロックされるの？ セッションはいつ切れるの？ どれも「頼んでいない」ので、そもそも作られていないか、AIが勝手に何かの値…"
-  },
-  {
    "src": "reddit",
    "title": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
@@ -314,6 +314,14 @@
    "date": 1793630325000,
    "img": "",
    "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 237 # Comments: 284"
+  },
+  {
+   "src": "reddit",
+   "title": "i dont understand all this \"claude + obsidian\" obsession",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xlm85t/i_dont_understand_all_this_claude_obsidian/",
+   "date": 1793588687000,
+   "img": "",
+   "desc": "i honestly just dont see the point. a lot of people are saying its like a \"second brain\" but i tried it, and in my opinion, it just adds a ton of unnecesary fluff and ui. the alternative that i have …"
   },
   {
    "src": "reddit",
@@ -554,14 +562,6 @@
    "date": 1793196611000,
    "img": "https://preview.redd.it/8nwhqtf6u7yh1.jpeg?width=320&crop=smart&auto=webp&s=ebed3431c987ac45ef4d40aad5be4ca2af1db96e",
    "desc": "I'm a student studying to become a Spanish teacher, and I mainly use Claude to help me create teaching materials for my classes, write essays, and work on other academic assignments. However, I'm not…"
-  },
-  {
-   "src": "reddit",
-   "title": "It happened, my project manager just made a PR with Claude.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xhl5cb/it_happened_my_project_manager_just_made_a_pr/",
-   "date": 1793185858000,
-   "img": "",
-   "desc": "Yeah, she has absolutely no idea about what's going on, she just said \"Claude do this\" and then Claude made a pull request and Claude reviewed and it said it was OK and now there's a bunch of us who …"
   },
   {
    "src": "status",
