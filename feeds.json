@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793804396016,
+ "updatedAt": 1793808160326,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,30 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Codeの設定を点検する50行のPythonスクリプト：保護を弱める設定を洗い出す",
+   "link": "https://qiita.com/Tomcat-zhou/items/b5199c1c6c4f52f5e03e",
+   "date": 1793807962000,
+   "img": "",
+   "desc": "title: \"Claude Codeの設定を点検する50行のPythonスクリプト：保護を弱める設定を洗い出す\" tags: - ClaudeCode - AI - Python - セキュリティ - AIエージェント private: false -..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude CodeでViteを使ったテトリスを作ってみた！初心者向けに開発手順を解説",
+   "link": "https://qiita.com/wa-chan222/items/fb6ec9f308275d5ea85d",
+   "date": 1793806855000,
+   "img": "",
+   "desc": "はじめに 今回は、Claude Codeを使って、ブラウザ上で遊べるテトリスを作成してみました。 Claude Codeは、AIに自然言語で指示を出すことで、コードの作成やファイルの編集、コマンドの実行などをサポートしてくれる開発ツールです。 実際に使ってみると、コードを..."
+  },
+  {
+   "src": "qiita",
+   "title": "会話型AIしか使ったことがない人へ：エージェントは「話し相手」ではなく「作業者」",
+   "link": "https://qiita.com/maya-bot/items/8a1f5cd0c78eec976b04",
+   "date": 1793806312000,
+   "img": "",
+   "desc": "チャット画面にコードを貼り、返ってきた回答をコピーしてエディタに戻す。エラーが出たら、またそのエラーを貼り付ける。AIを使うとき、こんな往復をしていないでしょうか。 この往復で、人間がやっているのは「中継役」です。エージェント型のAIを使うと、この中継役から解放されます。 ..."
+  },
+  {
+   "src": "qiita",
    "title": "【2026年末版】Claude Codeベストプラクティス解説｜以前から何が変わった？",
    "link": "https://qiita.com/skwt20/items/39a876ecf1c4a80261ae",
    "date": 1793798114000,
@@ -68,14 +92,6 @@
    "desc": "普段は Premiere Pro と After Effects で動画を編集しています。社内で始めたポッドキャスト「Locked in」の第1回（約53分）を、今回は Claude Code に編集させてみました。 素材は iPhone で撮った 4K 映像が3アングル分（合計約36GB）と、マイク2本の WAV です。そこから YouTube 用の本編1本（4K）と、縦型ショート20本を作り…"
   },
   {
-   "src": "qiita",
-   "title": "AIが脆弱性を「直すところまで」やる時代へ ― Devin Security 2.0 と Claude のセキュリティレビューを比べてみた",
-   "link": "https://qiita.com/startdevin/items/23c3e4cac835b407190f",
-   "date": 1793795453000,
-   "img": "",
-   "desc": "🚀 Devin専門の解説メディア「StartDevin」を運営中！ Devinの導入・使い方・最新アップデート・活用事例を、日本語でまとめています。 👉 StartDevin をチェックする（startdevin.jp） この記事にぜひ いいね❤️ していただけると励み..."
-  },
-  {
    "src": "zenn",
    "title": "AIにXの返信を任せたら、お礼を出さずに止まった —— 返してよい相手を「宛先」で決めておいた話",
    "link": "https://zenn.dev/ai_shihan/articles/bee954a77035bb",
@@ -90,22 +106,6 @@
    "date": 1793792857000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--XZbj2ZmT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:10%25E6%259C%2588%25E3%2581%25AB2600%25E3%2582%25B3%25E3%2583%259F%25E3%2583%2583%25E3%2583%2588%25E7%25A9%258D%25E3%2582%2593%25E3%2581%25A7%25E5%25BE%2597%25E3%2581%259FAI%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E7%259F%25A5%25E8%25A6%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AF%25E3%2581%25A1%25E3%2581%258C%25E3%2581%25A4%25E3%2581%2586%25E3%2581%25BE%25E3%2582%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJhYjU4YjNkZmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "2026-10月はAIとの開発手順開発手順を標準化しました。 この記事は人間が書いています。コード生成はAIはOpus5.5を使用しています。監査についてはFable5.1を使用しています。 Golemは印刷所に入稿できるPDF（PDF/X4）を生成します。Adobeのドキュメントが見つからなかったのでモリサワのリンクを貼っておきます。 https://note.morisawa.co.jp/n…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeの/model opusplan＋/advisor fableでOpus・Fable・Sonnetを自動で使い分けたら、めちゃめちゃ良かった",
-   "link": "https://qiita.com/inoyu-qiita/items/d486f85b8333d5b324d9",
-   "date": 1793791868000,
-   "img": "",
-   "desc": "はじめに Opusが考え、Fableが助言し、Sonnetが作る。 Claude Codeで、計画・助言・実装を3モデルへ自動で振り分ける運用を、実際の業務で使ってみました。 設定するのはopusplanと/advisor fableです。 /model opusplan..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIに任せる仕事をどのループで回すかを決めるチェックリスト ― 閉ループにする3つの条件と、外ループに付ける起動・停止・引き継ぎ",
-   "link": "https://qiita.com/TOSHIMITSU_MIYACHI/items/0729fe3bba60e0671875",
-   "date": 1793791761000,
-   "img": "",
-   "desc": "株式会社AI Orchestraのみやっち🧑‍💻です。Claude CodeやCodexに仕事を任せるとき、毎回こちらから指示を出す使い方から一歩進めて、AIが自律的に動く仕組みを作ろうとすると、たいていこの2つで手が止まります。 評価担当のAIを付けて、基準を満たすまで..."
   },
   {
    "src": "zenn",
