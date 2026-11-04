@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793749707879,
+ "updatedAt": 1793754971316,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -45,51 +45,43 @@
  "items": [
   {
    "src": "qiita",
-   "title": "PoCを本番運用に乗せる時に必要だったもの — 監視・リトライ・コスト上限【bash + launchd実装付き】",
-   "link": "https://qiita.com/joinclass/items/21a65082b5a8594b9d8a",
-   "date": 1793748602000,
+   "title": "2。16日前「即使える」と書いたコネクタ4個と、今日実際に使えた4個を比べたら、重なっていたのはこの数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/1791f7b58a7fe4e22018",
+   "date": 1793753217000,
    "img": "",
-   "desc": "はじめに：PoCは「動いた日」が一番危ない 当社（合同会社ジョインクラス）では、Claude Code を中心に記事公開・SNS配信・営業パイプライン・朝のダイジェスト生成などを launchd のジョブ17本以上で回しています。自動化率はおよそ98%です。 ただ、最初か..."
+   "desc": "はじめに 2。 これが今回の数字です。何の2かというと、16日前(2026-10-19)に自分で書いた記事で「セッション開始時点で即使える」と判定したMCPコネクタ4個と、今日(2026-11-04)同じ方法で確認し直した「即使える」コネクタ4個を比べたとき、両方のリスト..."
   },
   {
    "src": "qiita",
-   "title": "「何も出なければ解消」の grep は、リンクが14あっても0だった：壊れた状態で先に数える",
-   "link": "https://qiita.com/kaiyaku_iyada/items/0628767ea384c5676265",
-   "date": 1793747154000,
+   "title": "Claude Codeが/clearで全部忘れる問題。claude-memで記憶を持たせる前に知っておきたい4つのこと",
+   "link": "https://qiita.com/290oss/items/d175ab396601e144d5d5",
+   "date": 1793751056000,
    "img": "",
-   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とも、販売サイト Brain の運営とも無関係の個人の実験で、両者の公認や提携ではありません。書いてあるのは、2026年10月1..."
+   "desc": "/clear を打つたびに、さっきまでの作業をAIに説明し直していませんか。 「このファイルはもう直した」「このエラーはこう解決した」——会話を整理するたびに、それが全部消えます。長い作業ほど、説明し直す手間は増えていきます。 この記事では、その手間を減らす記憶プラグイン..."
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.318",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+   "date": 1793750463000,
+   "img": "",
+   "desc": "What's changed - Added a record of your answer when Claude Code asks to turn on the mods it writes in a session - Added assume_role on mantle upstreams of the Claude apps gateway, for a role in anoth…"
   },
   {
    "src": "qiita",
-   "title": "配布 zip の「検査の結果が空なら合格」は、検査そのものが間違っていても空になります。漏れを見つけられるかを、先に試してください【zip -x・git archive 実測】",
-   "link": "https://qiita.com/Rapls/items/8f94b9091fa70b1b8495",
-   "date": 1793747044000,
+   "title": "AIに任せていい仕事と、任せてはいけない仕事の見分け方（3つの問い）",
+   "link": "https://qiita.com/Next-Survive/items/c22e221e6872c585b0bd",
+   "date": 1793750116000,
    "img": "",
-   "desc": "配布用の zip を作ったあと、unzip -Z1 で中身の一覧を出し、入っていてはいけない名前を grep で探す。結果が空なら合格。この形の検査は、手軽で、AI にも任せやすい書き方です。 ただ、探す名前のほうが間違っていると、zip に入っていても結果は空になり、「合..."
+   "desc": "AIに作業を任せると、時間が生まれます。 ただ、何でも任せると、あとで大きな手戻りが起きることがあります。 この記事では、任せる仕事を見分けるための「3つの問い」を紹介します。 問い1：間違えても、すぐ直せるか 任せやすいのは、間違えてもすぐ直せる作業です。 例 文章の..."
   },
   {
    "src": "qiita",
-   "title": "【ClaudeCode】WebページのデザインからAIっぽさ、AI臭さを消すには？【hallmark】",
-   "link": "https://qiita.com/Nana_777/items/3c243ec46877f2e04421",
-   "date": 1793746413000,
+   "title": "Claude Code・Codexに任せた作業、今どこまで進んだ？ WBSで見えるようにする",
+   "link": "https://qiita.com/engchina/items/f333d920a465dbb3c789",
+   "date": 1793750075000,
    "img": "",
-   "desc": "はじめに GitHubのトレンド（2026-11-03時点）に、Nutlope/hallmark というリポジトリが入っていました。AIコーディングエージェント向けの「デザインスキル」で、キャッチコピーは \"refuses to look AI-generated\"（AI..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claudeで『コードが書けるようになる』の、その先にある話",
-   "link": "https://zenn.dev/noragrammer/articles/claude-2a8c707059",
-   "date": 1793732431000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--s4Ol0ETm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E3%2581%25A7%25E3%2580%258E%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2591%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%258F%25E3%2581%25AE%25E3%2580%2581%25E3%2581%259D%25E3%2581%25AE%25E5%2585%2588%25E3%2581%25AB%25E3%2581%2582%25E3%2582%258B%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:noragrammer%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lNclhRX3VzcXYtVGNadnlRSDd5d2ZYUEtfeUh6SkN3d2F3YlRoX0g1dXRHNm1VTVB5dz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claudeで「コードが使えるようになる」の、その先の話 ──スマホ版Claude × GitHub連携の実例 前回の記事では、 GitHubアカウントを作ってClaudeに接続すると、 「コード」が使えるようになる というところまでを書いた。 ▼前回の記事 https://note.com/noragrammer/n/na44b7faaea49 今回はその続き。 「で、それを繋いだ結果、実際に…"
-  },
-  {
-   "src": "zenn",
-   "title": "ISUCON2026 で 94 位だったので、人間なしのハーネスを作って感想戦に挑んだ",
-   "link": "https://zenn.dev/marie673/articles/isucon2026-full-harness",
-   "date": 1793721833000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--fEeHSehF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%252094%2520%25E4%25BD%258D%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25A7%25E3%2580%2581%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%25AA%25E3%2581%2597%25E3%2581%25AE%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E6%2584%259F%25E6%2583%25B3%25E6%2588%25A6%25E3%2581%25AB%25E6%258C%2591%25E3%2582%2593%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%258B%25E3%2581%2596%25E3%2581%258D%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ViYjA4NzAyYTguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ISUCON2026 に同期 3 人で出て、856 チーム中 94 位でした。1 位の方は、競技中に人間が一度も指示を入れなかったそうです。 これを再現したくて、競技が終わったあとも Claude と一緒にハーネスを作り直し、過去問で試し続けました。ちょうど感想戦がオープンしたので試したところ、3 回目の試行で、僕から改善の方向を指示せずに開始 1 時間半で 51 万点まで届き、最高は 575,…"
+   "desc": "初めに Claude CodeやCodexに、複数の修正をまとめてお願いする。 最初は便利です。 ただ、作業が長くなると、依頼した側には分からなくなることがあります。 「今、何を直している？」 「さっきお願いした件は残っている？」 「完了というのは、実装？ テスト？ デプ..."
   },
   {
    "src": "zenn",
@@ -101,11 +93,11 @@
   },
   {
    "src": "zenn",
-   "title": "AIが残した負債をNeo4jで見つける「depgraph」をリリースした",
+   "title": "AIが残した負債をNeo4jで見つける「depgraph」v0.1.0をリリースした",
    "link": "https://zenn.dev/nozomi720/articles/depgraph-ai-code-debt",
    "date": 1793715939000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--QvIfEMzz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%25AE%258B%25E3%2581%2597%25E3%2581%259F%25E8%25B2%25A0%25E5%2582%25B5%25E3%2582%2592Neo4j%25E3%2581%25A7%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%2591%25E3%2582%258B%25E3%2580%258Cdepgraph%25E3%2580%258D%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nonchan7720%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKelRlaFE0TU1pMDFic2tRUTZ0dGFNOTdUUExGQzktUHQ2NnJmNU49czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "TL;DR AIエージェントが書いたコードの依存関係を Neo4j に入れて、コンパイラやlinterが報告しない負債を検出するツール depgraph の をリリースしました 対象は「誰も使っていない export / ファイル / パッケージ」「名前を変えて複製された同じロジック」「循環 import・レイヤー違反・何でも依存されるハブパッケージ」です。コンパイルエラーや未使用のローカル変数…"
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ESzNK3LD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%25AE%258B%25E3%2581%2597%25E3%2581%259F%25E8%25B2%25A0%25E5%2582%25B5%25E3%2582%2592Neo4j%25E3%2581%25A7%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%2591%25E3%2582%258B%25E3%2580%258Cdepgraph%25E3%2580%258Dv0.1.0%25E3%2582%2592%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nonchan7720%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKelRlaFE0TU1pMDFic2tRUTZ0dGFNOTdUUExGQzktUHQ2NnJmNU49czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "TL;DR AIエージェントが書いたコードの依存関係を Neo4j に入れて、コンパイラやlinterが報告しない負債を検出するツール depgraph の v0.1.0 をリリースしました 対象は「誰も使っていない export / ファイル / パッケージ」「名前を変えて複製された同じロジック」「循環 import・レイヤー違反・何でも依存されるハブパッケージ」です。コンパイルエラーや未使用…"
   },
   {
    "src": "zenn",
@@ -234,6 +226,22 @@
    "date": 1793691215000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--MO2bj_Gm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520ANTHROPIC_BASE_URL%2520%25E3%2581%25AE%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2581%25A8%25E3%2580%2581%25E3%2583%25AA%25E3%2583%25AC%25E3%2583%25BC%25E3%2581%258C%25E6%259C%25AC%25E7%2589%25A9%25E3%2581%25AE%2520Claude%2520%25E3%2581%258B%25E7%25A2%25BA%25E8%25AA%258D...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Gyre%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVV4WVBZQ1dCM0ozWURwOVNGZXV6Z2VGWmdRN2ExdXRWSU1wSXYzd0dnUGpiNVJRZz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "安価な Claude Code 向けリレー（API 中継）を使う前に、「本当に Claude が答えているのか」を自分で確かめる手順をまとめます。前半は Claude Code が読む環境変数の話、後半はどのリレーにも使える検証方法です。筆者は CoreCode というリレーを運営しています（末尾に開示）。 1. Claude Code が読む環境変数 公式ドキュメント（環境変数、LLM ゲート…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude CodeのHooks入門：ファイル編集後に自動フォーマットする設定を全公開",
+   "link": "https://zenn.dev/gokigentachiuo/articles/6606034f14da02",
+   "date": 1793690546000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--5vhyyXDY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AEHooks%25E5%2585%25A5%25E9%2596%2580%25EF%25BC%259A%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E7%25B7%25A8%25E9%259B%2586%25E5%25BE%258C%25E3%2581%25AB%25E8%2587%25AA%25E5%258B%2595%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%259E%25E3%2583%2583%25E3%2583%2588%25E3%2581%2599%25E3%2582%258B%25E8%25A8%25AD%25E5%25AE%259A%25E3%2582%2592%25E5%2585%25A8%25E5%2585%25AC%25E9%2596%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2594%25E3%2581%258D%25E3%2581%2592%25E3%2582%2593%25E3%2581%259F%25E3%2581%25A1%25E3%2581%2586%25E3%2581%258A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY0MjE4MzBlZjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Codeにコードを書かせると、動くけれどフォーマットが微妙に崩れている、ということがよくあります。インデントや改行位置がプロジェクトの流儀とずれていて、結局あとから手で整形し直す。その往復が地味に時間を溶かします。 これはモデルの性能の問題ではなく、Hooks で解決できます。この記事では、Claude Codeがファイルを編集するたびに Prettier で自動整形する設定を、設…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の「できました」を信じていいのか。別の窓に検品させたら半分が差し戻しだった",
+   "link": "https://zenn.dev/ciel_lab/articles/deccde3fbcbf1a",
+   "date": 1793689582000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--CScD8IvK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25E3%2580%258D%25E3%2582%2592%25E4%25BF%25A1%25E3%2581%2598%25E3%2581%25A6%25E3%2581%2584%25E3%2581%2584%25E3%2581%25AE%25E3%2581%258B%25E3%2580%2582%25E5%2588%25A5%25E3%2581%25AE%25E7%25AA%2593%25E3%2581%25AB%25E6%25A4%259C%25E5%2593%2581%25E3%2581%2595%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E5%258D%258A%25E5%2588%2586%25E3%2581%258C%25E5%25B7%25AE%25E3%2581%2597%25E6%2588%25BB%25E3%2581%2597%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Ciel%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAyZGJiOGEwYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "3行まとめ Claude Code に作らせた物を、別の窓の AI に検品させた。PASS か NG がついた371回のうち、NG は184回だった。 NG の中身は「記録に無い言い切り」「数え方の書いていない数字が、誰が数えても合わない」のような、作った本人が読み直しても気づきにくい物だった。 作る窓と検品する窓を分け、検品が通らないと先に進めない「関所」を Claude Code のフックで…"
   },
   {
    "src": "claude-code",
@@ -818,14 +826,6 @@
    "date": 1792553803000,
    "img": "",
    "desc": "Article URL: https://www.anthropic.com/research/attack-surface-reduction Comments URL: https://news.ycombinator.com/item?id=50175779 Points: 137 # Comments: 91"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.306",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
-   "date": 1792552591000,
-   "img": "",
-   "desc": "What's changed - Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables - Fixed an API error being replaced by \"prompt is too long\", …"
   },
   {
    "src": "news",
