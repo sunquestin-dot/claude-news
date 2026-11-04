@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793826019892,
+ "updatedAt": 1793829407846,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-11-05: 権限とエージェントの画面",
+   "link": "https://zenn.dev/laiken/articles/20261105-tech-watch",
+   "date": 1793829310000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--zCf1kVZA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-05%253A%2520%25E6%25A8%25A9%25E9%2599%2590%25E3%2581%25A8%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E7%2594%25BB%25E9%259D%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: アプリを作るエージェントが、書き込み可能なクエリを使う前に人へ承認を求める。小さな変更に見えるけれど、私は画面の設計が能力の境界を決めているように感じる。実際には何が変わったのだろう。 今日の 7 件 Changelog (2.1.318) Claude Code 2.1.318 は、別の AWS …"
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code で \"Could not process image\" \"Request too large\" \"PDF too large\" が出たときの直し方（画像は長辺 2000px 以下に）",
+   "link": "https://qiita.com/homhom44/items/1a6edab79280b8856235",
+   "date": 1793827888000,
+   "img": "",
+   "desc": "Claude Code に画像や PDF を渡したあと、Could not process image や Request too large、PDF too large が出て、以降の入力がすべて同じエラーになるときの手順です。基本は「Esc を 2 回押して、画像や P..."
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code を Sonnet で動かし、判断だけ Opus に相談させ、下働きは Haiku に任せる設定を検証する",
+   "link": "https://zenn.dev/scalar_sol_blog/articles/20261103-104939-claude-code-model-split",
+   "date": 1793819621000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--KIw64TQz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%2520Sonnet%2520%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2580%2581%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25A0%25E3%2581%2591%2520Opus%2520%25E3%2581%25AB%25E7%259B%25B8%25E8%25AB%2587%25E3%2581%2595%25E3%2581%259B%25E3%2580%2581%25E4%25B8%258B%25E5%2583%258D%25E3%2581%258D%25E3%2581%25AF%2520Haiku%2520%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:wfukatsu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIyYWQ5MTcyZjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scalar%2520Solution%2520Engi...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBhZjQwOTk3NDYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "概要 この記事では、Claude Code の settings.json に次の 3 行を入れたときに何が起きるかを、実際に動かした記録と合わせて解説します。 ~/.claude/settings.json { \"model\": \"sonnet\", \"advisorModel\": \"opus\", \"env\": { \"CLAUDE_CODE_SUBAGENT_MODEL\": \"haiku\" } …"
+  },
   {
    "src": "qiita",
    "title": "Claude Code v2.1.318 破壊的変更まとめ：ランナーログ・IDE拡張・deniedMcpServers",
@@ -74,14 +98,6 @@
    "date": 1793815085000,
    "img": "",
    "desc": "Claude Code（2026-11-03 時点）では、自然言語で依頼すると Claude が cron 式を組み立て、セッション内のスケジュール済みタスクとして登録します。本稿は公式ドキュメント [1]（2026-11-03 取得、ページ最終更新 2026-10-22）..."
-  },
-  {
-   "src": "qiita",
-   "title": "Anthropic クライアント SDK 2.0.0 系の breaking changes と、旧版との実行比較で観測できる項目（2026-11-02 時点）",
-   "link": "https://qiita.com/akihidem/items/7ccb70c1ba6caa760b07",
-   "date": 1793814994000,
-   "img": "",
-   "desc": "2026-10-21 に、API バージョン 2026-10-21 を既定で送る新しいクライアント SDK と ant CLI がリリースされました [1]。本稿は、公式リリースノートに書かれている SDK の breaking changes を、リリースごとに整理します..."
   },
   {
    "src": "zenn",
@@ -220,22 +236,6 @@
    "desc": "はじめに 最近、複数のAIに仕事を分担させる組み方をめぐって、2つの話が気になりました。 1つは、AIだけで物理の実験を回したという研究論文です。AIたちの役割分担が、人間の研究室そっくりに組まれていました。 もう1つは、「AIに批判的なレビュー（点検）をさせるのは、ほぼ無駄だ」という投稿です。これが広く読まれていました。 どちらも根っこには同じ問いがあります。AIの仕事をいくつの役割に分けるべ…"
   },
   {
-   "src": "zenn",
-   "title": "Blender のアニメを AI に描かせるとき、48 コマの下描きから始めると 2 回目が安くなる話",
-   "link": "https://zenn.dev/renderjanction/articles/cb05b925862631",
-   "date": 1793778551000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--kL_ooM7p--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Blender%2520%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%258B%25E3%2583%25A1%25E3%2582%2592%2520AI%2520%25E3%2581%25AB%25E6%258F%258F%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2580%258148%2520%25E3%2582%25B3%25E3%2583%259E%25E3%2581%25AE%25E4%25B8%258B%25E6%258F%258F%25E3%2581%258D%25E3%2581%258B%25E3%2582%2589%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%25E3%2581%25A8%25202%2520%25E5%259B%259E%25E7%259B%25AE%25E3%2581%258C%25E5%25AE%2589%25E3%2581%258F%25E3%2581%25AA%25E3%2582%258B%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:render.janction.jp%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI に Blender のアニメーションを作らせると、最初の 1 回はわりと簡単に出てきます。面倒なのはその後で、カメラが少し寄りすぎている、色が違う、もう少し長くしたい、と直すたびにまた描き直しになります。この描き直しが実際いくらかかるのかを、クラウドの GPU で描かせて 1 本通しで測ってみました。 題材は 5 秒の商品紹介の動画です。瓶がターンテーブルの上で回り、カメラがゆっくり寄って…"
-  },
-  {
-   "src": "zenn",
-   "title": "CLAUDE.md で頼むのをやめて、hook で守らせて見えるようにした",
-   "link": "https://zenn.dev/asumiminori/articles/claude-code-hooks-harness",
-   "date": 1793777961000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--CaG9b7uL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2581%25A7%25E9%25A0%25BC%25E3%2582%2580%25E3%2581%25AE%25E3%2582%2592%25E3%2582%2584%25E3%2582%2581%25E3%2581%25A6%25E3%2580%2581hook%2520%25E3%2581%25A7%25E5%25AE%2588%25E3%2582%2589%25E3%2581%259B%25E3%2581%25A6%25E8%25A6%258B%25E3%2581%2588%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nonsenseblve%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Y5NGI5OTMxODQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "CLAUDE.md、守ってくれない Claude Code を毎日仕事で使っています。 困ったことがあるたびに、CLAUDE.md に一行ずつ足してきました。でも、書いてあっても守られません。注意すると謝られて、また同じことが起きます。 困っていたことは 2 種類だった 困りごとを並べてみると、「強制力」と「可観測性」の 2 つに分けられました。 強制力 CLAUDE.md でも AGENTS.…"
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.318",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
@@ -289,7 +289,7 @@
    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
    "date": 1793658647000,
    "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 403 # Comments: 320"
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 404 # Comments: 321"
   },
   {
    "src": "reddit",
@@ -385,7 +385,7 @@
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
    "date": 1793480878000,
    "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 123"
+   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 124"
   },
   {
    "src": "hn",
