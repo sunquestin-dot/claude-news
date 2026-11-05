@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793841535369,
+ "updatedAt": 1793847590676,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "0。前回「リポジトリが1つも存在しなかった」と書いた後、今回は`git clone`を1回も自分で打たずに済んだ",
-   "link": "https://qiita.com/Hideki_Tamae/items/1b75fe39e57a9a00ba7d",
-   "date": 1793839927000,
+   "title": "flatMapで配列が残る・undefinedが入る理由：戻り値の形と1段だけの展開をNode.jsで実測",
+   "link": "https://qiita.com/ennagara128/items/2b69aeae5cddaeaf2879",
+   "date": 1793847330000,
    "img": "",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、今日のセッションで自分が手で実行したgit cloneコマンドの回数です。前回、同じステップ0の冒頭で~/zenn-content・~/qiita-contentがどちらも存在せず、指示書に書かれていないgit cl..."
+   "desc": "flatMap()に置き換えたのに配列が残ったり、除外したつもりの位置にundefinedが入ったりする場合、コールバックが返した値の形を調べると切り分けられます。今回は「何でも再帰的に平らにする」とは考えず、返した配列を1段だけ展開する動きを、小さなデータで確かめます。 ..."
   },
   {
    "src": "qiita",
-   "title": "2026年11月5日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "link": "https://qiita.com/ennagara128/items/bec153471d577eb808ea",
-   "date": 1793839456000,
+   "title": "Claude Code のセッションID・セッション名・セッションタイトル (+ おまけ: 省略時に既定のセッション名を付けるシェルスクリプト)",
+   "link": "https://qiita.com/CookieBox26/items/c4ddc92b69ff9436771a",
+   "date": 1793846346000,
    "img": "",
-   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 営業こそコミュニティでは「No sell」でい..."
+   "desc": "Claude Code ではセッションに名前を付けることができますが、名前を付けるとどうなるのか、付けないとどうなるのか、把握できていなかったので整理します。 結論を言うと、セッションに名前を付けなくても、既定のセッション識別子 (UUID や自動要約によるセッションタイト..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code 2.1.318、/schedule警告とログイン期限の変更点ガイド",
-   "link": "https://qiita.com/kai_kou/items/24505a289e7348a4324b",
-   "date": 1793837400000,
+   "title": "Claude Code hooks — 自動化すべき3つとやめるべき3つ、PreToolUseガード完全設定",
+   "link": "https://qiita.com/yukihayama/items/0ea3c6fc90504cd419da",
+   "date": 1793844336000,
    "img": "",
-   "desc": "はじめに 対象読者は、/schedule のクラウドタスクや claude -p を使って Claude Code を無人実行・スケジュール実行している開発者です。 夜間のスケジュール実行が、エラーも出さずに何もしないまま終わっていた。翌朝ログを見て初めて気づく。無人で ..."
+   "desc": "Claude Codeに「古いビルドキャッシュだけ消しておいて」と頼んだ深夜、auto-acceptのまま危険な削除コマンドが走りかけていました。承認を全部手動へ戻すと今度は翌朝まで承認待ちで止まる。permissionsのallow/denyだけでは、「このパターンだけ機..."
   },
   {
    "src": "qiita",
-   "title": "シェルスクリプトからclaude -pを叩く時のハマりどころ — 権限・PATH・タイムアウト",
-   "link": "https://qiita.com/joinclass/items/6172b97df4f692997846",
-   "date": 1793835006000,
+   "title": "「人が打ったときだけ動く」はずのスキルを、AI が自分で読んだ。31万スターのスキル集を Claude Code・Codex・Gemini CLI で3回ずつ試した",
+   "link": "https://qiita.com/suwa_nobu/items/f09fceeb70b7a68aa4f7",
+   "date": 1793844038000,
    "img": "",
-   "desc": "はじめに 当社（合同会社ジョインクラス）では、記事のネタ補充、リード収集、部門ごとの状態チェックなどを claude -p を叩くシェルスクリプトにして、macOS の launchd で17本以上のジョブとして毎日回しています。 ターミナルで手で叩くと動くのに、スケジュ..."
+   "desc": "GitHub で31万スターを集めているスキル集があります。Matt Pocock さんの mattpocock/skills です（313,237スター、2026年11月5日に API で取得）。README には Claude Code・Codex・GitHub Cop..."
   },
   {
    "src": "zenn",
@@ -505,7 +505,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1010 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1011 # Comments: 553"
   },
   {
    "src": "claude-code",
