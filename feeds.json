@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793912350904,
+ "updatedAt": 1793915765801,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -74,6 +74,22 @@
    "date": 1793896654000,
    "img": "",
    "desc": "title: \"claude-mem導入前チェックリスト：インストールの落とし穴と、送信先・保存内容の確かめ方\" tags: - ClaudeCode - AI - MCP - セキュリティ - SQLite private: false はじめ..."
+  },
+  {
+   "src": "zenn",
+   "title": "Jevでプロンプトを仕分けして、Claudeのモデルを自動で切り替える",
+   "link": "https://zenn.dev/toshibowie/articles/9244c8f317a7a9",
+   "date": 1793892320000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--NmhRaauG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Jev%25E3%2581%25A7%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2582%2592%25E4%25BB%2595%25E5%2588%2586%25E3%2581%2591%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581Claude%25E3%2581%25AE%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7%25E5%2588%2587%25E3%2582%258A%25E6%259B%25BF%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:toshibowie%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2JkNjlhNTc5OWUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "目的 🎯 「hello」にOpus、「設計判断」にHaikuを消費する状態をやめたい 分類をJev（TypeSafe AIの分類用モデル）に任せて、Claude Codeのモデルとeffortを1ターンごとに自動で切り替えたい Claude Codeにプロンプトを送るたびにその内容をJevに精査してもらい、適当なモデルとeffortを選んでもらうpluginを自作しました。 Jevとは？ 🧩…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeのサブエージェントを並列で動かして、140ページの学習サイトを作った話",
+   "link": "https://zenn.dev/macky_ur/articles/16ba43a08eb099",
+   "date": 1793891142000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--zWLJTLmh--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E4%25B8%25A6%25E5%2588%2597%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581140%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E5%25AD%25A6%25E7%25BF%2592%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%259E%25E3%2583%2583%25E3%2582%25AD%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS1pfR1dtUUU4MTMzN3lReFo2R1pxNjNjUFpNN3paMjJubWpPODRyYWpRRDQxSjVBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 「Excelの関数やVBAのマクロを、Python（pandas）ではどう書くか」を、ブラウザ上でそのまま実行しながら学べるサイトを作りました。 https://kurabete-python.bazupapiko.workers.dev/index.html VLOOKUP・SUMIFS などの関数、毎月の手作業（複数ファイルの結合、勤怠の集計など）、VBA（マクロ）、pandas …"
   },
   {
    "src": "zenn",
@@ -173,19 +189,19 @@
   },
   {
    "src": "zenn",
-   "title": "Claude Codeでホームページを作り直して、文章だけは任せきれなかった話",
-   "link": "https://zenn.dev/shun_adachi/articles/ai-site-writing-review",
-   "date": 1793867351000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--imwnVmp7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E6%2596%2587%25E7%25AB%25A0%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AF%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%258D%25E3%2582%258C%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shun_adachi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSS1CUkM3NF92WjFFZlotMFdNd2Jxb1NtdnJ1bW9nOHpIVElhNUZOTE9DYU1PUzhnNUg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "自分のホームページを、Claude Code を使って作り直しました。実装は速く進みましたが、文章だけは最後まで思った通りの言葉になりませんでした。最終的には、公開した文章をすべて ChatGPT に添削させ、添削案の中から自分で選んで採用しています。 この記事は要約です。全文は自分のサイトに置いています。 https://fusionfield.jp/notes/ai-site-decisio…"
-  },
-  {
-   "src": "zenn",
    "title": "Claude Codeで、マウスの動きを表示するオシロスコープを作った",
    "link": "https://zenn.dev/shun_adachi/articles/mouse-oscilloscope-hero",
    "date": 1793867351000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--TTotYqZb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2580%2581%25E3%2583%259E%25E3%2582%25A6%25E3%2582%25B9%25E3%2581%25AE%25E5%258B%2595%25E3%2581%258D%25E3%2582%2592%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2582%25AA%25E3%2582%25B7%25E3%2583%25AD%25E3%2582%25B9%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2597%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shun_adachi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSS1CUkM3NF92WjFFZlotMFdNd2Jxb1NtdnJ1bW9nOHpIVElhNUZOTE9DYU1PUzhnNUg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "自分のホームページのトップに、マウスの動きを波形として表示するオシロスコープを入れました。実装は Claude Code に任せ、本物のオシロスコープに近づけるための指示を出しました。 デモ: https://shun-adachi.github.io/mouse-oscilloscope/ コード(MIT): https://github.com/Shun-Adachi/mouse-oscil…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeでホームページを作り直して、文章だけは任せきれなかった話",
+   "link": "https://zenn.dev/shun_adachi/articles/ai-site-writing-review",
+   "date": 1793867351000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--imwnVmp7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E6%2596%2587%25E7%25AB%25A0%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AF%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%258D%25E3%2582%258C%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shun_adachi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSS1CUkM3NF92WjFFZlotMFdNd2Jxb1NtdnJ1bW9nOHpIVElhNUZOTE9DYU1PUzhnNUg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "自分のホームページを、Claude Code を使って作り直しました。実装は速く進みましたが、文章だけは最後まで思った通りの言葉になりませんでした。最終的には、公開した文章をすべて ChatGPT に添削させ、添削案の中から自分で選んで採用しています。 この記事は要約です。全文は自分のサイトに置いています。 https://fusionfield.jp/notes/ai-site-decisio…"
   },
   {
    "src": "zenn",
@@ -218,22 +234,6 @@
    "date": 1793863209000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--VXPExAX---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2582%2592Snowflake%2520AI%2520Gateway%25E3%2581%25A7%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%2520%25E3%2580%259C%2560snow%2520ai%2520claude%2560...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:yshibui%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ0ZmE2OGQyM2YuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Snowflake%2520Japan%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG5BTlh6dGtSamlCR3BDQ05qY1lXNjF1dXA1NmJjVTN6UzVIR3RoMm85bUxzODBnPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! 著者は Snowflake に所属していますが、本記事は個人の見解であり、所属する組織の公式見解ではありません。 こんにちは。Snowflake で Senior AI/ML Architect, Applied Engineering/Field CTO を務めている澁井（しぶい）です。 今回は、Claude Code による Web アプリ開発を、Snowflake CLI の snow…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeを1人で使い続けて決めた10のルール ― 権限・指示・記録・約束・確認の実例集",
-   "link": "https://zenn.dev/mugen_web/books/claude-code-ten-rules",
-   "date": 1793860903000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--1Q4XBl2h--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci85NzdjZWNiYjEwLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "1人でWeb制作会社を営み、Claude CodeでLaravelの社内システムと店舗サイトの雛形を作ってきた記録から、運用のルールを10個に絞ってまとめた本です。権限の線引き、指示の出し方、READMEで記憶を持たせる方法、Windowsでのシェルの違い、AIの「あとで自動で」の扱い、事実確認の手順、自動化の確認まで。失敗の実例と、コピーして使えるCLAUDE.mdのひな形、運用チェックリスト…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code を2つ以上動かすと、人間が伝言係になる。窓を15開いた47日の記録",
-   "link": "https://zenn.dev/ciel_lab/articles/ac47c87a89b677",
-   "date": 1793859340000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--peHGtOQI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%25922%25E3%2581%25A4%25E4%25BB%25A5%25E4%25B8%258A%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599%25E3%2581%25A8%25E3%2580%2581%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%258C%25E4%25BC%259D%25E8%25A8%2580%25E4%25BF%2582%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%2582%25E7%25AA%2593%25E3%2582%259215%25E9%2596%258B%25E3%2581%2584%25E3%2581%259F47%25E6%2597%25A5%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Ciel%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAyZGJiOGEwYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "3行まとめ Claude Code を2つ以上並べると、窓と窓のあいだの「伝言」と「許し」を、人が持つことになる。 窓どうしに直接やり取りさせると、伝言の一部は窓どうしで回るようになる。代わりに、「誰が許したのか」が伝言の中で分からなくなる。 窓を15開きながら47日回した記録から、伝言係になった所と、窓どうしに話させてから出てきた困りごとを書く。 こんな時ありませんか Claude Code …"
   },
   {
    "src": "research",
@@ -322,14 +322,6 @@
    "date": 1793645490000,
    "img": "https://external-preview.redd.it/3b_-aYvknrqeVVavcbAtLT70Hmc7dKIPPYra4OvHR74.jpeg?width=640&crop=smart&auto=webp&s=b5cc386268077e5a76ee6ca835fb1d6fea17bf39",
    "desc": "> As far as we can ascertain, it appears the game-related blocking is limited to the combination of using Claude Code and the Opus 5.5 model. Should that prove true, then users should be able to side…"
-  },
-  {
-   "src": "reddit",
-   "title": "Anthropic's internal AI use, valued at retail prices, now exceeds its employee pay",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xm2sej/anthropics_internal_ai_use_valued_at_retail/",
-   "date": 1793638964000,
-   "img": "https://external-preview.redd.it/dQGW_AwJTG19wGQP0Ow5yUKJsiGKc4bL_vXFCXhFVHs.jpeg?width=640&crop=smart&auto=webp&s=1d706deb9af59b0f96d74a0480e97761b897ed88",
-   "desc": "submitted by /u/Malor777 [link] [comments]"
   },
   {
    "src": "hn",
@@ -506,6 +498,14 @@
    "date": 1793381245000,
    "img": "",
    "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 326 # Comments: 296"
+  },
+  {
+   "src": "reddit",
+   "title": "Weekend project: Mario 64 in Mixed Reality!",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjko2l/weekend_project_mario_64_in_mixed_reality/",
+   "date": 1793379061000,
+   "img": "https://external-preview.redd.it/MjU2YnhodTV3bXloMaYheK4na4Rfz-v0mWHaUcdeWuKpEY4i0QCrtKTwKnz9.png?width=640&crop=smart&auto=webp&s=b84a98a41b69987e3a5519a0852a090f0da56915",
+   "desc": "I built a native MR version of Mario 64 that runs in real 3D (not a flat stereoscopic screen) at 90 FPS. The whole level sits on your desk and you play it like a diorama. I built this with Claude Cod…"
   },
   {
    "src": "hn",
