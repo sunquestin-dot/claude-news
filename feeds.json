@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793905635795,
+ "updatedAt": 1793908920266,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "fetch failed"
   },
   "reddit": {
    "ok": true,
@@ -68,44 +68,12 @@
    "desc": "2026-11-03 に追加された文は、permissions.blockWritesOutsideWorkingDirectories（作業ディレクトリ外への書き込みをブロックする設定）の説明が複数ページに入ったことが中心です。設定、worktree、権限モード、サンドボ..."
   },
   {
-   "src": "zenn",
-   "title": "Claude Code に $100 分のクレジットを渡して「稼いで」と頼んだら、26 日後の売上は 0 円だった",
-   "link": "https://zenn.dev/jfp_mesh/articles/pup-100-dollar-challenge-postmortem",
-   "date": 1793900213000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--oHVrNDNG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%2520%2524100%2520%25E5%2588%2586%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25B8%25E3%2583%2583%25E3%2583%2588%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258C%25E7%25A8%25BC%25E3%2581%2584%25E3%2581%25A7%25E3%2580%258D%25E3%2581%25A8%25E9%25A0%25BC%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%258126%2520%25E6%2597%25A5%25E5%25BE%258C%25E3%2581%25AE%25E5%25A3%25B2%25E4%25B8%258A%25E3%2581%25AF%25200%2520%25E5%2586%2586%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:jfp_mesh%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2JiYjIxN2JmZmEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は、実験の当事者である AI「PUP」（クラウドで動かした Claude Code）が、自分の記録（台帳・決定ログ・失敗ログ）から書きました。数字は、人間の相方（宇宙おじさん）が画面で確かめた値です。公開の前に、宇宙おじさんが内容を確かめています。 この記事で分かること AI エージェントに「元手を増やす」仕事を任せたとき、26 日間で実際に何が起きたか クレジット $100 の行き…"
-  },
-  {
-   "src": "zenn",
-   "title": "私の普段のAIによる研究開発環境を公開します",
-   "link": "https://zenn.dev/sde_lab/articles/ai-research-environment",
-   "date": 1793897671000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--idWkH3oM--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25A7%2581%25E3%2581%25AE%25E6%2599%25AE%25E6%25AE%25B5%25E3%2581%25AEAI%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E7%25A0%2594%25E7%25A9%25B6%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:SDE%2520Lab%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzdiOThiZWMxYzMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scientific%2520Data%2520Engin...%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnZHS1NOQ2NHdmpIa1lnZy1yZlhvcm1NSnFLaF8tWDNtRGNQbzFFZnJ2YktldXZZRT1zMjUwLWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 是枝（@cs_dev_engineer）です。 研究のデータ解析と論文の執筆を、普段どんな環境で進めているかを公開します。 全体像 ローカルに置くのはコードと原稿だけで、データの実体と、どの版のデータを使ったかは Snowflake が持ちます。Claude Code は、SQL（snow sql）と MCP サーバーの2つの経路で Snowflake のデータを見ます。解析の入力と結…"
-  },
-  {
    "src": "qiita",
    "title": "claude-mem導入前チェックリスト：インストールの落とし穴と、送信先・保存内容の確かめ方",
    "link": "https://qiita.com/Tomcat-zhou/items/7907b6e440120ca41043",
    "date": 1793896654000,
    "img": "",
    "desc": "title: \"claude-mem導入前チェックリスト：インストールの落とし穴と、送信先・保存内容の確かめ方\" tags: - ClaudeCode - AI - MCP - セキュリティ - SQLite private: false はじめ..."
-  },
-  {
-   "src": "zenn",
-   "title": "バス停で迷った旅行者が、公式GTFSで鹿児島の乗り場ガイドを作りました",
-   "link": "https://zenn.dev/dongyu/articles/kagoshima-cityview-gtfs-map",
-   "date": 1793896235000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--YVaqe7M4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25B9%25E5%2581%259C%25E3%2581%25A7%25E8%25BF%25B7%25E3%2581%25A3%25E3%2581%259F%25E6%2597%2585%25E8%25A1%258C%25E8%2580%2585%25E3%2581%258C%25E3%2580%2581%25E5%2585%25AC%25E5%25BC%258FGTFS%25E3%2581%25A7%25E9%25B9%25BF%25E5%2585%2590%25E5%25B3%25B6%25E3%2581%25AE%25E4%25B9%2597%25E3%2582%258A%25E5%25A0%25B4%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:dongyu%25EF%25BD%259CAI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E9%2596%258B%25E7%2599%25BA%25E8%2580%2585%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3ZYeEszd3NxNnJiclpfMEpHYTZ1aWE2YVhIM0xyQTduVUpJRE9fT28zWWREUGJkVjU9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! このサイトは鹿児島市・鹿児島市交通局の公式サービスではありません。MAKOROが公式オープンデータをもとに作った非公式の案内です。運行状況や時刻は、公式情報もあわせてご確認ください。 鹿児島の観光バス「カゴシマシティビュー」の乗り場と時刻表を、4か国語で確かめられる案内サイト「鹿児島シティビューバスガイド」を作りました。無料・広告なし・インストール不要です。 https://kagoshim…"
-  },
-  {
-   "src": "zenn",
-   "title": "Paseo：エージェント開発の操作・判断負担を減らす個人実践",
-   "link": "https://zenn.dev/masa_7412/articles/paseo-dot-mcp-workflow",
-   "date": 1793896014000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--JHRD4qGh--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Paseo%25EF%25BC%259A%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E6%2593%258D%25E4%25BD%259C%25E3%2583%25BB%25E5%2588%25A4%25E6%2596%25AD%25E8%25B2%25A0%25E6%258B%2585%25E3%2582%2592%25E6%25B8%259B%25E3%2582%2589%25E3%2581%2599%25E5%2580%258B%25E4%25BA%25BA%25E5%25AE%259F%25E8%25B7%25B5%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Masa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVjZGZhOGRhN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "エージェント開発における操作と判断の負担 開発エージェントに作業を任せても、その間ずっと画面の前にいるのは大変でした。 結局、まとまった時間があるときにしか作業を進められないことが、私にとっての課題でした。 そこで、Paseo画面から複数のエージェントへ作業を依頼する環境を使っています。 スマホから依頼や確認を行い、実装やレビューを役割に応じて分ける構成です。 個人開発で使っている構成と採用理由…"
   },
   {
    "src": "zenn",
@@ -197,14 +165,6 @@
   },
   {
    "src": "zenn",
-   "title": "Antigravity CLI の料金プランと Pro への切り替えどき——Free/Ultra/従量課金の比較",
-   "link": "https://zenn.dev/joemike/articles/antigravity-cli-pricing-plans-guide-2026",
-   "date": 1793872800000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--WyGcuGSF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Antigravity%2520CLI%2520%25E3%2581%25AE%25E6%2596%2599%25E9%2587%2591%25E3%2583%2597%25E3%2583%25A9%25E3%2583%25B3%25E3%2581%25A8%2520Pro%2520%25E3%2581%25B8%25E3%2581%25AE%25E5%2588%2587%25E3%2582%258A%25E6%259B%25BF%25E3%2581%2588%25E3%2581%25A9%25E3%2581%258D%25E2%2580%2594%25E2%2580%2594Free%252FUltra%252F%25E5%25BE%2593%25E9%2587%258F%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%25AE%25E6%25AF%2594%25E8%25BC%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%259F%25E3%2582%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1MDU2NDBlNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Antigravity CLI の料金プランを Free / Pro / Ultra / 従量課金で比較し、どのタイミングで Pro に上げるべきかの判断基準を整理します。 料金プランの比較表 プラン 月額 エージェントリクエスト Free 無料 1日あたり約20回（2026年3月以降） Pro $20 Freeより高いレート上限 Ultra $249.99 最大レート上限 従量課金 — $25…"
-  },
-  {
-   "src": "zenn",
    "title": "家計簿アプリが続かないママと作った、LINEで送るだけの「入力しない家計簿」",
    "link": "https://zenn.dev/dice_k_lab/articles/kakei-agent-team-overview",
    "date": 1793868619000,
@@ -234,6 +194,46 @@
    "date": 1793867351000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--TTotYqZb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2580%2581%25E3%2583%259E%25E3%2582%25A6%25E3%2582%25B9%25E3%2581%25AE%25E5%258B%2595%25E3%2581%258D%25E3%2582%2592%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2582%25AA%25E3%2582%25B7%25E3%2583%25AD%25E3%2582%25B9%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2597%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shun_adachi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSS1CUkM3NF92WjFFZlotMFdNd2Jxb1NtdnJ1bW9nOHpIVElhNUZOTE9DYU1PUzhnNUg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "自分のホームページのトップに、マウスの動きを波形として表示するオシロスコープを入れました。実装は Claude Code に任せ、本物のオシロスコープに近づけるための指示を出しました。 デモ: https://shun-adachi.github.io/mouse-oscilloscope/ コード(MIT): https://github.com/Shun-Adachi/mouse-oscil…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeでホームページを作り直して、文章だけは任せきれなかった話",
+   "link": "https://zenn.dev/shun_adachi/articles/ai-site-writing-review",
+   "date": 1793867351000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--imwnVmp7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2583%259B%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E6%2596%2587%25E7%25AB%25A0%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AF%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%258D%25E3%2582%258C%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shun_adachi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSS1CUkM3NF92WjFFZlotMFdNd2Jxb1NtdnJ1bW9nOHpIVElhNUZOTE9DYU1PUzhnNUg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "自分のホームページを、Claude Code を使って作り直しました。実装は速く進みましたが、文章だけは最後まで思った通りの言葉になりませんでした。最終的には、公開した文章をすべて ChatGPT に添削させ、添削案の中から自分で選んで採用しています。 この記事は要約です。全文は自分のサイトに置いています。 https://fusionfield.jp/notes/ai-site-decisio…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI翻訳が迷うのは、日本語の商品説明の揺れかも。翻訳前にそろえる4つ",
+   "link": "https://zenn.dev/ec_jidoka_kobo/articles/a2060b62c08b46",
+   "date": 1793866319000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--_QMxzoo6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%25BF%25BB%25E8%25A8%25B3%25E3%2581%258C%25E8%25BF%25B7%25E3%2581%2586%25E3%2581%25AE%25E3%2581%25AF%25E3%2580%2581%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25AE%25E5%2595%2586%25E5%2593%2581%25E8%25AA%25AC%25E6%2598%258E%25E3%2581%25AE%25E6%258F%25BA%25E3%2582%258C%25E3%2581%258B%25E3%2582%2582%25E3%2580%2582%25E7%25BF%25BB%25E8%25A8%25B3%25E5%2589%258D%25E3%2581%25AB%25E3%2581%259D%25E3%2582%258D%25E3%2581%2588%25E3%2582%258B4%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:EC%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E5%25B7%25A5%25E6%2588%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWxKZmNjaVBta3ZVNlAtbzRQc0piX2R0NzV5U1NacHFNMWgyWS1SYUdNMzhKQkxRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "※例はすべて架空の店舗・商品です 架空の「サンプル雑貨店」は、ストーンウェアのマグカップを海外のお客さまにも紹介する準備を始めました。英語に翻訳する前に日本語を見直すと、「350ml」と「容量350ミリリットル」が混在し、素材名も説明ごとに違っていました。 この状態で翻訳を始めると、どれが正しい表記なのかを訳す人やAIが判断できません。この記事は英訳文の完成形ではなく、翻訳を頼む前に、日本語の側…"
+  },
+  {
+   "src": "zenn",
+   "title": "Next.jsのサイトが全ページ毎回サーバー描画になっていた原因は、CSPのnonceだった",
+   "link": "https://zenn.dev/kabubase/articles/zenn-shikenavi-static-csp",
+   "date": 1793864328000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--1PO_SNQv--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Next.js%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2581%258C%25E5%2585%25A8%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E6%25AF%258E%25E5%259B%259E%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E6%258F%258F%25E7%2594%25BB%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25AF%25E3%2580%2581CSP%25E3%2581%25AEnonce%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kabubase%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSThPQkllS0VLajR4b0hPQkFjTXFpUlRaMDdRTHlOVkQtZ0QzSkdEOXV4NWh3M25fUT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "3行まとめ 試験日程サイト「シケナビ」で、ページごとに revalidate を書いていたのに、実は全ページがリクエストのたびにサーバー描画されていた 原因は、セキュリティ設定（CSP）のnonceを読むためにルートレイアウトで headers() を呼んでいたこと nonceをやめて固定のCSPにし、試験データをブラウザに送らないようにしたら、応答開始が0.4〜1.0秒から0.06〜0.12秒…"
+  },
+  {
+   "src": "zenn",
+   "title": "15年物のPHP通販に Cloudflare の security-audit-skill を当てたら、SQLi/XSS 以外の穴が出た",
+   "link": "https://zenn.dev/sato_ken/articles/e983601355c6b8",
+   "date": 1793864075000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HkfTozXt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:15%25E5%25B9%25B4%25E7%2589%25A9%25E3%2581%25AEPHP%25E9%2580%259A%25E8%25B2%25A9%25E3%2581%25AB%2520Cloudflare%2520%25E3%2581%25AE%2520security-audit-skill%2520%25E3%2582%2592%25E5%25BD%2593%25E3%2581%25A6%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581SQLi%252F...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25BD%2590%25E8%2597%25A4%2520%25E5%2581%25A5%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWppd0tMXy0wcnJ6TGhxcGxzMmV6WkItNmFZS01BOWtPOWRscjhKczlMaXhZRURnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "きっかけ 客から引き継いで保守している通販サイトがある。PHP 5 時代に書かれたもので、プログラムは PHP ファイルで 335 本。これを PHP 8 に上げる仕事をやっていて、移行そのものは終わった。 PHP 8 化のついでに、セキュリティの見直しもやった。SQL は全部 pg_query_params に置き換えて（数えたら 752 箇所）、XSS は出力側に htmlspecialch…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude CodeをSnowflake AI Gatewayでトレースする 〜`snow ai claude` による開発監視〜",
+   "link": "https://zenn.dev/snowflakejp/articles/fc3641c3b280f6",
+   "date": 1793863209000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--VXPExAX---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2582%2592Snowflake%2520AI%2520Gateway%25E3%2581%25A7%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2599%25E3%2582%258B%2520%25E3%2580%259C%2560snow%2520ai%2520claude%2560...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:yshibui%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ0ZmE2OGQyM2YuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Snowflake%2520Japan%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG5BTlh6dGtSamlCR3BDQ05qY1lXNjF1dXA1NmJjVTN6UzVIR3RoMm85bUxzODBnPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 著者は Snowflake に所属していますが、本記事は個人の見解であり、所属する組織の公式見解ではありません。 こんにちは。Snowflake で Senior AI/ML Architect, Applied Engineering/Field CTO を務めている澁井（しぶい）です。 今回は、Claude Code による Web アプリ開発を、Snowflake CLI の snow…"
   },
   {
    "src": "research",
