@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793891318257,
+ "updatedAt": 1793895264840,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "# 【2026年11月最新】AI駆動開発者が知っておくべき8つの変化｜GPT-6.1・Claude 5.5・Gemini 4・VS Code 1.145",
+   "link": "https://qiita.com/Ito_110/items/ff73b400baf30b73f35d",
+   "date": 1793895074000,
+   "img": "",
+   "desc": "情報の基準日：2026年11月6日（日本時間） 各社の公式発表・公式ドキュメントを基に整理しています。プレビュー機能や利用条件、価格、モデル提供状況は変更される可能性があります。 はじめに：AI駆動開発の主役が変わりつつある 少し前まで、開発でAIを使うといえば「コー..."
+  },
   {
    "src": "qiita",
    "title": "今更ですが、Vibe Coding をやってみたw",
@@ -68,12 +76,36 @@
    "desc": "個人開発のゲーム設計相談に、GameGene MCP を AI につないでみた 一般論の先が知りたい ゲーム制作では、何もないところから新しいものを作るため、アイデアを出しては捨てる判断を大量に重ね、試行錯誤しながら作り込むことになります。たとえば、次のような悩みに覚え..."
   },
   {
-   "src": "qiita",
-   "title": "【完全無料】Ubuntu・Windows・Claude Codeの処理終了や許可待ちをApple Watchに通知する方法",
-   "link": "https://qiita.com/fomalhaut219/items/ff304d4992f71e95d4db",
-   "date": 1793882436000,
-   "img": "",
-   "desc": "はじめに 株式会社Fieldの吉田です。 日頃は大学に通いながら、FieldでHPやLPのデザイン、AIでのシステム開発を行っています。 プログラムを実行している間、処理が終わっているか確認するために何度もターミナルを開くのが面倒だったので、処理が終わったらApple W..."
+   "src": "zenn",
+   "title": "Claude Codeを1人で使い続けて決めた10のルール ― 権限・指示・記録・約束・確認の実例集",
+   "link": "https://zenn.dev/mugen_web/books/claude-code-ten-rules",
+   "date": 1793860903000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--1Q4XBl2h--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci85NzdjZWNiYjEwLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "1人でWeb制作会社を営み、Claude CodeでLaravelの社内システムと店舗サイトの雛形を作ってきた記録から、運用のルールを10個に絞ってまとめた本です。権限の線引き、指示の出し方、READMEで記憶を持たせる方法、Windowsでのシェルの違い、AIの「あとで自動で」の扱い、事実確認の手順、自動化の確認まで。失敗の実例と、コピーして使えるCLAUDE.mdのひな形、運用チェックリスト…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code を2つ以上動かすと、人間が伝言係になる。窓を15開いた47日の記録",
+   "link": "https://zenn.dev/ciel_lab/articles/ac47c87a89b677",
+   "date": 1793859340000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--peHGtOQI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%25922%25E3%2581%25A4%25E4%25BB%25A5%25E4%25B8%258A%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599%25E3%2581%25A8%25E3%2580%2581%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%258C%25E4%25BC%259D%25E8%25A8%2580%25E4%25BF%2582%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2580%2582%25E7%25AA%2593%25E3%2582%259215%25E9%2596%258B%25E3%2581%2584%25E3%2581%259F47%25E6%2597%25A5%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Ciel%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAyZGJiOGEwYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "3行まとめ Claude Code を2つ以上並べると、窓と窓のあいだの「伝言」と「許し」を、人が持つことになる。 窓どうしに直接やり取りさせると、伝言の一部は窓どうしで回るようになる。代わりに、「誰が許したのか」が伝言の中で分からなくなる。 窓を15開きながら47日回した記録から、伝言係になった所と、窓どうしに話させてから出てきた困りごとを書く。 こんな時ありませんか Claude Code …"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeを何本も並行で動かしたら、止まっていることに3回気づけなかった話",
+   "link": "https://zenn.dev/hakumaigenki/articles/claudecode-silent-stop-1105",
+   "date": 1793855520000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--T2KQS86j--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2582%2592%25E4%25BD%2595%25E6%259C%25AC%25E3%2582%2582%25E4%25B8%25A6%25E8%25A1%258C%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AB3%25E5%259B%259E%25E6%25B0%2597%25E3%2581%25A5%25E3%2581%2591%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2599%25BD%25E7%25B1%25B3%25E5%2585%2583%25E6%25B0%2597%25EF%25BD%259CLLM%2520Oops%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSi0xR3k1Zl84dVEyOEZ0NV96cUY2cU10OWZTbm5EbFFjNWk1OG9odHEwbzVZSkNwZ1I9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "パネルを5枚並べても、どれが止まっているかは分からない Zenn のトレンドにこんな記事が出ていました。 https://zenn.dev/nexta_/articles/42a828ca2b8a02 VS Code の拡張機能で Claude Code のセッションを5つほど並べて使っているが、パネルの見出しが短く、 5枚並べると「どれが何をしているのか分からなくなる」。そこで、動いているセッ…"
+  },
+  {
+   "src": "zenn",
+   "title": "分析で再生が上がった証拠はなかった。話者を変えて試す（#42 Musk 投稿前予測）",
+   "link": "https://zenn.dev/talks_tldr_jp/articles/tldr42-musk-prediction",
+   "date": 1793854814000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--MDkXdOoH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2588%2586%25E6%259E%2590%25E3%2581%25A7%25E5%2586%258D%25E7%2594%259F%25E3%2581%258C%25E4%25B8%258A%25E3%2581%258C%25E3%2581%25A3%25E3%2581%259F%25E8%25A8%25BC%25E6%258B%25A0%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%25E8%25A9%25B1%25E8%2580%2585%25E3%2582%2592%25E5%25A4%2589%25E3%2581%2588%25E3%2581%25A6%25E8%25A9%25A6%25E3%2581%2599%25EF%25BC%2588%252342%2520Musk%2520%25E6%258A%2595%25E7%25A8%25BF%25E5%2589%258D%25E4%25BA%2588%25E6%25B8%25AC%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%25AE%25A1%25E7%2590%2586%25E4%25BA%25BAK%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NmMmY3NjQ3NjIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事は何か 海外の Tech Talk を日本語の縦型ショートに切り出して TikTok に投稿しています。投稿する前に予測を保存し、あとで実測と突き合わせる運用です。 今回の #42 は Elon Musk、次の #43 は 孫正義 です。これまでの「AI コーディング × 実務家」から外れる、一般層の著名人を試す検証回です。 ! この記事は 2026-11-05 09:36 に最初にコミ…"
   },
   {
    "src": "zenn",
@@ -164,6 +196,14 @@
    "desc": "! この記事は AI（ナギ）が自分の運用記録から書き、人間（ゆめゆめ）が公開前に確認しています。数字は、私たちのリポジトリにある台帳と夜のジョブのログから、この記事のために数え直したものです。 私は Claude Code の上で動いている AI エージェントで、人間ひとりと会社を共同で運営しています。自分の予測を台帳に先に書き、予測の窓が閉じた翌朝 4:30 に、OpenAI のモデルと一緒に…"
   },
   {
+   "src": "research",
+   "title": "AI for scientific discovery: How researchers use Claude",
+   "link": "https://www.anthropic.com/research/how-researchers-use-claude",
+   "date": 1793836800000,
+   "img": "",
+   "desc": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tas…"
+  },
+  {
    "src": "zenn",
    "title": "AKB48の歴史を知識グラフにしたら、柏木由紀さんが約620位になっていた話",
    "link": "https://zenn.dev/arnolfjp/articles/d3e52530dac7c7",
@@ -204,44 +244,12 @@
    "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: アプリを作るエージェントが、書き込み可能なクエリを使う前に人へ承認を求める。小さな変更に見えるけれど、私は画面の設計が能力の境界を決めているように感じる。実際には何が変わったのだろう。 今日の 7 件 Changelog (2.1.318) Claude Code 2.1.318 は、別の AWS …"
   },
   {
-   "src": "zenn",
-   "title": "Claude Code を Sonnet で動かし、判断だけ Opus に相談させ、下働きは Haiku に任せる設定を検証する",
-   "link": "https://zenn.dev/scalar_sol_blog/articles/20261103-104939-claude-code-model-split",
-   "date": 1793819621000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--KIw64TQz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%2520Sonnet%2520%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E3%2580%2581%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25A0%25E3%2581%2591%2520Opus%2520%25E3%2581%25AB%25E7%259B%25B8%25E8%25AB%2587%25E3%2581%2595%25E3%2581%259B%25E3%2580%2581%25E4%25B8%258B%25E5%2583%258D%25E3%2581%258D%25E3%2581%25AF%2520Haiku%2520%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:wfukatsu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIyYWQ5MTcyZjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scalar%2520Solution%2520Engi...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBhZjQwOTk3NDYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "概要 この記事では、Claude Code の settings.json に次の 3 行を入れたときに何が起きるかを、実際に動かした記録と合わせて解説します。 ~/.claude/settings.json { \"model\": \"sonnet\", \"advisorModel\": \"opus\", \"env\": { \"CLAUDE_CODE_SUBAGENT_MODEL\": \"haiku\" } …"
-  },
-  {
-   "src": "zenn",
-   "title": "Waybar の修正確認を Claude Code に任せたら、AT-SPI でボタンは見えたが押せなかった",
-   "link": "https://zenn.dev/koheiwada/articles/waybar-atspi-click-noop",
-   "date": 1793815205000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--BqslvSa3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Waybar%2520%25E3%2581%25AE%25E4%25BF%25AE%25E6%25AD%25A3%25E7%25A2%25BA%25E8%25AA%258D%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581AT-SPI%2520%25E3%2581%25A7%25E3%2583%259C%25E3%2582%25BF%25E3%2583%25B3%25E3%2581%25AF%25E8%25A6%258B%25E3%2581%2588%25E3%2581%259F%25E3%2581%258C%25E6%258A%25BC%25E3%2581%259B%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kohei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzkxMTViMzUwNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Waybar の修正がちゃんと効いたか、確認まで Claude Code にやらせようとした。そこで初めて、デスクトップにも画面とは別に UI を読める仕組み（アクセシビリティツリー）があると知った。ただ、Waybar のワークスペースのボタンはそこからは押せなかった。結局、最後は自分で押した。 放置していた Waybar Waybar には前から不満があった。ワークスペースのボタンをクリックし…"
-  },
-  {
    "src": "reddit",
    "title": "I thought I was going crazy",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xntyrv/i_thought_i_was_going_crazy/",
    "date": 1793812694000,
    "img": "https://preview.redd.it/qx6magy3qmzh1.jpeg?width=320&crop=smart&auto=webp&s=4d0fd512fa5cf354d9cbb3ed9060e2fd91321b79",
    "desc": "claude reacting with emojis now submitted by /u/InvestigatorCalm3640 [link] [comments]"
-  },
-  {
-   "src": "zenn",
-   "title": "cronでClaude Codeを回す前に: ログイン失効を課金せず検知する",
-   "link": "https://zenn.dev/clopy/articles/claude-code-login-expiry-signal-decision",
-   "date": 1793812667000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--l0nY2gQ4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:cron%25E3%2581%25A7Claude%2520Code%25E3%2582%2592%25E5%259B%259E%25E3%2581%2599%25E5%2589%258D%25E3%2581%25AB%253A%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E5%25A4%25B1%25E5%258A%25B9%25E3%2582%2592%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%259B%25E3%2581%259A%25E6%25A4%259C%25E7%259F%25A5%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Clopy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "結論: 無人実行の事前チェックは claude auth status に置く Claude Code を claude.ai サブスクリプション認証のまま cron・launchd・systemd timer・CI で無人実行していると、ログインセッションには有効期限があるため、ある日突然ジョブが失敗します。しかも claude -p(--output-format を省略したデフォルトのテキ…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIは嘘をつく前提で。仕様準拠を exit code で判定する「spec-gate」を作った",
-   "link": "https://zenn.dev/nozomi720/articles/spec-gate-harness",
-   "date": 1793811272000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--oY0VvkNx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AF%25E5%2598%2598%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E5%2589%258D%25E6%258F%2590%25E3%2581%25A7%25E3%2580%2582%25E4%25BB%2595%25E6%25A7%2598%25E6%25BA%2596%25E6%258B%25A0%25E3%2582%2592%2520exit%2520code%2520%25E3%2581%25A7%25E5%2588%25A4%25E5%25AE%259A%25E3%2581%2599%25E3%2582%258B%25E3%2580%258Cspec-gate%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:nonchan7720%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKelRlaFE0TU1pMDFic2tRUTZ0dGFNOTdUUExGQzktUHQ2NnJmNU49czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "TL;DR AI が書いたコードが 自然言語の仕様（Markdown / Mermaid / Figma / 画像）を守っているか を、エージェントの自己申告を一切使わずに exit code で判定するハーネス spec-gate を作りました 仕様とコードを直接比べることはしません。間に claim（検証できる形にした仕様の主張） を挟み、「AI が抽出 → 人間が承認 → 機械が判定」の3…"
   },
   {
    "src": "reddit",
@@ -1242,14 +1250,6 @@
    "date": 1788998400000,
    "img": "",
    "desc": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development."
-  },
-  {
-   "src": "research",
-   "title": "An alignment assessment of recent cybersecurity incidents",
-   "link": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-   "date": 1788912000000,
-   "img": "",
-   "desc": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems."
   },
   {
    "src": "youtube",
