@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793984494901,
+ "updatedAt": 1793987721551,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,38 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "11/5 の公式ドキュメント更新：権限判定の順序、設定の読み込み挙動、bare モードの制約",
+   "link": "https://qiita.com/akihidem/items/6b758089463f3bb87784",
+   "date": 1793987703000,
+   "img": "",
+   "desc": "この日の更新は、Claude Code が「何を実行させ、何を読み込むか」を決める判定ルールの明文化に集まっています。Agent SDK の権限判定の順序、権限モードの優先関係、壊れた設定ファイルの扱い、bare モードで読み込まれないものが、それぞれ追記されました。 権..."
+  },
+  {
+   "src": "qiita",
+   "title": "CLAUDE.md の指示が通らない3つの原因と解決方法",
+   "link": "https://qiita.com/DevMasatoman/items/e264d41488f825d6173f",
+   "date": 1793985435000,
+   "img": "",
+   "desc": "この記事で解決できること CLAUDE.md を書いたのに Claude の振る舞いが変わらない——そういう詰まり方をしているときに確認すべき3つの原因と、その直し方。 環境: Claude Code（日常運用） / .claude/ ディレクトリにスキル・フックを設置済..."
+  },
+  {
+   "src": "qiita",
+   "title": "Gemini を主力エージェントから外して、Claude に移った",
+   "link": "https://qiita.com/kassyi/items/c134f3b244368d913f09",
+   "date": 1793984664000,
+   "img": "",
+   "desc": "はじめに C# から GPU 向けのコードを生成する自作コンパイラ（Henicos）を、LLM のエージェントだけで開発しています。人間はコードを一行も書いていません。これまでの主力は Gemini でしたが、2026 年 11 月から Claude に切り替えました。 ..."
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.319",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+   "date": 1793984641000,
+   "img": "",
+   "desc": "What's changed - Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classif…"
+  },
   {
    "src": "qiita",
    "title": "Claude Codeに「サブエージェントを使って」と書くのはやめよう。288回測ったら見つかる量は同じでコストだけ最大221%増えた",
@@ -76,14 +108,6 @@
    "desc": "複数のターミナルでAIコーディングを進めていると、別のセッションの許可待ちを見落とすことがあります。まずは公式の通知設定を使って、確認に戻るきっかけを作ってみます。 ここではClaude Codeの許可待ち・応答終了と、Codexの応答終了を扱います。両者は設定ファイルもイベントも、入力の受け取り方も異なります。 Claude Code：settings.jsonのhooksに設定する ユーザー…"
   },
   {
-   "src": "qiita",
-   "title": "「Claude のほうがコードを読める」は本当か？実務のコンパイラで重複検知ベンチマークを作って Gemini と比べた",
-   "link": "https://qiita.com/kassyi/items/01331b709cc5fb51bf25",
-   "date": 1793973235000,
-   "img": "",
-   "desc": "はじめに 「コードを扱わせるなら Claude のほうがGeminiより上」という話をよく聞きます。普段は Claudeと Geminiの両方を使って、C# から GPU 向けコードを生成する自作のコンパイラを開発しています。体感では確かに差があります。読ませるだけでなく..."
-  },
-  {
    "src": "zenn",
    "title": "Claude Codeで、デスクトップアプリに空のセッションが大量に並ぶ原因",
    "link": "https://zenn.dev/starken/articles/claude-code-remote-control-stale-sessions",
@@ -106,14 +130,6 @@
    "date": 1793970180000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--CSG0LzMh--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25A7%25E5%258B%2595%25E7%2594%25BB%25E5%2588%25B6%25E4%25BD%259C%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E8%25A8%25AD%25E8%25A8%2588%2520%25E2%2580%2595%2520%25E5%25A3%25B0%25E3%2581%25AB%25E5%2590%2588%25E3%2581%2586%25E5%25AD%2597%25E5%25B9%2595%25E3%2581%25A8ffmpeg%25E3%2581%25AE%25E8%2587%25AA%25E5%25B7%25B1QA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Heyn%2520Studio%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSm5lZ3AyREV1RjZsbC1HSlpyWWpfdHlGVkRZNWk1cHpTRTh1UjJzVHl1OU1JcklnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code に「ナレーション付きの動画を作って」と頼むと、それなりのものは出てきます。ただ、毎回やり方が変わり、字幕が声から少しずれ、レンダリングが成功した時点で「完成しました」と報告されがちです。 私たちは、この流れを Claude Code のスキル（SKILL.md）として固定し、Remotion で動画を書き出すパイプラインを作りました。下の GIF は、そのサンプル仕様を書…"
-  },
-  {
-   "src": "qiita",
-   "title": "AIに内容の解説をさせるときのプロンプトエンジニアリング",
-   "link": "https://qiita.com/iroha_afternoon/items/5d35d54aa86ef657611e",
-   "date": 1793969320000,
-   "img": "",
-   "desc": "理解しやすい説明を書くためのルール 読者が一度で理解できる説明を書くための指針です。数学や科学などの技術的な内容の解説、文章や文献の解説、問題の解答、手順の説明など、何かを説明する応答に使います。本ルールは説明を書く側のための道具で、読者には見せません。 説明が分かりにく..."
   },
   {
    "src": "zenn",
@@ -146,14 +162,6 @@
    "date": 1793965078000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--wkSpJ3nb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AE%25E5%25AE%259A%25E9%2587%258F%25E6%25A4%259C%25E8%25A8%25BC%25E3%2582%2592%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yasuaki%2520Omokawa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmOTUyODI3YjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "サマリー エージェントスキルの出力を受け入れテストにすると、そのスキルの効き目を数えられます。数えられると、改善の基準が 1 つに決まります。LLM に思いつきの指示を出す代わりに、毎回同じ物差しで「どこを、なぜ直すか」を決められるようになります。 この記事は受け入れ基準 (AC) を書くスキル define-done を題材にした、その実践の記録です。もともと define-done は AC…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code・Codexを手元のMacで動かし続け、スマホから指示を出すためのチェックリスト ― スリープさせない設定と、Remote Control・リモート接続の前提",
-   "link": "https://qiita.com/TOSHIMITSU_MIYACHI/items/4e88b7cbb85af63f0cbe",
-   "date": 1793964477000,
-   "img": "",
-   "desc": "株式会社AI Orchestraのみやっち🧑‍💻です。自宅とオフィスのMacは、開きっぱなしにして電源をつけておき、Claude CodeやCodexを24時間稼働させています。外出しているときは、スマホのChatGPTアプリやClaudeアプリから指示を出します。手元のパ..."
   },
   {
    "src": "zenn",
@@ -249,7 +257,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1414 # Comments: 448"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1492 # Comments: 467"
   },
   {
    "src": "reddit",
@@ -370,6 +378,14 @@
    "date": 1793630325000,
    "img": "",
    "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 238 # Comments: 286"
+  },
+  {
+   "src": "reddit",
+   "title": "Been making this game for 3 months using only AI (Everything coded with Opus 5.5)",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xlr3u8/been_making_this_game_for_3_months_using_only_ai/",
+   "date": 1793605428000,
+   "img": "https://external-preview.redd.it/NHFpd3N3dmdrNXpoMTWVOTbwO7QjtlJhaVyL7HpaPEemZOSnx8yeVqF-Cnlf.png?width=640&crop=smart&auto=webp&s=984301af57fef1e8c0e019c0168fddc75517fd8a",
+   "desc": "Hello there again :) As I post weekly updates here probably a lot of people already saw this. I recently finished entire zone 1 and with that Demo is completely done. Fishing and exploration game tha…"
   },
   {
    "src": "reddit",
@@ -506,14 +522,6 @@
    "date": 1793383778000,
    "img": "",
    "desc": "Just wanted to vent a bit. I do a lot of RE work, and claude has been very useful for that. I got used to the \"safety\" classifier misfiring on things that were vaguely security-adjacent. Adjusting my…"
-  },
-  {
-   "src": "reddit",
-   "title": "Anthropic renames Max5 and Max20 and removes 5h limits for Max20",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjlvlc/anthropic_renames_max5_and_max20_and_removes_5h/",
-   "date": 1793381681000,
-   "img": "https://preview.redd.it/vw14lxtg4nyh1.png?width=640&crop=smart&auto=webp&s=eeeda2c7b9302687896f0ed1b4b6eb2f547a1352",
-   "desc": "yay submitted by /u/Pyros-SD-Models [link] [comments]"
   },
   {
    "src": "hn",
@@ -810,14 +818,6 @@
    "date": 1792627200000,
    "img": "",
    "desc": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Cl…"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.307",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
-   "date": 1792621022000,
-   "img": "",
-   "desc": "What's changed - Added /claude-api api-version to move Claude API code to API version 2026-10-21 - Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mo…"
   },
   {
    "src": "status",
