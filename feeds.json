@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793991778472,
+ "updatedAt": 1793995078463,
  "sources": {
   "news": {
    "ok": true,
@@ -244,6 +244,14 @@
    "desc": "この記事は、学祭の模擬店のシフト表を Google スプレッドシート + Apps Script で自動で組む道具を作った話の実装編です。何を作ったか、なぜ作ったか、ジャーニーマップから Design Doc までの上流の話は前編に書きました。 https://zenn.dev/jun-eg/articles/school-festival-shift-apps-script ここでは、開発環境…"
   },
   {
+   "src": "research",
+   "title": "Teaching AI to build scientific models",
+   "link": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+   "date": 1793923200000,
+   "img": "",
+   "desc": "In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation."
+  },
+  {
    "src": "zenn",
    "title": "社内のClaude Codeスキルをプラグインにして売る — 稼働を増やさずノウハウを渡す手順",
    "link": "https://zenn.dev/joinclass/articles/article-20261104220057-25539",
@@ -265,7 +273,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1516 # Comments: 477"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1524 # Comments: 479"
   },
   {
    "src": "reddit",
@@ -585,7 +593,7 @@
    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "date": 1793244822000,
    "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 590 # Comments: 236"
+   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 591 # Comments: 236"
   },
   {
    "src": "status",
@@ -1234,14 +1242,6 @@
    "date": 1789603200000,
    "img": "",
    "desc": "Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, spe…"
-  },
-  {
-   "src": "research",
-   "title": "Illuminating the frontier",
-   "link": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-   "date": 1789603200000,
-   "img": "",
-   "desc": "Anthropic is sharing new measurements that would give the public visibility into frontier AI development."
   },
   {
    "src": "news",
