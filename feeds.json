@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793966402520,
+ "updatedAt": 1793971088314,
  "sources": {
   "news": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "hn": {
    "ok": false,
-   "error": "fetch failed"
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "AIに内容の解説をさせるときのプロンプトエンジニアリング",
+   "link": "https://qiita.com/iroha_afternoon/items/5d35d54aa86ef657611e",
+   "date": 1793969320000,
+   "img": "",
+   "desc": "理解しやすい説明を書くためのルール 読者が一度で理解できる説明を書くための指針です。数学や科学などの技術的な内容の解説、文章や文献の解説、問題の解答、手順の説明など、何かを説明する応答に使います。本ルールは説明を書く側のための道具で、読者には見せません。 説明が分かりにく..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code・Codexを手元のMacで動かし続け、スマホから指示を出すためのチェックリスト ― スリープさせない設定と、Remote Control・リモート接続の前提",
@@ -66,70 +74,6 @@
    "date": 1793959246000,
    "img": "",
    "desc": "AIサイトに公開されていたClaude Codeのステータスラインの記事を確認していて、便利さと注意点を分けて考える必要があると感じました。画面下に出す情報は、/statusline に言葉で伝えると、Claude Codeがスクリプトの作成と設定の更新を行います。一方、表..."
-  },
-  {
-   "src": "qiita",
-   "title": "CC Switch で Claude Code の接続先を切り替える手順とハマりどころ",
-   "link": "https://qiita.com/AIHubMix/items/c643cbf641a407c00e43",
-   "date": 1793957318000,
-   "img": "",
-   "desc": "この記事は AIHubMix が作成しました。CC Switch v4.0.26（2026年11月）時点の画面と設定を説明しています。以降のリリースではボタン名が変わることがありますが、設定の仕組みは安定しています。 Claude Code の接続先をプロバイダー間..."
-  },
-  {
-   "src": "zenn",
-   "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
-   "link": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
-   "date": 1793955564000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--gpxk3FXp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AF%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25BE%25E3%2581%25A7AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E7%25A2%25BA%25E8%25AA%258D%25E5%25BE%2585%25E3%2581%25A1%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2597%25E3%2582%2582%25E3%2581%25A1%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0NWI1N2NlZmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%25AC%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258A%25E3%2582%25A6%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YWQyYWI1OTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに こんにちは、しもちです。 前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。自分でタスクの一覧を見て回ることはなくなり、司令塔が出してくる確認待ちに答えるのが主な仕事になりました。 今回は画面…"
-  },
-  {
-   "src": "zenn",
-   "title": "Amazon Bedrock AgentCore Gateway における障害対応：Model fallback を動かして確かめる",
-   "link": "https://zenn.dev/aws_japan/articles/agentcore-gateway-model-fallback",
-   "date": 1793953080000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--AbXSFKz1--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Amazon%2520Bedrock%2520AgentCore%2520Gateway%2520%25E3%2581%25AB%25E3%2581%258A%25E3%2581%2591%25E3%2582%258B%25E9%259A%259C%25E5%25AE%25B3%25E5%25AF%25BE%25E5%25BF%259C%25EF%25BC%259AModel%2520fallback%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Yusuke%2520Morishita%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmZTY2NGI3N2IuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25A2%25E3%2583%259E%25E3%2582%25BE%25E3%2583%25B3%2520%25E3%2582%25A6%25E3%2582%25A7%25E3%2583%2596%2520%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%2520%25E3%2582%25B8%25E3%2583%25A3%25E3%2583%2591%25E3%2583%25B3%2520%2528%25E6%259C%2589%25E5%25BF%2597%2529%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5wbmc=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! 本記事は 2026 年 11 月 6 日時点の情報に基づきます。Amazon Bedrock AgentCore の仕様は今後変わる可能性があります。本記事の内容は個人の見解であり、所属する組織の公式見解ではありません。 はじめに こんにちは！ AWS Japan ソリューションアーキテクトの森下です。 2026 年 10 月 22 日のアップデートで、Amazon Bedrock Agen…"
-  },
-  {
-   "src": "zenn",
-   "title": "カードの引き落とし前に残高不足をスマホに知らせる仕組みを、Gmail と GAS で作った — 銀行は残高をメールで送ってこない",
-   "link": "https://zenn.dev/suisei498/articles/b7a84f9f5c4eb1",
-   "date": 1793950552000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--zbDqRSXR--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25AB%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E5%25BC%2595%25E3%2581%258D%25E8%2590%25BD%25E3%2581%25A8%25E3%2581%2597%25E5%2589%258D%25E3%2581%25AB%25E6%25AE%258B%25E9%25AB%2598%25E4%25B8%258D%25E8%25B6%25B3%25E3%2582%2592%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25AB%25E7%259F%25A5%25E3%2582%2589%25E3%2581%259B%25E3%2582%258B%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E3%2580%2581Gmail%2520%25E3%2581%25A8%2520GAS%2520%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2594%2520%25E9%258A%2580%25E8%25A1%258C%25E3%2581%25AF%25E6%25AE%258B%25E9%25AB%2598%25E3%2582%2592%25E3%2583%25A1%25E3%2583%25BC%25E3%2583%25AB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Suisei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg5YTk4YjM0NWIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は Qiita と note にも同じ内容を載せています。Qiita: https://qiita.com/Suisei498/items/be253f53cb5a3a61f344 ／ note: https://note.com/suisei498/n/n012df892fb36 クレジットカードの引き落とし日に、口座の残高が足りずに引き落とせなかった。これを二度とやらないために、引き…"
-  },
-  {
-   "src": "zenn",
-   "title": "チームで Claude Code を使うと壊れる4つのパターンと、それを防ぐ3層構造",
-   "link": "https://zenn.dev/hungld10/articles/6f3ed6b6cf64ee",
-   "date": 1793949233000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Y6CgTTy1--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25A7%2520Claude%2520Code%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E3%2581%25A8%25E5%25A3%258A%25E3%2582%258C%25E3%2582%258B4%25E3%2581%25A4%25E3%2581%25AE%25E3%2583%2591%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25A8%25E3%2580%2581%25E3%2581%259D%25E3%2582%258C%25E3%2582%2592%25E9%2598%25B2%25E3%2581%25903%25E5%25B1%25A4%25E6%25A7%258B%25E9%2580%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Hung%2520Le%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGsxODhZQ0JqZE9CZlZQM0t5Nm82QXR1djlLaGo2dFdaZW81UW5Rdk9MSExIWHczaTc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "共通ルールなしに Claude Code を使う10人の開発者は、たまたま同じ名前の10個の別ツールを使っているのと同じです。各自の出力は、それぞれの習慣、プロンプトの書き方、そしてその朝コンテキストウィンドウに入っていた内容で決まります。品質の上限はチームで一番優秀な開発者、下限は一番雑な人の一番悪い日。その差分のコストはレビュアーが払います。 この記事では、チーム利用で起きる4つの失敗パター…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
-   "link": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
-   "date": 1793941984000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--GD0APm80--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E3%2581%2593%25E3%2581%25AA%25E3%2581%2599%25E4%25BA%25BA%25E3%2581%25AB%25E3%2580%2581MagicPod%25E3%2581%25AF%25E8%25A6%2581%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%25E3%2580%2582%25E7%259F%25A5%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A7Playwright%25E3%2581%25A8%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:ikenyal%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNiM2M1MjhkNjguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:GENDA%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I5MzI2NGQ4NzcuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "2026年10月、MagicPodのMCPサーバーが刷新されました。Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。 https://prtimes.jp/main/html/rd/p/000000079.000027392.html 以前、MagicPod MCPサーバーとClaudeを組み合わ…"
-  },
-  {
-   "src": "zenn",
-   "title": "note の有料エリアに zip を添付して、無料部分が変わっていないことを API で確かめる手順",
-   "link": "https://zenn.dev/zeroyen_dev/articles/note-attach-zip-paid-area",
-   "date": 1793941299000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--xJ4ESUxk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:note%2520%25E3%2581%25AE%25E6%259C%2589%25E6%2596%2599%25E3%2582%25A8%25E3%2583%25AA%25E3%2582%25A2%25E3%2581%25AB%2520zip%2520%25E3%2582%2592%25E6%25B7%25BB%25E4%25BB%2598%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E7%2584%25A1%25E6%2596%2599%25E9%2583%25A8%25E5%2588%2586%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%25E3%2581%2593%25E3%2581%25A8%25E3%2582%2592%2520API%2520%25E3%2581%25A7%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2582%258B%25E6%2589%258B%25E9%25A0%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BC%25E3%2583%25AD%25E5%2586%2586%25E9%2596%258B%25E7%2599%25BA%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEF4OG9kWE1vN1BudHNJMEsyWjJ3X1c0YVR2bkpSbWo1OVNwckJnVmJwX2NXcktFLVF4Zz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "note（ブログサービス）の有料記事に、集めたデータ（CSV 3本の zip、722KB）を添付しました。2026年11月3日の作業です。添付そのものは「＋」→「ファイル」で終わりますが、公開中の有料記事を触るときに怖いのは有料ラインが動くことです。この記事は、添付の手順と、触る前後で無料部分が同じであることを数で確かめた方法の記録です。 先に、note の添付の仕様（ヘルプの記載） 1ファイル…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI の検収担当が、1回で885万トークンを使っていた",
-   "link": "https://zenn.dev/claire_ai/articles/kenshu-gaibu-iriguchi",
-   "date": 1793940923000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--VUFr7VGm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E6%25A4%259C%25E5%258F%258E%25E6%258B%2585%25E5%25BD%2593%25E3%2581%258C%25E3%2580%25811%25E5%259B%259E%25E3%2581%25A7885%25E4%25B8%2587%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "作業用 BGM の動画を、AI（Claude Code）に作らせて YouTube に出している。公開の前には、検収の担当（qa エージェント）に、動画と題名・説明文・タグ・サムネイルを見せて確かめさせている。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n4f…"
   },
   {
    "src": "zenn",
@@ -242,6 +186,62 @@
    "date": 1793917035000,
    "img": "",
    "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1191 # Comments: 378"
+  },
+  {
+   "src": "zenn",
+   "title": "役割ごとに、強さも変えるべきだった ― 複数のClaude Codeサブエージェントに、医療機器リスク判断の3軸でeffortを割り振る",
+   "link": "https://zenn.dev/taichiendoh/articles/role-based-effort-level-subagent-design",
+   "date": 1793916620000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--YmRZgblF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25BD%25B9%25E5%2589%25B2%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E3%2580%2581%25E5%25BC%25B7%25E3%2581%2595%25E3%2582%2582%25E5%25A4%2589%25E3%2581%2588%25E3%2582%258B%25E3%2581%25B9%25E3%2581%258D%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2595%2520%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AEClaude%2520Code%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E3%2580%2581%25E5%258C%25BB%25E7%2599%2582%25E6%25A9%259F%25E5%2599%25A8%25E3%2583%25AA%25E3%2582%25B9%25E3%2582%25AF%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25AE3%25E8%25BB%25B8%25E3%2581%25A7...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%2581%25A0%25E8%2597%25A4%25E5%25A4%25AA%25E4%25B8%2580%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA1ZjNmMTY4MjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "以前、「どのAIに、どの強さで頼むか」を仕組みにするという記事で、医療機器管理の現場で学んだ「機微性×後戻りコスト×探索の広さ」という3軸を使い、AIタスクにどの強さ（effortレベル）を割り当てるかを決める基準を書きました。 そのとき前提にしていたのは、1つのタスクを1つのエージェントに頼むという場面でした。最近は、.claude/agents/に役割（Planner／Generator／E…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-11-06: 実行を測り、止める",
+   "link": "https://zenn.dev/laiken/articles/20261106-tech-watch",
+   "date": 1793916012000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--TkZDp55E--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-06%253A%2520%25E5%25AE%259F%25E8%25A1%258C%25E3%2582%2592%25E6%25B8%25AC%25E3%2582%258A%25E3%2580%2581%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 修正したつもりのサービスを相手がもう一度攻撃できる。CyberArenaのその場面が気になった。正解を一度出す試験より、ずっと現場に近い気がする。攻撃と防御を同時に測ると、何が見えるようになる？ 今日の10件 CyberArena: Benchmarking AI Agents in Live Sy…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeの--restricted/--safe-mode、denyルールは両方素通りする",
+   "link": "https://zenn.dev/clopy/articles/claude-code-restricted-safe-mode-bare-decision",
+   "date": 1793914606000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--F6nj9R6z--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE--restricted%252F--safe-mode%25E3%2580%2581deny%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AF%25E4%25B8%25A1%25E6%2596%25B9%25E7%25B4%25A0%25E9%2580%259A%25E3%2582%258A%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Clopy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code をCIや評価ハーネス、外部から取得したPR説明・Issue本文のような信頼できない入力の処理に使っていて、サブスクリプション認証（claude.ai ログイン、ANTHROPIC_API_KEY は未設定）を維持したまま起動面だけを絞りたいとき、--restricted か --safe-mode を足せば手元の .claude/settings.json の permi…"
+  },
+  {
+   "src": "zenn",
+   "title": "Multica と Paperclip 権限の既定をソースから比較してみた",
+   "link": "https://zenn.dev/nayu_ai/articles/d9bbc00b6c5202",
+   "date": 1793911770000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--7i5l1HHA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Multica%2520%25E3%2581%25A8%2520Paperclip%2520%25E6%25A8%25A9%25E9%2599%2590%25E3%2581%25AE%25E6%2597%25A2%25E5%25AE%259A%25E3%2582%2592%25E3%2582%25BD%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%258B%25E3%2582%2589%25E6%25AF%2594%25E8%25BC%2583%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%2590%258D%25E7%2594%25B1%2520%25E8%2592%25BC%25E7%259C%259F%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSjl2YnZ4RmFkcXFYNV9zeWc0MDkzek1NOHZJMkx1bTBpSzZiRnJicWdZVWE5MXRnPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code や Codex を並行して動かし始めると、まとめて管理する道具が欲しくなります。候補に挙がる Multica と Paperclip は、GitHub でそれぞれ約 5.5 万と約 11 万のスターを集めています（2026-11-04）。 この記事では、この 2 つに対照として Orchestrator.inc を加え、CLI が出す権限の確認を既定でどう扱うかをソースか…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code に $100 分のクレジットを渡して「稼いで」と頼んだら、26 日後の売上は 0 円だった",
+   "link": "https://zenn.dev/jfp_mesh/articles/pup-100-dollar-challenge-postmortem",
+   "date": 1793900213000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--oHVrNDNG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%2520%2524100%2520%25E5%2588%2586%25E3%2581%25AE%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25B8%25E3%2583%2583%25E3%2583%2588%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258C%25E7%25A8%25BC%25E3%2581%2584%25E3%2581%25A7%25E3%2580%258D%25E3%2581%25A8%25E9%25A0%25BC%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%258126%2520%25E6%2597%25A5%25E5%25BE%258C%25E3%2581%25AE%25E5%25A3%25B2%25E4%25B8%258A%25E3%2581%25AF%25200%2520%25E5%2586%2586%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:jfp_mesh%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2JiYjIxN2JmZmEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、実験の当事者である AI「PUP」（クラウドで動かした Claude Code）が、自分の記録（台帳・決定ログ・失敗ログ）から書きました。数字は、人間の相方（宇宙おじさん）が画面で確かめた値です。公開の前に、宇宙おじさんが内容を確かめています。 この記事で分かること AI エージェントに「元手を増やす」仕事を任せたとき、26 日間で実際に何が起きたか クレジット $100 の行き…"
+  },
+  {
+   "src": "zenn",
+   "title": "私の普段のAIによる研究開発環境を公開します",
+   "link": "https://zenn.dev/sde_lab/articles/ai-research-environment",
+   "date": 1793897671000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--idWkH3oM--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25A7%2581%25E3%2581%25AE%25E6%2599%25AE%25E6%25AE%25B5%25E3%2581%25AEAI%25E3%2581%25AB%25E3%2582%2588%25E3%2582%258B%25E7%25A0%2594%25E7%25A9%25B6%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:SDE%2520Lab%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzdiOThiZWMxYzMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scientific%2520Data%2520Engin...%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnZHS1NOQ2NHdmpIa1lnZy1yZlhvcm1NSnFLaF8tWDNtRGNQbzFFZnJ2YktldXZZRT1zMjUwLWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 是枝（@cs_dev_engineer）です。 研究のデータ解析と論文の執筆を、普段どんな環境で進めているかを公開します。 ! 本記事は、研究や論文の投稿を AI ですべて自動化する方法を紹介するものではありません。AI に任せるのは解析のコードや原稿の初稿までで、結果の確認と原稿の仕上げは自分の手で行っています。 生成 AI の利用は、ジャーナルや学会によって制限されていることがあり…"
+  },
+  {
+   "src": "zenn",
+   "title": "バス停で迷った旅行者が、公式GTFSで鹿児島の乗り場ガイドを作りました",
+   "link": "https://zenn.dev/dongyu/articles/kagoshima-cityview-gtfs-map",
+   "date": 1793896235000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--YVaqe7M4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2590%25E3%2582%25B9%25E5%2581%259C%25E3%2581%25A7%25E8%25BF%25B7%25E3%2581%25A3%25E3%2581%259F%25E6%2597%2585%25E8%25A1%258C%25E8%2580%2585%25E3%2581%258C%25E3%2580%2581%25E5%2585%25AC%25E5%25BC%258FGTFS%25E3%2581%25A7%25E9%25B9%25BF%25E5%2585%2590%25E5%25B3%25B6%25E3%2581%25AE%25E4%25B9%2597%25E3%2582%258A%25E5%25A0%25B4%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:dongyu%25EF%25BD%259CAI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E9%2596%258B%25E7%2599%25BA%25E8%2580%2585%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3ZYeEszd3NxNnJiclpfMEpHYTZ1aWE2YVhIM0xyQTduVUpJRE9fT28zWWREUGJkVjU9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! このサイトは鹿児島市・鹿児島市交通局の公式サービスではありません。MAKOROが公式オープンデータをもとに作った非公式の案内です。運行状況や時刻は、公式情報もあわせてご確認ください。 鹿児島の観光バス「カゴシマシティビュー」の乗り場と時刻表を、4か国語で確かめられる案内サイト「鹿児島シティビューバスガイド」を作りました。無料・広告なし・インストール不要です。 https://kagoshim…"
   },
   {
    "src": "reddit",
