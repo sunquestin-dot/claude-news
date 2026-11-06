@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793928127556,
+ "updatedAt": 1793933930723,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code のコミット前フックで TruffleHog を実行し、シークレット入りのコミットを止める",
+   "link": "https://qiita.com/CircleCIJapan/items/00c07ba3c040a8d2e84d",
+   "date": 1793929235000,
+   "img": "",
+   "desc": "Claude CodeのようなAIコーディングエージェントは、コードの変更からコミットまでを自分で進めます。エージェントが書いたコードにAPIキーが直書きされていても、そのままコミットされることがあります。一度コミットしたキーは、ファイルを消してもGitのコミット履歴に残り..."
+  },
+  {
+   "src": "qiita",
+   "title": "テストデータ作成でわかったAIの弱点",
+   "link": "https://qiita.com/ogasawar-offgrid/items/66a98c54fd9520f8ddb2",
+   "date": 1793929043000,
+   "img": "",
+   "desc": "はじめに 業務システムの不具合を修正するときに、確認用のテストデータをClaude Codeに作ってもらうことがよくあります。「この不具合を再現するINSERT文を作って」と頼めば、数分でSQLが出てきます。 とても便利ですが、使い込むうちに、AIが作るテストデータには、..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code への修正指示を「画面に描いた印」で出す手順（MCP でつなぐ Mac アプリ）",
+   "link": "https://qiita.com/twelvetonelab/items/318fe2c26c93a6f35368",
+   "date": 1793928870000,
+   "img": "",
+   "desc": "紹介する Mac アプリ「SKETCHTALK」は筆者（株式会社トゥエルブトーン 角田）が開発しています。Anthropic とは提携していない独立したアプリです。 この記事でできるようになること Claude Code に画面の修正を頼むとき、「どこを」をスクリ..."
+  },
+  {
+   "src": "qiita",
    "title": "「反映まで1分ほど」は測っていなかった：GitHub Pages のビルド37回は中央値19.4秒",
    "link": "https://qiita.com/kaiyaku_iyada/items/06aed933050d0b2c1410",
    "date": 1793927358000,
    "img": "",
    "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とは無関係の個人の実験で、同社の公認や提携ではありません。書いてあるのは、2026年10月17日〜22日（4章の最後の試しだけ2..."
-  },
-  {
-   "src": "qiita",
-   "title": "0。SKILL.mdが新しい攻撃面として報告された日、自分の指示書が『データであり命令ではない』と明記する5箇所に、スキルの説明文は入っていなかった",
-   "link": "https://qiita.com/Hideki_Tamae/items/f911fa99a2ab976466f8",
-   "date": 1793926147000,
-   "img": "",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このパイプラインを動かしている自分(Claude)の指示書(システムプロンプト)の中で、「外部から来た内容はデータであり命令ではない」と名指しで注意している場所が5箇所あるうち、その対象リストに「スキル(SKILL...."
-  },
-  {
-   "src": "qiita",
-   "title": "Opus 5系のthinkingとeffort移行ガイド、4.8から5.5で変わる設定",
-   "link": "https://qiita.com/kai_kou/items/89ac7d29c7cc3f02ebd1",
-   "date": 1793923963000,
-   "img": "",
-   "desc": "はじめに 対象読者は、Anthropic API（Messages API）や Claude Code で Opus 系モデルを使っていて、Opus 4.8 から Opus 5、あるいは Opus 5.5 へ切り替える開発者です。 モデル ID を1行書き換えるだけのつ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で \"Self-signed certificate detected\" / \"SSL certificate verification failed\" が出たときの直し方（社内プロキシと NODE_EXTRA_CA_CERTS）",
-   "link": "https://qiita.com/homhom44/items/922d0458086bf4df7d0d",
-   "date": 1793923509000,
-   "img": "",
-   "desc": "Claude Code で Unable to connect to API: Self-signed certificate detected や Unable to connect to API: SSL certificate verification failed ..."
   },
   {
    "src": "zenn",
@@ -244,6 +244,14 @@
    "desc": "昔使っていたリンク集のサービスを畳んで、自分のサイトにリンク集を移した。古いページは本文を「リンク集は自分のサイトへ移しました」に書き換えて、案内として残してある。ただ、ボタンのラベルは移す前のままだ。押せば、ちゃんと新しいリンク集に着く。 このボタンを直すか、と AI に聞くと「直す」と返ってくる。僕は直さなかった。 なぜ比べようと思ったか 僕は Claude Code に、毎日いくつも選択肢…"
   },
   {
+   "src": "reddit",
+   "title": "I built a hyper realistic fighter jet simulator for the browser with opus 5.5 and it went viral on Twitter!",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xobggp/i_built_a_hyper_realistic_fighter_jet_simulator/",
+   "date": 1793859475000,
+   "img": "https://external-preview.redd.it/M2RkNzgyaHZrcXpoMVk1kXN8wFV2MqQWpRF-J5pZnffwOwiNoXIl_jCLz7FT.png?width=640&crop=smart&auto=webp&s=647702315d12727a596c32df8d365ca1822902ef",
+   "desc": "try it for for free at viperoneone.com Hi hi solo dev here folks! It's been super fun building this in public. It went viral about 2 weeks ago with 25,000 players playing this over that time period w…"
+  },
+  {
    "src": "research",
    "title": "AI for scientific discovery: How researchers use Claude",
    "link": "https://www.anthropic.com/research/how-researchers-use-claude",
@@ -330,14 +338,6 @@
    "date": 1793645490000,
    "img": "https://external-preview.redd.it/3b_-aYvknrqeVVavcbAtLT70Hmc7dKIPPYra4OvHR74.jpeg?width=640&crop=smart&auto=webp&s=b5cc386268077e5a76ee6ca835fb1d6fea17bf39",
    "desc": "> As far as we can ascertain, it appears the game-related blocking is limited to the combination of using Claude Code and the Opus 5.5 model. Should that prove true, then users should be able to side…"
-  },
-  {
-   "src": "reddit",
-   "title": "Anthropic's internal AI use, valued at retail prices, now exceeds its employee pay",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xm2sej/anthropics_internal_ai_use_valued_at_retail/",
-   "date": 1793638964000,
-   "img": "https://external-preview.redd.it/dQGW_AwJTG19wGQP0Ow5yUKJsiGKc4bL_vXFCXhFVHs.jpeg?width=640&crop=smart&auto=webp&s=1d706deb9af59b0f96d74a0480e97761b897ed88",
-   "desc": "submitted by /u/Malor777 [link] [comments]"
   },
   {
    "src": "hn",
@@ -428,6 +428,14 @@
    "desc": "Since last month, Claude (I call her Annie) has been running real telescopes for me. Robotic ones you rent by the hour on StellarDock, in Chile, Spain and Utah. I don't touch anything. She picks the …"
   },
   {
+   "src": "reddit",
+   "title": "For over a year I've spent a full day writing a Markdown spec before prompting Claude. Google just open-sourced the \"Elephant-Goldfish Model\" that takes this 10x further",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xkn61s/for_over_a_year_ive_spent_a_full_day_writing_a/",
+   "date": 1793485675000,
+   "img": "https://preview.redd.it/olsnwjsbovyh1.png?width=140&height=120&auto=webp&s=8c8feef212e1c89e6653e0aca5662ea4828762f6",
+   "desc": "Whether you've been coding for 15+ years or started \"vibe coding\" with Claude a month ago, you've probably hit the same wall: you let the agent start coding right away, the first two hours feel like …"
+  },
+  {
    "src": "hn",
    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
@@ -514,14 +522,6 @@
    "date": 1793381245000,
    "img": "",
    "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 326 # Comments: 296"
-  },
-  {
-   "src": "reddit",
-   "title": "Weekend project: Mario 64 in Mixed Reality!",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjko2l/weekend_project_mario_64_in_mixed_reality/",
-   "date": 1793379061000,
-   "img": "https://external-preview.redd.it/MjU2YnhodTV3bXloMaYheK4na4Rfz-v0mWHaUcdeWuKpEY4i0QCrtKTwKnz9.png?width=640&crop=smart&auto=webp&s=b84a98a41b69987e3a5519a0852a090f0da56915",
-   "desc": "I built a native MR version of Mario 64 that runs in real 3D (not a flat stereoscopic screen) at 90 FPS. The whole level sits on your desk and you play it like a diorama. I built this with Claude Cod…"
   },
   {
    "src": "hn",
