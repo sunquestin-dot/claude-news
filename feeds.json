@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793941687621,
+ "updatedAt": 1793945379257,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -185,7 +185,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 452 # Comments: 159"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 832 # Comments: 273"
   },
   {
    "src": "zenn",
@@ -321,7 +321,7 @@
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
    "date": 1793658800000,
    "img": "",
-   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 228 # Comments: 277"
+   "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 228 # Comments: 280"
   },
   {
    "src": "hn",
@@ -449,7 +449,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 493 # Comments: 270"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 493 # Comments: 271"
   },
   {
    "src": "reddit",
