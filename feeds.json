@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793933930723,
+ "updatedAt": 1793937723818,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Codeでリポジトリを作らずに試作する",
+   "link": "https://qiita.com/kentasatomi/items/1c3e1ac9244d973ce5e0",
+   "date": 1793935627000,
+   "img": "",
+   "desc": "11月4日付のClaude Code 2.1.318の変更履歴で、クラウドセッションに「No repository」が加わったことが案内されました。Anthropicがホストする環境で、リポジトリを選ばずにセッションを始められます。小さな処理を試すだけなら、GitHubに検..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code のコミット前フックで TruffleHog を実行し、シークレット入りのコミットを止める",
    "link": "https://qiita.com/CircleCIJapan/items/00c07ba3c040a8d2e84d",
    "date": 1793929235000,
@@ -68,36 +76,12 @@
    "desc": "紹介する Mac アプリ「SKETCHTALK」は筆者（株式会社トゥエルブトーン 角田）が開発しています。Anthropic とは提携していない独立したアプリです。 この記事でできるようになること Claude Code に画面の修正を頼むとき、「どこを」をスクリ..."
   },
   {
-   "src": "qiita",
-   "title": "「反映まで1分ほど」は測っていなかった：GitHub Pages のビルド37回は中央値19.4秒",
-   "link": "https://qiita.com/kaiyaku_iyada/items/06aed933050d0b2c1410",
-   "date": 1793927358000,
-   "img": "",
-   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とは無関係の個人の実験で、同社の公認や提携ではありません。書いてあるのは、2026年10月17日〜22日（4章の最後の試しだけ2..."
-  },
-  {
-   "src": "zenn",
-   "title": "`claude -p --restricted` の `/スキル名` は展開されていなかった ― モデルが自力で探し当てていた1週間",
-   "link": "https://zenn.dev/masamitsu_sera/articles/7363154f42de02",
-   "date": 1793917805000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--TJ3tPD1W--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%2560claude%2520-p%2520--restricted%2560%2520%25E3%2581%25AE%2520%2560%252F%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E5%2590%258D%2560%2520%25E3%2581%25AF%25E5%25B1%2595%25E9%2596%258B%25E3%2581%2595%25E3%2582%258C%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2595%2520%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2581%258C%25E8%2587%25AA%25E5%258A%259B%25E3%2581%25A7%25E6%258E%25A2...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%2580%25AC%25E8%2589%25AF%2520%25E6%2594%25BF%25E5%2585%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YzZWIyZDYwYTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "常駐の Mac で、claude -p を無人で呼ぶ文章生成のジョブを動かしています。1つのジョブが3つの段（入力から題材を選ぶ・下書きする・照合する）で claude -p を呼び、どの段も、リポジトリに置いたスキル（.claude/skills/ /SKILL.md）を / の形で指定していました。 2026年10月2日の 02:30、選ぶ段が1回落ちました。返ってきたのは成果物ではなく、「…"
-  },
-  {
    "src": "hn",
    "title": "Claude Code sends your email address to websites",
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
    "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 452 # Comments: 159"
-  },
-  {
-   "src": "zenn",
-   "title": "役割ごとに、強さも変えるべきだった ― 複数のClaude Codeサブエージェントに、医療機器リスク判断の3軸でeffortを割り振る",
-   "link": "https://zenn.dev/taichiendoh/articles/role-based-effort-level-subagent-design",
-   "date": 1793916620000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--YmRZgblF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25BD%25B9%25E5%2589%25B2%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E3%2580%2581%25E5%25BC%25B7%25E3%2581%2595%25E3%2582%2582%25E5%25A4%2589%25E3%2581%2588%25E3%2582%258B%25E3%2581%25B9%25E3%2581%258D%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2595%2520%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AEClaude%2520Code%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E3%2580%2581%25E5%258C%25BB%25E7%2599%2582%25E6%25A9%259F%25E5%2599%25A8%25E3%2583%25AA%25E3%2582%25B9%25E3%2582%25AF%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25AE3%25E8%25BB%25B8%25E3%2581%25A7...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%2581%25A0%25E8%2597%25A4%25E5%25A4%25AA%25E4%25B8%2580%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA1ZjNmMTY4MjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "以前、「どのAIに、どの強さで頼むか」を仕組みにするという記事で、医療機器管理の現場で学んだ「機微性×後戻りコスト×探索の広さ」という3軸を使い、AIタスクにどの強さ（effortレベル）を割り当てるかを決める基準を書きました。 そのとき前提にしていたのは、1つのタスクを1つのエージェントに頼むという場面でした。最近は、.claude/agents/に役割（Planner／Generator／E…"
   },
   {
    "src": "zenn",
@@ -242,6 +226,22 @@
    "date": 1793873146000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--PTuGmhT_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2582%2592AI%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%259C%2580%25E5%25BE%258C%25E3%2581%25BE%25E3%2581%25A7%25E5%2583%2595%25E3%2581%258C%25E8%25A6%2581%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:MotimotiNotch%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVmZTQyYTc5MWUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "昔使っていたリンク集のサービスを畳んで、自分のサイトにリンク集を移した。古いページは本文を「リンク集は自分のサイトへ移しました」に書き換えて、案内として残してある。ただ、ボタンのラベルは移す前のままだ。押せば、ちゃんと新しいリンク集に着く。 このボタンを直すか、と AI に聞くと「直す」と返ってくる。僕は直さなかった。 なぜ比べようと思ったか 僕は Claude Code に、毎日いくつも選択肢…"
+  },
+  {
+   "src": "zenn",
+   "title": "Antigravity CLI の料金プランと Pro への切り替えどき——Free/Ultra/従量課金の比較",
+   "link": "https://zenn.dev/joemike/articles/antigravity-cli-pricing-plans-guide-2026",
+   "date": 1793872800000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--WyGcuGSF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Antigravity%2520CLI%2520%25E3%2581%25AE%25E6%2596%2599%25E9%2587%2591%25E3%2583%2597%25E3%2583%25A9%25E3%2583%25B3%25E3%2581%25A8%2520Pro%2520%25E3%2581%25B8%25E3%2581%25AE%25E5%2588%2587%25E3%2582%258A%25E6%259B%25BF%25E3%2581%2588%25E3%2581%25A9%25E3%2581%258D%25E2%2580%2594%25E2%2580%2594Free%252FUltra%252F%25E5%25BE%2593%25E9%2587%258F%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%25AE%25E6%25AF%2594%25E8%25BC%2583%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%259F%25E3%2582%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1MDU2NDBlNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Antigravity CLI の料金プランを Free / Pro / Ultra / 従量課金で比較し、どのタイミングで Pro に上げるべきかの判断基準を整理します。 料金プランの比較表 プラン 月額 エージェントリクエスト Free 無料 1日あたり約20回（2026年3月以降） Pro $20 Freeより高いレート上限 Ultra $249.99 最大レート上限 従量課金 — $25…"
+  },
+  {
+   "src": "zenn",
+   "title": "家計簿アプリが続かないママと作った、LINEで送るだけの「入力しない家計簿」",
+   "link": "https://zenn.dev/dice_k_lab/articles/kakei-agent-team-overview",
+   "date": 1793868619000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--A6_W5o6Z--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AE%25B6%25E8%25A8%2588%25E7%25B0%25BF%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%258C%25E7%25B6%259A%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2583%259E%25E3%2583%259E%25E3%2581%25A8%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2581LINE%25E3%2581%25A7%25E9%2580%2581%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AE%25E3%2580%258C%25E5%2585%25A5%25E5%258A%259B%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E5%25AE%25B6%25E8%25A8%2588%25E7%25B0%25BF%25E3%2580%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Dice-K-%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2VmODVlMGM2M2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは、Dice-K-ラボです。 わが家では2026年9月の終わりから、家計の整理とふりかえりを**AIエージェントの「チーム」**に手伝ってもらっています。使っているのはClaude Code（Anthropic社のAIツール）です。この記事はAnthropic社とは関係のない、個人の運用記録です。 ! この記事の3行まとめ 「家計簿アプリへの入力が続かない」悩みを、LINEで送るだけ、整…"
   },
   {
    "src": "reddit",
