@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794005497372,
+ "updatedAt": 1794008851346,
  "sources": {
   "news": {
    "ok": true,
@@ -22,16 +22,16 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "見た目は同じ「ド」なのに一致しない ── Mac の日本語パスと NFC / NFD",
+   "link": "https://qiita.com/ruharuhadesu/items/63d6ac3d84d2c3447f86",
+   "date": 1794007037000,
+   "img": "",
+   "desc": "はじめに 10月から、ある会社でエンジニアのインターンをしています。仕事では Claude Code を使っていて、作業を楽にするための小さな道具も AI と一緒に作ってます。 その道具のひとつが、ある日「ログが見つからない」って言って止まりました。ログはちゃんとあるのに..."
+  },
+  {
+   "src": "qiita",
+   "title": "Python の assert は -O で消える：Claude Code の運用で作る販売ページ照合に穴3つ",
+   "link": "https://qiita.com/kaiyaku_iyada/items/bb0e641577de6c9bf613",
+   "date": 1794006690000,
+   "img": "",
+   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とも、販売サイト Brain と note の運営とも無関係の個人の実験で、公認や提携ではありません。書いてあるのは、2026年..."
+  },
   {
    "src": "qiita",
    "title": "他のLLMが書いた要件定義書をAI組織に取り込む——intakeフォルダと手動トリアージの設計",
@@ -58,22 +74,6 @@
    "date": 1794002705000,
    "img": "",
    "desc": "レガシーコードをAIにリファクタリングさせるとき、私が一番時間をかけているのは書き換えの指示ではなく、書き換える前に「今の挙動」をテストで固定する工程です。この記事では、その工程の手順と、どの粒度でテストを張れば安心してAIに触らせられるかの判断基準をまとめます。 なお、本..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で \"can't help with this. Start a new session to continue\" / \"appears to violate our Usage Policy\" が出たときの戻し方（正当な作業での誤検知にも）",
-   "link": "https://qiita.com/homhom44/items/df5f5ed2ceed27cf43d8",
-   "date": 1794000814000,
-   "img": "",
-   "desc": "Claude Code で普通の作業をしていたのに Claude can't help with this. Start a new session to continue. や appears to violate our Usage Policy と返ってきて、何を送っ..."
-  },
-  {
-   "src": "qiita",
-   "title": "初めてのCI/CD。AIレビューは仕込んだ問題を全部見つけたが、修正案の半分以上は壊れた(GitHub Actions + Claude Code)",
-   "link": "https://qiita.com/tobaru/items/37374b0ed48cb4935ffd",
-   "date": 1793998527000,
-   "img": "",
-   "desc": "1. はじめに 会社では、PRを出すとAIが自動でコードレビューをしてくれます。初めて見たときは「なにこれ、すごい!」と思いました。 ところが、前の記事でCI/CDを勉強してからワークフローのファイルを見たら、なんと読めたんです。すごいと思っていたものも、基本は前回勉強し..."
   },
   {
    "src": "reddit",
@@ -97,7 +97,31 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 146 # Comments: 344"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 198 # Comments: 444"
+  },
+  {
+   "src": "zenn",
+   "title": "Whisper文字起こしをWSL2+GPUへ移して、補正をClaude Codeのスキルにする。｜hal220",
+   "link": "https://zenn.dev/hal220/articles/6e10afc854a8d8",
+   "date": 1793980323000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s---VkmaONH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Whisper%25E6%2596%2587%25E5%25AD%2597%25E8%25B5%25B7%25E3%2581%2593%25E3%2581%2597%25E3%2582%2592WSL2%252BGPU%25E3%2581%25B8%25E7%25A7%25BB%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E8%25A3%259C%25E6%25AD%25A3%25E3%2582%2592Claude%2520Code%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%2582%25EF%25BD%259Chal220%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%258F%25E3%2583%25AB%2520%257C%2520hal220%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSXM5VWg1TXJwd09vQWlqSzRsRHNtRXFtTGxfZ3JwLVlVa2tKbml4TzFfU1NzT0xBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "事の発端：動いているものを、動いたまま引っ越したい 前回の記事で、ローカルWhisperで荒起こしして、ChatGPTで補正するスクリプトを作りました。 そのスクリプトを、新しく作ったWSL2（Ubuntu）+ uv + CUDAの環境へ引っ越すことにしました。 GPUもPyTorchもCLIでの文字起こしも、すでに動いている環境です。壊したくありません。 ついでに、もう一つやりたいことがありま…"
+  },
+  {
+   "src": "zenn",
+   "title": "人間3分、AI48分。これは何分の仕事か？",
+   "link": "https://zenn.dev/futoka/articles/ai-agent-effort-four-clocks",
+   "date": 1793975931000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--9pXflsQc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BA%25BA%25E9%2596%25933%25E5%2588%2586%25E3%2580%2581AI48%25E5%2588%2586%25E3%2580%2582%25E3%2581%2593%25E3%2582%258C%25E3%2581%25AF%25E4%25BD%2595%25E5%2588%2586%25E3%2581%25AE%25E4%25BB%2595%25E4%25BA%258B%25E3%2581%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2595%25E3%2583%2588%25E3%2582%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRmYmZmMzJhYWIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "人間が3分で指示を出し、AIが48分かけて実装とテストを進めたとします。これは何分の仕事でしょうか。 「人がこのタスクに手をかけた時間」なら3分。「AIが稼働した時間」なら48分。指示を始めてからAIが結果を返すまで、重なりも待ちもなければ51分です。3分と48分は、実際の開発で計測した値ではなく、考え方を説明するための架空の数字です。 さらに、人が結果を5分レビューして作業完了とするなら、同じ…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIエージェントを手元のMacで動かし続ける理由 ― クラウドのVMに届かないものと、技術の土地勘",
+   "link": "https://zenn.dev/tmiyachi/articles/local-agent-vm-intuition",
+   "date": 1793974559000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hZcRG3B3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E5%2585%2583%25E3%2581%25AEMac%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E7%25B6%259A%25E3%2581%2591%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%2520%25E2%2580%2595%2520%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2581%25AEVM%25E3%2581%25AB%25E5%25B1%258A%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2581%25A8%25E3%2580%2581%25E6%258A%2580%25E8%25A1%2593%25E3%2581%25AE%25E5%259C%259F%25E5%259C%25B0%25E5%258B%2598%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A1%2520Toshimitsu%2520Mi...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlOGEzNzVmY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "自宅とオフィスのMacは、開きっぱなしにして電源をつけておき、Claude CodeやCodexを24時間稼働させています。外出しているときは、スマホのChatGPTアプリやClaudeアプリから指示を出します。手元のパソコンを、リモコンで操作しているのと同じです。 私（株式会社AI Orchestraのみやっち🧑‍💻）は、YouTubeで「初心者と上級者を分けているAI習慣」を5つ話しまし…"
   },
   {
    "src": "zenn",
@@ -117,10 +141,10 @@
   },
   {
    "src": "zenn",
-   "title": "年間数億円のSaaSを、一人ｘ半年ｘバイブコーディングでリプレイスして感じた達成感と危機感",
+   "title": "年間数億円のSaaSを、開発者一人バイブコーディングでリプレイスして感じた達成感と危機感",
    "link": "https://zenn.dev/ttake/articles/0b6c8f887b160e",
    "date": 1793970343000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--o-tzgwpH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B9%25B4%25E9%2596%2593%25E6%2595%25B0%25E5%2584%2584%25E5%2586%2586%25E3%2581%25AESaaS%25E3%2582%2592%25E3%2580%2581%25E4%25B8%2580%25E4%25BA%25BA%25EF%25BD%2598%25E5%258D%258A%25E5%25B9%25B4%25EF%25BD%2598%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E3%2583%25AA%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25A6%25E6%2584%259F%25E3%2581%2598%25E3%2581%259F%25E9%2581%2594%25E6%2588%2590%25E6%2584%259F%25E3%2581%25A8%25E5%258D%25B1%25E6%25A9%259F%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259F%25E3%2581%2591%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzgzNzNmYzFhZTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--zCZ3lzz0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B9%25B4%25E9%2596%2593%25E6%2595%25B0%25E5%2584%2584%25E5%2586%2586%25E3%2581%25AESaaS%25E3%2582%2592%25E3%2580%2581%25E9%2596%258B%25E7%2599%25BA%25E8%2580%2585%25E4%25B8%2580%25E4%25BA%25BA%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E3%2583%25AA%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25A6%25E6%2584%259F%25E3%2581%2598%25E3%2581%259F%25E9%2581%2594%25E6%2588%2590%25E6%2584%259F%25E3%2581%25A8%25E5%258D%25B1%25E6%25A9%259F%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259F%25E3%2581%2591%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzgzNzNmYzFhZTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに この半年間、業務の根幹で使っていた年間数億円規模のSaaSを、自社製システムへリプレイスしていました。開発体制はエンジニア1人（自分）＋AI。事業側のメイン担当者が1人という、実質2名のプロジェクトです。新システムはすでに本番稼働を迎えています。 自分にとってこのプロジェクトは、「あえてコードを一切読まず、バイブコーディングだけで中規模システムをどこまで作り切れるか」を試す実験でもあり…"
   },
   {
@@ -236,30 +260,6 @@
    "desc": "明日は JAWS FESTA 秋田です。AWS 好きが集まるイベントの前日なので、AWS ネタを兼ねて、最近作ったスキルを宣伝させてください。 armaniacs/cloud-cdn-detect は、Web サイトや API の裏にあるクラウド・CDN・ホスティング事業者を、外からの受動的な観測だけで推定するスキルです。Claude Code などのエージェントに「このサイト、どこで動いてる?…"
   },
   {
-   "src": "zenn",
-   "title": "Claude Codeが出したコマンドが私のPowerShellで動かない。AIのシェルと私のシェルは別物(Windows)",
-   "link": "https://zenn.dev/mugen_web/articles/claude-code-windows-two-shells",
-   "date": 1793937233000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--GDP9JFfq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%258C%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E3%2581%258C%25E7%25A7%2581%25E3%2581%25AEPowerShell%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2580%2582AI%25E3%2581%25AE%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2581%25A8%25E7%25A7%2581%25E3%2581%25AE%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2581%25AF%25E5%2588%25A5%25E7%2589%25A9%2528Win...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:MUGEN%2520WEB%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGFEMXVhMTJBamkzcEZqNVltXzdGVzVRR1JHSFFNWnJBcXZ1Tkg0Rk9OLUFxNnJBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "WindowsでClaude Codeを使っていて、AIが渡してくれたコマンドを、そのまま自分のPowerShellに貼ったら、エラーになりました。原因は、AIが自分で実行するシェルと、私が手で打つシェルが、別物だったことです。何が違ったのか、どう決めたのかを、記録します。 起きたこと AIが渡してくれた、次のような形のコマンドを、PowerShellに貼りました(プロジェクト名は仮のものです)…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI が書いたコードの「なぜ」をコミット後に聞ける：Zed Delta で差分と会話を一緒に残す",
-   "link": "https://zenn.dev/zundamon_tools/articles/zed-delta-agent-code-conversation",
-   "date": 1793936669000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--OZrJKuEY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25AA%25E3%2581%259C%25E3%2580%258D%25E3%2582%2592%25E3%2582%25B3%25E3%2583%259F%25E3%2583%2583%25E3%2583%2588%25E5%25BE%258C%25E3%2581%25AB%25E8%2581%259E%25E3%2581%2591%25E3%2582%258B%25EF%25BC%259AZed%2520Delta%2520%25E3%2581%25A7%25E5%25B7%25AE%25E5%2588%2586%25E3%2581%25A8%25E4%25BC%259A%25E8%25A9%25B1%25E3%2582%2592%25E4%25B8%2580%25E7%25B7%2592%25E3%2581%25AB%25E6%25AE%258B%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259A%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2582%25E3%2582%2593%25E3%2581%25AE%25E5%25AE%259F%25E9%25A8%2593%25E9%2581%2593%25E5%2585%25B7%25E7%25AE%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJiNGRhMmQyODEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI エージェントに直させたコードを後から読み返すと、なぜそう書いたのかは差分から推理するしかありません。 Zed エディタの開発元が出しているアプリ Delta（public beta）で、コミットの後に新しいセッションを開き、同じ会話の経緯を聞きました。新しいセッションは担当を分けて答えました。最初の実装とコミットは端末の Claude Code、コメントを受けた修正は Delta アプリの…"
-  },
-  {
-   "src": "zenn",
-   "title": "DESIGN.md が古いと AI は「正確に間違える」— 同じ課題を 6 回やらせて採点した",
-   "link": "https://zenn.dev/hakaru_design/articles/b934c2a1a54ae6",
-   "date": 1793934780000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--rdAFu-62--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:DESIGN.md%2520%25E3%2581%258C%25E5%258F%25A4%25E3%2581%2584%25E3%2581%25A8%2520AI%2520%25E3%2581%25AF%25E3%2580%258C%25E6%25AD%25A3%25E7%25A2%25BA%25E3%2581%25AB%25E9%2596%2593%25E9%2581%2595%25E3%2581%2588%25E3%2582%258B%25E3%2580%258D%25E2%2580%2594%2520%25E5%2590%258C%25E3%2581%2598%25E8%25AA%25B2%25E9%25A1%258C%25E3%2582%2592%25206%2520%25E5%259B%259E%25E3%2582%2584%25E3%2582%2589%25E3%2581%259B%25E3%2581%25A6%25E6%258E%25A1%25E7%2582%25B9%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25B8%25AC%25E3%2582%258B%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%258A%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lMMGI4YVdsMVNYanpEeENhbFJVTGVNeTZfbDkxdjNTVzJOdm1UU0lOczFwdldpRT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI に「お問い合わせのセクションを作って」と頼みました。 渡すものを 3 通りに変えて、それぞれ 2 回ずつ。合計 6 回です。 下の 3 枚は、そのうちの 3 回分です。 どれが一番いい点だったと思いますか。 私は A だと思いました。 左右に分かれていて、ボタンの下に影がずれて重なっていて、見出しに罫線つきのラベルがついている。 手間のかかり方が、ほかの 2 枚と違います。 答えはこうでし…"
-  },
-  {
    "src": "reddit",
    "title": "Claude can now analyze your spending with its new Personal Finance tool",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xp0qxj/claude_can_now_analyze_your_spending_with_its_new/",
@@ -297,7 +297,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1536 # Comments: 486"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1545 # Comments: 488"
   },
   {
    "src": "reddit",
