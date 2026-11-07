@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794027567271,
+ "updatedAt": 1794030976074,
  "sources": {
   "news": {
    "ok": true,
@@ -44,28 +44,12 @@
  },
  "items": [
   {
-   "src": "zenn",
-   "title": "コードを読まずにClaude Codeへ作らせた仕組みを人に渡そうとしたら、止まる所のほとんどはAIが作者のPCに合わせて足した門だった",
-   "link": "https://zenn.dev/kirinukiauto/articles/20ca9307f2d268",
-   "date": 1794024812000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--XcpRGE8G--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259A%25E3%2581%25ABClaude%2520Code%25E3%2581%25B8%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%259F%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E4%25BA%25BA%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%259D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%25AD%25A2%25E3%2581%25BE%25E3%2582%258B%25E6%2589%2580%25E3%2581%25AE%25E3%2581%25BB%25E3%2581%25A8%25E3%2582%2593%25E3%2581%25A9%25E3%2581%25AFAI%25E3%2581%258C%25E4%25BD%259C%25E8%2580%2585%25E3%2581%25AEPC%25E3%2581%25AB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AD%25E3%2583%25AA%25E3%2583%258C%25E3%2582%25AD%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2FmYWY5YzE0ZjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "政治の切り抜き動画づくりを、Claude Code に丸ごと作らせています。私はプログラムを書けないので、コードは読んでいません。4か月で scripts の下は 418 本になりました。 この仕組みを人に渡すことにしました。まず、配る ZIP と作者の PC を照らして、買った人の所で1本目が最後まで通らない所を数えたら、15か所ありました。次の日、まっさらな環境に入れ直して1本通す試しを流す…"
-  },
-  {
-   "src": "zenn",
-   "title": "自分のClaude Codeハーネスの変遷 #4（フロー比較編）",
-   "link": "https://zenn.dev/i_shinya/articles/harness-flow-compare",
-   "date": 1794022220000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--8Qzx_rcY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AEClaude%2520Code%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%2520%25234%25EF%25BC%2588%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E6%25AF%2594%25E8%25BC%2583%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2587%25E3%2582%25B0%25E3%2583%25BC%25E5%259B%25A3%25E5%25AD%2590%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNlExSDlQZUdWUGFKMlI4aV9JX1B0a3VGSE8xWENkNXl1eVBvSlE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! 比較の題材は簡単な論理パズルのWebアプリ1つで、複雑なアプリではありません。比べたのも2回だけなので、自分の開発フローとpstackの検証の性能を比べるには十分ではありません。どちらが優れているかの判定ではなく、自分の題材と環境で出た結果として書きます。 前回はサブエージェントを減らして、文脈の受け渡しを少なくした話を書きました。 https://zenn.dev/i_shinya/art…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code に開発チームを組ませて、自分は「判断」だけする plugin「crew」を作った",
-   "link": "https://zenn.dev/mickamy/articles/c5e90829fb397a",
-   "date": 1794021962000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--kQX91IsY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25E9%2596%258B%25E7%2599%25BA%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E7%25B5%2584%25E3%2581%25BE%25E3%2581%259B%25E3%2581%25A6%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AF%25E3%2580%258C%25E5%2588%25A4%25E6%2596%25AD%25E3%2580%258D%25E3%2581%25A0%25E3%2581%2591%25E3%2581%2599%25E3%2582%258B%2520plugin%25E3%2580%258Ccrew%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tetsuro%2520Mikami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g4LW51YVdfOElwbDVIQzJFZGtFVzItcTdPUmxqdlJRYWgxazN1YUE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 個人で iOS / Android アプリを開発しています。サーバーも含めて 1 人なので、ここしばらくは Claude Code のセッションを何本も並べて、溜まった課題を並行で片付けてきました。 そのために作った自作スキルが orchestrate です。私が話す「オーナー」のセッションが課題を洗い出してチケットにし、「進行役」のセッションがそれを 3〜5 本の「子」のセッションに…"
+   "src": "qiita",
+   "title": "Obsidian のノートを「文字数」ではなく「1テーマ」で分ける運用に変えた（Claude Code と運用する Vault の場合）",
+   "link": "https://qiita.com/takibito/items/d40243ed8f9f106dcb7b",
+   "date": 1794030353000,
+   "img": "",
+   "desc": "この記事の目的 Obsidian の Vault を Claude Code に整理させていると、ノートの分け方のルールが運用の質を左右します。私は当初「1ノートは8,000字を目安に分ける」というルールで運用していましたが、2026年11月に「1ノート1テーマ」へ変えま..."
   },
   {
    "src": "qiita",
@@ -82,14 +66,6 @@
    "date": 1794020098000,
    "img": "",
    "desc": "個人的なAI活用方法 概要 こんにちは。 今回は、私が普段の開発業務で、どのようにAIを活用しているかをまとめました。 コードの実装だけでなく、調査や設計、日常的なコミュニケーションなど、さまざまな場面でAIを活用しています。 皆さんのチームでも、有意義な活用方法などが..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code利用者のためのclaude-mem実践ガイド｜セッションを閉じても文脈を忘れない長期記憶を6つのhookで自動記録する",
-   "link": "https://zenn.dev/ikahan/books/claude-mem-guide",
-   "date": 1794015621000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--wwAFJKB9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci80ZDRjYmQ3ZTc1LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "Claude Codeのセッションを閉じるたび文脈が消える問題を、行動を自動記録して次回に差し戻すプラグイン「claude-mem」で解く日本語導入ガイド。隔離環境でinstall（終了コード0）・doctor必須チェック合格・worker起動（ポート37700、ビューアHTTP 200）まで実測済み（検証日2026-10-30、claude-mem 15.6.0）。最大の落とし穴「npm in…"
   },
   {
    "src": "qiita",
@@ -114,14 +90,6 @@
    "date": 1794013928000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--ZXG56FNJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2590%258C%25E3%2581%2598%25E4%25BE%259D%25E9%25A0%25BC%25E6%2596%2587%25E3%2581%25A7%25E3%2582%2582%25E3%2580%2581%25E7%25B4%25A0%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AF%25E5%2590%2588%25E8%25A8%2580%25E8%2591%2589%25E3%2582%25920%252F5%25E5%259B%259E%25E3%2580%2581fork%25E3%2581%25AF5%252F5%25E5%259B%259E%25E7%25AD%2594%25E3%2581%2588%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%2593%25E3%2581%25AEZenn%25E8%25A8%2598%25E4%25BA%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG44LWtDRklOak05ZW5oWjhTb2xTdWdEeGhaM3RpemJHZTRVYWxJbEZ6MGtwb3dUTzk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code には、本体とは別にもう1体のAIを立ち上げて作業を任せる「サブエージェント」という仕組みがあります。子のほうのAIは、親である本体がそれまで人間と交わした会話を知っているのでしょうか。知らないのでしょうか。 結論から書きます。親の依頼文の中にだけ置いたランダムな合言葉を、素のサブエージェントは5回とも答えられず、子の種類を指定する欄(subagent_type)に for…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.317 - v2.1.319）",
-   "link": "https://qiita.com/NaokiIshimura/items/4884c18ed0efc432edc9",
-   "date": 1794013818000,
-   "img": "",
-   "desc": "Claude Code の v2.1.317 〜 v2.1.319 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. permission..."
   },
   {
    "src": "zenn",
@@ -185,7 +153,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 260 # Comments: 520"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 265 # Comments: 530"
   },
   {
    "src": "zenn",
@@ -260,6 +228,38 @@
    "desc": "! この記事の情報は 2026年11月時点のものです。最新情報は公式サイトを確認してください。 はじめに この記事で分かること： Claude Code の始め方（VS Code の拡張機能・ターミナル） チャットで気を付けたいセキュリティ プランの選び方 この記事は3回シリーズの2回目です。Claude ファミリーについて、Claude Code とチャットの違いは ① にまとめています。 !…"
   },
   {
+   "src": "zenn",
+   "title": "作った Claude Code スキルを忘れないための「スキルボード」とフック",
+   "link": "https://zenn.dev/fightingpapa00/articles/claude-code-skill-board-hooks",
+   "date": 1793965388000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--WNTvo8WY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2520Claude%2520Code%2520%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2582%2592%25E5%25BF%2598%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2580%258C%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E3%2580%258D%25E3%2581%25A8%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:teresa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTF9kNUl0dTB1dm10MzZILTFJQlYtcE1VcktacVc0MklvRUZxc21EMlNrZFZROGxnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "平日は会社員、夜と週末に副業をしている teresa です。 仕事でも家のことでも Claude Code を使っていて、気づけば自作のスキルがけっこうな数になっていました。数が増えてくると、だんだん困ったことが起きます。 前に作ったスキルがあるのを忘れて、似たようなものをまた作ろうとする どう頼めば動くスキルだったか思い出せない もう使っていないスキルが、なんとなく残り続ける 最初は「スキルの…"
+  },
+  {
+   "src": "zenn",
+   "title": "エージェントスキルの定量検証をしよう",
+   "link": "https://zenn.dev/yasuakiomokawa/articles/d271586275672e",
+   "date": 1793965078000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--wkSpJ3nb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AE%25E5%25AE%259A%25E9%2587%258F%25E6%25A4%259C%25E8%25A8%25BC%25E3%2582%2592%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yasuaki%2520Omokawa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmOTUyODI3YjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "サマリー エージェントスキルの出力を受け入れテストにすると、そのスキルの効き目を数えられます。数えられると、改善の基準が 1 つに決まります。LLM に思いつきの指示を出す代わりに、毎回同じ物差しで「どこを、なぜ直すか」を決められるようになります。 この記事は受け入れ基準 (AC) を書くスキル define-done を題材にした、その実践の記録です。もともと define-done は AC…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI の記憶はファイルの形をしている。3体と司令、記憶が途切れる場所の地図（番外編4）",
+   "link": "https://zenn.dev/mappy55/articles/magi-games-ops-04",
+   "date": 1793962636000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--KVVFnq_l--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%25AF%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%25AE%25E5%25BD%25A2%25E3%2582%2592%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2580%25823%25E4%25BD%2593%25E3%2581%25A8%25E5%258F%25B8%25E4%25BB%25A4%25E3%2580%2581%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%258C%25E9%2580%2594%25E5%2588%2587%25E3%2582%258C%25E3%2582%258B%25E5%25A0%25B4%25E6%2589%2580%25E3%2581%25AE%25E5%259C%25B0%25E5%259B%25B3%25EF%25BC%2588%25E7%2595%25AA%25E5%25A4%2596%25E7%25B7%25A84%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mappy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1ZWI1MzQxNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 「AI討論 MAGI Games 開発記」の番外編、4本目です。番外編1と2は自動実行のトラブル（1、2）、3はスマホの指の実験（3）。この記事は、AI エージェントの「記憶」が仕組みの上でどこまで続き、どこで途切れるかを、7週間の記録から一枚の地図にしたものです。本編は第1回から第9回まで。 性格の違う AI 3体（科学者の MELCHIOR、母の BALTHASAR、女の CASPER）…"
+  },
+  {
+   "src": "zenn",
+   "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+   "link": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+   "date": 1793955564000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--gpxk3FXp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AF%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25BE%25E3%2581%25A7AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E7%25A2%25BA%25E8%25AA%258D%25E5%25BE%2585%25E3%2581%25A1%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2597%25E3%2582%2582%25E3%2581%25A1%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0NWI1N2NlZmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%25AC%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258A%25E3%2582%25A6%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YWQyYWI1OTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに こんにちは、しもちです。 前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。自分でタスクの一覧を見て回ることはなくなり、司令塔が出してくる確認待ちに答えるのが主な仕事になりました。 今回は画面…"
+  },
+  {
    "src": "reddit",
    "title": "Claude can now analyze your spending with its new Personal Finance tool",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xp0qxj/claude_can_now_analyze_your_spending_with_its_new/",
@@ -297,7 +297,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1561 # Comments: 498"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1563 # Comments: 501"
   },
   {
    "src": "reddit",
