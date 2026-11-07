@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794008851346,
+ "updatedAt": 1794013926445,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "見た目は同じ「ド」なのに一致しない ── Mac の日本語パスと NFC / NFD",
-   "link": "https://qiita.com/ruharuhadesu/items/63d6ac3d84d2c3447f86",
-   "date": 1794007037000,
+   "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.317 - v2.1.319）",
+   "link": "https://qiita.com/NaokiIshimura/items/4884c18ed0efc432edc9",
+   "date": 1794013818000,
    "img": "",
-   "desc": "はじめに 10月から、ある会社でエンジニアのインターンをしています。仕事では Claude Code を使っていて、作業を楽にするための小さな道具も AI と一緒に作ってます。 その道具のひとつが、ある日「ログが見つからない」って言って止まりました。ログはちゃんとあるのに..."
+   "desc": "Claude Code の v2.1.317 〜 v2.1.319 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. permission..."
   },
   {
    "src": "qiita",
-   "title": "Python の assert は -O で消える：Claude Code の運用で作る販売ページ照合に穴3つ",
-   "link": "https://qiita.com/kaiyaku_iyada/items/bb0e641577de6c9bf613",
-   "date": 1794006690000,
+   "title": "Claude Code v2.1.317 - v2.1.319 リリースノートまとめ",
+   "link": "https://qiita.com/NaokiIshimura/items/f19ae481117018a64e67",
+   "date": 1794013788000,
    "img": "",
-   "desc": "この記事はAI（Anthropic社のClaude）が書き、持ち主のアカウントで、AIがブラウザを操作して投稿しています。Anthropic社とも、販売サイト Brain と note の運営とも無関係の個人の実験で、公認や提携ではありません。書いてあるのは、2026年..."
+   "desc": "Claude Code v2.1.317〜v2.1.319 では、MCP tasks のターミナル対応、permissions.denyInsteadOfPrompting による無人実行向けの権限制御、CLAUDE_CODE_DISABLE_FEATURE_FLAGS の..."
   },
   {
    "src": "qiita",
-   "title": "他のLLMが書いた要件定義書をAI組織に取り込む——intakeフォルダと手動トリアージの設計",
-   "link": "https://qiita.com/fuji1009_REBELL/items/c464cc38f5c8a5f6a927",
-   "date": 1794002707000,
+   "title": "0。「detached HEADの具体的なリスクは検証していない」と23日前に書いた記事のあと、実際にコミットしたら、それを含むブランチの数だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/384c5aa99ddb3ebe691d",
+   "date": 1794012626000,
    "img": "",
-   "desc": "ChatGPTなど別のLLMに書かせた要件定義書や実装計画書を、Claude Codeに渡して実装させる。この受け渡し自体は珍しくありません。私も何度かやりました。ただ、受け取る側の設計を考えずに既存のフォルダへそのまま置くと、あとで必ず面倒になります。 この記事は、個人で..."
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、detached HEAD状態のリポジトリで実際にコミットを1つ作ってみたとき、そのコミットを含んでいたブランチの数です。 23日前(2026年10月15日)に公開した記事「cd ~の先はrootだった。ハーネスの作..."
   },
   {
    "src": "qiita",
-   "title": "レガシーPHPはAIに「直させる前に」特性テストを張らせる手順",
-   "link": "https://qiita.com/fuji1009_REBELL/items/819c0ade31f2392bc02b",
-   "date": 1794002705000,
+   "title": "Claude Code 2.1.312入門、user_id_claimは設定表に無い",
+   "link": "https://qiita.com/kai_kou/items/3b66150017e1c2f9bd1f",
+   "date": 1794010190000,
    "img": "",
-   "desc": "レガシーコードをAIにリファクタリングさせるとき、私が一番時間をかけているのは書き換えの指示ではなく、書き換える前に「今の挙動」をテストで固定する工程です。この記事では、その工程の手順と、どの粒度でテストを張れば安心してAIに触らせられるかの判断基準をまとめます。 なお、本..."
+   "desc": "はじめに Claude apps gateway を Microsoft Entra ID と組み合わせて運用していると、利用者を表す ID が id_token の sub で固定されている点に悩まされることがあります。Entra ID では利用者の識別に oid を使..."
   },
   {
    "src": "reddit",
