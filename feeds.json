@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794013926445,
+ "updatedAt": 1794017162539,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code に 5 行で頼んだら、4,420 ノードが光る WebGL グラフが「止まったら 1 コマも描かない」設計で返ってきた",
+   "link": "https://qiita.com/cypher256/items/1322192c337d8af20357",
+   "date": 1794015369000,
+   "img": "",
+   "desc": "結果 4,420 ページある文書アーカイブの、ページどうしのつながりを 1 枚にしたグラフです。点がページ、線がページどうしのつながりで、線は 11,769 本あります。 作ったのは Claude Code（モデルは Claude Opus 5.5）です。私が頼んだのは..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.317 - v2.1.319）",
@@ -68,14 +76,6 @@
    "desc": "はじめに 0。 これが今回の数字です。何の0かというと、detached HEAD状態のリポジトリで実際にコミットを1つ作ってみたとき、そのコミットを含んでいたブランチの数です。 23日前(2026年10月15日)に公開した記事「cd ~の先はrootだった。ハーネスの作..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code 2.1.312入門、user_id_claimは設定表に無い",
-   "link": "https://qiita.com/kai_kou/items/3b66150017e1c2f9bd1f",
-   "date": 1794010190000,
-   "img": "",
-   "desc": "はじめに Claude apps gateway を Microsoft Entra ID と組み合わせて運用していると、利用者を表す ID が id_token の sub で固定されている点に悩まされることがあります。Entra ID では利用者の識別に oid を使..."
-  },
-  {
    "src": "reddit",
    "title": "I built a sailing sim with Claude Code and made the frontier models race each other in it",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xpij9t/i_built_a_sailing_sim_with_claude_code_and_made/",
@@ -97,31 +97,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 198 # Comments: 444"
-  },
-  {
-   "src": "zenn",
-   "title": "Whisper文字起こしをWSL2+GPUへ移して、補正をClaude Codeのスキルにする。｜hal220",
-   "link": "https://zenn.dev/hal220/articles/6e10afc854a8d8",
-   "date": 1793980323000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s---VkmaONH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Whisper%25E6%2596%2587%25E5%25AD%2597%25E8%25B5%25B7%25E3%2581%2593%25E3%2581%2597%25E3%2582%2592WSL2%252BGPU%25E3%2581%25B8%25E7%25A7%25BB%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E8%25A3%259C%25E6%25AD%25A3%25E3%2582%2592Claude%2520Code%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%2582%25EF%25BD%259Chal220%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%258F%25E3%2583%25AB%2520%257C%2520hal220%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSXM5VWg1TXJwd09vQWlqSzRsRHNtRXFtTGxfZ3JwLVlVa2tKbml4TzFfU1NzT0xBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "事の発端：動いているものを、動いたまま引っ越したい 前回の記事で、ローカルWhisperで荒起こしして、ChatGPTで補正するスクリプトを作りました。 そのスクリプトを、新しく作ったWSL2（Ubuntu）+ uv + CUDAの環境へ引っ越すことにしました。 GPUもPyTorchもCLIでの文字起こしも、すでに動いている環境です。壊したくありません。 ついでに、もう一つやりたいことがありま…"
-  },
-  {
-   "src": "zenn",
-   "title": "人間3分、AI48分。これは何分の仕事か？",
-   "link": "https://zenn.dev/futoka/articles/ai-agent-effort-four-clocks",
-   "date": 1793975931000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--9pXflsQc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BA%25BA%25E9%2596%25933%25E5%2588%2586%25E3%2580%2581AI48%25E5%2588%2586%25E3%2580%2582%25E3%2581%2593%25E3%2582%258C%25E3%2581%25AF%25E4%25BD%2595%25E5%2588%2586%25E3%2581%25AE%25E4%25BB%2595%25E4%25BA%258B%25E3%2581%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2595%25E3%2583%2588%25E3%2582%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRmYmZmMzJhYWIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "人間が3分で指示を出し、AIが48分かけて実装とテストを進めたとします。これは何分の仕事でしょうか。 「人がこのタスクに手をかけた時間」なら3分。「AIが稼働した時間」なら48分。指示を始めてからAIが結果を返すまで、重なりも待ちもなければ51分です。3分と48分は、実際の開発で計測した値ではなく、考え方を説明するための架空の数字です。 さらに、人が結果を5分レビューして作業完了とするなら、同じ…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIエージェントを手元のMacで動かし続ける理由 ― クラウドのVMに届かないものと、技術の土地勘",
-   "link": "https://zenn.dev/tmiyachi/articles/local-agent-vm-intuition",
-   "date": 1793974559000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--hZcRG3B3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%2589%258B%25E5%2585%2583%25E3%2581%25AEMac%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2597%25E7%25B6%259A%25E3%2581%2591%25E3%2582%258B%25E7%2590%2586%25E7%2594%25B1%2520%25E2%2580%2595%2520%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2581%25AEVM%25E3%2581%25AB%25E5%25B1%258A%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2581%25A8%25E3%2580%2581%25E6%258A%2580%25E8%25A1%2593%25E3%2581%25AE%25E5%259C%259F%25E5%259C%25B0%25E5%258B%2598%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A1%2520Toshimitsu%2520Mi...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlOGEzNzVmY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "自宅とオフィスのMacは、開きっぱなしにして電源をつけておき、Claude CodeやCodexを24時間稼働させています。外出しているときは、スマホのChatGPTアプリやClaudeアプリから指示を出します。手元のパソコンを、リモコンで操作しているのと同じです。 私（株式会社AI Orchestraのみやっち🧑‍💻）は、YouTubeで「初心者と上級者を分けているAI習慣」を5つ話しまし…"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 233 # Comments: 488"
   },
   {
    "src": "zenn",
@@ -141,10 +117,10 @@
   },
   {
    "src": "zenn",
-   "title": "年間数億円のSaaSを、開発者一人バイブコーディングでリプレイスして感じた達成感と危機感",
+   "title": "年間数億円のSaaSを、一人ｘ半年ｘバイブコーディングでリプレイスして感じた達成感と危機感",
    "link": "https://zenn.dev/ttake/articles/0b6c8f887b160e",
    "date": 1793970343000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--zCZ3lzz0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B9%25B4%25E9%2596%2593%25E6%2595%25B0%25E5%2584%2584%25E5%2586%2586%25E3%2581%25AESaaS%25E3%2582%2592%25E3%2580%2581%25E9%2596%258B%25E7%2599%25BA%25E8%2580%2585%25E4%25B8%2580%25E4%25BA%25BA%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E3%2583%25AA%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25A6%25E6%2584%259F%25E3%2581%2598%25E3%2581%259F%25E9%2581%2594%25E6%2588%2590%25E6%2584%259F%25E3%2581%25A8%25E5%258D%25B1%25E6%25A9%259F%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259F%25E3%2581%2591%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzgzNzNmYzFhZTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--o-tzgwpH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B9%25B4%25E9%2596%2593%25E6%2595%25B0%25E5%2584%2584%25E5%2586%2586%25E3%2581%25AESaaS%25E3%2582%2592%25E3%2580%2581%25E4%25B8%2580%25E4%25BA%25BA%25EF%25BD%2598%25E5%258D%258A%25E5%25B9%25B4%25EF%25BD%2598%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E3%2583%25AA%25E3%2583%2597%25E3%2583%25AC%25E3%2582%25A4%25E3%2582%25B9%25E3%2581%2597%25E3%2581%25A6%25E6%2584%259F%25E3%2581%2598%25E3%2581%259F%25E9%2581%2594%25E6%2588%2590%25E6%2584%259F%25E3%2581%25A8%25E5%258D%25B1%25E6%25A9%259F%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259F%25E3%2581%2591%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzgzNzNmYzFhZTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに この半年間、業務の根幹で使っていた年間数億円規模のSaaSを、自社製システムへリプレイスしていました。開発体制はエンジニア1人（自分）＋AI。事業側のメイン担当者が1人という、実質2名のプロジェクトです。新システムはすでに本番稼働を迎えています。 自分にとってこのプロジェクトは、「あえてコードを一切読まず、バイブコーディングだけで中規模システムをどこまで作り切れるか」を試す実験でもあり…"
   },
   {
@@ -260,6 +236,30 @@
    "desc": "明日は JAWS FESTA 秋田です。AWS 好きが集まるイベントの前日なので、AWS ネタを兼ねて、最近作ったスキルを宣伝させてください。 armaniacs/cloud-cdn-detect は、Web サイトや API の裏にあるクラウド・CDN・ホスティング事業者を、外からの受動的な観測だけで推定するスキルです。Claude Code などのエージェントに「このサイト、どこで動いてる?…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Codeが出したコマンドが私のPowerShellで動かない。AIのシェルと私のシェルは別物(Windows)",
+   "link": "https://zenn.dev/mugen_web/articles/claude-code-windows-two-shells",
+   "date": 1793937233000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--GDP9JFfq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%258C%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E3%2581%258C%25E7%25A7%2581%25E3%2581%25AEPowerShell%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2580%2582AI%25E3%2581%25AE%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2581%25A8%25E7%25A7%2581%25E3%2581%25AE%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2581%25AF%25E5%2588%25A5%25E7%2589%25A9%2528Win...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:MUGEN%2520WEB%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGFEMXVhMTJBamkzcEZqNVltXzdGVzVRR1JHSFFNWnJBcXZ1Tkg0Rk9OLUFxNnJBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "WindowsでClaude Codeを使っていて、AIが渡してくれたコマンドを、そのまま自分のPowerShellに貼ったら、エラーになりました。原因は、AIが自分で実行するシェルと、私が手で打つシェルが、別物だったことです。何が違ったのか、どう決めたのかを、記録します。 起きたこと AIが渡してくれた、次のような形のコマンドを、PowerShellに貼りました(プロジェクト名は仮のものです)…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI が書いたコードの「なぜ」をコミット後に聞ける：Zed Delta で差分と会話を一緒に残す",
+   "link": "https://zenn.dev/zundamon_tools/articles/zed-delta-agent-code-conversation",
+   "date": 1793936669000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--OZrJKuEY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25AA%25E3%2581%259C%25E3%2580%258D%25E3%2582%2592%25E3%2582%25B3%25E3%2583%259F%25E3%2583%2583%25E3%2583%2588%25E5%25BE%258C%25E3%2581%25AB%25E8%2581%259E%25E3%2581%2591%25E3%2582%258B%25EF%25BC%259AZed%2520Delta%2520%25E3%2581%25A7%25E5%25B7%25AE%25E5%2588%2586%25E3%2581%25A8%25E4%25BC%259A%25E8%25A9%25B1%25E3%2582%2592%25E4%25B8%2580%25E7%25B7%2592%25E3%2581%25AB%25E6%25AE%258B%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259A%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2582%25E3%2582%2593%25E3%2581%25AE%25E5%25AE%259F%25E9%25A8%2593%25E9%2581%2593%25E5%2585%25B7%25E7%25AE%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJiNGRhMmQyODEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI エージェントに直させたコードを後から読み返すと、なぜそう書いたのかは差分から推理するしかありません。 Zed エディタの開発元が出しているアプリ Delta（public beta）で、コミットの後に新しいセッションを開き、同じ会話の経緯を聞きました。新しいセッションは担当を分けて答えました。最初の実装とコミットは端末の Claude Code、コメントを受けた修正は Delta アプリの…"
+  },
+  {
+   "src": "zenn",
+   "title": "DESIGN.md が古いと AI は「正確に間違える」— 同じ課題を 6 回やらせて採点した",
+   "link": "https://zenn.dev/hakaru_design/articles/b934c2a1a54ae6",
+   "date": 1793934780000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--rdAFu-62--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:DESIGN.md%2520%25E3%2581%258C%25E5%258F%25A4%25E3%2581%2584%25E3%2581%25A8%2520AI%2520%25E3%2581%25AF%25E3%2580%258C%25E6%25AD%25A3%25E7%25A2%25BA%25E3%2581%25AB%25E9%2596%2593%25E9%2581%2595%25E3%2581%2588%25E3%2582%258B%25E3%2580%258D%25E2%2580%2594%2520%25E5%2590%258C%25E3%2581%2598%25E8%25AA%25B2%25E9%25A1%258C%25E3%2582%2592%25206%2520%25E5%259B%259E%25E3%2582%2584%25E3%2582%2589%25E3%2581%259B%25E3%2581%25A6%25E6%258E%25A1%25E7%2582%25B9%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E6%25B8%25AC%25E3%2582%258B%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%258A%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lMMGI4YVdsMVNYanpEeENhbFJVTGVNeTZfbDkxdjNTVzJOdm1UU0lOczFwdldpRT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI に「お問い合わせのセクションを作って」と頼みました。 渡すものを 3 通りに変えて、それぞれ 2 回ずつ。合計 6 回です。 下の 3 枚は、そのうちの 3 回分です。 どれが一番いい点だったと思いますか。 私は A だと思いました。 左右に分かれていて、ボタンの下に影がずれて重なっていて、見出しに罫線つきのラベルがついている。 手間のかかり方が、ほかの 2 枚と違います。 答えはこうでし…"
+  },
+  {
    "src": "reddit",
    "title": "Claude can now analyze your spending with its new Personal Finance tool",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xp0qxj/claude_can_now_analyze_your_spending_with_its_new/",
@@ -297,7 +297,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1545 # Comments: 488"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1554 # Comments: 493"
   },
   {
    "src": "reddit",
@@ -394,6 +394,14 @@
    "date": 1793645490000,
    "img": "https://external-preview.redd.it/3b_-aYvknrqeVVavcbAtLT70Hmc7dKIPPYra4OvHR74.jpeg?width=640&crop=smart&auto=webp&s=b5cc386268077e5a76ee6ca835fb1d6fea17bf39",
    "desc": "> As far as we can ascertain, it appears the game-related blocking is limited to the combination of using Claude Code and the Opus 5.5 model. Should that prove true, then users should be able to side…"
+  },
+  {
+   "src": "reddit",
+   "title": "Anthropic's internal AI use, valued at retail prices, now exceeds its employee pay",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xm2sej/anthropics_internal_ai_use_valued_at_retail/",
+   "date": 1793638964000,
+   "img": "https://external-preview.redd.it/dQGW_AwJTG19wGQP0Ow5yUKJsiGKc4bL_vXFCXhFVHs.jpeg?width=640&crop=smart&auto=webp&s=1d706deb9af59b0f96d74a0480e97761b897ed88",
+   "desc": "submitted by /u/Malor777 [link] [comments]"
   },
   {
    "src": "hn",
@@ -505,7 +513,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 493 # Comments: 271"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 494 # Comments: 271"
   },
   {
    "src": "reddit",
@@ -522,14 +530,6 @@
    "date": 1793461083000,
    "img": "https://external-preview.redd.it/SHUD2KWusTVE6at5RJkfJ2bMDx48LgYu9fy5u1iCRAI.png?width=640&crop=smart&auto=webp&s=f2c818eca8c000b67aecd07297c9db27bfb42dbb",
    "desc": "submitted by /u/Mplayer-Weered [link] [comments]"
-  },
-  {
-   "src": "reddit",
-   "title": "Claude Opus 5.5 can generate images even though it will initially say it can't.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xjxl4s/claude_opus_55_can_generate_images_even_though_it/",
-   "date": 1793410586000,
-   "img": "https://preview.redd.it/gmm66fhbipyh1.jpeg?width=640&crop=smart&auto=webp&s=11aae6a0e19baa307755e30265d28321f8a2a07a",
-   "desc": "submitted by /u/mothh9 [link] [comments]"
   },
   {
    "src": "claude-code",
