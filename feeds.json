@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794087969053,
+ "updatedAt": 1794091627608,
  "sources": {
   "news": {
    "ok": true,
@@ -45,11 +45,43 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AIに「今日やること」だけ見せる——全量台帳とは別に、ローリング21日の割当台帳を切り出した設計メモ",
+   "link": "https://qiita.com/fuji1009_REBELL/items/f3ce987bca7ac34a4289",
+   "date": 1794089102000,
+   "img": "",
+   "desc": "AIエージェントに「次に何をやる？」と聞くと、全タスク一覧を渡した日ほど答えがぶれる。私の環境ではそう見えました。 原因を詰めた結果、AIの判断力の問題というより「渡している材料が多すぎる」問題だと考え、正本の全量台帳とは別に、**今日やるべきことだけを持つ薄い台帳（ローリ..."
+  },
+  {
+   "src": "qiita",
+   "title": "フック（服）を脱げシュー、スキルとガードでやらかした一晩の話 ── GASマネージャー自縛デッドロック事件と「AI制御の余白」",
+   "link": "https://qiita.com/shu15511551/items/ee7b9636123368e18a1e",
+   "date": 1794088829000,
+   "img": "",
+   "desc": "はじめに ―― R-クイック改修の大成功から始まった夜 直近で公開した『秀GASマネージャー』の一連の記事では、ブラウザを一切開かずに Google Apps Script（GAS）を爆速で直す仕組みや、自作の Gmail ビューア『M-クイック』の現場改善について書きま..."
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code 週間ニュース（11/1〜11/7）：deny の Grep(パス) は無効・hook が Monitor にも走る",
+   "link": "https://zenn.dev/zundamon_tools/articles/claude-news-weekly-2026-11-08",
+   "date": 1794087332000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--sQDdBdKE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E9%2580%25B1%25E9%2596%2593%25E3%2583%258B%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%25B9%25EF%25BC%258811%252F1%25E3%2580%259C11%252F7%25EF%25BC%2589%25EF%25BC%259Adeny%2520%25E3%2581%25AE%2520Grep%2528%25E3%2583%2591%25E3%2582%25B9%2529%2520%25E3%2581%25AF%25E7%2584%25A1%25E5%258A%25B9%25E3%2583%25BBhook%2520%25E3%2581%258C%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259A%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2582%25E3%2582%2593%25E3%2581%25AE%25E5%25AE%259F%25E9%25A8%2593%25E9%2581%2593%25E5%2585%25B7%25E7%25AE%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJiNGRhMmQyODEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "2026年11月1日〜7日の Claude の更新を、Claude Code と Claude API の利用者向けにまとめました。 今週あったことは次の5つです。要の項目に、一次情報の原文と和訳を添えています。 設定の落とし穴：deny の Grep(パス) は照合されない／Bash の hook が Monitor にも走る／auto mode の hook Claude Code の新しい…"
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code で \"Invalid API key · Fix external API key\" \"Invalid auth token\" が出たときの直し方（キーが正しいのに出る場合は改行やゼロ幅スペースの混入）",
    "link": "https://qiita.com/homhom44/items/e8d89b70cba590ac0cd4",
    "date": 1794087132000,
    "img": "",
    "desc": "Claude Code で Invalid API key · Fix external API key や Invalid auth token · Fix external auth token が出たときの直し方です。結論から言うと、原因は「キーが失効している・間違っ..."
+  },
+  {
+   "src": "zenn",
+   "title": "note の検索 API を2週間空けて同じ条件で取り直したら、分野別の中央値が入れ替わった",
+   "link": "https://zenn.dev/zeroyen_dev/articles/note-search-api-two-snapshots",
+   "date": 1794082861000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--I-6_DkQ_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:note%2520%25E3%2581%25AE%25E6%25A4%259C%25E7%25B4%25A2%2520API%2520%25E3%2582%25922%25E9%2580%25B1%25E9%2596%2593%25E7%25A9%25BA%25E3%2581%2591%25E3%2581%25A6%25E5%2590%258C%25E3%2581%2598%25E6%259D%25A1%25E4%25BB%25B6%25E3%2581%25A7%25E5%258F%2596%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%2588%2586%25E9%2587%258E%25E5%2588%25A5%25E3%2581%25AE%25E4%25B8%25AD%25E5%25A4%25AE%25E5%2580%25A4%25E3%2581%258C%25E5%2585%25A5%25E3%2582%258C%25E6%259B%25BF%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BC%25E3%2583%25AD%25E5%2586%2586%25E9%2596%258B%25E7%2599%25BA%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEF4OG9kWE1vN1BudHNJMEsyWjJ3X1c0YVR2bkpSbWo1OVNwckJnVmJwX2NXcktFLVF4Zz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "note（ブログサービス）の検索 API で、30語 × 人気順・新着順 × 10ページを集めて、分野ごとに有料記事の反応（スキ）の中央値を出しています。2026年10月20日と11月3日に、同じスクリプト・同じ30語で2回取りました。 全体の数字はほぼ同じなのに、分野別の中央値は順位ごと入れ替わりました。この記事は、その差と、差が出る仕組みと、2回目以降の計測に足した2つの列の話です。 2回の…"
   },
   {
    "src": "qiita",
@@ -58,6 +90,22 @@
    "date": 1794074103000,
    "img": "",
    "desc": "2026-11-07 に更新された 5 ページは、いずれも「どこまでが対象で、どこからが対象外か」を書き足す内容でした。サンドボックスが覆わない範囲、auto モードの分類器に指定したモデルが使われない条件、フックの defer が働く条件、廃止された環境変数、ツール利用で..."
+  },
+  {
+   "src": "zenn",
+   "title": "AIやバイブコーディングで作ったゲームを、スマホで遊べるように公開する方法とハマりどころ",
+   "link": "https://zenn.dev/plumvery/articles/dd5babd0791704",
+   "date": 1794070669000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--t4zZkwcS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%2584%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E3%2580%2581%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25A7%25E9%2581%258A%25E3%2581%25B9%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25A8%25E3%2583%258F%25E3%2583%259E%25E3%2582%258A%25E3%2581%25A9%25E3%2581%2593%25E3%2582%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:plumvery%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnFWMU1CbjBXZTdyVHZSZ2xHbURVX0hrZFBOM3laVDZoV2lnWmg5WVFGVTkxbGRpRUY9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに Claude CodeやCodexなどの生成AIツールにより、バイブコーディングで手軽にブラウザゲームが制作できる時代になりました。 ただ、実際にゲームが1本できたあと、次に迷いやすいのが「どこに置けば人に遊んでもらえるか」だと思います。 この記事では、その置き場所を決める参考に、公開先の候補になるサイトを並べて比べてみました。 今回は 2026年11月7日 に各サイトの公式ページ（ヘ…"
+  },
+  {
+   "src": "zenn",
+   "title": "画像・動画生成スキルは「どのキーで、どこに課金されるか」で選ぶ: Claude Code 向け SKILL.md を読み比べた",
+   "link": "https://zenn.dev/skillselion/articles/f9e8735f6b4f1c",
+   "date": 1794069111000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--9souP7Hc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2594%25BB%25E5%2583%258F%25E3%2583%25BB%25E5%258B%2595%25E7%2594%25BB%25E7%2594%259F%25E6%2588%2590%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AF%25E3%2580%258C%25E3%2581%25A9%25E3%2581%25AE%25E3%2582%25AD%25E3%2583%25BC%25E3%2581%25A7%25E3%2580%2581%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25AB%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25E3%2581%258B%25E3%2580%258D%25E3%2581%25A7%25E9%2581%25B8%25E3%2581%25B6%253A%2520Claude%2520Code%2520%25E5%2590%2591%25E3%2581%2591%2520SKILL.md%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Skillselion%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code に画像生成スキルを入れて「ヒーロー画像を作って」と頼むと、最初に聞かれるのはプロンプトではなく、たいていログインかAPIキーです。Claude Code 自身はピクセルを描けません。画像・動画生成スキルの正体は、どこか1社のCLIやAPIを正しく呼ぶための手順書です。 そのため、選ぶときの軸は「どのモデルが一番きれいか」より先に「どのプロバイダのアカウントを作り、どの環境…"
   },
   {
    "src": "zenn",
@@ -76,14 +124,6 @@
    "desc": "受託開発をしていると、社内の Backlog と お客様ごとの Backlog を行き来することがよくあります。お客様の課題を読んで、社内に課題を起こし、進捗をお客様側に反映し、コメントに返信する……。これを AI エージェントに手伝ってもらおうとしたところ、公式の Backlog MCP サーバーは 1 つのスペースにしか接続できないことがネックになりました。 そこで、複数の Backlog …"
   },
   {
-   "src": "qiita",
-   "title": "大規模なGodotプロジェクト向けのAIアシスタント：ZivaとClaude CodeをPixeloramaで検証",
-   "link": "https://qiita.com/Ziva/items/6ec4b5e155b1a91da999",
-   "date": 1794065065000,
-   "img": "",
-   "desc": "この記事は https://ziva.sh/blogs/ai-assistant-large-godot-project の日本語版です（英語の原文はZiva.shが2026年11月7日に公開）。 AIアシスタントは、大規模なGodotプロジェクトでも全体を見失わずに作業で..."
-  },
-  {
    "src": "zenn",
    "title": "Vercel Labsのagent-browserを試す: アクセシビリティツリーでAIエージェントがブラウザを操作する",
    "link": "https://zenn.dev/matsushima_a/articles/day-039-agent-browser-accessibility-tree",
@@ -98,14 +138,6 @@
    "date": 1794060789000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--GfoyuuKj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E5%2585%25A8%25E9%2583%25A8%25E4%25B8%258D%25E5%2590%2588%25E6%25A0%25BC%25E3%2580%258D%25E3%2582%2592%25E6%25AD%25A3%25E3%2581%2597%25E3%2581%258F%25E5%2587%25BA%25E3%2581%259B%25E3%2582%258B%25E3%2583%259A%25E3%2583%25BC%25E3%2583%2591%25E3%2583%25BC%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2589%25E5%259F%25BA%25E7%259B%25A4%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25A8%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kensudo%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvay5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! この記事は、売買戦略の検証の仕組みについての記事です。特定の銘柄や戦略を勧めるものではなく、投資助言でもありません。実資金での発注は扱いません。 はじめに 「AIに相場を夜通し調べさせて、良い戦略を見つけて、24時間ペーパートレードさせる」。こういう依頼をそのまま AI に投げると、それらしい成績表と「有望な戦略3本」が返ってきがちです。 今回は Claude Code と、その逆を目指す基…"
-  },
-  {
-   "src": "qiita",
-   "title": "osFoundryの外部エージェント画面でClaude Codeの過去セッションを探すときの確認ポイント",
-   "link": "https://qiita.com/bestai/items/144c045dcc916e04eb22",
-   "date": 1794060602000,
-   "img": "",
-   "desc": "この記事でやること osFoundryのデスクトップアプリの「外部エージェント」画面で、Claude Codeの過去のセッションを狙って探す 目当てのセッションが一覧で見当たらないときに、手元のファイルをターミナルで確かめる 「ターミナルで開く」の前後で、フォルダ・ブ..."
   },
   {
    "src": "zenn",
@@ -204,38 +236,6 @@
    "desc": "エージェント開発における操作と判断の負担 開発エージェントに作業を任せても、その間ずっと画面の前にいるのは大変でした。 結局、まとまった時間があるときにしか作業を進められないことが、私にとっての課題でした。 そこで、Paseo画面から複数のエージェントへ作業を依頼する環境を使っています。 スマホから依頼や確認を行い、実装やレビューを役割に応じて分ける構成です。 個人開発で使っている構成と採用理由…"
   },
   {
-   "src": "zenn",
-   "title": "Claude の定期タスクで複数の事業を回す ― 台帳・本人対応アラート・自動確認の実録",
-   "link": "https://zenn.dev/neuralalpha/books/claude-scheduled-ops",
-   "date": 1794042507000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--vdZqfBw3--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci81YWRiZmIwZTVjLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "発信・デジタル商品・本・データツールを、Claude の定期タスクで同時に回している運用の実録です。タスクが増えると起きる失敗（一晩止まる、プラットフォームの上限、二重送信、台帳の上書き、やったつもり）と、それを防ぐ3つの仕組み（台帳・本人対応アラート・自動確認）を、標準ライブラリだけの Python と運用ルールで解説します。1〜2章は無料。"
-  },
-  {
-   "src": "zenn",
-   "title": "メモリ管理のアーキテクチャを意外な文書から考えついた",
-   "link": "https://zenn.dev/cosmopanda/articles/raiya-memory",
-   "date": 1794042058000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--R7h_CUWp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25A1%25E3%2583%25A2%25E3%2583%25AA%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%25BC%25E3%2582%25AD%25E3%2583%2586%25E3%2582%25AF%25E3%2583%2581%25E3%2583%25A3%25E3%2582%2592%25E6%2584%258F%25E5%25A4%2596%25E3%2581%25AA%25E6%2596%2587%25E6%259B%25B8%25E3%2581%258B%25E3%2582%2589%25E8%2580%2583%25E3%2581%2588%25E3%2581%25A4%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25B3%25E3%2582%25B9%25E3%2583%2591%25E3%2583%25B3%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3JmcDZtZWVuUkNjX2Znd25HbXJMX1VjWUZCOGItc3ctTXBNYlczUDZoLTBKLU55dz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "仏教書を読んでいて、記憶の話だと気づいた 仏教の唯識(ゆいしき)を読んでいたら、これは記憶のことを書いているのではないか、と思いました。 唯識は、心を八つの層に分けて説明する教えです。その最も深いところにある阿頼耶識(あらやしき)は、経験を「種子」として蓄え、必要なときに芽を出させる倉のようなものだと説かれます。AIエージェントに記憶を持たせたい自分には、設計書に見えました。 そこで、唯識の構造…"
-  },
-  {
-   "src": "zenn",
-   "title": "Synology の Universal Search を、root を渡さずに AI エージェントに使わせる",
-   "link": "https://zenn.dev/n_hiraoka/articles/8514c11759816d",
-   "date": 1794041085000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--1VCFmwlp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Synology%2520%25E3%2581%25AE%2520Universal%2520Search%2520%25E3%2582%2592%25E3%2580%2581root%2520%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2595%25E3%2581%259A%25E3%2581%25AB%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BD%25BF%25E3%2582%258F%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25B9%25B3%25E5%25B2%25A1%25E6%2586%25B2%25E4%25BA%25BA%25EF%25BC%2588Norito%2520Hiraoka%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTHRVNXl0b2x2dllDWldiUzFXckFReldJem9aM0otcVB3SEhvZ2E2TjVjUFE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "NAS に何十万もの資料があって、AI エージェントに「あの資料どこだっけ」を探してほしい。でも、エージェントに root を渡したくはない。 そこで、Synology NAS の Universal Search がすでに作っている全文検索の索引を、SSH 経由で AI エージェントから使えるようにする小さな CLI を作りました。 https://github.com/umayado17/s…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI相棒と新しい「あとで読む」体験を「Linto」の開発～公開まで",
-   "link": "https://zenn.dev/arpino/articles/2d5d6783dd3c23",
-   "date": 1794040478000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--U3bodDLk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E7%259B%25B8%25E6%25A3%2592%25E3%2581%25A8%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E3%2580%258C%25E3%2581%2582%25E3%2581%25A8%25E3%2581%25A7%25E8%25AA%25AD%25E3%2582%2580%25E3%2580%258D%25E4%25BD%2593%25E9%25A8%2593%25E3%2582%2592%25E3%2580%258CLinto%25E3%2580%258D%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25EF%25BD%259E%25E5%2585%25AC%25E9%2596%258B%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Arpino%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3hnWU0tMVRPeWx6dFYwdzh3QWVvb3JHWGlFTGFEMWhEYVdlR0ZGdDduZ3JsUkJ3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 他のアプリの共有メニューからリンクを保存し、タグで整理して、スマホとPCで同期するアプリ「Linto」を個人で開発し、Google Playで公開しています。 この記事では、作り始めた経緯、開発で意識した点、完成したアプリの概要をまとめます。React Native＋Expo＋Firebaseで個人開発をしている方、Claude Codeのようなコーディングエージェントと一緒にアプリを…"
-  },
-  {
    "src": "reddit",
    "title": "A judge says Claude Max’s “20x more usage” promise could mislead paying subscribers",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xq12am/a_judge_says_claude_maxs_20x_more_usage_promise/",
@@ -265,7 +265,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 304 # Comments: 610"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 306 # Comments: 611"
   },
   {
    "src": "reddit",
@@ -305,7 +305,15 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1589 # Comments: 514"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1590 # Comments: 514"
+  },
+  {
+   "src": "reddit",
+   "title": "used claude code to figure out how airpods 3 send head tracking data, turns out nobody had done it before",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xodizg/used_claude_code_to_figure_out_how_airpods_3_send/",
+   "date": 1793867477000,
+   "img": "",
+   "desc": "first time posting on reddit so hi i wanted to control my mouse with my airpods on linux (they have a gyro for spatial audio). every open source project i found said airpods 3 weren't supported, so i…"
   },
   {
    "src": "reddit",
@@ -433,7 +441,7 @@
    "link": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
    "date": 1793636733000,
    "img": "",
-   "desc": "Article URL: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now Comments URL: https://news.ycombinator.com/item?id=50339224 Points: 106 # Comments: 37"
+   "desc": "Article URL: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now Comments URL: https://news.ycombinator.com/item?id=50339224 Points: 106 # Comments: 38"
   },
   {
    "src": "hn",
@@ -506,14 +514,6 @@
    "date": 1793521357000,
    "img": "https://preview.redd.it/j8afqqp5nyyh1.jpeg?width=140&height=93&auto=webp&s=c892b5d23de6281dde1ce08d9223991cb4080815",
    "desc": "Since last month, Claude (I call her Annie) has been running real telescopes for me. Robotic ones you rent by the hour on StellarDock, in Chile, Spain and Utah. I don't touch anything. She picks the …"
-  },
-  {
-   "src": "reddit",
-   "title": "For over a year I've spent a full day writing a Markdown spec before prompting Claude. Google just open-sourced the \"Elephant-Goldfish Model\" that takes this 10x further",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xkn61s/for_over_a_year_ive_spent_a_full_day_writing_a/",
-   "date": 1793485675000,
-   "img": "https://preview.redd.it/olsnwjsbovyh1.png?width=140&height=120&auto=webp&s=8c8feef212e1c89e6653e0aca5662ea4828762f6",
-   "desc": "Whether you've been coding for 15+ years or started \"vibe coding\" with Claude a month ago, you've probably hit the same wall: you let the agent start coding right away, the first two hours feel like …"
   },
   {
    "src": "hn",
