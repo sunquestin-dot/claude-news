@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794041969653,
+ "updatedAt": 1794045345638,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "信頼されている R でも計算結果がずれることがある: rStats.js の開発で AI が見つけた実例",
+   "link": "https://qiita.com/nume/items/8cbaba3c4d89bf9a117e",
+   "date": 1794043376000,
+   "img": "",
+   "desc": "rStats.js は、JavaScript とブラウザで使える統計ライブラリです。関数の名前・引数・既定値・結果を R に合わせてあり、すべての関数を R の出力と比べてテストしています。分布と乱数、各種の検定、分散分析、線形モデル、混合モデル、生存時間解析などを扱えます..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code の PreToolUse フックで「この操作だけ許可」を返す(permissionDecision の allow / deny と、無人実行で承認待ちに止まらない作り方)",
@@ -66,22 +74,6 @@
    "date": 1794039600000,
    "img": "",
    "desc": "何に困ったか Claude Code に「X のブックマークを読んで、読めたものを外して」のような作業を任せたところ、実際は5件しか取れていないのに「全部読みました」と報告されたことがありました。 CLAUDE.md に「完了と言う前に中身を確かめる」と書いても、同じ日に..."
-  },
-  {
-   "src": "qiita",
-   "title": "R と同じ値を返す JavaScript の統計ライブラリ rStats.js を作りました",
-   "link": "https://qiita.com/nume/items/2e2fc73e457eccb44260",
-   "date": 1794039023000,
-   "img": "",
-   "desc": "JavaScript とブラウザで使える統計ライブラリ rStats.js を作り、MIT ライセンスで公開しました。関数の名前・既定値・結果を R に合わせてあり、すべての関数を R の出力と比べてテストしています。R の値が不正確なところでは、高精度の計算で確かめた、よ..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code利用者のためのclaude-mem実践ガイド｜セッションを閉じても文脈を忘れない長期記憶を6つのhookで自動記録する",
-   "link": "https://zenn.dev/ikahan/books/claude-mem-guide",
-   "date": 1794015621000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--wwAFJKB9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci80ZDRjYmQ3ZTc1LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "Claude Codeのセッションを閉じるたび文脈が消える問題を、行動を自動記録して次回に差し戻すプラグイン「claude-mem」で解く日本語導入ガイド。隔離環境でinstall（終了コード0）・doctor必須チェック合格・worker起動（ポート37700、ビューアHTTP 200）まで実測済み（検証日2026-10-30、claude-mem 15.6.0）。最大の落とし穴「npm in…"
   },
   {
    "src": "zenn",
@@ -258,6 +250,14 @@
    "date": 1793962636000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--KVVFnq_l--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%25AF%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%25AE%25E5%25BD%25A2%25E3%2582%2592%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2580%25823%25E4%25BD%2593%25E3%2581%25A8%25E5%258F%25B8%25E4%25BB%25A4%25E3%2580%2581%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%258C%25E9%2580%2594%25E5%2588%2587%25E3%2582%258C%25E3%2582%258B%25E5%25A0%25B4%25E6%2589%2580%25E3%2581%25AE%25E5%259C%25B0%25E5%259B%25B3%25EF%25BC%2588%25E7%2595%25AA%25E5%25A4%2596%25E7%25B7%25A84%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mappy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1ZWI1MzQxNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! 「AI討論 MAGI Games 開発記」の番外編、4本目です。番外編1と2は自動実行のトラブル（1、2）、3はスマホの指の実験（3）。この記事は、AI エージェントの「記憶」が仕組みの上でどこまで続き、どこで途切れるかを、7週間の記録から一枚の地図にしたものです。本編は第1回から第9回まで。 性格の違う AI 3体（科学者の MELCHIOR、母の BALTHASAR、女の CASPER）…"
+  },
+  {
+   "src": "zenn",
+   "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+   "link": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+   "date": 1793955564000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--gpxk3FXp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AF%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25BE%25E3%2581%25A7AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E7%25A2%25BA%25E8%25AA%258D%25E5%25BE%2585%25E3%2581%25A1%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2597%25E3%2582%2582%25E3%2581%25A1%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0NWI1N2NlZmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%25AC%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258A%25E3%2582%25A6%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YWQyYWI1OTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに こんにちは、しもちです。 前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。自分でタスクの一覧を見て回ることはなくなり、司令塔が出してくる確認待ちに答えるのが主な仕事になりました。 今回は画面…"
   },
   {
    "src": "reddit",
