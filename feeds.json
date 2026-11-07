@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794035503437,
+ "updatedAt": 1794039041672,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "R と同じ値を返す JavaScript の統計ライブラリ rStats.js を作りました",
+   "link": "https://qiita.com/nume/items/2e2fc73e457eccb44260",
+   "date": 1794039023000,
+   "img": "",
+   "desc": "JavaScript とブラウザで使える統計ライブラリ rStats.js を作り、MIT ライセンスで公開しました。関数の名前・既定値・結果を R に合わせてあり、すべての関数を R の出力と比べてテストしています。R の値が不正確なところでは、高精度の計算で確かめた、よ..."
+  },
   {
    "src": "qiita",
    "title": "コードを読まない監督",
@@ -68,12 +76,36 @@
    "desc": "WindowsでClaude Codeを使っていて、AIが渡してくれたコマンドを、そのまま自分のPowerShellに貼ったら、エラーになりました。原因は、AIが自分で実行するシェルと、私が手で打つシェルが、別物だったことです。何が違ったのか、どう決めたのかを、記録します。..."
   },
   {
-   "src": "qiita",
-   "title": "Claude CodeとCursorで使えるGodotのMCPサーバー：ゲームの実行、入力の送信、スクリーンショット",
-   "link": "https://qiita.com/Ziva/items/cde16ecc45f162d69b8e",
-   "date": 1794034014000,
-   "img": "",
-   "desc": "この記事は https://ziva.sh/blogs/godot-mcp-server-claude-code-cursor の日本語版です（英語の原文はZiva.shが2026年11月7日に公開）。 Claude CodeやCursorからゲームを実行し、入力を送り、実..."
+   "src": "zenn",
+   "title": "コードを読まずにClaude Codeへ作らせた仕組みを人に渡そうとしたら、止まる所のほとんどはAIが作者のPCに合わせて足した門だった",
+   "link": "https://zenn.dev/kirinukiauto/articles/20ca9307f2d268",
+   "date": 1794024812000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--XcpRGE8G--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259A%25E3%2581%25ABClaude%2520Code%25E3%2581%25B8%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%259F%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E4%25BA%25BA%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%259D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%25AD%25A2%25E3%2581%25BE%25E3%2582%258B%25E6%2589%2580%25E3%2581%25AE%25E3%2581%25BB%25E3%2581%25A8%25E3%2582%2593%25E3%2581%25A9%25E3%2581%25AFAI%25E3%2581%258C%25E4%25BD%259C%25E8%2580%2585%25E3%2581%25AEPC%25E3%2581%25AB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AD%25E3%2583%25AA%25E3%2583%258C%25E3%2582%25AD%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2FmYWY5YzE0ZjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "政治の切り抜き動画づくりを、Claude Code に丸ごと作らせています。私はプログラムを書けないので、コードは読んでいません。4か月で scripts の下は 418 本になりました。 この仕組みを人に渡すことにしました。まず、配る ZIP と作者の PC を照らして、買った人の所で1本目が最後まで通らない所を数えたら、15か所ありました。次の日、まっさらな環境に入れ直して1本通す試しを流す…"
+  },
+  {
+   "src": "zenn",
+   "title": "自分のClaude Codeハーネスの変遷 #4（フロー比較編）",
+   "link": "https://zenn.dev/i_shinya/articles/harness-flow-compare",
+   "date": 1794022220000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--8Qzx_rcY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AEClaude%2520Code%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2581%25AE%25E5%25A4%2589%25E9%2581%25B7%2520%25234%25EF%25BC%2588%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25E6%25AF%2594%25E8%25BC%2583%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%2587%25E3%2582%25B0%25E3%2583%25BC%25E5%259B%25A3%25E5%25AD%2590%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNlExSDlQZUdWUGFKMlI4aV9JX1B0a3VGSE8xWENkNXl1eVBvSlE9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 比較の題材は簡単な論理パズルのWebアプリ1つで、複雑なアプリではありません。比べたのも2回だけなので、自分の開発フローとpstackの検証の性能を比べるには十分ではありません。どちらが優れているかの判定ではなく、自分の題材と環境で出た結果として書きます。 前回はサブエージェントを減らして、文脈の受け渡しを少なくした話を書きました。 https://zenn.dev/i_shinya/art…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code に開発チームを組ませて、自分は「判断」だけする plugin「crew」を作った",
+   "link": "https://zenn.dev/mickamy/articles/c5e90829fb397a",
+   "date": 1794021962000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--kQX91IsY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25E9%2596%258B%25E7%2599%25BA%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E7%25B5%2584%25E3%2581%25BE%25E3%2581%259B%25E3%2581%25A6%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AF%25E3%2580%258C%25E5%2588%25A4%25E6%2596%25AD%25E3%2580%258D%25E3%2581%25A0%25E3%2581%2591%25E3%2581%2599%25E3%2582%258B%2520plugin%25E3%2580%258Ccrew%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tetsuro%2520Mikami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g4LW51YVdfOElwbDVIQzJFZGtFVzItcTdPUmxqdlJRYWgxazN1YUE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 個人で iOS / Android アプリを開発しています。サーバーも含めて 1 人なので、ここしばらくは Claude Code のセッションを何本も並べて、溜まった課題を並行で片付けてきました。 そのために作った自作スキルが orchestrate です。私が話す「オーナー」のセッションが課題を洗い出してチケットにし、「進行役」のセッションがそれを 3〜5 本の「子」のセッションに…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code利用者のためのclaude-mem実践ガイド｜セッションを閉じても文脈を忘れない長期記憶を6つのhookで自動記録する",
+   "link": "https://zenn.dev/ikahan/books/claude-mem-guide",
+   "date": 1794015621000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--wwAFJKB9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci80ZDRjYmQ3ZTc1LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "Claude Codeのセッションを閉じるたび文脈が消える問題を、行動を自動記録して次回に差し戻すプラグイン「claude-mem」で解く日本語導入ガイド。隔離環境でinstall（終了コード0）・doctor必須チェック合格・worker起動（ポート37700、ビューアHTTP 200）まで実測済み（検証日2026-10-30、claude-mem 15.6.0）。最大の落とし穴「npm in…"
   },
   {
    "src": "zenn",
@@ -226,38 +258,6 @@
    "date": 1793969000000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--ovodDkmL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%25AF%25E3%2581%2598%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25AE%2520Claude%2520%25E2%2591%25A1%25E3%2580%2590%25E4%25BD%25BF%25E3%2581%2586%25E3%2580%2591%25E5%25A7%258B%25E3%2582%2581%25E6%2596%25B9%25E3%2580%2581%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2581%25A8%25E3%2583%2597%25E3%2583%25A9%25E3%2583%25B3%25E3%2581%25AE%25E9%2581%25B8%25E3%2581%25B3%25E6%2596%25B9%25EF%25BC%25882026%25E5%25B9%25B411%25E6%259C%2588%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:wild-river%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk3MTU3MjY4N2EuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! この記事の情報は 2026年11月時点のものです。最新情報は公式サイトを確認してください。 はじめに この記事で分かること： Claude Code の始め方（VS Code の拡張機能・ターミナル） チャットで気を付けたいセキュリティ プランの選び方 この記事は3回シリーズの2回目です。Claude ファミリーについて、Claude Code とチャットの違いは ① にまとめています。 !…"
-  },
-  {
-   "src": "zenn",
-   "title": "作った Claude Code スキルを忘れないための「スキルボード」とフック",
-   "link": "https://zenn.dev/fightingpapa00/articles/claude-code-skill-board-hooks",
-   "date": 1793965388000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--WNTvo8WY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2520Claude%2520Code%2520%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2582%2592%25E5%25BF%2598%25E3%2582%258C%25E3%2581%25AA%25E3%2581%2584%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2580%258C%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E3%2580%258D%25E3%2581%25A8%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:teresa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTF9kNUl0dTB1dm10MzZILTFJQlYtcE1VcktacVc0MklvRUZxc21EMlNrZFZROGxnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "平日は会社員、夜と週末に副業をしている teresa です。 仕事でも家のことでも Claude Code を使っていて、気づけば自作のスキルがけっこうな数になっていました。数が増えてくると、だんだん困ったことが起きます。 前に作ったスキルがあるのを忘れて、似たようなものをまた作ろうとする どう頼めば動くスキルだったか思い出せない もう使っていないスキルが、なんとなく残り続ける 最初は「スキルの…"
-  },
-  {
-   "src": "zenn",
-   "title": "エージェントスキルの定量検証をしよう",
-   "link": "https://zenn.dev/yasuakiomokawa/articles/d271586275672e",
-   "date": 1793965078000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--wkSpJ3nb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25AE%25E5%25AE%259A%25E9%2587%258F%25E6%25A4%259C%25E8%25A8%25BC%25E3%2582%2592%25E3%2581%2597%25E3%2582%2588%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yasuaki%2520Omokawa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmOTUyODI3YjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "サマリー エージェントスキルの出力を受け入れテストにすると、そのスキルの効き目を数えられます。数えられると、改善の基準が 1 つに決まります。LLM に思いつきの指示を出す代わりに、毎回同じ物差しで「どこを、なぜ直すか」を決められるようになります。 この記事は受け入れ基準 (AC) を書くスキル define-done を題材にした、その実践の記録です。もともと define-done は AC…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI の記憶はファイルの形をしている。3体と司令、記憶が途切れる場所の地図（番外編4）",
-   "link": "https://zenn.dev/mappy55/articles/magi-games-ops-04",
-   "date": 1793962636000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--KVVFnq_l--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AE%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%25AF%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%25AE%25E5%25BD%25A2%25E3%2582%2592%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2580%25823%25E4%25BD%2593%25E3%2581%25A8%25E5%258F%25B8%25E4%25BB%25A4%25E3%2580%2581%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%258C%25E9%2580%2594%25E5%2588%2587%25E3%2582%258C%25E3%2582%258B%25E5%25A0%25B4%25E6%2589%2580%25E3%2581%25AE%25E5%259C%25B0%25E5%259B%25B3%25EF%25BC%2588%25E7%2595%25AA%25E5%25A4%2596%25E7%25B7%25A84%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mappy%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1ZWI1MzQxNDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! 「AI討論 MAGI Games 開発記」の番外編、4本目です。番外編1と2は自動実行のトラブル（1、2）、3はスマホの指の実験（3）。この記事は、AI エージェントの「記憶」が仕組みの上でどこまで続き、どこで途切れるかを、7週間の記録から一枚の地図にしたものです。本編は第1回から第9回まで。 性格の違う AI 3体（科学者の MELCHIOR、母の BALTHASAR、女の CASPER）…"
-  },
-  {
-   "src": "zenn",
-   "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
-   "link": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
-   "date": 1793955564000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--gpxk3FXp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AF%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%25BE%25E3%2581%25A7AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E7%25A2%25BA%25E8%25AA%258D%25E5%25BE%2585%25E3%2581%25A1%25E3%2581%25AB%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2597%25E3%2582%2582%25E3%2581%25A1%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0NWI1N2NlZmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%25AC%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258A%25E3%2582%25A6%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YWQyYWI1OTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに こんにちは、しもちです。 前回の「2026年自分流AIエージェント環境構築の秋」では、司令塔のエージェントに作業役を回してもらう仕組みを紹介しました。司令塔には作業だけでなく、抱えているタスク全体の管理も任せていて、どれに手を付けるか、どの順で進めるかも司令塔が決めます。自分でタスクの一覧を見て回ることはなくなり、司令塔が出してくる確認待ちに答えるのが主な仕事になりました。 今回は画面…"
   },
   {
    "src": "reddit",
