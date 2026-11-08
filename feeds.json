@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794117427680,
+ "updatedAt": 1794121993326,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -45,6 +45,30 @@
  "items": [
   {
    "src": "qiita",
+   "title": "コーディングに人間は不要。今後のシステム開発手法「ソフトウェアファクトリー」とは",
+   "link": "https://qiita.com/udowanllc/items/fc8e91e07228db5262a3",
+   "date": 1794121985000,
+   "img": "",
+   "desc": "最近のAIによるコーディングは性能がかなりあがっており、はっきりいって人間よりも高品質なコードを高速に書き上げることができる。ここ1年の伸びは特に大きく、テストに合格するためだけのテストを書くようなことも最近はほとんどない。人間が埋め込みがちな基本的な問題、たとえばN+1問..."
+  },
+  {
+   "src": "qiita",
+   "title": "2.0秒、これって世界新記録達成？ ── GASの更新・デプロイで見えた新たな世界の話",
+   "link": "https://qiita.com/shu15511551/items/a827c7028bd6d5d71434",
+   "date": 1794120381000,
+   "img": "",
+   "desc": "はじめに ―― 窮屈な服を脱いだはずが、また着込んで始まった昼下がり 今朝公開した記事では、AIをルールで縛り上げようとして自爆し、一睡もできないまま朝を迎えた「フック（服）を脱げシュー事件」の顛末をお話ししました。 フック（服）を脱げシュー、スキルとガードでやらかした..."
+  },
+  {
+   "src": "qiita",
+   "title": "0。Anthropicが初めて外部パブリッシャー(AP通信)とライセンス契約を結んだ日、自分が書いた記事257本に、自分で決めた再利用条件が書かれていた本数だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/799e973286a8294dcd98",
+   "date": 1794119380000,
+   "img": "",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプラインがこれまでに公開した記事(Zenn120本、Qiita137本、合計257本、今回追加分は含まず)のうち、「この記事をAIの学習やサービスにどう再利用してよいか」を自分自身..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude CodeのExploreサブエージェントは2.1.198からHaikuを使わなくなった。環境変数2つでコスト60%減",
    "link": "https://qiita.com/yunany90/items/f9203899f22d3788a469",
    "date": 1794115720000,
@@ -52,28 +76,12 @@
    "desc": "2月に「Claude Codeの組み込みExploreサブエージェントはHaiku固定」という記事が広まりました。ところが先週2.1.318で測ると、OpusセッションのExploreはすべてOpusで動いていました。 どちらも正しかったのです。いつ変わったのかを調べるため..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code に「フォルダごと消す」を打たせない PreToolUse フック(rm -r の変数が空になる事故・Remove-Item -Recurse・find -delete)",
-   "link": "https://qiita.com/takamatt_ai/items/1f7d9cf0b47d58f9ea86",
-   "date": 1794115512000,
+   "src": "hn",
+   "title": "Goodbye Claude, Hello Pi",
+   "link": "https://caleb.software/posts/claude-to-pi.html",
+   "date": 1794107508000,
    "img": "",
-   "desc": "この記事を読み終えると、Claude Code が打つ rm -rf などのフォルダごと消すコマンドを、一時フォルダの中以外では止めるフックが置けます。 根拠は、手元で使っているフックに、2026-11-05 にコマンドを16通り渡して確かめた結果です。Mac(zsh)と ..."
-  },
-  {
-   "src": "qiita",
-   "title": "e2e 0.23でエージェントステップをACP経由でClaude Codeに実行させる",
-   "link": "https://qiita.com/two_pack/items/71b27f8d66c78bebe56d",
-   "date": 1794113546000,
-   "img": "",
-   "desc": "この記事はClaude Codeと一緒に書いています。内容は2026年11月8日時点で確認したものです。 e2eは、エージェントに画面を操作させたり確認させたりできるE2Eテストのツールです。agent.act が自然言語で書いた操作を実行し、agent.asser..."
-  },
-  {
-   "src": "qiita",
-   "title": "【公式ブログを噛み砕く】Anthropic「The components of agent memory」を頑張って読む",
-   "link": "https://qiita.com/shikichika/items/8d5ba06af696507149af",
-   "date": 1794111702000,
-   "img": "",
-   "desc": "Anthropic や OpenAI が出す公式ブログを頑張って理解したいアプリケーションエンジニアのメモです📝 単語や前提は「みんな知っているよね😄」という形で書かれていてつよつよではない自分は単語や前提を補って読んでいます🥺 記事はこれ👇 The components ..."
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 152 # Comments: 86"
   },
   {
    "src": "zenn",
@@ -201,7 +209,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 296 # Comments: 205"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 325 # Comments: 223"
   },
   {
    "src": "zenn",
@@ -313,7 +321,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1593 # Comments: 519"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1594 # Comments: 520"
   },
   {
    "src": "reddit",
