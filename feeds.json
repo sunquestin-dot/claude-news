@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794125560910,
+ "updatedAt": 1794128369248,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,14 @@
  },
  "items": [
   {
+   "src": "status",
+   "title": "Degraded performance for Claude Fable 5.1",
+   "link": "https://status.claude.com/incidents/kw2lxj1th04c",
+   "date": 1794128083000,
+   "img": "",
+   "desc": "Nov 8 , 08:54 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 00:18 PT / 08:18 UTC on Nov 8 to 00:32 PT / 08:32 UT…"
+  },
+  {
    "src": "qiita",
    "title": "草野球のスコアブックを Claude Code に読ませて成績を登録する：検算のやり方・記号の読み方・コードを公開しました",
    "link": "https://qiita.com/ussu_ussu_ussu/items/c9ecfde3d172a0069c65",
@@ -76,28 +84,12 @@
    "desc": "SSH経由でリモートサーバー上の Claude Code を利用している際、マウスで文字列を選択してもコピーできない問題が発生しました。 通常のターミナルでは問題なくコピーできるのに、Claude Codeの画面ではコピーできないという現象です。 今回は、この問題を簡単なコ..."
   },
   {
-   "src": "zenn",
-   "title": "Matt Pocock の /retro スキルで、エージェントのミスを CLAUDE.md に頼らず再発防止する",
-   "link": "https://zenn.dev/hma2moto/articles/mattpocock-retro-skill",
-   "date": 1794107769000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--k1T7lQcB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Matt%2520Pocock%2520%25E3%2581%25AE%2520%252Fretro%2520%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2581%25A7%25E3%2580%2581%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2583%259F%25E3%2582%25B9%25E3%2582%2592%2520CLAUDE.md%2520%25E3%2581%25AB%25E9%25A0%25BC%25E3%2582%2589%25E3%2581%259A%25E5%2586%258D%25E7%2599%25BA%25E9%2598%25B2%25E6%25AD%25A2%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hma2moto%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ViOTE2OTYyYTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code のエージェントが同じミスを繰り返すと、CLAUDE.md に「〜しないこと」と1行追記して済ませたくなります。私もそうしてきましたが、追記するほど CLAUDE.md は肥大化し、追記したルールが守られているかを確認する手段もありませんでした。Matt Pocock さんのスキル集 mattpocock/skills にある /retro は、セッションをふりかえり、ミス…"
-  },
-  {
    "src": "hn",
    "title": "Goodbye Claude, Hello Pi",
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 209 # Comments: 121"
-  },
-  {
-   "src": "zenn",
-   "title": "MCPの「Elicitations」は6/6回cancel、「Tasks」はClaude Codeが名乗らなかった",
-   "link": "https://zenn.dev/numarn/articles/mcp-tasks-elicitation-sdk-support-handson",
-   "date": 1794105742000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--xk3Rv1yq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:MCP%25E3%2581%25AE%25E3%2580%258CElicitations%25E3%2580%258D%25E3%2581%25AF6%252F6%25E5%259B%259Ecancel%25E3%2580%2581%25E3%2580%258CTasks%25E3%2580%258D%25E3%2581%25AFClaude%2520Code%25E3%2581%258C%25E5%2590%258D%25E4%25B9%2597%25E3%2582%2589%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AC%25E3%2581%25BE%25E3%2583%25BC%25E3%2582%2593%25E3%2581%25AEZenn%25E8%25A8%2598%25E4%25BA%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG44LWtDRklOak05ZW5oWjhTb2xTdWdEeGhaM3RpemJHZTRVYWxJbEZ6MGtwb3dUTzk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "MCP(AI が外部の道具やサービスとやりとりするための共通規格)に「Tasks」と「Elicitations」という機能が足された、という紹介を X で見かけました。名前は分かっても、それが手元でどこまで動くのかは分かりません。そこで、npm で入る公式の開発キット(SDK)と、手元の Claude Code 2.1.311 の両方に実際につないで確かめました。 結論を先に書きます。 Elic…"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 253 # Comments: 144"
   },
   {
    "src": "zenn",
@@ -106,6 +98,14 @@
    "date": 1794103485000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--iH4bmFo7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:VS%2520Code%2520%25E3%2581%25A7%25E8%25A6%258B%25E3%2581%2588%25E3%2581%25AA%25E3%2581%2584%2520Claude%2520Code%2520%25E3%2581%25AE%2520toast%2520%25E3%2582%2592%25E3%2580%2581macOS%2520%25E3%2581%25AE%25E9%2580%259A%25E7%259F%25A5%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%2599%2520mod%2520%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AE%2589%25E8%2597%25A4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWJoOGNRa3MtcE5YX2VVVWFCRk56YWthdl9NSTdrRFBIZ0twc3duRlhUclNCc2xKND1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code の mod が出す toast($.ui.toast)を拾って、macOS の通知センターにも出す mod を作って公開しました。VS Code のチャットで Claude Code を使っていると mod の toast が目に入らないので、それを macOS の通知で受け取れるようにします。 https://github.com/AndoYuto87/toast-to…"
+  },
+  {
+   "src": "zenn",
+   "title": "CLAUDE.md や SKILL.md のルールを Turtle で書き、ルールの書き間違いや矛盾を lint で検査する",
+   "link": "https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons",
+   "date": 1794103403000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Thdeli2A--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2582%2584%2520SKILL.md%2520%25E3%2581%25AE%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%2520Turtle%2520%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258D%25E3%2580%2581%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E9%2596%2593%25E9%2581%2595%25E3%2581%2584%25E3%2582%2584%25E7%259F%259B%25E7%259B%25BE%25E3%2582%2592%2520lint%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hma2moto%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ViOTE2OTYyYTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code では、エージェントに守ってほしい決まりを CLAUDE.md や SKILL.md に書いておくと、エージェントはそれを読んで作業します。私も最初はこうしたルールを普通の Markdown で書いていました。ところがルールが増えるにつれて、どの行がどのルールの例外か、同じ行為を別の場所で禁じていないか、なぜそのルールがあるのかが、読み返さないと分からなくなりました。 YA…"
   },
   {
    "src": "zenn",
@@ -217,7 +217,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 350 # Comments: 240"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 373 # Comments: 258"
   },
   {
    "src": "zenn",
@@ -252,6 +252,14 @@
    "desc": "サブスクのAIは「週の利用上限」があります。忙しい週は足りないのに、暇な週は半分以上余ったままリセットされる。もったいないので、余りそうな枠だけを自動で見つけて、AIに自分の作業をさせる仕組みを作りました。Windowsのタスクスケジューラ＋PowerShell1本です。 実際に動かしてわかった「最初の設計の失敗」と、その直し方まで書きます。 私自身、Claudeの利用制限を使い切れないままリセ…"
   },
   {
+   "src": "zenn",
+   "title": "複数の Backlog スペースを 1 つの CLI と MCP サーバーで扱う「backlog-bridge」を作った",
+   "link": "https://zenn.dev/mickeyichi/articles/3f992685219a1f",
+   "date": 1794065231000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--63_PRPkl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25A4%2587%25E6%2595%25B0%25E3%2581%25AE%2520Backlog%2520%25E3%2582%25B9%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%2592%25201%2520%25E3%2581%25A4%25E3%2581%25AE%2520CLI%2520%25E3%2581%25A8%2520MCP%2520%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25A7%25E6%2589%25B1%25E3%2581%2586%25E3%2580%258Cbacklog-bridge%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mickey-ichi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE4MWJjZmYzNjcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "受託開発をしていると、社内の Backlog と お客様ごとの Backlog を行き来することがよくあります。お客様の課題を読んで、社内に課題を起こし、進捗をお客様側に反映し、コメントに返信する……。これを AI エージェントに手伝ってもらおうとしたところ、公式の Backlog MCP サーバーは 1 つのスペースにしか接続できないことがネックになりました。 そこで、複数の Backlog …"
+  },
+  {
    "src": "reddit",
    "title": "A judge says Claude Max’s “20x more usage” promise could mislead paying subscribers",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xq12am/a_judge_says_claude_maxs_20x_more_usage_promise/",
@@ -281,7 +289,15 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 316 # Comments: 616"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 317 # Comments: 617"
+  },
+  {
+   "src": "reddit",
+   "title": "I built a Netflix-style app for my media server with Claude. The whole thing is 15 MB 🤯",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xp76q1/i_built_a_netflixstyle_app_for_my_media_server/",
+   "date": 1793951639000,
+   "img": "https://external-preview.redd.it/p72PhHRQqxVKidCGvZLFRPQycDrifQ8p1ZfSKLsvPCA.png?width=140&height=73&auto=webp&s=aa535454aea9b16ef18e2d19ee821579dded99f3",
+   "desc": "if you run a home media server you probably have sonarr, radarr, lidarr, bazarr, prowlarr and seerr. thats six apps, and each one ships with its own little operating system inside just to run. sonarr…"
   },
   {
    "src": "reddit",
@@ -321,7 +337,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1596 # Comments: 521"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1596 # Comments: 522"
   },
   {
    "src": "reddit",
@@ -524,14 +540,6 @@
    "desc": "A Hugging Face repo called burner22/numbat claims to contain an internal Anthropic Mythos-class training checkpoint. Claimed specs: - 14 trillion parameters - 1,224 MoE experts - 7.72 TB of weights -…"
   },
   {
-   "src": "reddit",
-   "title": "I gave Claude access to remote telescopes. Now she books the sky every night.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xkxsca/i_gave_claude_access_to_remote_telescopes_now_she/",
-   "date": 1793521357000,
-   "img": "https://preview.redd.it/j8afqqp5nyyh1.jpeg?width=140&height=93&auto=webp&s=c892b5d23de6281dde1ce08d9223991cb4080815",
-   "desc": "Since last month, Claude (I call her Annie) has been running real telescopes for me. Robotic ones you rent by the hour on StellarDock, in Chile, Spain and Utah. I don't touch anything. She picks the …"
-  },
-  {
    "src": "hn",
    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
@@ -545,7 +553,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 494 # Comments: 271"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 495 # Comments: 271"
   },
   {
    "src": "claude-code",
@@ -673,7 +681,7 @@
    "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
    "date": 1793114906000,
    "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 607 # Comments: 298"
+   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 608 # Comments: 298"
   },
   {
    "src": "status",
@@ -1098,14 +1106,6 @@
    "date": 1791331200000,
    "img": "",
    "desc": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use."
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors for Claude Opus 5.5",
-   "link": "https://status.claude.com/incidents/ch27pb90bn85",
-   "date": 1791290582000,
-   "img": "",
-   "desc": "Oct 6 , 12:43 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Oct 6 , 12:37 UTC Identified - We have identified the cause of elevated errors on requests to Claude Opus 5.5 and a…"
   },
   {
    "src": "news",
