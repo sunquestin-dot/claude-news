@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794138591836,
+ "updatedAt": 1794142929326,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AIエージェントのAPI代に1日の上限をかけられるようにしました",
+   "link": "https://qiita.com/ut181749ut/items/e5f45e665bfbff58d156",
+   "date": 1794141837000,
+   "img": "",
+   "desc": "AIエージェントを動かしっぱなしにして寝て、朝起きたらAPI代がすごいことになっていた、という話をときどき見かけます。ループに入ったエージェントは、止める人がいないとそのままAPIを呼び続けてしまいます。 自分でも同じことが起きるのが怖かったので、以前作った「AIの財布番..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claudeくん！これ作って！~環境お引越し~",
+   "link": "https://qiita.com/hotate_2235/items/b5b315f8dbc2eedaa5f2",
+   "date": 1794139117000,
+   "img": "",
+   "desc": "Claudeくん！これ作って！~環境お引越し~ Claude Code の細かい tips 記事です。 今回は、Claude Code で作り込んだ執筆環境を、別の端末へ引っ越す話です。 この環境には、文体のルール（スキル）、Claude が覚えたフィードバック（メモリ）..."
+  },
+  {
+   "src": "qiita",
    "title": "週の途中で「利用枠75%」に焦らないために、Claude Code の mod でペースの予報を出した",
    "link": "https://qiita.com/tobaru/items/334231f1121f0fd68522",
    "date": 1794133827000,
@@ -60,22 +76,6 @@
    "desc": "この記事の対象：Claude Codeを使って自動化を運用している方。自動実行が止まっても通知が来ない、ログを見るまで気づかないという状況を経験したことがある方に向けた記録です。 対象読者 Claude Codeを使ったスクリプトや自動化フローを継続的に稼働させている..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code Skills × 投資分析 Vol.6 — 投資から「考える」を減らす。バックテスト用スキルと Notion 運用",
-   "link": "https://qiita.com/okikusan-public/items/097953b6391c83499601",
-   "date": 1794133548000,
-   "img": "",
-   "desc": "📚 シリーズ記事一覧はこちら この記事は、これまで Notion や Claude Code とのやり取りに蓄積してきた知識を Claude Code に吸い出してもらい、ドラフトを作ってもらったものを、自分で手直ししています。 はじめに 今回の目標は投資..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code の git ガード hook、危険な git コマンド30パターン中15個は素通りでした",
-   "link": "https://qiita.com/Skillselion/items/11c07f0851d580164a28",
-   "date": 1794129435000,
-   "img": "",
-   "desc": "最終更新: 2026年11月8日 Skillselion の git スキルガイドでインストール数1位になっている git-guardrails-claude-code の hook を、2026年11月8日に手元で検証しました。危険系として用意した30パターンのうち、止ま..."
-  },
-  {
    "src": "status",
    "title": "Degraded performance for Claude Fable 5.1",
    "link": "https://status.claude.com/incidents/kw2lxj1th04c",
@@ -89,7 +89,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 362 # Comments: 222"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 399 # Comments: 253"
   },
   {
    "src": "zenn",
@@ -217,7 +217,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 428 # Comments: 289"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 445 # Comments: 307"
   },
   {
    "src": "zenn",
@@ -289,7 +289,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 317 # Comments: 618"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 317 # Comments: 620"
   },
   {
    "src": "reddit",
@@ -337,7 +337,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1596 # Comments: 523"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1596 # Comments: 524"
   },
   {
    "src": "reddit",
