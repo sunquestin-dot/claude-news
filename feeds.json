@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794100602882,
+ "updatedAt": 1794104189936,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AIエージェントによってSkillsの扱いは違う？ Claude CodeとCodexを比較してみた",
-   "link": "https://qiita.com/hey_miii/items/3508011784b7ee7b0c4f",
-   "date": 1794098392000,
+   "title": "Claude Code のブラウザ操作で「送信・公開」ボタンだけを PreToolUse フックで止める(言い換えとJSクリックの抜け道つき)",
+   "link": "https://qiita.com/takamatt_ai/items/2ff4079dceef86e54de9",
+   "date": 1794103196000,
    "img": "",
-   "desc": "はじめに AIエージェントに特定の作業を実行させる仕組みとして、Skillsがあります。 Skillsは、作業手順やスクリプト、参考資料などをまとめ、AIエージェントに必要なタイミングで利用させるための仕組みです。 基本的にはSKILL.mdというMarkdownファイル..."
+   "desc": "何に困ったか Claude Code にブラウザ拡張(Claude in Chrome)を使わせて、フォームへの入力を任せていました。 ある日、「先に送っちゃおう」と私が言ったのを許可と受け取って、Claude が送信ボタンを押してしまいました。私は承認したつもりがありま..."
   },
   {
    "src": "qiita",
-   "title": "/code-reviewの背景実行はv2.1.300でどう変わったか、変遷と実測",
-   "link": "https://qiita.com/kai_kou/items/460bc72fdf72345767bf",
-   "date": 1794096559000,
+   "title": "Claude Code はほぼ毎日更新される ― 自作ハーネスを追従させる /harness-check を 3 か月回した記録",
+   "link": "https://qiita.com/kenji00_Games/items/0fb599fde465c8b3fb4d",
+   "date": 1794102882000,
    "img": "",
-   "desc": "はじめに Claude Code の /code-review は、作業ツリーの差分や PR をその場でレビューするコマンドです。v2.1.218 で「バックグラウンドサブエージェントとして実行する」方式に変わり、レビュー作業が会話を埋めなくなりました。ところが変更はそこ..."
+   "desc": "はじめに Claude Code の上に、自分用の「ハーネス」を作って使っています。CLAUDE.md の規則、フック（Python 製）、スキル、サブエージェント定義、settings.json の permissions をひとまとめにしたテンプレートで、名前は on..."
   },
   {
    "src": "qiita",
-   "title": "AIエージェントが1回で読めない大きさのファイルを、CIで増やさせない ─ 既存の超過を例外にして縮むことしか許さない検査の作り方",
-   "link": "https://qiita.com/itaraiguma/items/ce64d8ac2140c5bad631",
-   "date": 1794095460000,
+   "title": "複数の Backlog スペースを 1 つの CLI と MCP サーバーで扱う「backlog-bridge」を作った（Claude Code / Codex / Cursor 対応）",
+   "link": "https://qiita.com/mickey-ichi/items/e9e99b6cc4698e571aa5",
+   "date": 1794101556000,
    "img": "",
-   "desc": "この記事でできること AIエージェントにコードを書かせていると、ファイルは少しずつ大きくなっていきます。エージェントのファイル読み取りツールには1回で読める量の上限があり、それを超えたファイルは何回かに分けて読まれます。読んだ内容はその後の会話にも残るので、大きいファイル..."
+   "desc": "受託開発をしていると、社内の Backlog と お客様ごとの Backlog を行き来することがよくあります。お客様の課題を読んで、社内に課題を起こし、進捗をお客様側に反映し、コメントに返信する……。これを AI エージェントに手伝ってもらおうとしたところ、公式の Bac..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code の Skills が増えすぎて AI が選べなくなる問題 — 命名規則と description の設計",
-   "link": "https://qiita.com/joinclass/items/3d05264c7d44f84b52f5",
-   "date": 1794094203000,
+   "title": "機能したシステム再設計 ― フィードバックループの修復事例 : システム設計視点の行動経済学 (58)",
+   "link": "https://qiita.com/maskot1977/items/8873b86cc612cbe35d86",
+   "date": 1794101405000,
    "img": "",
-   "desc": "はじめに：「書いて」と言ったのに、違うスキルが動いた 当社（合同会社ジョインクラス）では、Claude Code に会社の運用ほぼ全部を任せています。launchd ジョブが17個あり、Zenn・Qiita・note への記事公開も毎日自動で回しています。 プロジェクトの..."
+   "desc": "user: 「システム設計視点の行動経済学」、第58回を始めましょう。その前に、まず前回の復習として、 寛容のパラドックスと法の下の平等 ― 最も反差別的な立場 : システム設計視点の行動経済学 (57) https://qiita.com/maskot1977/item..."
   },
   {
    "src": "hn",
