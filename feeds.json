@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794107324178,
+ "updatedAt": 1794110485960,
  "sources": {
   "news": {
    "ok": true,
@@ -22,16 +22,16 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": false,
    "error": "HTTP 502"
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude CodeのOpus 4.8 fast mode廃止、5.5移行で単価2割減",
+   "link": "https://qiita.com/kai_kou/items/3d43e16a9a10fe8b895e",
+   "date": 1794107619000,
+   "img": "",
+   "desc": "はじめに /fast を一度オンにすると、その状態は fastMode 設定として保存されます。毎回コマンドを打たなくても高速モードが続くので便利ですが、裏を返すと「どこで有効にしたのか」を覚えていなくても動き続けます。 その Opus 4.8 の fast mode が..."
+  },
   {
    "src": "zenn",
    "title": "MCPの「Elicitations」は6/6回cancel、「Tasks」はClaude Codeが名乗らなかった",
@@ -82,14 +90,6 @@
    "date": 1794102882000,
    "img": "",
    "desc": "はじめに Claude Code の上に、自分用の「ハーネス」を作って使っています。CLAUDE.md の規則、フック（Python 製）、スキル、サブエージェント定義、settings.json の permissions をひとまとめにしたテンプレートで、名前は on..."
-  },
-  {
-   "src": "qiita",
-   "title": "複数の Backlog スペースを 1 つの CLI と MCP サーバーで扱う「backlog-bridge」を作った（Claude Code / Codex / Cursor 対応）",
-   "link": "https://qiita.com/mickey-ichi/items/e9e99b6cc4698e571aa5",
-   "date": 1794101556000,
-   "img": "",
-   "desc": "受託開発をしていると、社内の Backlog と お客様ごとの Backlog を行き来することがよくあります。お客様の課題を読んで、社内に課題を起こし、進捗をお客様側に反映し、コメントに返信する……。これを AI エージェントに手伝ってもらおうとしたところ、公式の Bac..."
   },
   {
    "src": "zenn",
