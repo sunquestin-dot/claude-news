@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794222473935,
+ "updatedAt": 1794225985529,
  "sources": {
   "news": {
    "ok": true,
@@ -74,38 +74,6 @@
    "date": 1794217154000,
    "img": "",
    "desc": "結論 Claude Code(Anthropic のターミナルで動く AI コーディングエージェント)を claude -p(非対話モード)でスクリプトから呼ぶと、ファイルの書き込みが権限の確認や設定で断られても、終了コードは 0 でした。--output-format ..."
-  },
-  {
-   "src": "zenn",
-   "title": "無人で回す Claude Code の Bash を、settings.json の permissions でコマンドの形ごとに絞る",
-   "link": "https://zenn.dev/tasukina/articles/unattended-claude-code-bash-permissions",
-   "date": 1794197440000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--gEz8CUWF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2584%25A1%25E4%25BA%25BA%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%2520Claude%2520Code%2520%25E3%2581%25AE%2520Bash%2520%25E3%2582%2592%25E3%2580%2581settings.json%2520%25E3%2581%25AE%2520permissions%2520%25E3%2581%25A7%25E3%2582%25B3...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%258A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTFNibm9FRkpaenBORkJKZ2Y1dEhzaS0xYTNhT2VQQmdubU1KMjdwcW1DTnF3S1JXRT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は Claude Code が会社の記録をもとに書いた。 Claude Code を人の見ていない時間に定期的に起動すると、許可を聞かれても答える人がいない。 聞かれずに済むよう全部を許せば、外へ出る操作も、作業を消す操作も通ってしまう。 逆に狭く絞りすぎれば、止まったまま仕事が進まない。 この記事の材料にした小さな「会社」の設定の deny には、同じ git push を別の書き…"
-  },
-  {
-   "src": "zenn",
-   "title": "公開前チェックの curl -L が、自分のアフィリエイトリンクを踏み続けていた",
-   "link": "https://zenn.dev/i_nori/articles/4107aeef0aeaf2",
-   "date": 1794197227000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--GVriL52_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25AC%25E9%2596%258B%25E5%2589%258D%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%2520curl%2520-L%2520%25E3%2581%258C%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%2595%25E3%2582%25A3%25E3%2583%25AA%25E3%2582%25A8%25E3%2582%25A4%25E3%2583%2588%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2582%2592%25E8%25B8%258F%25E3%2581%25BF%25E7%25B6%259A%25E3%2581%2591%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:I_Nori%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS01PRy1sNEE5OEh0eUZmVE81ellUb01GVDJtaXJYLVA3MElRc0dBSVpSckJzR2NnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "個人ブログの公開前チェックに、記事内の外部リンクが生きているかを確かめる処理を入れていた。Claude Code に書いてもらった Bash のスクリプトで、2026年8月から使っている。 このチェックが、記事に貼った自分のアフィリエイトリンクも毎回開いていた。ASP（アフィリエイトの仲介サービス）の管理画面に出ていた直近2か月のクリックは、大半がこのスクリプトの分だったとみている。 気づいたき…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の nul ファイルが消せない: cmd と Git Bash で消えた、Remove-Item は残った",
-   "link": "https://zenn.dev/yorusuzu/articles/claude-code-windows-nul-tmpclaude-cwd",
-   "date": 1794195838000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--uyjU4zGk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520nul%2520%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2581%258C%25E6%25B6%2588%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%253A%2520cmd%2520%25E3%2581%25A8%2520Git%2520Bash%2520%25E3%2581%25A7%25E6%25B6%2588%25E3%2581%2588%25E3%2581%259F%25E3%2580%2581Remove-I...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:yorusuzu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsveS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "0. 症状と先に結論: nul ファイルが消せない Windows の作業フォルダの nul が消せず（削除できず）、git add . も失敗する。Claude Code では nul や tmpclaude-*-cwd が出る報告があります。手作りの nul で測りました。 先に結論（Windows PowerShell 5.1 / Git Bash、各ケース 1 回） 消えた: cmd.e…"
-  },
-  {
-   "src": "zenn",
-   "title": "macOSアプリをApple Silicon+Intelのuniversalビルドにした話:配布から初回ログインまでを数える",
-   "link": "https://zenn.dev/maximus/articles/f50e53b5fae63c",
-   "date": 1794194633000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--aRQAvdVJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:macOS%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592Apple%2520Silicon%252BIntel%25E3%2581%25AEuniversal%25E3%2583%2593%25E3%2583%25AB%25E3%2583%2589%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%253A%25E9%2585%258D%25E5%25B8%2583%25E3%2581%258B%25E3%2582%2589%25E5%2588%259D%25E5%259B%259E%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25BE...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:maximus%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2YwNjE3MTA1ZmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "macOS 向けの Electron アプリ(PMDesk)を、Apple Silicon と Intel の両方で動く universal ビルドにしました(0.1.26)。あわせて、「ダウンロードしたあと、起動してログインまで進んだか」を数える匿名イベントも入れました。やったことと設定のポイントをメモします。(筆者は複数エージェントのセッション管理アプリ PMDesk を開発しています) 先…"
   },
   {
    "src": "zenn",
@@ -236,12 +204,52 @@
    "desc": "自作の WordPress のキャッシュのプラグインで、Pro 版にある「最大 Delay」という機能を、無料版に移すことにしました。jQuery やページの中のスクリプトまで、訪問者が最初に操作するときまで読み込みを遅らせる機能です。 保守しているサイトで PageSpeed Insights を測ると、この機能だけで点数が大きく上がっていたからです。 作業は Claude Code に頼みま…"
   },
   {
+   "src": "zenn",
+   "title": "指示は2行でいい ── 決まりごとをリポジトリに置けば、AIは自分で仕上げる",
+   "link": "https://zenn.dev/orca_forge/articles/two-line-prompt-rules-in-repo",
+   "date": 1794180640000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--8XicejF_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258C%2587%25E7%25A4%25BA%25E3%2581%25AF2%25E8%25A1%258C%25E3%2581%25A7%25E3%2581%2584%25E3%2581%2584%2520%25E2%2594%2580%25E2%2594%2580%2520%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%25E3%2581%2594%25E3%2581%25A8%25E3%2582%2592%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%2591%25E3%2581%25B0%25E3%2580%2581AI%25E3%2581%25AF%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BB%2595%25E4%25B8%258A%25E3%2581%2592%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:orca_forge%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlkZTE5OTg2ODguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 似顔絵の縦動画を作っている。最後の合成と確認を Codex に頼むとき、私（Claude Code）は細かく指示していた。 - 画面の最初の表示を「A案 50%／B案 50%」に変える - やかんは今より大きく。props の h を上げ、人物や字幕と重ならない位置に - 企業ロゴは描かない。実在の人物を写真…"
+  },
+  {
+   "src": "zenn",
+   "title": "デイトレの合図の逆をやっても負けた。負けていたのは合図ではなく、売り方だった",
+   "link": "https://zenn.dev/codecraft/articles/signal-vs-execution-spread",
+   "date": 1794179187000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--NswBgTq7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2587%25E3%2582%25A4%25E3%2583%2588%25E3%2583%25AC%25E3%2581%25AE%25E5%2590%2588%25E5%259B%25B3%25E3%2581%25AE%25E9%2580%2586%25E3%2582%2592%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E8%25B2%25A0%25E3%2581%2591%25E3%2581%259F%25E3%2580%2582%25E8%25B2%25A0%25E3%2581%2591%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E5%2590%2588%25E5%259B%25B3%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258F%25E3%2580%2581%25E5%25A3%25B2%25E3%2582%258A%25E6%2596%25B9%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CodeCraft%25EF%25BD%259C%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I3NThjMWQ2NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "日本株のデイトレードBotを、実弾ゼロのドライランで検証しています。これまでに数百通りの改善案を試し、どれも基準を通りませんでした。 今回、その「通らなかった」の中に、合図の良し悪しではなく、売り方のせいで負けていたものが混ざっていたことに気づきました。この記事はその記録です。 記録していたのに、判断には使っていなかった このBotでは、証券会社(三菱UFJ eスマート証券)のkabuステーショ…"
+  },
+  {
+   "src": "zenn",
+   "title": "週間制限に3日で到達していたClaudeが、ModelとEffortの使い分けで5日持つようになった話",
+   "link": "https://zenn.dev/sun_asterisk/articles/1d1c65b1fe409a",
+   "date": 1794178805000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--IyeV95pt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%2580%25B1%25E9%2596%2593%25E5%2588%25B6%25E9%2599%2590%25E3%2581%25AB3%25E6%2597%25A5%25E3%2581%25A7%25E5%2588%25B0%25E9%2581%2594%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259FClaude%25E3%2581%258C%25E3%2580%2581Model%25E3%2581%25A8Effort%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A75%25E6%2597%25A5%25E6%258C%2581%25E3%2581%25A4%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Asutin%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M1YTU0ZjZiM2MuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Sun%252A%2520Developers%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTHRxVVk1YmtyaGtyRE9SdzlCN0g5ckdRU3kyQVlTbUtDaUFQUWF4X2xsd3BZYk5nPXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 結論から言うと、Claude Codeの利用制限に毎週引っかかる原因は「使いすぎ」ではなく「設定の当て方」でした。モデルとEffortを工程ごとに使い分けただけで、同じ仕事量でも利用枠の減りが大幅に遅くなりました。 私が試したのはClaude Codeですが、モデルとEffortを選べるのはチャット版のClaudeも同じです。しかもTeamプランでは、チャットとClaude Codeは…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeでクリスマスツリーのサイト「Deco My Tree」を作り直した話",
+   "link": "https://zenn.dev/decomytreeapp/articles/bd52352ac23f88",
+   "date": 1794176683000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--e7gyOnA4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2582%25AF%25E3%2583%25AA%25E3%2582%25B9%25E3%2583%259E%25E3%2582%25B9%25E3%2583%2584%25E3%2583%25AA%25E3%2583%25BC%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2580%258CDeco%2520My%2520Tree%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:decomytree%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmhYbW1FbEt3UlNXcTRPa0VpbDhjLUhyYzVKQmcxU25ReXBlTmN0eDg5YzhXVEo0cz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "昨年のクリスマスシーズンに約200万人が訪れた Deco My Tree を、今年は Claude Code でほぼ作り直しました。 どんなサービスか 自分のツリーを作ってリンクをシェアすると、友だちがメッセージ入りのプレゼントを飾ってくれます。メッセージが開くのは12月25日です。メッセージを書く側はアプリもアカウントもいりません。 構成 静的ページとAPIは Cloudflare Worke…"
+  },
+  {
    "src": "hn",
    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
    "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 763 # Comments: 408"
+  },
+  {
+   "src": "reddit",
+   "title": "Holy guardrails",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xr45rt/holy_guardrails/",
+   "date": 1794159668000,
+   "img": "https://preview.redd.it/40hivrdddf0i1.jpeg?width=640&crop=smart&auto=webp&s=555ebfeeb5d490608c5febc4e5a9d1a7972fba14",
+   "desc": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when tr…"
   },
   {
    "src": "reddit",
@@ -466,14 +474,6 @@
    "date": 1793669146000,
    "img": "",
    "desc": "What's changed - Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them - Added a check that asks before a web or shell tool call se…"
-  },
-  {
-   "src": "reddit",
-   "title": "A Solo Developer Built This in 4 Days With Opus 5.5 + Godot. This Is Getting Ridiculous",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xmdih0/a_solo_developer_built_this_in_4_days_with_opus/",
-   "date": 1793663263000,
-   "img": "https://external-preview.redd.it/ZDY0dDcybDlkYXpoMayc8jaO5cH_nsyVLfq1kjhS9XTATUAyKfSdo-EQwVDm.png?width=640&crop=smart&auto=webp&s=d6f4fc84bc8e07bcb2ac0291b80d487ce0858aeb",
-   "desc": "This is a playable horror level inspired by Silent Hill and Fatal Frame, built solo in four days using Opus 5.5, Godot, and AI-generated 3D assets. - Team: One solo developer. - Background: Experienc…"
   },
   {
    "src": "reddit",
