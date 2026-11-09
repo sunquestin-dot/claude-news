@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794187257949,
+ "updatedAt": 1794193077807,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code 2.1.309〜318まとめ：claude -pが黙って成功しなくなり、ultrathinkはxhighに",
-   "link": "https://qiita.com/sakutto-panda/items/b46486a625bdc78ea4bb",
-   "date": 1794186907000,
+   "title": "AIエージェントに GitHub を任せたら、アカウントが凍結された話と再発防止策",
+   "link": "https://qiita.com/maya-bot/items/e55814b7cae0a74349d5",
+   "date": 1794192256000,
    "img": "",
-   "desc": "3 行まとめ 2026年10月22日〜11月4日の Claude Code（v2.1.309〜v2.1.318）は、claude -p の「失敗したのに exit 0」を潰す修正がいくつも入った。cron や CI で無人実行しているなら、この期間の更新がいちばん効く ..."
+   "desc": "AIエージェントに GitHub の作業を任せていたら、ある日アカウントが凍結（停止）されました。 この記事では、何が起きたのか、どう申し立てたのか、そして同じことを起こさないために何を変えるのかをまとめます。 AIエージェントに「全部やっておいて」と頼み始めた人に、先に知..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code で \"Claude's response exceeded the 32000 output token maximum\" が出たときの直し方(CLAUDE_CODE_MAX_OUTPUT_TOKENS と分割指示)",
-   "link": "https://qiita.com/homhom44/items/9d35b8c4aa0461043200",
-   "date": 1794185464000,
+   "title": "「次から聞かない」で許したコマンドのパスワードは、どこに残るのか。Claude Code・Codex・Gemini CLI で試したら、プロジェクトの中に書くのは1つだけだった",
+   "link": "https://qiita.com/suwa_nobu/items/8ecef4e3b495e91b4eb8",
+   "date": 1794191125000,
    "img": "",
-   "desc": "Claude Code で長い出力の途中に API Error: Claude's response exceeded the 32000 output token maximum. と出て止まったときの手順です。まず continue と送って続きを出させ、同じことが繰り..."
+   "desc": "2026年11月8日の朝（日本時間）、Hacker News に「Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files」という投稿が出ました。 Claude Code の..."
   },
   {
    "src": "qiita",
-   "title": "Mac で使っている Claude Code のフックを Windows に持っていくと動かない所(python3・matcher の PowerShell・試しの入力はファイル経由・BOM)",
-   "link": "https://qiita.com/takamatt_ai/items/d745c1c432add1d63590",
-   "date": 1794183677000,
+   "title": "Claude Code の「Yes, and don't ask again」はパスワードごと設定に残る。自分のマシンで少なくとも 74 件見つかった",
+   "link": "https://qiita.com/Nekorock/items/065e4b9c19785fd42d90",
+   "date": 1794190501000,
    "img": "",
-   "desc": "この記事を読み終えると、Mac で動いている Claude Code のフックを Windows のノートに移すときに、何を書き換えて、どう試せば「止まるはずが止まっていない」を防げるかがわかります。 根拠は、手元の Windows 11 のノートで、フック2本に偽の入力を..."
+   "desc": "Claude Code の確認で「Yes, and don't ask again」を選ぶと、そのコマンドが許可ルールとして設定ファイルに保存されます。PGPASSWORD='…' psql … のようにパスワードを含むコマンドなら、パスワードもそのままの文字列で残ります。..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code 2.1.311入門、claude mcpで直ったのは表示だけだった",
-   "link": "https://qiita.com/kai_kou/items/008ebf5a97228aaa4429",
-   "date": 1794183019000,
+   "title": "「自作ゲームエンジンあれこれ」更新が止まった10か月、私は何をしていたのか 中篇",
+   "link": "https://qiita.com/Karasu2yomi/items/6fb19eac2b92a7fe0e54",
+   "date": 1794189535000,
    "img": "",
-   "desc": "はじめに Claude Code 2.1.310 では、Git リポジトリのサブディレクトリから claude mcp add を実行すると、最後に次の行が出ます。 File modified: /.claude.json [project: /r..."
+   "desc": "0x03 第4段階：初歩のHarness Engineering なぜ20日目まで AGENTS.md を導入しなかったのか Codexが正式にGYOの開発に加わってから、AGENTS.md を導入するまでに、20日ほどかかりました。きっかけは、前篇で触れたArchit..."
   },
   {
    "src": "hn",
@@ -81,7 +81,23 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 582 # Comments: 354"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 631 # Comments: 363"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code で見積作成を工程に分ける — CLAUDE.md、rules、agent、scripts の役割分担",
+   "link": "https://zenn.dev/carecraft/articles/claude-code-estimate-workflow",
+   "date": 1794161646000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--q1uDBQiI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A7%25E8%25A6%258B%25E7%25A9%258D%25E4%25BD%259C%25E6%2588%2590%25E3%2582%2592%25E5%25B7%25A5%25E7%25A8%258B%25E3%2581%25AB%25E5%2588%2586%25E3%2581%2591%25E3%2582%258B%2520%25E2%2580%2594%2520CLAUDE.md%25E3%2580%2581rules%25E3%2580%2581agent%25E3%2580%2581scripts%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E9%2587%258E%25EF%25BC%25A0CareCraft%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc3MDdiM2MzMmQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "システム開発の見積もりを Claude Code で作るときに、作業を工程に分け、CLAUDE.md、rules、agent、scripts に役割を割り当てる構成を紹介します。 見積もりの作成には、資料を読む、情報を抽出する、不明点を洗い出す、積算する、体制を考える、WBS を作る、まとめる、という複数の工程があります。これを一度の指示で任せると、どこで何を判断したのかが追いにくくなります。そ…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeのトークンを減らす7つの習慣：公式ドキュメントで確かめ、CLAUDE.mdを半分近くに減らした",
+   "link": "https://zenn.dev/shinai/articles/claude-code-token-saving-7habits",
+   "date": 1794161231000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--_9SP3ecv--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E3%2582%2592%25E6%25B8%259B%25E3%2582%2589%25E3%2581%25997%25E3%2581%25A4%25E3%2581%25AE%25E7%25BF%2592%25E6%2585%25A3%25EF%25BC%259A%25E5%2585%25AC%25E5%25BC%258F%25E3%2583%2589%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25A1%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A7%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2580%2581CLAUDE.md%25E3%2582%2592%25E5%258D%258A%25E5%2588%2586%25E8%25BF%2591%25E3%2581%258F%25E3%2581%25AB%25E6%25B8%259B%25E3%2582%2589%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25B7%25E3%2583%25B3%2540AI%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RhNjFjM2JhMDkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code を毎日使っていると、週の利用上限に先に当たるのは「作業量」より「無駄に読ませた量」だったりします。公式のコスト管理ページ（Manage costs effectively）では、企業での導入例の平均は開発者1人・稼働日1日あたり 約$13（月 $150〜250）、90%のユーザーは1日 $30未満 とされています。これはAPIの費用の目安で、サブスクの追加請求額や週の利用…"
   },
   {
    "src": "zenn",
@@ -97,7 +113,7 @@
    "link": "https://zenn.dev/hoshinotsuyoshi/articles/52f707d4de485d",
    "date": 1794154234000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--YCeXiwkH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25B4%25A2%25E5%25BC%2595%25E3%2582%2592%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259A%25E3%2581%25AB%2520Claude%2520Code%2520%25E3%2581%25A8%2520codex%2520%25E3%2581%25AE%25E9%2581%258E%25E5%258E%25BB%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E6%258E%25A2%25E3%2581%2599%2520session-grep%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hoshinotsuyoshi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2c5ZDgwZ3l0akF1UnlQREJ5cHdLdWNqLVhiVE1JQllEazhBNUFpM2c9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "一言で: ~/.claude/projects と ~/.codex/sessions の jsonl を rg で直接読む CLI を作った。 語を含むセッションごとに「何の話か」と再開コマンドを出す。 Claude Code の skill として agent からも呼ぶ。 前提: hoshinotsuyoshi/session-grep (2026-11-09 時点でpublic)。 動か…"
+   "desc": "一言で: ~/.claude/projects と ~/.codex/sessions の jsonl を rg で直接読む CLI を作った。 語を含むセッションごとに「何の話か」と再開コマンドを出す。 Claude Code の skill として agent からも呼ぶ。 前提: hoshinotsuyoshi/session-grep (2026-11-09 時点で public)。 動…"
   },
   {
    "src": "zenn",
@@ -228,22 +244,6 @@
    "desc": "「AIにコードを書かせるなら、型のあるTypeScriptのほうが安心」。よく聞く話ですし、私もなんとなくそう思っていました。型検査が間違いを教えてくれるぶん、AIも正しいコードにたどり着きやすいはずです。 でも、本当にそうなのでしょうか。AIが書くとき、静的型付け（TypeScript）と動的型付け（JavaScript）で、残るバグの数は本当に変わるのか。 きっかけは、Yusuke Endo…"
   },
   {
-   "src": "zenn",
-   "title": "4K じゃない外部モニターの文字を Retina みたいにくっきりさせる Mac アプリ「Mitame」を作った",
-   "link": "https://zenn.dev/synchrium_dev/articles/bd973fbd21a07b",
-   "date": 1794129717000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--rMZrEKIB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:4K%2520%25E3%2581%2598%25E3%2582%2583%25E3%2581%25AA%25E3%2581%2584%25E5%25A4%2596%25E9%2583%25A8%25E3%2583%25A2%25E3%2583%258B%25E3%2582%25BF%25E3%2583%25BC%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E3%2582%2592%2520Retina%2520%25E3%2581%25BF%25E3%2581%259F%25E3%2581%2584%25E3%2581%25AB%25E3%2581%258F%25E3%2581%25A3%25E3%2581%258D%25E3%2582%258A%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2520Mac%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2580%258CMitame%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:synchrium%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "フルHD や WQHD の外部モニターでも、Mac の文字を Retina のようにくっきり表示するメニューバーアプリ「Mitame」を作って、ベータ版を公開しました。無料・オープンソース（MIT）です。 https://github.com/synchrium/Mitame 名前は「見た目」から。前に作った書庫のアプリ Nakami（中身）と対になる名前にしました。今回も Claude Cod…"
-  },
-  {
-   "src": "zenn",
-   "title": "公式アプリが毎週進化しても、T3 Codeを使う理由は残るか",
-   "link": "https://zenn.dev/53able/articles/57952c1982de3d",
-   "date": 1794128641000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--8B2RoqDS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25AC%25E5%25BC%258F%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%258C%25E6%25AF%258E%25E9%2580%25B1%25E9%2580%25B2%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E3%2582%2582%25E3%2580%2581T3%2520Code%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2586%25E7%2590%2586%25E7%2594%25B1%25E3%2581%25AF%25E6%25AE%258B%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:53able%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFiZWE2OGI5M2YuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ターミナルから始まったコーディングエージェント コーディングエージェントは、最初はターミナルで使う道具でした。Anthropicは2025年2月24日、Claude 3.7 Sonnetと同時に、コマンドラインで動くClaude Codeを発表しました。OpenAIも2025年4月に、ターミナルで動くCodex CLIを公開しています。 https://www.anthropic.com/new…"
-  },
-  {
    "src": "status",
    "title": "Degraded performance for Claude Fable 5.1",
    "link": "https://status.claude.com/incidents/kw2lxj1th04c",
@@ -273,7 +273,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 696 # Comments: 429"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 708 # Comments: 438"
   },
   {
    "src": "hn",
@@ -281,7 +281,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 584 # Comments: 395"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 594 # Comments: 402"
   },
   {
    "src": "reddit",
@@ -313,7 +313,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 318 # Comments: 623"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 318 # Comments: 624"
   },
   {
    "src": "reddit",
@@ -369,7 +369,15 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1601 # Comments: 532"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1602 # Comments: 532"
+  },
+  {
+   "src": "reddit",
+   "title": "I built a 3D globe for my two boys with Claude Code. It got way more love than I expected, so here's how it's grown.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xou90f/i_built_a_3d_globe_for_my_two_boys_with_claude/",
+   "date": 1793912678000,
+   "img": "https://external-preview.redd.it/a3Q5NjdjN2N6dXpoMbgGY618Kun_ShlpmzGy-tHEmZX09GsuYcjFSedhPLYv.png?width=640&crop=smart&auto=webp&s=4142d66e7f8bf7193cbce652a643d446f2412f7c",
+   "desc": "A little while ago, I shared a small interactive globe I'd been building for my two boys, aged 9 and 6. I'm just a dad with no coding background, and I built the whole thing with Claude Code (Opus 5.…"
   },
   {
    "src": "reddit",
@@ -452,6 +460,14 @@
    "desc": "What's changed - Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them - Added a check that asks before a web or shell tool call se…"
   },
   {
+   "src": "reddit",
+   "title": "Opus 5.5 medium with blender mcp is insane with the right prompting",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xmcwbt/opus_55_medium_with_blender_mcp_is_insane_with/",
+   "date": 1793661695000,
+   "img": "https://preview.redd.it/95i9r8sp7azh1.jpeg?width=140&height=87&auto=webp&s=11a269cc326ac09b2cf44d88e90c286365d1d432",
+   "desc": "I've been experimenting with Opus 5.5 Medium and Blender for a medieval game dev project I'm working on, and the results have been fantastic. I tried using Blender with Claude in the past and wasn't …"
+  },
+  {
    "src": "hn",
    "title": "Anthropic's growth just flattened",
    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
@@ -524,22 +540,6 @@
    "desc": "i honestly just dont see the point. a lot of people are saying its like a \"second brain\" but i tried it, and in my opinion, it just adds a ton of unnecesary fluff and ui. the alternative that i have …"
   },
   {
-   "src": "reddit",
-   "title": "“Now fix all mistakes you’ve made”",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xllzsf/now_fix_all_mistakes_youve_made/",
-   "date": 1793587995000,
-   "img": "https://external-preview.redd.it/azlhbWp1d3Q1NHpoMbFbbKwiA0QDr91GYoAKnLdpwLW6iyyRS1A9vy3WO8nh.png?width=640&crop=smart&auto=webp&s=9f32f419f11333ca4abfe156abaf8a3b5efd47ff",
-   "desc": "Seriously though I did start off being very careful but Opus5.5 just keeps getting it right, I can’t help but trust it more than I should. Anyone else find themselves slipping into this pattern? subm…"
-  },
-  {
-   "src": "reddit",
-   "title": "Opus 5.5 surviving the entire October AI release cycle 😂",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xlkghv/opus_55_surviving_the_entire_october_ai_release/",
-   "date": 1793583414000,
-   "img": "https://external-preview.redd.it/OWdxMGJobzhzM3poMdxjX-GahTXJ19uxJOTzbS5B9K2crQer2XNiKUd00dBv.png?width=640&crop=smart&auto=webp&s=4f5c93a1fbe89f2dc190a66c9b537515483f4e7c",
-   "desc": "I'm curious to know what you guys think. For those using Claude Code regularly, is Opus 5.5 still your go-to model? Or has your experience changed over the past month? Credit: Video shared by TekonBu…"
-  },
-  {
    "src": "research",
    "title": "Progress on provable inference for large language models",
    "link": "https://www.anthropic.com/research/provable-inference",
@@ -561,7 +561,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 495 # Comments: 273"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 496 # Comments: 273"
   },
   {
    "src": "claude-code",
@@ -617,7 +617,7 @@
    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "date": 1793344152000,
    "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1011 # Comments: 553"
+   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1012 # Comments: 553"
   },
   {
    "src": "claude-code",
