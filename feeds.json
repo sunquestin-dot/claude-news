@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794197227308,
+ "updatedAt": 1794201452445,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code の「許可待ち」を Windows のトースト通知で知る",
+   "link": "https://qiita.com/je-pu-pu/items/b4052bc0b68e3a3f1de2",
+   "date": 1794200265000,
+   "img": "",
+   "desc": "———「その『実行していいですか？』、10 分前から出てました」——— Claude Code に長めの作業を任せ、その間に別のウィンドウで調べ物をする。きりのいいところで戻ってくると、画面は静かに止まっています。 私が待っている間、向こうも待っていたわけです。 Field..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code への「指示の技術」【連載：Claude Code で環境構築 2】",
@@ -66,54 +74,6 @@
    "date": 1794192256000,
    "img": "",
    "desc": "AIエージェントに GitHub の作業を任せていたら、ある日アカウントが凍結（停止）されました。 この記事では、何が起きたのか、どう申し立てたのか、そして同じことを起こさないために何を変えるのかをまとめます。 AIエージェントに「全部やっておいて」と頼み始めた人に、先に知..."
-  },
-  {
-   "src": "qiita",
-   "title": "「次から聞かない」で許したコマンドのパスワードは、どこに残るのか。Claude Code・Codex・Gemini CLI で試したら、プロジェクトの中に書くのは1つだけだった",
-   "link": "https://qiita.com/suwa_nobu/items/8ecef4e3b495e91b4eb8",
-   "date": 1794191125000,
-   "img": "",
-   "desc": "2026年11月8日の朝（日本時間）、Hacker News に「Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files」という投稿が出ました。 Claude Code の..."
-  },
-  {
-   "src": "zenn",
-   "title": "デイトレの合図の逆をやっても負けた。負けていたのは合図ではなく、売り方だった",
-   "link": "https://zenn.dev/codecraft/articles/signal-vs-execution-spread",
-   "date": 1794179187000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--NswBgTq7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2587%25E3%2582%25A4%25E3%2583%2588%25E3%2583%25AC%25E3%2581%25AE%25E5%2590%2588%25E5%259B%25B3%25E3%2581%25AE%25E9%2580%2586%25E3%2582%2592%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E8%25B2%25A0%25E3%2581%2591%25E3%2581%259F%25E3%2580%2582%25E8%25B2%25A0%25E3%2581%2591%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E5%2590%2588%25E5%259B%25B3%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258F%25E3%2580%2581%25E5%25A3%25B2%25E3%2582%258A%25E6%2596%25B9%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CodeCraft%25EF%25BD%259C%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I3NThjMWQ2NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "日本株のデイトレードBotを、実弾ゼロのドライランで検証しています。これまでに数百通りの改善案を試し、どれも基準を通りませんでした。 今回、その「通らなかった」の中に、合図の良し悪しではなく、売り方のせいで負けていたものが混ざっていたことに気づきました。この記事はその記録です。 記録していたのに、判断には使っていなかった このBotでは、証券会社(三菱UFJ eスマート証券)のkabuステーショ…"
-  },
-  {
-   "src": "zenn",
-   "title": "週間制限に3日で到達していたClaudeが、ModelとEffortの使い分けで5日持つようになった話",
-   "link": "https://zenn.dev/sun_asterisk/articles/1d1c65b1fe409a",
-   "date": 1794178805000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--IyeV95pt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%2580%25B1%25E9%2596%2593%25E5%2588%25B6%25E9%2599%2590%25E3%2581%25AB3%25E6%2597%25A5%25E3%2581%25A7%25E5%2588%25B0%25E9%2581%2594%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259FClaude%25E3%2581%258C%25E3%2580%2581Model%25E3%2581%25A8Effort%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A75%25E6%2597%25A5%25E6%258C%2581%25E3%2581%25A4%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Asutin%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M1YTU0ZjZiM2MuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Sun%252A%2520Developers%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTHRxVVk1YmtyaGtyRE9SdzlCN0g5ckdRU3kyQVlTbUtDaUFQUWF4X2xsd3BZYk5nPXM5Ni1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 結論から言うと、Claude Codeの利用制限に毎週引っかかる原因は「使いすぎ」ではなく「設定の当て方」でした。モデルとEffortを工程ごとに使い分けただけで、同じ仕事量でも利用枠の減りが大幅に遅くなりました。 私が試したのはClaude Codeですが、モデルとEffortを選べるのはチャット版のClaudeも同じです。しかもTeamプランでは、チャットとClaude Codeは…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeでクリスマスツリーのサイト「Deco My Tree」を作り直した話",
-   "link": "https://zenn.dev/decomytreeapp/articles/bd52352ac23f88",
-   "date": 1794176683000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--e7gyOnA4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E3%2582%25AF%25E3%2583%25AA%25E3%2582%25B9%25E3%2583%259E%25E3%2582%25B9%25E3%2583%2584%25E3%2583%25AA%25E3%2583%25BC%25E3%2581%25AE%25E3%2582%25B5%25E3%2582%25A4%25E3%2583%2588%25E3%2580%258CDeco%2520My%2520Tree%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:decomytree%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmhYbW1FbEt3UlNXcTRPa0VpbDhjLUhyYzVKQmcxU25ReXBlTmN0eDg5YzhXVEo0cz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "昨年のクリスマスシーズンに約200万人が訪れた Deco My Tree を、今年は Claude Code でほぼ作り直しました。 どんなサービスか 自分のツリーを作ってリンクをシェアすると、友だちがメッセージ入りのプレゼントを飾ってくれます。メッセージが開くのは12月25日です。メッセージを書く側はアプリもアカウントもいりません。 構成 静的ページとAPIは Cloudflare Worke…"
-  },
-  {
-   "src": "zenn",
-   "title": "Tech Watch 2026-11-09: 記憶を確かめるエージェント",
-   "link": "https://zenn.dev/laiken/articles/20261109-tech-watch",
-   "date": 1794176110000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--dSseJU6X--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-09%253A%2520%25E8%25A8%2598%25E6%2586%25B6%25E3%2582%2592%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2582%258B%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 作業中に書いたメモが、翌日の自分を誤った方向へ導くことがある。エージェントの記憶も同じなら、保存する量より、後から確かめられることが大切なのかもしれない。記憶を増やす仕組みと、記憶を疑う仕組みはどう組み合わせればいい？ 今日の 10 件 The components of agent memory …"
-  },
-  {
-   "src": "zenn",
-   "title": "AIへの指摘は差分の行に書けば届く：hunk のノートを Claude Code に読ませて直す",
-   "link": "https://zenn.dev/zundamon_tools/articles/hunk-review-notes-claude-code",
-   "date": 1794175944000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--BSKVyfC4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25B8%25E3%2581%25AE%25E6%258C%2587%25E6%2591%2598%25E3%2581%25AF%25E5%25B7%25AE%25E5%2588%2586%25E3%2581%25AE%25E8%25A1%258C%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%2591%25E3%2581%25B0%25E5%25B1%258A%25E3%2581%258F%25EF%25BC%259Ahunk%2520%25E3%2581%25AE%25E3%2583%258E%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25AB%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259B%25E3%2581%25A6%25E7%259B%25B4%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259A%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2582%25E3%2582%2593%25E3%2581%25AE%25E5%25AE%259F%25E9%25A8%2593%25E9%2581%2593%25E5%2585%25B7%25E7%25AE%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJiNGRhMmQyODEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI に書かせた変更をレビューしていて、見つけた指摘をファイル名と行番号ごとチャットへ打ち直していませんか。 ターミナルの差分ビューア hunk で行にノートを3つ書き、Claude Code には「hunk のノートを読んで直して」とだけ頼みました。2回試して2回とも、場所を言わずに3か所すべて直り、頼んでいないテストも足されました。 試すなら、気になる行で c を押して指摘を書き、同じ1行を…"
   },
   {
    "src": "zenn",
@@ -145,7 +105,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 660 # Comments: 381"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 677 # Comments: 382"
   },
   {
    "src": "zenn",
@@ -244,6 +204,46 @@
    "desc": "Projects とは Claude Code の Projects は、2026年9月17日にベータ版が出た機能です。統括役の Claude と1つの会話をするだけで、Claude が作業を「スレッド」に分けて並列に進め、進み具合までまとめて管理してくれます。 これまで Claude Code で複数の作業を同時に進めるときは、セッションを自分でいくつも開き、まとめ役を自分でやる必要がありまし…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Code のトレンド週報を監査したら、数字は合っていたのに結論がズレていた話",
+   "link": "https://zenn.dev/udm/articles/claude-code-trend-report-audit-1108",
+   "date": 1794142698000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--x1gU-8xb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2589%25E9%2580%25B1%25E5%25A0%25B1%25E3%2582%2592%25E7%259B%25A3%25E6%259F%25BB%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%2595%25B0%25E5%25AD%2597%25E3%2581%25AF%25E5%2590%2588%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AB%25E7%25B5%2590%25E8%25AB%2596%25E3%2581%258C%25E3%2582%25BA%25E3%2583%25AC%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:UD%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE1NzNjOTJjNjguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code のサブエージェントに調査を任せて、週1回のレポートを作っています。配布する前に出来を確かめようと、1本目のレポートを原文と照合しました。 出典が付いていて、数字も合っていたのに、いちばん目立つ結論は出典で確かめられませんでした。 調査やレポートをサブエージェントに任せていて、出てきた結論をどこまで信じていいか迷っている人に向けて、踏んだ落とし穴を書きます。 TL;DR 照…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code / Codex の worktree 準備と後片付けを自動化する「Worktree Xelith」",
+   "link": "https://zenn.dev/happy_onigiri/articles/c23d9fc90f3ca0",
+   "date": 1794141527000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ZVRxoT1L--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%252F%2520Codex%2520%25E3%2581%25AE%2520worktree%2520%25E6%25BA%2596%25E5%2582%2599%25E3%2581%25A8%25E5%25BE%258C%25E7%2589%2587%25E4%25BB%2598%25E3%2581%2591%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2580%258CWorktree%2520Xel...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:HappyOnigiri%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UwODJmYWU1NTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI エージェントを使うたびに増える worktree の管理 AI エージェントに実装を任せることで、複数の作業を並行して進めやすくなりました。 ただ、同じディレクトリで複数のエージェントが編集すると、互いの変更が干渉することがあります。 Git worktree を使えば、エージェントの作業場所を手元の作業から分けられます。 ただ、そのたびに利用する環境を選び、準備して、最後に片付ける管理が…"
+  },
+  {
+   "src": "zenn",
+   "title": "無課金で動かすClaude Code ： VRAM 12G × 125B級モデル ＋ WEB検索機能",
+   "link": "https://zenn.dev/gsun/articles/94c9f300f8437f",
+   "date": 1794140452000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--7LHu86rg--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2584%25A1%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%25A7%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599Claude%2520Code%2520%25EF%25BC%259A%2520VRAM%252012G%2520%25C3%2597%2520125B%25E7%25B4%259A%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%2520%25EF%25BC%258B%2520WEB%25E6%25A4%259C%25E7%25B4%25A2%25E6%25A9%259F%25E8%2583%25BD%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E7%25A5%259E%25E8%25B0%25B7%2520%25E5%2595%2593%25E6%2588%2590%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Y2ZTk4YWNjZDAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに API利用料なし。検証環境はRTX 3060 12GB＋RAM 80GBです。 ３つのパートに分けて説明します。 必要なところだけ目を通していただければと思います。 Part1: Claude Code で Strata × Qwen3.8-Flash-Next で無課金運用 Part2: Strata単独使用でWEB検索MCPサーバーの搭載 Part3: WEB検索MCPを Clau…"
+  },
+  {
+   "src": "zenn",
+   "title": "MacBook の蓋を閉じると Claude Code が止まるのはなぜか：caffeinate と pmset で確かめた",
+   "link": "https://zenn.dev/keepmacawake/articles/b5e50830870345",
+   "date": 1794137868000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--eDuAzXA0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:MacBook%2520%25E3%2581%25AE%25E8%2593%258B%25E3%2582%2592%25E9%2596%2589%25E3%2581%2598%25E3%2582%258B%25E3%2581%25A8%2520Claude%2520Code%2520%25E3%2581%258C%25E6%25AD%25A2%25E3%2581%25BE%25E3%2582%258B%25E3%2581%25AE%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%259C%25E3%2581%258B%25EF%25BC%259Acaffeinate%2520%25E3%2581%25A8%2520pmset%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Keep%2520Mac%2520Awake%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSXlxVzVVbmtkTWpuMGdPenVXaV91NE91MlNrVDZ6ZTR6d2prNHVESEpMRGNqZjVnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "蓋を閉じた MacBook で、Claude Code の長いタスクを最後まで走らせたい。そう考えて調べると、「caffeinate を使えばよい」という答えと「蓋を閉じたら結局止まる」という答えの両方が見つかります。どちらも条件次第で正しいので、この記事では macOS のスリープの種類ごとに、何が効いて何が効かないのかを、Apple のドキュメントと実際のコマンド出力で整理します。 ! この…"
+  },
+  {
+   "src": "zenn",
+   "title": "全セル同じなのに重複として出ない — ハッシュはバイト列の同一性しか答えていない",
+   "link": "https://zenn.dev/shinsei99/articles/hash-missed-the-duplicate",
+   "date": 1794137344000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--MSLoU6xZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25A8%25E3%2582%25BB%25E3%2583%25AB%25E5%2590%258C%25E3%2581%2598%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E9%2587%258D%25E8%25A4%2587%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E5%2587%25BA%25E3%2581%25AA%25E3%2581%2584%2520%25E2%2580%2594%2520%25E3%2583%258F%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2581%25AF%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2588%25E5%2588%2597%25E3%2581%25AE%25E5%2590%258C%25E4%25B8%2580%25E6%2580%25A7%25E3%2581%2597%25E3%2581%258B%25E7%25AD%2594%25E3%2581%2588%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shinsei99%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDFIemt6WnZnMEhrd2xxWktJaFhkV1A2TnVHcEE2d3pSNlhnMWpmUXV0VHJqUGZwSFg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "共有フォルダに溜まった約2万2千件の書類から、消してよい重複を機械で洗い出しました。 最初に決めた線は単純です。 名前でも日付でもなく、中身のバイト列が完全に一致したものだけを重複と呼ぶ 名前が違っても拾えるので、まったく無関係な名前の2本が同一で13か所に散っている、といった組も見つかりました。この線は半分は正しく、半分は間違っていました。 本稿はその間違った半分、つまり ハッシュ一致という判…"
+  },
+  {
    "src": "status",
    "title": "Degraded performance for Claude Fable 5.1",
    "link": "https://status.claude.com/incidents/kw2lxj1th04c",
@@ -273,7 +273,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 713 # Comments: 443"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 720 # Comments: 446"
   },
   {
    "src": "hn",
@@ -281,7 +281,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 596 # Comments: 405"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 596 # Comments: 406"
   },
   {
    "src": "reddit",
@@ -313,7 +313,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 318 # Comments: 625"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 319 # Comments: 625"
   },
   {
    "src": "reddit",
