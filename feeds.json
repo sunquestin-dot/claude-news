@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794251152084,
+ "updatedAt": 1794254564114,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "claude-code",
+   "title": "v2.1.321",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+   "date": 1794252150000,
+   "img": "",
+   "desc": "What's changed - Added Claude Fable 5.2 ( claude-fable-5-2 ), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads - Added --settings <file> to claude remote-control …"
+  },
   {
    "src": "qiita",
    "title": "ひとりで作るOSSを、チームの基準でレビューする（Codex・Claude・CodeRabbit）",
@@ -244,12 +252,28 @@
    "desc": "Semi - new Claude user here. I had my old iPhone se that would not boot into anything, restore, ramdisk, nothing. Got to a point where I thought the nand had failed as it'd kernel panic or just die i…"
   },
   {
+   "src": "news",
+   "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": 1794182400000,
+   "img": "",
+   "desc": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences."
+  },
+  {
+   "src": "research",
+   "title": "Testing Claude on real-world electronics design",
+   "link": "https://www.anthropic.com/research/claude-electronics-design",
+   "date": 1794182400000,
+   "img": "",
+   "desc": "We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its f…"
+  },
+  {
    "src": "hn",
    "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 856 # Comments: 462"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 873 # Comments: 469"
   },
   {
    "src": "reddit",
@@ -297,7 +321,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 792 # Comments: 480"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 800 # Comments: 483"
   },
   {
    "src": "hn",
@@ -305,7 +329,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 618 # Comments: 415"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 621 # Comments: 417"
   },
   {
    "src": "reddit",
@@ -337,7 +361,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 321 # Comments: 631"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 322 # Comments: 631"
   },
   {
    "src": "reddit",
@@ -844,14 +868,6 @@
    "desc": "Oct 22 , 08:07 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Oct 22 , 07:28 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai and Claude C…"
   },
   {
-   "src": "claude-code",
-   "title": "v2.1.308",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
-   "date": 1792643695000,
-   "img": "",
-   "desc": "What's changed - Bug fixes and reliability improvements"
-  },
-  {
    "src": "news",
    "title": "Open call for guest investigators in the life sciences",
    "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
@@ -898,14 +914,6 @@
    "date": 1792601093000,
    "img": "",
    "desc": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the …"
-  },
-  {
-   "src": "hn",
-   "title": "Using Claude to reduce the attack surface of code",
-   "link": "https://www.anthropic.com/research/attack-surface-reduction",
-   "date": 1792553803000,
-   "img": "",
-   "desc": "Article URL: https://www.anthropic.com/research/attack-surface-reduction Comments URL: https://news.ycombinator.com/item?id=50175779 Points: 137 # Comments: 91"
   },
   {
    "src": "news",
@@ -1314,14 +1322,6 @@
    "date": 1787788800000,
    "img": "",
    "desc": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanc…"
-  },
-  {
-   "src": "news",
-   "title": "Expanding our support for scientists",
-   "link": "https://www.anthropic.com/news/expanding-support-for-scientists",
-   "date": 1787788800000,
-   "img": "",
-   "desc": "Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to…"
   },
   {
    "src": "youtube",
