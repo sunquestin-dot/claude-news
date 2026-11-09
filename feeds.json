@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794216175197,
+ "updatedAt": 1794222473935,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AIが書いた記事・本の事実確認は、主張を3種類に分けてやる。私が断定しすぎた2つの記述と、直した手順(Claude Code)",
-   "link": "https://qiita.com/mugenweb/items/4a82883cff8de148e5b5",
-   "date": 1794210027000,
+   "title": "法人のヒアリングから「次の打ち合わせで見せる試作品」までのチェックリスト ― お困りごとを1つに絞り、Claude Code・Codexで形にして、契約書を結んでから渡す",
+   "link": "https://qiita.com/TOSHIMITSU_MIYACHI/items/936f11ff4e30d7f03841",
+   "date": 1794222383000,
    "img": "",
-   "desc": "Claude Codeに手伝ってもらって、Zennの記事や本、Kindle本を出しています。Zennは、AIの利用を認めたうえで、公開前に著者自身が内容の正確さを確かめることを求めています(Zennのコンテンツ方針)。 その方針に沿って見直したところ、自分の本の中に、断定し..."
+   "desc": "株式会社AI Orchestraのみやっち🧑‍💻です。Web系のフリーランスが法人向けのAIコンサルで最初の1件を受注するまでの道のりを、YouTubeの動画1本にまとめました。 この記事は、動画のステップ3「お困りごとをヒアリング」とステップ4「頼まれなくても形にする」の..."
   },
   {
    "src": "qiita",
-   "title": "AIに書かせた技術書の「事実」を、保存した公式ドキュメントと1行ずつ機械で照合する（607行・不一致0にした仕組み）",
-   "link": "https://qiita.com/Hinamina3/items/eea2c41d42218a6ef8ef",
-   "date": 1794209663000,
+   "title": "Claude Codeの承認ルールから秘密を掃除する手順｜settings.local.jsonを棚卸しして、pre-commitで止める",
+   "link": "https://qiita.com/Tomcat-zhou/items/2aa6afaa12175471d824",
+   "date": 1794217578000,
    "img": "",
-   "desc": "この記事で分かること Claude Code に技術書（Kindle の電子書籍）の原稿を書かせたとき、本文の「事実」が公式ドキュメントと合っているかを、主張1つ＝1行の表にして、Python で機械的に照らし合わせた仕組みです。 本文の主張ごとに「根拠の文」（公式ペー..."
+   "desc": "title: \"Claude Codeの承認ルールから秘密を掃除する手順｜settings.local.jsonを棚卸しして、pre-commitで止める\" tags: - ClaudeCode - セキュリティ - Git - シークレット管理 - ..."
   },
   {
    "src": "qiita",
-   "title": "Herdr で感じていた複数エージェント管理の限界を Stream Deck で突破してみた",
-   "link": "https://qiita.com/misu007/items/d8ab7f87e3df82c6e284",
-   "date": 1794208986000,
+   "title": "Pi（OSSコーディングエージェント）を試す前の安全点検｜npmを--ignore-scriptsで取得し、実行前に静的チェックする手順",
+   "link": "https://qiita.com/Tomcat-zhou/items/ca4ce46c3ef5b1292986",
+   "date": 1794217196000,
    "img": "",
-   "desc": "最近、Claude Code、Codex などのコーディングエージェントを動かす環境として、Herdr を愛用しています。Herdr を使うと、ターミナル上で複数エージェントを複数プロジェクトに跨り、並行で起動・管理するのが非常に楽になります。 今回、物理デバイス Stre..."
+   "desc": "title: \"Pi（OSSコーディングエージェント）を試す前の安全点検｜npmを--ignore-scriptsで取得し、実行前に静的チェックする手順\" tags: - AIエージェント - npm - Pi - ClaudeCode - セキュリテ..."
   },
   {
    "src": "qiita",
-   "title": "【Claude Code×ゲーム制作】動物の写真からAIがカードを作るゲームで、\"強さ\"だけはAIに決めさせなかった",
-   "link": "https://qiita.com/fromage_sea/items/38089d4cbdb28130fc4a",
-   "date": 1794208921000,
+   "title": "Claude Code の claude -p は、書き込みを断られても終了コード 0 で終わる — スクリプトからは出力とファイルで判定する",
+   "link": "https://qiita.com/chuki_dx/items/bfbb6c0878ef23c80b1d",
+   "date": 1794217154000,
    "img": "",
-   "desc": "はじめに NTT東日本の藤田です。 ※本記事は、個人の趣味で開発したゲームについて書いたものです。所属組織の業務やサービスとは関係ありません。 動物の写真からAI（Claude Haiku 5.5）がカードを作り、そのカードでCPUと対戦するWebゲームを作りました。この..."
+   "desc": "結論 Claude Code(Anthropic のターミナルで動く AI コーディングエージェント)を claude -p(非対話モード)でスクリプトから呼ぶと、ファイルの書き込みが権限の確認や設定で断られても、終了コードは 0 でした。--output-format ..."
   },
   {
    "src": "zenn",
