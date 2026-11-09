@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794230748156,
+ "updatedAt": 1794236771095,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "【検証】mirror-registryの証明書は1年で切れる。自前の50年証明書に差し替えてみた",
-   "link": "https://qiita.com/shun_ishiuda/items/e51998e8be8e7b3f165f",
-   "date": 1794229745000,
+   "title": "Qiitaの記事をGitHubで管理して、Claude Codeと一緒に書く",
+   "link": "https://qiita.com/hanamaru_nyaa/items/0a59e8a693a2fc16c756",
+   "date": 1794236437000,
    "img": "",
-   "desc": "はじめに この記事はClaude Codeによって生成されています。 目的 閉域網のOpenShiftでは、Red Hatのmirror-registry(Quayの簡易版)をよく使います。インストーラーが証明書を自動で作ってくれますが、期限を見たらサーバー証明書が1年弱..."
+   "desc": "はじめに こんにちは、エンジニア2年目のはなまるです！ Qiitaの記事、ブラウザのエディタで書いていませんか？ 私は、手元のエディタで書きたいと思っていました。 それに、不自然な日本語の修正や、学んだことからの記事のたたき台づくりを任せられるように、Claude Cod..."
   },
   {
    "src": "qiita",
-   "title": "閉域網のOpenShiftとOCP-V上のVMをZabbixで監視する(構成・設定値まとめ)",
-   "link": "https://qiita.com/shun_ishiuda/items/9cc05fdd9a37c3849d5d",
-   "date": 1794229731000,
+   "title": "Gitea Actions + Argo CDで、OpenShiftにpushから数秒で反映されるCI/CDを組む",
+   "link": "https://qiita.com/shun_ishiuda/items/bcd0e3cda5822a7e95b8",
+   "date": 1794236121000,
    "img": "",
-   "desc": "はじめに この記事はClaude Codeによって生成されています。 目的 閉域網のOpenShiftを、クラスタの外にあるZabbixサーバーから監視します。 公式のZabbix Helm chartで、ノードとクラスタの状態を監視する OpenShift標準のPro..."
+   "desc": "はじめに この記事はClaude Codeによって生成されています。 目的 自宅ラボのOpenShift(SNO)上で、CI/CDの一連の流れを組みました。 Gitへpushすると、テスト → イメージのビルド → レジストリへのpush が自動で走る(CI) マニフェ..."
   },
   {
    "src": "qiita",
-   "title": "【まとめ】OpenShift(oc-mirror v2 / mirror-registry)を運用してハマった罠と対処 総集編",
-   "link": "https://qiita.com/shun_ishiuda/items/96de242666384ad6f6b9",
-   "date": 1794229715000,
+   "title": "RHCOSのLive ISOはopenshift-installから取得URLを引く(ファイル名を決め打ちしない)",
+   "link": "https://qiita.com/shun_ishiuda/items/8bd62734074435ad57d6",
+   "date": 1794236024000,
    "img": "",
-   "desc": "はじめに AIによる作業および記事を作成しています。 切断環境(Airgap)のOpenShiftで、oc-mirror v2とmirror-registry(Quayベース)を使っていて遭遇した罠と対処をまとめます。「同じ罠を踏まないためのチェックリスト」として読めるよ..."
+   "desc": "はじめに この記事はClaude Codeによって生成されています。 目的 OpenShiftをベアメタルやVMに入れるとき、RHCOS(Red Hat Enterprise Linux CoreOS)のLive ISOが必要になることがあります。ミラーサイトからファイル..."
   },
   {
    "src": "qiita",
-   "title": "dev.to自動投稿で日本語タイトルが残る症状を3段階で検査",
-   "link": "https://qiita.com/orca-forge/items/7343412ba22b31411c46",
-   "date": 1794229235000,
+   "title": "GitHubのコミットにClaudeのアイコンが並ぶのはなぜ？Co-Authored-Byの正体とattribution設定での消し方",
+   "link": "https://qiita.com/hanamaru_nyaa/items/2c9b829f676b1ef3514d",
+   "date": 1794233613000,
    "img": "",
-   "desc": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。 日本語の記事を英訳して dev.to に自動投稿する環境で、タイトルと説明が日本語のまま公開されました。本文は英語でも、一部のコードブロックには日本語が残り、別の記事では誤訳やタグの重..."
+   "desc": "はじめに こんにちは、エンジニア2年目のはなまるです！ Claude Codeにコミットを任せていると、GitHubのコミット一覧に見慣れないアイコンが並んでいることに気づきませんか？ 自分のリポジトリなのに、隣にClaudeのアイコンが…… 私は正直、邪魔なので消したい..."
   },
   {
    "src": "zenn",
