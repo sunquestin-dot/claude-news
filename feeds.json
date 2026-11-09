@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794264938853,
+ "updatedAt": 1794268143821,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -45,19 +45,19 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Codeのコンテキスト枯渇を防ぐ「Thin Orchestrator」設計 — 親は読まない、パスだけ渡す",
+   "link": "https://qiita.com/joinclass/items/7159dea2ad9280ff27ac",
+   "date": 1794267008000,
+   "img": "",
+   "desc": "はじめに：会話の途中から急に指示を守らなくなった 当社（合同会社ジョインクラス）は、Claude Codeで10部門分のAIエージェントを動かして会社を回しています。launchdジョブは17個以上あり、記事公開・営業パイプライン・朝のダイジェストまでほぼ自動です。 ただ..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Codeで最近使っているTips【2026/11】",
    "link": "https://qiita.com/oikon48/items/9ac870cbabf23b819ba3",
    "date": 1794261674000,
    "img": "",
    "desc": "Oikonです。 気がつけば2026年も終わりが見えてきました。今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。 Claude Code実践入門 [生成AI深掘りガイド]（SBクリエイティブ） Claude Code実践レシピ集（技術..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeで最近使っているTips【2026/11】",
-   "link": "https://zenn.dev/oikon/articles/claude-code-recipe",
-   "date": 1794261665000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Oceq9aco--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E6%259C%2580%25E8%25BF%2591%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258BTips%25E3%2580%25902026%252F11%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Oikon%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYyMTkzODY4NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Oikonです。 気がつけば2026年も終わりが見えてきました。今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。 Claude Code実践入門 [生成AI深掘りガイド]（SBクリエイティブ） Claude Code実践レシピ集（技術評論社） 新刊のClaude Code実践レシピ集は、個人的に好きなClaude CodeのTipsをベースに、割と好き勝手に書か…"
   },
   {
    "src": "qiita",
@@ -74,22 +74,6 @@
    "date": 1794259970000,
    "img": "",
    "desc": "Claude Code の画面下に Context low (% remaining) · Run /compact to compact & continue や % until auto-compact と出たときの読み方です。エラーではなく、会話が窓いっぱ..."
-  },
-  {
-   "src": "zenn",
-   "title": "Bluetooth イヤホンのタップだけで Claude に日本語で音声入力する（Windows 10）",
-   "link": "https://zenn.dev/biglat80/articles/earbud-tap-claude-voice-input",
-   "date": 1794254858000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--kJj55ReU--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Bluetooth%2520%25E3%2582%25A4%25E3%2583%25A4%25E3%2583%259B%25E3%2583%25B3%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%2583%25E3%2583%2597%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%2520Claude%2520%25E3%2581%25AB%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25A7%25E9%259F%25B3%25E5%25A3%25B0%25E5%2585%25A5%25E5%258A%259B%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588Windows%252010%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:biglat80%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSl9Gb2RNTW9jZ1lrVHJlX0JMUy1oSkhVa1lkNWNjUlRNX1RpRWhkc2FZVEhHaUN3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code に指示を出すたびにキーボードを触るのが面倒で、Bluetooth イヤホンをタップしたら音声入力が始まり、話し終わったら自動で送信される仕組みを作りました。最終的に、操作は次の3つだけになりました。 イヤホンの操作 動き 1回タップ 音声入力を開始。黙って3秒たつと止まり、自動で送信 ダブルタップ 次のセッションへ移動 トリプルタップ 前のセッションへ移動 たどり着くまで…"
-  },
-  {
-   "src": "zenn",
-   "title": "CodeRabbit の再レビューを Fable に任せる、Claude Code のスキルを作った",
-   "link": "https://zenn.dev/sk8jp/articles/40fa8d6f466924",
-   "date": 1794254820000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--qbylPSXK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CodeRabbit%2520%25E3%2581%25AE%25E5%2586%258D%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%2520Fable%2520%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:YAZ%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSThuekJzVGpOdUdqdXplU0tYcDc0c0F2WTFQS3JNQWp4ekJyQzZPQmtUNFEyT2F0Sm09czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」と、その後日談「「クラウドに移したい」と相談したら、Claude Code に止められた話」で、CodeRabbit へのレビューの依頼を、Claude Code のスキルで順番に並べて出していると書きました。 この記事は、その続きです。プランを上げても CodeRabbit のレビ…"
   },
   {
    "src": "hn",
@@ -114,14 +98,6 @@
    "date": 1794250797000,
    "img": "",
    "desc": "Still no newsroom post from Anthropic though. Edit: Just kidding, it finally popped up: https://www.anthropic.com/claude-fable-and-mythos-5-2 Edit 2: Holy shit, I got *three* resets. Apparently just …"
-  },
-  {
-   "src": "qiita",
-   "title": "ひとりで作るOSSを、チームの基準でレビューする（Codex・Claude・CodeRabbit）",
-   "link": "https://qiita.com/figueiredoluiz/items/1a043190d8f00d2ebda6",
-   "date": 1794241482000,
-   "img": "",
-   "desc": "はじめに テストの重複を検出する静的解析ツールを、2つひとりでメンテナンスしている。Vitest向けの vitest-dedup と、Cucumber/Gherkin向けの cuke-dedup だ。どちらもRustで書かれていて、npmとGitHub Actionで配布..."
   },
   {
    "src": "zenn",
@@ -258,6 +234,30 @@
    "date": 1794211123000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--rFtkfvfC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25A4%2596%25E3%2581%25AE%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25A8%25E5%2590%258C%25E3%2581%2598%25201%2520%25E6%259C%25AC%25E3%2581%25AE%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258F%25E5%258F%25A3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:jokooooo%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2VhMjE4ODI1ZDkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "記録を残さない作業はレーンに出てこない 前回の記事（Claude Code と Codex の「自分の番」を、hooks とローカルの記録から拾う）では、AI が人を待っている瞬間を拾う話を書きました。 その仕組みで拾えるのは、手元にセッションの記録を書き、hooks を持つツールだけです。使っているうちに、レーンに出てこない作業のほうが気になってきました。 たとえば夜に回す書き出しのスクリプト…"
+  },
+  {
+   "src": "zenn",
+   "title": "OWASP Top 10 を個人開発アプリに当てはめた記録",
+   "link": "https://zenn.dev/super_yumenosan/articles/7e49ea8e5ddd2f",
+   "date": 1794210957000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--PeS6w_nf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:OWASP%2520Top%252010%2520%25E3%2582%2592%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AB%25E5%25BD%2593%25E3%2581%25A6%25E3%2581%25AF%25E3%2582%2581%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A4%25A2%25E4%25B9%2583%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3pwY0NiZERlNWs4Z1Y0OU5VcDJZMFFaaHlYUWlFQWVVNHVORWFYYWNYbHNQazZIajU9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは、Yumeno です。 フリーランスでエンジニアをしながら、AI駆動開発について学んでいます。最近はClaude Codeを相棒に、友人のお店向けの小さなアプリケーションを作成いたしました。 作るところまでは、AI のおかげで思ったより進みました。でも、いざ公開しようとしたときに「これ、セキュリティは大丈夫なんだろうか」と手が止まりました。この記事は、その不安に学習中の私がどう向き合っ…"
+  },
+  {
+   "src": "zenn",
+   "title": "日本語のファイル名10種でtext=Trueの文字化けを試した",
+   "link": "https://zenn.dev/ai_jarvis/articles/bc7a15aabab8ea",
+   "date": 1794209473000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--vR9rB10M--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E5%2590%258D10%25E7%25A8%25AE%25E3%2581%25A7text%253DTrue%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%258C%2596%25E3%2581%2591%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%2520Jarvis%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG5fTExLQkV1VlNrWlE4bV93QjBEMHNEaTFLN2pMRHQ3ZmRqektwYnJVZ2NhNG42UT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Windows の Python で subprocess.run(..., text=True) を使い、日本語のファイル名を受け取ると、例外で止まったり、気づかないうちに別の文字へ化けたりします。以下では、subprocess を呼ぶ側の Python を「親」、呼ばれて名前を出力するもう1つの Python を「子」と呼びます。環境は日本語 Windows の既定であるコードページ932（…"
+  },
+  {
+   "src": "zenn",
+   "title": "【JBUG東京#30】Backlogの使い方より「Claudeの統制」と「非エンジニアへの届け方」を聞かれた",
+   "link": "https://zenn.dev/nexta_/articles/fc0f8504acb1f6",
+   "date": 1794208213000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--PTbcc2q8--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590JBUG%25E6%259D%25B1%25E4%25BA%25AC%252330%25E3%2580%2591Backlog%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25E3%2582%2588%25E3%2582%258A%25E3%2580%258CClaude%25E3%2581%25AE%25E7%25B5%25B1%25E5%2588%25B6%25E3%2580%258D%25E3%2581%25A8%25E3%2580%258C%25E9%259D%259E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%25B8%25E3%2581%25AE%25E5%25B1%258A%25E3%2581%2591%25E6%2596%25B9%25E3%2580%258D%25E3%2582%2592%25E8%2581%259E%25E3%2581%258B%25E3%2582%258C%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Ayaka%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U0ZGE2N2U3OWYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Nexta%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M4MGM4MWE2NzcuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは、QAエンジニアのAyakaです。 2026年11月6日、ヌーラボの東京事務所で開かれたJBUG東京#30に、ユーザー事例として登壇してきました。テーマは「Backlog活用事例とAIで考える、これからのチームのかたち」。 話した中身は別の記事に書いたので、ここでは当日の記録と、聞かれたことと、持ち帰ったことを書きます。 https://zenn.dev/nexta_/articles…"
   },
   {
    "src": "reddit",
