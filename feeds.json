@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794201452445,
+ "updatedAt": 1794209894470,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,51 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code の「許可待ち」を Windows のトースト通知で知る",
-   "link": "https://qiita.com/je-pu-pu/items/b4052bc0b68e3a3f1de2",
-   "date": 1794200265000,
+   "title": "AIに書かせた技術書の「事実」を、保存した公式ドキュメントと1行ずつ機械で照合する（607行・不一致0にした仕組み）",
+   "link": "https://qiita.com/Hinamina3/items/eea2c41d42218a6ef8ef",
+   "date": 1794209663000,
    "img": "",
-   "desc": "———「その『実行していいですか？』、10 分前から出てました」——— Claude Code に長めの作業を任せ、その間に別のウィンドウで調べ物をする。きりのいいところで戻ってくると、画面は静かに止まっています。 私が待っている間、向こうも待っていたわけです。 Field..."
+   "desc": "この記事で分かること Claude Code に技術書（Kindle の電子書籍）の原稿を書かせたとき、本文の「事実」が公式ドキュメントと合っているかを、主張1つ＝1行の表にして、Python で機械的に照らし合わせた仕組みです。 本文の主張ごとに「根拠の文」（公式ペー..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code への「指示の技術」【連載：Claude Code で環境構築 2】",
-   "link": "https://qiita.com/dsol_y_matsuda/items/3b9d896c5643aa925278",
-   "date": 1794196882000,
+   "title": "Herdr で感じていた複数エージェント管理の限界を Stream Deck で突破してみた",
+   "link": "https://qiita.com/misu007/items/d8ab7f87e3df82c6e284",
+   "date": 1794208986000,
    "img": "",
-   "desc": "はじめに NTT ドコモソリューションズの松田と申します。 本連載「Claude Code で環境構築」では、実際に使用するサーバの環境構築を Claude Code を活用して自動化する中で得られた気付きやノウハウをまとめていきます。 AI エージェントに環境構築を任せ..."
+   "desc": "最近、Claude Code、Codex などのコーディングエージェントを動かす環境として、Herdr を愛用しています。Herdr を使うと、ターミナル上で複数エージェントを複数プロジェクトに跨り、並行で起動・管理するのが非常に楽になります。 今回、物理デバイス Stre..."
   },
   {
    "src": "qiita",
-   "title": "育成就労制度の設計検証 ― 財源幻想と多文化共生の強制の交差点 : システム設計視点の行動経済学 (59)",
-   "link": "https://qiita.com/maskot1977/items/706817bb6501d322bbb5",
-   "date": 1794195434000,
+   "title": "【Claude Code×ゲーム制作】動物の写真からAIがカードを作るゲームで、\"強さ\"だけはAIに決めさせなかった",
+   "link": "https://qiita.com/fromage_sea/items/38089d4cbdb28130fc4a",
+   "date": 1794208921000,
    "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第59回を始めましょう。その前に、まず前回の復習として、 機能したシステム再設計 ― フィードバックループの修復事例 : システム設計視点の行動経済学 (58) https://qiita.com/maskot1977/ite..."
+   "desc": "はじめに NTT東日本の藤田です。 ※本記事は、個人の趣味で開発したゲームについて書いたものです。所属組織の業務やサービスとは関係ありません。 動物の写真からAI（Claude Haiku 5.5）がカードを作り、そのカードでCPUと対戦するWebゲームを作りました。この..."
   },
   {
    "src": "qiita",
-   "title": "AIエージェントに GitHub を任せたら、アカウントが凍結された話と再発防止策",
-   "link": "https://qiita.com/maya-bot/items/e55814b7cae0a74349d5",
-   "date": 1794192256000,
+   "title": "別の Claude Code セッションが作業中の git ツリーを hook はどう見分けるか：checkout-guard の実装",
+   "link": "https://qiita.com/dooly6276/items/d802b7b9626c73e06775",
+   "date": 1794202377000,
    "img": "",
-   "desc": "AIエージェントに GitHub の作業を任せていたら、ある日アカウントが凍結（停止）されました。 この記事では、何が起きたのか、どう申し立てたのか、そして同じことを起こさないために何を変えるのかをまとめます。 AIエージェントに「全部やっておいて」と頼み始めた人に、先に知..."
-  },
-  {
-   "src": "zenn",
-   "title": "Rust で疎ボリュームのライブラリ brodo を Claude Code と作った",
-   "link": "https://zenn.dev/akahmys/articles/454a729a00401f",
-   "date": 1794175625000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--U0ZprV6f--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Rust%2520%25E3%2581%25A7%25E7%2596%258E%25E3%2583%259C%25E3%2583%25AA%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AE%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2596%25E3%2583%25A9%25E3%2583%25AA%2520brodo%2520%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25A8%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:akahmys%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKellkN0paQVpsc1MxRGxHdFBJamNhME92TXBuRFRPQlhMR0FkdnAzQT1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "brodo について brodo は 3 次元の疎なボリュームを扱う Rust のライブラリです。必要なボクセルにだけ値を持ち、ファイルに保存したものはコピーなしでそのまま読んだり、mmap したり、圧縮したりできます。OpenVDB の .vdb も読み書きできます。1.0.0 を crates.io に公開しました。 リポジトリにはクレートが三つあります。 brodo: VDB と同じ形の …"
-  },
-  {
-   "src": "zenn",
-   "title": "AIエージェントに自分の開発環境を作らせ続けた2か月",
-   "link": "https://zenn.dev/otar/articles/switchboard-own-dev-environment",
-   "date": 1794174068000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--1gGfL91K--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F2%25E3%2581%258B%25E6%259C%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:otar%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTC1yQmNydURCSmhBSE54SUpFN0VLdmRMaURtRnJLUndTc0xNUGVlMlloN3lVbVJBPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに Claude CodeとCodexを両方使っていると、ルールや設定がリポジトリごと・ツールごとに散らばる。合うツールを探して乗り換え続けるより、自分の開発環境を自分で作り、改善し続けたいと思った。 以前なら、個人の細かい要求に合わせて開発環境を作り込むのはコストが高すぎた。AIエージェントで、作るコストだけでなく、使いながら直すコストも下がってきたので、今ならできそうだと思った。旅行の…"
+   "desc": "Claude Code のセッションを worktree ごとに分けて並列で動かしていても、同じディレクトリで2つのセッションが動くことがあります。このとき一方が git checkout や git add -A を実行すると、もう一方の編集が消えたり、コミットに混ざった..."
   },
   {
    "src": "zenn",
@@ -213,10 +197,10 @@
   },
   {
    "src": "zenn",
-   "title": "Claude Code / Codex の worktree 準備と後片付けを自動化する「Worktree Xelith」",
+   "title": "worktree の管理を任せて AI エージェントで開発する「Worktree Xelith」",
    "link": "https://zenn.dev/happy_onigiri/articles/c23d9fc90f3ca0",
    "date": 1794141527000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ZVRxoT1L--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%252F%2520Codex%2520%25E3%2581%25AE%2520worktree%2520%25E6%25BA%2596%25E5%2582%2599%25E3%2581%25A8%25E5%25BE%258C%25E7%2589%2587%25E4%25BB%2598%25E3%2581%2591%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2580%258CWorktree%2520Xel...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:HappyOnigiri%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UwODJmYWU1NTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--S1RpHcvN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:worktree%2520%25E3%2581%25AE%25E7%25AE%25A1%25E7%2590%2586%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%25A6%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A7%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2599%25E3%2582%258B%25E3%2580%258CWorktree%2520Xelith%25E3%2580%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:HappyOnigiri%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UwODJmYWU1NTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI エージェントを使うたびに増える worktree の管理 AI エージェントに実装を任せることで、複数の作業を並行して進めやすくなりました。 ただ、同じディレクトリで複数のエージェントが編集すると、互いの変更が干渉することがあります。 Git worktree を使えば、エージェントの作業場所を手元の作業から分けられます。 ただ、そのたびに利用する環境を選び、準備して、最後に片付ける管理が…"
   },
   {
@@ -242,6 +226,22 @@
    "date": 1794137344000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--MSLoU6xZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25A8%25E3%2582%25BB%25E3%2583%25AB%25E5%2590%258C%25E3%2581%2598%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E9%2587%258D%25E8%25A4%2587%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E5%2587%25BA%25E3%2581%25AA%25E3%2581%2584%2520%25E2%2580%2594%2520%25E3%2583%258F%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2581%25AF%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2588%25E5%2588%2597%25E3%2581%25AE%25E5%2590%258C%25E4%25B8%2580%25E6%2580%25A7%25E3%2581%2597%25E3%2581%258B%25E7%25AD%2594%25E3%2581%2588%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shinsei99%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDFIemt6WnZnMEhrd2xxWktJaFhkV1A2TnVHcEE2d3pSNlhnMWpmUXV0VHJqUGZwSFg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "共有フォルダに溜まった約2万2千件の書類から、消してよい重複を機械で洗い出しました。 最初に決めた線は単純です。 名前でも日付でもなく、中身のバイト列が完全に一致したものだけを重複と呼ぶ 名前が違っても拾えるので、まったく無関係な名前の2本が同一で13か所に散っている、といった組も見つかりました。この線は半分は正しく、半分は間違っていました。 本稿はその間違った半分、つまり ハッシュ一致という判…"
+  },
+  {
+   "src": "zenn",
+   "title": "PCのスリープでAIの家計チームが止まった。毎月・毎朝の自動実行で3つつまずいた話",
+   "link": "https://zenn.dev/dice_k_lab/articles/kakei-agent-team-schedule",
+   "date": 1794137300000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--kttCCDYN--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:PC%25E3%2581%25AE%25E3%2582%25B9%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%2597%25E3%2581%25A7AI%25E3%2581%25AE%25E5%25AE%25B6%25E8%25A8%2588%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%258C%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582%25E6%25AF%258E%25E6%259C%2588%25E3%2583%25BB%25E6%25AF%258E%25E6%259C%259D%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%25A73%25E3%2581%25A4%25E3%2581%25A4%25E3%2581%25BE%25E3%2581%259A%25E3%2581%2584%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Dice-K-%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2VmODVlMGM2M2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは、Dice-K-ラボです。 前回の記事では、わが家の家計の整理を、AIエージェントの「チーム」に手伝ってもらっている話を書きました。 https://zenn.dev/dice_k_lab/articles/kakei-agent-team-overview 今回は、そのチームを決まった時間に自動で動かす話です。使っているのはClaude Code（Anthropic社のAIツール）と…"
+  },
+  {
+   "src": "zenn",
+   "title": "危ないPRだけ人間が見て、レビューはAIにお任せ。AI自動レビューツール作りました",
+   "link": "https://zenn.dev/karamage/articles/f59f4109030d93",
+   "date": 1794135687000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--rddX_UFv--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258D%25B1%25E3%2581%25AA%25E3%2581%2584PR%25E3%2581%25A0%25E3%2581%2591%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%258C%25E8%25A6%258B%25E3%2581%25A6%25E3%2580%2581%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25AFAI%25E3%2581%25AB%25E3%2581%258A%25E4%25BB%25BB%25E3%2581%259B%25E3%2580%2582AI%25E8%2587%25AA%25E5%258B%2595%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E4%25BD%259C%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:karamage%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc0NTAwMmJiMzQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "大量のPRのレビューで疲弊していませんか？ Claude CodeにPRを先にレビューさせて、危ないPRだけ自分に回すデスクトップアプリ「CC Auto Review」を作りました。 https://karamage.github.io/cc-auto-review/ja/ コードも公開しています https://github.com/karamage/cc-auto-review このツールを…"
   },
   {
    "src": "status",
