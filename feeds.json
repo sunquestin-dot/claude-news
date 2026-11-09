@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794181522842,
+ "updatedAt": 1794187257949,
  "sources": {
   "news": {
    "ok": true,
@@ -45,19 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "「禁止」ではなく「手順」で書くCLAUDE.md — 指示の効き方が変わる書き分け",
-   "link": "https://qiita.com/joinclass/items/2b7bba656995a34e3e66",
-   "date": 1794180602000,
+   "title": "Claude Code 2.1.309〜318まとめ：claude -pが黙って成功しなくなり、ultrathinkはxhighに",
+   "link": "https://qiita.com/sakutto-panda/items/b46486a625bdc78ea4bb",
+   "date": 1794186907000,
    "img": "",
-   "desc": "はじめに：禁止リストを増やすほどAIが迷った 当社（合同会社ジョインクラス）は、出版・マーケ・営業などの定常業務をClaude Codeとシェルスクリプトで回しています。その中心にあるのが CLAUDE.md です。 過去に僕は、事故が起きるたびに CLAUDE.md へ..."
+   "desc": "3 行まとめ 2026年10月22日〜11月4日の Claude Code（v2.1.309〜v2.1.318）は、claude -p の「失敗したのに exit 0」を潰す修正がいくつも入った。cron や CI で無人実行しているなら、この期間の更新がいちばん効く ..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeで株式投資のバックテストを自動化した【Yahoo Finance MCP × Notion】",
-   "link": "https://qiita.com/okikusan-public/items/f468381c5a2c21311bda",
-   "date": 1794176599000,
+   "title": "Claude Code で \"Claude's response exceeded the 32000 output token maximum\" が出たときの直し方(CLAUDE_CODE_MAX_OUTPUT_TOKENS と分割指示)",
+   "link": "https://qiita.com/homhom44/items/9d35b8c4aa0461043200",
+   "date": 1794185464000,
    "img": "",
-   "desc": "はじめに AIに株を分析してもらっても、最後は自分が迷っている。 「今は買っていいのか」「下がったけれど売るべきか」「もう少し待った方がいいのか」。 これまでClaude Codeでスクリーニングや分析を自動化してきましたが、分析が詳しくなっても、日々の判断にかかる負担は..."
+   "desc": "Claude Code で長い出力の途中に API Error: Claude's response exceeded the 32000 output token maximum. と出て止まったときの手順です。まず continue と送って続きを出させ、同じことが繰り..."
+  },
+  {
+   "src": "qiita",
+   "title": "Mac で使っている Claude Code のフックを Windows に持っていくと動かない所(python3・matcher の PowerShell・試しの入力はファイル経由・BOM)",
+   "link": "https://qiita.com/takamatt_ai/items/d745c1c432add1d63590",
+   "date": 1794183677000,
+   "img": "",
+   "desc": "この記事を読み終えると、Mac で動いている Claude Code のフックを Windows のノートに移すときに、何を書き換えて、どう試せば「止まるはずが止まっていない」を防げるかがわかります。 根拠は、手元の Windows 11 のノートで、フック2本に偽の入力を..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code 2.1.311入門、claude mcpで直ったのは表示だけだった",
+   "link": "https://qiita.com/kai_kou/items/008ebf5a97228aaa4429",
+   "date": 1794183019000,
+   "img": "",
+   "desc": "はじめに Claude Code 2.1.310 では、Git リポジトリのサブディレクトリから claude mcp add を実行すると、最後に次の行が出ます。 File modified: /.claude.json [project: /r..."
   },
   {
    "src": "hn",
@@ -65,23 +81,31 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 532 # Comments: 322"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 582 # Comments: 354"
   },
   {
-   "src": "qiita",
-   "title": "11/8 の公式ドキュメント更新：フックの権限判定まわりの明文化",
-   "link": "https://qiita.com/akihidem/items/bc39e8ce2a5fecede796",
-   "date": 1794160502000,
-   "img": "",
-   "desc": "2026-11-08 に更新されたのは Claude Code の Hooks reference だけです。追加文は、フックが権限の流れに介入したときに何が起きるかを補う内容に集中しています。具体的には、書き換えた入力の再評価、許可時と拒否時に返せるフィールド、決定を返さ..."
+   "src": "zenn",
+   "title": "Herdr.app の Agents で子 agent が重複表示されるのを上流の修正の先取りで直した",
+   "link": "https://zenn.dev/hoshinotsuyoshi/articles/01f916d7b3738e",
+   "date": 1794154812000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--8RJrUYl7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Herdr.app%2520%25E3%2581%25AE%2520Agents%2520%25E3%2581%25A7%25E5%25AD%2590%2520agent%2520%25E3%2581%258C%25E9%2587%258D%25E8%25A4%2587%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25E3%2581%25AE%25E3%2582%2592%25E4%25B8%258A%25E6%25B5%2581%25E3%2581%25AE%25E4%25BF%25AE%25E6%25AD%25A3%25E3%2581%25AE%25E5%2585%2588%25E5%258F%2596%25E3%2582%258A%25E3%2581%25A7%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hoshinotsuyoshi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2c5ZDgwZ3l0akF1UnlQREJ5cHdLdWNqLVhiVE1JQllEazhBNUFpM2c9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "前提: Herdr.app 0.1.13 / hc (herdr-core) 0.1.18 で、 2026-11-08 時点。 扱うのは Herdr.app (herdr TUI とは別物)。 一言で: 左の Agents の親子表示で子が重複表示される既知バグを、 リリースを待たずに直した。 上流の PR を自分で複製した mod に移した。 Herdr.app と hc の上で Claude…"
   },
   {
-   "src": "qiita",
-   "title": "AI時代のエンジニアのキャリア判断基準：現場で減る仕事・残る仕事のチェックリスト",
-   "link": "https://qiita.com/engineer-first_GH/items/3f3903f1a92db9cae866",
-   "date": 1794156309000,
-   "img": "",
-   "desc": "この記事で分かること AI エージェント（Claude Code / GitHub Copilot）を使う現場で、AI に任せる工程と人間が残す工程 設計書の叩き台を AI に作らせるときの手順と、人間が見るべきポイント 「コードを書くだけ」から抜け出すための自己点検チ..."
+   "src": "zenn",
+   "title": "索引を作らずに Claude Code と codex の過去セッションを探す session-grepをつくった",
+   "link": "https://zenn.dev/hoshinotsuyoshi/articles/52f707d4de485d",
+   "date": 1794154234000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--YCeXiwkH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25B4%25A2%25E5%25BC%2595%25E3%2582%2592%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259A%25E3%2581%25AB%2520Claude%2520Code%2520%25E3%2581%25A8%2520codex%2520%25E3%2581%25AE%25E9%2581%258E%25E5%258E%25BB%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E6%258E%25A2%25E3%2581%2599%2520session-grep%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hoshinotsuyoshi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2c5ZDgwZ3l0akF1UnlQREJ5cHdLdWNqLVhiVE1JQllEazhBNUFpM2c9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "一言で: ~/.claude/projects と ~/.codex/sessions の jsonl を rg で直接読む CLI を作った。 語を含むセッションごとに「何の話か」と再開コマンドを出す。 Claude Code の skill として agent からも呼ぶ。 前提: hoshinotsuyoshi/session-grep (2026-11-09 時点でpublic)。 動か…"
+  },
+  {
+   "src": "zenn",
+   "title": "Herdr.app と hc の上で Claude Code の司令塔を回している",
+   "link": "https://zenn.dev/hoshinotsuyoshi/articles/c994c29833f36c",
+   "date": 1794153651000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--gMxZ-rrd--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Herdr.app%2520%25E3%2581%25A8%2520hc%2520%25E3%2581%25AE%25E4%25B8%258A%25E3%2581%25A7%2520Claude%2520Code%2520%25E3%2581%25AE%25E5%258F%25B8%25E4%25BB%25A4%25E5%25A1%2594%25E3%2582%2592%25E5%259B%259E%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hoshinotsuyoshi%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2c5ZDgwZ3l0akF1UnlQREJ5cHdLdWNqLVhiVE1JQllEazhBNUFpM2c9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Herdr.app と hc の上で Claude Code の司令塔を回している 前提: 2026-11 時点の個人の運用メモ。 Herdr.app 0.1.13 / hc (herdr-core) 0.1.18 / Claude Code 2.1.318。 一言で: 自分が話す相手は司令塔の Claude Code 1 体だけ。 ほかの agent の面倒は司令塔に見させる。 使っている道具…"
   },
   {
    "src": "zenn",
@@ -220,14 +244,6 @@
    "desc": "ターミナルから始まったコーディングエージェント コーディングエージェントは、最初はターミナルで使う道具でした。Anthropicは2025年2月24日、Claude 3.7 Sonnetと同時に、コマンドラインで動くClaude Codeを発表しました。OpenAIも2025年4月に、ターミナルで動くCodex CLIを公開しています。 https://www.anthropic.com/new…"
   },
   {
-   "src": "zenn",
-   "title": "自宅サーバーにClaude Codeを常駐させ、スマホから24時間指示を出す（Remote Control＋systemd）",
-   "link": "https://zenn.dev/samurai_works/articles/114a5e654ca295",
-   "date": 1794128345000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--GAKGQacs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%25AE%2585%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25ABClaude%2520Code%25E3%2582%2592%25E5%25B8%25B8%25E9%25A7%2590%25E3%2581%2595%25E3%2581%259B%25E3%2580%2581%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%258B%25E3%2582%258924%25E6%2599%2582%25E9%2596%2593%25E6%258C%2587%25E7%25A4%25BA%25E3%2582%2592%25E5%2587%25BA%25E3%2581%2599%25EF%25BC%2588Remote%2520Control%25EF%25BC%258Bsys...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:TAKA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "自宅の Linux サーバーに Claude Code を入れて常駐させ、外出先のスマホから「サーバー上の実ファイルを触る作業」を頼めるようにしました。ポート開放なし・VPN なしで動く構成です。 実際にセットアップしてハマったところも含めて、手順をまとめます。 ! 2026年11月時点の情報です。Claude Code は更新が速いので、画面や挙動が変わっている可能性があります。最新の公式ドキ…"
-  },
-  {
    "src": "status",
    "title": "Degraded performance for Claude Fable 5.1",
    "link": "https://status.claude.com/incidents/kw2lxj1th04c",
@@ -244,22 +260,6 @@
    "desc": "submitted by /u/Pulku [link] [comments]"
   },
   {
-   "src": "zenn",
-   "title": "人のレビューをどこに置くか ― 成果の式から考える",
-   "link": "https://zenn.dev/fitness_densuke/articles/2026-11-08-where-to-put-human-review",
-   "date": 1794126130000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--nD-8wf6e--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BA%25BA%25E3%2581%25AE%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258F%25E3%2581%258B%2520%25E2%2580%2595%2520%25E6%2588%2590%25E6%259E%259C%25E3%2581%25AE%25E5%25BC%258F%25E3%2581%258B%25E3%2582%2589%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tamtam%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg4YzUxYzNmMDQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 今、AI エージェントを使った開発は、かなり回せるようになってきたと思う。たとえば、仕様を決めたら、実装・テスト・動作確認の録画・PR までを AI が止まらずに作る流れはできている。仕様や工程ごとに人が確かめる流れも使っている。 一方で、開発するものの中には、失敗が許されにくい重い案件や、コア機能として外せない部分もある。認証・認可や決済が入るようなものだ。そうなると、守るべき性質が…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeの世界をオフィスにしてみた。AIエージェントを棒人間で可視化するOSSを公開",
-   "link": "https://zenn.dev/onecarat_tech/articles/cb1fac1a8ebae9",
-   "date": 1794124860000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--XDMLbL_h--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%25E4%25B8%2596%25E7%2595%258C%25E3%2582%2592%25E3%2582%25AA%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25B9%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%25E3%2580%2582AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%25A3%2592%25E4%25BA%25BA%25E9%2596%2593%25E3%2581%25A7%25E5%258F%25AF%25E8%25A6%2596%25E5%258C%2596%25E3%2581%2599%25E3%2582%258BOSS%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Onecarat%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJmNjYzYzI3YzIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 個人でローカルAIテキストエディタ「OnecaratEditor」を開発しています。 https://onecarat.dev/ 普段からClaude Codeを使って開発していますが、以前から思っていたことがあります。 「Claude Codeって、もう少し楽しく使えてもいいんじゃない？」 Claude Codeは非常に便利です。プログラムの作成だけでなく、調査、ファイル操作、テスト…"
-  },
-  {
    "src": "reddit",
    "title": "I built an infinite, self-evolving Backrooms with Opus 5.5. Even I don’t know what’s in it anymore",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xqp0p0/i_built_an_infinite_selfevolving_backrooms_with/",
@@ -273,7 +273,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 671 # Comments: 424"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 696 # Comments: 429"
   },
   {
    "src": "hn",
@@ -281,7 +281,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 575 # Comments: 390"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 584 # Comments: 395"
   },
   {
    "src": "reddit",
@@ -369,7 +369,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1601 # Comments: 531"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1601 # Comments: 532"
   },
   {
    "src": "reddit",
@@ -561,7 +561,7 @@
    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "date": 1793475559000,
    "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 495 # Comments: 272"
+   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 495 # Comments: 273"
   },
   {
    "src": "claude-code",
