@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794258080545,
+ "updatedAt": 1794261383193,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -44,20 +44,28 @@
  },
  "items": [
   {
-   "src": "zenn",
-   "title": "Bluetooth イヤホンのタップだけで Claude に日本語で音声入力する（Windows 10）",
-   "link": "https://zenn.dev/biglat80/articles/earbud-tap-claude-voice-input",
-   "date": 1794254858000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--kJj55ReU--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Bluetooth%2520%25E3%2582%25A4%25E3%2583%25A4%25E3%2583%259B%25E3%2583%25B3%25E3%2581%25AE%25E3%2582%25BF%25E3%2583%2583%25E3%2583%2597%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%2520Claude%2520%25E3%2581%25AB%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25A7%25E9%259F%25B3%25E5%25A3%25B0%25E5%2585%25A5%25E5%258A%259B%25E3%2581%2599%25E3%2582%258B%25EF%25BC%2588Windows%252010%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:biglat80%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSl9Gb2RNTW9jZ1lrVHJlX0JMUy1oSkhVa1lkNWNjUlRNX1RpRWhkc2FZVEhHaUN3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code に指示を出すたびにキーボードを触るのが面倒で、Bluetooth イヤホンをタップしたら音声入力が始まり、話し終わったら自動で送信される仕組みを作りました。最終的に、操作は次の3つだけになりました。 イヤホンの操作 動き 1回タップ 音声入力を開始。黙って3秒たつと止まり、自動で送信 ダブルタップ 次のセッションへ移動 トリプルタップ 前のセッションへ移動 たどり着くまで…"
+   "src": "qiita",
+   "title": "Claude Code v2.1.321 解説：Fable 5.2 既定化・MCP OAuth 漏えい修正・mods 権限変更",
+   "link": "https://qiita.com/picnic/items/52a4da888952b42d6fbd",
+   "date": 1794261032000,
+   "img": "",
+   "desc": "はじめに 2026-11-09 にリリースされた Claude Code v2.1.321 は、モデル追加・セキュリティ修正・権限まわりの仕様変更が重なった、見逃せないアップデートです。 Claude Fable 5.2（claude-fable-5-2）が追加され、..."
   },
   {
-   "src": "zenn",
-   "title": "CodeRabbit の再レビューを Fable に任せる、Claude Code のスキルを作った",
-   "link": "https://zenn.dev/sk8jp/articles/40fa8d6f466924",
-   "date": 1794254820000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--qbylPSXK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CodeRabbit%2520%25E3%2581%25AE%25E5%2586%258D%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%2520Fable%2520%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:YAZ%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSThuekJzVGpOdUdqdXplU0tYcDc0c0F2WTFQS3JNQWp4ekJyQzZPQmtUNFEyT2F0Sm09czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」と、その後日談「「クラウドに移したい」と相談したら、Claude Code に止められた話」で、CodeRabbit へのレビューの依頼を、Claude Code のスキルで順番に並べて出していると書きました。 この記事は、その続きです。プランを上げても CodeRabbit のレビ…"
+   "src": "qiita",
+   "title": "Claude Code の \"Context low (<n>% remaining)\" と \"<n>% until auto-compact\" の意味と、/compact の前にやっておくこと",
+   "link": "https://qiita.com/homhom44/items/1701938f933c53bace20",
+   "date": 1794259970000,
+   "img": "",
+   "desc": "Claude Code の画面下に Context low (% remaining) · Run /compact to compact & continue や % until auto-compact と出たときの読み方です。エラーではなく、会話が窓いっぱ..."
+  },
+  {
+   "src": "hn",
+   "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+   "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "date": 1794254695000,
+   "img": "",
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 108 # Comments: 59"
   },
   {
    "src": "claude-code",
@@ -68,6 +76,14 @@
    "desc": "What's changed - Added Claude Fable 5.2 ( claude-fable-5-2 ), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads - Added --settings <file> to claude remote-control …"
   },
   {
+   "src": "reddit",
+   "title": "Fable 5.2 just landed.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
+   "date": 1794250797000,
+   "img": "",
+   "desc": "Still no newsroom post from Anthropic though. Edit: Just kidding, it finally popped up: https://www.anthropic.com/claude-fable-and-mythos-5-2 Edit 2: Holy shit, I got *three* resets. Apparently just …"
+  },
+  {
    "src": "qiita",
    "title": "ひとりで作るOSSを、チームの基準でレビューする（Codex・Claude・CodeRabbit）",
    "link": "https://qiita.com/figueiredoluiz/items/1a043190d8f00d2ebda6",
@@ -76,108 +92,12 @@
    "desc": "はじめに テストの重複を検出する静的解析ツールを、2つひとりでメンテナンスしている。Vitest向けの vitest-dedup と、Cucumber/Gherkin向けの cuke-dedup だ。どちらもRustで書かれていて、npmとGitHub Actionで配布..."
   },
   {
-   "src": "zenn",
-   "title": "コードを一行も読まずに Flutter アプリを開発してみた ― 完全バイブコーディング実験の記録",
-   "link": "https://zenn.dev/daisuke7/articles/41940336b06cc7",
-   "date": 1794241085000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--dhAy1R2---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E4%25B8%2580%25E8%25A1%258C%25E3%2582%2582%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259A%25E3%2581%25AB%2520Flutter%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E9%2596%258B%25E7%2599%25BA%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2520%25E2%2580%2595%2520%25E5%25AE%258C%25E5%2585%25A8%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E5%25AE%259F%25E9%25A8%2593%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Daisuke%2520Sawada%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2lsUnZkZWRzaFlrY3BhYUJ3X282dkpJZHRaVEFPZGZpaEFQOGs0PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "スマホ用の麻雀アプリを、自分ではコードを一行も読まずに作った。2026 年 7 月から 11 月までの約 4 か月（ただし遊びなので隙間時間に少しずつ）。使ったのは Claude Code。 先に結論を書くと、コードを読まなくてもアプリは作れた。ただし「使って確かめる」「ルールを決める」「公開してよいか判断する」は最後まで人の仕事として残った。 失敗の方が情報量が多いので、この記事はそちらを厚め…"
-  },
-  {
    "src": "qiita",
    "title": "【検証】HPE CSI Operator(Alletra用CSIドライバー)最新版を閉域OpenShift 4.22にミラーしてインストールしてみた",
    "link": "https://qiita.com/shun_ishiuda/items/a66f7efb520bd5bcf8cf",
    "date": 1794238284000,
    "img": "",
    "desc": "はじめに この記事はClaude Codeによって生成されています。 HPE Alletra(6000/9000/MP)などHPEストレージをOpenShiftから使うためのHPE CSI Operator for OpenShiftを、インターネットに出られない閉域クラ..."
-  },
-  {
-   "src": "qiita",
-   "title": "バイブコーディングは業務で使えるのか？ 使う場面を見極める判断表",
-   "link": "https://qiita.com/sha44444/items/6cfa721d3b107799a244",
-   "date": 1794236871000,
-   "img": "",
-   "desc": "連載「業務SEのための仕様駆動開発」第7回 デモは速い。でも、業務システムも同じやり方で作ってよいのか Claude Codeなどで、雰囲気を伝えただけで動くものができあがるデモを見ると、その開発スピードには驚かされます。いわゆるバイブコーディングです。自分の手元でも..."
-  },
-  {
-   "src": "qiita",
-   "title": "Qiitaの記事をGitHubで管理して、Claude Codeと一緒に書く",
-   "link": "https://qiita.com/hanamaru_nyaa/items/0a59e8a693a2fc16c756",
-   "date": 1794236437000,
-   "img": "",
-   "desc": "はじめに こんにちは、エンジニア2年目のはなまるです！ Qiitaの記事、ブラウザのエディタで書いていませんか？ 私は、手元のエディタで書きたいと思っていました。 それに、不自然な日本語の修正や、学んだことからの記事のたたき台づくりを任せられるように、Claude Cod..."
-  },
-  {
-   "src": "zenn",
-   "title": "Ubuntuの日本語音声入力アプリを作った",
-   "link": "https://zenn.dev/sal9000/articles/koe-ubuntu-voice-input",
-   "date": 1794235823000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--zferTupZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Ubuntu%25E3%2581%25AE%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E9%259F%25B3%25E5%25A3%25B0%25E5%2585%25A5%25E5%258A%259B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:SAL9000%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlMzg1YjQ5YTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "僕は普段、MacBook と Ubuntu を半々くらいで使っています。Ubuntu のほうは開発用のマシンで、GPU を使ってローカル LLM を動かす推論用のマシンも兼ねています。 Mac では、Aqua Voice という AI 音声入力をよく使っています。話した内容が、句読点の入った読める文章として入力される音声入力ソフトです。Ubuntu でも同じように使いたくて探したのですが、日本語…"
-  },
-  {
-   "src": "zenn",
-   "title": "Grok Botの代わりに、手元のClaude Code CLIをそのままチャットのバックエンドにしてみた",
-   "link": "https://zenn.dev/matsushima_a/articles/day-041-openmausbot-claude-cli",
-   "date": 1794234181000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--D2Xb3AfK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Grok%2520Bot%25E3%2581%25AE%25E4%25BB%25A3%25E3%2582%258F%25E3%2582%258A%25E3%2581%25AB%25E3%2580%2581%25E6%2589%258B%25E5%2585%2583%25E3%2581%25AEClaude%2520Code%2520CLI%25E3%2582%2592%25E3%2581%259D%25E3%2581%25AE%25E3%2581%25BE%25E3%2581%25BE%25E3%2583%2581%25E3%2583%25A3%25E3%2583%2583%25E3%2583%2588%25E3%2581%25AE%25E3%2583%2590%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:matsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkY2YwMTZjYWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "概要 2026-11-07付でGitHub TrendingのTypeScript部門で最多の伸び(+1,986 star/日)を記録していたmilind-soni/OpenMausBot を実際に動かしてみた。 このツールは、xAIのGrok Bot(クローズドソースで、使えるモデルがxAI系に固定されたチャットアプリ)を意識して作られたOSS版チャットアプリで、Apache License …"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude の推奨にそのまま乗る前に、反対意見入りの返事を書いてくれるボタンを作った【三人寄れば文殊の知恵】",
-   "link": "https://zenn.dev/yando/articles/bb54e3351c9512",
-   "date": 1794233013000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--9srDXQhc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520%25E3%2581%25AE%25E6%258E%25A8%25E5%25A5%25A8%25E3%2581%25AB%25E3%2581%259D%25E3%2581%25AE%25E3%2581%25BE%25E3%2581%25BE%25E4%25B9%2597%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2581%25E5%258F%258D%25E5%25AF%25BE%25E6%2584%258F%25E8%25A6%258B%25E5%2585%25A5%25E3%2582%258A%25E3%2581%25AE%25E8%25BF%2594%25E4%25BA%258B%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2581%258F%25E3%2582%258C%25E3%2582%258B%25E3%2583%259C%25E3%2582%25BF%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2590%25E4%25B8%2589%25E4%25BA%25BA%25E5%25AF%2584%25E3%2582%258C%25E3%2581%25B0%25E6%2596%2587%25E6%25AE%258A%25E3%2581%25AE%25E7%259F%25A5%25E6%2581%25B5%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AE%2589%25E8%2597%25A4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWJoOGNRa3MtcE5YX2VVVWFCRk56YWthdl9NSTdrRFBIZ0twc3duRlhUclNCc2xKND1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code の入力欄のすぐ上に monju ボタンを置く mod を作って公開しました。押すと、Claude(Opus 5.5)が第三者の目でやり取りを読み、一番強い反対意見を軸にした「人がそのまま送れる返事」の下書きを入力欄に足します。人はそれを読んで直してから送ります。 押さなければ何も出ず、モデルも呼びません。名前は「三人寄れば文殊の知恵」から取りました。人と Claude の…"
-  },
-  {
-   "src": "zenn",
-   "title": "2 つのエージェントで異なる方向性から検証を行う",
-   "link": "https://zenn.dev/kokagex/articles/75f89df3b007cc",
-   "date": 1794231679000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--UpkzZ277--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:2%2520%25E3%2581%25A4%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A7%25E7%2595%25B0%25E3%2581%25AA%25E3%2582%258B%25E6%2596%25B9%25E5%2590%2591%25E6%2580%25A7%25E3%2581%258B%25E3%2582%2589%25E6%25A4%259C%25E8%25A8%25BC%25E3%2582%2592%25E8%25A1%258C%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2593%25E3%2581%258B%25E3%2581%2592%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS1VoMWNfRG1TQV9kY3JZempLNVE2Vjl1U256VkFyM1o2NDFQRVJ0MXdOVndER0dDZEQ9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は AI コーディングエージェントが自分で書いとります。 ソロ開発者が回しとる自作の長期記憶基盤と、その周りの skill 群の連載 11 本目だわ。 今回は、書き終えたコードを 2 つのエージェントに、別々の方向から確かめさせた話を書く。 1 つは目標と過去の決定から見る係、もう 1 つはコードを動かして見る係だわ。 やってみて、わかったことは 2 つある。 1 つ目は、これまでの確か…"
-  },
-  {
-   "src": "zenn",
-   "title": "「作れる」が発注の理由にならなくなったら ― AIで試作品を先に作り、課題を1つに絞る受託の進め方",
-   "link": "https://zenn.dev/tmiyachi/articles/prototype-first-consulting",
-   "date": 1794226933000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--I_rsJeQ0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E4%25BD%259C%25E3%2582%258C%25E3%2582%258B%25E3%2580%258D%25E3%2581%258C%25E7%2599%25BA%25E6%25B3%25A8%25E3%2581%25AE%25E7%2590%2586%25E7%2594%25B1%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%2589%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%2520%25E2%2580%2595%2520AI%25E3%2581%25A7%25E8%25A9%25A6%25E4%25BD%259C%25E5%2593%2581%25E3%2582%2592%25E5%2585%2588%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258A%25E3%2580%2581%25E8%25AA%25B2%25E9%25A1%258C%25E3%2582%25921%25E3%2581%25A4%25E3%2581%25AB%25E7%25B5%259E%25E3%2582%258B%25E5%258F%2597%25E8%25A8%2597%25E3%2581%25AE%25E9%2580%25B2%25E3%2582%2581%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BF%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A1%2520Toshimitsu%2520Mi...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlOGEzNzVmY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "株式会社AI Orchestraの代表、みやっち🧑‍💻です。弊社は、昔は外注していたデザインや動画編集を、いまは自分たちでAIを使って作っています。ホームページもLPもバナーもCodexとGPT Image 2.5で作り、私のYouTubeの10月以降の動画は、すべてClaude Codeで編集しています。プログラミングも、本業のエンジニアではない私が、AIチャットつくーるというSaaSを1…"
-  },
-  {
-   "src": "zenn",
-   "title": "Webデザイナーが Figma と Claude Code を MCP でつないで、デザインからアプリを作った話（2026年11月）",
-   "link": "https://zenn.dev/nekonote328/articles/claude-code-figma-mcp",
-   "date": 1794226682000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ML5qVtTD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Web%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%258A%25E3%2583%25BC%25E3%2581%258C%2520Figma%2520%25E3%2581%25A8%2520Claude%2520Code%2520%25E3%2582%2592%2520MCP%2520%25E3%2581%25A7%25E3%2581%25A4%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25A7%25E3%2580%2581%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%258B%25E3%2582%2589%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%25EF%25BC%2588...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:wild-river%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk3MTU3MjY4N2EuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに Claude Code は MCP を使って外部のツールとつなぐこともできます。この記事では、Webデザイナーであるわたしが Figma と Claude Code をつないで、Next.js のアプリを作った話を紹介します。 ! この記事の情報は 2026年11月時点のものです。機能は頻繁に変わるため、最新情報は公式サイトを確認してください。 MCP とは 便利なツールをいろいろ接続…"
-  },
-  {
-   "src": "zenn",
-   "title": "気になっていたCloudflareを触りたくて、Workers + D1で個人ブログを作った",
-   "link": "https://zenn.dev/clown_viper/articles/550cfd62e536a7",
-   "date": 1794225725000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s---AYtWM88--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%25B0%2597%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259FCloudflare%25E3%2582%2592%25E8%25A7%25A6%25E3%2582%258A%25E3%2581%259F%25E3%2581%258F%25E3%2581%25A6%25E3%2580%2581Workers%2520%252B%2520D1%25E3%2581%25A7%25E5%2580%258B%25E4%25BA%25BA%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:clown_cat%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBjNGQzMDg2MzUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "きっかけ Slack に IT 系の記事が定期的に流れてくるようにしているのですが、その中に、次の記事がありました。 https://ashunar0.dev/posts/cloudflare-free-plan/ 「Cloudflare はなんでこんなに無料で使わせてくれるの？」という疑問を、Cloudflare 側のメリットから整理した記事です。名前は知っていても触ったことがなかったので、気…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIと作ったアプリは、削除に失敗しても「削除しました」と言った — 黙って失敗する箇所が322か所あった",
-   "link": "https://zenn.dev/sbkm/articles/81f37a67359ba6",
-   "date": 1794225605000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--HTo0Bz5q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25A8%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AF%25E3%2580%2581%25E5%2589%258A%25E9%2599%25A4%25E3%2581%25AB%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%25A6%25E3%2582%2582%25E3%2580%258C%25E5%2589%258A%25E9%2599%25A4%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25E3%2580%258D%25E3%2581%25A8%25E8%25A8%2580%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2594%2520%25E9%25BB%2599%25E3%2581%25A3%25E3%2581%25A6%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2599%25E3%2582%258B%25E7%25AE%2587%25E6%2589%2580%25E3%2581%258C322%25E3%2581%258B%25E6%2589%2580%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2597%25E3%2581%25B0%25E3%2581%2593%25E3%2581%25BE%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I4NWM3ZjQ1NGYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "書いた文章をためておいて、あとで検索したり集計したりする個人用のアプリを Claude Code と作っています。Python で書いた、Windows で動くアプリです。本体は1つのファイルで、約2万2千行あります。 9月10日、文章を書いてアプリを閉じたら、書いたものが残っていませんでした。次に開いても、書いたはずのところは空のままです。エラーの表示も、記録も、何もありませんでした。 原因は…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code を並列で回すと頭が痛い ── 質問を1か所で受ける Plannotator Inbox",
-   "link": "https://zenn.dev/makumattun/articles/69fd1f3b74062f",
-   "date": 1794224686000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--y_gmyT5_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%25E4%25B8%25A6%25E5%2588%2597%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%25E3%2581%25A8%25E9%25A0%25AD%25E3%2581%258C%25E7%2597%259B%25E3%2581%2584%2520%25E2%2594%2580%25E2%2594%2580%2520%25E8%25B3%25AA%25E5%2595%258F%25E3%2582%25921%25E3%2581%258B%25E6%2589%2580%25E3%2581%25A7%25E5%258F%2597%25E3%2581%2591%25E3%2582%258B%2520Plannotator%2520Inbox%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mattun%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI0YmM4MTc1NjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "「セッションを増やせば、そのぶん速くなる」 Claude Code を使い込んでいる人ほど、一度はそう考えたはずです。ターミナルを2本、3本、4本と並べて、別々の機能を同時に作らせる。理屈の上では生産性は倍、3倍、4倍になるはずでした。 でも、実際にやってみるとこうなります。 速くなるどころか、自分がどんどん疲れていく。 原因ははっきりしています。ボトルネックはエージェントの数ではありません。エ…"
   },
   {
    "src": "zenn",
@@ -241,7 +161,103 @@
    "link": "https://zenn.dev/super_yumenosan/articles/7e49ea8e5ddd2f",
    "date": 1794210957000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--PeS6w_nf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:OWASP%2520Top%252010%2520%25E3%2582%2592%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AB%25E5%25BD%2593%25E3%2581%25A6%25E3%2581%25AF%25E3%2582%2581%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A4%25A2%25E4%25B9%2583%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3pwY0NiZERlNWs4Z1Y0OU5VcDJZMFFaaHlYUWlFQWVVNHVORWFYYWNYbHNQazZIajU9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "こんにちは、Yumeno です。 フリーランスでエンジニアをしながら、AI駆動開発について学んでいます。最近はClaude Codeを相棒に、友人のお店向けの小さなアプリケーションを作成いたしました。 作るところまでは、AI のおかげで思ったより進みました。でも、いざ公開しようとしたときに「これ、セキュリティは大丈夫なんだろうか」と手が止まりました。この記事は、その不安に学習中の私がどう向き合っ…"
+   "desc": "こんにちは、Yumeno です。 フリーランスとして働きながら、ITエンジニアリングを学んでいます。最近はClaude Codeを相棒に、友人のお店向けの小さなアプリケーションを作成いたしました。 作るところまでは、AI のおかげで思ったより進みました。でも、いざ公開しようとしたときに「これ、セキュリティは大丈夫なんだろうか」と手が止まりました。この記事は、その不安に学習中の私がどう向き合ったか…"
+  },
+  {
+   "src": "zenn",
+   "title": "日本語のファイル名10種でtext=Trueの文字化けを試した",
+   "link": "https://zenn.dev/ai_jarvis/articles/bc7a15aabab8ea",
+   "date": 1794209473000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--vR9rB10M--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E5%2590%258D10%25E7%25A8%25AE%25E3%2581%25A7text%253DTrue%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E5%258C%2596%25E3%2581%2591%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%2520Jarvis%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTG5fTExLQkV1VlNrWlE4bV93QjBEMHNEaTFLN2pMRHQ3ZmRqektwYnJVZ2NhNG42UT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Windows の Python で subprocess.run(..., text=True) を使い、日本語のファイル名を受け取ると、例外で止まったり、気づかないうちに別の文字へ化けたりします。以下では、subprocess を呼ぶ側の Python を「親」、呼ばれて名前を出力するもう1つの Python を「子」と呼びます。環境は日本語 Windows の既定であるコードページ932（…"
+  },
+  {
+   "src": "zenn",
+   "title": "【JBUG東京#30】Backlogの使い方より「Claudeの統制」と「非エンジニアへの届け方」を聞かれた",
+   "link": "https://zenn.dev/nexta_/articles/fc0f8504acb1f6",
+   "date": 1794208213000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--PTbcc2q8--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590JBUG%25E6%259D%25B1%25E4%25BA%25AC%252330%25E3%2580%2591Backlog%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25E3%2582%2588%25E3%2582%258A%25E3%2580%258CClaude%25E3%2581%25AE%25E7%25B5%25B1%25E5%2588%25B6%25E3%2580%258D%25E3%2581%25A8%25E3%2580%258C%25E9%259D%259E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%25B8%25E3%2581%25AE%25E5%25B1%258A%25E3%2581%2591%25E6%2596%25B9%25E3%2580%258D%25E3%2582%2592%25E8%2581%259E%25E3%2581%258B%25E3%2582%258C%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Ayaka%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U0ZGE2N2U3OWYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Nexta%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M4MGM4MWE2NzcuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは、QAエンジニアのAyakaです。 2026年11月6日、ヌーラボの東京事務所で開かれたJBUG東京#30に、ユーザー事例として登壇してきました。テーマは「Backlog活用事例とAIで考える、これからのチームのかたち」。 話した中身は別の記事に書いたので、ここでは当日の記録と、聞かれたことと、持ち帰ったことを書きます。 https://zenn.dev/nexta_/articles…"
+  },
+  {
+   "src": "zenn",
+   "title": "Backlogを「AIが読み書きする場所」にした。Claude Code＋Backlog MCPで内製アプリのセキュリティチェックを回す話",
+   "link": "https://zenn.dev/nexta_/articles/02ded124295a6c",
+   "date": 1794207605000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--xWj8TETf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Backlog%25E3%2582%2592%25E3%2580%258CAI%25E3%2581%258C%25E8%25AA%25AD%25E3%2581%25BF%25E6%259B%25B8%25E3%2581%258D%25E3%2581%2599%25E3%2582%258B%25E5%25A0%25B4%25E6%2589%2580%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E3%2580%2582Claude%2520Code%25EF%25BC%258BBacklog%2520MCP%25E3%2581%25A7%25E5%2586%2585%25E8%25A3%25BD%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Ayaka%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U0ZGE2N2U3OWYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Nexta%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M4MGM4MWE2NzcuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは、QAエンジニアのAyakaです。ネクスタのCTO室でコーポレートITも兼務していて、内製アプリのセキュリティチェックもしています。 社内の内製アプリとClaudeスキルを公開前にセキュリティチェックする仕組みを、Claude CodeのスキルとBacklog MCPでBacklogに寄せました。この記事では、Backlogを「AIが読み書きする場所」にするまでにやったことを書きます。…"
+  },
+  {
+   "src": "zenn",
+   "title": "悪意なきインジェクション：「既知」「他で担保済み」の一文でAIの判断はどこまで歪むか",
+   "link": "https://zenn.dev/murooka_az/articles/benign-injection-known-note-review",
+   "date": 1794206743000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--nULDWs3f--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%2582%25AA%25E6%2584%258F%25E3%2581%25AA%25E3%2581%258D%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25AF%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25EF%25BC%259A%25E3%2580%258C%25E6%2597%25A2%25E7%259F%25A5%25E3%2580%258D%25E3%2580%258C%25E4%25BB%2596%25E3%2581%25A7%25E6%258B%2585%25E4%25BF%259D%25E6%25B8%2588%25E3%2581%25BF%25E3%2580%258D%25E3%2581%25AE%25E4%25B8%2580%25E6%2596%2587%25E3%2581%25A7AI%25E3%2581%25AE%25E5%2588%25A4%25E6%2596%25AD%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25BE%25E3%2581%25A7%25E6%25AD%25AA%25E3%2582%2580%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Murooka%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlMjA5NmUyNDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに AI エージェントのセキュリティでよく聞く話に、プロンプトインジェクションがあります。README やコメント、Web ページに「この指示に従え」と仕込んでおき、読んだ AI に意図しない操作をさせる攻撃です。 これについては、モデルの側もかなり対策が進んでいます。Anthropic のシステムカードでは、Claude Opus 5 でプロンプトインジェクションへの強さが大きく上がった…"
+  },
+  {
+   "src": "zenn",
+   "title": "SupabaseのRLSをONにしたら、次は「別のユーザー」で試そう",
+   "link": "https://zenn.dev/shingokumon/articles/supabase-rls-other-user",
+   "date": 1794206003000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--KbrL9gLO--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Supabase%25E3%2581%25AERLS%25E3%2582%2592ON%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E6%25AC%25A1%25E3%2581%25AF%25E3%2580%258C%25E5%2588%25A5%25E3%2581%25AE%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E3%2580%258D%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%259D%25E3%2581%2586%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shingokumon%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzlmYjg2MWJkOGIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "メモを保存できた。再読み込みしても残っている。Claude Codeに頼んだ修正も終わり、そろそろ公開したくなる。 その前に、もう一つだけアカウントを用意してみてください。 Aが書いたメモを、Bとして開いたらどうなるでしょう。Bが内容を更新したら、Aの画面には何が表示されるでしょうか。 この記事は、本人だけが読めるメモアプリを想定した架空の例です。RLSを設定した後に、何を観測すれば「他人のデー…"
+  },
+  {
+   "src": "zenn",
+   "title": "子育て中の隙間時間に、スマホからClaude Codeで自己学習する",
+   "link": "https://zenn.dev/chot/articles/1bf145d3d31ca1",
+   "date": 1794205107000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--NN8hmvR5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AD%2590%25E8%2582%25B2%25E3%2581%25A6%25E4%25B8%25AD%25E3%2581%25AE%25E9%259A%2599%25E9%2596%2593%25E6%2599%2582%25E9%2596%2593%25E3%2581%25AB%25E3%2580%2581%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%258B%25E3%2582%2589Claude%2520Code%25E3%2581%25A7%25E8%2587%25AA%25E5%25B7%25B1%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:t-suguru%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAzODVjOWFlYzkuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:chot%2520Inc.%2520tech%2520blog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2VjNmQ2YmQyZTYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに ちょっと株式会社の t-suguru です。フルタイムの共働きで、小学生の子どもが2人おり、ドタバタした日々を過ごしています。 多くの方が同じかと思いますが、若い頃に比べて自己学習の時間が取れていないのが最近の悩みです。まとまった時間が取れなくても、スマホだけで隙間時間にコーディングと学習を進められる環境を、Claude CodeとGitHubを組み合わせて作ってみました。 背景 一口…"
+  },
+  {
+   "src": "zenn",
+   "title": "Herdr入門 ― ターミナルでAIエージェントの群れを操る",
+   "link": "https://zenn.dev/mar_kun/books/herdr-practical-guide-jp",
+   "date": 1794202505000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--r6Uo5Xx3--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci8zODNiYTMzZGQ2LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "ターミナルで動くエージェントマルチプレクサ「Herdr」で、Claude CodeやCodexなどのAIコーディングエージェントを複数並列に回すための実践ガイド。状態（working / blocked / done / idle / unknown）の読み方から、Next.jsプロジェクトでのworkspace設計、並列レビューの分担、デタッチしても止まらない運用、CLIとソケットAPIによる…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude認定資格 CCAF対策｜オリジナル練習問題(日英併記)と解説【基礎編1】",
+   "link": "https://zenn.dev/satozenn/articles/f63f89a30b9b54",
+   "date": 1794202348000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ahcP15pZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%25E8%25AA%258D%25E5%25AE%259A%25E8%25B3%2587%25E6%25A0%25BC%2520CCAF%25E5%25AF%25BE%25E7%25AD%2596%25EF%25BD%259C%25E3%2582%25AA%25E3%2583%25AA%25E3%2582%25B8%25E3%2583%258A%25E3%2583%25AB%25E7%25B7%25B4%25E7%25BF%2592%25E5%2595%258F%25E9%25A1%258C%2528%25E6%2597%25A5%25E8%258B%25B1%25E4%25BD%25B5%25E8%25A8%2598%2529%25E3%2581%25A8%25E8%25A7%25A3%25E8%25AA%25AC%25E3%2580%2590%25E5%259F%25BA%25E7%25A4%258E%25E7%25B7%25A81%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:satozenn%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA0ODEwMDIxODIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude認定資格 CCAF対策｜オリジナル練習問題(日英併記)と解説【基礎編1】 はじめに Claude Certified Architect – Foundations（CCAF）の資格取得を目指して勉強しています。 今回は、ChatGPTにCCAFの学習範囲に関連するオリジナルの練習問題を10問作成してもらい、実際に解いてみました。 問題は次のような分野から出題しています。 AIエージ…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIですぐに作れる時代に、何と向き合うか",
+   "link": "https://zenn.dev/peoplex_blog/articles/2611-what-to-face-when-ai-builds-fast",
+   "date": 1794199760000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--m9fMUxlM--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25A7%25E3%2581%2599%25E3%2581%2590%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%258C%25E3%2582%258B%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AB%25E3%2580%2581%25E4%25BD%2595%25E3%2581%25A8%25E5%2590%2591%25E3%2581%258D%25E5%2590%2588%25E3%2581%2586%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2582%25B5%25E3%2582%25AB%25E3%2583%2584%2520%257C%2520PeopleX%2520AI%25E3%2583%2597%25E3%2583%25AD...%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY2YjYwNDBmMmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:PeopleX%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYxNGE3YWQ2NGYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "こんにちは。PeopleX AI面接の開発をしている坂津です。 ここ1年で、私はコードを一切手で書かなくなりました。 Claude Opus 5.5 が登場してからは AI が書いたコードの細部もそこまで気にしなくなっています。正しく指示をすれば、Opus 5.5 が書くコードは品質が高く、設計の意図に沿った読みやすいコードがそのまま出てくることがほとんどです。それにアプリケーションのコードはあ…"
+  },
+  {
+   "src": "zenn",
+   "title": "リリース前のセキュリティレビューとPRごとのゲートの分担　/security-reviewの差分の範囲と、指摘の仕分け",
+   "link": "https://zenn.dev/vaonvn/articles/0af70538621b3d",
+   "date": 1794197780000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--BlugJhlx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E5%2589%258D%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25A8PR%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AE%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AE%25E5%2588%2586%25E6%258B%2585%25E3%2580%2580%252Fsecurity-review%25E3%2581%25AE%25E5%25B7%25AE%25E5%2588%2586%25E3%2581%25AE%25E7%25AF%2584%25E5%259B%25B2%25E3%2581%25A8%25E3%2580%2581%25E6%258C%2587%25E6%2591%2598%25E3%2581%25AE%25E4%25BB%2595%25E5%2588%2586%25E3%2581%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:VAON%2520VIET%2520NAM%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmJkeEs0VF9XdW9ubWdHelEycFQ4ZGtYZ1FOdjRoVG4zbkNmR2E0VF9SRHhoNy03OD1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "PRごとのセキュリティゲートがすべて緑でも、バージョンとしてまとめて見ると出てくる問題があります。私たちのチームでは、PRごとのゲートとは別に、リリース前にバージョン全体の変更をClaude Codeでセキュリティレビューし、その結果を人が仕分けてからリリースを決めています。 この記事では、2つのゲートの分担と、Claude Codeの /security-review が何と何を比べているか、…"
+  },
+  {
+   "src": "zenn",
+   "title": "無人で回す Claude Code の Bash を、settings.json の permissions でコマンドの形ごとに絞る",
+   "link": "https://zenn.dev/tasukina/articles/unattended-claude-code-bash-permissions",
+   "date": 1794197440000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--gEz8CUWF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2584%25A1%25E4%25BA%25BA%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%2520Claude%2520Code%2520%25E3%2581%25AE%2520Bash%2520%25E3%2582%2592%25E3%2580%2581settings.json%2520%25E3%2581%25AE%2520permissions%2520%25E3%2581%25A7%25E3%2582%25B3...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25BC%25E3%2583%258A%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTFNibm9FRkpaenBORkJKZ2Y1dEhzaS0xYTNhT2VQQmdubU1KMjdwcW1DTnF3S1JXRT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は Claude Code が会社の記録をもとに書いた。 Claude Code を人の見ていない時間に定期的に起動すると、許可を聞かれても答える人がいない。 聞かれずに済むよう全部を許せば、外へ出る操作も、作業を消す操作も通ってしまう。 逆に狭く絞りすぎれば、止まったまま仕事が進まない。 この記事の材料にした小さな「会社」の設定の deny には、同じ git push を別の書き…"
+  },
+  {
+   "src": "zenn",
+   "title": "公開前チェックの curl -L が、自分のアフィリエイトリンクを踏み続けていた",
+   "link": "https://zenn.dev/i_nori/articles/4107aeef0aeaf2",
+   "date": 1794197227000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--GVriL52_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25AC%25E9%2596%258B%25E5%2589%258D%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AE%2520curl%2520-L%2520%25E3%2581%258C%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%2595%25E3%2582%25A3%25E3%2583%25AA%25E3%2582%25A8%25E3%2582%25A4%25E3%2583%2588%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25AF%25E3%2582%2592%25E8%25B8%258F%25E3%2581%25BF%25E7%25B6%259A%25E3%2581%2591%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:I_Nori%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS01PRy1sNEE5OEh0eUZmVE81ellUb01GVDJtaXJYLVA3MElRc0dBSVpSckJzR2NnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "個人ブログの公開前チェックに、記事内の外部リンクが生きているかを確かめる処理を入れていた。Claude Code に書いてもらった Bash のスクリプトで、2026年8月から使っている。 このチェックが、記事に貼った自分のアフィリエイトリンクも毎回開いていた。ASP（アフィリエイトの仲介サービス）の管理画面に出ていた直近2か月のクリックは、大半がこのスクリプトの分だったとみている。 気づいたき…"
   },
   {
    "src": "reddit",
@@ -273,7 +289,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 873 # Comments: 469"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 874 # Comments: 470"
   },
   {
    "src": "reddit",
@@ -282,14 +298,6 @@
    "date": 1794159668000,
    "img": "https://preview.redd.it/40hivrdddf0i1.jpeg?width=640&crop=smart&auto=webp&s=555ebfeeb5d490608c5febc4e5a9d1a7972fba14",
    "desc": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when tr…"
-  },
-  {
-   "src": "reddit",
-   "title": "I built an MCP with Claude Code that lets Claude play PC games in the background. Here it is driving, flying a heli and walking in GTA on its own",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/",
-   "date": 1794157913000,
-   "img": "https://external-preview.redd.it/bWg0NzVkc3c3ZjBpMeyppUDmdDRujkCxftTdneo72Z7W5igpVGtQKsPGpJo7.png?width=640&crop=smart&auto=webp&s=5f93b67e50d3756d6e9732b2c878f074d9bac6e7",
-   "desc": "I wanted AI agents to create, test, and improve my game mods autonomously by actually playing the games, without taking over my PC while they do it. So I built an MCP server with Claude Code. It give…"
   },
   {
    "src": "reddit",
@@ -329,7 +337,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 800 # Comments: 483"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 803 # Comments: 484"
   },
   {
    "src": "hn",
@@ -337,7 +345,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 621 # Comments: 417"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 622 # Comments: 417"
   },
   {
    "src": "reddit",
@@ -425,7 +433,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1609 # Comments: 533"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1611 # Comments: 534"
   },
   {
    "src": "reddit",
@@ -906,14 +914,6 @@
    "date": 1792610041000,
    "img": "",
    "desc": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186037 Points: 568 # Comments: 539"
-  },
-  {
-   "src": "hn",
-   "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-   "link": "https://github.com/omnara-ai/omnara",
-   "date": 1792601093000,
-   "img": "",
-   "desc": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the …"
   },
   {
    "src": "news",
