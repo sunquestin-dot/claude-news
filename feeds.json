@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794308396038,
+ "updatedAt": 1794311901556,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Windows の Git Bash で「/ で始まる引数」が C:/Program Files/Git/... に化ける。MSYS_NO_PATHCONV=1 で止める",
+   "link": "https://qiita.com/takamatt_ai/items/f3d4d593a2c63ab4fee8",
+   "date": 1794310961000,
+   "img": "",
+   "desc": "この記事を読み終えると、Windows の Git Bash(Claude Code の Bash ツールもこれです)で、/services/... のような API のパスを引数に渡したときに先頭の / が勝手に書き換わる現象を、1つの環境変数で止められるようになります。..."
+  },
   {
    "src": "zenn",
    "title": "Claude CodeとGitHubで作る『AI編集者』｜長編コンテンツの品質を守る仕組み",
@@ -98,14 +106,6 @@
    "date": 1794301108000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--l7kfRAim--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Mods%25E3%2581%25A7%25E4%25BB%2595%25E4%25BA%258B%25E9%2581%2593%25E5%2585%25B7%25E3%2582%2592%25E8%2587%25AA%25E4%25BD%259C%25E3%2581%2597%25E3%2581%25A6%25E7%25A4%25BE%25E5%2586%2585%25E5%25B1%2595%25E9%2596%258B%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Ita%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFmMWJhZDQwYmQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BECOMPASS%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2IyMjQzMmFiZGQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! 🍀 この記事はこんな方におすすめ 短いプロンプトでAIに仕事を頼み、必要なときに認識を合わせたい方 AIとのセッションが長くなったとき、残作業の把握に課題を感じている方 Claude Modsで、仕事に合わせたUIの活用例を知りたい方 Claude CodeのModsとして、依頼したタスクの認識合わせを助ける「refinement」と、作業をツリーで表示する「tasktree」を作ってみま…"
-  },
-  {
-   "src": "qiita",
-   "title": "MCPサーバーなしで Well-Architected レビュー！Agent Toolkit for AWS のスキルをローカルコーパス化してポーティングしてみた",
-   "link": "https://qiita.com/h_horiguchi/items/e84c069ffa5519de29b7",
-   "date": 1794300932000,
-   "img": "",
-   "desc": "はじめに AWS が公開している Agent Toolkit for AWS（以下、Agent Toolkit）には、AWS Well-Architected Framework（以下、WA Framework）のレビューを行うスキル aws-well-architect..."
   },
   {
    "src": "zenn",
@@ -212,6 +212,14 @@
    "desc": "! 記事作成は8割人力、2割AI（校正/イメージ画像など）です。 はじめに AIに金額を扱う画面を作ってもらって、自分の環境ではちゃんと動いている。 でも、言語や地域の設定（ロケール）を変えると、意図した金額が保存されないことがあります。 ! ロケールは、言語や地域に合わせて、数値や日付などの表示方法を決める設定です。 たとえば、ja-JPは日本の日本語、de-DEはドイツのドイツ語を表します。…"
   },
   {
+   "src": "reddit",
+   "title": "HUGE Fable 5.2 Issue",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/",
+   "date": 1794282230000,
+   "img": "https://preview.redd.it/q4cumo6aip0i1.jpeg?width=640&crop=smart&auto=webp&s=5d177d68857c10223585de21ab3e307115afbea5",
+   "desc": "It’s not telling me to go to sleep every few hours like Opus used to. submitted by /u/Kakakee [link] [comments]"
+  },
+  {
    "src": "zenn",
    "title": "Claude Code 社内導入キット：申請書・回答表・管理設定・確認スクリプト",
    "link": "https://zenn.dev/acerola_jp/books/claude-code-adoption-kit",
@@ -242,6 +250,14 @@
    "date": 1794277783000,
    "img": "",
    "desc": "What's changed - Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it"
+  },
+  {
+   "src": "news",
+   "title": "Anthropic launches roadshow for proposed initial public offering",
+   "link": "https://www.anthropic.com/news/roadshow-launch",
+   "date": 1794268800000,
+   "img": "",
+   "desc": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock."
   },
   {
    "src": "reddit",
@@ -450,14 +466,6 @@
    "date": 1793917035000,
    "img": "",
    "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1612 # Comments: 535"
-  },
-  {
-   "src": "reddit",
-   "title": "I built a 3D globe for my two boys with Claude Code. It got way more love than I expected, so here's how it's grown.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xou90f/i_built_a_3d_globe_for_my_two_boys_with_claude/",
-   "date": 1793912678000,
-   "img": "https://external-preview.redd.it/a3Q5NjdjN2N6dXpoMbgGY618Kun_ShlpmzGy-tHEmZX09GsuYcjFSedhPLYv.png?width=640&crop=smart&auto=webp&s=4142d66e7f8bf7193cbce652a643d446f2412f7c",
-   "desc": "A little while ago, I shared a small interactive globe I'd been building for my two boys, aged 9 and 6. I'm just a dad with no coding background, and I built the whole thing with Claude Code (Opus 5.…"
   },
   {
    "src": "reddit",
@@ -1306,14 +1314,6 @@
    "date": 1787853272000,
    "img": "https://i1.ytimg.com/vi/P1zBiAQU1IA/hqdefault.jpg",
    "desc": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS began as a collaboration between Anthropi…"
-  },
-  {
-   "src": "news",
-   "title": "Previewing the Model Hardware Standard",
-   "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-   "date": 1787788800000,
-   "img": "",
-   "desc": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanc…"
   },
   {
    "src": "youtube",
