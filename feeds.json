@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794351181424,
+ "updatedAt": 1794354336467,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code v2.1.321——MCP OAuthのシークレット漏洩、Bashサンドボックス外実行を修正（2026年11月）",
+   "link": "https://qiita.com/Sidejob/items/4ceba2a564be9522b155",
+   "date": 1794354303000,
+   "img": "",
+   "desc": "Claude Code v2.1.321 がリリースされた（2026-11-09）。リリースノートを読んでいて、企業で無人実行を動かしている立場から気になる修正が複数あった。内容を整理しておく。 この記事で分かること： v2.1.321 で修正された4つのセキュリティ関..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Codeのトークン消費を削る実践 — 計測してから削った5箇所",
+   "link": "https://qiita.com/joinclass/items/40a4bf04e73991957d9b",
+   "date": 1794353407000,
+   "img": "",
+   "desc": "はじめに：コスト上限ガードが一度も動いていなかった 当社（合同会社ジョインクラス、社員は僕1人）は、launchd の定時ジョブから claude -p を無人で叩いて、部門ごとの状況整理・記事ネタ補充・リード収集などを回しています。 月の上限は $200、$160 で ..."
+  },
+  {
+   "src": "qiita",
+   "title": "現場の悩みを聞いてから1時間で形にする：AIと分担して「使われる道具」を作る進め方",
+   "link": "https://qiita.com/yahayuta/items/b6a0aa396c8584b6b3c8",
+   "date": 1794351707000,
+   "img": "",
+   "desc": "はじめに 普段は社内SEとして、主にデータ活用や業務の自動化の相談を受けて対応しています。ここ最近はAIの進化もあって、相談を受けてから動くものを見せるまでが、以前よりずっと速くなりました。 この記事では、私が個人開発で使っている進め方を、2つの公開リポジトリを例に紹介し..."
+  },
   {
    "src": "status",
    "title": "Elevated errors on Fable 52 and Mythos 52",
@@ -60,20 +84,12 @@
    "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第32話です。 AIに同じルールを守らせたくて、指示書を3つ並べていました。 ところが、ルールを足していくうちに、片方にだけ書いてあるルールが出てきます。 手で写した指示書は、先に古くなるんですね📚 日本株のデー..."
   },
   {
-   "src": "qiita",
-   "title": "合計月 6 万円の AI に 1 日 40 本の PR を任せたら、MSVC と NVIDIA ドライバのバグまで見つけてきた話",
-   "link": "https://qiita.com/kassyi/items/b611314e84a8a6f8a8ce",
-   "date": 1794345029000,
+   "src": "hn",
+   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+   "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "date": 1794333307000,
    "img": "",
-   "desc": "はじめに C# を CUDA C++ に変換して GPU で動かすコンパイラ G#（Henicos）を、AI に作らせています。人間はコードを一行も書かず、差分もほとんど読みません。 AI（Claude / Gemini） 人間 設計 論点ページを見..."
-  },
-  {
-   "src": "qiita",
-   "title": "11/10 の公式ドキュメント更新：権限評価の順序と設定の適用条件",
-   "link": "https://qiita.com/akihidem/items/ed65a86c571fb594f202",
-   "date": 1794333302000,
-   "img": "",
-   "desc": "2026-11-10 に検知した 15 ページの追加文は、Claude Code と Agent SDK で「どの設定やフックが最終的な許可判断に効くのか」を説明する記述に集中していました。あわせて、ツール利用の課金の内訳、Google Cloud の Agent Plat..."
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 147 # Comments: 112"
   },
   {
    "src": "reddit",
@@ -82,22 +98,6 @@
    "date": 1794332688000,
    "img": "https://external-preview.redd.it/bWs2aGJ1cjJudDBpMadVf9ZyolSlM9HT-Wdp5UpsCn0O4T7savA_slmXS5-Z.png?width=640&crop=smart&auto=webp&s=aff9ab6c21fa901f595d474eb3eb860ec590b486",
    "desc": "I built a web page that works like an X-ray mirror. You point a webcam at your face and see a skull, brain and facial muscles pinned to your head and following it as you move. The jaw opens when you …"
-  },
-  {
-   "src": "qiita",
-   "title": "「署名付き」でも安全じゃない？｜AIアシスタントの設定ファイルが悪用され得る理由",
-   "link": "https://qiita.com/kinamocchi_tech/items/fb1f4f1076ceb7e32311",
-   "date": 1794331284000,
-   "img": "",
-   "desc": "📺 この記事は YouTube チャンネル きなこもっちーのテック深掘り の動画解説記事です。 ▶️ 動画はこちら → 「署名付き」でも安全じゃない？｜AIアシスタントの設定ファイルが悪用され得る理由 🐹🦜 この記事に登場する2匹 🐹 もっちー （ハムスター）… A..."
-  },
-  {
-   "src": "zenn",
-   "title": "AIの再起動直後、最初の道具が「先に台帳へ登録して」と断ってきた —— 止められて分かった、入力を取りこぼさない仕組み",
-   "link": "https://zenn.dev/ai_shihan/articles/0978b8bdb7f444",
-   "date": 1794329013000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--cAPr5pFs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E5%2586%258D%25E8%25B5%25B7%25E5%258B%2595%25E7%259B%25B4%25E5%25BE%258C%25E3%2580%2581%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E9%2581%2593%25E5%2585%25B7%25E3%2581%258C%25E3%2580%258C%25E5%2585%2588%25E3%2581%25AB%25E5%258F%25B0%25E5%25B8%25B3%25E3%2581%25B8%25E7%2599%25BB%25E9%258C%25B2%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258D%25E3%2581%25A8%25E6%2596%25AD%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%2589%25E3%2582%258C%25E3%2581%25A6%25E5%2588%2586%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2581%25E5%2585%25A5%25E5%258A%259B%25E3%2582%2592%25E5%258F%2596%25E3%2582%258A%25E3%2581%2593%25E3%2581%25BC%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "X の投稿は、AI の席（広報部）に任せています。この席は、全員をまとめて起こし直す日があります。11/10 にもありました。起き直した直後の動きを、そのまま書き残します。 最初の1手が、断られた 起き直した席が最初にやるのは、復帰の手順を読むことです。手順の道具を呼んだところ、断られました。 「作業前の台帳登録が未完了です」 起こされた時の指示文が、「まだ整理されていない入力」として台帳に残っ…"
   },
   {
    "src": "reddit",
@@ -276,6 +276,14 @@
    "desc": "はじめに CSS を1行も書いていない、シンプルな Todo アプリを作りました。 今回はこのアプリを題材に、Claude Code、Claude Design、Gemini を使って UI を改善してみます。 大まかな流れは次のとおりです。 Claude Code に既存コードから画面を再現してもらう 気になるところを伝え、複数の改善案を出してもらう 気に入った案を実装する 実際に触って、さら…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Fable 5.2 は 5.1 から何が変わった？ 性能・料金・effort・API の違い",
+   "link": "https://zenn.dev/takuh/articles/a56d21a48e0ca8",
+   "date": 1794289066000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--JscTp5R9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Fable%25205.2%2520%25E3%2581%25AF%25205.1%2520%25E3%2581%258B%25E3%2582%2589%25E4%25BD%2595%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%259F%2520%25E6%2580%25A7%25E8%2583%25BD%25E3%2583%25BB%25E6%2596%2599%25E9%2587%2591%25E3%2583%25BBeffort%25E3%2583%25BBAPI%2520%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:takuh%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUxtNXd1MFZDMlpZSlp1TVJEQ1AtYkxabmNzRnlkU3RZQ2FGNU4wUTNwVWhGUT1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 2026年11月9日、Anthropic が Claude Fable 5.2 を公開しました。前の Claude Fable 5.1 が出たのは9月1日なので、約10週間での更新です。 「5.1 から 5.2 へ、数字が 0.1 増えただけ」と思うかもしれません。ところが中身を読むと、変化はかなり大きいものでした。主なベンチマークは 10〜20 ポイント単位で上がり、料金は 2 割下…"
+  },
+  {
    "src": "reddit",
    "title": "HUGE Fable 5.2 Issue",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/",
@@ -313,7 +321,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 364 # Comments: 263"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 370 # Comments: 267"
   },
   {
    "src": "claude-code",
@@ -361,7 +369,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 895 # Comments: 485"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 897 # Comments: 488"
   },
   {
    "src": "reddit",
@@ -370,6 +378,14 @@
    "date": 1794159668000,
    "img": "https://preview.redd.it/40hivrdddf0i1.jpeg?width=640&crop=smart&auto=webp&s=555ebfeeb5d490608c5febc4e5a9d1a7972fba14",
    "desc": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when tr…"
+  },
+  {
+   "src": "reddit",
+   "title": "What's the one prompt you keep coming back to?",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xr0drc/whats_the_one_prompt_you_keep_coming_back_to/",
+   "date": 1794150062000,
+   "img": "",
+   "desc": "Mine is Break this project into as many small steps as you can, in order. Each step should take under 30 min and have a clear done-check. Put them in one artifact with checkboxes I can come back to f…"
   },
   {
    "src": "status",
@@ -401,7 +417,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 810 # Comments: 489"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 813 # Comments: 490"
   },
   {
    "src": "hn",
@@ -409,7 +425,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 624 # Comments: 425"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 624 # Comments: 426"
   },
   {
    "src": "reddit",
@@ -538,14 +554,6 @@
    "date": 1793750400000,
    "img": "",
    "desc": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this re…"
-  },
-  {
-   "src": "reddit",
-   "title": "I gave every Claude model the exact same prompt since July 2025. 13 models, 14 months, here's the evolution",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xn6eli/i_gave_every_claude_model_the_exact_same_prompt/",
-   "date": 1793742843000,
-   "img": "https://external-preview.redd.it/dmNoYnQ2aHV4Z3poMUsBs7Wrl7Hw-us6NCGMt9voisy1BLevD1UqGeNr2Qjn.png?width=640&crop=smart&auto=webp&s=3c1331886495ad464a2e46c9ceabd848c91dbe83",
-   "desc": "Prompt : \"Make me a 3D website that's a kind of video game, with an infinite procedural terrain and a camera that keeps moving forward through it forever. The terrain should be full of stuff and obje…"
   },
   {
    "src": "claude-code",
@@ -866,14 +874,6 @@
    "date": 1792798740000,
    "img": "",
    "desc": "What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too -…"
-  },
-  {
-   "src": "hn",
-   "title": "Swedish government offices to ban ChatGPT and Claude",
-   "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-   "date": 1792755594000,
-   "img": "",
-   "desc": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 324 # Comments: 125"
   },
   {
    "src": "research",
