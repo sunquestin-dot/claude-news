@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794344146348,
+ "updatedAt": 1794347476502,
  "sources": {
   "news": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "hn": {
    "ok": false,
-   "error": "fetch failed"
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "status",
+   "title": "Elevated errors on Fable 52 and Mythos 52",
+   "link": "https://status.claude.com/incidents/pgz8r13pk4sm",
+   "date": 1794347268000,
+   "img": "",
+   "desc": "Nov 10 , 21:47 UTC Resolved - Overloaded errors on Fable 5.2 and Mythos 5.2 for four minutes. Incident has been mitigated."
+  },
+  {
+   "src": "qiita",
+   "title": "CLAUDE.md・AGENTS.md・GEMINI.mdの食い違いを、正本1つ＋生成＋CI検査でなくす 〜指示書を18.0KBから8.9KBへ〜",
+   "link": "https://qiita.com/charge0315/items/d68341cabd62e04cd1a7",
+   "date": 1794346743000,
+   "img": "",
+   "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第32話です。 AIに同じルールを守らせたくて、指示書を3つ並べていました。 ところが、ルールを足していくうちに、片方にだけ書いてあるルールが出てきます。 手で写した指示書は、先に古くなるんですね📚 日本株のデー..."
+  },
+  {
+   "src": "qiita",
+   "title": "合計月 6 万円の AI に 1 日 40 本の PR を任せたら、MSVC と NVIDIA ドライバのバグまで見つけてきた話",
+   "link": "https://qiita.com/kassyi/items/b611314e84a8a6f8a8ce",
+   "date": 1794345029000,
+   "img": "",
+   "desc": "はじめに C# を CUDA C++ に変換して GPU で動かすコンパイラ G#（Henicos）を、AI に作らせています。人間はコードを一行も書かず、差分もほとんど読みません。 AI（Claude / Gemini） 人間 設計 論点ページを見..."
+  },
   {
    "src": "qiita",
    "title": "11/10 の公式ドキュメント更新：権限評価の順序と設定の適用条件",
@@ -68,20 +92,20 @@
    "desc": "📺 この記事は YouTube チャンネル きなこもっちーのテック深掘り の動画解説記事です。 ▶️ 動画はこちら → 「署名付き」でも安全じゃない？｜AIアシスタントの設定ファイルが悪用され得る理由 🐹🦜 この記事に登場する2匹 🐹 もっちー （ハムスター）… A..."
   },
   {
+   "src": "zenn",
+   "title": "AIの再起動直後、最初の道具が「先に台帳へ登録して」と断ってきた —— 止められて分かった、入力を取りこぼさない仕組み",
+   "link": "https://zenn.dev/ai_shihan/articles/0978b8bdb7f444",
+   "date": 1794329013000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--cAPr5pFs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E5%2586%258D%25E8%25B5%25B7%25E5%258B%2595%25E7%259B%25B4%25E5%25BE%258C%25E3%2580%2581%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E9%2581%2593%25E5%2585%25B7%25E3%2581%258C%25E3%2580%258C%25E5%2585%2588%25E3%2581%25AB%25E5%258F%25B0%25E5%25B8%25B3%25E3%2581%25B8%25E7%2599%25BB%25E9%258C%25B2%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258D%25E3%2581%25A8%25E6%2596%25AD%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%2589%25E3%2582%258C%25E3%2581%25A6%25E5%2588%2586%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2581%25E5%2585%25A5%25E5%258A%259B%25E3%2582%2592%25E5%258F%2596%25E3%2582%258A%25E3%2581%2593%25E3%2581%25BC%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "X の投稿は、AI の席（広報部）に任せています。この席は、全員をまとめて起こし直す日があります。11/10 にもありました。起き直した直後の動きを、そのまま書き残します。 最初の1手が、断られた 起き直した席が最初にやるのは、復帰の手順を読むことです。手順の道具を呼んだところ、断られました。 「作業前の台帳登録が未完了です」 起こされた時の指示文が、「まだ整理されていない入力」として台帳に残っ…"
+  },
+  {
    "src": "reddit",
    "title": "it’s getting smarter frfr",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xsrfcl/its_getting_smarter_frfr/",
    "date": 1794328215000,
    "img": "https://preview.redd.it/vnnou6n0bt0i1.jpeg?width=640&crop=smart&auto=webp&s=5a5ddf4ae2ebb86c82b731a1ba97f037886c9e9b",
    "desc": "submitted by /u/Worldly_Chemistry_81 [link] [comments]"
-  },
-  {
-   "src": "qiita",
-   "title": "安全ガードだけは、あえて参照しない。親リポ1つで7リポジトリのClaude Codeを指揮する設計",
-   "link": "https://qiita.com/tzp/items/38e194772fe4fc73c02e",
-   "date": 1794322677000,
-   "img": "",
-   "desc": "はじめに 😩「web で直したスキル、admin と service にもコピーしなきゃ…」 🤔「あれ、admin の create-pr って、こんな手順だったっけ？」 😱「このリポのガード、PR のマージを止めてない…？」 AI と開発するリポジトリが増えると、こんな..."
   },
   {
    "src": "zenn",
@@ -98,14 +122,6 @@
    "date": 1794321781000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--rL5NEFzY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Codex%25E3%2581%258C%25E7%2584%25A1%25E3%2581%258F%25E3%2581%25A6%25E3%2582%2582%253A%2520Claude%2520Code%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E8%25B6%258A%25E5%25A2%2583%25E6%2595%25B4%25E5%2590%2588%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%25E7%25B5%2584%25E3%2582%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shoma46%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKenZsQTNXR0JFY09pb3YxaU1wWWxGZ2FrZzNQbVBTOXBqVFFRam09czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "TL;DR 型検査・lint・テストが通っても残る「境界をまたぐ意味の不整合」を探すレビューを、Claude Codeのskillとサブエージェントだけで組んだ 書いた本人のセッションには判定させない。不変条件を抽出する役と検証する役を別のサブエージェントに分け、どちらにも設計意図や会話の文脈は渡さない 抽出は観点ごとに4つのレンズに分けて並列に走らせ、pushをblockするほどの指摘だけは、…"
-  },
-  {
-   "src": "qiita",
-   "title": "AIに会話ログを全消しされた日から作った「AIオレオレ環境」全公開 — 不可侵条約・安全弁つきバックアップ・200k制限",
-   "link": "https://qiita.com/Pulsar-K/items/74d2b26ccaa75e8bc01e",
-   "date": 1794321249000,
-   "img": "",
-   "desc": "Qiita Bash「AIオレオレ環境お披露目会」（2026年11月13日）のLTにあわせ、元々の長文記録から「結局どんな環境・設定になったか」の現物だけを5分で読めるように抜き出した記事です。 私の現在のAI環境を一言でまとめると、こうなります。 モデルは外から..."
   },
   {
    "src": "zenn",
@@ -258,14 +274,6 @@
    "date": 1794293771000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--yPz975Lb--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Design%2520%25E3%2581%25A7%2520UI%2520%25E3%2581%25AE%25E6%2594%25B9%25E5%2596%2584%25E6%25A1%2588%25E3%2582%2592%25E4%25B8%25A6%25E3%2581%25B9%25E3%2581%25A6%25E6%25AF%2594%25E8%25BC%2583%25E3%2581%2597%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Nishikawa%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhmZDk5ODFlY2QuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A6%25E3%2582%25A7%25E3%2582%25A2%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVmMTNlMTYyMTguanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに CSS を1行も書いていない、シンプルな Todo アプリを作りました。 今回はこのアプリを題材に、Claude Code、Claude Design、Gemini を使って UI を改善してみます。 大まかな流れは次のとおりです。 Claude Code に既存コードから画面を再現してもらう 気になるところを伝え、複数の改善案を出してもらう 気に入った案を実装する 実際に触って、さら…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Fable 5.2 は 5.1 から何が変わった？ 性能・料金・effort・API の違い",
-   "link": "https://zenn.dev/takuh/articles/a56d21a48e0ca8",
-   "date": 1794289066000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--JscTp5R9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Fable%25205.2%2520%25E3%2581%25AF%25205.1%2520%25E3%2581%258B%25E3%2582%2589%25E4%25BD%2595%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%259F%2520%25E6%2580%25A7%25E8%2583%25BD%25E3%2583%25BB%25E6%2596%2599%25E9%2587%2591%25E3%2583%25BBeffort%25E3%2583%25BBAPI%2520%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:takuh%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUxtNXd1MFZDMlpZSlp1TVJEQ1AtYkxabmNzRnlkU3RZQ2FGNU4wUTNwVWhGUT1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 2026年11月9日、Anthropic が Claude Fable 5.2 を公開しました。前の Claude Fable 5.1 が出たのは9月1日なので、約10週間での更新です。 「5.1 から 5.2 へ、数字が 0.1 増えただけ」と思うかもしれません。ところが中身を読むと、変化はかなり大きいものでした。主なベンチマークは 10〜20 ポイント単位で上がり、料金は 2 割下…"
   },
   {
    "src": "reddit",
@@ -1098,14 +1106,6 @@
    "date": 1791408209000,
    "img": "",
    "desc": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claud…"
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors loading usage data on platform.claude.com",
-   "link": "https://status.claude.com/incidents/wf2v8ms031sx",
-   "date": 1791340418000,
-   "img": "",
-   "desc": "Oct 7 , 02:33 UTC Resolved - This incident has been resolved. From 17:00 PT on October 6 / 00:00 UTC on October 7 to 18:40 PT on October 6 / 01:40 UTC on October 7, many requests to load usage data o…"
   },
   {
    "src": "news",
