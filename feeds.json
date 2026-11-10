@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794295383177,
+ "updatedAt": 1794301321818,
  "sources": {
   "news": {
    "ok": true,
@@ -22,16 +22,16 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "【レビュー用/限定共有】MCPサーバーなしで Well-Architected レビュー！Agent Toolkit for AWS のスキルをローカルコーパス化してポーティングしてみた",
+   "link": "https://qiita.com/h_horiguchi/items/e84c069ffa5519de29b7",
+   "date": 1794300932000,
+   "img": "",
+   "desc": "はじめに AWS が公開している Agent Toolkit for AWS（以下、Agent Toolkit）には、AWS Well-Architected Framework（以下、WA Framework）のレビューを行うスキル aws-well-architect..."
+  },
+  {
+   "src": "qiita",
+   "title": "設備の計算ツールを作って1か月運用した記録 — 検索からの訪問は Google より Bing が多かった",
+   "link": "https://qiita.com/Suisei498/items/ce3dae2a5c4e73d7bec3",
+   "date": 1794296012000,
+   "img": "",
+   "desc": "この記事は Zenn と note にも同じ内容を載せています。Zenn: https://zenn.dev/suisei498/articles/82eab13a1522ed ／ note: https://note.com/suisei498/n/n9b5acee0b..."
+  },
   {
    "src": "qiita",
    "title": "AIエージェントによる開発はコード生成から開発工程全体へ ～GitHubとAnthropicの取り組み～",
@@ -68,28 +84,12 @@
    "desc": "こんにちは！テラーノベルでiOS/Android/Webとフロントエンド周りを担当している@kazutoyoです！ 先日、Expoから「Exact」という新しいクロスプラットフォームのアプリランタイムが公開されました。 https://x.com/ccheever/status/2119764253242695754 https://github.com/expo/exact この記事ではExa…"
   },
   {
-   "src": "qiita",
-   "title": "サブエージェントの並列は速いのか：32回測った",
-   "link": "https://qiita.com/acerola_jp/items/f9fc1ba0daa03b2b96b4",
-   "date": 1794285433000,
-   "img": "",
-   "desc": "Claude Code に「サブエージェントを並列に立てて分担させる」と、速くなりそうに思えます。実際にはどうか。互いに独立した4つの課題を1つのリポジトリに置き、自分で順に解く（直列） と 4つのサブエージェントに同時に任せる（並列） を、Sonnet 5.5 で計32回..."
-  },
-  {
    "src": "zenn",
    "title": "月10ドルのコーディングエージェントで Claude Code のサブエージェントを置き換える",
    "link": "https://zenn.dev/marvelousu/articles/subscription-agent-workers",
    "date": 1794285048000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--5Gxifa38--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259C%258810%25E3%2583%2589%25E3%2583%25AB%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A7%2520Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E7%25BD%25AE%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tom%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmOWVjOTE5YjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code / Codex のサブエージェントに任せていた実装や調査を、月10ドルの OpenCode Go と Command Code で動かしました。呼び出し方と、約3週間で依頼した回数や利用上限に達した日数をまとめます。 TL;DR 普段の開発で、実装や範囲の決まった調査を月10ドルの OpenCode Go に任せ、Claude Code / Codex は方針の判断と成果…"
-  },
-  {
-   "src": "qiita",
-   "title": "MCP 仕様 2026-07-28 の変更点を、自分の設定ファイルとツールスキーマで確かめる",
-   "link": "https://qiita.com/genhiroko/items/c4683096c37770137537",
-   "date": 1794284683000,
-   "img": "",
-   "desc": "MCP(Model Context Protocol)の仕様リビジョン 2026-07-28 は、変更点の一覧だけ読むと「プロトコルの内側の話」に見えます。セッションが無くなった、initialize のハンドシェイクが無くなった、server/discover が増えた。..."
   },
   {
    "src": "zenn",
@@ -244,6 +244,14 @@
    "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 最近、エージェントが作った変更依頼の説明を読んでいると、詳しさと読みやすさが別の問題だと感じる。作業そのものが正しいかを確かめる前に、説明を読む時間が必要になる。どこを人が見て、どこを仕組みに任せるべきだろう。 今日の 10 件 Introducing Claude Fable 5.2 and Cl…"
   },
   {
+   "src": "reddit",
+   "title": "GUYS I DID IT",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xs3e2p/guys_i_did_it/",
+   "date": 1794257534000,
+   "img": "https://preview.redd.it/wiabr3gugn0i1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=7147f054961b69b72451ceec20c2de7c3b8079de",
+   "desc": "I was granted cyber defense access and now have mythos 5.1, this is not a drill! This will be crucial in the defense software I’m building, so excited! Edit: I also received mythos 5.2 + fable 5.2 Ed…"
+  },
+  {
    "src": "hn",
    "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
@@ -306,14 +314,6 @@
    "date": 1794159668000,
    "img": "https://preview.redd.it/40hivrdddf0i1.jpeg?width=640&crop=smart&auto=webp&s=555ebfeeb5d490608c5febc4e5a9d1a7972fba14",
    "desc": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when tr…"
-  },
-  {
-   "src": "reddit",
-   "title": "I built an MCP with Claude Code that lets Claude play PC games in the background. Here it is driving, flying a heli and walking in GTA on its own",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/",
-   "date": 1794157913000,
-   "img": "https://external-preview.redd.it/bWg0NzVkc3c3ZjBpMeyppUDmdDRujkCxftTdneo72Z7W5igpVGtQKsPGpJo7.png?width=640&crop=smart&auto=webp&s=5f93b67e50d3756d6e9732b2c878f074d9bac6e7",
-   "desc": "I wanted AI agents to create, test, and improve my game mods autonomously by actually playing the games, without taking over my PC while they do it. So I built an MCP server with Claude Code. It give…"
   },
   {
    "src": "reddit",
