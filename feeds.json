@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794268143821,
+ "updatedAt": 1794273219421,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Codeのコンテキスト枯渇を防ぐ「Thin Orchestrator」設計 — 親は読まない、パスだけ渡す",
-   "link": "https://qiita.com/joinclass/items/7159dea2ad9280ff27ac",
-   "date": 1794267008000,
+   "title": "AIに書かせる時代だからこそ、コード1行を読む",
+   "link": "https://qiita.com/yukegineer/items/e8fa851317846aa24de6",
+   "date": 1794271128000,
    "img": "",
-   "desc": "はじめに：会話の途中から急に指示を守らなくなった 当社（合同会社ジョインクラス）は、Claude Codeで10部門分のAIエージェントを動かして会社を回しています。launchdジョブは17個以上あり、記事公開・営業パイプライン・朝のダイジェストまでほぼ自動です。 ただ..."
+   "desc": "はじめに 最近はAIを使ってアプリの修正をすることが増えました。指示を出せば、それなりに動くコードがすぐに出てきます。 その一方で、「動いたからOK」とソースの中身を理解しないまま作業を終えてしまうことが、自分にもありました。 だからこそ私は、AIにコードを書かせる時代だ..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeで最近使っているTips【2026/11】",
-   "link": "https://qiita.com/oikon48/items/9ac870cbabf23b819ba3",
-   "date": 1794261674000,
+   "title": "コードを1行も書かずに5か月：Agentic Codingの基本ループ",
+   "link": "https://qiita.com/tntetsu/items/ecdbcafdfb553224dbda",
+   "date": 1794270163000,
    "img": "",
-   "desc": "Oikonです。 気がつけば2026年も終わりが見えてきました。今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。 Claude Code実践入門 [生成AI深掘りガイド]（SBクリエイティブ） Claude Code実践レシピ集（技術..."
+   "desc": "この記事の要点 JavaScriptの実行を可視化するツールを、Claude Codeへの指示だけで5か月作り続けました。私はコードを1行も書いていません 基本は「新しい機能は大枠だけ任せる → 使って違和感があれば、詳しく指示し直す」の繰り返しです。却下は、プランを..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code v2.1.321 解説：Fable 5.2 既定化・MCP OAuth 漏えい修正・mods 権限変更",
-   "link": "https://qiita.com/picnic/items/52a4da888952b42d6fbd",
-   "date": 1794261032000,
+   "title": "AIで開発が速くなったので、ブランチ戦略を考え直してみる",
+   "link": "https://qiita.com/taichi6930/items/788016b6994e0158100e",
+   "date": 1794269860000,
    "img": "",
-   "desc": "はじめに 2026-11-09 にリリースされた Claude Code v2.1.321 は、モデル追加・セキュリティ修正・権限まわりの仕様変更が重なった、見逃せないアップデートです。 Claude Fable 5.2（claude-fable-5-2）が追加され、..."
+   "desc": "はじめに 以前、「最適なブランチ戦略を考える」という記事を書きました。ざっくり言うと、CI/CDが整っているならGitHub Flowで十分で、develop を常設する必要はない。定期リリースが必要でも、リリース直前にmainから使い捨ての release ブランチを切..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code の \"Context low (<n>% remaining)\" と \"<n>% until auto-compact\" の意味と、/compact の前にやっておくこと",
-   "link": "https://qiita.com/homhom44/items/1701938f933c53bace20",
-   "date": 1794259970000,
+   "title": "【要約】Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku ― タスク別のモデル選びとエフォート調整の実践ガイド 🧭",
+   "link": "https://qiita.com/NaokiIshimura/items/290561d12736aa67219b",
+   "date": 1794268478000,
    "img": "",
-   "desc": "Claude Code の画面下に Context low (% remaining) · Run /compact to compact & continue や % until auto-compact と出たときの読み方です。エラーではなく、会話が窓いっぱ..."
+   "desc": "はじめに 📝 2026年11月9日に claude.dev ブログで公開された記事 「Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku」（著者: Addy Osmani、Play..."
   },
   {
    "src": "hn",
@@ -81,7 +81,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 196 # Comments: 108"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 273 # Comments: 193"
   },
   {
    "src": "claude-code",
@@ -289,7 +289,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 881 # Comments: 472"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 883 # Comments: 472"
   },
   {
    "src": "reddit",
@@ -298,6 +298,14 @@
    "date": 1794159668000,
    "img": "https://preview.redd.it/40hivrdddf0i1.jpeg?width=640&crop=smart&auto=webp&s=555ebfeeb5d490608c5febc4e5a9d1a7972fba14",
    "desc": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when tr…"
+  },
+  {
+   "src": "reddit",
+   "title": "I built an MCP with Claude Code that lets Claude play PC games in the background. Here it is driving, flying a heli and walking in GTA on its own",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xr3gbs/i_built_an_mcp_with_claude_code_that_lets_claude/",
+   "date": 1794157913000,
+   "img": "https://external-preview.redd.it/bWg0NzVkc3c3ZjBpMeyppUDmdDRujkCxftTdneo72Z7W5igpVGtQKsPGpJo7.png?width=640&crop=smart&auto=webp&s=5f93b67e50d3756d6e9732b2c878f074d9bac6e7",
+   "desc": "I wanted AI agents to create, test, and improve my game mods autonomously by actually playing the games, without taking over my PC while they do it. So I built an MCP server with Claude Code. It give…"
   },
   {
    "src": "reddit",
@@ -345,7 +353,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 622 # Comments: 419"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 622 # Comments: 421"
   },
   {
    "src": "reddit",
@@ -377,7 +385,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 322 # Comments: 632"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 322 # Comments: 634"
   },
   {
    "src": "reddit",
@@ -433,7 +441,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1612 # Comments: 534"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1612 # Comments: 535"
   },
   {
    "src": "reddit",
@@ -522,14 +530,6 @@
    "date": 1793669146000,
    "img": "",
    "desc": "What's changed - Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them - Added a check that asks before a web or shell tool call se…"
-  },
-  {
-   "src": "reddit",
-   "title": "Opus 5.5 medium with blender mcp is insane with the right prompting",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xmcwbt/opus_55_medium_with_blender_mcp_is_insane_with/",
-   "date": 1793661695000,
-   "img": "https://preview.redd.it/95i9r8sp7azh1.jpeg?width=140&height=87&auto=webp&s=11a269cc326ac09b2cf44d88e90c286365d1d432",
-   "desc": "I've been experimenting with Opus 5.5 Medium and Blender for a medieval game dev project I'm working on, and the results have been fantastic. I tried using Blender with Claude in the past and wasn't …"
   },
   {
    "src": "hn",
