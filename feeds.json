@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794347476502,
+ "updatedAt": 1794351181424,
  "sources": {
   "news": {
    "ok": true,
@@ -27,11 +27,11 @@
   },
   "hn": {
    "ok": false,
-   "error": "HTTP 502"
+   "error": "fetch failed"
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
