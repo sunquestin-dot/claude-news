@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794283187490,
+ "updatedAt": 1794286950737,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "サブエージェントの並列は速いのか：32回測った",
+   "link": "https://qiita.com/acerola_jp/items/f9fc1ba0daa03b2b96b4",
+   "date": 1794285433000,
+   "img": "",
+   "desc": "Claude Code に「サブエージェントを並列に立てて分担させる」と、速くなりそうに思えます。実際にはどうか。互いに独立した4つの課題を1つのリポジトリに置き、自分で順に解く（直列） と 4つのサブエージェントに同時に任せる（並列） を、Sonnet 5.5 で計32回..."
+  },
+  {
+   "src": "qiita",
+   "title": "MCP 仕様 2026-07-28 の変更点を、自分の設定ファイルとツールスキーマで確かめる",
+   "link": "https://qiita.com/genhiroko/items/c4683096c37770137537",
+   "date": 1794284683000,
+   "img": "",
+   "desc": "MCP(Model Context Protocol)の仕様リビジョン 2026-07-28 は、変更点の一覧だけ読むと「プロトコルの内側の話」に見えます。セッションが無くなった、initialize のハンドシェイクが無くなった、server/discover が増えた。..."
+  },
+  {
+   "src": "qiita",
+   "title": "本棚を見たい",
+   "link": "https://qiita.com/100terabyte/items/e4d240a2fef0903ee8b3",
+   "date": 1794284469000,
+   "img": "",
+   "desc": "そんな気持ちをWebサービスにしました。 https://two-shelves.web.app/ といってもテストもブラッシュアップもしていない状態なのでこれからぼちぼちと足していきたいと思います。 これなんだ 本棚を3Dで作ってVRで閲覧できるようにするWebアプリで..."
+  },
   {
    "src": "zenn",
    "title": "Claude Code 社内導入キット：申請書・回答表・管理設定・確認スクリプト",
@@ -116,22 +140,6 @@
    "desc": "はじめに AIコーディングで設計と実装を別々のエージェントに担当させたい場合、いくつか方法があります。 方法 特徴 チャットアプリでコピペ シンプルだが、人間が仲介する必要がある サブエージェント 連携は簡単だが、実行状況や操作方法は親エージェント側の仕..."
   },
   {
-   "src": "qiita",
-   "title": "Coding Agentの暴走を防ぐAGENTS.md実践ガイド：最小変更・セキュリティ・レビュー信頼性、POS／CRM／需要予測の実例つき",
-   "link": "https://qiita.com/yoshisen/items/deac414706d5450bd960",
-   "date": 1794275952000,
-   "img": "",
-   "desc": "Codex、GitHub Copilot、Claude Code、Cursor、OpenCode などの Coding Agent は、コードを書く能力そのものは非常に高くなりました。一方、実務では次のような失敗が繰り返し起きます。 依頼されていない抽象化や機能追加を始め..."
-  },
-  {
-   "src": "qiita",
-   "title": "なぜ制度批判は「差別」と呼ばれるのか——財源幻想と沈黙の螺旋の行動経済学 : システム設計視点の行動経済学 (60)",
-   "link": "https://qiita.com/maskot1977/items/67f27fee8e88090c5c2f",
-   "date": 1794275021000,
-   "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第60回を始めましょう。その前に、まず前回の復習として、 育成就労制度の設計検証 ― 財源幻想と多文化共生の強制の交差点 : システム設計視点の行動経済学 (59) https://qiita.com/maskot1977/i..."
-  },
-  {
    "src": "zenn",
    "title": "Claudeのコードを人間が全部読まなくて済むように、Codexにpushを審査させるhookを2か月運用した",
    "link": "https://zenn.dev/shoma46/articles/claude-code-codex-push-review-hook",
@@ -162,14 +170,6 @@
    "date": 1794272418000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--kz-vO1IL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%259F%25E3%2580%258C%25E5%2589%258D%25E3%2582%2582%25E3%2581%25A3%25E3%2581%25A6%25E6%2596%2587%25E5%25AD%2597%25E8%25B5%25B7%25E3%2581%2593%25E3%2581%2597%25E3%2581%2599%25E3%2582%258B%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2580%258D%25E3%2581%258C3%25E6%2597%25A5%25E9%2596%25930%25E4%25BB%25B6%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%259AWindows%25E3%2581%25A7%25E3%2581%25AF0%25E7%2595%25AA%25E3%2581%25AE%25E5%2587%25A6%25E7%2590%2586%25E3%2581%258C...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AD%25E3%2583%25AA%25E3%2583%258C%25E3%2582%25AD%25E8%2587%25AA%25E5%258B%2595%25E5%258C%2596%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2FmYWY5YzE0ZjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "政治の切り抜き動画づくりを、Claude Code に丸ごと任せています。私はプログラムを書けないので、コードは読んでいません。 その中に、使いそうな元の動画が見つかった時点で、文字起こしだけ先に済ませておく仕組みがあります。動画を作る順番が来た時に、一番時間のかかる文字起こしが終わっているようにするためです。 この仕組みが、3日間1件も動いていませんでした。 記録の件数 先取りの記録を日ごとに…"
-  },
-  {
-   "src": "qiita",
-   "title": "AIに書かせる時代だからこそ、コード1行を読む",
-   "link": "https://qiita.com/yukegineer/items/e8fa851317846aa24de6",
-   "date": 1794271128000,
-   "img": "",
-   "desc": "はじめに 最近はAIを使ってアプリの修正をすることが増えました。指示を出せば、それなりに動くコードがすぐに出てきます。 その一方で、「動いたからOK」とソースの中身を理解しないまま作業を終えてしまうことが、自分にもありました。 だからこそ私は、AIにコードを書かせる時代だ..."
   },
   {
    "src": "zenn",
@@ -237,11 +237,11 @@
   },
   {
    "src": "hn",
-   "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+   "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 273 # Comments: 193"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 317 # Comments: 231"
   },
   {
    "src": "claude-code",
@@ -297,7 +297,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 883 # Comments: 472"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 886 # Comments: 475"
   },
   {
    "src": "reddit",
@@ -353,7 +353,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 805 # Comments: 485"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 806 # Comments: 485"
   },
   {
    "src": "hn",
@@ -361,7 +361,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 622 # Comments: 421"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 623 # Comments: 422"
   },
   {
    "src": "reddit",
@@ -906,14 +906,6 @@
    "date": 1792614557000,
    "img": "",
    "desc": "Oct 21 , 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will…"
-  },
-  {
-   "src": "hn",
-   "title": "Claude Duet",
-   "link": "https://claude.com/product/claude-duet",
-   "date": 1792610041000,
-   "img": "",
-   "desc": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186037 Points: 568 # Comments: 539"
   },
   {
    "src": "news",
