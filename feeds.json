@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794301321818,
+ "updatedAt": 1794305042620,
  "sources": {
   "news": {
    "ok": true,
@@ -45,43 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "【レビュー用/限定共有】MCPサーバーなしで Well-Architected レビュー！Agent Toolkit for AWS のスキルをローカルコーパス化してポーティングしてみた",
+   "title": "Claude Code チートシート — 私が毎日本当に使うコマンド15選",
+   "link": "https://qiita.com/TOMOSIA-HieuNT/items/b19c46ec77d3bdcab4fc",
+   "date": 1794303907000,
+   "img": "",
+   "desc": "※ この記事の日本語には、少し不自然な部分があるかもしれません。AIの言語サポートを利用しながら作成しています。 目次 はじめに 1. 3つのモード — 最初に正しく選ぶ 2. よく使う7つのスラッシュコマンド 3. コンテキスト管理 — 一番大切なスキル 4. CL..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code に Windows と Linux の GUI アプリの動作確認まで自動化させた話",
+   "link": "https://qiita.com/akivajp/items/a9a2fe2e298d326f480c",
+   "date": 1794303683000,
+   "img": "",
+   "desc": "AI のコーディング支援（Claude Code）でデスクトップアプリを作っていると、「実装しました。ビルドも通りました。画面での動作は確認できていないので、確かめてください」で止まることがよくあります。 FlexFlyout（音量を変えたときに曲の情報を出すアプリ。Win..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code で日本語のスキャン PDF を Markdown にする：SKILL.md に日本語 OCR の指定があるスキルは9本中2本",
+   "link": "https://qiita.com/Skillselion/items/6e9c94ecf642a091f9cf",
+   "date": 1794301842000,
+   "img": "",
+   "desc": "要点：日本語のスキャン PDF を Claude Code で Markdown にするとき、SKILL.md に日本語の言語コードが書いてあるのは MinerU 版 pdf-converter（--language japan）と smart-ocr（lang='ja..."
+  },
+  {
+   "src": "qiita",
+   "title": "MCPサーバーなしで Well-Architected レビュー！Agent Toolkit for AWS のスキルをローカルコーパス化してポーティングしてみた",
    "link": "https://qiita.com/h_horiguchi/items/e84c069ffa5519de29b7",
    "date": 1794300932000,
    "img": "",
    "desc": "はじめに AWS が公開している Agent Toolkit for AWS（以下、Agent Toolkit）には、AWS Well-Architected Framework（以下、WA Framework）のレビューを行うスキル aws-well-architect..."
-  },
-  {
-   "src": "qiita",
-   "title": "設備の計算ツールを作って1か月運用した記録 — 検索からの訪問は Google より Bing が多かった",
-   "link": "https://qiita.com/Suisei498/items/ce3dae2a5c4e73d7bec3",
-   "date": 1794296012000,
-   "img": "",
-   "desc": "この記事は Zenn と note にも同じ内容を載せています。Zenn: https://zenn.dev/suisei498/articles/82eab13a1522ed ／ note: https://note.com/suisei498/n/n9b5acee0b..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIエージェントによる開発はコード生成から開発工程全体へ ～GitHubとAnthropicの取り組み～",
-   "link": "https://qiita.com/hamu502/items/b797e798b82b38860dbb",
-   "date": 1794293970000,
-   "img": "",
-   "desc": "はじめに GitHub Copilotを利用したコーディング支援やAIエージェントを利用していましたが、最近ではClaude Codeを利用する機会が増えてきました。 これまでは、AIにコードを書かせたり、既存コードの修正を依頼したりする使い方が中心でしたが、最近は要件整..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Fable 5.2 は 5.1 から何が変わった？ 性能・料金・effort・API の違い",
-   "link": "https://qiita.com/Takuya__/items/b75c2e8ff8176f551fce",
-   "date": 1794288963000,
-   "img": "",
-   "desc": "はじめに 2026年11月9日、Anthropic が Claude Fable 5.2 を公開しました。前の Claude Fable 5.1 が出たのは9月1日なので、約10週間での更新です。 「5.1 から 5.2 へ、数字が 0.1 増えただけ」と思うかもしれま..."
-  },
-  {
-   "src": "zenn",
-   "title": "Rustで作られたExpoの新フレームワーク「Exact」で、モバイル・Web・デスクトップアプリを作ってみた",
-   "link": "https://zenn.dev/tellernovel_inc/articles/expo-exact-first-impression",
-   "date": 1794287197000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--lXthB1zR--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Rust%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%2589%25E3%2582%258C%25E3%2581%259FExpo%25E3%2581%25AE%25E6%2596%25B0%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%25AF%25E3%2580%258CExact%25E3%2580%258D%25E3%2581%25A7%25E3%2580%2581%25E3%2583%25A2%25E3%2583%2590%25E3%2582%25A4%25E3%2583%25AB%25E3%2583%25BBWeb%25E3%2583%25BB%25E3%2583%2587%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%2588%25E3%2583%2583%25E3%2583%2597%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:kazutoyo%2540TellerNovel%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Y2ZDBjOWE0YTEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%2586%25E3%2583%25A9%25E3%2583%25BC%25E3%2583%258E%25E3%2583%2599%25E3%2583%25AB%2520%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ0OTFkZTE3MjUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "こんにちは！テラーノベルでiOS/Android/Webとフロントエンド周りを担当している@kazutoyoです！ 先日、Expoから「Exact」という新しいクロスプラットフォームのアプリランタイムが公開されました。 https://x.com/ccheever/status/2119764253242695754 https://github.com/expo/exact この記事ではExa…"
   },
   {
    "src": "zenn",
@@ -242,6 +234,14 @@
    "date": 1794262813000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--ajRCmpLu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-10%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 最近、エージェントが作った変更依頼の説明を読んでいると、詳しさと読みやすさが別の問題だと感じる。作業そのものが正しいかを確かめる前に、説明を読む時間が必要になる。どこを人が見て、どこを仕組みに任せるべきだろう。 今日の 10 件 Introducing Claude Fable 5.2 and Cl…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeで最近使っているTips【2026/11】",
+   "link": "https://zenn.dev/oikon/articles/claude-code-recipe",
+   "date": 1794261665000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Oceq9aco--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E6%259C%2580%25E8%25BF%2591%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258BTips%25E3%2580%25902026%252F11%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Oikon%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYyMTkzODY4NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Oikonです。 気がつけば2026年も終わりが見えてきました。今年はありがたいことにClaude Codeの書籍を2冊出版させていただきました。 Claude Code実践入門 [生成AI深掘りガイド]（SBクリエイティブ） Claude Code実践レシピ集（技術評論社） 新刊のClaude Code実践レシピ集は、個人的に好きなClaude CodeのTipsをベースに、割と好き勝手に書か…"
   },
   {
    "src": "reddit",
