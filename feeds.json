@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794333337609,
+ "updatedAt": 1794337575905,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -66,6 +66,14 @@
    "date": 1794329013000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--cAPr5pFs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E5%2586%258D%25E8%25B5%25B7%25E5%258B%2595%25E7%259B%25B4%25E5%25BE%258C%25E3%2580%2581%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E9%2581%2593%25E5%2585%25B7%25E3%2581%258C%25E3%2580%258C%25E5%2585%2588%25E3%2581%25AB%25E5%258F%25B0%25E5%25B8%25B3%25E3%2581%25B8%25E7%2599%25BB%25E9%258C%25B2%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258D%25E3%2581%25A8%25E6%2596%25AD%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%2589%25E3%2582%258C%25E3%2581%25A6%25E5%2588%2586%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2581%25E5%2585%25A5%25E5%258A%259B%25E3%2582%2592%25E5%258F%2596%25E3%2582%258A%25E3%2581%2593%25E3%2581%25BC%25E3%2581%2595%25E3%2581%25AA%25E3%2581%2584%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "X の投稿は、AI の席（広報部）に任せています。この席は、全員をまとめて起こし直す日があります。11/10 にもありました。起き直した直後の動きを、そのまま書き残します。 最初の1手が、断られた 起き直した席が最初にやるのは、復帰の手順を読むことです。手順の道具を呼んだところ、断られました。 「作業前の台帳登録が未完了です」 起こされた時の指示文が、「まだ整理されていない入力」として台帳に残っ…"
+  },
+  {
+   "src": "reddit",
+   "title": "it’s getting smarter frfr",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xsrfcl/its_getting_smarter_frfr/",
+   "date": 1794328215000,
+   "img": "https://preview.redd.it/vnnou6n0bt0i1.jpeg?width=640&crop=smart&auto=webp&s=5a5ddf4ae2ebb86c82b731a1ba97f037886c9e9b",
+   "desc": "submitted by /u/Worldly_Chemistry_81 [link] [comments]"
   },
   {
    "src": "qiita",
@@ -289,7 +297,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 355 # Comments: 255"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 364 # Comments: 263"
   },
   {
    "src": "claude-code",
@@ -337,7 +345,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 891 # Comments: 483"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 895 # Comments: 485"
   },
   {
    "src": "reddit",
@@ -385,7 +393,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 808 # Comments: 488"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 810 # Comments: 489"
   },
   {
    "src": "hn",
@@ -393,7 +401,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 623 # Comments: 424"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 624 # Comments: 425"
   },
   {
    "src": "reddit",
@@ -437,14 +445,6 @@
   },
   {
    "src": "reddit",
-   "title": "I built a Netflix-style app for my media server with Claude. The whole thing is 15 MB 🤯",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xp76q1/i_built_a_netflixstyle_app_for_my_media_server/",
-   "date": 1793951639000,
-   "img": "https://external-preview.redd.it/p72PhHRQqxVKidCGvZLFRPQycDrifQ8p1ZfSKLsvPCA.png?width=140&height=73&auto=webp&s=aa535454aea9b16ef18e2d19ee821579dded99f3",
-   "desc": "if you run a home media server you probably have sonarr, radarr, lidarr, bazarr, prowlarr and seerr. thats six apps, and each one ships with its own little operating system inside just to run. sonarr…"
-  },
-  {
-   "src": "reddit",
    "title": "Open question to Anthropic: If you're making 30,000 merges a day, why are more than 98% of open GitHub issues unassigned, including serious security bugs?",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xozfcv/open_question_to_anthropic_if_youre_making_30000/",
    "date": 1793926130000,
@@ -473,7 +473,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1612 # Comments: 535"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1613 # Comments: 535"
   },
   {
    "src": "reddit",
