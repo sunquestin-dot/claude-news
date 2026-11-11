@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794382044970,
+ "updatedAt": 1794387972535,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code で Roblox: スキルは Studio を開かない。接続は Studio 内蔵の MCP サーバー",
+   "link": "https://qiita.com/Skillselion/items/895e78fb22ab2e1af0f1",
+   "date": 1794387164000,
+   "img": "",
+   "desc": "Claude Code に Roblox のコードを書かせると、Studio では動くのに本番で壊れる Luau が出てきがちです。購入処理を LocalScript で付与してしまう、非推奨の Humanoid:LoadAnimation を使う、デスクトップでは平気なパ..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code でコードレビューする5つの手法と、レビューに使うモデルの選び方",
+   "link": "https://qiita.com/HanaleiMoon/items/c1556cd203fac77b6fa7",
+   "date": 1794386340000,
+   "img": "",
+   "desc": "はじめに Claude Code には、コードレビューのための仕組みがいくつも用意されています。手元の差分をその場で見てもらう /code-review、クラウドで複数のエージェントが検証まで行う ultrareview、GitHub の PR を自動でレビューする Co..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code カスタムサブエージェント完全理解ガイド",
+   "link": "https://qiita.com/okmonn/items/c3c445e8a87072c2dc61",
+   "date": 1794385257000,
+   "img": "",
+   "desc": "対象: Claude Codeを初めて使う方、カスタムサブエージェントを初めて設計する方 目的: 「いつ作るか」「何を書くか」「どう安全に使うか」「どう検証するか」を、実用テンプレートと具体例で理解する 目次 サブエージェントの基本 カスタムサブエージェントが必要か..."
+  },
+  {
+   "src": "qiita",
    "title": "バズった REA は、実際に何に使われているのか",
    "link": "https://qiita.com/hisashi-ito/items/0df1df4572c95ec198d9",
    "date": 1794380467000,
    "img": "",
    "desc": "1 か月ほど前、GitHub で急に話題になった REA(Reverse Engineer Anything)は、AI にソースコードのないアプリの中身を調べさせる道具です。前回の記事では、何をするものか、なぜ話題になったかを調べました。今回は、その後、実際に使った人が何を..."
-  },
-  {
-   "src": "qiita",
-   "title": "Opus 5.5 は 11/3 から弱くなったのか。11/2 と同じ依頼を同じ Claude Code で36回やり直したら、質は変わらず、費用は6%増えていた",
-   "link": "https://qiita.com/suwa_nobu/items/cb2f63aafbb3ca6f1516",
-   "date": 1794380424000,
-   "img": "",
-   "desc": "「最近の Opus 5.5、なんだか前より弱くないか」。11月9日、Hacker News に「Is Opus 5.5 nerfed? Thinking patterns changed on November 3」という投稿が出て、800点を超えました。 スレッドを読むと..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Opus 5.5とFable 5.2はどちらを使うべきか、Claude Codeで同じ課題を解かせて比べてみた",
-   "link": "https://qiita.com/MURAMASA2470/items/ad5a0cade2bd5b3165f9",
-   "date": 1794377627000,
-   "img": "",
-   "desc": "はじめに Claude Codeで使えるモデルに、Opus 5.5とFable 5.2があります。 Fable 5.2の方が上位のモデルですが、単価はOpus 5.5の2倍です。 普段の開発でどちらを選べばよいのか、調べてもあまり具体的な数字が出てきませんでした。 なので..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeのeffortでトークン量はどれくらい変わるか検証してみた",
-   "link": "https://qiita.com/MURAMASA2470/items/620d6d6a8fd7fdc5f38e",
-   "date": 1794377536000,
-   "img": "",
-   "desc": "はじめに Claude Codeには、モデルとは別に「effort」という設定があります。 low・medium・high・xhigh・maxの5段階です。 上げるほどよく考える代わりに、トークンを使います。 ただ、1段階上げるとトークンがどれくらい増えるのかは、調べても..."
   },
   {
    "src": "zenn",
@@ -274,6 +274,14 @@
    "date": 1794332688000,
    "img": "https://external-preview.redd.it/bWs2aGJ1cjJudDBpMadVf9ZyolSlM9HT-Wdp5UpsCn0O4T7savA_slmXS5-Z.png?width=640&crop=smart&auto=webp&s=aff9ab6c21fa901f595d474eb3eb860ec590b486",
    "desc": "I built a web page that works like an X-ray mirror. You point a webcam at your face and see a skull, brain and facial muscles pinned to your head and following it as you move. The jaw opens when you …"
+  },
+  {
+   "src": "reddit",
+   "title": "I made a Claude Code mod that draws a live map of what the agent is doing",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xst2qe/i_made_a_claude_code_mod_that_draws_a_live_map_of/",
+   "date": 1794331917000,
+   "img": "https://external-preview.redd.it/bzM5anNwOWxrdDBpMX44gEo0tVeezJH7nMlLhbL4EA0mLy-DAxnk370l8xyb.png?width=640&crop=smart&auto=webp&s=d04dc64429f05ea742f24f7899f884cbb159a4a8",
+   "desc": "I got tired of reading a scrolling list of tool calls, so I had Claude Code build a mod that shows the work as a map in a pane beside the chat. The agent sits in the centre, with ten stations around …"
   },
   {
    "src": "reddit",
@@ -514,14 +522,6 @@
    "date": 1793867477000,
    "img": "",
    "desc": "first time posting on reddit so hi i wanted to control my mouse with my airpods on linux (they have a gyro for spatial audio). every open source project i found said airpods 3 weren't supported, so i…"
-  },
-  {
-   "src": "reddit",
-   "title": "I built a hyper realistic fighter jet simulator for the browser with opus 5.5 and it went viral on Twitter!",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xobggp/i_built_a_hyper_realistic_fighter_jet_simulator/",
-   "date": 1793859475000,
-   "img": "https://external-preview.redd.it/M2RkNzgyaHZrcXpoMVk1kXN8wFV2MqQWpRF-J5pZnffwOwiNoXIl_jCLz7FT.png?width=640&crop=smart&auto=webp&s=647702315d12727a596c32df8d365ca1822902ef",
-   "desc": "try it for for free at viperoneone.com Hi hi solo dev here folks! It's been super fun building this in public. It went viral about 2 weeks ago with 25,000 players playing this over that time period w…"
   },
   {
    "src": "research",
