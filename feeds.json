@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794377434817,
+ "updatedAt": 1794382044970,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -45,11 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AI駆動開発でServiceNowアプリを作り、レビューはCodeRabbitに任せてみた",
-   "link": "https://qiita.com/hataraku_hito/items/f239aae68d679428adb2",
-   "date": 1794373961000,
+   "title": "バズった REA は、実際に何に使われているのか",
+   "link": "https://qiita.com/hisashi-ito/items/0df1df4572c95ec198d9",
+   "date": 1794380467000,
    "img": "",
-   "desc": "はじめに AIにコードを書かせる開発、いわゆるAI駆動開発を続けていて感じるのは、開発のボトルネックが「書くこと」から「レビューすること」に移ったということです。書くのは速い。でも、そのコードを本当に信じていいのかを確かめる作業は、むしろ前より重くなりました。 そこで今回..."
+   "desc": "1 か月ほど前、GitHub で急に話題になった REA(Reverse Engineer Anything)は、AI にソースコードのないアプリの中身を調べさせる道具です。前回の記事では、何をするものか、なぜ話題になったかを調べました。今回は、その後、実際に使った人が何を..."
+  },
+  {
+   "src": "qiita",
+   "title": "Opus 5.5 は 11/3 から弱くなったのか。11/2 と同じ依頼を同じ Claude Code で36回やり直したら、質は変わらず、費用は6%増えていた",
+   "link": "https://qiita.com/suwa_nobu/items/cb2f63aafbb3ca6f1516",
+   "date": 1794380424000,
+   "img": "",
+   "desc": "「最近の Opus 5.5、なんだか前より弱くないか」。11月9日、Hacker News に「Is Opus 5.5 nerfed? Thinking patterns changed on November 3」という投稿が出て、800点を超えました。 スレッドを読むと..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Opus 5.5とFable 5.2はどちらを使うべきか、Claude Codeで同じ課題を解かせて比べてみた",
+   "link": "https://qiita.com/MURAMASA2470/items/ad5a0cade2bd5b3165f9",
+   "date": 1794377627000,
+   "img": "",
+   "desc": "はじめに Claude Codeで使えるモデルに、Opus 5.5とFable 5.2があります。 Fable 5.2の方が上位のモデルですが、単価はOpus 5.5の2倍です。 普段の開発でどちらを選べばよいのか、調べてもあまり具体的な数字が出てきませんでした。 なので..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Codeのeffortでトークン量はどれくらい変わるか検証してみた",
+   "link": "https://qiita.com/MURAMASA2470/items/620d6d6a8fd7fdc5f38e",
+   "date": 1794377536000,
+   "img": "",
+   "desc": "はじめに Claude Codeには、モデルとは別に「effort」という設定があります。 low・medium・high・xhigh・maxの5段階です。 上げるほどよく考える代わりに、トークンを使います。 ただ、1段階上げるとトークンがどれくらい増えるのかは、調べても..."
   },
   {
    "src": "zenn",
@@ -116,22 +140,6 @@
    "desc": "はじめに：資格勉強を「ビルド構築」に昇華できないか？ クラウド認定資格（OCI Foundations / Architect Associate / Professional など）の勉強をしていると、サービスの仕様やベストプラクティスを暗記するフェーズが必ずやってきます。しかし、ドキュメントや問題集をひたすら周回するのは正直しんどい瞬間もあります。 そんな折、『崩壊：スターレイル』のゲーム内…"
   },
   {
-   "src": "qiita",
-   "title": "Claude Codeの許可設定から秘密情報を公開しないために",
-   "link": "https://qiita.com/kentasatomi/items/edd33c3233f10b32fc77",
-   "date": 1794363211000,
-   "img": "",
-   "desc": "Claude Codeの許可設定から秘密情報を公開しないために 2026年11月、セキュリティ企業Apiiroが、AIコーディングエージェントの設定ファイルや会話ログなどから、2,539件の秘密情報が公開GitHub上で見つかったと報告しました。1,994リポジトリにまた..."
-  },
-  {
-   "src": "qiita",
-   "title": "claude -p に渡すプロンプトをヒアドキュメントで組むと、バッククォートの文が消える(<<'EOF' で防ぐ)",
-   "link": "https://qiita.com/takamatt_ai/items/67810d8e78f17bd257b2",
-   "date": 1794362035000,
-   "img": "",
-   "desc": "この記事を読み終えると、無人で動かす claude -p のプロンプトをシェルのヒアドキュメントで組むときに、本文のバッククォートがコマンド置換されて文が消える理由と、<<'EOF' で防ぐ書き方が分かります。 根拠は、2026-11-05 の私の作業記録(定期実行のログ)..."
-  },
-  {
    "src": "zenn",
    "title": "Claude CodeからiPhoneを触りたいので、iphone-controlの使い方を調べた",
    "link": "https://zenn.dev/53able/articles/d269009df2697e",
@@ -140,20 +148,20 @@
    "desc": "Claude CodeからiPhoneを操作できる、というAvid氏の投稿を見ました。紹介されていたのは「iphone-control」というOSSです。 READMEには、実機で天気を読んだり、Spotifyを再生したり、メモを書いたりしたとあります。まだプロトタイプですが、MacのiPhoneミラーリングを使って操作する仕組みです。 自分でも試すなら何を用意するのか、ドキュメントを読んで整理…"
   },
   {
-   "src": "qiita",
-   "title": "システム設計視点の行動経済学 全60回 総復習",
-   "link": "https://qiita.com/maskot1977/items/d811bfa98fd0ee273bb2",
-   "date": 1794360608000,
-   "img": "",
-   "desc": "システム設計視点の行動経済学：全60回総復習 「喧嘩せず日本をより良くするために知恵を絞る」 連載「システム設計視点の行動経済学」の第60回が公開されました。本稿は Arc I（第1回）から Arc VII（第60回）までの全行程を一本で振り返る総復習記事です。 ..."
-  },
-  {
    "src": "zenn",
    "title": "Claude Code に本番を触らせる線 — 手順は AI が書き、最後の1行は人が打つ",
    "link": "https://zenn.dev/kuu_dqx/books/ai-writes-human-types",
    "date": 1794359573000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--0F0BslrM--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9lOWVmM2I1YjEyLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
    "desc": "Claude Code に家のサーバや公開サイトの運用を手伝わせていると、本番に触る操作の多くは、AI が書いて人が打つ形になります。私の環境では、2026年10月22日からの15日間で、人が `!` で打った行が229行ありました。そのうち207行は何かを書き換える行です。自動モードの判定に止められた操作は30件でした。ある朝、監視サーバからホストを1つ消す作業で、AI は自分では打てない理由…"
+  },
+  {
+   "src": "reddit",
+   "title": "Guys Fable 5.2 is INSANE",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xt4fap/guys_fable_52_is_insane/",
+   "date": 1794359442000,
+   "img": "https://preview.redd.it/760b1wbjvv0i1.png?width=140&height=86&auto=webp&s=4d57724bd7b9f94ecb4cb0169e001c284e085f5b",
+   "desc": "This is the first Anthropic model that can generate no response. Haiku, Sonnet, and even Opus FAIL this completely legitimate task. They really meant it when they said Fable 5.2 uses fewer tokens tha…"
   },
   {
    "src": "zenn",
@@ -217,7 +225,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 368 # Comments: 169"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 385 # Comments: 178"
   },
   {
    "src": "zenn",
@@ -257,7 +265,7 @@
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 168 # Comments: 137"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 189 # Comments: 142"
   },
   {
    "src": "reddit",
@@ -337,7 +345,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 375 # Comments: 269"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 375 # Comments: 270"
   },
   {
    "src": "claude-code",
@@ -396,14 +404,6 @@
    "desc": "Was cloude always like this? I am trying it for a month now. Really great capabilities but these safe guards are ridiculously sensitive. To the point it makes me apply for security researcher when tr…"
   },
   {
-   "src": "reddit",
-   "title": "What's the one prompt you keep coming back to?",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xr0drc/whats_the_one_prompt_you_keep_coming_back_to/",
-   "date": 1794150062000,
-   "img": "",
-   "desc": "Mine is Break this project into as many small steps as you can, in order. Each step should take under 30 min and have a clear done-check. Put them in one artifact with checkboxes I can come back to f…"
-  },
-  {
    "src": "status",
    "title": "Degraded performance for Claude Fable 5.1",
    "link": "https://status.claude.com/incidents/kw2lxj1th04c",
@@ -441,7 +441,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 624 # Comments: 427"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 625 # Comments: 427"
   },
   {
    "src": "reddit",
