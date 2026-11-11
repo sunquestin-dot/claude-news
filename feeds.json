@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794438022690,
+ "updatedAt": 1794441396343,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "定期の作業表を「期限」でなく「最後にやった日」で見張る30行ほどの Python(期限を動かすと見張りが外れる)",
+   "link": "https://qiita.com/takamatt_ai/items/f9cd508f956a29f9b5d7",
+   "date": 1794440962000,
+   "img": "",
+   "desc": "この記事を読み終えると、Markdown の表で管理している「毎日・毎週の作業」を、期限ではなく「最後にやった日」で見張る小さな Python スクリプトを自分の表に合わせて作れます。 根拠は、手元の Windows 11 で下のスクリプトを2つの日付で実行した出力です(2..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Codeですぐに作れると思ったけどメモリとストレージの管理でめちゃくちゃ指示が必要だったメールアプリ開発",
+   "link": "https://qiita.com/haruki-lo-shelon/items/c9f15818df6fb736ac86",
+   "date": 1794439304000,
+   "img": "",
+   "desc": "はじめに メールを「件名の一覧」ではなく「やり取りしている相手ごと」にチャットのように並べる iPhone アプリ「チャットdeメール」を作り、App Store で公開しました。 コーディングは全部 Claude Code です。僕は要件だけひたすら伝え続けました。 最..."
+  },
+  {
+   "src": "qiita",
+   "title": "AIエージェントにAndroidスマホを操作させるOSSアプリ「Buddy」を作った（Claude Code / Codex / MCP）",
+   "link": "https://qiita.com/ghorbelhamdi/items/9bc8cdf716fce6799b9a",
+   "date": 1794438500000,
+   "img": "",
+   "desc": "はじめに Claude Code や Codex のようなコーディングエージェントは、ターミナルの中ではとても有能です。では、その「手」をスマホの画面まで伸ばしたらどうなるか。そう考えて、Android アプリ Buddy を作りました。 リポジトリ: https://..."
+  },
+  {
+   "src": "qiita",
    "title": "10年以上前に自作したシリアル通信の試験ツールを、AIにWPFへ置き換えてもらった ― ついでに内部のバグも直してもらった",
    "link": "https://qiita.com/okakousuke1124/items/ae982344111c31542d21",
    "date": 1794436405000,
    "img": "",
    "desc": "ハードウェアのシリアル通信を試験するとき、汎用の端末ソフトでは手数が多い、と感じていました。同じ命令を残しておいて、送り直すことができない。秒数を指定して、同じ命令を送り続けることもできない。相手は独自のハードウェアだったので、その試験に合った機能が欲しくなりました。 そこ..."
-  },
-  {
-   "src": "qiita",
-   "title": "学習キューを成功日時で並べたら、失敗し続ける約200件が毎日の枠を使い切った 〜再挑戦の順番は「最後に試した日時」で決める〜",
-   "link": "https://qiita.com/charge0315/items/930bde72c5130a1dad74",
-   "date": 1794433155000,
-   "img": "",
-   "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第40話です。 毎日、学習ジョブは動いている。なのに、学習済みの約4,230銘柄が更新されない。列の先頭に戻ってきていたのは、何度試しても失敗する約200銘柄でした🔁 日本株のデータ分析端末「ALPHA FORG..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で \"OAuth error: timeout of 15000ms exceeded\" と \"Invalid code\" が出てログインできないときの対処（SSH・WSL でコードを貼る場合も）",
-   "link": "https://qiita.com/homhom44/items/b86ef3361bbcd67ca9a0",
-   "date": 1794432762000,
-   "img": "",
-   "desc": "Claude Code の /login で OAuth error: timeout of 15000ms exceeded が出る、あるいはブラウザに表示されたコードを貼ったのに Invalid code と言われる場合の切り分けと直し方です。結論から言うと、前者は「ブ..."
-  },
-  {
-   "src": "qiita",
-   "title": "フェーブル君降臨、オーパス先生と一緒にGASマネージャーAIエージェント化1号機を作った夜の話",
-   "link": "https://qiita.com/shu15511551/items/b47e97c774b8040c36c5",
-   "date": 1794431385000,
-   "img": "",
-   "desc": "はじめに ―― 棟梁が戻ってきた しばらくお休みしていたオーパス先生（Claude Opus）が、戻ってきました。 お休みの間、私はフラッシュ君（Gemini Flash）と二人で GASマネージャーを鍛えていました。いちばん大きな出来事は、GAS の書き換えが 2 秒台..."
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 441 # Comments: 214"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 447 # Comments: 218"
   },
   {
    "src": "status",
@@ -289,7 +289,7 @@
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 275 # Comments: 212"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 281 # Comments: 216"
   },
   {
    "src": "reddit",
@@ -305,7 +305,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 125 # Comments: 84"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 129 # Comments: 85"
   },
   {
    "src": "reddit",
@@ -385,7 +385,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 378 # Comments: 277"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 379 # Comments: 278"
   },
   {
    "src": "claude-code",
@@ -433,7 +433,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 901 # Comments: 494"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 901 # Comments: 496"
   },
   {
    "src": "reddit",
@@ -473,7 +473,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 820 # Comments: 492"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 821 # Comments: 492"
   },
   {
    "src": "hn",
