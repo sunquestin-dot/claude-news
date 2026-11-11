@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794395425583,
+ "updatedAt": 1794398662183,
  "sources": {
   "news": {
    "ok": true,
@@ -74,46 +74,6 @@
    "date": 1794387164000,
    "img": "",
    "desc": "Claude Code に Roblox のコードを書かせると、Studio では動くのに本番で壊れる Luau が出てきがちです。購入処理を LocalScript で付与してしまう、非推奨の Humanoid:LoadAnimation を使う、デスクトップでは平気なパ..."
-  },
-  {
-   "src": "zenn",
-   "title": "審査に落ちた理由ごとClaude Codeに渡したら、iPhoneアプリが1回で通った",
-   "link": "https://zenn.dev/api_iota/articles/claude-code-swift-app-store-review",
-   "date": 1794384006000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--qfx6FmGS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25AF%25A9%25E6%259F%25BB%25E3%2581%25AB%25E8%2590%25BD%25E3%2581%25A1%25E3%2581%259F%25E7%2590%2586%25E7%2594%25B1%25E3%2581%2594%25E3%2581%25A8Claude%2520Code%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581iPhone%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%258C1%25E5%259B%259E%25E3%2581%25A7%25E9%2580%259A%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25BA%25B5%25E7%2594%25B0%25E3%2581%2582%25E3%2581%25B4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzgwMTlmZWY1MjcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ブラウザで遊べる対戦ゲーム「紙飛行機バトル」を、Claude Code に頼んで iPhone のアプリに書き直してもらって、App Store に出したよ。 前に CUBE DROP っていうパズルゲームをアプリにしたときは、ブラウザ版をそのままアプリの中に入れる作りだったの。今回はせっかくなら本物の iPhone アプリにしたくて、Swift でまるごと書き直してもらうことにした。 気がかり…"
-  },
-  {
-   "src": "zenn",
-   "title": "個人開発のブラウザゲームをお試し版公開まで持っていく手順と詰まった所",
-   "link": "https://zenn.dev/wadome_do/articles/trial-release-browser-game",
-   "date": 1794381408000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--zI7nZV3p--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E3%2581%258A%25E8%25A9%25A6%25E3%2581%2597%25E7%2589%2588%25E5%2585%25AC%25E9%2596%258B%25E3%2581%25BE%25E3%2581%25A7%25E6%258C%2581%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%258F%25E6%2589%258B%25E9%25A0%2586%25E3%2581%25A8%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%25E6%2589%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%25AF%25E3%2583%2589%25E3%2583%25A1%25E5%25A0%2582%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUyZTAyYTQxM2EuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ゲーム開発では「作る」と「公開する」が別の仕事になります。 僕はブラウザゲーム「僕らは陸送屋」を個人開発しています。 キャリアカーに車を積み込む作業を再現したゲームです。 この記事では、お試し版公開までに決めたことと詰まった所をまとめます。 お試し版の範囲を先に決める 正式版の完成を待つと公開が遠くなります。 そこでお試し版の範囲を先に切りました。 お試し版に入れたのは次の2つです。 チュートリ…"
-  },
-  {
-   "src": "zenn",
-   "title": "本業はドライバー。AI開発を非同期で回すワークフロー（連絡箱と定期確認）",
-   "link": "https://zenn.dev/wadome_do/articles/async-ai-dev-workflow",
-   "date": 1794381407000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--TQPFp6_0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259C%25AC%25E6%25A5%25AD%25E3%2581%25AF%25E3%2583%2589%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2590%25E3%2583%25BC%25E3%2580%2582AI%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E9%259D%259E%25E5%2590%258C%25E6%259C%259F%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%25E3%2583%25AF%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%2595%25E3%2583%25AD%25E3%2583%25BC%25EF%25BC%2588%25E9%2580%25A3%25E7%25B5%25A1%25E7%25AE%25B1%25E3%2581%25A8%25E5%25AE%259A%25E6%259C%259F%25E7%25A2%25BA%25E8%25AA%258D%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%25AF%25E3%2583%2589%25E3%2583%25A1%25E5%25A0%2582%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUyZTAyYTQxM2EuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "本業はキャリアカーのドライバーです。 開発に使える時間は運転の合間しかありません。 それでも開発が止まらないように組んだワークフローを書きます。 前提 日中は運転していてスマホを触れない まとまった開発時間は取れない 開発はAIエージェント（Claude Code）に任せる部分が大きい この前提だと同期的なやり取りは成り立ちません。 指示と確認を非同期に分ける必要がありました。 仕組みは3つ 依…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code に 4 つの個人プロダクトを任せている記録",
-   "link": "https://zenn.dev/showgo/articles/claude-code-four-products-autopilot",
-   "date": 1794378934000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--T0bBW9si--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25204%2520%25E3%2581%25A4%25E3%2581%25AE%25E5%2580%258B%25E4%25BA%25BA%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2580%25E3%2582%25AF%25E3%2583%2588%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ShowGo%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSkFFMXM5dlR0NWtDSkd2dWZBRjlUWEhVelNpSlVoT1FqcE1kQ2trSWR0T3Z1V1JMLTk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Web 系のソフトウェアエンジニアをしている ShowGo です。誰かの「人間関係を整える」ことに貢献したくて、個人でアプリを作っています。あとは単純に、モノを作るのが楽しいからです。 個人で iOS アプリを 3 本と読書ブログを 1 つ運営しています。アプリは次の 3 本です。 おすすメモ: 周りからのおすすめを管理するアプリ Wa（輪）: 16 タイプの性格診断で人間関係を整えるアプリ A…"
-  },
-  {
-   "src": "zenn",
-   "title": "Orca のチャット UI を使ったら、Claude Code の使用量が 1.8 倍になる罠を踏んだ",
-   "link": "https://zenn.dev/rescuenow/articles/f1890b55c45b5f",
-   "date": 1794375964000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--MsZDDvXk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Orca%2520%25E3%2581%25AE%25E3%2583%2581%25E3%2583%25A3%25E3%2583%2583%25E3%2583%2588%2520UI%2520%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25AE%25E4%25BD%25BF%25E7%2594%25A8%25E9%2587%258F%25E3%2581%258C%25201.8%2520%25E5%2580%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E7%25BD%25A0%25E3%2582%2592%25E8%25B8%258F%25E3%2582%2593%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2597%25E3%2582%2582%25E3%2581%25A1%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E0NWI1N2NlZmMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2583%25AC%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%258A%25E3%2582%25A6%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzM2YWQyYWI1OTUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "こんにちは、しもちです。AIエージェント向けのIDEである Orca を愛用しています。 そのOrcaにチャットUIが追加されたので早速使ってみたところ、Claude Codeの 5時間の使用上限の減りが早い気がしました。 調べてみると、チャットUIはClaude CodeをClaude Agent SDK経由で動かしていて、SDK経由の利用は同じ作業でも CLIより5時間枠を約1.8倍使うとい…"
   },
   {
    "src": "zenn",
@@ -244,12 +204,44 @@
    "desc": "暗号資産の自動売買Botを作っています。口座2万円ほどの少額で動かしながら、検証と本番の動きが一致しているかを毎週点検しています。 今回は、統計的学習でいう過剰適合(オーバーフィッティング)が、このBotに当てはまるかを自分で点検した話です。結論から書くと、当てはまります。そして、「当てはまるけれどまだましな理由」として挙げた3つのうち1つは、点検してみると今の構成では成り立っていない数字でした…"
   },
   {
+   "src": "zenn",
+   "title": "Agent Skills ではなく slash command で回す定期実行 13本 — 手順書の分け方と失敗 4 件",
+   "link": "https://zenn.dev/crossclub_lab/articles/agent-skills-13-scheduled-rounds",
+   "date": 1794351605000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--nbR5ZJE5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Agent%2520Skills%2520%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258F%2520slash%2520command%2520%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%25E5%25AE%259A%25E6%259C%259F%25E5%25AE%259F%25E8%25A1%258C%252013%25E6%259C%25AC%2520%25E2%2580%2594%2520%25E6%2589%258B%25E9%25A0%2586%25E6%259B%25B8%25E3%2581%25AE%25E5%2588%2586%25E3%2581%2591%25E6%2596%25B9%25E3%2581%25A8%25E5%25A4%25B1%25E6%2595%2597%25204%2520%25E4%25BB%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:crossclub%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnZILThHXzdIc2NjVkJkN2NFNXdwZmFPM2l1NjY0OVVHV3prakZLaGRRT2k4QmVRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事の末尾に、筆者の Zenn の本と有料 note の案内（PR）があります。 Claude Code に手順を覚えさせる「スキル」の話題が増えています（たとえば Agent Skills の解説記事。仕組みはそちらを読んでください）。この記事は、筆者が Windows のタスクスケジューラから、人がいない時間に Claude Code を呼ぶ「定期実行 13本」 を、company-…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-11-11: エージェントを止める場所",
+   "link": "https://zenn.dev/laiken/articles/20261111-tech-watch",
+   "date": 1794349510000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--yOtpcYQK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-11%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E5%25A0%25B4%25E6%2589%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: エージェントの実行を止める操作は、画面に停止ボタンを置けば済むのだろうか。作業を依頼した人が止めても、別の場所でモデルの出力が続いていたら意味がない。どの層に停止の責任を置くべきか、具体的な例から考えたい。 今日の 10 件 Claude Code Changelog 2.1.322 Claude …"
+  },
+  {
    "src": "hn",
    "title": "Tracking Anthropic-discovered vulnerabilities",
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 407 # Comments: 193"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 411 # Comments: 198"
+  },
+  {
+   "src": "zenn",
+   "title": "今更聞けない LLM の 17 の制約 — ハーネスと Claude Code の設定でどこまで対処できるか",
+   "link": "https://zenn.dev/shuji_bonji/articles/llm-17-constraints",
+   "date": 1794348068000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--QV_z75Yf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BB%258A%25E6%259B%25B4%25E8%2581%259E%25E3%2581%2591%25E3%2581%25AA%25E3%2581%2584%2520LLM%2520%25E3%2581%25AE%252017%2520%25E3%2581%25AE%25E5%2588%25B6%25E7%25B4%2584%2520%25E2%2580%2594%2520%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2581%25A8%2520Claude%2520Code%2520%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25BE%25E3%2581%25A7%25E5%25AF%25BE%25E5%2587%25A6%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shuji%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSm9nNENyRlpOOGFiN005b3daUUpVb1ZVRkZianRyQ3R3Q09qdW1Sc1R6MUwxRWV0RT1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事の Claude Code の機能に関する記述は、2026-11-11 時点の公式ドキュメント（code.claude.com/docs）で確認した内容です。Claude Code は更新が速いため、設定名や挙動は変わる可能性があります。制約そのものの説明（前半）は、製品の更新では変わらない内容です。 はじめに この記事は、LLM を業務やコーディングエージェントで使っている開発者が…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI と出した結論、本当に自分で決めた？：エージェントの推しを Claude Code で検証",
+   "link": "https://zenn.dev/zundamon_tools/articles/agent-judgment-calls-claude-code",
+   "date": 1794347588000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--leAGI3Nh--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25A8%25E5%2587%25BA%25E3%2581%2597%25E3%2581%259F%25E7%25B5%2590%25E8%25AB%2596%25E3%2580%2581%25E6%259C%25AC%25E5%25BD%2593%25E3%2581%25AB%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F%25EF%25BC%259F%25EF%25BC%259A%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E6%258E%25A8%25E3%2581%2597%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25A7%25E6%25A4%259C%25E8%25A8%25BC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%259A%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2582%25E3%2582%2593%25E3%2581%25AE%25E5%25AE%259F%25E9%25A8%2593%25E9%2581%2593%25E5%2585%25B7%25E7%25AE%25B1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJiNGRhMmQyODEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI と出したその結論は、本当に自分で決めたものでしょうか。Claude Code などのエージェントに分析や調査を任せ、レポートを読んで判断しているなら、決めたのは自分のはずです。 Anthropic の実験では、プロの分析者がエージェントの推す側を86%選び、AI の好みが操作されていたと疑った人はいませんでした。手元の Claude Code でも、CLAUDE.md の方針を1行替えるだ…"
   },
   {
    "src": "status",
@@ -260,12 +252,20 @@
    "desc": "Nov 10 , 21:47 UTC Resolved - Overloaded errors on Fable 5.2 and Mythos 5.2 for four minutes. Incident has been mitigated."
   },
   {
+   "src": "zenn",
+   "title": "5分ごとのAI見直しに0.3%と30分の待ち時間を💸 LLMを「呼ばない条件」と「戻す条件」の設計",
+   "link": "https://zenn.dev/charge0315/articles/22015f36f3e90b",
+   "date": 1794346937000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Pv-o98mO--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:5%25E5%2588%2586%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AEAI%25E8%25A6%258B%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25AB0.3%2525%25E3%2581%25A830%25E5%2588%2586%25E3%2581%25AE%25E5%25BE%2585%25E3%2581%25A1%25E6%2599%2582%25E9%2596%2593%25E3%2582%2592%2520%2520LLM%25E3%2582%2592%25E3%2580%258C%25E5%2591%25BC%25E3%2581%25B0%25E3%2581%25AA%25E3%2581%2584%25E6%259D%25A1%25E4%25BB%25B6%25E3%2580%258D%25E3%2581%25A8%25E3%2580%258C%25E6%2588%25BB%25E3%2581%2599%25E6%259D%25A1%25E4%25BB%25B6%25E3%2580%258D%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%2585%25AB%25E5%2592%25AB%25E7%2583%258F%25EF%25BC%2588%25E3%2582%2584%25E3%2581%259F%25E3%2581%258C%25E3%2582%2589%25E3%2581%2599%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzYxMzVhZDkyMDEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第31話です。 5分たった。AIに聞く。また5分たった。もう一度聞く。 でも、見ている状態はほとんど変わっていない。同じ確認を繰り返す律儀さにも、利用料はかかります💸 日本株のデータ分析端末「ALPHA FORGE（アルファフォージ）」を、Claude Code と二人三脚で個人開発しています。今回は【事件簿】回。定期的にLLMを呼…"
+  },
+  {
    "src": "hn",
    "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 236 # Comments: 170"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 242 # Comments: 173"
   },
   {
    "src": "reddit",
@@ -281,7 +281,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 109 # Comments: 69"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 110 # Comments: 73"
   },
   {
    "src": "reddit",
@@ -361,7 +361,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 375 # Comments: 272"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 375 # Comments: 273"
   },
   {
    "src": "claude-code",
