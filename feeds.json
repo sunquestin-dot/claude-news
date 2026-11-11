@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794359807252,
+ "updatedAt": 1794363316520,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AI文章の認知負荷を科学的に削るための書式ルール",
-   "link": "https://qiita.com/t_o_d/items/7a893cf55450955d6235",
-   "date": 1794359056000,
+   "title": "Claude Codeの許可設定から秘密情報を公開しないために",
+   "link": "https://qiita.com/kentasatomi/items/edd33c3233f10b32fc77",
+   "date": 1794363211000,
    "img": "",
-   "desc": "最近欠かせないAIですが、どうしても出力される文章の認知負荷が高く、正確なんでしょうが読む気になりません。 そこで認知科学の公開研究を根拠に、AIの文章を軽くする書式ルールを作った記録をまとめます。 背景 AIに文章を頼むと、だいたい次のような出力になります。 長..."
+   "desc": "Claude Codeの許可設定から秘密情報を公開しないために 2026年11月、セキュリティ企業Apiiroが、AIコーディングエージェントの設定ファイルや会話ログなどから、2,539件の秘密情報が公開GitHub上で見つかったと報告しました。1,994リポジトリにまた..."
   },
   {
    "src": "qiita",
-   "title": "DownloadsのAGENTS.mdでAIが不正なnpmパッケージを入れかけた事例と設定の点検",
-   "link": "https://qiita.com/Kai_GenAI/items/13dd3f05baeab24b1066",
-   "date": 1794358785000,
+   "title": "claude -p に渡すプロンプトをヒアドキュメントで組むと、バッククォートの文が消える(<<'EOF' で防ぐ)",
+   "link": "https://qiita.com/takamatt_ai/items/67810d8e78f17bd257b2",
+   "date": 1794362035000,
    "img": "",
-   "desc": "TL;DR Forever Securityが報告した顧客PCの事例では、コーディングエージェントが Downloads の AGENTS.md を読み、悪意のあるnpmパッケージ function-color のインストールを試みました。 不正なコードは実行前に検知・停..."
+   "desc": "この記事を読み終えると、無人で動かす claude -p のプロンプトをシェルのヒアドキュメントで組むときに、本文のバッククォートがコマンド置換されて文が消える理由と、<<'EOF' で防ぐ書き方が分かります。 根拠は、2026-11-05 の私の作業記録(定期実行のログ)..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code で \"Unable to connect to API (ECONNRESET)\" / \"The socket connection was closed unexpectedly\" が出たときの切り分け（MTU・IPv6・VPN、Request timed out も）",
-   "link": "https://qiita.com/homhom44/items/7bd1909c3d6d76d89676",
-   "date": 1794356864000,
+   "title": "システム設計視点の行動経済学 全60回 総復習",
+   "link": "https://qiita.com/maskot1977/items/d811bfa98fd0ee273bb2",
+   "date": 1794360608000,
    "img": "",
-   "desc": "Claude Code で Unable to connect to API (ECONNRESET) や API Error: The socket connection was closed unexpectedly が出たときの切り分けです。ブラウザや curl は普..."
+   "desc": "システム設計視点の行動経済学：全60回総復習 「喧嘩せず日本をより良くするために知恵を絞る」 連載「システム設計視点の行動経済学」の第60回が公開されました。本稿は Arc I（第1回）から Arc VII（第60回）までの全行程を一本で振り返る総復習記事です。 ..."
   },
   {
    "src": "qiita",
-   "title": "AIエージェントに指示を送ったのに、動いていなかった話",
-   "link": "https://qiita.com/3su3/items/37d3f3080faf40aef4a0",
-   "date": 1794355650000,
+   "title": "テストは全部緑だった ― AIが書いたコードのレビューで、実際に効いたこと",
+   "link": "https://qiita.com/nagilabo/items/e2404f3dc1fc6c9814a1",
+   "date": 1794360276000,
    "img": "",
-   "desc": "はじめに 最近、複数のAIエージェントを使った開発フローを整えています。 計画を立てるエージェント、実装するエージェント、レビューするエージェント。それぞれに役割を分けて、必要なタイミングで指示を渡す仕組みです。 この指示の受け渡しも自動化しているんですが、あるとき、ちょ..."
+   "desc": "個人開発では、実装のほとんどを Claude Code や Codex に任せています。 任せるとコードは速く増えますが、困るのは テストも lint も build も全部通っているのに壊れている ケースです。 この記事では、私が実際に踏んだ2つの事例と、そこから固まった..."
   },
   {
    "src": "zenn",
@@ -285,6 +285,14 @@
   },
   {
    "src": "reddit",
+   "title": "Pretty insane video from Fable 5.2 with 1 single short prompt",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xsftbq/pretty_insane_video_from_fable_52_with_1_single/",
+   "date": 1794292313000,
+   "img": "https://external-preview.redd.it/YjN0dWUwNXpicTBpMcRLxmWgnByZcZfWFzqaXSSoCb8HmbpOLDBuGe1JFdIp.png?width=640&crop=smart&auto=webp&s=06e1263b48ea0282a1ce8d27152c4f4ab281ec74",
+   "desc": "Source: https://www.oneusefulthing.org/p/fable-52-and-jagged-agi I am not affiliated or related to the author at all, just wanted to share this. submitted by /u/timeport-0 [link] [comments]"
+  },
+  {
+   "src": "reddit",
    "title": "HUGE Fable 5.2 Issue",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xscs0g/huge_fable_52_issue/",
    "date": 1794282230000,
@@ -458,14 +466,6 @@
    "date": 1793984076000,
    "img": "",
    "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 322 # Comments: 634"
-  },
-  {
-   "src": "reddit",
-   "title": "Claude, make me these parts in Solidworks.... 7 minutes later....",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xpeg2l/claude_make_me_these_parts_in_solidworks_7/",
-   "date": 1793976050000,
-   "img": "https://preview.redd.it/xgyzz1ku700i1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=ab66ea461571533fbd5e9626bc86d6e5b5dd9944",
-   "desc": "I had Claude write its own MCP connector to my SolidWorks installation on my computer. I regularly use it to create parts I'm using off Amazon or other sites without a CAD file. Works great. FWIW: I …"
   },
   {
    "src": "reddit",
