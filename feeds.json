@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794398662183,
+ "updatedAt": 1794403390227,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Proを１か月課金してみての感想",
+   "link": "https://qiita.com/haru452/items/eb028c4e2acb781b0f1a",
+   "date": 1794400173000,
+   "img": "",
+   "desc": "はじめに 英語学習用の自作アプリと VRChat のワールド制作を手伝ってもらうために、Claude Pro に1か月だけ課金しました。この1か月で感じたことをまとめます。将来「なぜ課金したのか」「なぜ一度やめたのか」を思い出すための備忘録でもあります。 結論から言うと、..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code のログイン切れを、Discord に届くリンクと iPhone での認証だけで更新する",
+   "link": "https://qiita.com/kiosq911/items/39222368331de18f548e",
+   "date": 1794400050000,
+   "img": "",
+   "desc": "Claude Code（claude.ai アカウントでログイン）は、約 1 か月でログインが切れます。切れると Remote Control のセッションも止まります。自宅のミニ PC で常駐させていると、この「月 1 回の再ログイン」が地味に面倒でした。 そこで、再ログ..."
+  },
+  {
+   "src": "qiita",
+   "title": "日々アップデートを重ねる「yomiyasu」、日本語の推敲はどう変わる？v1.0.1・v2.5.0・v3.0.0に同じ文章を通して比べてみた",
+   "link": "https://qiita.com/inoyu-qiita/items/b0a7aee8d9f97cc21e2c",
+   "date": 1794398779000,
+   "img": "",
+   "desc": "はじめに ローンチから約1.5ヶ月、日本語の推敲を助けるスキル「yomiyasu」が、v3.0.0へメジャーアップデートされました！ 以前、yomiyasu v1.0.1を含む3つの日本語推敲スキルへ、同じAIっぽい文章を渡して比較しました。そのときのyomiyasuは、..."
+  },
+  {
+   "src": "qiita",
    "title": "「問い合わせ→営業資料→人の確認→送付」をClaude Code・Codexに任せる7ステップ ― 各ステップでAIに伝える一言つき",
    "link": "https://qiita.com/TOSHIMITSU_MIYACHI/items/9b3922a4221b436e12aa",
    "date": 1794395333000,
    "img": "",
    "desc": "株式会社AI Orchestraのみやっち🧑‍💻です。ホームページからお問い合わせが届いたら、その会社に合わせた営業資料を作ってメールで送る。弊社では、この業務をAIに渡す仕組みが動いています。渡すといっても、送る前には人が中身を確認してOKを出します。 この業務を題材に、..."
-  },
-  {
-   "src": "qiita",
-   "title": "Fable 5.2 ベンチマーク｜Fable 5.1 と比べて費用 0.74 倍・時間 1.24 倍",
-   "link": "https://qiita.com/kenji_harada/items/4760b0608faac16f2d3d",
-   "date": 1794392127000,
-   "img": "",
-   "desc": "Fable 5.2 に切り替えると、Fable 5.1 より速く、安くなるのでしょうか。当社では Node.js の小さな課題 6 つを、両モデルに 3 回ずつ解かせました。合計 36 回です。結論は「安くはなったが、終わるまでの時間は延びた」です。 成功数: 両モデルと..."
-  },
-  {
-   "src": "qiita",
-   "title": "【改定前受験推奨】Claude Certified Architect – Professional（CCAR-P）本日受験してきました。【合格体験記】",
-   "link": "https://qiita.com/takeshi_Qiita/items/a84c8eab09c878071daa",
-   "date": 1794388154000,
-   "img": "",
-   "desc": "はじめに Claude 認定の最上位 Professionalにあたる CCAR-P に 837点で合格しました。 勉強は、CCDV-F 合格後に みのるんさんの問題集を2周しました。 重要な注意：2026年12月7日（月）から CCAO-F・CCDV-F・CCAR-..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で Roblox: スキルは Studio を開かない。接続は Studio 内蔵の MCP サーバー",
-   "link": "https://qiita.com/Skillselion/items/895e78fb22ab2e1af0f1",
-   "date": 1794387164000,
-   "img": "",
-   "desc": "Claude Code に Roblox のコードを書かせると、Studio では動くのに本番で壊れる Luau が出てきがちです。購入処理を LocalScript で付与してしまう、非推奨の Humanoid:LoadAnimation を使う、デスクトップでは平気なパ..."
   },
   {
    "src": "zenn",
@@ -178,6 +178,14 @@
    "date": 1794358326000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--NI19MUJj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258B%2585%25E5%25BD%2593%25E3%2581%25AE%25E5%25A0%25B1%25E5%2591%258A%25E3%2582%25921%25E8%25A1%258C%25E3%2581%25AE%2520JSON%2520%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AClaude%2520Code%2520%25E3%2581%25AE%25E5%25AE%259A%25E6%259C%259F%25E5%25AE%259F%25E8%25A1%258C%25E3%2582%2592%25E5%258F%25B0%25E5%25B8%25B3%25E3%2581%25AB%25E3%2581%25A4%25E3%2581%25AA%25E3%2581%2590%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:NeuralAlpha%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmZaeS1iRFJ6Q09VbVpGMDFjUXN0ZFpnZjZPMFFrV1RhNV9GWHh3RF9kT2w5THY5ND1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに 事業ごと、あるいはプロジェクトごとに Claude Code のセッションを立てて、定期的に「今日の作業を報告して」と頼むと、丁寧な文章が返ってきます。読めば分かりますが、担当が4つあれば4つの長文です。しかも「今月の売上は？」「返事が要る質問は？」を探すのは自分です。 この記事では、報告の最後に、機械が読める1行の JSON を付ける決まりと、それを台帳（JSON Lines のファ…"
+  },
+  {
+   "src": "reddit",
+   "title": "Fable 5.2 maxed its usage to make this video",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xt3m47/fable_52_maxed_its_usage_to_make_this_video/",
+   "date": 1794357198000,
+   "img": "https://external-preview.redd.it/YnkzMDdjbDFwdjBpMWZSFvP1ktW8tHVZzbx2KvCpEsmxV95jxTU6Y38f4CSa.png?width=640&crop=smart&auto=webp&s=056435bd4f456bd6157ed737cc2ca6fbcca901bf",
+   "desc": "submitted by /u/neondragony [link] [comments]"
   },
   {
    "src": "zenn",
@@ -546,14 +554,6 @@
    "date": 1793812694000,
    "img": "https://preview.redd.it/qx6magy3qmzh1.jpeg?width=320&crop=smart&auto=webp&s=4d0fd512fa5cf354d9cbb3ed9060e2fd91321b79",
    "desc": "claude reacting with emojis now submitted by /u/InvestigatorCalm3640 [link] [comments]"
-  },
-  {
-   "src": "reddit",
-   "title": "Show me Claude Code projects that DON’T look vibecoded",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xnnqkg/show_me_claude_code_projects_that_dont_look/",
-   "date": 1793797601000,
-   "img": "",
-   "desc": "since everybody here is asking which tools, skills or MCPs make UI look less \"AI-generated”. Could you guys actually provide me examples of apps/websites that dont look like that then? What are peopl…"
   },
   {
    "src": "claude-code",
