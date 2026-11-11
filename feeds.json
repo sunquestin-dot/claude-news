@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794373895530,
+ "updatedAt": 1794377434817,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "AI駆動開発でServiceNowアプリを作り、レビューはCodeRabbitに任せてみた",
+   "link": "https://qiita.com/hataraku_hito/items/f239aae68d679428adb2",
+   "date": 1794373961000,
+   "img": "",
+   "desc": "はじめに AIにコードを書かせる開発、いわゆるAI駆動開発を続けていて感じるのは、開発のボトルネックが「書くこと」から「レビューすること」に移ったということです。書くのは速い。でも、そのコードを本当に信じていいのかを確かめる作業は、むしろ前より重くなりました。 そこで今回..."
+  },
   {
    "src": "zenn",
    "title": "ISUCON2026 で優勝しました（準備編）",
@@ -140,14 +148,6 @@
    "desc": "システム設計視点の行動経済学：全60回総復習 「喧嘩せず日本をより良くするために知恵を絞る」 連載「システム設計視点の行動経済学」の第60回が公開されました。本稿は Arc I（第1回）から Arc VII（第60回）までの全行程を一本で振り返る総復習記事です。 ..."
   },
   {
-   "src": "qiita",
-   "title": "テストは全部緑だった ― AIが書いたコードのレビューで、実際に効いたこと",
-   "link": "https://qiita.com/nagilabo/items/e2404f3dc1fc6c9814a1",
-   "date": 1794360276000,
-   "img": "",
-   "desc": "個人開発では、実装のほとんどを Claude Code や Codex に任せています。 任せるとコードは速く増えますが、困るのは テストも lint も build も全部通っているのに壊れている ケースです。 この記事では、私が実際に踏んだ2つの事例と、そこから固まった..."
-  },
-  {
    "src": "zenn",
    "title": "Claude Code に本番を触らせる線 — 手順は AI が書き、最後の1行は人が打つ",
    "link": "https://zenn.dev/kuu_dqx/books/ai-writes-human-types",
@@ -212,6 +212,14 @@
    "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: エージェントの実行を止める操作は、画面に停止ボタンを置けば済むのだろうか。作業を依頼した人が止めても、別の場所でモデルの出力が続いていたら意味がない。どの層に停止の責任を置くべきか、具体的な例から考えたい。 今日の 10 件 Claude Code Changelog 2.1.322 Claude …"
   },
   {
+   "src": "hn",
+   "title": "Tracking Anthropic-discovered vulnerabilities",
+   "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "date": 1794349076000,
+   "img": "",
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 368 # Comments: 169"
+  },
+  {
    "src": "zenn",
    "title": "今更聞けない LLM の 17 の制約 — ハーネスと Claude Code の設定でどこまで対処できるか",
    "link": "https://zenn.dev/shuji_bonji/articles/llm-17-constraints",
@@ -249,7 +257,7 @@
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 157 # Comments: 128"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 168 # Comments: 137"
   },
   {
    "src": "reddit",
@@ -329,7 +337,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 372 # Comments: 268"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 375 # Comments: 269"
   },
   {
    "src": "claude-code",
@@ -377,7 +385,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 898 # Comments: 488"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 899 # Comments: 492"
   },
   {
    "src": "reddit",
@@ -425,7 +433,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 814 # Comments: 491"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 816 # Comments: 491"
   },
   {
    "src": "hn",
@@ -433,7 +441,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 624 # Comments: 426"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 624 # Comments: 427"
   },
   {
    "src": "reddit",
@@ -818,14 +826,6 @@
    "date": 1792972800000,
    "img": "",
    "desc": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock."
-  },
-  {
-   "src": "hn",
-   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-   "link": "https://minimaxir.com/2026/10/cheap-llms/",
-   "date": 1792962691000,
-   "img": "",
-   "desc": "Article URL: https://minimaxir.com/2026/10/cheap-llms/ Comments URL: https://news.ycombinator.com/item?id=50236102 Points: 443 # Comments: 437"
   },
   {
    "src": "status",
