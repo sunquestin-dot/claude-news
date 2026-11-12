@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794513804973,
+ "updatedAt": 1794517149019,
  "sources": {
   "news": {
    "ok": true,
@@ -47,9 +47,9 @@
    "src": "status",
    "title": "Elevated errors affecting the Microsoft 365 connector",
    "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
-   "date": 1794508460000,
+   "date": 1794515308000,
    "img": "",
-   "desc": "Nov 12 , 18:34 UTC Identified - We have identified an issue with an upstream provider affecting the Microsoft 365 connector. Mail, calendar and search tools are failing for most requests, and new con…"
+   "desc": "Nov 12 , 20:28 UTC Update - We are continuing to work with our upstream provider on this issue. Mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Cla…"
   },
   {
    "src": "qiita",
