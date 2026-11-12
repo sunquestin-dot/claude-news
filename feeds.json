@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794506787717,
+ "updatedAt": 1794510477789,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,14 @@
  },
  "items": [
   {
+   "src": "status",
+   "title": "Elevated errors affecting the Microsoft 365 connector",
+   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
+   "date": 1794508460000,
+   "img": "",
+   "desc": "Nov 12 , 18:34 UTC Identified - We have identified an issue with an upstream provider affecting the Microsoft 365 connector. Mail, calendar and search tools are failing for most requests, and new con…"
+  },
+  {
    "src": "qiita",
    "title": "11/12 の公式ドキュメント更新：cron 無効化の挙動と auto モードの削除判定",
    "link": "https://qiita.com/akihidem/items/7041b4f3a0c0c3d337c2",
@@ -58,14 +66,6 @@
    "date": 1794506101000,
    "img": "",
    "desc": "Claude Code のプラグインは、スキル・フック・MCP サーバーなどを 1 つの単位として配る仕組みです。本稿では、カスタムスキルをプラグインにしてチームに配るときに、運用上の手当てが必要になる性質を公式ドキュメントの記述で確認し、それに対する運用指針をまとめます（..."
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors affecting the Microsoft 365 connector",
-   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
-   "date": 1794505965000,
-   "img": "",
-   "desc": "Nov 12 , 17:52 UTC Investigating - We are investigating elevated errors and slow responses affecting the Microsoft 365 connector. Requests to mail, SharePoint, Teams chat and calendar through the con…"
   },
   {
    "src": "zenn",
@@ -145,7 +145,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 628 # Comments: 632"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 671 # Comments: 678"
   },
   {
    "src": "zenn",
