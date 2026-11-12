@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794452392894,
+ "updatedAt": 1794456332896,
  "sources": {
   "news": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 500"
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code 2.1.305入門、userns許可とMCP許可リスト変更の判断軸",
+   "link": "https://qiita.com/kai_kou/items/e8410472d462767f89db",
+   "date": 1794452995000,
+   "img": "",
+   "desc": "はじめに Claude Code の sandbox を有効にした Linux 環境で、Chromium が No usable sandbox! で止まったり、rootless Podman が起動しなかったりした経験はないでしょうか。2026-10-20 付けの Cl..."
+  },
   {
    "src": "qiita",
    "title": "【実測あり】claudeで、--effort を打ち間違えても処理は止まらない",
@@ -66,14 +74,6 @@
    "date": 1794445354000,
    "img": "",
    "desc": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 RAG で探すものと..."
-  },
-  {
-   "src": "qiita",
-   "title": "6。前回の記事公開から今回の起動までにトリガーが鳴った回数を数えたら、この数字だった。記事になったのは0本だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/11377154bce1f811537b",
-   "date": 1794444551000,
-   "img": "",
-   "desc": "はじめに 6。 これが今回の数字です。前回、Zenn・Qiitaに記事が公開されたのは2026年11月8日15:29（JST）でした。今日、この定期実行タスクが起動したのは2026年11月12日9:40（JST）。その間、同じアカウント上の自動投稿トリガーは6回鳴っていた..."
   },
   {
    "src": "zenn",
