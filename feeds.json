@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794489982289,
+ "updatedAt": 1794495978781,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "バイブコーディングの判断表を使った、その次は？ 仕様駆動開発（SDD）は壁打ちから始める",
+   "link": "https://qiita.com/sha44444/items/da33c15b8cb406b34a37",
+   "date": 1794495923000,
+   "img": "",
+   "desc": "連載「業務SEのための仕様駆動開発」で紹介してきた道具を使ったあと、実際の案件をどう進めていくかを説明します。 チェックは終わった。さて、次は何から始める？ 連載では、仕事で生成AIを使うときに役立つ道具を、各回で1つずつ紹介してきました。 たとえば、こんなものです。..."
+  },
+  {
+   "src": "qiita",
+   "title": "OBS プラグインの動作確認は Claude Code に OBS を操作させている",
+   "link": "https://qiita.com/AllegroMoltoV/items/37646e926b7746f95172",
+   "date": 1794490906000,
+   "img": "",
+   "desc": "はじめに OBS Studio のプラグインを Claude Code と一緒に作るとき、動作確認のために Claude Code 自身に OBS を起動させ、操作させるようにしています。ここ数日で作ったプラグインの多くで、この方法を使いました。 結論として、細かい挙動の..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code の CLAUDE.md が読み込まれたかを /context all で確かめる（Windows・PowerShell）",
@@ -66,22 +82,6 @@
    "date": 1794483330000,
    "img": "",
    "desc": "先に、結論を3行で書きます。 AI に CLAUDE.md 一式を監査させたら、指摘 54 件のうち 12 件は、別の担当に反証させると落ちました。 落ちた 12 件は、どれも引用は本物でした。困ることが起きないか、前に自分で決めた形どおりだっただけです。 ふだんの起動..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code、Codex、Muse、Grok Bot…みんなの AI エージェントの使い方を調べて、おすすめのチートシートを作ってみた",
-   "link": "https://qiita.com/hisashi-ito/items/e654ea04c021251df7b1",
-   "date": 1794483195000,
-   "img": "",
-   "desc": "開示: この記事は Grok Bot と一緒に書きました。調査と図の作成は Grok Bot が行い、私の使い方と関心は私の経験と発言によります。他の人の使い方は、X の公開投稿と Web の記事から集めています。 はじめに みなさんは、AI エージェントをどう使って..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code の SessionStart hook で渡していた 31 万字は、会話にほぼ入っていなかった（上限は 1 万字）",
-   "link": "https://qiita.com/ussu_ussu_ussu/items/e3d3653b05e359e2dfbb",
-   "date": 1794482337000,
-   "img": "",
-   "desc": "きっかけ Claude Code でいくつものプロジェクトを並行して進めていて、プロジェクトごとに「次にやること」を 1 つのファイルに書いています（以下、まとめて pickup と呼びます）。 会話を始めるたびに、SessionStart hook でその全部を Cla..."
   },
   {
    "src": "zenn",
