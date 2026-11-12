@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794464081037,
+ "updatedAt": 1794469011794,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "ターミナルビューア「see」をClaude Code で作った話",
+   "link": "https://qiita.com/youkin06/items/205b4c6083255b17653b",
+   "date": 1794467452000,
+   "img": "",
+   "desc": "はじめに ここ最近、nanoやmicroを使って、ターミナルでメモや大学の授業ノートをとるようになりました。その時、大学の授業スライドやPDFを見ながら作業していたのですが、画面を切り替えるのが大変だ！と思い、ターミナルに表示できるものはないのかな？と探しました。tdfな..."
+  },
+  {
+   "src": "qiita",
+   "title": "1。Clutch SecurityをPalo Alto Networksが5億ドルで買収検討と報じられた日、7日前に自分が「0」と書いたパイプラインの秘密情報の数を数え直したら、この数字になっていた",
+   "link": "https://qiita.com/Hideki_Tamae/items/947b4ae75fc71900901f",
+   "date": 1794464886000,
+   "img": "",
+   "desc": "はじめに 1。 これが今回の数字です。何の1かというと、このZenn/Qiita自動投稿パイプライン全体(zenn-content・qiita-content両リポジトリ)が、公開までに実際に依存しているリポジトリ秘密情報(GitHub Actions Secrets)の..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code `~/.claude/CLAUDE.md` 完全ガイド",
@@ -68,28 +84,12 @@
    "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: Claude Code を tmux で常駐させる。launchd から起動する時の罠 はじめに 外出先の iPhone から、家や職場の Mac で動いている Claude Code にいつでも入れるようにしました。launch…"
   },
   {
-   "src": "qiita",
-   "title": "Claude Code を tmux で常駐させる。launchd から起動する時の罠",
-   "link": "https://qiita.com/yorimichi_labo/items/5a8afc6ee8c2a228c1c2",
-   "date": 1794460235000,
-   "img": "",
-   "desc": "この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: Claude Code を tmux で常駐させる。launchd から起動する時の罠 はじめに 外..."
-  },
-  {
    "src": "zenn",
    "title": "FastAPIでMCPサーバーをゼロから作る──Claude Codeに自分だけのツールを繋ぐ実践ガイド",
    "link": "https://zenn.dev/correlate_dev/articles/mcp-fastapi-api-claude-code",
    "date": 1794458157000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--gMBpberu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:FastAPI%25E3%2581%25A7MCP%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2582%2592%25E3%2582%25BC%25E3%2583%25AD%25E3%2581%258B%25E3%2582%2589%25E4%25BD%259C%25E3%2582%258B%25E2%2594%2580%25E2%2594%2580Claude%2520Code%25E3%2581%25AB%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25AE%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E7%25B9%258B%25E3%2581%2590%25E5%25AE%259F%25E8%25B7%25B5%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2583%25A8%25E3%2582%25B3%25E3%2582%25BF%25E3%2583%258A%25E3%2582%25AA%25E3%2583%25A4%25EF%25BD%259Ccorrelate%2520d...%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLmRldi9pbWFnZXMvZGVmYXVsdC1wdWJsaWNhdGlvbi1hdmF0YXIucG5n%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B3%25E3%2583%25A9%25E3%2583%25AC%25E3%2582%25A4%25E3%2583%2588%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E9%2596%258B%25E7%2599%25BA%25E9%2583%25A8%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q0YTQyMTFmOWQuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "「Claude Codeが賢いのはわかった。でも、自分のローカルDBは参照できないし、社内ツールには繋がらない。」── MCP（Model Context Protocol）はその壁を壊すプロトコルです。FastAPIを使えば、Pythonだけで自分専用のツールサーバーを立てられます。この記事では、概念説明を最小限に抑え、 実際に動かすことを最優先 に全工程を解説する。 そもそもMCPとは？──…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code `CLAUDE.md` 完全ガイド",
-   "link": "https://qiita.com/okmonn/items/24fd7bd9f2e02e4e7392",
-   "date": 1794457994000,
-   "img": "",
-   "desc": "対象: Claude Codeを初めて使う人から、チームで安全に運用したい人まで 目的: 汎用的で拡張性があり、公式ベストプラクティスに沿った CLAUDE.md を自分で設計・運用できるようになること 1. はじめに CLAUDE.md は、Claude Code..."
   },
   {
    "src": "zenn",
