@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794520591181,
+ "updatedAt": 1794524206866,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -44,28 +44,28 @@
  },
  "items": [
   {
+   "src": "status",
+   "title": "Elevated errors affecting the Microsoft 365 connector",
+   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
+   "date": 1794522238000,
+   "img": "",
+   "desc": "Nov 12 , 22:23 UTC Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude fo…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.323",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+   "date": 1794521533000,
+   "img": "",
+   "desc": "What's changed - Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an org…"
+  },
+  {
    "src": "qiita",
    "title": "Claude Code のインストール後に \"claude: command not found\" / \"~/.local/bin is not in your PATH\" と出たときの PATH の通し方(zsh・bash)",
    "link": "https://qiita.com/homhom44/items/0c1ffa5a55683e560423",
    "date": 1794519090000,
    "img": "",
    "desc": "Claude Code をインストールしたのに、ターミナルで claude と打つと command not found になる、あるいはインストーラが Native installation exists but ~/.local/bin is not in your P..."
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors affecting the Microsoft 365 connector",
-   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
-   "date": 1794518304000,
-   "img": "",
-   "desc": "Nov 12 , 21:18 UTC Update - We are continuing to work with our upstream provider, who is restarting affected servers. Mail, calendar and search tools in the Microsoft 365 connector are still failing …"
-  },
-  {
-   "src": "zenn",
-   "title": "26年度新卒研修の取り組み",
-   "link": "https://zenn.dev/exwzd/articles/20260706_newgrad",
-   "date": 1794508209000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--TEuaHxOY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:26%25E5%25B9%25B4%25E5%25BA%25A6%25E6%2596%25B0%25E5%258D%2592%25E7%25A0%2594%25E4%25BF%25AE%25E3%2581%25AE%25E5%258F%2596%25E3%2582%258A%25E7%25B5%2584%25E3%2581%25BF%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E7%2594%259F%25E7%2594%25B0%25E7%259C%259F%25E4%25B9%259F%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzA5NTQ0OTVhMzYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25A8%25E3%2582%25AF%25E3%2582%25B5%25E3%2582%25A6%25E3%2582%25A3%25E3%2582%25B6%25E3%2583%25BC%25E3%2582%25BA%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUxUOWpGdnhBc096NDhVZGVOUlhfajl5V29YTDFmU1F1VG5MUXBrS0Q5ZzNGX3BRPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに エクサウィザーズ エンタープライズソリューションユニットの小西です。 本記事では、2026年度の新卒研修について振り返ります。 2026年度の研修は、大きく二つの期間に分かれています。 4月：エクサウィザーズおよび一部グループ企業の全新入社員を対象とした、エージェントを活用したコーディング研修 5, 6月：そのうちエンジニアを対象とした、 AWS 研修 5月以降の AWS を軸としたエ…"
   },
   {
    "src": "qiita",
@@ -153,7 +153,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 671 # Comments: 678"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 767 # Comments: 762"
   },
   {
    "src": "zenn",
@@ -252,6 +252,14 @@
    "desc": "Claude Code に「このURLを診断して、改善コードを提案して。」と頼むだけで、SEO の診断結果と改善コードを AI が自分で受け取り、手元のコードを直すところまで進められます。仕組みは MCP（Model Context Protocol＝AI に外の道具をつなぐための決まり）で、SEO 診断ツールの Direbase（ディレベース）を Claude Code の道具として登録します…"
   },
   {
+   "src": "zenn",
+   "title": "Claude Code のコンテキストが膨らんだら、セッションを作り直す",
+   "link": "https://zenn.dev/yorimichi_lab/articles/475dafba8c48e1",
+   "date": 1794463732000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HPv4yXmu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E8%2586%25A8%25E3%2582%2589%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%2581%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: Claude Code のコンテキストが膨らんだら、セッションを作り直す はじめに Mac で Claude Code を tmux の中に立て、launchd（LaunchAgent）で常駐させています。落ちれば KeepAli…"
+  },
+  {
    "src": "reddit",
    "title": "Guys Fable 5.2 is INSANE",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xt4fap/guys_fable_52_is_insane/",
@@ -289,7 +297,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 457 # Comments: 217"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 457 # Comments: 219"
   },
   {
    "src": "status",
@@ -305,7 +313,7 @@
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 288 # Comments: 217"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 289 # Comments: 217"
   },
   {
    "src": "reddit",
@@ -874,14 +882,6 @@
    "date": 1792800680000,
    "img": "",
    "desc": "Oct 24 , 00:11 UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from 16:28 PT / 23:28 UTC on October 23 to 16:59 PT / 23:59 UTC on October 23. Oct 23 , 23:54 UTC Mo…"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.310",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
-   "date": 1792798740000,
-   "img": "",
-   "desc": "What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too -…"
   },
   {
    "src": "research",
