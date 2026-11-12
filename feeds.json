@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794482276065,
+ "updatedAt": 1794489982289,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,43 @@
  "items": [
   {
    "src": "qiita",
-   "title": "claude codeにMacを1台まるごと渡してチェスをさせてみた【terminal-mac】",
-   "link": "https://qiita.com/hiroshi_ito9854/items/a3ea4d3db0d45f12f500",
-   "date": 1794478982000,
+   "title": "Claude Code の CLAUDE.md が読み込まれたかを /context all で確かめる（Windows・PowerShell）",
+   "link": "https://qiita.com/charge0315/items/029778580526067de714",
+   "date": 1794489626000,
    "img": "",
-   "desc": "はじめに AIエージェントにPC操作（computer use）をさせたいけど自分のMacで直接動かすのは怖い。マウスを取り合うしログイン中のブラウザやファイルにも手が届いてしまいます。 2026年11月、terminal-mac が公開されました。 macOSの仮想マシ..."
+   "desc": "CLAUDE.md を書いたのに、Claude Code が読んでいるのか分からない。 この記事では、読み込まれたファイルを /context all で一覧し、効き目を指示書なしの対照と比べる手順を示します。 Git Bash で /context all が別の文字列に..."
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic IPO",
+   "link": "https://ipo.anthropic.com/us/",
+   "date": 1794484001000,
+   "img": "",
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 163 # Comments: 189"
   },
   {
    "src": "qiita",
-   "title": "Claude Code から Codex CLI を呼んで重い作業を分担する――codex exec・AGENTS.md・結果ファイルだけ読む運用",
-   "link": "https://qiita.com/Hinamina3/items/38b4f4d902cf2a168620",
-   "date": 1794476797000,
+   "title": "AI に CLAUDE.md を監査させるときは、直す前に反証させる。指摘 54 件のうち 12 件は直さなくてよかった",
+   "link": "https://qiita.com/ishizakahiroshi/items/e46eb9c4a73af95d506e",
+   "date": 1794483330000,
    "img": "",
-   "desc": "なぜ作業を分けるのか Claude Code を使っていると、長い下書きや読み合わせを頼むたびに、クレジットの減りが気になります。筆者の記録では、消費の大半は Agent ツールで起動した子エージェントによるものでした。そこで、長い原稿の執筆や別担当の事実確認を Code..."
+   "desc": "先に、結論を3行で書きます。 AI に CLAUDE.md 一式を監査させたら、指摘 54 件のうち 12 件は、別の担当に反証させると落ちました。 落ちた 12 件は、どれも引用は本物でした。困ることが起きないか、前に自分で決めた形どおりだっただけです。 ふだんの起動..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeが、開いたWebサイトに利用者のメールアドレスを送っていたという報告",
-   "link": "https://qiita.com/pitaspot/items/b7c5dcaba05877e11875",
-   "date": 1794474241000,
+   "title": "Claude Code、Codex、Muse、Grok Bot…みんなの AI エージェントの使い方を調べて、おすすめのチートシートを作ってみた",
+   "link": "https://qiita.com/hisashi-ito/items/e654ea04c021251df7b1",
+   "date": 1794483195000,
    "img": "",
-   "desc": "📰 海外事例 元記事：Claude Code sends your email address to websites（github.com） AIコーディング支援ツールのClaude Codeが、Webページを取得するときのリクエストヘッダー（User-Ag..."
+   "desc": "開示: この記事は Grok Bot と一緒に書きました。調査と図の作成は Grok Bot が行い、私の使い方と関心は私の経験と発言によります。他の人の使い方は、X の公開投稿と Web の記事から集めています。 はじめに みなさんは、AI エージェントをどう使って..."
   },
   {
    "src": "qiita",
-   "title": "財源幻想はなぜ生き残るのか——三層防衛構造という設計バグ : システム設計視点の行動経済学 (61)",
-   "link": "https://qiita.com/maskot1977/items/0f8816d5e85ba791176f",
-   "date": 1794472980000,
+   "title": "Claude Code の SessionStart hook で渡していた 31 万字は、会話にほぼ入っていなかった（上限は 1 万字）",
+   "link": "https://qiita.com/ussu_ussu_ussu/items/e3d3653b05e359e2dfbb",
+   "date": 1794482337000,
    "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第61回を始めましょう。その前に、まず前回の復習として、 システム設計視点の行動経済学 全60回 総復習 https://qiita.com/maskot1977/items/d811bfa98fd0ee273bb2 をよく読..."
+   "desc": "きっかけ Claude Code でいくつものプロジェクトを並行して進めていて、プロジェクトごとに「次にやること」を 1 つのファイルに書いています（以下、まとめて pickup と呼びます）。 会話を始めるたびに、SessionStart hook でその全部を Cla..."
   },
   {
    "src": "zenn",
@@ -273,7 +281,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 454 # Comments: 219"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 456 # Comments: 218"
   },
   {
    "src": "status",
@@ -305,7 +313,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 135 # Comments: 86"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 136 # Comments: 86"
   },
   {
    "src": "reddit",
@@ -481,7 +489,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 626 # Comments: 428"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 626 # Comments: 429"
   },
   {
    "src": "reddit",
@@ -545,7 +553,7 @@
    "link": "https://github.com/anthropics/claude-code/issues/107757",
    "date": 1793917035000,
    "img": "",
-   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1614 # Comments: 535"
+   "desc": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1615 # Comments: 535"
   },
   {
    "src": "research",
@@ -810,14 +818,6 @@
    "date": 1793051483000,
    "img": "",
    "desc": "What's changed - Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running - Added a tip for the Explanatory output s…"
-  },
-  {
-   "src": "hn",
-   "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
-   "link": "https://github.com/FrigadeHQ/hob",
-   "date": 1793031149000,
-   "img": "",
-   "desc": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the…"
   },
   {
    "src": "news",
