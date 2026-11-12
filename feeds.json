@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794469011794,
+ "updatedAt": 1794474764939,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
    "ok": false,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "ターミナルビューア「see」をClaude Code で作った話",
-   "link": "https://qiita.com/youkin06/items/205b4c6083255b17653b",
-   "date": 1794467452000,
+   "title": "Claude Codeが、開いたWebサイトに利用者のメールアドレスを送っていたという報告",
+   "link": "https://qiita.com/pitaspot/items/b7c5dcaba05877e11875",
+   "date": 1794474241000,
    "img": "",
-   "desc": "はじめに ここ最近、nanoやmicroを使って、ターミナルでメモや大学の授業ノートをとるようになりました。その時、大学の授業スライドやPDFを見ながら作業していたのですが、画面を切り替えるのが大変だ！と思い、ターミナルに表示できるものはないのかな？と探しました。tdfな..."
+   "desc": "📰 海外事例 元記事：Claude Code sends your email address to websites（github.com） AIコーディング支援ツールのClaude Codeが、Webページを取得するときのリクエストヘッダー（User-Ag..."
   },
   {
    "src": "qiita",
-   "title": "1。Clutch SecurityをPalo Alto Networksが5億ドルで買収検討と報じられた日、7日前に自分が「0」と書いたパイプラインの秘密情報の数を数え直したら、この数字になっていた",
-   "link": "https://qiita.com/Hideki_Tamae/items/947b4ae75fc71900901f",
-   "date": 1794464886000,
+   "title": "財源幻想はなぜ生き残るのか——三層防衛構造という設計バグ : システム設計視点の行動経済学 (61)",
+   "link": "https://qiita.com/maskot1977/items/0f8816d5e85ba791176f",
+   "date": 1794472980000,
    "img": "",
-   "desc": "はじめに 1。 これが今回の数字です。何の1かというと、このZenn/Qiita自動投稿パイプライン全体(zenn-content・qiita-content両リポジトリ)が、公開までに実際に依存しているリポジトリ秘密情報(GitHub Actions Secrets)の..."
+   "desc": "user: 「システム設計視点の行動経済学」、第61回を始めましょう。その前に、まず前回の復習として、 システム設計視点の行動経済学 全60回 総復習 https://qiita.com/maskot1977/items/d811bfa98fd0ee273bb2 をよく読..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code `~/.claude/CLAUDE.md` 完全ガイド",
-   "link": "https://qiita.com/okmonn/items/faaadbcea186066d5d3c",
-   "date": 1794464001000,
+   "title": "最近のAIが凄いと聞いて、3年間無職の元開発者もWebサービスを作ってみた感想【Rails】",
+   "link": "https://qiita.com/nanashisan_prog/items/3998696ec135ad346f90",
+   "date": 1794472881000,
    "img": "",
-   "desc": "はじめに この文書は、Claude Code 初学者が ~/.claude/CLAUDE.md の役割を理解し、汎用的で拡張性のある設定を安全に運用できるようまとめたガイドです。 ここで扱う ~/.claude/CLAUDE.md は、特定のプロジェクトだけではなく、Cl..."
+   "desc": "タイトルの通り、3年ほど無職。3年前はRuby on RailsでWebサイトを作ってた。 当時はGitHub Copilotが登場して、「自動補完便利すぎ〜〜〜」とか言ってた。最近のAIはマジで一瞬でちゃんとしたサービスが作れるという話だったので、自分も試してみての感想。..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code のコンテキストが膨らんだら、セッションを作り直す",
-   "link": "https://qiita.com/yorimichi_labo/items/1dae5c7dcc5f4724094b",
-   "date": 1794463595000,
+   "title": "AIが、Claude Codeのプロンプトサジェストを入力途中の文字と勘違いした",
+   "link": "https://qiita.com/phibi-soon/items/af227b3507a6bbba8afd",
+   "date": 1794472640000,
    "img": "",
-   "desc": "この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: Claude Code のコンテキストが膨らんだら、セッションを作り直す はじめに Mac で Cl..."
+   "desc": "こんにちは、もんすんです。 「Q3はAでお願いします」 並べて動かしている Claude Code のうち、1つの入力欄にそう出ていました。 私が入力した文字ではありません。 私の指示で、統括役の Claude Code が子のセッションを閉じようとしたときのことです。 統..."
   },
   {
    "src": "zenn",
