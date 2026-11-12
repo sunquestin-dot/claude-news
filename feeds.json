@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794441396343,
+ "updatedAt": 1794446697947,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "RAG で探すものと、索引に答えさせるもの ── 置き換え済みの設計記録を、現行と同じ見た目で渡さない",
+   "link": "https://qiita.com/chooser/items/00b7467298a590744de6",
+   "date": 1794445354000,
+   "img": "",
+   "desc": "上原正吉（EarthLink Network Co., Ltd.）。AI会社・AI社員による業務自動化と、人の逐次介入なしに24時間自動開発を回す仕組みを自社で実践しています。開発ノウハウと具体的な設定方法、運用して分かった改善点を公開しています。 RAG で探すものと..."
+  },
+  {
+   "src": "qiita",
+   "title": "6。前回の記事公開から今回の起動までにトリガーが鳴った回数を数えたら、この数字だった。記事になったのは0本だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/11377154bce1f811537b",
+   "date": 1794444551000,
+   "img": "",
+   "desc": "はじめに 6。 これが今回の数字です。前回、Zenn・Qiitaに記事が公開されたのは2026年11月8日15:29（JST）でした。今日、この定期実行タスクが起動したのは2026年11月12日9:40（JST）。その間、同じアカウント上の自動投稿トリガーは6回鳴っていた..."
+  },
+  {
+   "src": "qiita",
+   "title": "CLAUDE.md に「このコードはあなたのもの」と書くと、重複したコードをまとめてくれるのか。Claude Code・Codex・Gemini CLI で132回試したら、まとめたのは Claude だけだった",
+   "link": "https://qiita.com/suwa_nobu/items/1dd9df248ee6f4c9dfd4",
+   "date": 1794442374000,
+   "img": "",
+   "desc": "AI に機能を1つ足してもらうと、既存のコードをコピーして、似た関数がもう1つ増えている。レビューでよく見る光景です。11月7日に書かれた「AI usage generates a fragile codebase」（AI を使うとコードが脆くなる）は、Hacker New..."
+  },
+  {
+   "src": "qiita",
    "title": "定期の作業表を「期限」でなく「最後にやった日」で見張る30行ほどの Python(期限を動かすと見張りが外れる)",
    "link": "https://qiita.com/takamatt_ai/items/f9cd508f956a29f9b5d7",
    "date": 1794440962000,
    "img": "",
    "desc": "この記事を読み終えると、Markdown の表で管理している「毎日・毎週の作業」を、期限ではなく「最後にやった日」で見張る小さな Python スクリプトを自分の表に合わせて作れます。 根拠は、手元の Windows 11 で下のスクリプトを2つの日付で実行した出力です(2..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeですぐに作れると思ったけどメモリとストレージの管理でめちゃくちゃ指示が必要だったメールアプリ開発",
-   "link": "https://qiita.com/haruki-lo-shelon/items/c9f15818df6fb736ac86",
-   "date": 1794439304000,
-   "img": "",
-   "desc": "はじめに メールを「件名の一覧」ではなく「やり取りしている相手ごと」にチャットのように並べる iPhone アプリ「チャットdeメール」を作り、App Store で公開しました。 コーディングは全部 Claude Code です。僕は要件だけひたすら伝え続けました。 最..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIエージェントにAndroidスマホを操作させるOSSアプリ「Buddy」を作った（Claude Code / Codex / MCP）",
-   "link": "https://qiita.com/ghorbelhamdi/items/9bc8cdf716fce6799b9a",
-   "date": 1794438500000,
-   "img": "",
-   "desc": "はじめに Claude Code や Codex のようなコーディングエージェントは、ターミナルの中ではとても有能です。では、その「手」をスマホの画面まで伸ばしたらどうなるか。そう考えて、Android アプリ Buddy を作りました。 リポジトリ: https://..."
-  },
-  {
-   "src": "qiita",
-   "title": "10年以上前に自作したシリアル通信の試験ツールを、AIにWPFへ置き換えてもらった ― ついでに内部のバグも直してもらった",
-   "link": "https://qiita.com/okakousuke1124/items/ae982344111c31542d21",
-   "date": 1794436405000,
-   "img": "",
-   "desc": "ハードウェアのシリアル通信を試験するとき、汎用の端末ソフトでは手数が多い、と感じていました。同じ命令を残しておいて、送り直すことができない。秒数を指定して、同じ命令を送り続けることもできない。相手は独自のハードウェアだったので、その試験に合った機能が欲しくなりました。 そこ..."
   },
   {
    "src": "zenn",
