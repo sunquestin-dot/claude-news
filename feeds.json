@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794446697947,
+ "updatedAt": 1794452392894,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 500"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": false,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "【実測あり】claudeで、--effort を打ち間違えても処理は止まらない",
+   "link": "https://qiita.com/phibi-soon/items/127572cab26cc8a004ec",
+   "date": 1794449495000,
+   "img": "",
+   "desc": "こんにちは、もんすんです。 この記事は、Claude Code を cron などで自動実行している個人開発者と、これから試す初学者に向けた記事です。 この記事で分かることは、次の2つです。 --effort を打ち間違えると何が起きるか。私の環境での実行結果 打ち間違..."
+  },
+  {
+   "src": "qiita",
+   "title": "2026年11月12日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/c10f317642594517575a",
+   "date": 1794448962000,
+   "img": "",
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 集中力散漫＆過集中持ちエンジニアがAWS DE..."
+  },
+  {
+   "src": "qiita",
    "title": "RAG で探すものと、索引に答えさせるもの ── 置き換え済みの設計記録を、現行と同じ見た目で渡さない",
    "link": "https://qiita.com/chooser/items/00b7467298a590744de6",
    "date": 1794445354000,
@@ -58,22 +74,6 @@
    "date": 1794444551000,
    "img": "",
    "desc": "はじめに 6。 これが今回の数字です。前回、Zenn・Qiitaに記事が公開されたのは2026年11月8日15:29（JST）でした。今日、この定期実行タスクが起動したのは2026年11月12日9:40（JST）。その間、同じアカウント上の自動投稿トリガーは6回鳴っていた..."
-  },
-  {
-   "src": "qiita",
-   "title": "CLAUDE.md に「このコードはあなたのもの」と書くと、重複したコードをまとめてくれるのか。Claude Code・Codex・Gemini CLI で132回試したら、まとめたのは Claude だけだった",
-   "link": "https://qiita.com/suwa_nobu/items/1dd9df248ee6f4c9dfd4",
-   "date": 1794442374000,
-   "img": "",
-   "desc": "AI に機能を1つ足してもらうと、既存のコードをコピーして、似た関数がもう1つ増えている。レビューでよく見る光景です。11月7日に書かれた「AI usage generates a fragile codebase」（AI を使うとコードが脆くなる）は、Hacker New..."
-  },
-  {
-   "src": "qiita",
-   "title": "定期の作業表を「期限」でなく「最後にやった日」で見張る30行ほどの Python(期限を動かすと見張りが外れる)",
-   "link": "https://qiita.com/takamatt_ai/items/f9cd508f956a29f9b5d7",
-   "date": 1794440962000,
-   "img": "",
-   "desc": "この記事を読み終えると、Markdown の表で管理している「毎日・毎週の作業」を、期限ではなく「最後にやった日」で見張る小さな Python スクリプトを自分の表に合わせて作れます。 根拠は、手元の Windows 11 で下のスクリプトを2つの日付で実行した出力です(2..."
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 447 # Comments: 218"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 447 # Comments: 219"
   },
   {
    "src": "status",
@@ -305,7 +305,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 129 # Comments: 85"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 130 # Comments: 85"
   },
   {
    "src": "reddit",
@@ -713,7 +713,7 @@
    "link": "https://fig.blue/posts/duet-is-the-future/",
    "date": 1793294665000,
    "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 126 # Comments: 142"
+   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 126 # Comments: 143"
   },
   {
    "src": "hn",
