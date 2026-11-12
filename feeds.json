@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794510477789,
+ "updatedAt": 1794513804973,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
