@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794538661029,
+ "updatedAt": 1794542626903,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code に毎回読ませる指示が58日で83倍になっていたので、git の履歴から字数を数えた",
+   "link": "https://qiita.com/leiaworks/items/9b927e0a5da6ef2490ba",
+   "date": 1794542215000,
+   "img": "",
+   "desc": "こんにちは、Leia です。 Claude Code を、自分の作業の秘書みたいに毎日使っています。使いながら「こういう時はこうして」という決まりを、CLAUDE.md と .claude/rules に書き足してきました。 ある日ふと気になって、git の履歴から字数を数..."
+  },
   {
    "src": "qiita",
    "title": "Claude CodeとCodexのスキルを二重管理しないためにsymlinkで共有した話",
@@ -68,14 +76,6 @@
    "desc": "Claude Codeに同じ調査を繰り返させないためのメモの残し方 Anthropicは2026年11月6日、AIエージェントが作業で得た知識を次のセッションへ残す仕組みについて、技術解説「The components of agent memory」を公開しました。会話..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Opus 5.5 と Fable 5.2、結局どっちを使う？違いと使い分けを整理した",
-   "link": "https://qiita.com/kazutoyamaura/items/c6c77ee9f989d0bd5e4f",
-   "date": 1794536538000,
-   "img": "",
-   "desc": "はじめに 2026年11月9日に Claude Fable 5.2 がリリースされました。9月22日に出た Claude Opus 5.5 と比べて「何が違うのか」「どちらを使うべきか」を、公式ドキュメント・公式発表と第三者のベンチマーク集計をもとに整理します。 ⚠️ ..."
-  },
-  {
    "src": "status",
    "title": "Elevated errors affecting the Microsoft 365 connector",
    "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
@@ -98,14 +98,6 @@
    "date": 1794509190000,
    "img": "https://external-preview.redd.it/aG9raXl5MnY4ODFpMbje467g1BDMjuevrmY1hfpANzbJiCNApR1NH8LZyVzD.png?width=640&crop=smart&auto=webp&s=09e714f6c46e46722c31030375f2d14eb7f83c6a",
    "desc": "I’ve been making games for 19 years. Over the last few years it had turned into a job, and I stopped enjoying it. A few weeks ago I set myself a challenge, take one small game through the entire pipe…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIの見張りは、決まりを知らずに鳴っていた —— 日付が変わった直後に「投稿が足りない」と鳴った話",
-   "link": "https://zenn.dev/ai_shihan/articles/c2df4982b341b8",
-   "date": 1794505786000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s---WK89Pc6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E8%25A6%258B%25E5%25BC%25B5%25E3%2582%258A%25E3%2581%25AF%25E3%2580%2581%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%25E3%2582%2592%25E7%259F%25A5%25E3%2582%2589%25E3%2581%259A%25E3%2581%25AB%25E9%25B3%25B4%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2520%25E2%2580%2594%25E2%2580%2594%2520%25E6%2597%25A5%25E4%25BB%2598%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E7%259B%25B4%25E5%25BE%258C%25E3%2581%25AB%25E3%2580%258C%25E6%258A%2595%25E7%25A8%25BF%25E3%2581%258C%25E8%25B6%25B3%25E3%2582%258A%25E3%2581%25AA%25E3%2581%2584%25E3%2580%258D%25E3%2581%25A8%25E9%25B3%25B4%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ai_shihan%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "X の投稿は、AI の席（広報部）に任せています。投稿するかどうかは、別の見張りが 30 分ごとに調べて、席に知らせる作りです。この見張りが、決まりを知らないまま鳴っていた、という話を書きます。 決まりは文書にあった 投稿の時刻には、決まりがあります。X は日本時間の 9:05・12:05・21:05 の 3 つの枠だけで出す。0 時台や 15 時台、18 時台には出さない。投稿の直後の 2 時…"
   },
   {
    "src": "zenn",
@@ -266,6 +258,14 @@
    "date": 1794463732000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--HPv4yXmu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E3%2581%258C%25E8%2586%25A8%25E3%2582%2589%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%2581%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258A%25E7%259B%25B4%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: Claude Code のコンテキストが膨らんだら、セッションを作り直す はじめに Mac で Claude Code を tmux の中に立て、launchd（LaunchAgent）で常駐させています。落ちれば KeepAli…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code を tmux で常駐させる。launchd から起動する時の罠",
+   "link": "https://zenn.dev/yorimichi_lab/articles/54649cc9ff2b00",
+   "date": 1794460300000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Nr685hjk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%2520tmux%2520%25E3%2581%25A7%25E5%25B8%25B8%25E9%25A7%2590%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E3%2580%2582launchd%2520%25E3%2581%258B%25E3%2582%2589%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%2599%25E3%2582%258B%25E6%2599%2582%25E3%2581%25AE%25E7%25BD%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: Claude Code を tmux で常駐させる。launchd から起動する時の罠 はじめに 外出先の iPhone から、家や職場の Mac で動いている Claude Code にいつでも入れるようにしました。launch…"
   },
   {
    "src": "reddit",
