@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794576112466,
+ "updatedAt": 1794581969657,
  "sources": {
   "news": {
    "ok": true,
@@ -47,9 +47,25 @@
    "src": "status",
    "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
    "link": "https://status.claude.com/incidents/34wq7gxnxvvm",
-   "date": 1794575390000,
+   "date": 1794580573000,
    "img": "",
-   "desc": "Nov 13 , 13:09 UTC Investigating - We are investigating reports of degraded performance affecting claude.ai, the Claude API, and Claude Code. We will provide an update as soon as possible."
+   "desc": "Nov 13 , 14:36 UTC Update - We're seeing recovery on claude.ai and the Claude API, though errors may return while we continue working on this. Connectors, including Docs and Sheets, remain degraded, …"
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code が英語で返事したら、Stop hook で日本語に書き直させる（30 行の Python と無限ループの防ぎ方）",
+   "link": "https://qiita.com/hasegawa--2025/items/f7d47279881332c809e8",
+   "date": 1794578064000,
+   "img": "",
+   "desc": "Claude Code に日本語で話しかけているのに、長い作業のあとの報告だけ英語で返ってくることがありました。CLAUDE.md に「最後の報告は日本語で」と書いても、たまに英語になります。 そこで、Claude Code の Stop hook を使い、返事を書き終えた..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code から Qiita に投稿できる MCP サーバーを自作した（書き込みは既定で dry-run）",
+   "link": "https://qiita.com/htani0817/items/2e22b2370c99e5b254fe",
+   "date": 1794577701000,
+   "img": "",
+   "desc": "Qiita の記事は、手元の Obsidian で Claude Code と一緒に書いています。書き上げたあとの投稿まで Claude Code から済ませたい。そこで、Qiita API v2 を操作する MCP サーバーを Node.js で作りました。 ただ、AI ..."
   },
   {
    "src": "qiita",
@@ -74,22 +90,6 @@
    "date": 1794568572000,
    "img": "",
    "desc": "3行で 127.6 BPM のクリック音を librosa に読ませたら、tempo は 129.2 と出た。この数字どおりに拍を並べると、60秒で約0.7秒 ずれる 拍の時刻そのものを使えば、ズレは最後まで 最大30ms。合わせるべきは「BPMという数字」ではなく「測..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code のスキルで PR レビューを段階に分けて、cmux で並列に回す",
-   "link": "https://qiita.com/iguzen/items/09d1a5f0a92d90fc9cc9",
-   "date": 1794567183000,
-   "img": "",
-   "desc": "複数のリポジトリをまたいで PR をレビューしていると、困りごとが2つ出てきます。 1つ目は、PR の進み具合を覚えておく手間です。レビューそのものより、次のような PR を覚えておくほうが大変になってきます。 指摘を出して、作成者の返信を待っている PR 返信が来ている..."
-  },
-  {
-   "src": "qiita",
-   "title": "Cursorの拡張機能「Claude Code for VS Code」にバックドア：2.1.312と2.1.313が対象",
-   "link": "https://qiita.com/pitaspot/items/e2d87bfa2d6802494407",
-   "date": 1794560654000,
-   "img": "",
-   "desc": "📰 海外事例 元記事：Backdoor in Claude Code for VS Code extension on the Cursor Marketplace（phorion.io） セキュリティ会社Phorionが、Cursor（AIコーディング用エデ..."
   },
   {
    "src": "zenn",
