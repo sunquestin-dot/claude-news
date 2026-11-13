@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794564655358,
+ "updatedAt": 1794568242327,
  "sources": {
   "news": {
    "ok": true,
@@ -47,9 +47,17 @@
    "src": "status",
    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
    "link": "https://status.claude.com/incidents/nn11wk485zfn",
-   "date": 1794563938000,
+   "date": 1794567923000,
    "img": "",
-   "desc": "Nov 13 , 09:58 UTC Investigating - We are investigating an issue with users authenticating to Claude.ai and Claude Code. We will provide an update as soon as possible."
+   "desc": "Nov 13 , 11:05 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Nov 13 , 09:58 UTC Investigating - We are investigating an issue wi…"
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code のスキルで PR レビューを段階に分けて、cmux で並列に回す",
+   "link": "https://qiita.com/iguzen/items/09d1a5f0a92d90fc9cc9",
+   "date": 1794567183000,
+   "img": "",
+   "desc": "複数のリポジトリをまたいで PR をレビューしていると、困りごとが2つ出てきます。 1つ目は、PR の進み具合を覚えておく手間です。レビューそのものより、次のような PR を覚えておくほうが大変になってきます。 指摘を出して、作成者の返信を待っている PR 返信が来ている..."
   },
   {
    "src": "qiita",
@@ -76,12 +84,20 @@
    "desc": "私は Claude Code でバイブコーディングを始めて、個人開発をしています。最初は物が出来上がっていくのが楽しかったのですが、開発を進めるにつれ、細かい修正や私の判断を求める Claude の質問がいつまでも続くことに不満を感じるようになりました。いつ公開できるのかが..."
   },
   {
-   "src": "qiita",
-   "title": "「この余白を2mmに」で直るチラシデザイン。Claude Codeと入稿まで。",
-   "link": "https://qiita.com/nttdata-ccs-techblog/items/71f81eba6a4bcf4de1df",
-   "date": 1794556827000,
-   "img": "",
-   "desc": "NTTデータCCSで、なぜかGISチームに所属しているデザイナーのホンゴウです。中途入社で、地図の専門家に囲まれて働いています。最近、明治の東京で汽車や鉄道馬車を乗り継ぐとどうなるかを体験できるプロトタイプを作りました（またの機会に紹介します）。汽車が1日に数本しかない時..."
+   "src": "zenn",
+   "title": "compactを重ねると指示を忘れるClaude Codeに、プロンプトを1つ足したら忘れなくなった。3回重ねても消えた指示は0件",
+   "link": "https://zenn.dev/murooka_az/articles/compact-loses-decisions-carry-user-words",
+   "date": 1794542849000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--gcl8TTTf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:compact%25E3%2582%2592%25E9%2587%258D%25E3%2581%25AD%25E3%2582%258B%25E3%2581%25A8%25E6%258C%2587%25E7%25A4%25BA%25E3%2582%2592%25E5%25BF%2598%25E3%2582%258C%25E3%2582%258BClaude%2520Code%25E3%2581%25AB%25E3%2580%2581%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2582%25921%25E3%2581%25A4%25E8%25B6%25B3%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E5%25BF%2598%25E3%2582%258C%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2580%25823%25E5%259B%259E%25E9%2587%258D%25E3%2581%25AD%25E3%2581%25A6%25E3%2582%2582...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Murooka%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlMjA5NmUyNDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに Claude Code で長い作業をしていると、会話が長くなったところで要約（compact）が入ります。要約のあと、少し前に決めたはずのことを Claude が覚えていない。もう一度説明する。次の要約で、また消える。 人の手による設計作業が完全に抜け落ち、ある程度の要件から LLM が直接作り、作りながら直していく。私は、そんな未来を想定して、Claude Code を VS Cod…"
+  },
+  {
+   "src": "zenn",
+   "title": "[STD] AIに実装を任せるからこそ、守りは「仕組み」にした ── 個人開発のpublicリポジトリを最初からセキュアに作った記録",
+   "link": "https://zenn.dev/tsukimi_soba/articles/std-ai-dev-security-guardrails",
+   "date": 1794538904000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--cx5NbW5d--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BSTD%255D%2520AI%25E3%2581%25AB%25E5%25AE%259F%25E8%25A3%2585%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E3%2581%258B%25E3%2582%2589%25E3%2581%2593%25E3%2581%259D%25E3%2580%2581%25E5%25AE%2588%25E3%2582%258A%25E3%2581%25AF%25E3%2580%258C%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%2520%25E2%2594%2580%25E2%2594%2580%2520%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AEpublic%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E6%259C%2580%25E5%2588%259D%25E3%2581%258B%25E3%2582%2589%25E3%2582%25BB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A4%25E3%2581%258D%25E3%2581%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q1NGFkM2I1YTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "1. 概要 配信の相棒を作りました。OBS の画面にメンダコがいて、話すと口パクし、盛り上がると弾み、黙ると話しかけてきます。「死んだ」と言えばしょんぼりし、「やったー」と言えば紙吹雪が舞います。……というのが想定している動きです。実際には反応にラグがあり、まだ想定どおりには動いていないところがあります。ここは今後直す予定です。 リポジトリ：Tsukimi-0919/stream-buddy 構…"
   },
   {
    "src": "zenn",
@@ -252,28 +268,12 @@
    "desc": "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸びたのは、AIに足したものがあったからではありません。私が渡していたものを、ほとんど取り上げたからです。 TL;DR 何をした：感想戦を3回に分けて、Claude Codeの1セッションに改善を回させました 結果（数字）：本番の約6万点（…"
   },
   {
-   "src": "zenn",
-   "title": "貧乏人はメモリとセッションを管理する",
-   "link": "https://zenn.dev/bmexami/articles/db71a4d84c6573",
-   "date": 1794486593000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Edps2fWg--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25B2%25A7%25E4%25B9%258F%25E4%25BA%25BA%25E3%2581%25AF%25E3%2583%25A1%25E3%2583%25A2%25E3%2583%25AA%25E3%2581%25A8%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Xami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzMyNWQ3NDUwMzkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! 2026年11月時点の内容です。数字はすべて自分の Mac（下の表）で測ったものです。アプリの画面は、作業中の中身が写らないよう、デモのデータで再現しています。 32GB あれば余裕だと思っていた Claude Code を 3〜5 本並べて、横でローカル LLM にセッションの要約をさせる。32GB あるし、まあいけるやろと思っていました。 無理でした。 要約させていただけの Qwen が…"
-  },
-  {
-   "src": "zenn",
-   "title": "渡していない道具が普通に動いた — allowedTools は自動承認の指定で、禁止の指定ではない",
-   "link": "https://zenn.dev/shinsei99/articles/allowlist-is-not-a-denylist",
-   "date": 1794484645000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--UJOZ-2JB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%25E9%2581%2593%25E5%2585%25B7%25E3%2581%258C%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25AB%25E5%258B%2595%25E3%2581%2584%25E3%2581%259F%2520%25E2%2580%2594%2520allowedTools%2520%25E3%2581%25AF%25E8%2587%25AA%25E5%258B%2595%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%25AE%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25A7%25E3%2580%2581%25E7%25A6%2581%25E6%25AD%25A2%25E3%2581%25AE%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shinsei99%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDFIemt6WnZnMEhrd2xxWktJaFhkV1A2TnVHcEE2d3pSNlhnMWpmUXV0VHJqUGZwSFg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "人が承認を押さない前提で、AIに調査から資料作りまでを通しでやらせる仕組みを動かしています。 役割ごとに分かれた複数のエージェントが順に動き、途中に人が入る設計にはしていません。 押す人がいないなら、危ない操作は「人が止める」ではなくそもそも呼べない形にしておく必要がある。 そのつもりで、役割ごとに渡す道具を一覧で指定していました。 # ページを読む道具とファイルを読む道具だけを渡す（つもりだっ…"
-  },
-  {
    "src": "hn",
    "title": "Anthropic IPO",
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 931 # Comments: 867"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 941 # Comments: 869"
   },
   {
    "src": "reddit",
@@ -794,14 +794,6 @@
    "date": 1793116217000,
    "img": "",
    "desc": "Oct 27 , 15:50 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 07:42 PT / 14:42 UTC to 08:17 PT / 15:17 UTC. Oct 2…"
-  },
-  {
-   "src": "hn",
-   "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-   "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-   "date": 1793114906000,
-   "img": "",
-   "desc": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 608 # Comments: 298"
   },
   {
    "src": "status",
