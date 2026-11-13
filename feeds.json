@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794606939462,
+ "updatedAt": 1794613767210,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Codeを並列で回すとsettings.jsonが壊れる問題を、mkdirロックとアトミック書き込みで止める",
+   "link": "https://qiita.com/joinclass/items/8c40b05a48487aa588c0",
+   "date": 1794612607000,
+   "img": "",
+   "desc": "はじめに 当社（合同会社ジョインクラス）では、Claude Code を launchd から 17 本以上のジョブで動かしています。部署ごとのエージェントが手の空いたときに backlog を1件進め、CEO代理が承認キューを判断し、出版部が新刊を書く、といった具合です..."
+  },
   {
    "src": "status",
    "title": "Elevated errors affecting the Microsoft 365 connector",
@@ -90,14 +98,6 @@
    "date": 1794596414000,
    "img": "https://external-preview.redd.it/b3NrbzlzdDRnZjFpMU6Pmu-wFRkU0dCAgkgKsMTuY178b-iPwVz8TMB-jVWl.png?width=640&crop=smart&auto=webp&s=a13d8c53ef290f9803ba534813ad93323bedcefd",
    "desc": "I saw a post on Reddit where the new GPT Astra painted in MS Paint, so I let Fable 5.2 try the same thing. It did the whole painting with the mouse in about 2.5 hours. Edit: I saw some repeating ques…"
-  },
-  {
-   "src": "qiita",
-   "title": "初めてのClaude Codeで、学園祭の入場QRシステムを「全部入り」で作った ― FastAPI + SQLite版MONpass",
-   "link": "https://qiita.com/hayahide23/items/077eedf177425059229b",
-   "date": 1794595786000,
-   "img": "",
-   "desc": "はじめに 学園祭の入場をQRコードのチケットで管理するWebシステム「MONpass」の、最初のバージョンの話です。 以前、Cloudflare Workersで動く後継版「MONpassC」の記事を書きました。 その記事で「最初はPython（FastAPI + ..."
   },
   {
    "src": "zenn",
