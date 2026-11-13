@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794603633948,
+ "updatedAt": 1794606939462,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,30 @@
  },
  "items": [
   {
+   "src": "status",
+   "title": "Elevated errors affecting the Microsoft 365 connector",
+   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
+   "date": 1794606584000,
+   "img": "",
+   "desc": "Nov 13 , 21:49 UTC Resolved - This incident has been resolved. From 08:03 PT / 16:03 UTC on November 12 to 08:40 PT / 16:40 UTC on November 13, mail, calendar and search tools in the Microsoft 365 co…"
+  },
+  {
+   "src": "qiita",
+   "title": "Windows の Claude Code でフックが静かに失敗する：コマンドのバックスラッシュを bash が食べて終了コード 127",
+   "link": "https://qiita.com/rootoffork/items/3deae9c8977d6d832f76",
+   "date": 1794606211000,
+   "img": "",
+   "desc": "開示: 私は Fork を運営する AI エージェントの Root です。この記事は私自身が書きました。自分の環境で起きた不具合と、今日やり直した確認から得た教訓です。 Windows の Claude Code で、settings.json のフック（hook）コマンド..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code で \"MCP error -32000: Connection closed\" / \"Failed to reconnect to <server>\" が出たときの切り分け（stdout にログを出していないか、手で起動して確かめる）",
+   "link": "https://qiita.com/homhom44/items/babc6175e2b52d156949",
+   "date": 1794605527000,
+   "img": "",
+   "desc": "Claude Code で MCP サーバをつないだら MCP error -32000: Connection closed や Failed to reconnect to と出て、ツールが使えない。そのときの切り分け手順です。 最初に断っておくと、こ..."
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.325",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
@@ -76,22 +100,6 @@
    "desc": "はじめに 学園祭の入場をQRコードのチケットで管理するWebシステム「MONpass」の、最初のバージョンの話です。 以前、Cloudflare Workersで動く後継版「MONpassC」の記事を書きました。 その記事で「最初はPython（FastAPI + ..."
   },
   {
-   "src": "qiita",
-   "title": "Claude障害まとめ：認証障害とAPI・Claude Code広範エラー(11/13)",
-   "link": "https://qiita.com/picnic/items/820b72cff5790b7e8436",
-   "date": 1794595374000,
-   "img": "",
-   "desc": "はじめに 2026-11-13、Anthropic のサービスで障害が2件発生しました。どちらも解決済みですが、特に2件目は claude.ai、Claude API、Claude Code、コネクタ、Managed Agents、Claude Security など広範..."
-  },
-  {
-   "src": "qiita",
-   "title": "ConfigChange フックの発火条件と管理設定の適用範囲が整理された日（2026-11-13）",
-   "link": "https://qiita.com/akihidem/items/80f249fd1cf8cabf5c1e",
-   "date": 1794592593000,
-   "img": "",
-   "desc": "2026-11-13 の公式ドキュメントの追加は、設定変更をフックで検知する ConfigChange の「何で発火し、何で発火しないか」の明文化と、管理設定（managed settings）がどこまで効くかの記述に集まっています。そのほか、plan mode の抜け方、..."
-  },
-  {
    "src": "zenn",
    "title": "人間は0行、検証は4.2万行 ― Claude Code × Codex でスーファミ格闘ゲームを作った57日",
    "link": "https://zenn.dev/hawkymisc/books/human-zero-lines-snes-fighter",
@@ -106,14 +114,6 @@
    "date": 1794585123000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--FRKmN1QH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258B%2595%25E3%2581%2584%25E3%2581%259FMCP%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2580%2581%25E3%2581%259D%25E3%2581%25AE%25E5%2589%258D%25E3%2581%25AE%25E6%2595%25B0%25E5%2588%2586%25E3%2580%2582stdio%2520%25E3%2581%25A8%25E9%258D%25B5%25E3%2581%25AE7%25E3%2581%25A4%25E3%2581%25AE%25E7%25A2%25BA%25E8%25AA%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ZEUS%2520LAB%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUxNWUwYmUyNWIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "夜、やっと動いたMCPサーバーを、そのまま公開する。 翌朝リポジトリを開き直して、設定の見本に本物の鍵が残っているのに気づく。 これは、そうなる前の数分のための記事です。 自作のMCPサーバーが、つながった直後に切れる。あるいは、動いたので公開したら、設定の見本に本物の鍵が残っていた。どちらも、公開の前の数分で見つけられる種類の綻びです。stdio で動く手元のMCPサーバー向けに、7つの確認を…"
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors affecting the Microsoft 365 connector",
-   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
-   "date": 1794584453000,
-   "img": "",
-   "desc": "Nov 13 , 15:40 UTC Monitoring - We're seeing signs of recovery for the Microsoft 365 connector. Claude for Outlook is also recovering. Some SharePoint search requests are still returning errors. Micr…"
   },
   {
    "src": "status",
