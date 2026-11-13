@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794561129207,
+ "updatedAt": 1794564655358,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "status",
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "link": "https://status.claude.com/incidents/nn11wk485zfn",
+   "date": 1794563938000,
+   "img": "",
+   "desc": "Nov 13 , 09:58 UTC Investigating - We are investigating an issue with users authenticating to Claude.ai and Claude Code. We will provide an update as soon as possible."
+  },
   {
    "src": "qiita",
    "title": "Cursorの拡張機能「Claude Code for VS Code」にバックドア：2.1.312と2.1.313が対象",
@@ -265,7 +273,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 883 # Comments: 844"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 931 # Comments: 867"
   },
   {
    "src": "reddit",
@@ -305,7 +313,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 457 # Comments: 221"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 458 # Comments: 221"
   },
   {
    "src": "status",
@@ -417,7 +425,7 @@
    "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "date": 1794254695000,
    "img": "",
-   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 379 # Comments: 278"
+   "desc": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 379 # Comments: 280"
   },
   {
    "src": "claude-code",
@@ -1018,14 +1026,6 @@
    "date": 1791936000000,
    "img": "",
    "desc": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms."
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors on platform.claude.com",
-   "link": "https://status.claude.com/incidents/978mjkgw6mh7",
-   "date": 1791914404000,
-   "img": "",
-   "desc": "Oct 13 , 18:00 UTC Resolved - This issue has been resolved. Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. Whil…"
   },
   {
    "src": "engineering",
