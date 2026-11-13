@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794581969657,
+ "updatedAt": 1794585505606,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -45,11 +45,27 @@
  "items": [
   {
    "src": "status",
+   "title": "Elevated errors affecting the Microsoft 365 connector",
+   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
+   "date": 1794584453000,
+   "img": "",
+   "desc": "Nov 13 , 15:40 UTC Monitoring - We're seeing signs of recovery for the Microsoft 365 connector. Claude for Outlook is also recovering. Some SharePoint search requests are still returning errors. Micr…"
+  },
+  {
+   "src": "status",
    "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
    "link": "https://status.claude.com/incidents/34wq7gxnxvvm",
-   "date": 1794580573000,
+   "date": 1794584329000,
    "img": "",
-   "desc": "Nov 13 , 14:36 UTC Update - We're seeing recovery on claude.ai and the Claude API, though errors may return while we continue working on this. Connectors, including Docs and Sheets, remain degraded, …"
+   "desc": "Nov 13 , 15:38 UTC Resolved - The issue affecting multiple surfaces has been resolved. Nov 13 , 15:33 UTC Monitoring - Errors on claude.ai, including the mobile apps, the Claude API and Claude Code h…"
+  },
+  {
+   "src": "qiita",
+   "title": "【Agent Skills】モデルが賢くなるとスキルはどうなる？",
+   "link": "https://qiita.com/ryu-ki/items/202d150ad48dbccf7981",
+   "date": 1794583370000,
+   "img": "",
+   "desc": "はじめに これまで、エージェントに渡すスキルをいくつも作ってきましたが、モデルが賢くなったらこれらがどうなるのかは、ちゃんと考えたことがありませんでした。 そこで、自分のスキルを1本読み返して、何が残りそうかを考えてみました。この記事では、その見立てと、要らなくなった記述..."
   },
   {
    "src": "qiita",
@@ -84,12 +100,20 @@
    "desc": "Nov 13 , 11:58 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Nov 13 , 11:05 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we…"
   },
   {
-   "src": "qiita",
-   "title": "音合わせをBPMで決め打ちしたら60秒で0.7秒ずれた。AIに渡すべきは\"数字\"じゃなくて\"測ったもの\"だった",
-   "link": "https://qiita.com/shion4614/items/6a3eb7971b1fd9093b2d",
-   "date": 1794568572000,
+   "src": "hn",
+   "title": "Claude Is Down",
+   "link": "https://status.claude.com/history",
+   "date": 1794565209000,
    "img": "",
-   "desc": "3行で 127.6 BPM のクリック音を librosa に読ませたら、tempo は 129.2 と出た。この数字どおりに拍を並べると、60秒で約0.7秒 ずれる 拍の時刻そのものを使えば、ズレは最後まで 最大30ms。合わせるべきは「BPMという数字」ではなく「測..."
+   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 177 # Comments: 151"
+  },
+  {
+   "src": "zenn",
+   "title": "常駐 Claude Code を kill する前に、tmuxで遺言を書かせる",
+   "link": "https://zenn.dev/yorimichi_lab/articles/1e194652b4fed8",
+   "date": 1794550381000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mR60XDQ3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B8%25B8%25E9%25A7%2590%2520Claude%2520Code%2520%25E3%2582%2592%2520kill%2520%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2581tmux%25E3%2581%25A7%25E9%2581%25BA%25E8%25A8%2580%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: 常駐 Claude Code を kill する前に、tmuxで遺言を書かせる はじめに Mac で Claude Code を tmux の中に立て、launchd（LaunchAgent）で常駐させています。外出先からは iP…"
   },
   {
    "src": "zenn",
@@ -154,14 +178,6 @@
    "date": 1794528000000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--KtyOVQCW--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:herdr%2520%25E3%2581%25AE%25E5%2585%25AC%25E5%25BC%258F%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A7%25E3%2581%25A7%25E3%2581%258D%25E3%2582%258B%25E3%2581%2593%25E3%2581%25A8%25E3%2582%2592%25E3%2580%2581%25E5%2585%25AC%25E5%25BC%258F%25E3%2581%25AE%25E7%2594%25BB%25E9%259D%25A2%25E3%2581%25A7%25E8%25AA%25BF%25E3%2581%25B9%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Trellis%25EF%25BC%2588%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25AA%25E3%2582%25B9%25EF%25BC%2589%25EF%25BD%259C%25E7%25A6%258F%25E5%25B2%25A1%25E3%2581%25AEA...%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RhZGM1Yjk2MGEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Trellis%25EF%25BC%2588%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25AA%25E3%2582%25B9%25EF%25BC%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI5OGFkZWUwMzMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "herdr に、公式のスマホアプリ（iPhone・iPad・Android）が出ました。 PC やサーバーで動いているコーディングエージェントを、スマホから見て、答えるためのアプリです。 福岡で AI による業務改善や自動化、Web 制作などに取り組んでいる Trellis です。 英語で書かれた公式サイトと App Store の説明・画面から、このアプリでできることを日本語でまとめました。 …"
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors affecting the Microsoft 365 connector",
-   "link": "https://status.claude.com/incidents/sqn3fg1l96dl",
-   "date": 1794527666000,
-   "img": "",
-   "desc": "Nov 12 , 22:23 UTC Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude fo…"
   },
   {
    "src": "zenn",
@@ -268,20 +284,12 @@
    "desc": "この記事を読むと得られること 複数の社内ツールを1人で抱えているときの、CLAUDE.md の分け方の判断軸 「ユーザー共通」と「リポジトリごと」に書く内容の具体例 分けたあと、実際にどの指示が読み込まれているかを確かめる手順 こんな人に向けて 社内ツールのリポジトリが3つ以上あり、どれにも同じ決まりを書き写している方 CLAUDE.md が長くなりすぎて、どこに何を書いたか分からなくなってきた…"
   },
   {
-   "src": "zenn",
-   "title": "ISUCONから学ぶAIとの付き合い方",
-   "link": "https://zenn.dev/ojey/articles/isucon2026-kansousen",
-   "date": 1794489849000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--cMvArpUX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON%25E3%2581%258B%25E3%2582%2589%25E5%25AD%25A6%25E3%2581%25B6AI%25E3%2581%25A8%25E3%2581%25AE%25E4%25BB%2598%25E3%2581%258D%25E5%2590%2588%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Jin%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlZjc3ZTFiNzMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸びたのは、AIに足したものがあったからではありません。私が渡していたものを、ほとんど取り上げたからです。 TL;DR 何をした：感想戦を3回に分けて、Claude Codeの1セッションに改善を回させました 結果（数字）：本番の約6万点（…"
-  },
-  {
    "src": "hn",
    "title": "Anthropic IPO",
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 941 # Comments: 869"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 983 # Comments: 888"
   },
   {
    "src": "reddit",
@@ -337,7 +345,7 @@
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 294 # Comments: 217"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 296 # Comments: 218"
   },
   {
    "src": "reddit",
@@ -353,7 +361,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 86"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 87"
   },
   {
    "src": "reddit",
@@ -521,7 +529,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 821 # Comments: 493"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 823 # Comments: 493"
   },
   {
    "src": "hn",
@@ -529,7 +537,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 626 # Comments: 429"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 626 # Comments: 430"
   },
   {
    "src": "reddit",
