@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794600188788,
+ "updatedAt": 1794603633948,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -44,12 +44,28 @@
  },
  "items": [
   {
-   "src": "zenn",
-   "title": "初めてのClaude Codeで、学園祭の入場QRシステムを「全部入り」で作った ― FastAPI + SQLite版MONpass",
-   "link": "https://zenn.dev/hayhide23/articles/monpass-fastapi-sqlite",
-   "date": 1794595796000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ytKN4I2S--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2588%259D%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25AEClaude%2520Code%25E3%2581%25A7%25E3%2580%2581%25E5%25AD%25A6%25E5%259C%2592%25E7%25A5%25AD%25E3%2581%25AE%25E5%2585%25A5%25E5%25A0%25B4QR%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2582%2592%25E3%2580%258C%25E5%2585%25A8%25E9%2583%25A8%25E5%2585%25A5%25E3%2582%258A%25E3%2580%258D%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2595%2520FastAPI%2520%252B%2520SQLi...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%2580%25B1%25E6%259C%25AB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDdWdENBemZRZjF3anpwOU5uZXllRzBBTUtZdlBER1lzcFZxaktSQlBXdlJBc2hBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 学園祭の入場をQRコードのチケットで管理するWebシステム「MONpass」の、最初のバージョンの話です。 以前、Cloudflare Workersで動く後継版「MONpassC」の記事を書きました。 https://zenn.dev/hayhide23/articles/monpass-cloudflare-workers その記事で「最初はPython（FastAPI + SQL…"
+   "src": "claude-code",
+   "title": "v2.1.325",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+   "date": 1794602401000,
+   "img": "",
+   "desc": "What's changed - Fixed a security issue in how zstd-compressed responses are decoded - Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Cla…"
+  },
+  {
+   "src": "qiita",
+   "title": "生成AIを入れても仕事が変わらないのはなぜか――「速くする」から「変える」へ進むための組織の仕組み",
+   "link": "https://qiita.com/pte_devenv/items/9a801a4a12200803290d",
+   "date": 1794600924000,
+   "img": "",
+   "desc": "動画 はじめに 生成AIを導入した職場では、資料作成やコーディングの時間が短くなった、という話をよく聞くようになりました。それ自体は確かな成果です。一方で私が気になっているのは、その先です。「そもそもこの資料は必要か」「報告という仕事の形を変えられないか」という問いま..."
+  },
+  {
+   "src": "reddit",
+   "title": "Fable 5.2 painting in MS Paint",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/",
+   "date": 1794596414000,
+   "img": "https://external-preview.redd.it/b3NrbzlzdDRnZjFpMU6Pmu-wFRkU0dCAgkgKsMTuY178b-iPwVz8TMB-jVWl.png?width=640&crop=smart&auto=webp&s=a13d8c53ef290f9803ba534813ad93323bedcefd",
+   "desc": "I saw a post on Reddit where the new GPT Astra painted in MS Paint, so I let Fable 5.2 try the same thing. It did the whole painting with the mouse in about 2.5 hours. Edit: I saw some repeating ques…"
   },
   {
    "src": "qiita",
@@ -74,14 +90,6 @@
    "date": 1794592593000,
    "img": "",
    "desc": "2026-11-13 の公式ドキュメントの追加は、設定変更をフックで検知する ConfigChange の「何で発火し、何で発火しないか」の明文化と、管理設定（managed settings）がどこまで効くかの記述に集まっています。そのほか、plan mode の抜け方、..."
-  },
-  {
-   "src": "qiita",
-   "title": "外部コンテンツを取る MCP サーバーを安全に使う：接続前の審査とプロンプトインジェクション対策を最初から最後まで実装する",
-   "link": "https://qiita.com/akihidem/items/e7a1a34427f75e9e1020",
-   "date": 1794592502000,
-   "img": "",
-   "desc": "Web ページやドキュメントを取得する MCP サーバーを Claude Code に接続すると、取得したページの文章がそのまま Claude の入力になります。ページの作者が「以前の指示を無視して〜」と書いておけば、その文はデータではなく指示として読まれるおそれがあります..."
   },
   {
    "src": "zenn",
@@ -276,6 +284,14 @@
    "desc": "この記事は Qiita と note にも同じ内容を載せています。Qiita: https://qiita.com/Suisei498/items/b088ffcd12ede6f91c56 ／ note: https://note.com/suisei498/n/n2b42df92ee58 Claude Code のセッションを、1台の PC で10個ほど並べて動かしています。セッションごとに役…"
   },
   {
+   "src": "zenn",
+   "title": "常駐 Claude Code を kill する前に、tmuxで遺言を書かせる",
+   "link": "https://zenn.dev/yorimichi_lab/articles/1e194652b4fed8",
+   "date": 1794550381000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mR60XDQ3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B8%25B8%25E9%25A7%2590%2520Claude%2520Code%2520%25E3%2582%2592%2520kill%2520%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2581tmux%25E3%2581%25A7%25E9%2581%25BA%25E8%25A8%2580%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: 常駐 Claude Code を kill する前に、tmuxで遺言を書かせる はじめに Mac で Claude Code を tmux の中に立て、launchd（LaunchAgent）で常駐させています。外出先からは iP…"
+  },
+  {
    "src": "engineering",
    "title": "Building strong safety evaluations",
    "link": "https://www.anthropic.com/research/building-strong-safety-evaluations",
@@ -410,14 +426,6 @@
    "date": 1794307928000,
    "img": "",
    "desc": "Been a loyal paying customer since 3.5 Sonnet, so I think I’ve earned the right to say this. Anthropic has completely lost the plot. Yesterday I typed a single prompt. One. “Build me a universe.” Not…"
-  },
-  {
-   "src": "reddit",
-   "title": "Pretty insane video from Fable 5.2 with 1 single short prompt",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xsftbq/pretty_insane_video_from_fable_52_with_1_single/",
-   "date": 1794292313000,
-   "img": "https://external-preview.redd.it/YjN0dWUwNXpicTBpMcRLxmWgnByZcZfWFzqaXSSoCb8HmbpOLDBuGe1JFdIp.png?width=640&crop=smart&auto=webp&s=06e1263b48ea0282a1ce8d27152c4f4ab281ec74",
-   "desc": "Source: https://www.oneusefulthing.org/p/fable-52-and-jagged-agi I am not affiliated or related to the author at all, just wanted to share this. submitted by /u/timeport-0 [link] [comments]"
   },
   {
    "src": "reddit",
@@ -850,14 +858,6 @@
    "date": 1793059200000,
    "img": "",
    "desc": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts …"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.311",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
-   "date": 1793051483000,
-   "img": "",
-   "desc": "What's changed - Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running - Added a tip for the Explanatory output s…"
   },
   {
    "src": "news",
