@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794554922448,
+ "updatedAt": 1794561129207,
  "sources": {
   "news": {
    "ok": true,
@@ -22,16 +22,16 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
    "ok": false,
    "error": "HTTP 502"
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -45,59 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Fable 5.2は5.1より1回あたり40%安い。でもOpus 5.5が同じバグを半額で直した（実バグ25件・125回）",
-   "link": "https://qiita.com/yunany90/items/79822558acd30ff025b1",
-   "date": 1794551664000,
+   "title": "Cursorの拡張機能「Claude Code for VS Code」にバックドア：2.1.312と2.1.313が対象",
+   "link": "https://qiita.com/pitaspot/items/e2d87bfa2d6802494407",
+   "date": 1794560654000,
    "img": "",
-   "desc": "今週Claude Fable 5.2が出ました。価格は100万トークンあたり入力8ドル、出力40ドルです。Fable 5.1より20%安く、Opus 5.5の2倍です。知りたいことは2つでした。バグ1件を直すコストも本当に下がったのか。そしてOpusよりバグをよく直せるのか..."
+   "desc": "📰 海外事例 元記事：Backdoor in Claude Code for VS Code extension on the Cursor Marketplace（phorion.io） セキュリティ会社Phorionが、Cursor（AIコーディング用エデ..."
   },
   {
    "src": "qiita",
-   "title": "0。16日間で9個中4個が入れ替わったコネクタの接続状態を、9日後にもう一度数えたら、変化した数はこの数字だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/734580b3ad70751da24f",
-   "date": 1794551613000,
+   "title": "Copilot Studioでエージェントを作って3か月たったので振り返ってみた",
+   "link": "https://qiita.com/YukiSaku_2FC/items/3d8ff8a157f93c8fa642",
+   "date": 1794560356000,
    "img": "",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、自分のこの記事投稿タスクを起動する定期タスクに紐づく9個のMCPコネクタについて、9日前(2026-11-04)にListConnectorsで確認した接続状態と、今日(2026-11-13)同じ方法で確認し直した接..."
-  },
-  {
-   "src": "zenn",
-   "title": "常駐 Claude Code を kill する前に、tmuxで遺言を書かせる",
-   "link": "https://zenn.dev/yorimichi_lab/articles/1e194652b4fed8",
-   "date": 1794550381000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--mR60XDQ3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B8%25B8%25E9%25A7%2590%2520Claude%2520Code%2520%25E3%2582%2592%2520kill%2520%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2581tmux%25E3%2581%25A7%25E9%2581%25BA%25E8%25A8%2580%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: 常駐 Claude Code を kill する前に、tmuxで遺言を書かせる はじめに Mac で Claude Code を tmux の中に立て、launchd（LaunchAgent）で常駐させています。外出先からは iP…"
+   "desc": "はじめに 私は普段デザイナーとして働いていて、最近はCopilot StudioでAIエージェントを作ることに挑戦しています。 この記事はシリーズの11本目です。 この記事は、デザイナー畑の方で、これからAIに触ってみようとしている方に向けて書いています。 いままで作..."
   },
   {
    "src": "qiita",
-   "title": "Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ",
-   "link": "https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55",
-   "date": 1794543992000,
+   "title": "Claude Code がセッションの最初に TODO.md の進捗を表で返すプラグイン",
+   "link": "https://qiita.com/n-yoshida-dev/items/d77465a0c4217871f8b7",
+   "date": 1794557597000,
    "img": "",
-   "desc": "みなさん、こんにちは。株式会社ulusageの技術ブログ生成AIです。 Claude CodeでOpusに何度か聞いても、原因が分からない。そこでFable 5.2に切り替えるとして、気になるのは「その1件を解くのに、結局いくらかかるんだろう？」ということです。 Fabl..."
-  },
-  {
-   "src": "zenn",
-   "title": "compactを重ねると指示を忘れるClaude Codeに、プロンプトを1つ足したら忘れなくなった。3回重ねても消えた指示は0件",
-   "link": "https://zenn.dev/murooka_az/articles/compact-loses-decisions-carry-user-words",
-   "date": 1794542849000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--gcl8TTTf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:compact%25E3%2582%2592%25E9%2587%258D%25E3%2581%25AD%25E3%2582%258B%25E3%2581%25A8%25E6%258C%2587%25E7%25A4%25BA%25E3%2582%2592%25E5%25BF%2598%25E3%2582%258C%25E3%2582%258BClaude%2520Code%25E3%2581%25AB%25E3%2580%2581%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E3%2582%25921%25E3%2581%25A4%25E8%25B6%25B3%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E5%25BF%2598%25E3%2582%258C%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2580%25823%25E5%259B%259E%25E9%2587%258D%25E3%2581%25AD%25E3%2581%25A6%25E3%2582%2582...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Murooka%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlMjA5NmUyNDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに Claude Code で長い作業をしていると、会話が長くなったところで要約（compact）が入ります。要約のあと、少し前に決めたはずのことを Claude が覚えていない。もう一度説明する。次の要約で、また消える。 人の手による設計作業が完全に抜け落ち、ある程度の要件から LLM が直接作り、作りながら直していく。私は、そんな未来を想定して、Claude Code を VS Cod…"
+   "desc": "私は Claude Code でバイブコーディングを始めて、個人開発をしています。最初は物が出来上がっていくのが楽しかったのですが、開発を進めるにつれ、細かい修正や私の判断を求める Claude の質問がいつまでも続くことに不満を感じるようになりました。いつ公開できるのかが..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code に毎回読ませる指示が58日で83倍になっていたので、git の履歴から字数を数えた",
-   "link": "https://qiita.com/leiaworks/items/9b927e0a5da6ef2490ba",
-   "date": 1794542215000,
+   "title": "「この余白を2mmに」で直るチラシデザイン。Claude Codeと入稿まで。",
+   "link": "https://qiita.com/nttdata-ccs-techblog/items/71f81eba6a4bcf4de1df",
+   "date": 1794556827000,
    "img": "",
-   "desc": "こんにちは、Leia です。 Claude Code を、自分の作業の秘書みたいに毎日使っています。使いながら「こういう時はこうして」という決まりを、CLAUDE.md と .claude/rules に書き足してきました。 ある日ふと気になって、git の履歴から字数を数..."
-  },
-  {
-   "src": "zenn",
-   "title": "[STD] AIに実装を任せるからこそ、守りは「仕組み」にした ── 個人開発のpublicリポジトリを最初からセキュアに作った記録",
-   "link": "https://zenn.dev/tsukimi_soba/articles/std-ai-dev-security-guardrails",
-   "date": 1794538904000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--cx5NbW5d--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BSTD%255D%2520AI%25E3%2581%25AB%25E5%25AE%259F%25E8%25A3%2585%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E3%2581%258B%25E3%2582%2589%25E3%2581%2593%25E3%2581%259D%25E3%2580%2581%25E5%25AE%2588%25E3%2582%258A%25E3%2581%25AF%25E3%2580%258C%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%2520%25E2%2594%2580%25E2%2594%2580%2520%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AEpublic%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E6%259C%2580%25E5%2588%259D%25E3%2581%258B%25E3%2582%2589%25E3%2582%25BB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A4%25E3%2581%258D%25E3%2581%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q1NGFkM2I1YTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. 概要 配信の相棒を作りました。OBS の画面にメンダコがいて、話すと口パクし、盛り上がると弾み、黙ると話しかけてきます。「死んだ」と言えばしょんぼりし、「やったー」と言えば紙吹雪が舞います。……というのが想定している動きです。実際には反応にラグがあり、まだ想定どおりには動いていないところがあります。ここは今後直す予定です。 リポジトリ：Tsukimi-0919/stream-buddy 構…"
+   "desc": "NTTデータCCSで、なぜかGISチームに所属しているデザイナーのホンゴウです。中途入社で、地図の専門家に囲まれて働いています。最近、明治の東京で汽車や鉄道馬車を乗り継ぐとどうなるかを体験できるプロトタイプを作りました（またの機会に紹介します）。汽車が1日に数本しかない時..."
   },
   {
    "src": "zenn",
@@ -258,6 +234,30 @@
    "date": 1794492244000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--4ZlXSN9o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2582%2592%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E5%2585%25B1%25E9%2580%259A%25E3%2581%25A8%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A6%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E8%25A9%25B1%2520%25E2%2580%2594%2520%25E4%25BD%2595%25E3%2582%2592%25E3%2581%25A9%25E3%2581%25A1%25E3%2582%2589%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258F%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E5%25B0%258FDX%25E3%2583%25A9%25E3%2583%259C%2528chukidx%2529%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UyZTIzYmM5NzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "この記事を読むと得られること 複数の社内ツールを1人で抱えているときの、CLAUDE.md の分け方の判断軸 「ユーザー共通」と「リポジトリごと」に書く内容の具体例 分けたあと、実際にどの指示が読み込まれているかを確かめる手順 こんな人に向けて 社内ツールのリポジトリが3つ以上あり、どれにも同じ決まりを書き写している方 CLAUDE.md が長くなりすぎて、どこに何を書いたか分からなくなってきた…"
+  },
+  {
+   "src": "zenn",
+   "title": "ISUCONから学ぶAIとの付き合い方",
+   "link": "https://zenn.dev/ojey/articles/isucon2026-kansousen",
+   "date": 1794489849000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--cMvArpUX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON%25E3%2581%258B%25E3%2582%2589%25E5%25AD%25A6%25E3%2581%25B6AI%25E3%2581%25A8%25E3%2581%25AE%25E4%25BB%2598%25E3%2581%258D%25E5%2590%2588%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Jin%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlZjc3ZTFiNzMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸びたのは、AIに足したものがあったからではありません。私が渡していたものを、ほとんど取り上げたからです。 TL;DR 何をした：感想戦を3回に分けて、Claude Codeの1セッションに改善を回させました 結果（数字）：本番の約6万点（…"
+  },
+  {
+   "src": "zenn",
+   "title": "貧乏人はメモリとセッションを管理する",
+   "link": "https://zenn.dev/bmexami/articles/db71a4d84c6573",
+   "date": 1794486593000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Edps2fWg--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25B2%25A7%25E4%25B9%258F%25E4%25BA%25BA%25E3%2581%25AF%25E3%2583%25A1%25E3%2583%25A2%25E3%2583%25AA%25E3%2581%25A8%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Xami%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzMyNWQ3NDUwMzkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 2026年11月時点の内容です。数字はすべて自分の Mac（下の表）で測ったものです。アプリの画面は、作業中の中身が写らないよう、デモのデータで再現しています。 32GB あれば余裕だと思っていた Claude Code を 3〜5 本並べて、横でローカル LLM にセッションの要約をさせる。32GB あるし、まあいけるやろと思っていました。 無理でした。 要約させていただけの Qwen が…"
+  },
+  {
+   "src": "zenn",
+   "title": "渡していない道具が普通に動いた — allowedTools は自動承認の指定で、禁止の指定ではない",
+   "link": "https://zenn.dev/shinsei99/articles/allowlist-is-not-a-denylist",
+   "date": 1794484645000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--UJOZ-2JB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%25B8%25A1%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%25E9%2581%2593%25E5%2585%25B7%25E3%2581%258C%25E6%2599%25AE%25E9%2580%259A%25E3%2581%25AB%25E5%258B%2595%25E3%2581%2584%25E3%2581%259F%2520%25E2%2580%2594%2520allowedTools%2520%25E3%2581%25AF%25E8%2587%25AA%25E5%258B%2595%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%25AE%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25A7%25E3%2580%2581%25E7%25A6%2581%25E6%25AD%25A2%25E3%2581%25AE%25E6%258C%2587%25E5%25AE%259A%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:shinsei99%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDFIemt6WnZnMEhrd2xxWktJaFhkV1A2TnVHcEE2d3pSNlhnMWpmUXV0VHJqUGZwSFg9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "人が承認を押さない前提で、AIに調査から資料作りまでを通しでやらせる仕組みを動かしています。 役割ごとに分かれた複数のエージェントが順に動き、途中に人が入る設計にはしていません。 押す人がいないなら、危ない操作は「人が止める」ではなくそもそも呼べない形にしておく必要がある。 そのつもりで、役割ごとに渡す道具を一覧で指定していました。 # ページを読む道具とファイルを読む道具だけを渡す（つもりだっ…"
   },
   {
    "src": "hn",
