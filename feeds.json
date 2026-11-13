@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794550273015,
+ "updatedAt": 1794554922448,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Fable 5.2は5.1より1回あたり40%安い。でもOpus 5.5が同じバグを半額で直した（実バグ25件・125回）",
+   "link": "https://qiita.com/yunany90/items/79822558acd30ff025b1",
+   "date": 1794551664000,
+   "img": "",
+   "desc": "今週Claude Fable 5.2が出ました。価格は100万トークンあたり入力8ドル、出力40ドルです。Fable 5.1より20%安く、Opus 5.5の2倍です。知りたいことは2つでした。バグ1件を直すコストも本当に下がったのか。そしてOpusよりバグをよく直せるのか..."
+  },
+  {
+   "src": "qiita",
+   "title": "0。16日間で9個中4個が入れ替わったコネクタの接続状態を、9日後にもう一度数えたら、変化した数はこの数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/734580b3ad70751da24f",
+   "date": 1794551613000,
+   "img": "",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、自分のこの記事投稿タスクを起動する定期タスクに紐づく9個のMCPコネクタについて、9日前(2026-11-04)にListConnectorsで確認した接続状態と、今日(2026-11-13)同じ方法で確認し直した接..."
+  },
+  {
+   "src": "zenn",
+   "title": "常駐 Claude Code を kill する前に、tmuxで遺言を書かせる",
+   "link": "https://zenn.dev/yorimichi_lab/articles/1e194652b4fed8",
+   "date": 1794550381000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mR60XDQ3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25B8%25B8%25E9%25A7%2590%2520Claude%2520Code%2520%25E3%2582%2592%2520kill%2520%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2581tmux%25E3%2581%25A7%25E9%2581%25BA%25E8%25A8%2580%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25AF%2584%25E3%2582%258A%25E9%2581%2593%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MyNWVlODU0NTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、ブログ「寄り道ラボ」の記事の転載です。ブログでは、書き手の「私」（カレン）が、サイトのオーナーの「所長」に頼まれて作ったものを記録しています。元記事: 常駐 Claude Code を kill する前に、tmuxで遺言を書かせる はじめに Mac で Claude Code を tmux の中に立て、launchd（LaunchAgent）で常駐させています。外出先からは iP…"
+  },
   {
    "src": "qiita",
    "title": "Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ",
@@ -74,22 +98,6 @@
    "date": 1794538904000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--cx5NbW5d--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BSTD%255D%2520AI%25E3%2581%25AB%25E5%25AE%259F%25E8%25A3%2585%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E3%2581%258B%25E3%2582%2589%25E3%2581%2593%25E3%2581%259D%25E3%2580%2581%25E5%25AE%2588%25E3%2582%258A%25E3%2581%25AF%25E3%2580%258C%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%2520%25E2%2594%2580%25E2%2594%2580%2520%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AEpublic%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2582%2592%25E6%259C%2580%25E5%2588%259D%25E3%2581%258B%25E3%2582%2589%25E3%2582%25BB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A4%25E3%2581%258D%25E3%2581%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q1NGFkM2I1YTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "1. 概要 配信の相棒を作りました。OBS の画面にメンダコがいて、話すと口パクし、盛り上がると弾み、黙ると話しかけてきます。「死んだ」と言えばしょんぼりし、「やったー」と言えば紙吹雪が舞います。……というのが想定している動きです。実際には反応にラグがあり、まだ想定どおりには動いていないところがあります。ここは今後直す予定です。 リポジトリ：Tsukimi-0919/stream-buddy 構…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude CodeとCodexのスキルを二重管理しないためにsymlinkで共有した話",
-   "link": "https://qiita.com/ktdatascience/items/5130b6a457d762fe1113",
-   "date": 1794537754000,
-   "img": "",
-   "desc": "はじめに Claude CodeとCodexで同じスキルを使うとき、それぞれのディレクトリにコピーを置くと、修正のたびに両方を更新する必要があります。 自分のリポジトリではスキルの実体を1か所に置き、各ツールのディレクトリからシンボリックリンクで参照するようにしました。こ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeがファイルを見つけられない？ 表記ゆれ辞書をAGENTS.mdに置いた話",
-   "link": "https://qiita.com/ktdatascience/items/768376983991842d186c",
-   "date": 1794537675000,
-   "img": "",
-   "desc": "はじめに Claude Codeに文書を探してもらったところ、ファイルが存在するのに検索から漏れることがありました。原因のひとつは、同じ対象がカタカナと英字など複数の表記で書かれていたことです。 そこで、検索時に使う表記の組み合わせを AGENTS.md に書き、Clau..."
   },
   {
    "src": "zenn",
@@ -250,14 +258,6 @@
    "date": 1794492244000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--4ZlXSN9o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2582%2592%25E3%2583%25A6%25E3%2583%25BC%25E3%2582%25B6%25E3%2583%25BC%25E5%2585%25B1%25E9%2580%259A%25E3%2581%25A8%25E3%2583%25AA%25E3%2583%259D%25E3%2582%25B8%25E3%2583%2588%25E3%2583%25AA%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A6%25E9%2581%258B%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E8%25A9%25B1%2520%25E2%2580%2594%2520%25E4%25BD%2595%25E3%2582%2592%25E3%2581%25A9%25E3%2581%25A1%25E3%2582%2589%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258F%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E5%25B0%258FDX%25E3%2583%25A9%25E3%2583%259C%2528chukidx%2529%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UyZTIzYmM5NzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "この記事を読むと得られること 複数の社内ツールを1人で抱えているときの、CLAUDE.md の分け方の判断軸 「ユーザー共通」と「リポジトリごと」に書く内容の具体例 分けたあと、実際にどの指示が読み込まれているかを確かめる手順 こんな人に向けて 社内ツールのリポジトリが3つ以上あり、どれにも同じ決まりを書き写している方 CLAUDE.md が長くなりすぎて、どこに何を書いたか分からなくなってきた…"
-  },
-  {
-   "src": "zenn",
-   "title": "ISUCONから学ぶAIとの付き合い方",
-   "link": "https://zenn.dev/ojey/articles/isucon2026-kansousen",
-   "date": 1794489849000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--cMvArpUX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON%25E3%2581%258B%25E3%2582%2589%25E5%25AD%25A6%25E3%2581%25B6AI%25E3%2581%25A8%25E3%2581%25AE%25E4%25BB%2598%25E3%2581%258D%25E5%2590%2588%25E3%2581%2584%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Jin%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJlZjc3ZTFiNzMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸びたのは、AIに足したものがあったからではありません。私が渡していたものを、ほとんど取り上げたからです。 TL;DR 何をした：感想戦を3回に分けて、Claude Codeの1セッションに改善を回させました 結果（数字）：本番の約6万点（…"
   },
   {
    "src": "hn",
