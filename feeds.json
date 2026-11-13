@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794568242327,
+ "updatedAt": 1794571467360,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -47,9 +47,17 @@
    "src": "status",
    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
    "link": "https://status.claude.com/incidents/nn11wk485zfn",
-   "date": 1794567923000,
+   "date": 1794571125000,
    "img": "",
-   "desc": "Nov 13 , 11:05 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Nov 13 , 09:58 UTC Investigating - We are investigating an issue wi…"
+   "desc": "Nov 13 , 11:58 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Nov 13 , 11:05 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we…"
+  },
+  {
+   "src": "qiita",
+   "title": "音合わせをBPMで決め打ちしたら60秒で0.7秒ずれた。AIに渡すべきは\"数字\"じゃなくて\"測ったもの\"だった",
+   "link": "https://qiita.com/shion4614/items/6a3eb7971b1fd9093b2d",
+   "date": 1794568572000,
+   "img": "",
+   "desc": "3行で 127.6 BPM のクリック音を librosa に読ませたら、tempo は 129.2 と出た。この数字どおりに拍を並べると、60秒で約0.7秒 ずれる 拍の時刻そのものを使えば、ズレは最後まで 最大30ms。合わせるべきは「BPMという数字」ではなく「測..."
   },
   {
    "src": "qiita",
@@ -74,14 +82,6 @@
    "date": 1794560356000,
    "img": "",
    "desc": "はじめに 私は普段デザイナーとして働いていて、最近はCopilot StudioでAIエージェントを作ることに挑戦しています。 この記事はシリーズの11本目です。 この記事は、デザイナー畑の方で、これからAIに触ってみようとしている方に向けて書いています。 いままで作..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code がセッションの最初に TODO.md の進捗を表で返すプラグイン",
-   "link": "https://qiita.com/n-yoshida-dev/items/d77465a0c4217871f8b7",
-   "date": 1794557597000,
-   "img": "",
-   "desc": "私は Claude Code でバイブコーディングを始めて、個人開発をしています。最初は物が出来上がっていくのが楽しかったのですが、開発を進めるにつれ、細かい修正や私の判断を求める Claude の質問がいつまでも続くことに不満を感じるようになりました。いつ公開できるのかが..."
   },
   {
    "src": "zenn",
