@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794571467360,
+ "updatedAt": 1794576112466,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "status",
+   "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+   "link": "https://status.claude.com/incidents/34wq7gxnxvvm",
+   "date": 1794575390000,
+   "img": "",
+   "desc": "Nov 13 , 13:09 UTC Investigating - We are investigating reports of degraded performance affecting claude.ai, the Claude API, and Claude Code. We will provide an update as soon as possible."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Codeで学園祭の入場QRシステムを作った ― サーバーなし・無料でCloudflare Workersに載せるまで",
+   "link": "https://qiita.com/hayahide23/items/484ef66edb42f033c583",
+   "date": 1794572340000,
+   "img": "",
+   "desc": "はじめに 学園祭の入場管理をQRコードのチケットで行うWebシステム「MONpass」を作りました。 バックエンドもフロントエンドもCloudflare Workersだけで動いています。ソースコードはGitHubで公開しています。 この記事では、作ったきっかけと構..."
+  },
+  {
+   "src": "status",
    "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
    "link": "https://status.claude.com/incidents/nn11wk485zfn",
    "date": 1794571125000,
@@ -74,14 +90,6 @@
    "date": 1794560654000,
    "img": "",
    "desc": "📰 海外事例 元記事：Backdoor in Claude Code for VS Code extension on the Cursor Marketplace（phorion.io） セキュリティ会社Phorionが、Cursor（AIコーディング用エデ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Copilot Studioでエージェントを作って3か月たったので振り返ってみた",
-   "link": "https://qiita.com/YukiSaku_2FC/items/3d8ff8a157f93c8fa642",
-   "date": 1794560356000,
-   "img": "",
-   "desc": "はじめに 私は普段デザイナーとして働いていて、最近はCopilot StudioでAIエージェントを作ることに挑戦しています。 この記事はシリーズの11本目です。 この記事は、デザイナー畑の方で、これからAIに触ってみようとしている方に向けて書いています。 いままで作..."
   },
   {
    "src": "zenn",
@@ -922,14 +930,6 @@
    "date": 1792627200000,
    "img": "",
    "desc": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Cl…"
-  },
-  {
-   "src": "status",
-   "title": "Degraded performance for Claude Fable 5",
-   "link": "https://status.claude.com/incidents/njk29r81v3wg",
-   "date": 1792614557000,
-   "img": "",
-   "desc": "Oct 21 , 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will…"
   },
   {
    "src": "news",
