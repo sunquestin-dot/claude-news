@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794653595600,
+ "updatedAt": 1794656984613,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Cowork と Claude Code の memory の食い違いを防ぐ",
+   "link": "https://qiita.com/takamins/items/d643ddd20da86ca9c0b9",
+   "date": 1794654204000,
+   "img": "",
+   "desc": "はじめに 仕事を Claude に任せすぎて、Claude が何をしているのか分からなくなってきました。そこで、Claude Code に自分の作業記録から解説を書いてもらい、私が体験と感想を足して直しました。読者として想定しているのは、まず私です。同じように Claud..."
+  },
   {
    "src": "qiita",
    "title": "agentgatewayで始めるMCP管理",
@@ -66,14 +74,6 @@
    "date": 1794652203000,
    "img": "",
    "desc": "この記事で分かること：Claude Code v2.1.323 で追加された Code Mode とは何か。プラグインのバージョン管理が変わった点。企業向けの managed settings に入った改善。 2026年11月13日、Claude Code v2.1.3..."
-  },
-  {
-   "src": "qiita",
-   "title": "サポート切れの古い MacBook Air に Linux Mint を入れたら、Claude Code が動いて便利に蘇った",
-   "link": "https://qiita.com/maverick7775/items/84db09e1379e40de3adb",
-   "date": 1794651486000,
-   "img": "",
-   "desc": "2015 年ごろの MacBook Air が、押し入れで眠っていました。 Apple のサポートは切れていて、ブラウザも新しいものが入らず、セキュリティ的にも使いづらい。 メモリも少なくて重い。 完全に「使いみちのないマシン」でした。 そこに Linux Mint（Xfc..."
   },
   {
    "src": "status",
@@ -220,6 +220,14 @@
    "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 買い物を代行するエージェントに、カード番号を見せずに支払いを任せる。そこまでできるなら、最初に設計すべきものは買い物の知能ではなく、何をいつ人に確認するかという境界ではないかな。コードを書くエージェントにも同じ問いがあると思う。どこで手を止め、何を確かめればよいのだろう。 今日の 10 件 Buil…"
   },
   {
+   "src": "hn",
+   "title": "Claude Meetings",
+   "link": "https://claude.com/resources/articles/claude-meetings",
+   "date": 1794609555000,
+   "img": "",
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 100 # Comments: 77"
+  },
+  {
    "src": "zenn",
    "title": "役割を分けたつもりで、記憶は共有していた ― 複数のAIエージェントに同じコンテキストを見せない設計",
    "link": "https://zenn.dev/taichiendoh/articles/multi-agent-shared-memory-scope-isolation",
@@ -297,7 +305,7 @@
    "link": "https://status.claude.com/history",
    "date": 1794565209000,
    "img": "",
-   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 198 # Comments: 177"
+   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 199 # Comments: 179"
   },
   {
    "src": "reddit",
@@ -337,7 +345,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 908"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 909"
   },
   {
    "src": "reddit",
@@ -794,14 +802,6 @@
    "date": 1793294665000,
    "img": "",
    "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 126 # Comments: 143"
-  },
-  {
-   "src": "hn",
-   "title": "Claude Code regularly sends each background agent’s transcript to its model",
-   "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "date": 1793244822000,
-   "img": "",
-   "desc": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 591 # Comments: 236"
   },
   {
    "src": "status",
