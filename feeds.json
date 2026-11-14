@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794644128630,
+ "updatedAt": 1794647027259,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "ゴールドマン・サックス、トレーダーからClaude Codeを回収――「読めないコード」を現場に置けない理由",
+   "link": "https://qiita.com/pitaspot/items/9daeef16dfae6c928f64",
+   "date": 1794647023000,
+   "img": "",
+   "desc": "📰 海外事例 元記事：Goldman Sachs is pulling Claude Code from its bankers and traders（thestateofai.com） ゴールドマン・サックスが10月に社内指針を改め、Claude Code..."
+  },
+  {
+   "src": "qiita",
+   "title": "【Claude Code開発】サイコパス診断をJSONだけで作れる共通診断エンジンにした【JavaScript/WordPress】",
+   "link": "https://qiita.com/5naokichi/items/d01a66f5babe220bc32a",
+   "date": 1794646872000,
+   "img": "",
+   "desc": "はじめに 日常の場面を描いた15問に答えると、サイコパス度（％）と6つのタイプがわかる サイコパス診断 を公開しました。 この診断は、診断ごとにHTMLとJavaScriptを書くのではなく、設問・段階・タイプを書いた data.json を1つ登録するだけで動く共..."
+  },
+  {
+   "src": "qiita",
+   "title": "Workers AI の無料枠の7割で止める。AIの振り分け役を月770円のVPSと Cloudflare で組む設計メモ",
+   "link": "https://qiita.com/ishizakahiroshi/items/86662cb04a5607eb2f7e",
+   "date": 1794645032000,
+   "img": "",
+   "desc": "先に、結論を3行で書きます。 手元のPCに頼らず、VPSとクラウドのAIで開発を回す準備として、月770円のVPSを借りました。無料のOracle Cloudは、空きが出るのを待ちきれずやめました。 作業を誰に回すかは、作業を並べる看板（Cloudflare上）が10分..."
+  },
   {
    "src": "qiita",
    "title": "Backlog を全部 Claude に任せる",
@@ -60,22 +84,6 @@
    "desc": "Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email inst…"
   },
   {
-   "src": "qiita",
-   "title": "空の変数とスペース入りのパスで rm -rf が暴走した。今秋のコーディングエージェント事故5件と防ぎ方",
-   "link": "https://qiita.com/dooly6276/items/5cb63541e222a17ee259",
-   "date": 1794639559000,
-   "img": "",
-   "desc": "この秋、Claude Code の Issue と Reddit に、エージェントが自分で組み立てた削除コマンドでデータを消してしまった報告が続けて上がりました。どれもモデルが特別におかしなことをしたわけではなく、シェルのよく知られた落とし穴をそのまま踏んでいます。5件を原..."
-  },
-  {
-   "src": "qiita",
-   "title": "0。METRが『Anthropicの自己申告する1.9倍加速の根拠の大半は非公開』と報じられた日、自分の投稿パイプラインの完了確認2種類のうち、公開ページを実際に見る手段の数だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/9f49c8ac1872f56e1109",
-   "date": 1794637785000,
-   "img": "",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿タスクの「ステップ1(前回枠の完了確認・自己修復)」で指定されている確認手段のうち、実際に公開済みのページ(読者が目にする画面そのもの)を見るものの数です。 きっかけは、AIの能力評価..."
-  },
-  {
    "src": "zenn",
    "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
    "link": "https://zenn.dev/soulgemanalyst/articles/9f4fc24cb3953a",
@@ -90,14 +98,6 @@
    "date": 1794632880000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--Mn-7vGJZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Fable%25205.2%2520%25E3%2581%25AE%25E5%2585%25AC%25E5%25BC%258F%25E3%2583%2597%25E3%2583%25AD%25E3%2583%25B3%25E3%2583%2597%25E3%2583%2588%25E6%258C%2587%25E5%258D%2597%25E3%2581%25A7%25E6%258C%2587%25E7%25A4%25BA%25E6%259B%25B8%25E3%2582%2592%25E6%25A3%259A%25E5%258D%25B8%25E3%2581%2597%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%25812%25E6%2597%25A5%25E3%2581%25A7%25E9%2580%2586%25E3%2582%2592%25E8%25B5%25B0%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25BE%25E3%2581%2586%25E3%2582%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSXo4LUwtSVJseEJoa2V3V1oxRXRFODhBenlDTXFZazhCNHNjRC1EN1VJSmZCRllVd1E9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "2026年11月9日に、Anthropic の新しいモデル Claude Fable 5.2 が出ました。公式ドキュメントには、このモデル向けのプロンプトの書き方をまとめたページがあります（Claude Fable 5.2へのプロンプト）。その中に「以前のモデル向けに設計されたプロンプトとハーネスを見直す」という節があり、見直す物が7つ並んでいます。 私はこの4か月、Claude Code に毎…"
-  },
-  {
-   "src": "qiita",
-   "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
-   "link": "https://qiita.com/soulgemanalyst/items/20e7c72cc2006a331445",
-   "date": 1794632087000,
-   "img": "",
-   "desc": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.com/jp/blogs/news/aws-security-handson-series/ 本記事では、上記ハンズオンの11月11日開催回「Claude/GPT などのフロンティアモデル..."
   },
   {
    "src": "zenn",
