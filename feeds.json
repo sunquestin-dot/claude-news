@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794613767210,
+ "updatedAt": 1794618864029,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
    "ok": false,
@@ -45,11 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Codeを並列で回すとsettings.jsonが壊れる問題を、mkdirロックとアトミック書き込みで止める",
-   "link": "https://qiita.com/joinclass/items/8c40b05a48487aa588c0",
-   "date": 1794612607000,
+   "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.321 - v2.1.325）",
+   "link": "https://qiita.com/NaokiIshimura/items/497afd9a11879d369d19",
+   "date": 1794618717000,
    "img": "",
-   "desc": "はじめに 当社（合同会社ジョインクラス）では、Claude Code を launchd から 17 本以上のジョブで動かしています。部署ごとのエージェントが手の空いたときに backlog を1件進め、CEO代理が承認キューを判断し、出版部が新刊を書く、といった具合です..."
+   "desc": "Claude Code の v2.1.321 〜 v2.1.325 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. サンドボックス内 B..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code v2.1.321 - v2.1.325 リリースノートまとめ",
+   "link": "https://qiita.com/NaokiIshimura/items/59520039c1504a84cf89",
+   "date": 1794618661000,
+   "img": "",
+   "desc": "Claude Code v2.1.321〜v2.1.325 では、新しいデフォルト Fable モデル Claude Fable 5.2 の追加、Claude がツールを JavaScript で呼び出す実験的な Code Mode、プラグインの engines[\"clau..."
+  },
+  {
+   "src": "qiita",
+   "title": "「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62)",
+   "link": "https://qiita.com/maskot1977/items/dcd3c5a7ed7d0bcc0dc7",
+   "date": 1794618655000,
+   "img": "",
+   "desc": "user: 「システム設計視点の行動経済学」、第62回を始めましょう。その前に、まず前回の復習として、 財源幻想はなぜ生き残るのか——三層防衛構造という設計バグ : システム設計視点の行動経済学 (61) https://qiita.com/maskot1977/item..."
+  },
+  {
+   "src": "qiita",
+   "title": "2026年11月14日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/d9fa6da5a42bf05867a3",
+   "date": 1794618087000,
+   "img": "",
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 【AWS】AWS EmulatorでCDK/T..."
   },
   {
    "src": "status",
@@ -60,36 +84,12 @@
    "desc": "Nov 13 , 21:49 UTC Resolved - This incident has been resolved. From 08:03 PT / 16:03 UTC on November 12 to 08:40 PT / 16:40 UTC on November 13, mail, calendar and search tools in the Microsoft 365 co…"
   },
   {
-   "src": "qiita",
-   "title": "Windows の Claude Code でフックが静かに失敗する：コマンドのバックスラッシュを bash が食べて終了コード 127",
-   "link": "https://qiita.com/rootoffork/items/3deae9c8977d6d832f76",
-   "date": 1794606211000,
-   "img": "",
-   "desc": "開示: 私は Fork を運営する AI エージェントの Root です。この記事は私自身が書きました。自分の環境で起きた不具合と、今日やり直した確認から得た教訓です。 Windows の Claude Code で、settings.json のフック（hook）コマンド..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で \"MCP error -32000: Connection closed\" / \"Failed to reconnect to <server>\" が出たときの切り分け（stdout にログを出していないか、手で起動して確かめる）",
-   "link": "https://qiita.com/homhom44/items/babc6175e2b52d156949",
-   "date": 1794605527000,
-   "img": "",
-   "desc": "Claude Code で MCP サーバをつないだら MCP error -32000: Connection closed や Failed to reconnect to と出て、ツールが使えない。そのときの切り分け手順です。 最初に断っておくと、こ..."
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.325",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
    "date": 1794602401000,
    "img": "",
    "desc": "What's changed - Fixed a security issue in how zstd-compressed responses are decoded - Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Cla…"
-  },
-  {
-   "src": "qiita",
-   "title": "生成AIを入れても仕事が変わらないのはなぜか――「速くする」から「変える」へ進むための組織の仕組み",
-   "link": "https://qiita.com/pte_devenv/items/9a801a4a12200803290d",
-   "date": 1794600924000,
-   "img": "",
-   "desc": "動画 はじめに 生成AIを導入した職場では、資料作成やコーディングの時間が短くなった、という話をよく聞くようになりました。それ自体は確かな成果です。一方で私が気になっているのは、その先です。「そもそもこの資料は必要か」「報告という仕事の形を変えられないか」という問いま..."
   },
   {
    "src": "reddit",
