@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794692836449,
+ "updatedAt": 1794696498101,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -68,6 +68,14 @@
    "desc": "Claude Code のトランスクリプトに PreToolUse:Bash hook error や Stop hook error と出て、フックが壊れているのか、ただの表示なのか分からないときの見分け方です。フックの終了コードは 0 が成功、2 が意図的なブロック、そ..."
   },
   {
+   "src": "reddit",
+   "title": "Ppl keep asking for local Opus 5.5. This is local Opus 5.5",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xwcmj3/ppl_keep_asking_for_local_opus_55_this_is_local/",
+   "date": 1794688581000,
+   "img": "https://preview.redd.it/dhucof9j2n1i1.jpeg?width=640&crop=smart&auto=webp&s=95ac67d0b68a7e39ab466360983346aff10970d6",
+   "desc": "submitted by /u/OneKey3719 [link] [comments]"
+  },
+  {
    "src": "status",
    "title": "Some users unable to sign up with Apple on the Claude iOS app",
    "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
@@ -82,46 +90,6 @@
    "date": 1794678992000,
    "img": "",
    "desc": "2026-11-14 の更新は、Claude Code が「いつ止まり、いつ確認なしで進むか」の説明に集中しています。実験的な Code Mode と権限判定・フックの関係、コマンドの権限チェックが失敗したときの中断条件、サンドボックスとの組み合わせが追記されました。ほかに..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeに「公開」を押させない：CLAUDE.mdに書く「外に出す操作」の決まり5行",
-   "link": "https://zenn.dev/tsugu_sukima/articles/2b19ac59da1b2a",
-   "date": 1794676107000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--bBa9M_eA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AB%25E3%2580%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2580%258D%25E3%2582%2592%25E6%258A%25BC%25E3%2581%2595%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259ACLAUDE.md%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258F%25E3%2580%258C%25E5%25A4%2596%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%2599%25E6%2593%258D%25E4%25BD%259C%25E3%2580%258D%25E3%2581%25AE%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A5%25E8%25A1%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tsugu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzcxMzM3NzY4MjQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事でやること Claude Code は、頼まれれば公開に近い操作もそのまま行うことがあります。筆者が決まりを置かずに「article.md の published を true に」と頼んだときは、その場で書き換えられました（下の「比べる」の節）。「書いて、できたら公開して」のようにまとめて頼むときも、書くところまでで止まってほしいはずです。公開や送信は、押したあとに自分だけでは取り消せ…"
-  },
-  {
-   "src": "zenn",
-   "title": "窓口はひとつ、裏側は5経路 — Muse の環境で複数 AI エージェントを fail-closed に回す設計と運用",
-   "link": "https://zenn.dev/coastlinedb/articles/c976a27eb7c127",
-   "date": 1794674229000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--hBqSC74E--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25AA%2593%25E5%258F%25A3%25E3%2581%25AF%25E3%2581%25B2%25E3%2581%25A8%25E3%2581%25A4%25E3%2580%2581%25E8%25A3%258F%25E5%2581%25B4%25E3%2581%25AF5%25E7%25B5%258C%25E8%25B7%25AF%2520%25E2%2580%2594%2520Muse%2520%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%2520fail-closed%2520%25E3%2581%25AB%25E5%259B%259E%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25A8%25E9%2581%258B%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:coastlinedb%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzY2EzYmUyN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. この記事の結論 Muse の環境で、Claude Code・Codex CLI・Gemini 系 CLI・Grok・OpenAI API の5経路を動かしている構造と運用をまとめます。汎用のフレームワークの話ではなく、私が日常的に使っている実際の構成の話です。 設計判断 中身 理由 窓口はひとつ 私が話しかけるのは Muse だけ。判断・統合・外部アクションの実行は Muse が持ち、各経…"
-  },
-  {
-   "src": "zenn",
-   "title": "ダウンロードした資料のパスをコピーしてClaude Codeに渡す方法",
-   "link": "https://zenn.dev/pastadev3/articles/dcb0fd5e8c990d",
-   "date": 1794669878000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--skTFJaH3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2580%25E3%2582%25A6%25E3%2583%25B3%25E3%2583%25AD%25E3%2583%25BC%25E3%2583%2589%25E3%2581%2597%25E3%2581%259F%25E8%25B3%2587%25E6%2596%2599%25E3%2581%25AE%25E3%2583%2591%25E3%2582%25B9%25E3%2582%2592%25E3%2582%25B3%25E3%2583%2594%25E3%2583%25BC%25E3%2581%2597%25E3%2581%25A6Claude%2520Code%25E3%2581%25AB%25E6%25B8%25A1%25E3%2581%2599%25E6%2596%25B9%25E6%25B3%2595%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:pasta%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKenBIUU4zSXBtRk5yVFgwbEI5WTJDdzQ3WDQ2clVlTHAzcGI4UE09czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code で作業していると、ブラウザで落としたばかりの PDF やスクリーンショットを読ませたくなります。以前はそのたびに「さっきダウンロードした資料を読んで」と頼んでいました。 すると Claude は、まず Downloads の中身を一覧します。それらしいファイルを見つけて「このファイルですか？」と聞いてくるので、私が答えて、ようやく本題に入ります。ファイルを1つ渡すだけなの…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の検収担当に43本の確認を任せたら、Bash の4割以上が cd だった",
-   "link": "https://zenn.dev/claire_ai/articles/qa-cd-iriguchi",
-   "date": 1794669196000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--mhQo1NNy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E6%25A4%259C%25E5%258F%258E%25E6%258B%2585%25E5%25BD%2593%25E3%2581%25AB43%25E6%259C%25AC%25E3%2581%25AE%25E7%25A2%25BA%25E8%25AA%258D%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Bash%2520%25E3%2581%25AE4%25E5%2589%25B2%25E4%25BB%25A5%25E4%25B8%258A%25E3%2581%258C%2520cd%2520%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code では、作ったものを実際に動かして確かめる作業を、検収の担当（サブエージェント）に任せている。HP やスクリプトを作るたびに、この担当が動く。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n6c45175b5236 課題：1本の確認に、平均…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI駆動開発をやってきて最近思うこと",
-   "link": "https://zenn.dev/revo1290/articles/aidd-in-and-out",
-   "date": 1794667000000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--kUW3Z1Kc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25E3%2582%2592%25E3%2582%2584%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258D%25E3%2581%25A6%25E6%259C%2580%25E8%25BF%2591%25E6%2580%259D%25E3%2581%2586%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%258A%25E3%2582%2587%25E3%2581%2586%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2NvMk9aWGdZNWlmblBPT2R6Q01pcTduUVNzbGNoVW5mazh6X2J5LURjaTFReUJRPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 現場でAI駆動開発（以下、AIDD）に取り組んできて、最近思うことを何となく記事にしてみたくなったので書いてみます！ 始めた頃は設計書や規約を整えれば、AIが意図どおりに作ってくれると思っていました。最近は実装を頼む前に「できあがったものを見て、何を根拠に合格とするか」まで決めるようにしています。注文が0件のときに何を表示するか。全ページをたどったときに、注文が漏れなく一度ずつ出るか。…"
   },
   {
    "src": "zenn",
@@ -266,6 +234,46 @@
    "date": 1794648364000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--4xuDBRgE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%25E7%2584%25A1%25E4%25BA%25BA%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%2520%25E2%2580%2594%25206%2520%25E6%25AE%25B5%25E3%2581%25AE%25E5%259E%258B%25E3%2581%25A8%25E3%2580%2581exit%25200%2520%25E3%2582%2592%25E4%25BF%25A1%25E3%2581%2598%25E3%2581%25A6%25205%2520%25E9%2580%25B1%25E9%2596%2593%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Wisteria%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvdy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code を対話で使うだけでなく、claude -p（非対話モード）を Windows のタスクスケジューラから起動して、夜のあいだにメモの整理や検証を進めさせています。5 か月ほど回して分かったのは、**難しいのは「動かすこと」ではなく「正しく終わったと知ること」**でした。先に数字を並べます。 実測したこと 値 全利用量に占める無人ジョブの比率（42 日・566 セッション） …"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude の定期タスクで複数の事業を回す【部品とひな形付き】",
+   "link": "https://zenn.dev/neuralalpha/books/claude-scheduled-ops-kit",
+   "date": 1794647865000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--98I3QLQ7--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9jNzYyYTExMmY4LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "『Claude の定期タスクで複数の事業を回す』（¥1,000）の全章に、そのまま使える部品7つ（書き込み台帳・売上台帳・本人対応アラート・自動確認・回数の上限・タスク監視・安全な追記）とひな形（台帳・重要ルール・タスクの文面）をコードごと付けた上位版です。標準ライブラリだけの Python、テスト17件。はじめにと上位版の使い方は無料。"
+  },
+  {
+   "src": "zenn",
+   "title": "サイコパス診断をスマホから公開した ― WordPressの新ページ公開をREST化して承認3回にした設計",
+   "link": "https://zenn.dev/5naokichi/articles/psychopath-shindan-publish-kit",
+   "date": 1794646918000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--2guT4Fnk--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B5%25E3%2582%25A4%25E3%2582%25B3%25E3%2583%2591%25E3%2582%25B9%25E8%25A8%25BA%25E6%2596%25AD%25E3%2582%2592%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%258B%25E3%2582%2589%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%2520%25E2%2580%2595%2520WordPress%25E3%2581%25AE%25E6%2596%25B0%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E5%2585%25AC%25E9%2596%258B%25E3%2582%2592REST%25E5%258C%2596%25E3%2581%2597%25E3%2581%25A6%25E6%2589%25BF%25E8%25AA%258D3%25E5%259B%259E%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AA%25E3%2581%258A%25E3%2581%258D%25E3%2581%25A1%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQyYTY0ODViMjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 15問でサイコパス度と6つのタイプがわかる サイコパス診断 を公開しました。 https://hone-gumi.com/psychopath-shindan/ この診断は、テーマ選びから公開まで、スマホのクラウド版 Claude Code だけで進めました。手元のPCは使っていません。 以前は、新しいツールを1本出すたびに、SSHでサーバーに入る、WordPressの管理画面でページ…"
+  },
+  {
+   "src": "zenn",
+   "title": "副業を“会社化”したら、PCを閉じても回るようになった話",
+   "link": "https://zenn.dev/solocompanylab/articles/01-company-mode",
+   "date": 1794646588000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--K_jTzXVx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2589%25AF%25E6%25A5%25AD%25E3%2582%2592%25E2%2580%259C%25E4%25BC%259A%25E7%25A4%25BE%25E5%258C%2596%25E2%2580%259D%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581PC%25E3%2582%2592%25E9%2596%2589%25E3%2581%2598%25E3%2581%25A6%25E3%2582%2582%25E5%259B%259E%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25B2%25E3%2581%25A8%25E3%2582%258A%25E4%25BC%259A%25E7%25A4%25BE%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTHBnbWs1R3JqRWN5c0dWZUVoOE4zTTUwbVVOOXZKUEZ3aUpWU1drWXVHSVdnOGN3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "一人でやる副業は、自分が止まると止まる 副業を一人でやっていると、だいたい同じ壁にぶつかります。自分が手を動かさないと何も進まない。Claude Code は使っているのに、毎回ゼロから指示している。本業が忙しいと副業はぴたりと止まる。 「AI に任せたい」のに、結局いつも自分がボトルネック。これは良いプロンプトの問題ではなく、運用の設計の問題でした。 自分を「社長」に引き上げる やったことはシ…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の請求はどこで膨らむのか：1 ターンの内訳から考える節約の順番（2026年11月）",
+   "link": "https://zenn.dev/corecode/articles/f4c2283c73cae5",
+   "date": 1794645462000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--tXWbWrTB--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E8%25AB%258B%25E6%25B1%2582%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2593%25E3%2581%25A7%25E8%2586%25A8%25E3%2582%2589%25E3%2582%2580%25E3%2581%25AE%25E3%2581%258B%25EF%25BC%259A1%2520%25E3%2582%25BF%25E3%2583%25BC%25E3%2583%25B3%25E3%2581%25AE%25E5%2586%2585%25E8%25A8%25B3%25E3%2581%258B%25E3%2582%2589%25E8%2580%2583%25E3%2581%2588%25E3%2582%258B%25E7%25AF%2580%25E7%25B4%2584%25E3%2581%25AE%25E9%25A0%2586%25E7%2595%25AA%25EF%25BC%25882026%25E5%25B9%25B411%25E6%259C%2588%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Gyre%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVV4WVBZQ1dCM0ozWURwOVNGZXV6Z2VGWmdRN2ExdXRWSU1wSXYzd0dnUGpiNVJRZz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 筆者は Claude API のリレーサービス CoreCode の運営に関わっています。後半で選択肢の一つとして触れますが、前半の計算と節約手順はどの接続先でも同じです。 「Claude Code が高い」と感じたとき、最初に見るべきなのは料金プランではなく 1 ターンで何にお金を払っているか です。内訳が分かると、どこから手を付ければいいかの順番が決まります。 価格は Anthropic…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code で副業を“会社化”して自動運転する",
+   "link": "https://zenn.dev/solocompanylab/books/claude-code-side-business-company",
+   "date": 1794644884000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--JW52Dwt9--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9kZWMyYzFjOTc5LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "ひとり副業を、クラウドで定期的に動く Claude の社員 4 人体制＋承認ゲートで“PC を閉じても回る会社”にする設計図とテンプレ一式。テンプレをコピーして自分の事業名に置き換えれば、3 人の最小構成から始められます。"
   },
   {
    "src": "status",
@@ -514,14 +522,6 @@
    "date": 1794252150000,
    "img": "",
    "desc": "What's changed - Added Claude Fable 5.2 ( claude-fable-5-2 ), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads - Added --settings <file> to claude remote-control …"
-  },
-  {
-   "src": "reddit",
-   "title": "Fable 5.2 just landed.",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed/",
-   "date": 1794250797000,
-   "img": "",
-   "desc": "Still no newsroom post from Anthropic though. Edit: Just kidding, it finally popped up: https://www.anthropic.com/claude-fable-and-mythos-5-2 Edit 2: Holy shit, I got *three* resets. Apparently just …"
   },
   {
    "src": "reddit",
