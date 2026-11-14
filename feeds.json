@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794689414479,
+ "updatedAt": 1794692836449,
  "sources": {
   "news": {
    "ok": true,
@@ -22,8 +22,8 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
    "ok": true,
@@ -44,6 +44,30 @@
  },
  "items": [
   {
+   "src": "qiita",
+   "title": "プロセスは生きているのに定期処理が止まる 〜監視画面を本体から分け、生存と完了時刻を別々に見る設計〜",
+   "link": "https://qiita.com/charge0315/items/734ed9d4c72daa2638d2",
+   "date": 1794692465000,
+   "img": "",
+   "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第41話です。 プロセスは動いている。でも、定期処理が進んでいるとは限らない。その違いを見たいから、運用画面をもう1つ作ることにしました🔎 日本株のデータ分析端末「ALPHA FORGE（アルファフォージ）」を、..."
+  },
+  {
+   "src": "qiita",
+   "title": "AIエージェント向けに、画面を番号付きテキストで渡して変化した行だけ返す MCP サーバー phonedriver",
+   "link": "https://qiita.com/hridayahoney/items/de710575152e6ec7dc16",
+   "date": 1794692208000,
+   "img": "",
+   "desc": "phonedriver とは この記事では、Android と iPhone を AI エージェントから操作する MCP サーバー兼 CLI「phonedriver」（Rust 製、AGPL-3.0）を紹介します。筆者は日本語を話せず、この記事は機械翻訳です。 リポジトリ..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code で \"PreToolUse:Bash hook error\" / \"Stop hook error\" が出たときの見分け方（終了コードの意味と、成功しても error と表示される件）",
+   "link": "https://qiita.com/homhom44/items/d1987dc6a459b10701ae",
+   "date": 1794691878000,
+   "img": "",
+   "desc": "Claude Code のトランスクリプトに PreToolUse:Bash hook error や Stop hook error と出て、フックが壊れているのか、ただの表示なのか分からないときの見分け方です。フックの終了コードは 0 が成功、2 が意図的なブロック、そ..."
+  },
+  {
    "src": "status",
    "title": "Some users unable to sign up with Apple on the Claude iOS app",
    "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
@@ -60,20 +84,20 @@
    "desc": "2026-11-14 の更新は、Claude Code が「いつ止まり、いつ確認なしで進むか」の説明に集中しています。実験的な Code Mode と権限判定・フックの関係、コマンドの権限チェックが失敗したときの中断条件、サンドボックスとの組み合わせが追記されました。ほかに..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Managed Agents の limited networking における web_fetch と url_not_allowed：仕様整理（2026-11-14 検証）",
-   "link": "https://qiita.com/akihidem/items/ee36b3bbe455b8c7c56f",
-   "date": 1794678901000,
-   "img": "",
-   "desc": "Claude Managed Agents の cloud environment を limited networking で使っている場合に、web_fetch が url_not_allowed を返す条件を整理します。あわせて、web_fetch の到達先を決めるほ..."
-  },
-  {
    "src": "zenn",
    "title": "Claude Codeに「公開」を押させない：CLAUDE.mdに書く「外に出す操作」の決まり5行",
    "link": "https://zenn.dev/tsugu_sukima/articles/2b19ac59da1b2a",
    "date": 1794676107000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--bBa9M_eA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AB%25E3%2580%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2580%258D%25E3%2582%2592%25E6%258A%25BC%25E3%2581%2595%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259ACLAUDE.md%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258F%25E3%2580%258C%25E5%25A4%2596%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%2599%25E6%2593%258D%25E4%25BD%259C%25E3%2580%258D%25E3%2581%25AE%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A5%25E8%25A1%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tsugu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzcxMzM3NzY4MjQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "この記事でやること Claude Code は、頼まれれば公開に近い操作もそのまま行うことがあります。筆者が決まりを置かずに「article.md の published を true に」と頼んだときは、その場で書き換えられました（下の「比べる」の節）。「書いて、できたら公開して」のようにまとめて頼むときも、書くところまでで止まってほしいはずです。公開や送信は、押したあとに自分だけでは取り消せ…"
+  },
+  {
+   "src": "zenn",
+   "title": "窓口はひとつ、裏側は5経路 — Muse の環境で複数 AI エージェントを fail-closed に回す設計と運用",
+   "link": "https://zenn.dev/coastlinedb/articles/c976a27eb7c127",
+   "date": 1794674229000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hBqSC74E--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25AA%2593%25E5%258F%25A3%25E3%2581%25AF%25E3%2581%25B2%25E3%2581%25A8%25E3%2581%25A4%25E3%2580%2581%25E8%25A3%258F%25E5%2581%25B4%25E3%2581%25AF5%25E7%25B5%258C%25E8%25B7%25AF%2520%25E2%2580%2594%2520Muse%2520%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%2520fail-closed%2520%25E3%2581%25AB%25E5%259B%259E%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25A8%25E9%2581%258B%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:coastlinedb%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzY2EzYmUyN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "1. この記事の結論 Muse の環境で、Claude Code・Codex CLI・Gemini 系 CLI・Grok・OpenAI API の5経路を動かしている構造と運用をまとめます。汎用のフレームワークの話ではなく、私が日常的に使っている実際の構成の話です。 設計判断 中身 理由 窓口はひとつ 私が話しかけるのは Muse だけ。判断・統合・外部アクションの実行は Muse が持ち、各経…"
   },
   {
    "src": "zenn",
@@ -124,20 +148,12 @@
    "desc": "はじめに ローカルLLMとAIコーディングツールの1週間分の更新を、使い始めた立場で整理しています。 今週は Open WebUI に、セキュリティ修正・DBのマイグレーション・既定値の変更がまとめて入りました。 対象期間は 2026年11月7日（土）〜11月13日（金）（日本時間）です。 今週のハイライト Open WebUI 0.13.1〜0.13.3：セキュリティ修正とDBのマイグレーショ…"
   },
   {
-   "src": "qiita",
-   "title": "dev-orchestra で、最後に変更全体をもう一度レビューさせてみた",
-   "link": "https://qiita.com/istb16/items/2a49410ef24fbd9197d8",
-   "date": 1794663683000,
-   "img": "",
-   "desc": "はじめに 前回は、dev-orchestra の所要時間と、レビュアーの人数ごとの指摘数を測りました。 dev-orchestra は、1 文の依頼から設計・実装・テスト・複数の AI によるレビュー・修正までを回す、Claude Code / Codex / Antig..."
-  },
-  {
    "src": "hn",
    "title": "The Claude Delusion",
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 135 # Comments: 180"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 139 # Comments: 180"
   },
   {
    "src": "zenn",
@@ -154,14 +170,6 @@
    "date": 1794659435000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--5yF85UDl--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%2520Excel%2520%25E3%2582%2592%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259B%25E3%2582%258B%25E3%2581%25AA%25E3%2582%2589%25E3%2580%2581Python%2520%25E3%2582%2588%25E3%2582%258A3%25E3%2580%259C13%25E5%2580%258D%25E9%2580%259F%25E3%2581%258F%25E3%2580%2581%25E3%2583%25A1%25E3%2583%25A2%25E3%2583%25AA%25E4%25BD%25BF%25E7%2594%25A8%25E9%2587%258F%25E3%2581%25AF%25E6%259C%2580%25E5%25A4%25A792%2525%25E6%25B8%259B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%25A8%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGR1dnJoLWxxdHVhOUU2bzI2Vy1NeDQyY3ZYc2xpRnlEcWlmajIyOG5fVUdhVVZZST1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code などの AI エージェントに Excel を読ませると、Python のライブラリを入れ、スクリプトを書き、動かしては直す往復が始まります。表が大きいと、そのスクリプトも重くなります。excel-read は、Skill に同梱した実行ファイルで Excel を読み、表を CSV や JSON にして AI に渡します。同じ表を CSV にする作業で、Python（pan…"
-  },
-  {
-   "src": "qiita",
-   "title": "あなたのAIはまだ、「ものの調べ方」を知らない。──調査スキルを作ってバズった話",
-   "link": "https://qiita.com/BaspisKawaE/items/933b883e4585ebd59299",
-   "date": 1794658460000,
-   "img": "",
-   "desc": "株式会社パレットリンクの@BaspisKawaEです。 今回は、AIに調べものをさせるスキルを公開したら反応を多くいただいたので、なぜわざわざ調べものをスキルにしたのかを解説します。 よろしくお願いします! 対象読者：AIに調べものを任せていて、答えが物足りないと..."
   },
   {
    "src": "zenn",
@@ -260,14 +268,6 @@
    "desc": "Claude Code を対話で使うだけでなく、claude -p（非対話モード）を Windows のタスクスケジューラから起動して、夜のあいだにメモの整理や検証を進めさせています。5 か月ほど回して分かったのは、**難しいのは「動かすこと」ではなく「正しく終わったと知ること」**でした。先に数字を並べます。 実測したこと 値 全利用量に占める無人ジョブの比率（42 日・566 セッション） …"
   },
   {
-   "src": "zenn",
-   "title": "Claude の定期タスクで複数の事業を回す【部品とひな形付き】",
-   "link": "https://zenn.dev/neuralalpha/books/claude-scheduled-ops-kit",
-   "date": 1794647865000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--98I3QLQ7--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9jNzYyYTExMmY4LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "『Claude の定期タスクで複数の事業を回す』（¥1,000）の全章に、そのまま使える部品7つ（書き込み台帳・売上台帳・本人対応アラート・自動確認・回数の上限・タスク監視・安全な追記）とひな形（台帳・重要ルール・タスクの文面）をコードごと付けた上位版です。標準ライブラリだけの Python、テスト17件。はじめにと上位版の使い方は無料。"
-  },
-  {
    "src": "status",
    "title": "Elevated purchasing errors on claude.ai",
    "link": "https://status.claude.com/incidents/qrpz8k79qm7x",
@@ -281,7 +281,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 107 # Comments: 86"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 109 # Comments: 87"
   },
   {
    "src": "status",
