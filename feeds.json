@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794618864029,
+ "updatedAt": 1794622476217,
  "sources": {
   "news": {
    "ok": true,
@@ -22,16 +22,16 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Muse Codeを入れる前に確認するポイント6つ——学習に使うContributorモードは既定オン",
+   "link": "https://qiita.com/sakutto-panda/items/a149a8264339f2aa3ab2",
+   "date": 1794621157000,
+   "img": "",
+   "desc": "3 行まとめ Meta のコーディングエージェント Muse Code は、承認と OS サンドボックスが最初から有効で、守りは固い。ただし公式ドキュメントを読むと、既定のままだと気づきにくい点がいくつかある 一番大きいのは、サブスクリプションでは Contributo..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code 2.1.323のCode Mode入門、有効化と使えない条件",
+   "link": "https://qiita.com/kai_kou/items/fa321358a7809b561c00",
+   "date": 1794620616000,
+   "img": "",
+   "desc": "はじめに Claude Code 2.1.323 の CHANGELOG に、Code Mode という実験機能が加わりました。Claude が JavaScript を書き、1 回のコード実行で複数のツール呼び出しをまとめて行う仕組みです。公式ドキュメントは、既定でオフ..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.321 - v2.1.325）",
@@ -58,22 +74,6 @@
    "date": 1794618661000,
    "img": "",
    "desc": "Claude Code v2.1.321〜v2.1.325 では、新しいデフォルト Fable モデル Claude Fable 5.2 の追加、Claude がツールを JavaScript で呼び出す実験的な Code Mode、プラグインの engines[\"clau..."
-  },
-  {
-   "src": "qiita",
-   "title": "「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62)",
-   "link": "https://qiita.com/maskot1977/items/dcd3c5a7ed7d0bcc0dc7",
-   "date": 1794618655000,
-   "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第62回を始めましょう。その前に、まず前回の復習として、 財源幻想はなぜ生き残るのか——三層防衛構造という設計バグ : システム設計視点の行動経済学 (61) https://qiita.com/maskot1977/item..."
-  },
-  {
-   "src": "qiita",
-   "title": "2026年11月14日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "link": "https://qiita.com/ennagara128/items/d9fa6da5a42bf05867a3",
-   "date": 1794618087000,
-   "img": "",
-   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 【AWS】AWS EmulatorでCDK/T..."
   },
   {
    "src": "status",
@@ -209,7 +209,7 @@
    "link": "https://status.claude.com/history",
    "date": 1794565209000,
    "img": "",
-   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 191 # Comments: 164"
+   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 197 # Comments: 172"
   },
   {
    "src": "zenn",
@@ -321,7 +321,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 988 # Comments: 899"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 904"
   },
   {
    "src": "reddit",
@@ -377,7 +377,7 @@
    "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
    "date": 1794333307000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 296 # Comments: 218"
+   "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 297 # Comments: 218"
   },
   {
    "src": "reddit",
@@ -393,7 +393,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 87"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 88"
   },
   {
    "src": "reddit",
@@ -553,7 +553,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 825 # Comments: 493"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 828 # Comments: 493"
   },
   {
    "src": "hn",
