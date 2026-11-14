@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794628904012,
+ "updatedAt": 1794632530190,
  "sources": {
   "news": {
    "ok": true,
@@ -44,12 +44,36 @@
  },
  "items": [
   {
+   "src": "qiita",
+   "title": "AWS Security ハンズオンで学ぶ、フロンティアモデルを活用したコードレビュー",
+   "link": "https://qiita.com/soulgemanalyst/items/20e7c72cc2006a331445",
+   "date": 1794632087000,
+   "img": "",
+   "desc": "AWS セキュリティハンズオン連続開催のご案内 https://aws.amazon.com/jp/blogs/news/aws-security-handson-series/ 本記事では、上記ハンズオンの11月11日開催回「Claude/GPT などのフロンティアモデル..."
+  },
+  {
+   "src": "qiita",
+   "title": "本業のあとの月 40〜60 時間で、Web サービスの開発を 1 人で丸ごと受け持つためにやっていること",
+   "link": "https://qiita.com/hasegawa--2025/items/822cd0c2989c9eee878b",
+   "date": 1794631718000,
+   "img": "",
+   "desc": "2024 年から、本業（メーカーの社内 IT）とは別に、個人事業主として業務向けの Web サービスのリードエンジニアをしています。 使う時間は月に 40〜60 時間です。その中で、画面・API・データベース・AWS のインフラ・ログインの仕組み・CI/CD・テストまでを、..."
+  },
+  {
+   "src": "qiita",
+   "title": "自分の理想のメモアプリを作った。forkしていいよ。",
+   "link": "https://qiita.com/nihongi/items/96b8e50f746e35ae690e",
+   "date": 1794630218000,
+   "img": "",
+   "desc": "TL;DR 自分の理想のメモアプリを作った。他の人に合うかは人それぞれ コンセプトは自分で考え、実装は全部AIに任せた 直したい部分があればforkして改造してね 「自分の理想のメモアプリ」って何 自分はメモをよく取るほう。趣味の記録、体重、日々の出来事、ToDo..."
+  },
+  {
    "src": "status",
    "title": "Elevated purchasing errors on claude.ai",
    "link": "https://status.claude.com/incidents/qrpz8k79qm7x",
-   "date": 1794625755000,
+   "date": 1794630185000,
    "img": "",
-   "desc": "Nov 14 , 03:09 UTC Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. Some customers who recently paid may need to wait up to an ho…"
+   "desc": "Nov 14 , 04:23 UTC Resolved - The issue affecting purchases and plan changes on claude.ai has been resolved, and delayed plan changes and payments have now been applied. Impact occurred from 18:34 PT…"
   },
   {
    "src": "qiita",
@@ -58,30 +82,6 @@
    "date": 1794625586000,
    "img": "",
    "desc": "先に、結論を3行で書きます。 Devin Proを契約しました。Desktop・CLIのSWE-2が追加料金なしで利用できるという公式発表がきっかけです。 Claude CodeやCodexとDevin CLIをMANY-AI-CLIでつなぎ、設計・実装・レビューを分担..."
-  },
-  {
-   "src": "qiita",
-   "title": "Muse Codeを入れる前に確認するポイント6つ——学習に使うContributorモードは既定オン",
-   "link": "https://qiita.com/sakutto-panda/items/a149a8264339f2aa3ab2",
-   "date": 1794621157000,
-   "img": "",
-   "desc": "3 行まとめ Meta のコーディングエージェント Muse Code は、承認と OS サンドボックスが最初から有効で、守りは固い。ただし公式ドキュメントを読むと、既定のままだと気づきにくい点がいくつかある 一番大きいのは、サブスクリプションでは Contributo..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code 2.1.323のCode Mode入門、有効化と使えない条件",
-   "link": "https://qiita.com/kai_kou/items/fa321358a7809b561c00",
-   "date": 1794620616000,
-   "img": "",
-   "desc": "はじめに Claude Code 2.1.323 の CHANGELOG に、Code Mode という実験機能が加わりました。Claude が JavaScript を書き、1 回のコード実行で複数のツール呼び出しをまとめて行う仕組みです。公式ドキュメントは、既定でオフ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.321 - v2.1.325）",
-   "link": "https://qiita.com/NaokiIshimura/items/497afd9a11879d369d19",
-   "date": 1794618717000,
-   "img": "",
-   "desc": "Claude Code の v2.1.321 〜 v2.1.325 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. サンドボックス内 B..."
   },
   {
    "src": "status",
