@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794685874355,
+ "updatedAt": 1794689414479,
  "sources": {
   "news": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "status",
+   "title": "Some users unable to sign up with Apple on the Claude iOS app",
+   "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
+   "date": 1794687125000,
+   "img": "",
+   "desc": "Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email…"
+  },
   {
    "src": "qiita",
    "title": "11/14 の公式ドキュメント更新：Code Mode と権限・フックの挙動、サブエージェントのモデル",
@@ -129,7 +137,7 @@
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 132 # Comments: 180"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 135 # Comments: 180"
   },
   {
    "src": "zenn",
@@ -258,14 +266,6 @@
    "date": 1794647865000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--98I3QLQ7--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9jNzYyYTExMmY4LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
    "desc": "『Claude の定期タスクで複数の事業を回す』（¥1,000）の全章に、そのまま使える部品7つ（書き込み台帳・売上台帳・本人対応アラート・自動確認・回数の上限・タスク監視・安全な追記）とひな形（台帳・重要ルール・タスクの文面）をコードごと付けた上位版です。標準ライブラリだけの Python、テスト17件。はじめにと上位版の使い方は無料。"
-  },
-  {
-   "src": "status",
-   "title": "Some users unable to sign up with Apple on the Claude iOS app",
-   "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
-   "date": 1794640296000,
-   "img": "",
-   "desc": "Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email inst…"
   },
   {
    "src": "status",
