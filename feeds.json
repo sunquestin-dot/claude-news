@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794622476217,
+ "updatedAt": 1794625338073,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "error": "HTTP 404"
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "status",
+   "title": "Elevated purchasing errors on claude.ai",
+   "link": "https://status.claude.com/incidents/qrpz8k79qm7x",
+   "date": 1794624873000,
+   "img": "",
+   "desc": "Nov 14 , 02:54 UTC Investigating - We are investigating elevated errors affecting purchases, plan upgrades and cancellations on claude.ai. Core functionality is not affected. We will provide an updat…"
+  },
   {
    "src": "qiita",
    "title": "Muse Codeを入れる前に確認するポイント6つ——学習に使うContributorモードは既定オン",
@@ -914,14 +922,6 @@
    "date": 1792713600000,
    "img": "",
    "desc": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what …"
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors affecting Connectors",
-   "link": "https://status.claude.com/incidents/wj6r4t6mxq1r",
-   "date": 1792656423000,
-   "img": "",
-   "desc": "Oct 22 , 08:07 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Oct 22 , 07:28 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai and Claude C…"
   },
   {
    "src": "news",
