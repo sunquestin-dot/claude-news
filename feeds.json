@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794647027259,
+ "updatedAt": 1794650136727,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -65,7 +65,7 @@
    "link": "https://qiita.com/ishizakahiroshi/items/86662cb04a5607eb2f7e",
    "date": 1794645032000,
    "img": "",
-   "desc": "先に、結論を3行で書きます。 手元のPCに頼らず、VPSとクラウドのAIで開発を回す準備として、月770円のVPSを借りました。無料のOracle Cloudは、空きが出るのを待ちきれずやめました。 作業を誰に回すかは、作業を並べる看板（Cloudflare上）が10分..."
+   "desc": "先に、結論を3行で書きます。 最終的には手元のPCをやめて、VPSとクラウドのAIだけで開発を回すつもりです。その一歩目として、月770円のVPSを借りました（無料のOracle Cloudは空き待ちでやめました）。 作業を誰に回すかは、作業を並べる看板（Cloudfl..."
   },
   {
    "src": "qiita",
@@ -82,6 +82,14 @@
    "date": 1794640296000,
    "img": "",
    "desc": "Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email inst…"
+  },
+  {
+   "src": "zenn",
+   "title": "[OPT] 仕様どおりなのに、使いにくかった ── 個人開発アプリを公開後2日間で直した記録",
+   "link": "https://zenn.dev/tsukimi_soba/articles/opt-spec-vs-usability-improvement",
+   "date": 1794636326000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--XtAE-A7y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BOPT%255D%2520%25E4%25BB%2595%25E6%25A7%2598%25E3%2581%25A9%25E3%2581%258A%25E3%2582%258A%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%2581%25E4%25BD%25BF%25E3%2581%2584%25E3%2581%25AB%25E3%2581%258F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2594%2580%25E2%2594%2580%2520%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E5%25BE%258C2%25E6%2597%25A5%25E9%2596%2593%25E3%2581%25A7%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A4%25E3%2581%258D%25E3%2581%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q1NGFkM2I1YTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "1. 概要 前の記事では、配信の相棒アプリ「stream-buddy」を、実装を AI（Claude Code）に任せながらセキュアに公開した話を書きました。この記事はその続きです。v1.0.0 を公開してから v1.2.0 までの2日間、実際に使ってみて見つかったことを、どう直したかの記録です。 今回のアップデートは、機能を増やすものではありません。使いづらいと感じたところを直す、軽い仕様の修…"
   },
   {
    "src": "zenn",
@@ -268,14 +276,6 @@
    "desc": "はじめに 学園祭の入場をQRコードのチケットで管理するWebシステム「MONpass」の、最初のバージョンの話です。 以前、Cloudflare Workersで動く後継版「MONpassC」の記事を書きました。 https://zenn.dev/hayhide23/articles/monpass-cloudflare-workers その記事で「最初はPython（FastAPI + SQL…"
   },
   {
-   "src": "zenn",
-   "title": "人間は0行、検証は4.2万行 ― Claude Code × Codex でスーファミ格闘ゲームを作った57日",
-   "link": "https://zenn.dev/hawkymisc/books/human-zero-lines-snes-fighter",
-   "date": 1794590840000,
-   "img": "",
-   "desc": "コードを1行も書かず、判断だけをした57日間の実録。Codex と Claude Code の2つのAIエージェントに、スーパーファミコン用の2D対戦格闘ゲーム、M5Stack CoreS3 用のエミュレーター、macOS版・Web版を作らせた。363のセッション、1,010コミット、228のPRという一次資料から、何が壊れ、どう止め、どう機械で保証させたかを書く。"
-  },
-  {
    "src": "status",
    "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
    "link": "https://status.claude.com/incidents/34wq7gxnxvvm",
@@ -297,7 +297,7 @@
    "link": "https://status.claude.com/history",
    "date": 1794565209000,
    "img": "",
-   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 198 # Comments: 175"
+   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 198 # Comments: 177"
   },
   {
    "src": "reddit",
@@ -337,7 +337,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 907"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 908"
   },
   {
    "src": "reddit",
