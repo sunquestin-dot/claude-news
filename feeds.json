@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794667952025,
+ "updatedAt": 1794671386724,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -52,12 +52,28 @@
    "desc": "はじめに 前回は、dev-orchestra の所要時間と、レビュアーの人数ごとの指摘数を測りました。 dev-orchestra は、1 文の依頼から設計・実装・テスト・複数の AI によるレビュー・修正までを回す、Claude Code / Codex / Antig..."
   },
   {
+   "src": "hn",
+   "title": "The Claude Delusion",
+   "link": "https://www.netmeister.org/blog/claude-delusion.html",
+   "date": 1794663377000,
+   "img": "",
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 117 # Comments: 118"
+  },
+  {
    "src": "qiita",
    "title": "あなたのAIはまだ、「ものの調べ方」を知らない。──調査スキルを作ってバズった話",
    "link": "https://qiita.com/BaspisKawaE/items/933b883e4585ebd59299",
    "date": 1794658460000,
    "img": "",
    "desc": "株式会社パレットリンクの@BaspisKawaEです。 今回は、AIに調べものをさせるスキルを公開したら反応を多くいただいたので、なぜわざわざ調べものをスキルにしたのかを解説します。 よろしくお願いします! 対象読者：AIに調べものを任せていて、答えが物足りないと..."
+  },
+  {
+   "src": "reddit",
+   "title": "Imagine",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xw0pbo/imagine/",
+   "date": 1794657545000,
+   "img": "https://preview.redd.it/28ky25u8ik1i1.png?width=640&crop=smart&auto=webp&s=b68f79b77cb0be0c09f59e5bc77a88c0497c1175",
+   "desc": "submitted by /u/OneKey3719 [link] [comments]"
   },
   {
    "src": "qiita",
@@ -233,7 +249,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 103 # Comments: 79"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 104 # Comments: 82"
   },
   {
    "src": "zenn",
@@ -345,7 +361,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 911"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 997 # Comments: 911"
   },
   {
    "src": "reddit",
@@ -417,7 +433,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 88"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 89"
   },
   {
    "src": "reddit",
@@ -450,14 +466,6 @@
    "date": 1794307928000,
    "img": "",
    "desc": "Been a loyal paying customer since 3.5 Sonnet, so I think I’ve earned the right to say this. Anthropic has completely lost the plot. Yesterday I typed a single prompt. One. “Build me a universe.” Not…"
-  },
-  {
-   "src": "reddit",
-   "title": "Pretty insane video from Fable 5.2 with 1 single short prompt",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xsftbq/pretty_insane_video_from_fable_52_with_1_single/",
-   "date": 1794292313000,
-   "img": "https://external-preview.redd.it/YjN0dWUwNXpicTBpMcRLxmWgnByZcZfWFzqaXSSoCb8HmbpOLDBuGe1JFdIp.png?width=640&crop=smart&auto=webp&s=06e1263b48ea0282a1ce8d27152c4f4ab281ec74",
-   "desc": "Source: https://www.oneusefulthing.org/p/fable-52-and-jagged-agi I am not affiliated or related to the author at all, just wanted to share this. submitted by /u/timeport-0 [link] [comments]"
   },
   {
    "src": "reddit",
@@ -585,7 +593,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 829 # Comments: 493"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 830 # Comments: 493"
   },
   {
    "src": "hn",
@@ -794,14 +802,6 @@
    "date": 1793322386000,
    "img": "",
    "desc": "What's changed - Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode - Added an optional groups…"
-  },
-  {
-   "src": "hn",
-   "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
-   "link": "https://fig.blue/posts/duet-is-the-future/",
-   "date": 1793294665000,
-   "img": "",
-   "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 126 # Comments: 143"
   },
   {
    "src": "status",
