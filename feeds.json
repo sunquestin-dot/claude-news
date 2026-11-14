@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794661392911,
+ "updatedAt": 1794664730676,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "dev-orchestra で、最後に変更全体をもう一度レビューさせてみた",
+   "link": "https://qiita.com/istb16/items/2a49410ef24fbd9197d8",
+   "date": 1794663683000,
+   "img": "",
+   "desc": "はじめに 前回は、dev-orchestra の所要時間と、レビュアーの人数ごとの指摘数を測りました。 dev-orchestra は、1 文の依頼から設計・実装・テスト・複数の AI によるレビュー・修正までを回す、Claude Code / Codex / Antig..."
+  },
   {
    "src": "qiita",
    "title": "あなたのAIはまだ、「ものの調べ方」を知らない。──調査スキルを作ってバズった話",
@@ -68,36 +76,12 @@
    "desc": "agentgateway AIエージェントが様々なタスクをこなすためには、様々なMCPサーバーやAIエージェントと接続して機能を拡張する必要があります。数が少なければ、MCPサーバーやAIエージェントとの通信の監視やトラフィックを制御できますが、接続数が増えると管理が煩雑..."
   },
   {
-   "src": "qiita",
-   "title": "CodexやClaude Codeに作業を任せる前に。範囲を決め、秘密を渡さず、プルリクエストで受け取る【非エンジニアのGitHub入門⑦】",
-   "link": "https://qiita.com/Matsda_K/items/f8c143e98db3c99ca6cc",
-   "date": 1794652864000,
-   "img": "",
-   "desc": "前回は、GitHub Desktopを使ってリポジトリをパソコンに写し、手元で直した内容をGitHubに送りました。最後に「次回は、AIに作業を任せるときの基本を扱う」と予告しています。今回がその回です。 Codex（OpenAIが提供する、開発作業を任せられるAI）と C..."
-  },
-  {
    "src": "status",
    "title": "Some users unable to sign up with Apple on the Claude iOS app",
    "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
    "date": 1794640296000,
    "img": "",
    "desc": "Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email inst…"
-  },
-  {
-   "src": "zenn",
-   "title": "空の変数とスペース入りのパスで rm -rf が暴走した。今秋のコーディングエージェント事故5件と防ぎ方",
-   "link": "https://zenn.dev/dooly6276/articles/92b783b7b8a3be",
-   "date": 1794639383000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--u_iq4ETJ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25A9%25BA%25E3%2581%25AE%25E5%25A4%2589%25E6%2595%25B0%25E3%2581%25A8%25E3%2582%25B9%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B9%25E5%2585%25A5%25E3%2582%258A%25E3%2581%25AE%25E3%2583%2591%25E3%2582%25B9%25E3%2581%25A7%2520rm%2520-rf%2520%25E3%2581%258C%25E6%259A%25B4%25E8%25B5%25B0%25E3%2581%2597%25E3%2581%259F%25E3%2580%2582%25E4%25BB%258A%25E7%25A7%258B%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E4%25BA%258B%25E6%2595%25855%25E4%25BB%25B6%25E3%2581%25A8%25E9%2598%25B2%25E3%2581%258E%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:dooly6276%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSjcwRlBVNXA1UEdtRENYNXI5djd5LVBZZzAtMmp6MnZuNk9FNEhxZy0tZHVIcFA0ZjE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この秋、Claude Code の Issue と Reddit に、エージェントが自分で組み立てた削除コマンドでデータを消してしまった報告が続けて上がりました。どれもモデルが特別におかしなことをしたわけではなく、シェルのよく知られた落とし穴をそのまま踏んでいます。5件を原因ごとに整理し、人が書くコマンドにもそのまま使える防ぎ方をまとめます。 1. 空の変数のあとに / が付く #109735(…"
-  },
-  {
-   "src": "zenn",
-   "title": "[OPT] 仕様どおりなのに、使いにくかった ── 個人開発アプリを公開後2日間で直した記録",
-   "link": "https://zenn.dev/tsukimi_soba/articles/opt-spec-vs-usability-improvement",
-   "date": 1794636326000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--XtAE-A7y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%255BOPT%255D%2520%25E4%25BB%2595%25E6%25A7%2598%25E3%2581%25A9%25E3%2581%258A%25E3%2582%258A%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%2581%25E4%25BD%25BF%25E3%2581%2584%25E3%2581%25AB%25E3%2581%258F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2594%2580%25E2%2594%2580%2520%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E5%25BE%258C2%25E6%2597%25A5%25E9%2596%2593%25E3%2581%25A7%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A4%25E3%2581%258D%25E3%2581%25BF%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q1NGFkM2I1YTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. 概要 前の記事では、配信の相棒アプリ「stream-buddy」を、実装を AI（Claude Code）に任せながらセキュアに公開した話を書きました。この記事はその続きです。v1.0.0 を公開してから v1.2.0 までの2日間、実際に使ってみて見つかったことを、どう直したかの記録です。 今回のアップデートは、機能を増やすものではありません。使いづらいと感じたところを直す、軽い仕様の修…"
   },
   {
    "src": "zenn",
@@ -241,7 +225,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 100 # Comments: 77"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 103 # Comments: 79"
   },
   {
    "src": "zenn",
@@ -282,6 +266,22 @@
    "date": 1794596414000,
    "img": "https://external-preview.redd.it/b3NrbzlzdDRnZjFpMU6Pmu-wFRkU0dCAgkgKsMTuY178b-iPwVz8TMB-jVWl.png?width=640&crop=smart&auto=webp&s=a13d8c53ef290f9803ba534813ad93323bedcefd",
    "desc": "I saw a post on Reddit where the new GPT Astra painted in MS Paint, so I let Fable 5.2 try the same thing. It did the whole painting with the mouse in about 2.5 hours. Edit: I saw some repeating ques…"
+  },
+  {
+   "src": "zenn",
+   "title": "初めてのClaude Codeで、学園祭の入場QRシステムを「全部入り」で作った ― FastAPI + SQLite版MONpass",
+   "link": "https://zenn.dev/hayhide23/articles/monpass-fastapi-sqlite",
+   "date": 1794595796000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ytKN4I2S--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2588%259D%25E3%2582%2581%25E3%2581%25A6%25E3%2581%25AEClaude%2520Code%25E3%2581%25A7%25E3%2580%2581%25E5%25AD%25A6%25E5%259C%2592%25E7%25A5%25AD%25E3%2581%25AE%25E5%2585%25A5%25E5%25A0%25B4QR%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2582%2592%25E3%2580%258C%25E5%2585%25A8%25E9%2583%25A8%25E5%2585%25A5%25E3%2582%258A%25E3%2580%258D%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2595%2520FastAPI%2520%252B%2520SQLi...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%2580%25B1%25E6%259C%25AB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDdWdENBemZRZjF3anpwOU5uZXllRzBBTUtZdlBER1lzcFZxaktSQlBXdlJBc2hBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 学園祭の入場をQRコードのチケットで管理するWebシステム「MONpass」の、最初のバージョンの話です。 以前、Cloudflare Workersで動く後継版「MONpassC」の記事を書きました。 https://zenn.dev/hayhide23/articles/monpass-cloudflare-workers その記事で「最初はPython（FastAPI + SQL…"
+  },
+  {
+   "src": "zenn",
+   "title": "人間は0行、検証は4.2万行 ― Claude Code × Codex でスーファミ格闘ゲームを作った57日",
+   "link": "https://zenn.dev/hawkymisc/books/human-zero-lines-snes-fighter",
+   "date": 1794590840000,
+   "img": "",
+   "desc": "コードを1行も書かず、判断だけをした57日間の実録。Codex と Claude Code の2つのAIエージェントに、スーパーファミコン用の2D対戦格闘ゲーム、M5Stack CoreS3 用のエミュレーター、macOS版・Web版を作らせた。363のセッション、1,010コミット、228のPRという一次資料から、何が壊れ、どう止め、どう機械で保証させたかを書く。"
   },
   {
    "src": "status",
@@ -345,7 +345,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 909"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 996 # Comments: 911"
   },
   {
    "src": "reddit",
@@ -545,7 +545,7 @@
    "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "date": 1794161767000,
    "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 904 # Comments: 496"
+   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 905 # Comments: 496"
   },
   {
    "src": "reddit",
