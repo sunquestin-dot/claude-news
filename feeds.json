@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794625338073,
+ "updatedAt": 1794628904012,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -47,9 +47,17 @@
    "src": "status",
    "title": "Elevated purchasing errors on claude.ai",
    "link": "https://status.claude.com/incidents/qrpz8k79qm7x",
-   "date": 1794624873000,
+   "date": 1794625755000,
    "img": "",
-   "desc": "Nov 14 , 02:54 UTC Investigating - We are investigating elevated errors affecting purchases, plan upgrades and cancellations on claude.ai. Core functionality is not affected. We will provide an updat…"
+   "desc": "Nov 14 , 03:09 UTC Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. Some customers who recently paid may need to wait up to an ho…"
+  },
+  {
+   "src": "qiita",
+   "title": "Devin CLIのSWE-2恒久無料を活用するマルチAIオーケストレーションの設計案",
+   "link": "https://qiita.com/ishizakahiroshi/items/72ab801a5f2a8c941b61",
+   "date": 1794625586000,
+   "img": "",
+   "desc": "先に、結論を3行で書きます。 Devin Proを契約しました。Desktop・CLIのSWE-2が追加料金なしで利用できるという公式発表がきっかけです。 Claude CodeやCodexとDevin CLIをMANY-AI-CLIでつなぎ、設計・実装・レビューを分担..."
   },
   {
    "src": "qiita",
@@ -74,14 +82,6 @@
    "date": 1794618717000,
    "img": "",
    "desc": "Claude Code の v2.1.321 〜 v2.1.325 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. サンドボックス内 B..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code v2.1.321 - v2.1.325 リリースノートまとめ",
-   "link": "https://qiita.com/NaokiIshimura/items/59520039c1504a84cf89",
-   "date": 1794618661000,
-   "img": "",
-   "desc": "Claude Code v2.1.321〜v2.1.325 では、新しいデフォルト Fable モデル Claude Fable 5.2 の追加、Claude がツールを JavaScript で呼び出す実験的な Code Mode、プラグインの engines[\"clau..."
   },
   {
    "src": "status",
