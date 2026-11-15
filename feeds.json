@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794764844439,
+ "updatedAt": 1794769010013,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "仮想世界を作って、AI が気づくか 100 回試した",
+   "link": "https://qiita.com/top_of_the_world_winter/items/080b7f89899e13e4037d",
+   "date": 1794766411000,
+   "img": "",
+   "desc": "はじめに 今いるこの世界が、コンピュータで作られた仮想世界である確率は、どれくらいだと思いますか。 天文学者の David Kipping は 2020 年に、それをまじめに計算し、ほぼ五分五分と見積もりました。 イーロン・マスクは、仮想世界ではない本物の世界にいる確率は..."
+  },
+  {
+   "src": "qiita",
+   "title": "11/15 の公式ドキュメント更新：フックの実行条件・終了コードとモデル関連の記載",
+   "link": "https://qiita.com/akihidem/items/c1affda2795eb7d78ff6",
+   "date": 1794765301000,
+   "img": "",
+   "desc": "2026-11-15 に検知された追加は、フックが「どの入力で起動し、失敗したときに何が起きるか」の明文化と、モデルの扱い（切り替えの検知、auto モードの対象、未知のモデル ID）に集中しています。 Bash フックの if 条件：分割できない入力では必ず起動する h..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude障害まとめ：11/13の同時障害・認証エラー・利用上限誤判定と対処法",
    "link": "https://qiita.com/picnic/items/0e7c5295c004f170dcd9",
    "date": 1794764811000,
@@ -58,22 +74,6 @@
    "date": 1794760851000,
    "img": "",
    "desc": "Claude Code を何本も並べたら、どれが呼んでいるかをキーボードの F キーで教えてもらうことにした 開発スタイル：1 サービス 1 ワークスペース 複数のサービスの開発を、同時並行で進めています。Ubuntu（GNOME）の仮想ワークスペースを、サービスごとに..."
-  },
-  {
-   "src": "qiita",
-   "title": "【これ1本でわかる】AIが動くハーネスの整え方と育て方を、実物のリポジトリでまとめてみた",
-   "link": "https://qiita.com/miruky/items/0e16e9ddc811e13d6b04",
-   "date": 1794759219000,
-   "img": "",
-   "desc": "はじめに こんばんは、mirukyです。 3月にハーネスエンジニアリングとは何か、という記事を書きました。 ただ、あのときは言葉と考え方の紹介が中心で、じゃあ自分のリポジトリに何を置くの？という実物までは載せていませんでした。今回は見本のリポジトリを1つ作り、Cla..."
-  },
-  {
-   "src": "qiita",
-   "title": "ドキュメント確認の時間と費用を改善するスキルを作った",
-   "link": "https://qiita.com/w3pe8xmk/items/f4c39fc1ea61c27681df",
-   "date": 1794754038000,
-   "img": "",
-   "desc": "本記事は、文章の構成と推敲に生成AIを使用しています。 はじめに Claude Code で外部ライブラリの API や設定項目を確認するときは、WebFetch や WebSearch でドキュメントを取得します。読んだ内容の要約を、出典 URL と取得日を付け..."
   },
   {
    "src": "reddit",
@@ -386,6 +386,14 @@
    "date": 1794484001000,
    "img": "",
    "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1003 # Comments: 917"
+  },
+  {
+   "src": "hn",
+   "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+   "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+   "date": 1794461364000,
+   "img": "",
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 139 # Comments: 65"
   },
   {
    "src": "reddit",
@@ -786,14 +794,6 @@
    "date": 1793355771000,
    "img": "",
    "desc": "Article URL: https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2 Comments URL: https://news.ycombinator.com/item?id=50301983 P…"
-  },
-  {
-   "src": "hn",
-   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-   "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "date": 1793344152000,
-   "img": "",
-   "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 1014 # Comments: 553"
   },
   {
    "src": "claude-code",
