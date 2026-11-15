@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794730816758,
+ "updatedAt": 1794736613749,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,6 +45,30 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AI で作った配布サイトは公開してから守ることが山ほどあった",
+   "link": "https://qiita.com/AllegroMoltoV/items/67e583950029346b6e29",
+   "date": 1794733160000,
+   "img": "",
+   "desc": "はじめに Claude Code と一緒に作った OBS Studio のプラグインの配布サイト「配信プラグイン倉庫くん」を、0.2.13 に上げました。 0.2 系の変更のうち、新しい機能と呼べるものはわずかです。ほとんどは、他人が作ったプラグインを人に配る場とし..."
+  },
+  {
+   "src": "qiita",
+   "title": "【2026年11月版】Claude Code / Codex / Cursor / Kiro のプラン・料金・リセット周期まとめ",
+   "link": "https://qiita.com/swallows/items/623f58791d691a3b3a43",
+   "date": 1794733130000,
+   "img": "",
+   "desc": "はじめに 2026年11月15日時点の情報です。価格はすべて 米ドル/月・税別 です。 料金や上限は頻繁に変わるため、契約前に必ず公式ページを確認してください。 表の見方 不明: 公式ページで確認できなかったもの（解説記事だけに書かれている情報も含む） 「〇倍」は..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code v2.1.317〜v2.1.325｜サンドボックス内 Bash の自動許可が既定オフに｜週刊Changelog解説",
+   "link": "https://qiita.com/moha0918_/items/149101a4b84ba5fef52c",
+   "date": 1794732693000,
+   "img": "",
+   "desc": "Claude Codeの公式Changelogをリリースから最速で翻訳・解説しています。 v2.1.325 から、サンドボックス内で動く Bash コマンドを Claude Code が既定で通常の許可フローにかけるようになりました。サンドボックス内の Bash を..."
+  },
+  {
+   "src": "qiita",
    "title": "コードが読めなくても、Claude Code の出力が正しいか確かめられる——動かす・開く・分ける・基準を持つ、4つの確認方法",
    "link": "https://qiita.com/saitoko/items/cfe7201e8cc0676180bb",
    "date": 1794728343000,
@@ -52,28 +76,12 @@
    "desc": "この記事の要点: コードが読めなくても、Claude Code の出力が正しいかどうかは確かめられます。私は Claude Code でコードを1行も書かずに、タスク管理の道具やブログの制作体制を作ってきました。その中で使ってきた確かめ方は、「動かして確かめる」「実物を開い..."
   },
   {
-   "src": "qiita",
-   "title": "Embiody 0.9プレビュー版リリース：AIエージェントのためのブラウザ、バックグラウンドでもサボらない",
-   "link": "https://qiita.com/Embiody/items/82ece2cbd5b8d5078166",
-   "date": 1794727924000,
-   "img": "",
-   "desc": "この記事は https://embiody.com/ja/blog/embiody-0-9-preview/ の転載です ブラウザは人のために作られたものです。AIエージェントも使えはしますが、借り物の服のようにどこもしっくりきません。だから私たちは、エージェントのためのブ..."
-  },
-  {
-   "src": "qiita",
-   "title": "WordPressをAWSに組んだ: 普段は1台、混んだらSpot、東京が落ちたら大阪・ムンバイへ【IPv6のみ・R2バックアップ・Claude Code】",
-   "link": "https://qiita.com/hayahide23/items/938c9d78e1d60ba96cf1",
-   "date": 1794726797000,
-   "img": "",
-   "desc": "はじめに 前回の記事の続きです。前回は自宅のProxmoxでWordPressに負荷をかけ、詰まりどころがPHPのCPUだと分かりました。今回は、同じWordPressをAWSに載せ、次の形に組みました。 普段は小さく: EC2 1台(t4g.small、月 約2,5..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeの手順書は、指定しても読まれない——教訓を「読ませる」から「貼る」「止める」へ変えた3か月の記録",
-   "link": "https://qiita.com/saitoko/items/09cade7427ba20d475fd",
-   "date": 1794726231000,
-   "img": "",
-   "desc": "この記事の要点: Claude Codeでエージェント組織を運用していると、教訓を「書き残す」仕組みは自然に増えていく。だが書いた教訓が「読み出される」かどうかは、置き場所ごとにまったく違う。2026年8月6日、私は自分の環境で、作業種別ごとの手順書（Playbook）が「..."
+   "src": "zenn",
+   "title": "非エンジニアに Claude Code を最初に触ってもらう練習課題3本 — 架空データ・依頼文・正解の条件つき(Windows)",
+   "link": "https://zenn.dev/chukidx_dev/articles/claudecode-practice-tasks-nonengineer",
+   "date": 1794721396000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--aDpY09Fe--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%259D%259E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%25AB%2520Claude%2520Code%2520%25E3%2582%2592%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AB%25E8%25A7%25A6%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E3%2582%2589%25E3%2581%2586%25E7%25B7%25B4%25E7%25BF%2592%25E8%25AA%25B2%25E9%25A1%258C3%25E6%259C%25AC%2520%25E2%2580%2594%2520%25E6%259E%25B6%25E7%25A9%25BA%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BB%25E4%25BE%259D%25E9%25A0%25BC%25E6%2596%2587%25E3%2583%25BB%25E6%25AD%25A3%25E8%25A7%25A3%25E3%2581%25AE%25E6%259D%25A1%25E4%25BB%25B6%25E3%2581%25A4%25E3%2581%258D%2528...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E5%25B0%258FDX%25E3%2583%25A9%25E3%2583%259C%2528chukidx%2529%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UyZTIzYmM5NzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "総務や経理など、プログラミングをしない人に Claude Code(Anthropic 社が提供する、ターミナルで動く AI コーディングエージェント)を最初に触ってもらうときに、そのまま使える練習課題を3本公開します。架空のサンプルファイルを作るスクリプト、受講者に打ち込んでもらう依頼文、講師が「正しくできたか」をその場で判定するための条件まで載せています。 この記事で手に入るもの: 練習用フ…"
   },
   {
    "src": "zenn",
@@ -236,14 +244,6 @@
    "desc": "主に C#/.NET で業務システムを作って25年くらいになります。ここ1年ほどは、設計の相談も実装も Claude Code と一緒にやっています。 便利なのは間違いないんですが、使えば使うほどストレスも溜まっていました。返ってくる情報の量が膨大で、頭がついていかないんです。 つまり、回答が長すぎて、理解が追いつかないまま実装に進んでしまう。 この記事では、この課題に対して CLAUDE.md…"
   },
   {
-   "src": "zenn",
-   "title": "Claude Codeと7週間で、コーネル式ノートのWebアプリを作って公開するまで",
-   "link": "https://zenn.dev/spring1293/articles/0a196cadb5942b",
-   "date": 1794701553000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--4S-GLG9h--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A87%25E9%2580%25B1%25E9%2596%2593%25E3%2581%25A7%25E3%2580%2581%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25AB%25E5%25BC%258F%25E3%2583%258E%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AEWeb%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:spring1293%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlZjBkOTkyMDkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事の要点 Claude Codeに実装をほぼ任せて、コーネル式ノートのWebアプリを約7週間で作り、公開しました 「設計書を先に作り、承認してから実装してもらう」仕様駆動開発で進めました 公開に向けては、規約・退会・問い合わせ・SEOなど、作る以外の準備も一通りClaude Codeに相談しながら進めました 開発はとにかく速く、品質も上がりました。一方で、コードの細部の把握が追いつかな…"
-  },
-  {
    "src": "reddit",
    "title": "Ppl keep asking for local Opus 5.5. This is local Opus 5.5",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xwcmj3/ppl_keep_asking_for_local_opus_55_this_is_local/",
@@ -386,6 +386,14 @@
    "date": 1794359442000,
    "img": "https://preview.redd.it/760b1wbjvv0i1.png?width=140&height=86&auto=webp&s=4d57724bd7b9f94ecb4cb0169e001c284e085f5b",
    "desc": "This is the first Anthropic model that can generate no response. Haiku, Sonnet, and even Opus FAIL this completely legitimate task. They really meant it when they said Fable 5.2 uses fewer tokens tha…"
+  },
+  {
+   "src": "reddit",
+   "title": "Claude helped me organize my legal database into a public archive with 300,000 searchable military board decisions, and this morning that work became evidence in a federal lawsuit.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xt44ar/claude_helped_me_organize_my_legal_database_into/",
+   "date": 1794358608000,
+   "img": "https://preview.redd.it/keaj87swpv0i1.jpeg?width=140&height=81&auto=webp&s=d5af83ea828aecd9e6780fc9d76dc123757a6a08",
+   "desc": "Today the nonprofit I founded, Institute for Constitutional Military Law, sued the President and the Pentagon, ICML v. Trump, et al. , to make the military’s discharge and records-correction board de…"
   },
   {
    "src": "reddit",
@@ -578,14 +586,6 @@
    "date": 1794128083000,
    "img": "",
    "desc": "Nov 8 , 08:54 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 00:18 PT / 08:18 UTC on Nov 8 to 00:32 PT / 08:32 UT…"
-  },
-  {
-   "src": "reddit",
-   "title": "claudism",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xqtwu0/claudism/",
-   "date": 1794127703000,
-   "img": "https://preview.redd.it/ugolw8isqc0i1.jpeg?width=640&crop=smart&auto=webp&s=db9a9a56055c8ee3b3b4d63a0eec9006b345e126",
-   "desc": "submitted by /u/Pulku [link] [comments]"
   },
   {
    "src": "hn",
