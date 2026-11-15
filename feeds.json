@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794727019640,
+ "updatedAt": 1794730816758,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": false,
-   "error": "HTTP 404"
+   "ok": true,
+   "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -45,11 +45,27 @@
  "items": [
   {
    "src": "qiita",
+   "title": "コードが読めなくても、Claude Code の出力が正しいか確かめられる——動かす・開く・分ける・基準を持つ、4つの確認方法",
+   "link": "https://qiita.com/saitoko/items/cfe7201e8cc0676180bb",
+   "date": 1794728343000,
+   "img": "",
+   "desc": "この記事の要点: コードが読めなくても、Claude Code の出力が正しいかどうかは確かめられます。私は Claude Code でコードを1行も書かずに、タスク管理の道具やブログの制作体制を作ってきました。その中で使ってきた確かめ方は、「動かして確かめる」「実物を開い..."
+  },
+  {
+   "src": "qiita",
+   "title": "Embiody 0.9プレビュー版リリース：AIエージェントのためのブラウザ、バックグラウンドでもサボらない",
+   "link": "https://qiita.com/Embiody/items/82ece2cbd5b8d5078166",
+   "date": 1794727924000,
+   "img": "",
+   "desc": "この記事は https://embiody.com/ja/blog/embiody-0-9-preview/ の転載です ブラウザは人のために作られたものです。AIエージェントも使えはしますが、借り物の服のようにどこもしっくりきません。だから私たちは、エージェントのためのブ..."
+  },
+  {
+   "src": "qiita",
    "title": "WordPressをAWSに組んだ: 普段は1台、混んだらSpot、東京が落ちたら大阪・ムンバイへ【IPv6のみ・R2バックアップ・Claude Code】",
    "link": "https://qiita.com/hayahide23/items/938c9d78e1d60ba96cf1",
    "date": 1794726797000,
    "img": "",
-   "desc": "はじめに 前回の記事の続きです。前回は自宅のProxmoxでWordPressに負荷をかけ、詰まりどころがPHPのCPUだと分かりました。最後に「AWSのSpotで負荷分散する構成を作っている」と書いたので、今回はその構成をどう作ったかをまとめます。 作ったのは、次の3つ..."
+   "desc": "はじめに 前回の記事の続きです。前回は自宅のProxmoxでWordPressに負荷をかけ、詰まりどころがPHPのCPUだと分かりました。今回は、同じWordPressをAWSに載せ、次の形に組みました。 普段は小さく: EC2 1台(t4g.small、月 約2,5..."
   },
   {
    "src": "qiita",
@@ -58,38 +74,6 @@
    "date": 1794726231000,
    "img": "",
    "desc": "この記事の要点: Claude Codeでエージェント組織を運用していると、教訓を「書き残す」仕組みは自然に増えていく。だが書いた教訓が「読み出される」かどうかは、置き場所ごとにまったく違う。2026年8月6日、私は自分の環境で、作業種別ごとの手順書（Playbook）が「..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeのアーティファクトで、実機確認の手順書を別のPCに渡す──36枚作って固まった型と制約",
-   "link": "https://qiita.com/mamagotolab/items/7931a9c7f7074cf84784",
-   "date": 1794725254000,
-   "img": "",
-   "desc": "開発はLinuxで、確認はWindows。こういう体制だと、手順書を「どうやって相手の画面に届けるか」で毎回つまずきます。 ママゴトラボでは2026年8月から、この手順書をClaude Codeのアーティファクト（Claude Codeが作ったHTMLページを、claud..."
-  },
-  {
-   "src": "qiita",
-   "title": "1。Metaが買収したエージェントツール「Conductor」がホスティング利用者に『2週間で移行せよ』と通知した週、自分の記事投稿パイプラインがGitHub公式以外のActionに依存している数を数えたら、この数字だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/2c59388e848ee7779591",
-   "date": 1794724047000,
-   "img": "",
-   "desc": "はじめに 1。 これが今回の数字です。何の1かというと、Zenn/Qiita自動投稿パイプライン(Tamae-OSの一部)の中で、記事の公開を実際に実行しているGitHub Actionsのワークフローが、「GitHub公式が管理していない、サードパーティのAction」..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeのサブエージェントで副業の「部署」を4つ作った",
-   "link": "https://zenn.dev/burubaki/articles/867b4760b4191b",
-   "date": 1794722787000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--o5gpVy9m--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25A7%25E5%2589%25AF%25E6%25A5%25AD%25E3%2581%25AE%25E3%2580%258C%25E9%2583%25A8%25E7%25BD%25B2%25E3%2580%258D%25E3%2582%25924%25E3%2581%25A4%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:burubaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc3MjgwZDZhNDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事で分かることは2つです。 tools を省略すると、サブエージェントが使えるツールを全部継承する（公式の仕様）。自分が部署ごとに tools を最小限にした理由と、その設定 model で部署ごとにOpusとSonnetを振り分けた設定と、公式の価格表での比較（効果の実測はまだありません） 「部署に分ける意味はあるのか」と思う人もいると思います。公式の仕様で言えるのは、サブエージェントご…"
-  },
-  {
-   "src": "zenn",
-   "title": "非エンジニアに Claude Code を最初に触ってもらう練習課題3本 — 架空データ・依頼文・正解の条件つき(Windows)",
-   "link": "https://zenn.dev/chukidx_dev/articles/claudecode-practice-tasks-nonengineer",
-   "date": 1794721396000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--aDpY09Fe--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%259D%259E%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%25AB%2520Claude%2520Code%2520%25E3%2582%2592%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AB%25E8%25A7%25A6%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E3%2582%2589%25E3%2581%2586%25E7%25B7%25B4%25E7%25BF%2592%25E8%25AA%25B2%25E9%25A1%258C3%25E6%259C%25AC%2520%25E2%2580%2594%2520%25E6%259E%25B6%25E7%25A9%25BA%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25BB%25E4%25BE%259D%25E9%25A0%25BC%25E6%2596%2587%25E3%2583%25BB%25E6%25AD%25A3%25E8%25A7%25A3%25E3%2581%25AE%25E6%259D%25A1%25E4%25BB%25B6%25E3%2581%25A4%25E3%2581%258D%2528...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E5%25B0%258FDX%25E3%2583%25A9%25E3%2583%259C%2528chukidx%2529%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UyZTIzYmM5NzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "総務や経理など、プログラミングをしない人に Claude Code(Anthropic 社が提供する、ターミナルで動く AI コーディングエージェント)を最初に触ってもらうときに、そのまま使える練習課題を3本公開します。架空のサンプルファイルを作るスクリプト、受講者に打ち込んでもらう依頼文、講師が「正しくできたか」をその場で判定するための条件まで載せています。 この記事で手に入るもの: 練習用フ…"
   },
   {
    "src": "zenn",
@@ -244,6 +228,22 @@
    "desc": "! この記事は、筆者の Zenn の本・有料 note の案内（PR）を含みます。 ! この記事で分かること Claude Max 5x の週の枠が、出力ではなく「キャッシュ読み取り」で消えていた実測（7日で約14,000リクエスト） 枠を食っていた3つの原因と、直した決まり「モデルは既定にせず必ず指定する」 無人の回（ヘッドレス）の使用量は通常の記録に出ないので、合算して測る方法 2026年1…"
   },
   {
+   "src": "zenn",
+   "title": "AIの回答が長すぎて、理解しないまま実装している問題（理解負債）",
+   "link": "https://zenn.dev/kent_code/articles/5892898be90cac",
+   "date": 1794701957000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--icGBn86o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E5%259B%259E%25E7%25AD%2594%25E3%2581%258C%25E9%2595%25B7%25E3%2581%2599%25E3%2581%258E%25E3%2581%25A6%25E3%2580%2581%25E7%2590%2586%25E8%25A7%25A3%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25BE%25E3%2581%25BE%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E5%2595%258F%25E9%25A1%258C%25EF%25BC%2588%25E7%2590%2586%25E8%25A7%25A3%25E8%25B2%25A0%25E5%2582%25B5%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kent%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVlkODRlT3ZhWW1mTlowZlpabm8tNGk1SHlIUTdLTnA4RmptVHZVZHpGOE40WnotcXI9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "主に C#/.NET で業務システムを作って25年くらいになります。ここ1年ほどは、設計の相談も実装も Claude Code と一緒にやっています。 便利なのは間違いないんですが、使えば使うほどストレスも溜まっていました。返ってくる情報の量が膨大で、頭がついていかないんです。 つまり、回答が長すぎて、理解が追いつかないまま実装に進んでしまう。 この記事では、この課題に対して CLAUDE.md…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeと7週間で、コーネル式ノートのWebアプリを作って公開するまで",
+   "link": "https://zenn.dev/spring1293/articles/0a196cadb5942b",
+   "date": 1794701553000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--4S-GLG9h--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A87%25E9%2580%25B1%25E9%2596%2593%25E3%2581%25A7%25E3%2580%2581%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%258D%25E3%2583%25AB%25E5%25BC%258F%25E3%2583%258E%25E3%2583%25BC%25E3%2583%2588%25E3%2581%25AEWeb%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:spring1293%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlZjBkOTkyMDkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事の要点 Claude Codeに実装をほぼ任せて、コーネル式ノートのWebアプリを約7週間で作り、公開しました 「設計書を先に作り、承認してから実装してもらう」仕様駆動開発で進めました 公開に向けては、規約・退会・問い合わせ・SEOなど、作る以外の準備も一通りClaude Codeに相談しながら進めました 開発はとにかく速く、品質も上がりました。一方で、コードの細部の把握が追いつかな…"
+  },
+  {
    "src": "reddit",
    "title": "Ppl keep asking for local Opus 5.5. This is local Opus 5.5",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xwcmj3/ppl_keep_asking_for_local_opus_55_this_is_local/",
@@ -265,7 +265,7 @@
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 146 # Comments: 183"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 146 # Comments: 192"
   },
   {
    "src": "reddit",
@@ -289,7 +289,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 110 # Comments: 87"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 111 # Comments: 87"
   },
   {
    "src": "status",
@@ -337,7 +337,7 @@
    "link": "https://status.claude.com/history",
    "date": 1794565209000,
    "img": "",
-   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 199 # Comments: 179"
+   "desc": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 200 # Comments: 179"
   },
   {
    "src": "reddit",
