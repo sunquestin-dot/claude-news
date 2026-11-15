@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794705594165,
+ "updatedAt": 1794711470196,
  "sources": {
   "news": {
    "ok": true,
@@ -23,11 +23,11 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 500"
+   "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "status",
+   "title": "Some users unable to sign up with Apple on the Claude iOS app",
+   "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
+   "date": 1794708654000,
+   "img": "",
+   "desc": "Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email…"
+  },
+  {
+   "src": "qiita",
+   "title": "バックスラッシュは何個届くか、bashとPythonの16経路で測った",
+   "link": "https://qiita.com/ai_jarvis/items/ca6cc5510a5a3a173235",
+   "date": 1794707429000,
+   "img": "",
+   "desc": "AI エージェントにコードを直させると、bash のヒアドキュメントで Python のパッチを流すことがあります。ここで言うパッチは、別のファイルを書き換える短い Python のコードです。私の作業記録には、そのパッチのバックスラッシュが減って、書き換えた先のファイルが..."
+  },
+  {
+   "src": "qiita",
+   "title": "2026年11月15日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/4b2685b913c9fde1f7be",
+   "date": 1794706333000,
+   "img": "",
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 「ざっくり工数どのくらい？」に「ざっくり工数こ..."
+  },
   {
    "src": "qiita",
    "title": "0。Claude Enterpriseに『推奨設定と比較するセキュリティセンター』が追加されたと報じられた週、自分のクラウド環境の許可ホストを数えたら、この数字だった",
@@ -60,36 +84,12 @@
    "desc": "この記事で分かること：Claude Code v2.1.325 のセキュリティ修正とは何か。企業・チームで使っている場合に今日確認すべき変更点。MCP・認証・セッション関連の修正の詳細。 2026年11月14日、Claude Code v2.1.325 がリリースされた..."
   },
   {
-   "src": "qiita",
-   "title": "夜間のclaude -pジョブをモデル別に計測する — ログからトークン数・所要時間・失敗率を集計する方法",
-   "link": "https://qiita.com/joinclass/items/9b8f696841ad8e29d6d3",
-   "date": 1794699005000,
-   "img": "",
-   "desc": "はじめに：「いくら使っているか」を誰も知らなかった 当社（合同会社ジョインクラス）では、launchd に登録した30個以上のジョブが夜間・日中に claude -p を呼んでいます。記事生成、朝のダイジェスト、部署ごとの backlog 消化などです。 2026年9月に..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIが書いたコードは使って確かめる ― 舞台アプリ開発のレビュー記録",
-   "link": "https://qiita.com/oosawak@github/items/a93703112834983bc1f1",
-   "date": 1794697316000,
-   "img": "",
-   "desc": "AIが書いたコードは使って確かめる ― 舞台アプリ開発のレビュー記録 私の環境では、コードを書くのはAIがほとんどです。 ゲームは Claude Code、サーバーやサイトのプログラムは Codex、GitHub の内側の作業は Copilot、そして日常の開発相手はミュ..."
-  },
-  {
    "src": "reddit",
    "title": "Ppl keep asking for local Opus 5.5. This is local Opus 5.5",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xwcmj3/ppl_keep_asking_for_local_opus_55_this_is_local/",
    "date": 1794688581000,
    "img": "https://preview.redd.it/dhucof9j2n1i1.jpeg?width=640&crop=smart&auto=webp&s=95ac67d0b68a7e39ab466360983346aff10970d6",
    "desc": "submitted by /u/OneKey3719 [link] [comments]"
-  },
-  {
-   "src": "status",
-   "title": "Some users unable to sign up with Apple on the Claude iOS app",
-   "link": "https://status.claude.com/incidents/ct4c2pwf2xpj",
-   "date": 1794687125000,
-   "img": "",
-   "desc": "Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email…"
   },
   {
    "src": "zenn",
@@ -153,7 +153,7 @@
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 139 # Comments: 180"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 146 # Comments: 183"
   },
   {
    "src": "zenn",
@@ -289,7 +289,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 109 # Comments: 87"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 110 # Comments: 87"
   },
   {
    "src": "status",
@@ -377,7 +377,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1001 # Comments: 916"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1002 # Comments: 916"
   },
   {
    "src": "reddit",
@@ -441,7 +441,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 89"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 138 # Comments: 90"
   },
   {
    "src": "reddit",
@@ -593,7 +593,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 830 # Comments: 493"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 831 # Comments: 493"
   },
   {
    "src": "hn",
