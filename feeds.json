@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794775795879,
+ "updatedAt": 1794779374614,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code で \"API Error: 500 Internal server error\" が出たときの切り分け（status 確認と再送、ゲートウェイ経由なら ENABLE_TOOL_SEARCH）",
+   "link": "https://qiita.com/homhom44/items/af9b7802e0af1ad1ccd4",
+   "date": 1794778282000,
+   "img": "",
+   "desc": "Claude Code で API Error: 500 Internal server error が出たときの切り分けです。結論から言うと、公式は「API 内部の予期せぬ失敗で、プロンプト・設定・アカウントのせいではない」としています。まず status を見て、1 分..."
+  },
   {
    "src": "qiita",
    "title": "この連載は、GitHubの上で2つのAIと書いていました【非エンジニアのGitHub入門⑧】",
@@ -66,14 +74,6 @@
    "date": 1794765301000,
    "img": "",
    "desc": "2026-11-15 に検知された追加は、フックが「どの入力で起動し、失敗したときに何が起きるか」の明文化と、モデルの扱い（切り替えの検知、auto モードの対象、未知のモデル ID）に集中しています。 Bash フックの if 条件：分割できない入力では必ず起動する h..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude障害まとめ：11/13の同時障害・認証エラー・利用上限誤判定と対処法",
-   "link": "https://qiita.com/picnic/items/0e7c5295c004f170dcd9",
-   "date": 1794764811000,
-   "img": "",
-   "desc": "はじめに 10/7〜11/14のAnthropicステータスページには、20件の障害が掲載されました。このうち未解決なのは1件だけで、iOSアプリの「Appleでサインイン」障害です。残りは解決済みですが、業務で Claude を使っている人にとっては、見落とすと影響が大..."
   },
   {
    "src": "zenn",
