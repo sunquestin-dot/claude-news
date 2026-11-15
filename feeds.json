@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794743528903,
+ "updatedAt": 1794747936724,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "黒船来襲！Claude Sheets の衝撃――会話だけでシートが作れる時代になった話",
+   "link": "https://qiita.com/shu15511551/items/add57405722c05134561",
+   "date": 1794745150000,
+   "img": "",
+   "desc": "はじめに ―― 「会話だけでシートが作れる時代」に本家が飛び込んできた 少し前、Anthropic から 「Claude Sheets」（ベータ版・2026年11月10日公開）が登場したことを知り、思わず画面の前で固まりました。 Excel も Google スプレッドシ..."
+  },
+  {
+   "src": "qiita",
    "title": "壊れた共通モジュールを読むフックは危険操作を止めるか",
    "link": "https://qiita.com/ai_jarvis/items/6172ca9f0de73f307859",
    "date": 1794742417000,
@@ -66,14 +74,6 @@
    "date": 1794740740000,
    "img": "",
    "desc": "はじめに Claude Code や Codex のような AI エージェント（指示するとコードを読み、書き換え、テストまで回してくれる AI）を使っていると、だんだん「1体ずつでは遅い」と感じるようになります。バグ修正を頼んでいる間に別の機能追加も頼みたい。同じ課題を..."
-  },
-  {
-   "src": "qiita",
-   "title": "ブラウザゲーム（PWA）を半日で Microsoft Store に出した記録 — 個人は登録無料、提出から2時間で審査通過",
-   "link": "https://qiita.com/ViewsEngineer/items/8ee3dac72742c0cf9aee",
-   "date": 1794739843000,
-   "img": "",
-   "desc": "ブラウザで遊ぶゲーム『一筆花火2』を、PWA にして Microsoft Store に出しました。開発者アカウントを作り始めてから審査通過まで約12時間、提出から審査通過までは約2時間でした。 この記事は、手順と、実際に止まった所の記録です。申請画面の入力は AI..."
   },
   {
    "src": "zenn",
