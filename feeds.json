@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794782988263,
+ "updatedAt": 1794786851360,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude のモデル選択ガイドを手元で試した：39回すべて合格、差は費用だけ。Opus low が高く見えたのはキャッシュ書き込みだった",
+   "link": "https://qiita.com/hatyibei/items/478274a241b5e3d1dc72",
+   "date": 1794786343000,
+   "img": "",
+   "desc": "「モデルも effort も、結局どれを既定にすればいいの？」と毎回迷っていたので、公式ガイドの「自分のタスクで試せ」を手元でやりました。 Claude Code 2.1.325 で、Haiku・Sonnet・Opus の5設定×6タスクを30回、順序を変えた追加実験を9..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code夜間自動実行の実費——113ターン$5.27、3つの削減策（2026年実測）",
+   "link": "https://qiita.com/Sidejob/items/6b14e73bf8c82e69b71b",
+   "date": 1794786304000,
+   "img": "",
+   "desc": "この記事の結論：Claude Codeを夜間自動実行したとき、1セッション113ターンで$5.27相当かかることが2026年9月に実測で分かった。その後、同じ作業を70〜90ターン台に削減した3つの対策を書く。 対象読者 Claude Codeを夜間バッチとして動かして..."
+  },
+  {
+   "src": "qiita",
+   "title": "Agent SDKのフックを「失敗したら止まる」設定にする — 無人ジョブで検査漏れを出さない書き方とテスト",
+   "link": "https://qiita.com/joinclass/items/e524aed315c2bf7d7141",
+   "date": 1794785404000,
+   "img": "",
+   "desc": "はじめに：検査が「黙って通る」のがいちばん怖い 当社（合同会社ジョインクラス）は、記事生成・書籍の加工・分析などを launchd の無人ジョブで回しています。人が見ていない時間に動くので、「出してはいけない内容」を止める検査を生成ジョブに入れています。 運用して分かった..."
+  },
+  {
+   "src": "qiita",
    "title": "claude -p を launchd・cron で定期実行する｜落ちた回も届く完了報告と、動かなかった回を見つける見張り役",
    "link": "https://qiita.com/masakazuimai/items/7184433ad662f5b567ea",
    "date": 1794782711000,
    "img": "",
    "desc": "はじめに claude -p（Claude Code を対話なしで1回だけ動かすヘッドレスモード）を launchd や cron で定期実行するのは、数行で始められます。難しいのは、動かし始めたあとです。Claude が途中で落ちた回、時間切れで止まった回、そもそも起動..."
-  },
-  {
-   "src": "qiita",
-   "title": "180億テスト下の異種混合スケジューリングシステム---ゼロから作るCoWファイルシステム 9",
-   "link": "https://qiita.com/faliye/items/682462db8d732b73b2b0",
-   "date": 1794782079000,
-   "img": "",
-   "desc": "規模こそが複雑さである。 ファイルシステムの正しさを網羅的に検証することは、理論上不可能だ。だから singlefs がやっているのは、少しずつ近づいていくこと――枝刈りと再利用データベースだ。一度判定したものは二度と判定しない。等価なものは一度だけ判定する。その一段上..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で \"API Error: 500 Internal server error\" が出たときの切り分け（status 確認と再送、ゲートウェイ経由なら ENABLE_TOOL_SEARCH）",
-   "link": "https://qiita.com/homhom44/items/af9b7802e0af1ad1ccd4",
-   "date": 1794778282000,
-   "img": "",
-   "desc": "Claude Code で API Error: 500 Internal server error が出たときの切り分けです。結論から言うと、公式は「API 内部の予期せぬ失敗で、プロンプト・設定・アカウントのせいではない」としています。まず status を見て、1 分..."
-  },
-  {
-   "src": "qiita",
-   "title": "この連載は、GitHubの上で2つのAIと書いていました【非エンジニアのGitHub入門⑧】",
-   "link": "https://qiita.com/Matsda_K/items/6a29faa0431c388d83bd",
-   "date": 1794775106000,
-   "img": "",
-   "desc": "Codex や Claude Code に実際の作業を任せる例として、予測モデルをつくるまでを Kindle の本『AIエージェントで機械学習をスキルにする』にまとめています。本日(11月16日)17時まで、無料で読めます 最終回です。第6回の最後に「この連載も、実は2つの..."
   },
   {
    "src": "zenn",
