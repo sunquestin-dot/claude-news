@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794751233474,
+ "updatedAt": 1794754432711,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "ドキュメント確認の時間と費用を改善するスキルを作った",
+   "link": "https://qiita.com/w3pe8xmk/items/f4c39fc1ea61c27681df",
+   "date": 1794754038000,
+   "img": "",
+   "desc": "本記事は、文章の構成と推敲に生成AIを使用しています。 はじめに Claude Code で外部ライブラリの API や設定項目を確認するときは、WebFetch や WebSearch でドキュメントを取得します。読んだ内容の要約を、出典 URL と取得日を付け..."
+  },
+  {
+   "src": "qiita",
+   "title": "CRLFのスクリプトをClaude CodeのWorkflowは断るか、改行と見えない文字18通りで試した",
+   "link": "https://qiita.com/ai_jarvis/items/ce5768fcb9c839fcd6a7",
+   "date": 1794752411000,
+   "img": "",
+   "desc": "Claude Code には Workflow というツールがあります。JavaScript で書いたスクリプトを渡すと、その手順どおりに複数のエージェントを動かします。私は Windows でこれを使っています。2026年8月に、保存してあったスクリプトをファイルのパスで..."
+  },
+  {
+   "src": "qiita",
    "title": "AI活用の8段階で、今のレベルを1つ上げる手順 ― 「CLAUDE.mdに書いておいて」「手順をSkillsにして」など、各段階でAIに伝える一言つき",
    "link": "https://qiita.com/TOSHIMITSU_MIYACHI/items/ca1a536ae69b0c1fd46c",
    "date": 1794749475000,
@@ -58,22 +74,6 @@
    "date": 1794745150000,
    "img": "",
    "desc": "はじめに ―― 「会話だけでシートが作れる時代」に本家が飛び込んできた 少し前、Anthropic から 「Claude Sheets」（ベータ版・2026年11月10日公開）が登場したことを知り、思わず画面の前で固まりました。 Excel も Google スプレッドシ..."
-  },
-  {
-   "src": "qiita",
-   "title": "壊れた共通モジュールを読むフックは危険操作を止めるか",
-   "link": "https://qiita.com/ai_jarvis/items/6172ca9f0de73f307859",
-   "date": 1794742417000,
-   "img": "",
-   "desc": "Claude Code のフックは、ツールを呼ぶ前後に動く自作のスクリプトで、終了コード 2 で終わると、その呼び出しを止められます。このフックを Python で書いていて、判定の部品を共通のモジュールに切り出したことがあります。切り出した直後のコードレビューで、フック側..."
-  },
-  {
-   "src": "qiita",
-   "title": "【Claude Code開発】ヒス構文メーカーで共通AIメーカーに「選択肢」とLINE風表示を足した【Gemini API/WordPress】",
-   "link": "https://qiita.com/5naokichi/items/120ee520b5491a94b002",
-   "date": 1794741716000,
-   "img": "",
-   "desc": "はじめに お母さん・彼女・彼氏・友達に何気ない一言を送ると、相手から「ヒス構文」で返信が届く ヒス構文メーカー を公開しました。 ホネグミの新しい構文メーカーは、メーカーごとにHTMLとJavaScriptを書くのではなく、設定 maker.json とプロンプト ..."
   },
   {
    "src": "zenn",
