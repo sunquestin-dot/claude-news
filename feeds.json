@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794779374614,
+ "updatedAt": 1794782988263,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "claude -p を launchd・cron で定期実行する｜落ちた回も届く完了報告と、動かなかった回を見つける見張り役",
+   "link": "https://qiita.com/masakazuimai/items/7184433ad662f5b567ea",
+   "date": 1794782711000,
+   "img": "",
+   "desc": "はじめに claude -p（Claude Code を対話なしで1回だけ動かすヘッドレスモード）を launchd や cron で定期実行するのは、数行で始められます。難しいのは、動かし始めたあとです。Claude が途中で落ちた回、時間切れで止まった回、そもそも起動..."
+  },
+  {
+   "src": "qiita",
+   "title": "180億テスト下の異種混合スケジューリングシステム---ゼロから作るCoWファイルシステム 9",
+   "link": "https://qiita.com/faliye/items/682462db8d732b73b2b0",
+   "date": 1794782079000,
+   "img": "",
+   "desc": "規模こそが複雑さである。 ファイルシステムの正しさを網羅的に検証することは、理論上不可能だ。だから singlefs がやっているのは、少しずつ近づいていくこと――枝刈りと再利用データベースだ。一度判定したものは二度と判定しない。等価なものは一度だけ判定する。その一段上..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code で \"API Error: 500 Internal server error\" が出たときの切り分け（status 確認と再送、ゲートウェイ経由なら ENABLE_TOOL_SEARCH）",
    "link": "https://qiita.com/homhom44/items/af9b7802e0af1ad1ccd4",
    "date": 1794778282000,
@@ -58,22 +74,6 @@
    "date": 1794775106000,
    "img": "",
    "desc": "Codex や Claude Code に実際の作業を任せる例として、予測モデルをつくるまでを Kindle の本『AIエージェントで機械学習をスキルにする』にまとめています。本日(11月16日)17時まで、無料で読めます 最終回です。第6回の最後に「この連載も、実は2つの..."
-  },
-  {
-   "src": "qiita",
-   "title": "仮想世界を作って、AI が気づくか 100 回試した",
-   "link": "https://qiita.com/top_of_the_world_winter/items/080b7f89899e13e4037d",
-   "date": 1794766411000,
-   "img": "",
-   "desc": "はじめに 今いるこの世界が、コンピュータで作られた仮想世界である確率は、どれくらいだと思いますか。 天文学者の David Kipping は 2020 年に、それをまじめに計算し、ほぼ五分五分と見積もりました。 イーロン・マスクは、仮想世界ではない本物の世界にいる確率は..."
-  },
-  {
-   "src": "qiita",
-   "title": "11/15 の公式ドキュメント更新：フックの実行条件・終了コードとモデル関連の記載",
-   "link": "https://qiita.com/akihidem/items/c1affda2795eb7d78ff6",
-   "date": 1794765301000,
-   "img": "",
-   "desc": "2026-11-15 に検知された追加は、フックが「どの入力で起動し、失敗したときに何が起きるか」の明文化と、モデルの扱い（切り替えの検知、auto モードの対象、未知のモデル ID）に集中しています。 Bash フックの if 条件：分割できない入力では必ず起動する h..."
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 150 # Comments: 198"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 151 # Comments: 199"
   },
   {
    "src": "reddit",
@@ -401,7 +401,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 217 # Comments: 95"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 279 # Comments: 147"
   },
   {
    "src": "reddit",
@@ -609,7 +609,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 831 # Comments: 493"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 832 # Comments: 493"
   },
   {
    "src": "hn",
