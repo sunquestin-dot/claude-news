@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794736613749,
+ "updatedAt": 1794740061255,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AI で作った配布サイトは公開してから守ることが山ほどあった",
-   "link": "https://qiita.com/AllegroMoltoV/items/67e583950029346b6e29",
-   "date": 1794733160000,
+   "title": "ブラウザゲーム（PWA）を半日で Microsoft Store に出した記録 — 個人は登録無料、提出から2時間で審査通過",
+   "link": "https://qiita.com/ViewsEngineer/items/8ee3dac72742c0cf9aee",
+   "date": 1794739843000,
    "img": "",
-   "desc": "はじめに Claude Code と一緒に作った OBS Studio のプラグインの配布サイト「配信プラグイン倉庫くん」を、0.2.13 に上げました。 0.2 系の変更のうち、新しい機能と呼べるものはわずかです。ほとんどは、他人が作ったプラグインを人に配る場とし..."
+   "desc": "ブラウザで遊ぶゲーム『一筆花火2』を、PWA にして Microsoft Store に出しました。開発者アカウントを作り始めてから審査通過まで約12時間、提出から審査通過までは約2時間でした。 この記事は、手順と、実際に止まった所の記録です。申請画面の入力は AI..."
   },
   {
    "src": "qiita",
-   "title": "【2026年11月版】Claude Code / Codex / Cursor / Kiro のプラン・料金・リセット周期まとめ",
-   "link": "https://qiita.com/swallows/items/623f58791d691a3b3a43",
-   "date": 1794733130000,
+   "title": "Claude Code が残した git worktree で、ブランチを切り替えられなくなった。ファイルマネージャー側でどう吸収したか",
+   "link": "https://qiita.com/ponta8240/items/9228831d7cced8cdc84d",
+   "date": 1794739741000,
    "img": "",
-   "desc": "はじめに 2026年11月15日時点の情報です。価格はすべて 米ドル/月・税別 です。 料金や上限は頻繁に変わるため、契約前に必ず公式ページを確認してください。 表の見方 不明: 公式ページで確認できなかったもの（解説記事だけに書かれている情報も含む） 「〇倍」は..."
+   "desc": "macOS のファイルマネージャー「Macorn」を個人で作っています。開発者向けで、Git のリポジトリのフォルダではブランチ名を出したり、GitHub Desktop と同じようにブランチの切り替え・コミット・プッシュをしたりできます。 先日、自分で作ったブランチの切り..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code v2.1.317〜v2.1.325｜サンドボックス内 Bash の自動許可が既定オフに｜週刊Changelog解説",
-   "link": "https://qiita.com/moha0918_/items/149101a4b84ba5fef52c",
-   "date": 1794732693000,
+   "title": "テキストで構成図を書いて、VS Code でアニメーション再生する拡張機能を作った",
+   "link": "https://qiita.com/Junue/items/205d5d21c6044a11659c",
+   "date": 1794739247000,
    "img": "",
-   "desc": "Claude Codeの公式Changelogをリリースから最速で翻訳・解説しています。 v2.1.325 から、サンドボックス内で動く Bash コマンドを Claude Code が既定で通常の許可フローにかけるようになりました。サンドボックス内の Bash を..."
+   "desc": "はじめに 構成図を .dav というテキストで書くと、VS Code のプレビューでリクエストの流れを1ステップずつアニメーション再生できる拡張機能 DynamicArchitectViewer を作りました。 Claude Code などの AI エージェントに構成図を..."
   },
   {
    "src": "qiita",
-   "title": "コードが読めなくても、Claude Code の出力が正しいか確かめられる——動かす・開く・分ける・基準を持つ、4つの確認方法",
-   "link": "https://qiita.com/saitoko/items/cfe7201e8cc0676180bb",
-   "date": 1794728343000,
+   "title": "Claude Code無人実行29日——毎朝確認する3か所（2026年）",
+   "link": "https://qiita.com/Sidejob/items/466633af3c75ec27284c",
+   "date": 1794738604000,
    "img": "",
-   "desc": "この記事の要点: コードが読めなくても、Claude Code の出力が正しいかどうかは確かめられます。私は Claude Code でコードを1行も書かずに、タスク管理の道具やブログの制作体制を作ってきました。その中で使ってきた確かめ方は、「動かして確かめる」「実物を開い..."
+   "desc": "この記事の結論：Claude Codeの夜間自動実行を29日間続けた。「実行完了」の通知が届いても、翌朝必ず確認すべき3か所がある。確認を怠った日に限って、2日間止まったままだったことが後から発覚した。 対象読者 Claude Codeを夜間バッチとして動かしており、「..."
   },
   {
    "src": "zenn",
@@ -265,7 +265,7 @@
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 146 # Comments: 192"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 148 # Comments: 195"
   },
   {
    "src": "reddit",
