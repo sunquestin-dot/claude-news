@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794699928740,
+ "updatedAt": 1794705594165,
  "sources": {
   "news": {
    "ok": true,
@@ -23,15 +23,15 @@
   },
   "youtube": {
    "ok": false,
-   "error": "HTTP 404"
+   "error": "HTTP 500"
   },
   "hn": {
    "ok": false,
    "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "0。Claude Enterpriseに『推奨設定と比較するセキュリティセンター』が追加されたと報じられた週、自分のクラウド環境の許可ホストを数えたら、この数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/880fb8afa49cfa65e9a2",
+   "date": 1794703636000,
+   "img": "",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、この記事とZenn版を自動で書いて投稿している自分自身のクラウド実行環境(Claude Code Remoteの\"Default\"環境)について、get_environmentで取得した「明示的に許可されているホスト..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code v2.1.325 セキュリティ修正の内容（2026年）",
@@ -68,14 +76,6 @@
    "desc": "AIが書いたコードは使って確かめる ― 舞台アプリ開発のレビュー記録 私の環境では、コードを書くのはAIがほとんどです。 ゲームは Claude Code、サーバーやサイトのプログラムは Codex、GitHub の内側の作業は Copilot、そして日常の開発相手はミュ..."
   },
   {
-   "src": "qiita",
-   "title": "プロセスは生きているのに定期処理が止まる 〜監視画面を本体から分け、生存と完了時刻を別々に見る設計〜",
-   "link": "https://qiita.com/charge0315/items/734ed9d4c72daa2638d2",
-   "date": 1794692465000,
-   "img": "",
-   "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第41話です。 プロセスは動いている。でも、定期処理が進んでいるとは限らない。その違いを見たいから、運用画面をもう1つ作ることにしました🔎 日本株のデータ分析端末「ALPHA FORGE（アルファフォージ）」を、..."
-  },
-  {
    "src": "reddit",
    "title": "Ppl keep asking for local Opus 5.5. This is local Opus 5.5",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xwcmj3/ppl_keep_asking_for_local_opus_55_this_is_local/",
@@ -98,14 +98,6 @@
    "date": 1794676107000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--bBa9M_eA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AB%25E3%2580%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2580%258D%25E3%2582%2592%25E6%258A%25BC%25E3%2581%2595%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259ACLAUDE.md%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%258F%25E3%2580%258C%25E5%25A4%2596%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%2599%25E6%2593%258D%25E4%25BD%259C%25E3%2580%258D%25E3%2581%25AE%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A5%25E8%25A1%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tsugu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzcxMzM3NzY4MjQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "この記事でやること Claude Code は、頼まれれば公開に近い操作もそのまま行うことがあります。筆者が決まりを置かずに「article.md の published を true に」と頼んだときは、その場で書き換えられました（下の「比べる」の節）。「書いて、できたら公開して」のようにまとめて頼むときも、書くところまでで止まってほしいはずです。公開や送信は、押したあとに自分だけでは取り消せ…"
-  },
-  {
-   "src": "zenn",
-   "title": "窓口はひとつ、裏側は5経路 — Muse の環境で複数 AI エージェントを fail-closed に回す設計と運用",
-   "link": "https://zenn.dev/coastlinedb/articles/c976a27eb7c127",
-   "date": 1794674229000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--hBqSC74E--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25AA%2593%25E5%258F%25A3%25E3%2581%25AF%25E3%2581%25B2%25E3%2581%25A8%25E3%2581%25A4%25E3%2580%2581%25E8%25A3%258F%25E5%2581%25B4%25E3%2581%25AF5%25E7%25B5%258C%25E8%25B7%25AF%2520%25E2%2580%2594%2520Muse%2520%25E3%2581%25AE%25E7%2592%25B0%25E5%25A2%2583%25E3%2581%25A7%25E8%25A4%2587%25E6%2595%25B0%2520AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2582%2592%2520fail-closed%2520%25E3%2581%25AB%25E5%259B%259E%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25A8%25E9%2581%258B%25E7%2594%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:coastlinedb%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzY2EzYmUyN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. この記事の結論 Muse の環境で、Claude Code・Codex CLI・Gemini 系 CLI・Grok・OpenAI API の5経路を動かしている構造と運用をまとめます。汎用のフレームワークの話ではなく、私が日常的に使っている実際の構成の話です。 設計判断 中身 理由 窓口はひとつ 私が話しかけるのは Muse だけ。判断・統合・外部アクションの実行は Muse が持ち、各経…"
   },
   {
    "src": "zenn",
@@ -274,6 +266,14 @@
    "date": 1794648364000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--4xuDBRgE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%25E7%2584%25A1%25E4%25BA%25BA%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2599%25E8%25A8%25AD%25E8%25A8%2588%2520%25E2%2580%2594%25206%2520%25E6%25AE%25B5%25E3%2581%25AE%25E5%259E%258B%25E3%2581%25A8%25E3%2580%2581exit%25200%2520%25E3%2582%2592%25E4%25BF%25A1%25E3%2581%2598%25E3%2581%25A6%25205%2520%25E9%2580%25B1%25E9%2596%2593%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E7%25B6%259A%25E3%2581%2591%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Wisteria%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvdy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code を対話で使うだけでなく、claude -p（非対話モード）を Windows のタスクスケジューラから起動して、夜のあいだにメモの整理や検証を進めさせています。5 か月ほど回して分かったのは、**難しいのは「動かすこと」ではなく「正しく終わったと知ること」**でした。先に数字を並べます。 実測したこと 値 全利用量に占める無人ジョブの比率（42 日・566 セッション） …"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude の定期タスクで複数の事業を回す【部品とひな形付き】",
+   "link": "https://zenn.dev/neuralalpha/books/claude-scheduled-ops-kit",
+   "date": 1794647865000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--98I3QLQ7--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9jNzYyYTExMmY4LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "『Claude の定期タスクで複数の事業を回す』（¥1,000）の全章に、そのまま使える部品7つ（書き込み台帳・売上台帳・本人対応アラート・自動確認・回数の上限・タスク監視・安全な追記）とひな形（台帳・重要ルール・タスクの文面）をコードごと付けた上位版です。標準ライブラリだけの Python、テスト17件。はじめにと上位版の使い方は無料。"
   },
   {
    "src": "status",
