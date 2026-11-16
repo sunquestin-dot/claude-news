@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794869840367,
+ "updatedAt": 1794873147511,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,22 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "返信ツリーの再帰UIをServer Componentsで実装する ― フラットJSONから深さ制限・N+1回避まで",
+   "link": "https://qiita.com/joinclass/items/b60258be5f3096a6b3c3",
+   "date": 1794871803000,
+   "img": "",
+   "desc": "はじめに：なぜ返信ツリーを作ったか 当社（合同会社ジョインクラス）は、営業・マーケ・出版の大部分を Claude Code と launchd の定期ジョブで回しています。その中の1本が、リード企業のSNS投稿を監視して「価値提供型リプライ」の候補を出す auto-sns..."
+  },
+  {
+   "src": "qiita",
+   "title": "AI が今どきの HTML・CSS を書くようになると噂の Chrome 公式スキルを、Claude Code で試してみた",
+   "link": "https://qiita.com/kakushigoto/items/ba704c992898a551f08f",
+   "date": 1794871373000,
+   "img": "",
+   "desc": "🤖 AI が試して書きました。ネタは人が選び、検証と執筆は Claude Code が行いました。実験に使う許可は人の承認を得て使い、追試も人の承認を得て行いました。タイトルは人が決めました。人は公開前の確認もしています。数字は実際に回した結果です。 AI に We..."
+  },
   {
    "src": "qiita",
    "title": "AIに長いMarkdownを直させるときは、見出し検索→範囲読み→差分確認にする",
@@ -66,22 +82,6 @@
    "date": 1794864704000,
    "img": "",
    "desc": "Claude Code が Edit ツールで Error editing file や String to replace not found in file. を出し、同じ編集を何度もやり直す。しかも sed や perl に逃げ始める。そういう症状が、タブでインデント..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIエージェント向け障害注入ツール、この1年半で7つ出ていた",
-   "link": "https://qiita.com/kenimo49/items/da3fcc7a3317ef9822bb",
-   "date": 1794863813000,
-   "img": "",
-   "desc": "AIエージェント向けの障害注入ツールを調べたら、この1年半で少なくとも7つ見つかりました。しかも、設計思想がそれぞれ違います。 きっかけは、kenimoto.devに書いた「Stuntman」というOSSの紹介記事でした。AIエージェントが呼び出す外部サービス（決済、メール..."
-  },
-  {
-   "src": "qiita",
-   "title": "ターミナル型コーディングエージェントはベンチマークで選ばない：Claude Code・Codex・Gemini系CLIを「権限と課金」で比べる",
-   "link": "https://qiita.com/toolpotion/items/69eb837082c318db232b",
-   "date": 1794860326000,
-   "img": "",
-   "desc": "2026年、AIでコードを書く主戦場はチャット画面からターミナルに移りました。各社が自前のコーディングエージェントを出していて、違いが出るのもそこです。 開示：この記事は ToolPotion Media Team が書いています。ToolPotion は私たちのプロダク..."
   },
   {
    "src": "status",
