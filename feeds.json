@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794786851360,
+ "updatedAt": 1794792944853,
  "sources": {
   "news": {
    "ok": true,
@@ -22,12 +22,12 @@
    "count": 15
   },
   "youtube": {
-   "ok": true,
-   "count": 15
+   "ok": false,
+   "error": "HTTP 404"
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude のモデル選択ガイドを手元で試した：39回すべて合格、差は費用だけ。Opus low が高く見えたのはキャッシュ書き込みだった",
-   "link": "https://qiita.com/hatyibei/items/478274a241b5e3d1dc72",
-   "date": 1794786343000,
+   "title": "Claude Codeを入れて動かすところまではできたが、CLAUDE.mdやHooks、チームへの導入をどう進めればいいか分からない開発者へ。ハンズオンで全体像をつかめる一冊",
+   "link": "https://qiita.com/yasu1109/items/24c2aba4e86798caed8c",
+   "date": 1794792607000,
    "img": "",
-   "desc": "「モデルも effort も、結局どれを既定にすればいいの？」と毎回迷っていたので、公式ガイドの「自分のタスクで試せ」を手元でやりました。 Claude Code 2.1.325 で、Haiku・Sonnet・Opus の5設定×6タスクを30回、順序を変えた追加実験を9..."
+   "desc": "Claude Codeを入れて、簡単なコードを書かせてみたところまでは進んだ。ただ、CLAUDE.mdには何を書くのか、Hooksやスキルはいつ使うのか、チームで使うならコストやセキュリティをどう管理するのか、といった先の部分は、断片的な情報をつなぎ合わせるしかない。『Cl..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code夜間自動実行の実費——113ターン$5.27、3つの削減策（2026年実測）",
-   "link": "https://qiita.com/Sidejob/items/6b14e73bf8c82e69b71b",
-   "date": 1794786304000,
+   "title": "AIを使うようになって、これから伸ばしたい力を考えてみた",
+   "link": "https://qiita.com/kmatsuda_slj/items/7629dc7ca925cccc0799",
+   "date": 1794792586000,
    "img": "",
-   "desc": "この記事の結論：Claude Codeを夜間自動実行したとき、1セッション113ターンで$5.27相当かかることが2026年9月に実測で分かった。その後、同じ作業を70〜90ターン台に削減した3つの対策を書く。 対象読者 Claude Codeを夜間バッチとして動かして..."
+   "desc": "はじめに 僕は普段から、AIとよく会話しています。 コードの説明を聞いたり、文章を整理したり、考えがまとまっていない段階で相談したり。会話を続けるうちに、「それなら一度試してみよう」と思えることも増えました。 使い方を振り返ると、僕はAIに、先輩に相談するような感覚で話し..."
   },
   {
    "src": "qiita",
-   "title": "Agent SDKのフックを「失敗したら止まる」設定にする — 無人ジョブで検査漏れを出さない書き方とテスト",
-   "link": "https://qiita.com/joinclass/items/e524aed315c2bf7d7141",
-   "date": 1794785404000,
+   "title": "AI エージェントに「目と手」を与えるスキルの設計と実装【連載：Claude Code で環境構築 3】",
+   "link": "https://qiita.com/dsol_y_matsuda/items/a7db4c91a7f2568c4493",
+   "date": 1794790957000,
    "img": "",
-   "desc": "はじめに：検査が「黙って通る」のがいちばん怖い 当社（合同会社ジョインクラス）は、記事生成・書籍の加工・分析などを launchd の無人ジョブで回しています。人が見ていない時間に動くので、「出してはいけない内容」を止める検査を生成ジョブに入れています。 運用して分かった..."
+   "desc": "はじめに NTT ドコモソリューションズの松田と申します。 本連載「Claude Code で環境構築」では、実際に使用するサーバの環境構築を Claude Code を活用して自動化する中で得られた気付きやノウハウをまとめていきます。 AI エージェントに環境構築を任せ..."
   },
   {
    "src": "qiita",
-   "title": "claude -p を launchd・cron で定期実行する｜落ちた回も届く完了報告と、動かなかった回を見つける見張り役",
-   "link": "https://qiita.com/masakazuimai/items/7184433ad662f5b567ea",
-   "date": 1794782711000,
+   "title": "AIエージェントを部下として並列に回す：指示書チェック項目",
+   "link": "https://qiita.com/sha44444/items/48cf2d6b82b16a99dd79",
+   "date": 1794790878000,
    "img": "",
-   "desc": "はじめに claude -p（Claude Code を対話なしで1回だけ動かすヘッドレスモード）を launchd や cron で定期実行するのは、数行で始められます。難しいのは、動かし始めたあとです。Claude が途中で落ちた回、時間切れで止まった回、そもそも起動..."
+   "desc": "連載「業務SEのための仕様駆動開発」第8回（最終回） AIは便利なのに、自分の仕事が思ったほど減らない Claude CodeなどのAIエージェントを使い始めると、文書もコードも速く出てきます。便利だと感じます。 ところが、実際の案件では、AIを使い始めても自分の作業..."
   },
   {
    "src": "zenn",
@@ -388,12 +388,20 @@
    "desc": "I’ve been making games for 19 years. Over the last few years it had turned into a job, and I stopped enjoying it. A few weeks ago I set myself a challenge, take one small game through the entire pipe…"
   },
   {
+   "src": "reddit",
+   "title": "Are we not allowed to even ask basic biology questions?",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xuhanm/are_we_not_allowed_to_even_ask_basic_biology/",
+   "date": 1794500931000,
+   "img": "https://preview.redd.it/2uzu1x7lk71i1.jpeg?width=640&crop=smart&auto=webp&s=741b8211f3f25b10fd1060336f2c66b742bb601d",
+   "desc": "submitted by /u/EndLineTech03 [link] [comments]"
+  },
+  {
    "src": "hn",
    "title": "Anthropic IPO",
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1003 # Comments: 917"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1003 # Comments: 918"
   },
   {
    "src": "hn",
@@ -401,7 +409,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 279 # Comments: 147"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 336 # Comments: 169"
   },
   {
    "src": "reddit",
@@ -441,7 +449,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 460 # Comments: 221"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 460 # Comments: 222"
   },
   {
    "src": "status",
@@ -562,14 +570,6 @@
    "date": 1794250797000,
    "img": "",
    "desc": "Still no newsroom post from Anthropic though. Edit: Just kidding, it finally popped up: https://www.anthropic.com/claude-fable-and-mythos-5-2 Edit 2: Holy shit, I got *three* resets. Apparently just …"
-  },
-  {
-   "src": "reddit",
-   "title": "Claude saved my old iPhone from becoming ewaste",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xrevbv/claude_saved_my_old_iphone_from_becoming_ewaste/",
-   "date": 1794187810000,
-   "img": "https://preview.redd.it/g1yb5kfiph0i1.jpeg?width=640&crop=smart&auto=webp&s=6764b0aec5834c14b568ddf2f8253dac2020a694",
-   "desc": "Semi - new Claude user here. I had my old iPhone se that would not boot into anything, restore, ramdisk, nothing. Got to a point where I thought the nand had failed as it'd kernel panic or just die i…"
   },
   {
    "src": "news",
