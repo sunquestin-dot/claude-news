@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794866274920,
+ "updatedAt": 1794869840367,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AIに長いMarkdownを直させるときは、見出し検索→範囲読み→差分確認にする",
+   "link": "https://qiita.com/20051215kaito/items/d7c766e51a1b92af499c",
+   "date": 1794867296000,
+   "img": "",
+   "desc": "長い運用ファイルをAIに読ませ、途中までしか読めていないことに気づかないまま書き換えたことがありました。 その後は、先に見出しを読み、関係する箇所を行番号で開く手順にしています。やることの一覧が200KBを超えたときも、見出しと親の項目だけを抜き出すと約35KBになった、と..."
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.326",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+   "date": 1794867065000,
+   "img": "",
+   "desc": "What's changed - Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode - Added a startup warning when an --a…"
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code で \"String to replace not found in file\" / \"Error editing file\" が繰り返し出るとき（タブインデントのファイルで起きる既知の不具合と回避策）",
    "link": "https://qiita.com/homhom44/items/8f7e6e4b04257ea048cc",
    "date": 1794864704000,
@@ -76,12 +92,12 @@
    "desc": "Nov 16 , 19:52 UTC Resolved - The issue affecting Sign in with Apple on the Claude iOS app has been resolved. Impact occurred from 16:29 PT on November 13 / 00:29 UTC on November 14 to 10:31 PT / 18:…"
   },
   {
-   "src": "qiita",
-   "title": "MCPサーバーを初めてつなぐ前に：Host・Client・Serverの役割と、読み取り専用から始める5ステップ",
-   "link": "https://qiita.com/toolpotion/items/c313e6affe97b881045a",
-   "date": 1794856041000,
-   "img": "",
-   "desc": "Claude の「コネクタ」、Cursor のツール連携、Copilot エージェントから Linear を呼ぶ機能。どれも裏側で使われていることが多いのが MCP（Model Context Protocol）です。この記事では仕組みを最小限おさえたうえで、最初の1台をつ..."
+   "src": "zenn",
+   "title": "While we argue whether AI can code, some developers went 10x",
+   "link": "https://zenn.dev/pkosyakov/articles/0807b135016b43",
+   "date": 1794856158000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s---0qD890s--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:While%2520we%2520argue%2520whether%2520AI%2520can%2520code%252C%2520some%2520developers%2520went%252010x%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Pavel%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS1FXOE1saFoxVFcwYlYwbDkwRDJ4QmdaN3A2TGpOeFJpRy1DX3N5YUh3R2VTd0QzbFc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "We at DevGhost looked at the public Git history of microsoft/vscode and TryGhost/Ghost. For several developers, our estimates show a 5–21× jump in output over a year. The interesting part is what hap…"
   },
   {
    "src": "status",
@@ -260,14 +276,6 @@
    "desc": "はじめに 個人で作っているWebアプリの実装を、最近はClaude Codeに任せています。PRが増えて全部は読みきれなくなり、ほとんどコードを読まずにマージしています。テストもレビューも動作確認も、AIにやらせています。 ところが、作業を終える前にテストを回すはずの仕組みが、一度もテストを動かしていませんでした。毎回0.1秒かからずに通っていて、確認は全部通っていたので、しばらく気づきませんで…"
   },
   {
-   "src": "zenn",
-   "title": "Claude Codeに作らせたPHP問題を403問実行して照合した。10問は書き出しの違いで漏れていた",
-   "link": "https://zenn.dev/mugen_web/articles/claude-code-php-questions-verify",
-   "date": 1794799687000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--uvDnBAgq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%259FPHP%25E5%2595%258F%25E9%25A1%258C%25E3%2582%2592403%25E5%2595%258F%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E7%2585%25A7%25E5%2590%2588%25E3%2581%2597%25E3%2581%259F%25E3%2580%258210%25E5%2595%258F%25E3%2581%25AF%25E6%259B%25B8%25E3%2581%258D%25E5%2587%25BA%25E3%2581%2597%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%25E3%2581%25A7%25E6%25BC%258F%25E3%2582%258C%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:MUGEN%2520WEB%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGFEMXVhMTJBamkzcEZqNVltXzdGVzVRR1JHSFFNWnJBcXZ1Tkg0Rk9OLUFxNnJBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "自作の資格問題集サイト(PHP初級)の問題500問を、Claude Codeに作らせました。コードを含む433問を検証コマンドにかけ、対象外を除いた問題をPHPで実行して、登録した正解と照合しました。2026年11月7日、PHP 8.2.0での結果は、直す前のコマンドで一致396件・不一致0件・対象外37件、直したあとのコマンドで一致403件・不一致0件・対象外30件です。 対象外のうち10問は…"
-  },
-  {
    "src": "research",
    "title": "Updating our coordinated vulnerability disclosure policy timelines",
    "link": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
@@ -353,7 +361,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 113 # Comments: 88"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 113 # Comments: 89"
   },
   {
    "src": "status",
@@ -449,7 +457,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 445 # Comments: 232"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 446 # Comments: 233"
   },
   {
    "src": "reddit",
@@ -489,7 +497,7 @@
    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
    "date": 1794349076000,
    "img": "",
-   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 461 # Comments: 222"
+   "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 461 # Comments: 223"
   },
   {
    "src": "status",
@@ -850,14 +858,6 @@
    "date": 1793145600000,
    "img": "",
    "desc": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program."
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.312",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
-   "date": 1793132660000,
-   "img": "",
-   "desc": "What's changed - Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub , such as Microsoft Entra ID's oid - Added click to send: in fullscreen, c…"
   },
   {
    "src": "status",
