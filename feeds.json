@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794792944853,
+ "updatedAt": 1794798498278,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Codeを入れて動かすところまではできたが、CLAUDE.mdやHooks、チームへの導入をどう進めればいいか分からない開発者へ。ハンズオンで全体像をつかめる一冊",
-   "link": "https://qiita.com/yasu1109/items/24c2aba4e86798caed8c",
-   "date": 1794792607000,
+   "title": "デフレ30年で「ハイパーインフレになる」——発生条件の剥落 : システム設計視点の行動経済学 (63)",
+   "link": "https://qiita.com/maskot1977/items/8054ca6abbe944b09562",
+   "date": 1794798192000,
    "img": "",
-   "desc": "Claude Codeを入れて、簡単なコードを書かせてみたところまでは進んだ。ただ、CLAUDE.mdには何を書くのか、Hooksやスキルはいつ使うのか、チームで使うならコストやセキュリティをどう管理するのか、といった先の部分は、断片的な情報をつなぎ合わせるしかない。『Cl..."
+   "desc": "user: 「システム設計視点の行動経済学」、第63回を始めましょう。その前に、まず前回の復習として、 「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62) https://qiita...."
   },
   {
    "src": "qiita",
-   "title": "AIを使うようになって、これから伸ばしたい力を考えてみた",
-   "link": "https://qiita.com/kmatsuda_slj/items/7629dc7ca925cccc0799",
-   "date": 1794792586000,
+   "title": "Biz AI の導入 skill：Claude Code・Codex・MetaCoder に任せて、既存の業務システムを AI 化する",
+   "link": "https://qiita.com/mysin008/items/f53e7eb1719b87574f00",
+   "date": 1794795528000,
    "img": "",
-   "desc": "はじめに 僕は普段から、AIとよく会話しています。 コードの説明を聞いたり、文章を整理したり、考えがまとまっていない段階で相談したり。会話を続けるうちに、「それなら一度試してみよう」と思えることも増えました。 使い方を振り返ると、僕はAIに、先輩に相談するような感覚で話し..."
+   "desc": "Meta の個人向けエージェント Muse は、予定やできごとをきっかけに自分から動き、前の会話を覚え、大事な操作の前には承認カードで本人に確かめます。Biz AI は、同じことを会社の業務システムの中で、職員一人ひとりの権限でやるオープンソースです（Apache-2.0、..."
   },
   {
    "src": "qiita",
-   "title": "AI エージェントに「目と手」を与えるスキルの設計と実装【連載：Claude Code で環境構築 3】",
-   "link": "https://qiita.com/dsol_y_matsuda/items/a7db4c91a7f2568c4493",
-   "date": 1794790957000,
+   "title": "AIに同じ指摘をしないためにスキルを作った。それでも指摘はなくならなかった",
+   "link": "https://qiita.com/suu_u/items/0f4729da1c0dc913b392",
+   "date": 1794795221000,
    "img": "",
-   "desc": "はじめに NTT ドコモソリューションズの松田と申します。 本連載「Claude Code で環境構築」では、実際に使用するサーバの環境構築を Claude Code を活用して自動化する中で得られた気付きやノウハウをまとめていきます。 AI エージェントに環境構築を任せ..."
+   "desc": "はじめに 最近、AIに実装やレビューを任せる中で、自分でスキルを作ったり、既存のスキルを修正したりするようになった。 ここでいうスキルは、AIに作業を依頼するときの手順や判断基準を、繰り返し参照できる形にまとめたものだ。 使ってみて分かったのは、スキルを作ることと、その内..."
   },
   {
    "src": "qiita",
-   "title": "AIエージェントを部下として並列に回す：指示書チェック項目",
-   "link": "https://qiita.com/sha44444/items/48cf2d6b82b16a99dd79",
-   "date": 1794790878000,
+   "title": "2026年11月16日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/b535b587ae8f19886531",
+   "date": 1794794514000,
    "img": "",
-   "desc": "連載「業務SEのための仕様駆動開発」第8回（最終回） AIは便利なのに、自分の仕事が思ったほど減らない Claude CodeなどのAIエージェントを使い始めると、文書もコードも速く出てきます。便利だと感じます。 ところが、実際の案件では、AIを使い始めても自分の作業..."
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 「ざっくり工数どのくらい？」に「ざっくり工数こ..."
   },
   {
    "src": "zenn",
@@ -273,7 +273,7 @@
    "link": "https://www.netmeister.org/blog/claude-delusion.html",
    "date": 1794663377000,
    "img": "",
-   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 151 # Comments: 199"
+   "desc": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 152 # Comments: 199"
   },
   {
    "src": "reddit",
@@ -409,7 +409,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 336 # Comments: 169"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 360 # Comments: 183"
   },
   {
    "src": "reddit",
@@ -617,7 +617,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 626 # Comments: 431"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 627 # Comments: 431"
   },
   {
    "src": "claude-code",
