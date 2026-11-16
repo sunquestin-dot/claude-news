@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794822613808,
+ "updatedAt": 1794828776646,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,22 @@
  },
  "items": [
   {
+   "src": "qiita",
+   "title": "Claude Codeを会議に参加させる",
+   "link": "https://qiita.com/MasaoSasaki/items/056fdca93221d9a57b4a",
+   "date": 1794826945000,
+   "img": "",
+   "desc": "今作業しているClaude Codeが会議に入っててくれるとスムーズなのになぁという希望から試行錯誤して、現実的な設計で完成した気がしたので、まとめておきます。 会議中に名前を呼ぶと、Claude Codeメインセッションの作業中の文脈のまま答えます。 会議中の「あれど..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code と Claude API の高速モード比較｜料金・速度・フォールバックの違い",
+   "link": "https://qiita.com/kenji_harada/items/40bb5b705ef00f8253b2",
+   "date": 1794824105000,
+   "img": "",
+   "desc": "Claude Code の更新と Claude API の更新の両方に「高速モード (fast mode)」が出てきます。名前は同じでも、2 つの公式発表に書かれている項目はほとんど重なりません。導入を決める前に、どの数字がどちらの発表に載っているのかを確かめておくと、見積..."
+  },
+  {
    "src": "status",
    "title": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
    "link": "https://status.claude.com/incidents/r1b4f9bbnsx1",
@@ -66,30 +82,6 @@
    "date": 1794819830000,
    "img": "",
    "desc": "3行で答え 根性で集中するのをやめて、仕事が回る「構造」をGitHubに作った。 AIへの共通ルール (AGENTS.md)、作業ボード、引き継ぎの記録、決めたことの置き場、の4つである。 どのAIエージェントでも、最初に AGENTS.md を読めば同じルールで動ける。..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code の Code Mode が「ゲートウェイ経由では起動しない」件と、「トークン 37% 削減」の出どころ",
-   "link": "https://qiita.com/bysuAPI/items/f0ef19d3b44a7eec5cf0",
-   "date": 1794814867000,
-   "img": "",
-   "desc": "Claude Code v2.1.323(2026-11-12)で、実験的な Code Mode が入りました。Claude がツールを 1 回ずつ呼ぶ代わりに JavaScript を書き、その中で複数のツール呼び出しをまとめて実行する機能です。 タイムラインでは「トーク..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeに作らせたPHP問題を403問実行して照合した。10問は書き出しの違いで漏れていた",
-   "link": "https://qiita.com/mugenweb/items/8ac18afb865a58dd07d8",
-   "date": 1794814845000,
-   "img": "",
-   "desc": "自作の資格問題集サイト(PHP初級)の問題500問を、Claude Codeに作らせました。コードを含む433問を検証コマンドにかけ、対象外を除いた問題をPHPで実行して、登録した正解と照合しました。2026年11月7日、PHP 8.2.0での結果は、直す前のコマンドで一致..."
-  },
-  {
-   "src": "zenn",
-   "title": "ClauDeck 2.0.3〜2.0.4 ― Antigravity の自動承認は、デッキで止めないようにしました",
-   "link": "https://zenn.dev/k386/articles/claudeck-203-204",
-   "date": 1794809579000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--OMfTB_5Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ClauDeck%25202.0.3%25E3%2580%259C2.0.4%2520%25E2%2580%2595%2520Antigravity%2520%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E6%2589%25BF%25E8%25AA%258D%25E3%2581%25AF%25E3%2580%2581%25E3%2583%2587%25E3%2583%2583%25E3%2582%25AD%25E3%2581%25A7%25E6%25AD%25A2%25E3%2582%2581%25E3%2581%25AA%25E3%2581%2584%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Mac%25E3%2581%25AE%25E6%25AF%258E%25E6%2597%25A5%25E3%2582%2592%25E3%2580%2581%25E3%2581%25A1%25E3%2582%2587%25E3%2581%25A3%25E3%2581%25A8%25E6%25A5%25BD%25E3%2581%25AB%25E3%2580%2582%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lBSkpjX0pTWFpCX0JSdGZPazRJbi1ERUIzMXloUlI0dTJlN3Z5YnlINzAwbHVkTVE9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ClauDeck の 2.0.3 と 2.0.4 を、2026年11月16日に公開しました。ClauDeck は、Claude Code・Codex・Antigravity の状態を Elgato Stream Deck のキーに表示し、承認が必要なときは画面を切り替えずにキーで承認・取り消しができる無料アプリです（macOS 13 以降、Apple シリコン、Stream Deck が必要）。…"
   },
   {
    "src": "zenn",
@@ -244,6 +236,14 @@
    "desc": "筆者はひとりで、2 つの AI エージェントを並走させながらゲームを作っている。先日、動物素材の整備に 2 日間を集中して使った。48 時間でアイコンの分類体系、画像パイプライン、動物一覧の Web フロント、テストルームで跳ねる赤いドラゴンまでが一気にできた。その裏で、失敗が 4 つあった。この記事はその 4 つが全部同じ形をしていた、という話だけを書く。 起点: 素材は全部正しいのに、全部左…"
   },
   {
+   "src": "zenn",
+   "title": "個人開発のアイデアを30分で市場調査する：Claude Codeに出典付きレポートを作らせて確かめる",
+   "link": "https://zenn.dev/aishigoto/articles/claude-code-market-research-sources",
+   "date": 1794786988000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HeGttQ7d--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2580%258B%25E4%25BA%25BA%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25AE%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2587%25E3%2582%25A2%25E3%2582%259230%25E5%2588%2586%25E3%2581%25A7%25E5%25B8%2582%25E5%25A0%25B4%25E8%25AA%25BF%25E6%259F%25BB%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AClaude%2520Code%25E3%2581%25AB%25E5%2587%25BA%25E5%2585%25B8%25E4%25BB%2598%25E3%2581%258D%25E3%2583%25AC%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%25A6%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2581%2597%25E3%2581%2594%25E3%2581%25A8%25E9%2581%2593%25E5%2585%25B7%25E5%25BA%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzUwMTdjMzdhMWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "※ この記事は Claude Code（AI）を使って執筆し、掲載しているコードと出力例はすべて実際に実行して確認しています。 Claude Codeに市場調査を頼むと、体裁の整ったレポートがすぐ出てきます。ただ、数字の出どころが書かれていなかったり、出典のURLが開けなかったりすると、そのレポートでは意思決定できません。 この記事では「フリーランス向けの稼働時間の記録アプリ」を題材に、Web検…"
+  },
+  {
    "src": "reddit",
    "title": "The latest Claude Desktop update in one picture",
    "link": "https://www.reddit.com/r/ClaudeAI/comments/1xx5iam/the_latest_claude_desktop_update_in_one_picture/",
@@ -329,7 +329,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 112 # Comments: 88"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 113 # Comments: 88"
   },
   {
    "src": "status",
@@ -417,7 +417,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1004 # Comments: 918"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1004 # Comments: 919"
   },
   {
    "src": "hn",
@@ -425,7 +425,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 426 # Comments: 209"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 428 # Comments: 211"
   },
   {
    "src": "reddit",
