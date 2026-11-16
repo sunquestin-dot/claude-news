@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794803701553,
+ "updatedAt": 1794810869659,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "0。AnthropicがFlashProveで『どのモデルが答えたか』の証明に70〜95倍のGPU時間が要ると公開した日、自分のセッション情報3箇所のうち具体的なスナップショット名を返したのはこの数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/64834797b7d491fe9e92",
+   "date": 1794810413000,
+   "img": "",
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、自分のセッション情報を返すツールが出した3つのフィールド(configured_model・session_context.model・external_metadata.last_served_model)のうち、..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code の「モデル」と「エフォート」の使い分け",
+   "link": "https://qiita.com/Kurodashi/items/8453492e8dc978c0c81d",
+   "date": 1794807172000,
+   "img": "",
+   "desc": "普段Claude Codeを使っていて、期待していた回答が返ってこなかった場合、なんとなくエフォートを上げてみたり、なんとなくモデルを上げてみたりしていませんか？自分も実際そうでした。 しかし、闇雲に設定を上げると問題が解決しないだけでなく、無駄にトークンと待ち時間を消費し..."
+  },
+  {
+   "src": "qiita",
+   "title": "AIが賢くなるほど「親切な設定」が裏目に出た。4倍に膨らんだルールを半分にした話",
+   "link": "https://qiita.com/hc_terashima/items/2ebef7fee87bea9ead5a",
+   "date": 1794805245000,
+   "img": "",
+   "desc": "AIが失敗するたびに、注意書きを1行ずつ足してきました。4か月足らずで、AIが会話のたびに最初に読むユーザー共通の設定ファイルは5KBから20KBへ、ちょうど4倍になっていました。ところがモデルが賢くなるほど、その親切な設定が判断を重くしていきます。今はこのファイル（そこか..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code × Flow-Next入門：要件整理から実装・レビュー・検証までをつなぐ",
    "link": "https://qiita.com/ditchcrimson/items/1cc196b1a1f0d5f244f2",
    "date": 1794803434000,
    "img": "",
    "desc": "はじめに Claude Codeを使うと、自然言語で依頼した内容をもとに、調査からコードの変更まで進められます。 一方で、機能を完成させるには、実装の前後にもさまざまな仕事があります。 何を満たせば完成なのかを決める 不明点や対象外の範囲を整理する 必要に応じて作業を分..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeを「自分の分身」として使うのをやめた。1プロダクト1エージェントという設計",
-   "link": "https://qiita.com/konaito/items/eb817a74f01756c7f8a0",
-   "date": 1794802625000,
-   "img": "",
-   "desc": "Claude Codeを自分の秘書や分身として使うのではなく、プロダクトそのものに専属のAIエージェントを配置するという運用を試しています。 小規模なクライアント案件で1か月ほど試行していますが、これが思った以上にうまく機能しています。 結論から言うと、Claude Cod..."
-  },
-  {
-   "src": "qiita",
-   "title": "modern-web-guidance を入れると Claude Code は最新の Web 機能を使うのか、あり／なしで 18 回比べてみた",
-   "link": "https://qiita.com/ulutimo/items/75cc9b32aea1168881b9",
-   "date": 1794802241000,
-   "img": "",
-   "desc": "はじめに Google Chrome チームが、コーディングエージェント向けのスキル集「Modern Web Guidance」を公開しています。エージェントは学習データの影響で古い書き方を選びがちです。そこで、最新の Web 標準に沿ったガイドを、必要なときにエージェン..."
-  },
-  {
-   "src": "qiita",
-   "title": "デフレ30年で「ハイパーインフレになる」——発生条件の剥落 : システム設計視点の行動経済学 (63)",
-   "link": "https://qiita.com/maskot1977/items/8054ca6abbe944b09562",
-   "date": 1794798192000,
-   "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第63回を始めましょう。その前に、まず前回の復習として、 「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62) https://qiita...."
   },
   {
    "src": "zenn",
