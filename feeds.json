@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794900733998,
+ "updatedAt": 1794906882825,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code の返事が英語に戻るのを Stop フックで差し戻す(日本語の割合を見る60行ほどの Python と、無限ループにしない回数制限)",
+   "link": "https://qiita.com/takamatt_ai/items/394364307904928ed73b",
+   "date": 1794904469000,
+   "img": "",
+   "desc": "この記事を読み終えると、Claude Code の返事が英語になったときに自動で「日本語で書き直して」と差し戻す Stop フックが置けます。 根拠は、手元で使っているフックに、2026-11-14 に英語・日本語・コード入りの返事の3通りを渡して、差し戻しの回数まで確かめ..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code にブラウザを操作させ、同じ記事を Qiita・Zenn・note へ7分で出す — 本文は SHA-256 で照合",
+   "link": "https://qiita.com/Suisei498/items/aa130b058bb46fc69961",
+   "date": 1794900774000,
+   "img": "",
+   "desc": "この記事は Zenn と note にも同じ内容を載せています。Zenn: https://zenn.dev/suisei498/articles/7277e7ed54267b ／ note: https://note.com/suisei498/n/ndef6fd493..."
+  },
+  {
+   "src": "qiita",
    "title": "Biz AI Agent：ノーコードでフローを描く時代から、スキル＋AI コーディングで「本物の AI エージェント」を作る時代へ（完全オープンソース）",
    "link": "https://qiita.com/mysin008/items/55e2f138d03d85cf8369",
    "date": 1794900501000,
@@ -58,22 +74,6 @@
    "date": 1794899563000,
    "img": "",
    "desc": "概要 ふとした拍子に、ClaudeCodeの履歴が、その人のAIへの習熟度を一番示してるんじゃないかと思い「AI肩書き診断（My AI Title）」というClaudeCodeプラグインを作りました。 Claude Code のセッションログから、AIとの付き合い方を6つ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeの「もう確認しない」がGitHubに2,539件の秘密を漏らしていた日 — 自分の2つのリポジトリの.gitignoreを確認した",
-   "link": "https://qiita.com/Hideki_Tamae/items/9032e142bf2207b0dc77",
-   "date": 1794896799000,
-   "img": "",
-   "desc": "はじめに 0件と、ファイルが存在しない。 これが今回確認した数字です。セキュリティ企業Apiiroが11月上旬に公開した調査で、Claude Codeの権限確認で「Yes, and don't ask again(今後確認しない)」を選んだときに保存される.claude/..."
-  },
-  {
-   "src": "qiita",
-   "title": "【初心者向け】AIの「ハーネス」とは結局何なのか？会社にたとえて整理してみた",
-   "link": "https://qiita.com/ihsadat/items/f8c22860f93c64721af0",
-   "date": 1794893953000,
-   "img": "",
-   "desc": "はじめに：話についていけなかった 仕事の中で、モデルが賢くなった話とハーネスの話は別だ、と聞きました。AIの使いやすさは、モデルの性能向上よりもハーネスの作り込みによるところが大きい、という趣旨です。 私はこのあたりの理解が追いついていませんでした。「ハーネス」という言葉..."
   },
   {
    "src": "status",
