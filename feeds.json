@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794892175567,
+ "updatedAt": 1794895887350,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": true,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "【初心者向け】AIの「ハーネス」とは結局何なのか？会社にたとえて整理してみた",
+   "link": "https://qiita.com/ihsadat/items/f8c22860f93c64721af0",
+   "date": 1794893953000,
+   "img": "",
+   "desc": "はじめに：話についていけなかった 仕事の中で、モデルが賢くなった話とハーネスの話は別だ、と聞きました。AIの使いやすさは、モデルの性能向上よりもハーネスの作り込みによるところが大きい、という趣旨です。 私はこのあたりの理解が追いついていませんでした。「ハーネス」という言葉..."
+  },
   {
    "src": "qiita",
    "title": "Agent SkillsがLinux Foundation傘下に——手持ちの27スキルを仕様で検査したら6本が不合格",
@@ -66,14 +74,6 @@
    "date": 1794884714000,
    "img": "",
    "desc": "「AI がテストを書いて、全部通りました」。それで本当に確かめられているのかは、テストが通ったことだけでは分かりません。 11月9日の「AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話」は、変異テストでこの穴を見つける方法を紹介し、11月17..."
-  },
-  {
-   "src": "qiita",
-   "title": "CLAUDE.mdの指示が効いたか、同じ課題で確かめる",
-   "link": "https://qiita.com/kentasatomi/items/41c2ad18ef05aa10ec4f",
-   "date": 1794882973000,
-   "img": "",
-   "desc": "CLAUDE.mdの指示が効いたか、同じ課題で確かめる Anthropicは2026年11月13日、AIの安全性を評価する際の設計や採点について「Building strong safety evaluations」を公開しました。その中で、ある変更の効果を調べるには、比..."
   },
   {
    "src": "status",
@@ -420,6 +420,14 @@
    "desc": "submitted by /u/neondragony [link] [comments]"
   },
   {
+   "src": "reddit",
+   "title": "Dumbest way to burn credits",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xv0vte/dumbest_way_to_burn_credits/",
+   "date": 1794552453000,
+   "img": "https://preview.redd.it/r5jaqrbstb1i1.jpeg?width=140&height=109&auto=webp&s=a9066041dde15d3c01a92562f88e626e302b29a7",
+   "desc": "Thought I was going to test Claude's limits to the fullest...😔 Now I am questioning my own existence submitted by /u/the-indoorboy [link] [comments]"
+  },
+  {
    "src": "engineering",
    "title": "Building strong safety evaluations",
    "link": "https://www.anthropic.com/research/building-strong-safety-evaluations",
@@ -442,14 +450,6 @@
    "date": 1794509190000,
    "img": "https://external-preview.redd.it/aG9raXl5MnY4ODFpMbje467g1BDMjuevrmY1hfpANzbJiCNApR1NH8LZyVzD.png?width=640&crop=smart&auto=webp&s=09e714f6c46e46722c31030375f2d14eb7f83c6a",
    "desc": "I’ve been making games for 19 years. Over the last few years it had turned into a job, and I stopped enjoying it. A few weeks ago I set myself a challenge, take one small game through the entire pipe…"
-  },
-  {
-   "src": "reddit",
-   "title": "Are we not allowed to even ask basic biology questions?",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xuhanm/are_we_not_allowed_to_even_ask_basic_biology/",
-   "date": 1794500931000,
-   "img": "https://preview.redd.it/2uzu1x7lk71i1.jpeg?width=640&crop=smart&auto=webp&s=741b8211f3f25b10fd1060336f2c66b742bb601d",
-   "desc": "submitted by /u/EndLineTech03 [link] [comments]"
   },
   {
    "src": "hn",
