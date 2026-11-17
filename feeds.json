@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794888274819,
+ "updatedAt": 1794892175567,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Agent SkillsがLinux Foundation傘下に——手持ちの27スキルを仕様で検査したら6本が不合格",
+   "link": "https://qiita.com/sakutto-panda/items/308bcb354f3527d03b09",
+   "date": 1794888785000,
+   "img": "",
+   "desc": "3 行まとめ 2026年10月22日、Anthropic は Agent Skills の仕様を Linux Foundation 傘下の Agentic AI Foundation（AAIF）に寄贈した。MCP に続く2つ目の寄贈で、SKILL.md の形式は特定のベ..."
+  },
+  {
+   "src": "qiita",
    "title": "「子孫へのツケ」は誰が受け取るのか——純債務・危機比較・世代間会計 : システム設計視点の行動経済学 (64)",
    "link": "https://qiita.com/maskot1977/items/00673a33a7f6f0888ed9",
    "date": 1794886806000,
@@ -74,14 +82,6 @@
    "date": 1794880977000,
    "img": "",
    "desc": "Nov 17 , 02:02 UTC Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor …"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code v2.1.326 破壊的変更まとめ：サンドボックス・権限・auto mode",
-   "link": "https://qiita.com/picnic/items/4318a3607391b42b6a00",
-   "date": 1794880848000,
-   "img": "",
-   "desc": "はじめに Claude Code v2.1.326 がリリースされました。エージェントチームと Code Mode の併用や OTEL のホスト属性といった新機能もあります。ただ、今回の本題は サンドボックス・権限チェック・auto mode・フック・プラグインの挙動を厳..."
   },
   {
    "src": "claude-code",
@@ -465,7 +465,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 450 # Comments: 236"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 450 # Comments: 239"
   },
   {
    "src": "reddit",
