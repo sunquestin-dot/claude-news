@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794895887350,
+ "updatedAt": 1794900733998,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Biz AI Agent：ノーコードでフローを描く時代から、スキル＋AI コーディングで「本物の AI エージェント」を作る時代へ（完全オープンソース）",
+   "link": "https://qiita.com/mysin008/items/55e2f138d03d85cf8369",
+   "date": 1794900501000,
+   "img": "",
+   "desc": "AI コーディングが、ここ 1 年で別物になりました。Claude Code や Codex に業務を説明すれば、設計・実装・テストまで書いて、自分で検証して報告してくれます。 それなのに、AI エージェントやワークフローを作るとなると、まだ Dify などのドラッグ＆ドロ..."
+  },
+  {
+   "src": "qiita",
+   "title": "あなたのAI肩書きは？Claude Codeのログから診断するプラグインを作った",
+   "link": "https://qiita.com/kazu04r/items/deb1897b5694fb30d95c",
+   "date": 1794899563000,
+   "img": "",
+   "desc": "概要 ふとした拍子に、ClaudeCodeの履歴が、その人のAIへの習熟度を一番示してるんじゃないかと思い「AI肩書き診断（My AI Title）」というClaudeCodeプラグインを作りました。 Claude Code のセッションログから、AIとの付き合い方を6つ..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Codeの「もう確認しない」がGitHubに2,539件の秘密を漏らしていた日 — 自分の2つのリポジトリの.gitignoreを確認した",
+   "link": "https://qiita.com/Hideki_Tamae/items/9032e142bf2207b0dc77",
+   "date": 1794896799000,
+   "img": "",
+   "desc": "はじめに 0件と、ファイルが存在しない。 これが今回確認した数字です。セキュリティ企業Apiiroが11月上旬に公開した調査で、Claude Codeの権限確認で「Yes, and don't ask again(今後確認しない)」を選んだときに保存される.claude/..."
+  },
+  {
+   "src": "qiita",
    "title": "【初心者向け】AIの「ハーネス」とは結局何なのか？会社にたとえて整理してみた",
    "link": "https://qiita.com/ihsadat/items/f8c22860f93c64721af0",
    "date": 1794893953000,
    "img": "",
    "desc": "はじめに：話についていけなかった 仕事の中で、モデルが賢くなった話とハーネスの話は別だ、と聞きました。AIの使いやすさは、モデルの性能向上よりもハーネスの作り込みによるところが大きい、という趣旨です。 私はこのあたりの理解が追いついていませんでした。「ハーネス」という言葉..."
-  },
-  {
-   "src": "qiita",
-   "title": "Agent SkillsがLinux Foundation傘下に——手持ちの27スキルを仕様で検査したら6本が不合格",
-   "link": "https://qiita.com/sakutto-panda/items/308bcb354f3527d03b09",
-   "date": 1794888785000,
-   "img": "",
-   "desc": "3 行まとめ 2026年10月22日、Anthropic は Agent Skills の仕様を Linux Foundation 傘下の Agentic AI Foundation（AAIF）に寄贈した。MCP に続く2つ目の寄贈で、SKILL.md の形式は特定のベ..."
-  },
-  {
-   "src": "qiita",
-   "title": "「子孫へのツケ」は誰が受け取るのか——純債務・危機比較・世代間会計 : システム設計視点の行動経済学 (64)",
-   "link": "https://qiita.com/maskot1977/items/00673a33a7f6f0888ed9",
-   "date": 1794886806000,
-   "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第63回を始めましょう。その前に、まず前回の復習として、 デフレ30年で「ハイパーインフレになる」——発生条件の剥落 : システム設計視点の行動経済学 (63) https://qiita.com/maskot1977/ite..."
-  },
-  {
-   "src": "qiita",
-   "title": "AI に書かせたテストは、どれだけ穴を見つけるのか。Claude Code・Codex・Gemini CLI のテストを変異テストで48回採点したら、95%以上を見抜き、仕様を渡すと点が下がった",
-   "link": "https://qiita.com/suwa_nobu/items/faf0d787a602cc5ec74c",
-   "date": 1794884714000,
-   "img": "",
-   "desc": "「AI がテストを書いて、全部通りました」。それで本当に確かめられているのかは、テストが通ったことだけでは分かりません。 11月9日の「AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話」は、変異テストでこの穴を見つける方法を紹介し、11月17..."
   },
   {
    "src": "status",
