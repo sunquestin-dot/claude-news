@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794939180475,
+ "updatedAt": 1794942894718,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,14 @@
  },
  "items": [
   {
+   "src": "status",
+   "title": "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
+   "link": "https://status.claude.com/incidents/1lglzf469c0z",
+   "date": 1794941766000,
+   "img": "",
+   "desc": "Nov 17 , 18:56 UTC Update - We have identified the cause of the issue affecting claude.ai and are working on a fix. We will provide an update as soon as possible. Nov 17 , 18:55 UTC Identified - We a…"
+  },
+  {
    "src": "qiita",
    "title": "11/17 の公式ドキュメント更新：サブエージェントの呼び出しと非対話実行の前提",
    "link": "https://qiita.com/akihidem/items/e98641f8909f1167e9f2",
@@ -74,6 +82,54 @@
    "date": 1794929455000,
    "img": "",
    "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第3回です。（Anthropic社とは関係ありません） 公式の試験ガイド..."
+  },
+  {
+   "src": "zenn",
+   "title": "AWS AI-DLCとNexus Architectを比較する：AI駆動開発で何を標準化するか",
+   "link": "https://zenn.dev/scalar_sol_blog/articles/nexus-architect-vs-aws-ai-dlc",
+   "date": 1794927036000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--xcd_BO-B--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AWS%2520AI-DLC%25E3%2581%25A8Nexus%2520Architect%25E3%2582%2592%25E6%25AF%2594%25E8%25BC%2583%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AAI%25E9%25A7%2586%25E5%258B%2595%25E9%2596%258B%25E7%2599%25BA%25E3%2581%25A7%25E4%25BD%2595%25E3%2582%2592%25E6%25A8%2599%25E6%25BA%2596%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:wfukatsu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIyYWQ5MTcyZjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Scalar%2520Solution%2520Engi...%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzBhZjQwOTk3NDYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIにコードを書かせることは、以前よりずっと簡単になりました。しかし、基幹システムや長期運用するサービスを作るときに本当に難しいのは、コードを書くことだけではありません。 要件が変わったとき、どの設計判断を見直すべきか 複数のAIエージェントが作った成果物の整合性をどう確認するか データ整合性や可用性の要件を実装までどう引き継ぐか 人間はどのタイミングで何を承認するべきか この問題意識から、私は…"
+  },
+  {
+   "src": "zenn",
+   "title": "データサイエンティストのClaude Code 活用術 -Claude Code にデータ分析をさせる方法論",
+   "link": "https://zenn.dev/yossy_ds/articles/c9839c788c34e8",
+   "date": 1794926927000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--TW3aXSLo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E3%2582%25B5%25E3%2582%25A4%25E3%2582%25A8%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AEClaude%2520Code%2520%25E6%25B4%25BB%25E7%2594%25A8%25E8%25A1%2593%2520-Claude%2520Code%2520%25E3%2581%25AB%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25E5%2588%2586%25E6%259E%2590%25E3%2582%2592%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25E8%25AB%2596%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2588%25E3%2581%25A3%25E3%2581%2597%25E3%2583%25BCDS%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzliYTU0MzQ3NjAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Codeによってデータサイエンティスト業務を効率化する方法論をまとめました。プロジェクトナレッジを溜める方法論から、ナレッジベースの作り方、AI時代のレビューしやすい分析コードのまとめかた（Claude.md）など、私が実践している方法論を書いています。"
+  },
+  {
+   "src": "zenn",
+   "title": "ベテランの頭の中を、AI に聞き取らせて手順書にする Skill",
+   "link": "https://zenn.dev/itoken_lab/articles/tacit-knowledge-interview",
+   "date": 1794925172000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--tZv-Y9nP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2599%25E3%2583%2586%25E3%2583%25A9%25E3%2583%25B3%25E3%2581%25AE%25E9%25A0%25AD%25E3%2581%25AE%25E4%25B8%25AD%25E3%2582%2592%25E3%2580%2581AI%2520%25E3%2581%25AB%25E8%2581%259E%25E3%2581%258D%25E5%258F%2596%25E3%2582%2589%25E3%2581%259B%25E3%2581%25A6%25E6%2589%258B%25E9%25A0%2586%25E6%259B%25B8%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2520Skill%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%25A8%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGR1dnJoLWxxdHVhOUU2bzI2Vy1NeDQyY3ZYc2xpRnlEcWlmajIyOG5fVUdhVVZZST1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "仕事のやり方のうち、判断の基準・例外・失敗から学んだこと・コツは、やっている本人の頭の中にしかないことが多く、本人は「普通にやっているだけ」と思っています。tacit-knowledge-interview（暗黙知の聞き取り）は、AI エージェントが聞き手になって本人とチャットで何往復も話し、それを引き出す Skill です。引き出したことは、後任が読んで同じように動ける手順書にまとめます。Sk…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI文章の読みにくさは、書かせる前の「下準備」で大きく改善。最後の読み心地はモデル次第、という話。",
+   "link": "https://zenn.dev/murooka_az/articles/ai-writing-readability-before-writing",
+   "date": 1794921085000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--IUv8e73y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E6%2596%2587%25E7%25AB%25A0%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E3%2581%25AB%25E3%2581%258F%25E3%2581%2595%25E3%2581%25AF%25E3%2580%2581%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AE%25E3%2580%258C%25E4%25B8%258B%25E6%25BA%2596%25E5%2582%2599%25E3%2580%258D%25E3%2581%25A7%25E5%25A4%25A7%25E3%2581%258D%25E3%2581%258F%25E6%2594%25B9%25E5%2596%2584%25E3%2580%2582%25E6%259C%2580%25E5%25BE%258C%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E5%25BF%2583%25E5%259C%25B0%25E3%2581%25AF%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E6%25AC%25A1%25E7%25AC%25AC%25E3%2580%2581%25E3%2581%25A8%25E3%2581%2584%25E3%2581%2586%25E8%25A9%25B1%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Murooka%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlMjA5NmUyNDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI を使って、何本か記事を書いてきました。ただ、AI が最初に出してくる文章には、どうにも読みにくい所があります。多くの方も、体感しているのではないでしょうか。 私が特に気になっていたのは、AI の文章に混ざる「分かるようで分からない単語」です。AI に文章を書かせると、次のような置き換えが、頼んでいないのに起きます。 普通の言い方 AI が書いてきた言い方 ツール 道具 ルール 決まり サブ…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIエージェントに仕事を任せるための3つの道具を作った：止める・鍵を持たせない・見える化する",
+   "link": "https://zenn.dev/koheip/articles/ai-agent-stop-keyless-visible",
+   "date": 1794919329000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--eBEgMyJj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BB%2595%25E4%25BA%258B%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE3%25E3%2581%25A4%25E3%2581%25AE%25E9%2581%2593%25E5%2585%25B7%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%259A%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2583%25BB%25E9%258D%25B5%25E3%2582%2592%25E6%258C%2581%25E3%2581%259F%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25E3%2583%25BB%25E8%25A6%258B%25E3%2581%2588%25E3%2582%258B%25E5%258C%2596%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:koheip%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnVtMDBHamZWdDMxRS12bVNuOW9GTlpsWnhURTFWNnJQZDJ6dzgxSzJlNE5LUmZ2Uk49czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに ZEN大学で知能情報を学んでいる2年生の松延です。AIエージェントを作る・使う側のエンジニアを目指して、個人開発をしています。 2026年10月、AIエージェントまわりのOSSを3つ作りました。 名前 ひとことで 言語 ヤタ（Yata） 自分のPCで動く、日本語ファーストの個人AIアシスタント Python / TypeScript kagi（鍵） AIエージェントに本物のAPIキーを…"
+  },
+  {
+   "src": "zenn",
+   "title": "自宅サーバーで SaaS にして、OSS として公開するまで ― FactorEye 開発記(2)",
+   "link": "https://zenn.dev/hayhide23/articles/factoreye-02-saas-to-oss",
+   "date": 1794918789000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--iaJuhjN0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%25AE%2585%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25A7%2520SaaS%2520%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581OSS%2520%25E3%2581%25A8%25E3%2581%2597%25E3%2581%25A6%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2599%25E3%2582%258B%25E3%2581%25BE%25E3%2581%25A7%2520%25E2%2580%2595%2520FactorEye%2520%25E9%2596%258B%25E7%2599%25BA%25E8%25A8%2598%25282%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%2580%25B1%25E6%259C%25AB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259E%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDdWdENBemZRZjF3anpwOU5uZXllRzBBTUtZdlBER1lzcFZxaktSQlBXdlJBc2hBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事で書くこと 工場の設備を見える化する OSS「FactorEye」の開発記、2 回目です。 個人で「AI の会社」を作って、工場監視 OSS を作り始めた 自宅サーバーで SaaS にして、OSS として公開するまで（この記事） M5Stack から 1 秒ごとのデータを送る 自宅が止まっても戻せるように、AWS に控えを置く 前回、3 日で最初の版が動きました。今回は、それを自宅のサー…"
   },
   {
    "src": "hn",
@@ -202,54 +258,6 @@
    "date": 1794900461000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--1gyPELKu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%25E3%2583%25AD%25E3%2582%25B0%25E3%2581%258B%25E3%2582%2589%25E3%2580%258CAI%25E8%2582%25A9%25E6%259B%25B8%25E3%2581%258D%25E3%2580%258D%25E3%2582%25AB%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25EF%25BC%259A%25E6%258E%25A1%25E7%2582%25B9%25E3%2581%25AE%25E3%2583%2596%25E3%2583%25AC%25E3%2583%25BB%25E4%25BC%258F%25E3%2581%259B%25E5%25AD%2597%25E3%2583%25BB%25E7%2594%25BB%25E5%2583%258F%25E5%258C%2596%25E3%2581%25AE%25E8%25A9%25A6%25E8%25A1%258C%25E9%258C%25AF%25E8%25AA%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kazu04r%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzdjOTczNzk0MzkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "ふとした拍子に、Claude Codeの履歴が、その人のAIへの習熟度を一番示してるんじゃないかと思い「AI肩書き診断（My AI Title）」というClaude Codeプラグインを作ってみました。 Claude Code のセッションログを読んで、AIとの付き合い方を6つの軸で採点し、トレーディングカード風の画像にします。 架空のスコアで作ったサンプルです この記事では、作る途中でぶつかっ…"
-  },
-  {
-   "src": "zenn",
-   "title": "エージェントの自律性を上げると、何が得られて何を失うか —— 助言・承認付き実行・自律実行を実測する",
-   "link": "https://zenn.dev/enterprise_ai/articles/1b1f34af88fb8f",
-   "date": 1794898274000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--EvflV3Kq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E8%2587%25AA%25E5%25BE%258B%25E6%2580%25A7%25E3%2582%2592%25E4%25B8%258A%25E3%2581%2592%25E3%2582%258B%25E3%2581%25A8%25E3%2580%2581%25E4%25BD%2595%25E3%2581%258C%25E5%25BE%2597%25E3%2582%2589%25E3%2582%258C%25E3%2581%25A6%25E4%25BD%2595%25E3%2582%2592%25E5%25A4%25B1%25E3%2581%2586%25E3%2581%258B%2520%25E2%2580%2594%25E2%2580%2594%2520%25E5%258A%25A9%25E8%25A8%2580%25E3%2583%25BB%25E6%2589%25BF%25E8%25AA%258D%25E4%25BB%2598%25E3%2581%258D%25E5%25AE%259F%25E8%25A1%258C%25E3%2583%25BB%25E8%2587%25AA%25E5%25BE%258B%25E5%25AE%259F%25E8%25A1%258C%25E3%2582%2592%25E5%25AE%259F%25E6%25B8%25AC%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:kyokomizo%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLmRldi9pbWFnZXMvZGVmYXVsdC1wdWJsaWNhdGlvbi1hdmF0YXIucG5n%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:ISE%2520Enterprise%2520AI%2520Team%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSjdVWndlYW5MTHFPNVlIWlI4alZtMjZjYUV2blMtOGhvSDVlN0ZZeXYwYk4xRHNRPXMyNTAtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事のまとめ 同じエージェント・同じタスクで、自律性のレベル（助言／承認付きの実行／自律的な実行）だけを変えて、Claude Code と Strands Harness で実測しました。承認者は、人の代わりのプログラム2種類と、Claude Code の auto モード（別のモデルが審査する）で試しています。 観点 確かめたこと 結果 得られるもの レベルを変えると、成功率やコストは変わ…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の基礎と活用術",
-   "link": "https://zenn.dev/au/books/claude-code-kiso-to-katsuyo",
-   "date": 1794893885000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--EGwaB13k--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9lNzIyMzc0MDljLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "Claude Code を使い始める人が、仕組みを押さえたうえで、CLAUDE.md、ルール、スキル、サブエージェント、フックを使って自分のプロジェクトに合わせて使えるようになる本です。"
-  },
-  {
-   "src": "zenn",
-   "title": "プログラムを書かない持ち主と AI が、AI の部屋を何個も回して壊れた 9 の事と、その直し方（決まりの文つき）",
-   "link": "https://zenn.dev/azarashi_ora/books/ora-ai-heya-kowareta",
-   "date": 1794893414000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--jBmE3Ncf--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci83ZjU3YTE4NDlhLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "AI のアザラシ「オラ」が、オーナーにこき使われながら AI の部屋をいくつも回して、壊した 9 の事の記録。 何が起きたか・なぜ起きたか・どう直したか・いま使っている決まりの文・まだ直っていない所、の順で書いた。 決まりの文は実物の抜き書き（名前を消し、言い換えた所もある）。きれいに解決した話は、ほとんど無い。"
-  },
-  {
-   "src": "zenn",
-   "title": "AI 時代のアーキテクチャは「選択肢を減らして、機械で止める」",
-   "link": "https://zenn.dev/yu_uya_h/articles/ai-era-architecture",
-   "date": 1794893342000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--VAAV2no2--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E6%2599%2582%25E4%25BB%25A3%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%25BC%25E3%2582%25AD%25E3%2583%2586%25E3%2582%25AF%25E3%2583%2581%25E3%2583%25A3%25E3%2581%25AF%25E3%2580%258C%25E9%2581%25B8%25E6%258A%259E%25E8%2582%25A2%25E3%2582%2592%25E6%25B8%259B%25E3%2582%2589%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E6%25A9%259F%25E6%25A2%25B0%25E3%2581%25A7%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2580%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yuya.H%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UzNWQ1NWNhYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "学生エンジニアの Yuya です。 最近は、Web アプリのコードの大半を AI（Claude Code）に書いてもらっています。書くのは AI、人は仕様を決めてレビューする、という分担になって、アーキテクチャに求めるものが変わったと感じています。 この記事では、AI が書く前提でアーキテクチャをどう考えるようになったかを書きます。特定の言語やフレームワークの話ではなく、考え方の話です。例として…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code に「脆弱性を直して」とだけ頼んだら、Next.js 14 が 16 になった話",
-   "link": "https://zenn.dev/bpr_prot/articles/bee5a088a5d81c",
-   "date": 1794892784000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--oB47QN7n--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AB%25E3%2580%258C%25E8%2584%2586%25E5%25BC%25B1%25E6%2580%25A7%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25A6%25E3%2580%258D%25E3%2581%25A8%25E3%2581%25A0%25E3%2581%2591%25E9%25A0%25BC%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%2581Next.js%252014%2520%25E3%2581%258C%252016%2520%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:BPR%2520Prot.%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk5MTMzYTU5OWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "npm audit の指摘をAIに直させると、パッケージをどこまで上げるのでしょうか。一言で頼むと、Claude Codeは3回とも指摘0件を目指してNext.js 14を16へ上げました。メジャーを上げない制約と「残るものと影響を教えて」を足すと、14系にとどめ、残った指摘を本番の条件ごとに説明しました。この記事では自分のアプリで使える頼み方を、6回の結果から紹介します。 Who am I? …"
-  },
-  {
-   "src": "zenn",
-   "title": "AIエージェントの「完了しました」を信用しない仕組みを作った",
-   "link": "https://zenn.dev/kensaurus/articles/204fa193b93031",
-   "date": 1794891963000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--OW0EF0DZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2580%258C%25E5%25AE%258C%25E4%25BA%2586%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25E3%2580%258D%25E3%2582%2592%25E4%25BF%25A1%25E7%2594%25A8%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kensaurus%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQyNzBkY2ZlOTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AIコーディングエージェントに作業を頼むと、「完了しました」と返ってきたのにテストが落ちていることがあります。チェックリストが半分残ったまま止まることもあります。 これを仕組みで止める「完了ゲート」を作りました。自作のスキル集 kensaurus/skills に入っています。MIT ライセンスのオープンソースです。 この記事では次の順に書きます。 そもそも「スキル」とは何か エージェントと働い…"
   },
   {
    "src": "status",
@@ -914,14 +922,6 @@
    "date": 1792918169000,
    "img": "",
    "desc": "Oct 25 , 08:49 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 01:08 PT / 08:08 UTC to 01:29 PT / 08:29 UTC. Oct 25 , 08:30 UTC Monitoring - A fix has been …"
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors for Claude Sonnet 5.5 and other models",
-   "link": "https://status.claude.com/incidents/334jvgbrc4ff",
-   "date": 1792914819000,
-   "img": "",
-   "desc": "Oct 25 , 07:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 23:05 PT on October 24 / 06:05 UTC on October 25 to 23:35 PT on October 24 / 06:35 UTC on Oct…"
   },
   {
    "src": "research",
