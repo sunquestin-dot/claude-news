@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794956619417,
+ "updatedAt": 1794959885209,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,46 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "エージェントが書くコードを読むための Git クライアント agentig を作った",
+   "link": "https://qiita.com/mickamy/items/b31019ce7607440a1dde",
+   "date": 1794959000000,
+   "img": "",
+   "desc": "Claude Code や Codex にコードを書かせるようになって、自分の仕事は書くことから、読んで指摘を返すことに移りました。その仕事に合わせて、Mac の Git クライアント agentig を作りました。エージェントはいつものターミナルで動かしたまま、その横で変..."
+  },
+  {
+   "src": "status",
+   "title": "Claude unable to join meetings",
+   "link": "https://status.claude.com/incidents/b5cq662qf2wm",
+   "date": 1794958783000,
+   "img": "",
+   "desc": "Nov 17 , 23:39 UTC Update - Claude Meetings (beta) is joining calls more reliably, and we are monitoring it. It remains enabled for all Enterprise customers. Team customers can again add Claude to ne…"
+  },
+  {
+   "src": "qiita",
+   "title": "AIエージェントにテストを足させる条件を規約に書く ─ 足さない変更の線引きと、減らすときに残すテスト",
+   "link": "https://qiita.com/itaraiguma/items/f1c47c4269609481d80e",
+   "date": 1794958721000,
+   "img": "",
+   "desc": "この記事でできること AIエージェントに実装を任せていると、変更のたびにテストが足されていきます。1件ずつは筋が通っていても、まとめて見ると増える一方で、減ることがほとんどありません。テストが増えればCIも手元の確認も遅くなり、エージェントが読むファイルも大きくなります。..."
+  },
+  {
+   "src": "qiita",
+   "title": "claude.aiのサインイン切れを夜間ジョブの前に検知する — claude -p を止めないための監視スクリプト",
+   "link": "https://qiita.com/joinclass/items/9b302cc1dafef6a69f5f",
+   "date": 1794958205000,
+   "img": "",
+   "desc": "はじめに 当社（合同会社ジョインクラス）では、Mac の launchd で十数本の定期ジョブを回し、その多くが claude -p を無人で呼んでいます。記事の下書き、売上の集計、朝のダイジェストなどです。 困るのは、サインインが切れていても claude -p のジョ..."
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.327",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+   "date": 1794957465000,
+   "img": "",
+   "desc": "What's changed - Added a confirmation before /install-github-app changes a repository - Added claude mcp add-json <name> - to read the server's JSON from stdin, so tokens can stay off the command lin…"
+  },
   {
    "src": "status",
    "title": "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
@@ -60,44 +100,12 @@
    "desc": "はじめに Claudeをリモート接続して使う方法があることを知りました。 もともと自宅のPCにリモート接続してClaudeを使おうと思っていたのですが、OCIを使っているんだしそちらの方がいいんじゃないかと思って挑戦してみました。 結果として、いつでもどこでも、バイブコー..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code の \"File has not been read yet\" / \"File has been modified since read\" / \"File unchanged since last read\" は放っておいてよい？（気にしなくていい場合と、止まったときの直し方）",
-   "link": "https://qiita.com/homhom44/items/f4780d9853b16d4650ff",
-   "date": 1794951111000,
-   "img": "",
-   "desc": "Claude Code の作業ログに File has not been read yet. Read it first before writing to it. のような赤いエラーが出て、驚いたことはないでしょうか。結論から言うと、これらは多くの場合、人間ではなく Cl..."
-  },
-  {
-   "src": "status",
-   "title": "Claude unable to join meetings",
-   "link": "https://status.claude.com/incidents/b5cq662qf2wm",
-   "date": 1794948449000,
-   "img": "",
-   "desc": "Nov 17 , 02:02 UTC Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor …"
-  },
-  {
    "src": "zenn",
    "title": "Gemini をサブスクの枠でスクリプトから呼びたかった。gemini で探すと0件、許可を書いても起動のたびに消えた",
    "link": "https://zenn.dev/claire_ai/articles/agy-iriguchi",
    "date": 1794940273000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--5hfDKIZE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Gemini%2520%25E3%2582%2592%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25AE%25E6%259E%25A0%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2597%25E3%2583%2588%25E3%2581%258B%25E3%2582%2589%25E5%2591%25BC%25E3%2581%25B3%25E3%2581%259F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582gemini%2520%25E3%2581%25A7%25E6%258E%25A2%25E3%2581%2599%25E3%2581%25A80%25E4%25BB%25B6%25E3%2580%2581%25E8%25A8%25B1%25E5%258F%25AF%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2582%2582%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB%25E6%25B6%2588%25E3%2581%2588%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code の作業の検収の一部を、Gemini にも見せている。Claude Code が作ったものを、別の AI の目でも確かめるためだ。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/nec2a658c37f4 課題：サブスクの枠で、スクリプトから…"
-  },
-  {
-   "src": "qiita",
-   "title": "11/17 の公式ドキュメント更新：サブエージェントの呼び出しと非対話実行の前提",
-   "link": "https://qiita.com/akihidem/items/e98641f8909f1167e9f2",
-   "date": 1794938193000,
-   "img": "",
-   "desc": "2026-11-17 に更新された 13 ページは、大きく 3 つの方向にまとまっています。サブエージェントを誰がどう起動するかの整理、画面の前に人がいない実行（非対話・バックグラウンド・定期実行）での挙動の明記、そしてフックや定期タスクが動く条件の追記です。新しい機能の紹..."
-  },
-  {
-   "src": "qiita",
-   "title": "未コミット差分の要約スキルを実リポジトリで使うための設計勘所（2026-11-17 時点）",
-   "link": "https://qiita.com/akihidem/items/912922fbb4c68517ce2d",
-   "date": 1794938102000,
-   "img": "",
-   "desc": "Claude Code のスキルの最初の題材として、「未コミットの変更を要約し、危ない箇所を指摘する」スキルは手頃です。公式 docs（2026-11-17 取得）も、これを最初のスキル作成例として載せています [1]。この記事は、その例を実リポジトリで使うときに外せない設..."
   },
   {
    "src": "zenn",
@@ -177,7 +185,7 @@
    "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
    "date": 1794918117000,
    "img": "",
-   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 133 # Comments: 71"
+   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 137 # Comments: 73"
   },
   {
    "src": "zenn",
@@ -241,7 +249,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 154 # Comments: 142"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 251 # Comments: 196"
   },
   {
    "src": "zenn",
@@ -505,7 +513,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1006 # Comments: 921"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1007 # Comments: 921"
   },
   {
    "src": "hn",
@@ -513,7 +521,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 454 # Comments: 240"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 455 # Comments: 240"
   },
   {
    "src": "reddit",
@@ -585,7 +593,7 @@
    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
    "date": 1794332684000,
    "img": "",
-   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 138 # Comments: 90"
+   "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 138 # Comments: 91"
   },
   {
    "src": "reddit",
@@ -673,7 +681,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 627 # Comments: 431"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 628 # Comments: 431"
   },
   {
    "src": "claude-code",
@@ -834,14 +842,6 @@
    "date": 1793381245000,
    "img": "",
    "desc": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 327 # Comments: 297"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.314",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
-   "date": 1793322386000,
-   "img": "",
-   "desc": "What's changed - Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode - Added an optional groups…"
   },
   {
    "src": "status",
