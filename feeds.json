@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794931622560,
+ "updatedAt": 1794935757828,
  "sources": {
   "news": {
    "ok": true,
@@ -129,7 +129,7 @@
    "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
    "date": 1794918117000,
    "img": "",
-   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 130 # Comments: 66"
+   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 133 # Comments: 71"
   },
   {
    "src": "zenn",
@@ -193,7 +193,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 127 # Comments: 128"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 154 # Comments: 142"
   },
   {
    "src": "zenn",
@@ -322,6 +322,14 @@
    "date": 1794727680000,
    "img": "https://external-preview.redd.it/NGlidHAxdnk1cTFpMZQSaU7yGMLpoMUcg5-RYio5f9BVEb6FxdDDZTUnYqh4.png?width=640&crop=smart&auto=webp&s=e123650b63af63fa05672fae78c76c8684dc1960",
    "desc": "I let Fable 5.2 write its own transformer. Opus 5.5 generated the training data: about 3500 facts (and small talk + math), each asked and answered in different ways. It has 367K parameters and runs o…"
+  },
+  {
+   "src": "reddit",
+   "title": "Anthropic has opened up Claude Mythos access to the public.",
+   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xwguid/anthropic_has_opened_up_claude_mythos_access_to/",
+   "date": 1794700012000,
+   "img": "https://preview.redd.it/4y1whae7un1i1.png?width=140&height=122&auto=webp&s=1485f70a3b00650823e2e5d1e098c5b05972719c",
+   "desc": "I just noticed pretty much anyone can get access now through KYC. Enrolling used to require CVE or business verification but now individual researchers can apply with just their ID. To those who want…"
   },
   {
    "src": "reddit",
@@ -578,14 +586,6 @@
    "date": 1794331917000,
    "img": "https://external-preview.redd.it/bzM5anNwOWxrdDBpMX44gEo0tVeezJH7nMlLhbL4EA0mLy-DAxnk370l8xyb.png?width=640&crop=smart&auto=webp&s=d04dc64429f05ea742f24f7899f884cbb159a4a8",
    "desc": "I got tired of reading a scrolling list of tool calls, so I had Claude Code build a mod that shows the work as a map in a pane beside the chat. The agent sits in the centre, with ten stations around …"
-  },
-  {
-   "src": "reddit",
-   "title": "it’s getting smarter frfr",
-   "link": "https://www.reddit.com/r/ClaudeAI/comments/1xsrfcl/its_getting_smarter_frfr/",
-   "date": 1794328215000,
-   "img": "https://preview.redd.it/vnnou6n0bt0i1.jpeg?width=640&crop=smart&auto=webp&s=5a5ddf4ae2ebb86c82b731a1ba97f037886c9e9b",
-   "desc": "submitted by /u/Worldly_Chemistry_81 [link] [comments]"
   },
   {
    "src": "claude-code",
