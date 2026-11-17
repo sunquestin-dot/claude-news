@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794873147511,
+ "updatedAt": 1794878687030,
  "sources": {
   "news": {
    "ok": true,
@@ -26,12 +26,12 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   "zenn": {
    "ok": true,
@@ -45,27 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "返信ツリーの再帰UIをServer Componentsで実装する ― フラットJSONから深さ制限・N+1回避まで",
-   "link": "https://qiita.com/joinclass/items/b60258be5f3096a6b3c3",
-   "date": 1794871803000,
+   "title": "Claudeで書いた記事を、承認を経てQiitaに出せる仕組みを社内で試作している話",
+   "link": "https://qiita.com/tasekino/items/a372eef37573985936d3",
+   "date": 1794877635000,
    "img": "",
-   "desc": "はじめに：なぜ返信ツリーを作ったか 当社（合同会社ジョインクラス）は、営業・マーケ・出版の大部分を Claude Code と launchd の定期ジョブで回しています。その中の1本が、リード企業のSNS投稿を監視して「価値提供型リプライ」の候補を出す auto-sns..."
+   "desc": "はじめに 「技術記事を書いて社外に発信しよう」という声は、どの会社でもよく聞きます。一方で、実際に記事が増えるかというと、なかなか増えません。書く時間がない、何を書けばよいかわからない、そして「これを社外に出して大丈夫か」の判断がつかない、という理由が多いと感じています。..."
   },
   {
    "src": "qiita",
-   "title": "AI が今どきの HTML・CSS を書くようになると噂の Chrome 公式スキルを、Claude Code で試してみた",
-   "link": "https://qiita.com/kakushigoto/items/ba704c992898a551f08f",
-   "date": 1794871373000,
+   "title": "部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい",
+   "link": "https://qiita.com/nuco_d/items/b279477cbcdbe5921abd",
+   "date": 1794877099000,
    "img": "",
-   "desc": "🤖 AI が試して書きました。ネタは人が選び、検証と執筆は Claude Code が行いました。実験に使う許可は人の承認を得て使い、追試も人の承認を得て行いました。タイトルは人が決めました。人は公開前の確認もしています。数字は実際に回した結果です。 AI に We..."
+   "desc": "はじめに AIはプログラミングだけでなく、営業資料や発表資料まで作れるようになった。 部下に資料を頼むと、AIで作ったスライドが返ってくることも増えたのではないだろうか。 そして諸君は、そのスライドをひと目見てこう思ったはずだ。 「これ、生成AIで作ったでしょ？」 と。本..."
   },
   {
    "src": "qiita",
-   "title": "AIに長いMarkdownを直させるときは、見出し検索→範囲読み→差分確認にする",
-   "link": "https://qiita.com/20051215kaito/items/d7c766e51a1b92af499c",
-   "date": 1794867296000,
+   "title": "直近16日間に公開した記事25本、見出しは全部「数字。」から始まっていた。今日はそれをやめた",
+   "link": "https://qiita.com/Hideki_Tamae/items/ce321140fb9db9b9ce3a",
+   "date": 1794876441000,
    "img": "",
-   "desc": "長い運用ファイルをAIに読ませ、途中までしか読めていないことに気づかないまま書き換えたことがありました。 その後は、先に見出しを読み、関係する箇所を行番号で開く手順にしています。やることの一覧が200KBを超えたときも、見出しと親の項目だけを抜き出すと約35KBになった、と..."
+   "desc": "はじめに 25/25。 これが今回の数字です。2026年11月1日から11月16日までの16日間、自分が公開した記事は25本あります。この記事を書く直前に、その25本の見出しの冒頭1文字を実際に確認したところ、25本すべてが数字で始まり、さらに25本すべてが「数字。〇〇社..."
+  },
+  {
+   "src": "qiita",
+   "title": "最初の一歩はCLAUDE.mdだった：プロジェクトの始め方",
+   "link": "https://qiita.com/tntetsu/items/c1dff0a7f6b77fe9df07",
+   "date": 1794873681000,
+   "img": "",
+   "desc": "この記事は、連載「はじめてのAgentic Coding実践記録」の第2回です。コードを1行も書かずに、Claude Codeへの指示だけでソフトウェアを約5か月育てた経験から、1回1テーマで書いています。 この記事の要点 「まず何をすればいいのか」。空のディレクトリ..."
   },
   {
    "src": "claude-code",
@@ -74,14 +82,6 @@
    "date": 1794867065000,
    "img": "",
    "desc": "What's changed - Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode - Added a startup warning when an --a…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code で \"String to replace not found in file\" / \"Error editing file\" が繰り返し出るとき（タブインデントのファイルで起きる既知の不具合と回避策）",
-   "link": "https://qiita.com/homhom44/items/8f7e6e4b04257ea048cc",
-   "date": 1794864704000,
-   "img": "",
-   "desc": "Claude Code が Edit ツールで Error editing file や String to replace not found in file. を出し、同じ編集を何度もやり直す。しかも sed や perl に逃げ始める。そういう症状が、タブでインデント..."
   },
   {
    "src": "status",
@@ -457,7 +457,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 446 # Comments: 233"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 449 # Comments: 235"
   },
   {
    "src": "reddit",
