@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794878687030,
+ "updatedAt": 1794884314294,
  "sources": {
   "news": {
    "ok": true,
@@ -30,8 +30,8 @@
    "count": 30
   },
   "reddit": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 20
   },
   "zenn": {
    "ok": true,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "CLAUDE.mdの指示が効いたか、同じ課題で確かめる",
+   "link": "https://qiita.com/kentasatomi/items/41c2ad18ef05aa10ec4f",
+   "date": 1794882973000,
+   "img": "",
+   "desc": "CLAUDE.mdの指示が効いたか、同じ課題で確かめる Anthropicは2026年11月13日、AIの安全性を評価する際の設計や採点について「Building strong safety evaluations」を公開しました。その中で、ある変更の効果を調べるには、比..."
+  },
+  {
+   "src": "status",
+   "title": "Claude unable to join meetings",
+   "link": "https://status.claude.com/incidents/b5cq662qf2wm",
+   "date": 1794880977000,
+   "img": "",
+   "desc": "Nov 17 , 02:02 UTC Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor …"
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code v2.1.326 破壊的変更まとめ：サンドボックス・権限・auto mode",
+   "link": "https://qiita.com/picnic/items/4318a3607391b42b6a00",
+   "date": 1794880848000,
+   "img": "",
+   "desc": "はじめに Claude Code v2.1.326 がリリースされました。エージェントチームと Code Mode の併用や OTEL のホスト属性といった新機能もあります。ただ、今回の本題は サンドボックス・権限チェック・auto mode・フック・プラグインの挙動を厳..."
+  },
   {
    "src": "qiita",
    "title": "Claudeで書いた記事を、承認を経てQiitaに出せる仕組みを社内で試作している話",
@@ -58,22 +82,6 @@
    "date": 1794877099000,
    "img": "",
    "desc": "はじめに AIはプログラミングだけでなく、営業資料や発表資料まで作れるようになった。 部下に資料を頼むと、AIで作ったスライドが返ってくることも増えたのではないだろうか。 そして諸君は、そのスライドをひと目見てこう思ったはずだ。 「これ、生成AIで作ったでしょ？」 と。本..."
-  },
-  {
-   "src": "qiita",
-   "title": "直近16日間に公開した記事25本、見出しは全部「数字。」から始まっていた。今日はそれをやめた",
-   "link": "https://qiita.com/Hideki_Tamae/items/ce321140fb9db9b9ce3a",
-   "date": 1794876441000,
-   "img": "",
-   "desc": "はじめに 25/25。 これが今回の数字です。2026年11月1日から11月16日までの16日間、自分が公開した記事は25本あります。この記事を書く直前に、その25本の見出しの冒頭1文字を実際に確認したところ、25本すべてが数字で始まり、さらに25本すべてが「数字。〇〇社..."
-  },
-  {
-   "src": "qiita",
-   "title": "最初の一歩はCLAUDE.mdだった：プロジェクトの始め方",
-   "link": "https://qiita.com/tntetsu/items/c1dff0a7f6b77fe9df07",
-   "date": 1794873681000,
-   "img": "",
-   "desc": "この記事は、連載「はじめてのAgentic Coding実践記録」の第2回です。コードを1行も書かずに、Claude Codeへの指示だけでソフトウェアを約5か月育てた経験から、1回1テーマで書いています。 この記事の要点 「まず何をすればいいのか」。空のディレクトリ..."
   },
   {
    "src": "claude-code",
@@ -98,14 +106,6 @@
    "date": 1794856158000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s---0qD890s--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:While%2520we%2520argue%2520whether%2520AI%2520can%2520code%252C%2520some%2520developers%2520went%252010x%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Pavel%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS1FXOE1saFoxVFcwYlYwbDkwRDJ4QmdaN3A2TGpOeFJpRy1DX3N5YUh3R2VTd0QzbFc9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "We at DevGhost looked at the public Git history of microsoft/vscode and TryGhost/Ghost. For several developers, our estimates show a 5–21× jump in output over a year. The interesting part is what hap…"
-  },
-  {
-   "src": "status",
-   "title": "Claude unable to join meetings",
-   "link": "https://status.claude.com/incidents/b5cq662qf2wm",
-   "date": 1794852610000,
-   "img": "",
-   "desc": "Nov 16 , 18:10 UTC Update - Claude may still be unable to join some calls in Claude Meetings (beta), and Auto-join remains paused. Calls already in progress and other Claude features are not affected…"
   },
   {
    "src": "zenn",
@@ -457,7 +457,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 449 # Comments: 235"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 450 # Comments: 236"
   },
   {
    "src": "reddit",
