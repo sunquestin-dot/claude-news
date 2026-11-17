@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794927809557,
+ "updatedAt": 1794931622560,
  "sources": {
   "news": {
    "ok": true,
@@ -44,6 +44,30 @@
  },
  "items": [
   {
+   "src": "qiita",
+   "title": "スマホから Codex / Claude Code / Antigravity を遠隔操作・承認できる OSS コンソール「Agent Control」を作った（日本語UI対応）",
+   "link": "https://qiita.com/guuguo/items/a1b0a6b3e41219379b16",
+   "date": 1794929513000,
+   "img": "",
+   "desc": "Codex、Claude Code、Antigravity、Grok を併用していると、次のような悩みがよく起きます。 デスクにいる時：複数のターミナルやウィンドウを開きっぱなしにしてメモリを消費し、どのタスクが承認待ちか分かりにくい。 席を離れた時：移動中や休憩中にスマ..."
+  },
+  {
+   "src": "qiita",
+   "title": "【第3回】ゼロから目指す! CCDV-F合格への道：用語集②",
+   "link": "https://qiita.com/Ray_T/items/aee17ff9dd0e172ae9ec",
+   "date": 1794929455000,
+   "img": "",
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第3回です。（Anthropic社とは関係ありません） 公式の試験ガイド..."
+  },
+  {
+   "src": "qiita",
+   "title": "サービスの窓口を思い切って MCP だけにしたら GUI が意外といらないことに気づいた",
+   "link": "https://qiita.com/AllegroMoltoV/items/30e7806166e771ee45bb",
+   "date": 1794929351000,
+   "img": "",
+   "desc": "はじめに 私は OBS Studio のプラグインを配布できるレジストリ「配信プラグイン倉庫くん」を作っています。 今回この「倉庫くん」をリリースする際、プラグイン作者の提出窓口を思い切って MCP 経由オンリーにしてみました。この形で 1 週間ほど運用して、私は改..."
+  },
+  {
    "src": "zenn",
    "title": "AWS AI-DLCとNexus Architectを比較する：AI駆動開発で何を標準化するか",
    "link": "https://zenn.dev/scalar_sol_blog/articles/nexus-architect-vs-aws-ai-dlc",
@@ -76,36 +100,12 @@
    "desc": "はじめに Claude Codeというと、「開発エンジニアがコードを書かせるためのツール」というイメージが強いと思います。自分もそう思っていました。 ただ、オンプレのサーバ運用を担当するインフラエンジニアとして半年ほど業務で使ってみたところ、コードをほとんど書かない仕事で..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code の返答をローカルの日本語 TTS（Irodori-TTS）で読み上げるプラグインを作った",
-   "link": "https://qiita.com/AzuQiita/items/6593dd256dca1856ea5d",
-   "date": 1794921905000,
-   "img": "",
-   "desc": "※この記事はAIに私の過去記事を読み込ませて文章を極限まで真似させて書かせています。最終調整は人間がやってるよ〜 経緯 AIでコードを書くのが当たり前の時代になった昨今。皆様いかがお過ごしでしょうか？ 転職してから自力でコード書く事がほぼ０になったのでClaudeCode..."
-  },
-  {
    "src": "zenn",
    "title": "AI文章の読みにくさは、書かせる前の「下準備」で大きく改善。最後の読み心地はモデル次第、という話。",
    "link": "https://zenn.dev/murooka_az/articles/ai-writing-readability-before-writing",
    "date": 1794921085000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--IUv8e73y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E6%2596%2587%25E7%25AB%25A0%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E3%2581%25AB%25E3%2581%258F%25E3%2581%2595%25E3%2581%25AF%25E3%2580%2581%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AE%25E3%2580%258C%25E4%25B8%258B%25E6%25BA%2596%25E5%2582%2599%25E3%2580%258D%25E3%2581%25A7%25E5%25A4%25A7%25E3%2581%258D%25E3%2581%258F%25E6%2594%25B9%25E5%2596%2584%25E3%2580%2582%25E6%259C%2580%25E5%25BE%258C%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E5%25BF%2583%25E5%259C%25B0%25E3%2581%25AF%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E6%25AC%25A1%25E7%25AC%25AC%25E3%2580%2581%25E3%2581%25A8%25E3%2581%2584%25E3%2581%2586%25E8%25A9%25B1%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Murooka%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlMjA5NmUyNDguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI を使って、何本か記事を書いてきました。ただ、AI が最初に出してくる文章には、どうにも読みにくい所があります。多くの方も、体感しているのではないでしょうか。 私が特に気になっていたのは、AI の文章に混ざる「分かるようで分からない単語」です。AI に文章を書かせると、次のような置き換えが、頼んでいないのに起きます。 普通の言い方 AI が書いてきた言い方 ツール 道具 ルール 決まり サブ…"
-  },
-  {
-   "src": "qiita",
-   "title": "AIコーディングエージェントの「作業中・承認待ち・完了」を、サーバーなしでローカルから見分ける",
-   "link": "https://qiita.com/offiai/items/143503b468a52cbab144",
-   "date": 1794919968000,
-   "img": "",
-   "desc": "この記事は、Mac アプリ「OffiAI」を開発しているチーム（ドイツ・ブレーメンの Delicatino GmbH）が書いています。製品の紹介は最後の節だけです。 Claude Code、Codex CLI、Gemini（Antigravity CLI）、Clau..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIエージェントに仕事を任せるための3つの道具を作った：止める・鍵を持たせない・見える化する",
-   "link": "https://qiita.com/koheip/items/848bfcbb91cd388f218e",
-   "date": 1794919446000,
-   "img": "",
-   "desc": "はじめに ZEN大学で知能情報を学んでいる2年生の松延です。AIエージェントを作る・使う側のエンジニアを目指して、個人開発をしています。 2026年10月、AIエージェントまわりのOSSを3つ作りました。 名前 ひとことで 言語 ヤタ（Yata） 自分のPC..."
   },
   {
    "src": "zenn",
@@ -129,7 +129,7 @@
    "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
    "date": 1794918117000,
    "img": "",
-   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 126 # Comments: 58"
+   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 130 # Comments: 66"
   },
   {
    "src": "zenn",
@@ -193,7 +193,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 103 # Comments: 110"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 127 # Comments: 128"
   },
   {
    "src": "zenn",
@@ -489,7 +489,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1005 # Comments: 921"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1006 # Comments: 921"
   },
   {
    "src": "hn",
@@ -497,7 +497,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 454 # Comments: 239"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 454 # Comments: 240"
   },
   {
    "src": "reddit",
@@ -657,7 +657,7 @@
    "link": "https://caleb.software/posts/claude-to-pi.html",
    "date": 1794107508000,
    "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 832 # Comments: 493"
+   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 833 # Comments: 493"
   },
   {
    "src": "hn",
