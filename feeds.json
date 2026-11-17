@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794949918796,
+ "updatedAt": 1794952941521,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,30 @@
  "items": [
   {
    "src": "status",
+   "title": "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
+   "link": "https://status.claude.com/incidents/1lglzf469c0z",
+   "date": 1794952269000,
+   "img": "",
+   "desc": "Nov 17 , 21:51 UTC Resolved - The issue affecting Sign in with Apple on claude.ai and the Claude iOS app has been resolved. Impact occurred from 08:40 PT / 16:40 UTC to 12:20 PT / 20:20 UTC. Nov 17 ,…"
+  },
+  {
+   "src": "qiita",
+   "title": "OCIのclaudにスマホからアクセスしてみた",
+   "link": "https://qiita.com/henagineer/items/8e3a41efb48051ed8a62",
+   "date": 1794951783000,
+   "img": "",
+   "desc": "はじめに Claudeをリモート接続して使う方法があることを知りました。 もともと自宅のPCにリモート接続してClaudeを使おうと思っていたのですが、OCIを使っているんだしそちらの方がいいんじゃないかと思って挑戦してみました。 結果として、いつでもどこでも、バイブコー..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code の \"File has not been read yet\" / \"File has been modified since read\" / \"File unchanged since last read\" は放っておいてよい？（気にしなくていい場合と、止まったときの直し方）",
+   "link": "https://qiita.com/homhom44/items/f4780d9853b16d4650ff",
+   "date": 1794951111000,
+   "img": "",
+   "desc": "Claude Code の作業ログに File has not been read yet. Read it first before writing to it. のような赤いエラーが出て、驚いたことはないでしょうか。結論から言うと、これらは多くの場合、人間ではなく Cl..."
+  },
+  {
+   "src": "status",
    "title": "Claude unable to join meetings",
    "link": "https://status.claude.com/incidents/b5cq662qf2wm",
    "date": 1794948449000,
@@ -52,12 +76,20 @@
    "desc": "Nov 17 , 02:02 UTC Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor …"
   },
   {
-   "src": "status",
-   "title": "Some users unable to sign in with Apple on claude.ai and the Claude iOS app",
-   "link": "https://status.claude.com/incidents/1lglzf469c0z",
-   "date": 1794941766000,
-   "img": "",
-   "desc": "Nov 17 , 18:56 UTC Update - We have identified the cause of the issue affecting claude.ai and are working on a fix. We will provide an update as soon as possible. Nov 17 , 18:55 UTC Identified - We a…"
+   "src": "zenn",
+   "title": "入れる前にSKILL.mdを読む: awesome-copilotのgit-commitをClaude Codeで使うときの確認点",
+   "link": "https://zenn.dev/skillselion/articles/b2c8100de2b5a3",
+   "date": 1794945100000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--kZQ3d_p3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E5%2589%258D%25E3%2581%25ABSKILL.md%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2580%253A%2520awesome-copilot%25E3%2581%25AEgit-commit%25E3%2582%2592Claude%2520Code%25E3%2581%25A7...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Skillselion%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 筆者は Skillselion の運営に関わっています。Skillselion は GitHub とも Anthropic とも関係のない独立したディレクトリです。 awesome-copilot の git-commit スキルは Claude Code でも使えますが、frontmatter の allowed-tools: shell(git:*) は Claude Code のスキル…"
+  },
+  {
+   "src": "zenn",
+   "title": "Gemini をサブスクの枠でスクリプトから呼びたかった。gemini で探すと0件、許可を書いても起動のたびに消えた",
+   "link": "https://zenn.dev/claire_ai/articles/agy-iriguchi",
+   "date": 1794940273000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--5hfDKIZE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Gemini%2520%25E3%2582%2592%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25AE%25E6%259E%25A0%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2597%25E3%2583%2588%25E3%2581%258B%25E3%2582%2589%25E5%2591%25BC%25E3%2581%25B3%25E3%2581%259F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582gemini%2520%25E3%2581%25A7%25E6%258E%25A2%25E3%2581%2599%25E3%2581%25A80%25E4%25BB%25B6%25E3%2580%2581%25E8%25A8%25B1%25E5%258F%25AF%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2582%2582%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB%25E6%25B6%2588%25E3%2581%2588%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code の作業の検収の一部を、Gemini にも見せている。Claude Code が作ったものを、別の AI の目でも確かめるためだ。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/nec2a658c37f4 課題：サブスクの枠で、スクリプトから…"
   },
   {
    "src": "qiita",
@@ -98,22 +130,6 @@
    "date": 1794933942000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--rgD6DKYL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E4%25BC%259A%25E8%25A9%25B1%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%258B%25E3%2582%2589%25E3%2580%258C%25E4%25BB%258A%25E6%2597%25A5AI%25E3%2581%25A8%25E4%25BD%2595%25E6%2599%2582%25E9%2596%2593%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%2597%25E3%2581%259F%25E3%2581%258B%25E3%2580%258D%25E3%2582%2592%25E6%2595%25B0%25E3%2581%2588%25E3%2581%25A6%25E3%2580%2581%25E3%2582%25AB%25E3%2583%25AC%25E3%2583%25B3%25E3%2583%2580%25E3%2583%25BC%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E5%25A4%25A7%25E5%25A5%25BD%25E3%2581%258D%25E5%25A4%25A7%25E5%25AD%25A6%25E7%2594%259F%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZjMzNjNWNkMGEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "! 一言でいうと：Claude Code が手元に残している会話の記録から、毎日「AI と何時間作業したか」を数え、GitHub の草のようなカレンダーにして自分のページに載せる記事です。 この記事でできるようになること 自分のポートフォリオ（就活などで見せる自己紹介のページ）に、毎日の作業時間を色の濃さで並べたカレンダーを置けます。マスを押すと、その日の時間と、やったことが出る形。時間は自分で…"
-  },
-  {
-   "src": "qiita",
-   "title": "スマホから Codex / Claude Code / Antigravity を遠隔操作・承認できる OSS コンソール「Agent Control」を作った（日本語UI対応）",
-   "link": "https://qiita.com/guuguo/items/a1b0a6b3e41219379b16",
-   "date": 1794929513000,
-   "img": "",
-   "desc": "Codex、Claude Code、Antigravity、Grok を併用していると、次のような悩みがよく起きます。 デスクにいる時：複数のターミナルやウィンドウを開きっぱなしにしてメモリを消費し、どのタスクが承認待ちか分かりにくい。 席を離れた時：移動中や休憩中にスマ..."
-  },
-  {
-   "src": "qiita",
-   "title": "【第3回】ゼロから目指す! CCDV-F合格への道：用語集②",
-   "link": "https://qiita.com/Ray_T/items/aee17ff9dd0e172ae9ec",
-   "date": 1794929455000,
-   "img": "",
-   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第3回です。（Anthropic社とは関係ありません） 公式の試験ガイド..."
   },
   {
    "src": "zenn",
@@ -250,22 +266,6 @@
    "date": 1794909081000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--EFyfnyya--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:push%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%2588%25E3%2581%25AF%25E3%2581%259A%25E3%2581%25AE%25EF%25BC%2589Claude%2520Code%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C3%25E5%259B%259Epush%25E3%2581%2597%25E3%2581%25A6CI%25E3%2581%25A70.47%25E3%2583%2589%25E3%2583%25AB%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mira%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhkNjNjZmVlM2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに Claude Codeのサブエージェントに「pushしないでください」と指示しておいたのに1つのPRに3回pushされた件について記事にしました。 めっちゃ少額ではありますが、3回pushされたことで79分（=0.47ドル）無駄に課金されてしまいました。 今回はこの0.47ドルが課金されるまでの経緯とその日のうちに入れたフックについて書いていきます。 やらかし発覚前 やらかしたのは20…"
-  },
-  {
-   "src": "zenn",
-   "title": "理解負債その2：AIが書き換えたMarkdownの「どこが変わったか」を、VS Codeのプレビューで色付けした",
-   "link": "https://zenn.dev/kent_code/articles/78709cb215a310",
-   "date": 1794906589000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--0lUFLz4o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2590%2586%25E8%25A7%25A3%25E8%25B2%25A0%25E5%2582%25B5%25E3%2581%259D%25E3%2581%25AE2%25EF%25BC%259AAI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259FMarkdown%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25A9%25E3%2581%2593%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%25E3%2580%258D%25E3%2582%2592%25E3%2580%2581VS%2520Code%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25A7%25E8%2589%25B2%25E4%25BB%2598%25E3%2581%2591%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kent%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVlkODRlT3ZhWW1mTlowZlpabm8tNGk1SHlIUTdLTnA4RmptVHZVZHpGOE40WnotcXI9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "前回の記事「理解負債」では、AI の回答に理解が追いつかないまま実装に進んでしまう状態を「理解負債」と呼んで、それを減らすための CLAUDE.md のルールを紹介しました。長い回答はノート（Markdown）に書き出させて、チャットには結論だけを返してもらう、というものです。 このやり方を続けていると、今度は別の悩みが出てきていました。ノートが書き換わるたびに、どこが変わったのか分からないこと…"
-  },
-  {
-   "src": "zenn",
-   "title": "Jev（TypeSafe）の Choice・Score・Noul・Box を試した所感",
-   "link": "https://zenn.dev/mk404/articles/2026-11-17-jev-choice-score-noul-box-notes",
-   "date": 1794906005000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--6kuLc2Uz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Jev%25EF%25BC%2588TypeSafe%25EF%25BC%2589%25E3%2581%25AE%2520Choice%25E3%2583%25BBScore%25E3%2583%25BBNoul%25E3%2583%25BBBox%2520%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%25E6%2589%2580%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:m.%2520k.%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI0Yzc4ZDk2ZjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに Jev は、TypeSafe が公開している System One モデルです。状態（テキスト、オブジェクト、画像）と型付きの質問を送ると、質問ごとに型のある答えと確率が返ります。文章は生成しません。質問の型は 4 つで、選択（Choice）、採点（Score）、真偽（Noul）、画像内の位置（Box）です。 挿絵: 状態を入れると、型のある答えが返る。カードは左から、チェック（Nou…"
   },
   {
    "src": "claude-code",
