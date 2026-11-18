@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795018382874,
+ "updatedAt": 1795022294701,
  "sources": {
   "news": {
    "ok": true,
@@ -31,7 +31,7 @@
   },
   "reddit": {
    "ok": false,
-   "error": "HTTP 404"
+   "error": "HTTP 429"
   },
   "zenn": {
    "ok": true,
@@ -68,6 +68,30 @@
    "desc": "はじめに 🙆「Copilot のレビュー、今回も指摘なし。マージしよう」 🤖「実装した Claude にレビューも頼めば、2 人分になるよね？」 😇「リリース前のチェック？ CI が緑だから大丈夫でしょ」 AI と 1 人で開発していると、こんなふうにレビューを済ませてい..."
   },
   {
+   "src": "zenn",
+   "title": "Copilot が「承認推奨」とした PR に、マイグレーションを止める穴があった。AI のレビューを 3 段に重ねる",
+   "link": "https://zenn.dev/tzp/articles/eecb5507534410",
+   "date": 1795012499000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--0NrhGOga--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Copilot%2520%25E3%2581%258C%25E3%2580%258C%25E6%2589%25BF%25E8%25AA%258D%25E6%258E%25A8%25E5%25A5%25A8%25E3%2580%258D%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%2520PR%2520%25E3%2581%25AB%25E3%2580%2581%25E3%2583%259E%25E3%2582%25A4%25E3%2582%25B0%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E7%25A9%25B4%25E3%2581%258C%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582AI%2520%25E3%2581%25AE%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%25203%2520%25E6%25AE%25B5%25E3%2581%25AB%25E9%2587%258D%25E3%2581%25AD%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A6%25E3%2581%25A5%25E3%2581%25A3%25E3%2581%25B4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAxOWEwZDdmYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 🙆「Copilot のレビュー、今回も指摘なし。マージしよう」 🤖「実装した Claude にレビューも頼めば、2 人分になるよね？」 😇「リリース前のチェック？ CI が緑だから大丈夫でしょ」 AI と 1 人で開発していると、こんなふうにレビューを済ませていませんか？ 自分が個人開発している あじぴた でも、最初は Copilot のレビューだけでした。 今は別の AI レビ…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI に描かせた図の文字がはみ出す。描いた結果を見て直させる Skill",
+   "link": "https://zenn.dev/itoken_lab/articles/figure-making-layout-check",
+   "date": 1795012008000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--BM2IBWHD--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E6%258F%258F%25E3%2581%258B%25E3%2581%259B%25E3%2581%259F%25E5%259B%25B3%25E3%2581%25AE%25E6%2596%2587%25E5%25AD%2597%25E3%2581%258C%25E3%2581%25AF%25E3%2581%25BF%25E5%2587%25BA%25E3%2581%2599%25E3%2580%2582%25E6%258F%258F%25E3%2581%2584%25E3%2581%259F%25E7%25B5%2590%25E6%259E%259C%25E3%2582%2592%25E8%25A6%258B%25E3%2581%25A6%25E7%259B%25B4%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2520Skill%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%25A8%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGR1dnJoLWxxdHVhOUU2bzI2Vy1NeDQyY3ZYc2xpRnlEcWlmajIyOG5fVUdhVVZZST1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI に「この構成を図にして、SVG で」と頼むと、部品とつながりは合った図が返ってきます。ところが、AI は座標を計算して置いたまま、描いた結果を見ずに渡します。開くと、矢印のラベルが線に乗っていることがよくあります。figure-making は、この崩れを同梱の検査の道具で数として出させ、描いた画像を AI 自身に開かせて、直してから渡させる Skill です。Skill は、エージェント…"
+  },
+  {
+   "src": "zenn",
+   "title": "AEの式もWGSLシェーダーも動く動画編集ソフトを作っていたら、Claude Codeを旧モデルに戻すことになった",
+   "link": "https://zenn.dev/oshikaidesu/articles/8bce9bc005b3e7",
+   "date": 1795010779000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--7URpGEHe--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AE%25E3%2581%25AE%25E5%25BC%258F%25E3%2582%2582WGSL%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%25E3%2582%2582%25E5%258B%2595%25E3%2581%258F%25E5%258B%2595%25E7%2594%25BB%25E7%25B7%25A8%25E9%259B%2586%25E3%2582%25BD%25E3%2583%2595%25E3%2583%2588%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581Claude%2520Code%25E3%2582%2592%25E6%2597%25A7%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%25E3%2581%25AB%25E6%2588%25BB%25E3%2581%2599%25E3%2581%2593%25E3%2581%25A8%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2597%25E3%2581%258B%25E3%2581%2584%25E3%2581%25A7%25E3%2581%2599%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTFFuWjgzTjkyZkNnNHE2TDFMS25rNGpRa1lCSGtneG9COC1Bc0lZanFLQXZlSjVkWT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "最近、Claude CodeのモデルをOpus 5.5からOpus 4.6に戻しました。 普通に考えれば新しいモデルの方が性能は高いはずですが、実際に開発していると、どうも4.6の方が使いやすい。🤔 5.5に大きな不満があったわけではありません。むしろコードを書く能力は高く、複雑な問題にも粘り強く取り組んでくれます。 ただ、4.6に戻してみると、こちらの意図を細かく説明しなくても伝わることが多…"
+  },
+  {
    "src": "qiita",
    "title": "Claude Codeを始めたら最初に書く CLAUDE.md のルール入門",
    "link": "https://qiita.com/future_ta/items/ad0c87f4df18272368a4",
@@ -81,7 +105,7 @@
    "link": "https://zenn.dev/kitbay/articles/ed8f67ac37660a",
    "date": 1795005637000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--lU26-6C9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Figma%2520MCP%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25EF%25BC%259A%25E5%2585%25AC%25E5%25BC%258F%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%25E6%2596%25B9%25E6%25B3%2595%25E3%2581%25A8%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E4%25B8%2580%25E8%25A6%25A7%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kitbay%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJkZDNmYzJjMDAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Figma MCPサーバーを使うと、Claude Code、Cursor、VS Code などのAIクライアントから Figma のデザインを直接読み取り、コード生成に使えます。最近はデザインファイルへの書き込み（フレームやコンポーネントの作成）にも対応しました。 ただ、GitHub で「figma mcp」と検索すると似た名前のリポジトリが大量に出てきます。この記事では、Figma 自身が公開…"
+   "desc": "Figma MCPサーバーを使うと、Claude Code、Cursor、VS CodeなどのAIクライアントからFigmaのデザインを直接読み取り、コード生成に活用できます。最近はデザインファイルへの書き込み（フレームやコンポーネントの作成）にも対応しました。 ただ、GitHubで「figma mcp」と検索すると似た名前のリポジトリが大量に出てきます。この記事では、Figma自身が公開してい…"
   },
   {
    "src": "zenn",
@@ -212,30 +236,6 @@
    "desc": "Claude Codeは、会話(セッション)が変わると、前に注意したことを忘れます。私は、1人でClaude Codeを使い続けて、同じ指摘を何度もすることになりました。 そこで、次の3つを入れました。どれも、実際に起きた失敗が元です。 失敗を1つずつファイルに残す(メモリ) メッセージを送るたびに、確認事項を差し込む(フック) できなかった作業を、1つのファイルに集める(未実施タスク表) 何を…"
   },
   {
-   "src": "zenn",
-   "title": "Claude Code の使用率を毎朝 LINE に届ける ── 3つのやり方を試して、残ったのは1つだった",
-   "link": "https://zenn.dev/civras/articles/889e80a936421a",
-   "date": 1794976220000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--k_lj676q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E4%25BD%25BF%25E7%2594%25A8%25E7%258E%2587%25E3%2582%2592%25E6%25AF%258E%25E6%259C%259D%2520LINE%2520%25E3%2581%25AB%25E5%25B1%258A%25E3%2581%2591%25E3%2582%258B%2520%25E2%2594%2580%25E2%2594%2580%25203%25E3%2581%25A4%25E3%2581%25AE%25E3%2582%2584%25E3%2582%258A%25E6%2596%25B9%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E6%25AE%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF1%25E3%2581%25A4%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CIVRAS.Trigger%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmJlTEFlTFg4ZzM4dVlpMTVjWGtDanpmcG1TZnhTRDczdmNtU3B4UEJzb2JDUGVnPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! 著者の環境（Windows・タスクスケジューラ）で、2026-09-04〜10-07に試した記録です。 この記事は誰のためか Claude Code の使用率を、わざわざ見に行かなくても毎朝目に入るようにしたい人のための記事です。具体的にはスマホに情報を自動送信することです。 別の記事の最後に挙げた「用途例」の4つ目、「LINE 連携で毎朝通知」を実際にやりました。3つのやり方を試し、2つは…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIが書いたAPI、動作確認まで完走させる（テスト自動生成と自己修正）",
-   "link": "https://zenn.dev/kanepion/articles/f58670d96b6b4f",
-   "date": 1794975479000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--X3vMQ34D--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2584%25E3%2581%259FAPI%25E3%2580%2581%25E5%258B%2595%25E4%25BD%259C%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%25BE%25E3%2581%25A7%25E5%25AE%258C%25E8%25B5%25B0%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%25EF%25BC%2588%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E8%2587%25AA%25E5%258B%2595%25E7%2594%259F%25E6%2588%2590%25E3%2581%25A8%25E8%2587%25AA%25E5%25B7%25B1%25E4%25BF%25AE%25E6%25AD%25A3%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:NITI%2520Tech%2520%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFkYTEzYzRjMmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに API実装はAIエージェントに任せると数分で実装が完了しますが、「本当にすべてのエンドポイントが動作するか」の確認は人の手で行っているケースも少なくないのではないでしょうか。 この記事では、その確認までエージェントに任せる手順を紹介します。使うのは、私たちNITIがMITライセンスで公開したCLI「Ajiro API（ajiro-api）」です。 読み終えると、次の3つができるようにな…"
-  },
-  {
-   "src": "zenn",
-   "title": "Mac が夜中に数秒だけ起きる —「DarkWake」とアプリの自動更新",
-   "link": "https://zenn.dev/tei/articles/ef88953320227a",
-   "date": 1794974999000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--0mo0frhu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Mac%2520%25E3%2581%258C%25E5%25A4%259C%25E4%25B8%25AD%25E3%2581%25AB%25E6%2595%25B0%25E7%25A7%2592%25E3%2581%25A0%25E3%2581%2591%25E8%25B5%25B7%25E3%2581%258D%25E3%2582%258B%2520%25E2%2580%2594%25E3%2580%258CDarkWake%25E3%2580%258D%25E3%2581%25A8%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E8%2587%25AA%25E5%258B%2595%25E6%259B%25B4%25E6%2596%25B0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:tei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2M2ZjMzNzU2ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "結論から 起きたこと: 自作のメニューバーアプリが、朝になるとエラーを出していました。こういう流れです。 このアプリは、1時間ごとにニュースを取りに行き、AI で要約します。朝の更新が遅れないように、「前回から1時間たったか」を1分ごとに確かめる作りにしていました Mac は蓋を閉じて眠っている間も、ネットワークの維持などのために、夜中に何度も「こっそり数秒だけ起きる」ことがあります（DarkW…"
-  },
-  {
    "src": "status",
    "title": "Elevated errors affecting the Google Docs connector",
    "link": "https://status.claude.com/incidents/6prv10gjdpz1",
@@ -281,7 +281,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 289 # Comments: 229"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 290 # Comments: 229"
   },
   {
    "src": "claude-code",
@@ -705,7 +705,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
    "date": 1793984076000,
    "img": "",
-   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 322 # Comments: 634"
+   "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 322 # Comments: 635"
   },
   {
    "src": "engineering",
