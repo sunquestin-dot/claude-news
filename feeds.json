@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794970833135,
+ "updatedAt": 1794974799629,
  "sources": {
   "news": {
    "ok": true,
@@ -45,27 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AIエージェントと日本株アプリを個人開発して「これは楽になった」Tips 7選 ― 指示書の一本化からサーバーの巻き添え停止まで",
+   "link": "https://qiita.com/charge0315/items/62a731785cfeed23daf9",
+   "date": 1794974181000,
+   "img": "",
+   "desc": "みなさん、こんにちは！ この記事は「（カレンダー名）」の（N）日目の記事です。 AI エージェントと一緒にアプリを作っていると、コードを書く時間より「AI に前提を伝え直す時間」や「止まったサーバーを起こし直す時間」のほうが長い日があります。 日本株の AI 銘柄抽出と、そ..."
+  },
+  {
+   "src": "qiita",
+   "title": "「この機能どこから呼ばれてる？」を AI に聞くだけ。入ったばかりの現場でも、爆速で処理の流れが図でわかる Archify がやばい。",
+   "link": "https://qiita.com/yu-sugimoto/items/bdc25571b3458ea42bed",
+   "date": 1794971491000,
+   "img": "",
+   "desc": "はじめに プロジェクトに入った初日、こうなってませんか？ システムの全体像の把握に時間がかかる 担当する機能について、そもそもどこから呼ばれてるのか分からない 周辺の機能も触るから、認証・課金・外部 API まで一気に把握しないといけない 最近見つけた Archi..."
+  },
+  {
+   "src": "qiita",
+   "title": "Amazon EVS Agent Skill を使ってみた！EVS の質問とデプロイ前チェックを AI エージェントに任せる",
+   "link": "https://qiita.com/mtoyoda/items/6f8769caffa305992891",
+   "date": 1794971314000,
+   "img": "",
+   "desc": "これまで Amazon EVS で VCF 9.1 を CloudFormation スタック1つで構築する EVS Deployment Orchestrator（EDO）を概要編と実践編の2回にわたって紹介してきました。 その EDO と同じリポジトリに A..."
+  },
+  {
+   "src": "qiita",
    "title": "【第4回】ゼロから目指す! CCDV-F合格への道：LLMのしくみ",
    "link": "https://qiita.com/Ray_T/items/78598353ec1df33f899f",
    "date": 1794969411000,
    "img": "",
    "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第4回です。（Anthropic社とは関係ありません） 公式の試験ガイド..."
-  },
-  {
-   "src": "qiita",
-   "title": "AIの便利な仕組みに仕事を閉じ込めない：業務の知識と、ツールに依存する部分を分ける",
-   "link": "https://qiita.com/sha44444/items/563f67735e829d8b9889",
-   "date": 1794968416000,
-   "img": "",
-   "desc": "便利な仕組みは積極的に使えばよい。ただし、業務の目的や判断基準、ノウハウまで、その仕組みの中に閉じ込めてはいけない。 こうした業務上の情報は、特定のAIやツールに依存しない形で手元に残しておく。文書への整理は、その大半をAIに任せることができます。 業務システムの現場..."
-  },
-  {
-   "src": "qiita",
-   "title": "AI も「一晩寝かせる」と考えがまとまる🥱 寝ている間に記憶を整理する Dreaming の仕組み",
-   "link": "https://qiita.com/KYoshiyama/items/623e13ced9c119b614aa",
-   "date": 1794968037000,
-   "img": "",
-   "desc": "「一晩寝かせる」と考えがまとまること、ありますよね。 2026年5月に Anthropic が発表した「Dreaming」について、ついに、Anthropic 自身の研究結果が出ました。読んでみたら面白かったので、図解しながら紹介したいと思います。 後半では、この Drea..."
   },
   {
    "src": "status",
@@ -84,14 +92,6 @@
    "desc": "Nov 17 , 23:39 UTC Update - Claude Meetings (beta) is joining calls more reliably, and we are monitoring it. It remains enabled for all Enterprise customers. Team customers can again add Claude to ne…"
   },
   {
-   "src": "qiita",
-   "title": "世界最大級の純債権国で「財政出動すると円が暴落する」——為替と財政の行動経済学 : システム設計視点の行動経済学 (65)",
-   "link": "https://qiita.com/maskot1977/items/85c018c560e9371747f3",
-   "date": 1794964484000,
-   "img": "",
-   "desc": "user: 「システム設計視点の行動経済学」、第65回を始めましょう。その前に、まず前回の復習として、 「子孫へのツケ」は誰が受け取るのか——純債務・危機比較・世代間会計 : システム設計視点の行動経済学 (64) https://qiita.com/maskot1977..."
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.327",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
@@ -106,14 +106,6 @@
    "date": 1794952269000,
    "img": "",
    "desc": "Nov 17 , 21:51 UTC Resolved - The issue affecting Sign in with Apple on claude.ai and the Claude iOS app has been resolved. Impact occurred from 08:40 PT / 16:40 UTC to 12:20 PT / 20:20 UTC. Nov 17 ,…"
-  },
-  {
-   "src": "zenn",
-   "title": "Gemini をサブスクの枠でスクリプトから呼びたかった。gemini で探すと0件、許可を書いても起動のたびに消えた",
-   "link": "https://zenn.dev/claire_ai/articles/agy-iriguchi",
-   "date": 1794940273000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--5hfDKIZE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Gemini%2520%25E3%2582%2592%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25AE%25E6%259E%25A0%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2597%25E3%2583%2588%25E3%2581%258B%25E3%2582%2589%25E5%2591%25BC%25E3%2581%25B3%25E3%2581%259F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582gemini%2520%25E3%2581%25A7%25E6%258E%25A2%25E3%2581%2599%25E3%2581%25A80%25E4%25BB%25B6%25E3%2580%2581%25E8%25A8%25B1%25E5%258F%25AF%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2582%2582%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB%25E6%25B6%2588%25E3%2581%2588%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code の作業の検収の一部を、Gemini にも見せている。Claude Code が作ったものを、別の AI の目でも確かめるためだ。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/nec2a658c37f4 課題：サブスクの枠で、スクリプトから…"
   },
   {
    "src": "zenn",
@@ -282,6 +274,14 @@
    "date": 1794906589000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--0lUFLz4o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2590%2586%25E8%25A7%25A3%25E8%25B2%25A0%25E5%2582%25B5%25E3%2581%259D%25E3%2581%25AE2%25EF%25BC%259AAI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259FMarkdown%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25A9%25E3%2581%2593%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%25E3%2580%258D%25E3%2582%2592%25E3%2580%2581VS%2520Code%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25A7%25E8%2589%25B2%25E4%25BB%2598%25E3%2581%2591%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kent%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVlkODRlT3ZhWW1mTlowZlpabm8tNGk1SHlIUTdLTnA4RmptVHZVZHpGOE40WnotcXI9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "前回の記事「理解負債」では、AI の回答に理解が追いつかないまま実装に進んでしまう状態を「理解負債」と呼んで、それを減らすための CLAUDE.md のルールを紹介しました。長い回答はノート（Markdown）に書き出させて、チャットには結論だけを返してもらう、というものです。 このやり方を続けていると、今度は別の悩みが出てきていました。ノートが書き換わるたびに、どこが変わったのか分からないこと…"
+  },
+  {
+   "src": "zenn",
+   "title": "Jev（TypeSafe）の Choice・Score・Noul・Box を試した所感",
+   "link": "https://zenn.dev/mk404/articles/2026-11-17-jev-choice-score-noul-box-notes",
+   "date": 1794906005000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--6kuLc2Uz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Jev%25EF%25BC%2588TypeSafe%25EF%25BC%2589%25E3%2581%25AE%2520Choice%25E3%2583%25BBScore%25E3%2583%25BBNoul%25E3%2583%25BBBox%2520%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%25E6%2589%2580%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:m.%2520k.%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI0Yzc4ZDk2ZjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに Jev は、TypeSafe が公開している System One モデルです。状態（テキスト、オブジェクト、画像）と型付きの質問を送ると、質問ごとに型のある答えと確率が返ります。文章は生成しません。質問の型は 4 つで、選択（Choice）、採点（Score）、真偽（Noul）、画像内の位置（Box）です。 挿絵: 状態を入れると、型のある答えが返る。カードは左から、チェック（Nou…"
   },
   {
    "src": "claude-code",
