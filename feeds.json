@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794974799629,
+ "updatedAt": 1794978832220,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 30
   },
   "reddit": {
    "ok": false,
@@ -45,11 +45,19 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AIエージェントと日本株アプリを個人開発して「これは楽になった」Tips 7選 ― 指示書の一本化からサーバーの巻き添え停止まで",
+   "title": "教科書で止まらない学び方——読む→AIに聞く→手を動かして確かめる",
+   "link": "https://qiita.com/genhiroko/items/0c3d5c7ce3674dd3f487",
+   "date": 1794974903000,
+   "img": "",
+   "desc": "技術書や入門サイトを一通り読んだのに、いざ自分で何か作ろうとすると手が止まる。多くの人が一度は経験する壁です。読んでいる間は分かった気がするのに、白紙のエディタを前にすると何から打てばいいのか分からない。 この記事では、その壁を越えるための順番として「読む → AI に聞..."
+  },
+  {
+   "src": "qiita",
+   "title": "AIエージェントと日本株アプリを個人開発して「これは楽になった」Tips 10選 ― 指示書の一本化から「成功」表示の疑い方まで",
    "link": "https://qiita.com/charge0315/items/62a731785cfeed23daf9",
    "date": 1794974181000,
    "img": "",
-   "desc": "みなさん、こんにちは！ この記事は「（カレンダー名）」の（N）日目の記事です。 AI エージェントと一緒にアプリを作っていると、コードを書く時間より「AI に前提を伝え直す時間」や「止まったサーバーを起こし直す時間」のほうが長い日があります。 日本株の AI 銘柄抽出と、そ..."
+   "desc": "みなさん、こんにちは！ この記事は「開発をちょっと楽にしたTipsを投稿しよう！by DoctorNet Advent Calendar 2026」の 3 日目の記事です。 AI エージェントと一緒にアプリを作っていると、コードを書く時間より「AI に前提を伝え直す時間」や..."
   },
   {
    "src": "qiita",
@@ -66,14 +74,6 @@
    "date": 1794971314000,
    "img": "",
    "desc": "これまで Amazon EVS で VCF 9.1 を CloudFormation スタック1つで構築する EVS Deployment Orchestrator（EDO）を概要編と実践編の2回にわたって紹介してきました。 その EDO と同じリポジトリに A..."
-  },
-  {
-   "src": "qiita",
-   "title": "【第4回】ゼロから目指す! CCDV-F合格への道：LLMのしくみ",
-   "link": "https://qiita.com/Ray_T/items/78598353ec1df33f899f",
-   "date": 1794969411000,
-   "img": "",
-   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第4回です。（Anthropic社とは関係ありません） 公式の試験ガイド..."
   },
   {
    "src": "status",
@@ -106,6 +106,14 @@
    "date": 1794952269000,
    "img": "",
    "desc": "Nov 17 , 21:51 UTC Resolved - The issue affecting Sign in with Apple on claude.ai and the Claude iOS app has been resolved. Impact occurred from 08:40 PT / 16:40 UTC to 12:20 PT / 20:20 UTC. Nov 17 ,…"
+  },
+  {
+   "src": "zenn",
+   "title": "Gemini をサブスクの枠でスクリプトから呼びたかった。gemini で探すと0件、許可を書いても起動のたびに消えた",
+   "link": "https://zenn.dev/claire_ai/articles/agy-iriguchi",
+   "date": 1794940273000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--5hfDKIZE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Gemini%2520%25E3%2582%2592%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25AE%25E6%259E%25A0%25E3%2581%25A7%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2597%25E3%2583%2588%25E3%2581%258B%25E3%2582%2589%25E5%2591%25BC%25E3%2581%25B3%25E3%2581%259F%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2582gemini%2520%25E3%2581%25A7%25E6%258E%25A2%25E3%2581%2599%25E3%2581%25A80%25E4%25BB%25B6%25E3%2580%2581%25E8%25A8%25B1%25E5%258F%25AF%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2582%2582%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB%25E6%25B6%2588%25E3%2581%2588%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code の作業の検収の一部を、Gemini にも見せている。Claude Code が作ったものを、別の AI の目でも確かめるためだ。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/nec2a658c37f4 課題：サブスクの枠で、スクリプトから…"
   },
   {
    "src": "zenn",
@@ -185,7 +193,7 @@
    "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
    "date": 1794918117000,
    "img": "",
-   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 137 # Comments: 73"
+   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 140 # Comments: 74"
   },
   {
    "src": "zenn",
@@ -249,7 +257,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 251 # Comments: 196"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 277 # Comments: 221"
   },
   {
    "src": "zenn",
@@ -274,14 +282,6 @@
    "date": 1794906589000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--0lUFLz4o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2590%2586%25E8%25A7%25A3%25E8%25B2%25A0%25E5%2582%25B5%25E3%2581%259D%25E3%2581%25AE2%25EF%25BC%259AAI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259FMarkdown%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25A9%25E3%2581%2593%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%25E3%2580%258D%25E3%2582%2592%25E3%2580%2581VS%2520Code%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25A7%25E8%2589%25B2%25E4%25BB%2598%25E3%2581%2591%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kent%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVlkODRlT3ZhWW1mTlowZlpabm8tNGk1SHlIUTdLTnA4RmptVHZVZHpGOE40WnotcXI9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "前回の記事「理解負債」では、AI の回答に理解が追いつかないまま実装に進んでしまう状態を「理解負債」と呼んで、それを減らすための CLAUDE.md のルールを紹介しました。長い回答はノート（Markdown）に書き出させて、チャットには結論だけを返してもらう、というものです。 このやり方を続けていると、今度は別の悩みが出てきていました。ノートが書き換わるたびに、どこが変わったのか分からないこと…"
-  },
-  {
-   "src": "zenn",
-   "title": "Jev（TypeSafe）の Choice・Score・Noul・Box を試した所感",
-   "link": "https://zenn.dev/mk404/articles/2026-11-17-jev-choice-score-noul-box-notes",
-   "date": 1794906005000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--6kuLc2Uz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Jev%25EF%25BC%2588TypeSafe%25EF%25BC%2589%25E3%2581%25AE%2520Choice%25E3%2583%25BBScore%25E3%2583%25BBNoul%25E3%2583%25BBBox%2520%25E3%2582%2592%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%25E6%2589%2580%25E6%2584%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:m.%2520k.%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI0Yzc4ZDk2ZjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに Jev は、TypeSafe が公開している System One モデルです。状態（テキスト、オブジェクト、画像）と型付きの質問を送ると、質問ごとに型のある答えと確率が返ります。文章は生成しません。質問の型は 4 つで、選択（Choice）、採点（Score）、真偽（Noul）、画像内の位置（Box）です。 挿絵: 状態を入れると、型のある答えが返る。カードは左から、チェック（Nou…"
   },
   {
    "src": "claude-code",
@@ -529,7 +529,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 455 # Comments: 240"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 455 # Comments: 241"
   },
   {
    "src": "reddit",
