@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795008410145,
+ "updatedAt": 1795014519367,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Copilot が「承認推奨」とした PR に、マイグレーションを止める穴があった。AI のレビューを 3 段に重ねる",
+   "link": "https://qiita.com/tzp/items/16c2bdaf669363dcb563",
+   "date": 1795012515000,
+   "img": "",
+   "desc": "はじめに 🙆「Copilot のレビュー、今回も指摘なし。マージしよう」 🤖「実装した Claude にレビューも頼めば、2 人分になるよね？」 😇「リリース前のチェック？ CI が緑だから大丈夫でしょ」 AI と 1 人で開発していると、こんなふうにレビューを済ませてい..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Codeを始めたら最初に書く CLAUDE.md のルール入門",
+   "link": "https://qiita.com/future_ta/items/ad0c87f4df18272368a4",
+   "date": 1795009465000,
+   "img": "",
+   "desc": "初めに Claude Code を使い始めると、こんな経験をすることがあります。 日本語で頼んだのに、長い作業の最後の報告だけ英語で返ってくる 頼んでいないのにコミットされる 一時ファイルがリポジトリの中に散らばる 毎回同じ注意を書き直している これらの多くは、CLA..."
+  },
+  {
+   "src": "qiita",
    "title": "Slack MCPサーバーの使い方：公式サーバーの接続方法と、URLを入れるだけでは使えない理由",
    "link": "https://qiita.com/northlarkhq/items/c2721d9b9fd6f8cb57a8",
    "date": 1795006020000,
@@ -58,38 +74,6 @@
    "date": 1795003869000,
    "img": "",
    "desc": "GPT-6.2 AstraやFable 5.2のみだけで3Dモデルを作ってみました！ 簡単に街づくりできるので面白いですよね。AIだけで日本版GTA6が作れるみらいも近いかもしれません。 デジタルツイン See the Pen Fable 5.2 デジタ..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeに毎回同じ説明をしていませんか？仕様の手戻りを減らすCLAUDE.mdとタスク設計",
-   "link": "https://qiita.com/yuonozawa/items/e1a69e11e7fe7da06c6d",
-   "date": 1795001877000,
-   "img": "",
-   "desc": "「Claude Codeに毎回同じ説明をしている」「コードは直ったのに、依頼した人から『これじゃない』と言われた」。AIを使った開発で、こんな手戻りはありませんか？ たとえば「登録を増やしたいから、LPを改善して」と頼むケース。ボタンの色や文言を変えることはできます。でも、..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code の使用上限を推定せずに読む: statusLine の rate_limits",
-   "link": "https://qiita.com/s3onghyun/items/a912036f2969c34ee99a",
-   "date": 1794994228000,
-   "img": "",
-   "desc": "Claude Code の 5 時間上限・週間上限の残りは、ログのトークン数から推定しなくても、statusLine コマンドに渡される JSON の rate_limits で公式の数字として読めます。その読み方と、実際に踏んだ落とし穴を短くまとめます。 statusL..."
-  },
-  {
-   "src": "zenn",
-   "title": "Opus 5 に替えた途端、AI が手順を飛ばし始めた ― 原因はルールの書き方ではなかった",
-   "link": "https://zenn.dev/nyabicode/articles/opus5-broke-my-rules",
-   "date": 1794987374000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--sO5PoNEj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Opus%25205%2520%25E3%2581%25AB%25E6%259B%25BF%25E3%2581%2588%25E3%2581%259F%25E9%2580%2594%25E7%25AB%25AF%25E3%2580%2581AI%2520%25E3%2581%258C%25E6%2589%258B%25E9%25A0%2586%25E3%2582%2592%25E9%25A3%259B%25E3%2581%25B0%25E3%2581%2597%25E5%25A7%258B%25E3%2582%2581%25E3%2581%259F%2520%25E2%2580%2595%2520%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25AF%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AB%25E3%2582%2583%25E3%2581%25B3%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkYTkwZjljYjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は nyabicode.com の転載です（最新版は原文）。 Opus 5 に替えた日から、私の指示が通らなくなりました。過去に決めたことを忘れ、決めた手順を飛ばす。原因は自分のルールの書き方だと思って量を減らしましたが、効きませんでした。壊れていたのはルールではなく、その下にあった土台のほうでした。 Opus 5 に替えた日から、話が通じなくなった Opus 5 という新しいモデル…"
-  },
-  {
-   "src": "zenn",
-   "title": "Evernote、Notion、Obsidian と乗り換えて分かった ― 欲しかったのはメモアプリではなかった",
-   "link": "https://zenn.dev/nyabicode/articles/didnt-need-a-note-app",
-   "date": 1794987372000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Ns1hFFwx--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Evernote%25E3%2580%2581Notion%25E3%2580%2581Obsidian%2520%25E3%2581%25A8%25E4%25B9%2597%25E3%2582%258A%25E6%258F%259B%25E3%2581%2588%25E3%2581%25A6%25E5%2588%2586%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2595%2520%25E6%25AC%25B2%25E3%2581%2597%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E3%2583%25A1%25E3%2583%25A2%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AB%25E3%2582%2583%25E3%2581%25B3%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkYTkwZjljYjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は nyabicode.com の転載です（最新版は原文）。 Evernote、Notion、Obsidian と乗り換えてきました。最後にたどり着いたのは次のアプリではなく、メモアプリを選ぶのをやめることでした。AI に整理させるのはやめていません。やめたのは、見た目まで AI に任せることです。 乗り換えの記録 昔からメモはよく取っていました。使っているツール、覚えたノウハウ、思…"
   },
   {
    "src": "zenn",
@@ -258,6 +242,22 @@
    "date": 1794957257000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--K4sTVu_Q--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%258C%2587%25E5%2580%25A4%25E3%2581%25A7%25E8%25B2%25B7%25E3%2581%2588%25E3%2581%25B0%25E6%2589%258B%25E6%2595%25B0%25E6%2596%2599%25E3%2582%2592%25E5%258F%2597%25E3%2581%2591%25E5%258F%2596%25E3%2582%258C%25E3%2582%258B%25E3%2580%2582%25E3%2581%259D%25E3%2582%258C%25E3%2581%25A7%25E3%2582%2582%25E5%25A2%2597%25E3%2581%2588%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AF%25E3%2580%2581%25E5%2588%25BA%25E3%2581%2595%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%25E5%259B%259E%25E3%2581%258C%25E4%25B8%2580%25E7%2595%25AA%25E3%2582%2582%25E3%2581%2586%25E3%2581%258B%25E3%2582%258B%25E5%259B%259E%25E3%2581%25A0%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%25E3%2582%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CodeCraft%25EF%25BD%259C%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2580%25E3%2583%25BC%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I3NThjMWQ2NjUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "暗号資産の自動売買Botを作っています。口座2万円ほどの少額で動かしながら、検証の数字と本番の動きが一致しているかを点検しています。 このBotの注文は、買いも売りも成行です。ある日、「もう伸ばせる余地は残っていないのか」と考えて、残っていそうな場所を2つ挙げました。1つは検証と本番の食い違い探し、もう1つが約定のコスト、つまり成行をやめて指値で買えば得をするのでは、という案です。 この記事は後…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-11-18: 仕事を渡す境界設計",
+   "link": "https://zenn.dev/laiken/articles/20261118-tech-watch",
+   "date": 1794956411000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--xotQS7S5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-18%253A%2520%25E4%25BB%2595%25E4%25BA%258B%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2599%25E5%25A2%2583%25E7%2595%258C%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 自分が道具を人に渡すとき、まず気になるのは性能よりも「どこまで任せるか」なんだ。画面を操作するエージェントなら、操作できる範囲と、最後に誰が確認するかで仕事の意味が変わる。モデルが賢くなった今、その境界は具体的にどこへ移っている？ 今日の 10 件 Claude Code Changelog Cla…"
+  },
+  {
+   "src": "zenn",
+   "title": "終わらないしりとりを、ひとりで何年も動かすための設計",
+   "link": "https://zenn.dev/phphphh/articles/1377e64ce563d2",
+   "date": 1794955205000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--qozDiQ2c--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25B5%2582%25E3%2582%258F%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%25E3%2581%2597%25E3%2582%258A%25E3%2581%25A8%25E3%2582%258A%25E3%2582%2592%25E3%2580%2581%25E3%2581%25B2%25E3%2581%25A8%25E3%2582%258A%25E3%2581%25A7%25E4%25BD%2595%25E5%25B9%25B4%25E3%2582%2582%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ph%2520%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvcC5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "「みんなで、ひとつのしりとりを。」 見知らぬ大勢で一本のしりとりをつないでいくサイト シリプロ を公開しました。1時間ごとに締め切り、集まった応募から1語だけをつなげます。登録は要りません。 👉 https://shiritori-project.com/?utm_source=zenn&utm_medium=article 応募は、前の言葉の最後の文字から始まる言葉を、読みで送るだけ。 採用…"
   },
   {
    "src": "status",
