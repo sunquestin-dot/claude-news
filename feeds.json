@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794959885209,
+ "updatedAt": 1794965334768,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,30 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "世界最大級の純債権国で「財政出動すると円が暴落する」——為替と財政の行動経済学 : システム設計視点の行動経済学 (65)",
+   "link": "https://qiita.com/maskot1977/items/85c018c560e9371747f3",
+   "date": 1794964484000,
+   "img": "",
+   "desc": "user: 「システム設計視点の行動経済学」、第65回を始めましょう。その前に、まず前回の復習として、 「子孫へのツケ」は誰が受け取るのか——純債務・危機比較・世代間会計 : システム設計視点の行動経済学 (64) https://qiita.com/maskot1977..."
+  },
+  {
+   "src": "status",
+   "title": "Elevated errors affecting the Google Docs connector",
+   "link": "https://status.claude.com/incidents/6prv10gjdpz1",
+   "date": 1794964395000,
+   "img": "",
+   "desc": "Nov 18 , 01:13 UTC Investigating - We are investigating elevated errors when editing documents with the Google Docs connector on claude.ai, Claude Code, and Claude Cowork. Reading documents is not af…"
+  },
+  {
+   "src": "qiita",
+   "title": "非同期で働きたいマネージャーが、Claude Code に一日中話しかけて育てている",
+   "link": "https://qiita.com/mibushi/items/5f4acb4ac313d58df847",
+   "date": 1794962121000,
+   "img": "",
+   "desc": "はじめに 11/12(木)の Findy AI Meetup in Fukuoka #8 で 5 分の LT をしてきました。 テーマは「AI × 並列開発」。 スライドは Docswell に置いています。 5 分では話しきれなかったことと、当日いただいた質問への..."
+  },
   {
    "src": "qiita",
    "title": "エージェントが書くコードを読むための Git クライアント agentig を作った",
@@ -68,14 +92,6 @@
    "desc": "この記事でできること AIエージェントに実装を任せていると、変更のたびにテストが足されていきます。1件ずつは筋が通っていても、まとめて見ると増える一方で、減ることがほとんどありません。テストが増えればCIも手元の確認も遅くなり、エージェントが読むファイルも大きくなります。..."
   },
   {
-   "src": "qiita",
-   "title": "claude.aiのサインイン切れを夜間ジョブの前に検知する — claude -p を止めないための監視スクリプト",
-   "link": "https://qiita.com/joinclass/items/9b302cc1dafef6a69f5f",
-   "date": 1794958205000,
-   "img": "",
-   "desc": "はじめに 当社（合同会社ジョインクラス）では、Mac の launchd で十数本の定期ジョブを回し、その多くが claude -p を無人で呼んでいます。記事の下書き、売上の集計、朝のダイジェストなどです。 困るのは、サインインが切れていても claude -p のジョ..."
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.327",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
@@ -92,12 +108,12 @@
    "desc": "Nov 17 , 21:51 UTC Resolved - The issue affecting Sign in with Apple on claude.ai and the Claude iOS app has been resolved. Impact occurred from 08:40 PT / 16:40 UTC to 12:20 PT / 20:20 UTC. Nov 17 ,…"
   },
   {
-   "src": "qiita",
-   "title": "OCIのclaudにスマホからアクセスできるように環境をたちあげてみた",
-   "link": "https://qiita.com/henagineer/items/8e3a41efb48051ed8a62",
-   "date": 1794951783000,
-   "img": "",
-   "desc": "はじめに Claudeをリモート接続して使う方法があることを知りました。 もともと自宅のPCにリモート接続してClaudeを使おうと思っていたのですが、OCIを使っているんだしそちらの方がいいんじゃないかと思って挑戦してみました。 結果として、いつでもどこでも、バイブコー..."
+   "src": "zenn",
+   "title": "入れる前にSKILL.mdを読む: awesome-copilotのgit-commitをClaude Codeで使うときの確認点",
+   "link": "https://zenn.dev/skillselion/articles/b2c8100de2b5a3",
+   "date": 1794945100000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--kZQ3d_p3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E5%2589%258D%25E3%2581%25ABSKILL.md%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2580%253A%2520awesome-copilot%25E3%2581%25AEgit-commit%25E3%2582%2592Claude%2520Code%25E3%2581%25A7...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Skillselion%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvcy5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! 筆者は Skillselion の運営に関わっています。Skillselion は GitHub とも Anthropic とも関係のない独立したディレクトリです。 awesome-copilot の git-commit スキルは Claude Code でも使えますが、frontmatter の allowed-tools: shell(git:*) は Claude Code のスキル…"
   },
   {
    "src": "zenn",
@@ -266,14 +282,6 @@
    "date": 1794909081000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--EFyfnyya--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:push%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%2588%25E3%2581%25AF%25E3%2581%259A%25E3%2581%25AE%25EF%25BC%2589Claude%2520Code%25E3%2581%25AE%25E3%2582%25B5%25E3%2583%2596%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%258C3%25E5%259B%259Epush%25E3%2581%2597%25E3%2581%25A6CI%25E3%2581%25A70.47%25E3%2583%2589%25E3%2583%25AB%25E8%25AA%25B2%25E9%2587%2591%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:mira%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzhkNjNjZmVlM2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに Claude Codeのサブエージェントに「pushしないでください」と指示しておいたのに1つのPRに3回pushされた件について記事にしました。 めっちゃ少額ではありますが、3回pushされたことで79分（=0.47ドル）無駄に課金されてしまいました。 今回はこの0.47ドルが課金されるまでの経緯とその日のうちに入れたフックについて書いていきます。 やらかし発覚前 やらかしたのは20…"
-  },
-  {
-   "src": "zenn",
-   "title": "理解負債その2：AIが書き換えたMarkdownの「どこが変わったか」を、VS Codeのプレビューで色付けした",
-   "link": "https://zenn.dev/kent_code/articles/78709cb215a310",
-   "date": 1794906589000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--0lUFLz4o--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%2590%2586%25E8%25A7%25A3%25E8%25B2%25A0%25E5%2582%25B5%25E3%2581%259D%25E3%2581%25AE2%25EF%25BC%259AAI%25E3%2581%258C%25E6%259B%25B8%25E3%2581%258D%25E6%258F%259B%25E3%2581%2588%25E3%2581%259FMarkdown%25E3%2581%25AE%25E3%2580%258C%25E3%2581%25A9%25E3%2581%2593%25E3%2581%258C%25E5%25A4%2589%25E3%2582%258F%25E3%2581%25A3%25E3%2581%259F%25E3%2581%258B%25E3%2580%258D%25E3%2582%2592%25E3%2580%2581VS%2520Code%25E3%2581%25AE%25E3%2583%2597%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2581%25A7%25E8%2589%25B2%25E4%25BB%2598%25E3%2581%2591%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kent%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVlkODRlT3ZhWW1mTlowZlpabm8tNGk1SHlIUTdLTnA4RmptVHZVZHpGOE40WnotcXI9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "前回の記事「理解負債」では、AI の回答に理解が追いつかないまま実装に進んでしまう状態を「理解負債」と呼んで、それを減らすための CLAUDE.md のルールを紹介しました。長い回答はノート（Markdown）に書き出させて、チャットには結論だけを返してもらう、というものです。 このやり方を続けていると、今度は別の悩みが出てきていました。ノートが書き換わるたびに、どこが変わったのか分からないこと…"
   },
   {
    "src": "claude-code",
@@ -914,14 +922,6 @@
    "date": 1792972800000,
    "img": "",
    "desc": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock."
-  },
-  {
-   "src": "status",
-   "title": "Elevated errors for Claude Fable 5.1",
-   "link": "https://status.claude.com/incidents/vx06kp8wfpq2",
-   "date": 1792918169000,
-   "img": "",
-   "desc": "Oct 25 , 08:49 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 01:08 PT / 08:08 UTC to 01:29 PT / 08:29 UTC. Oct 25 , 08:30 UTC Monitoring - A fix has been …"
   },
   {
    "src": "research",
