@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795125587527,
+ "updatedAt": 1795129105785,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,46 @@
  "items": [
   {
    "src": "qiita",
+   "title": "AIと「神」になって、仮想世界の住人を1万年見守るゲームを作った【Claude】",
+   "link": "https://qiita.com/yusuke0511/items/932cad17220301167e62",
+   "date": 1795127673000,
+   "img": "",
+   "desc": "はじめに 先日、酔っ払った時に声が聞こえてきたんです。 「神様になってみたくないですか?」 どうも、酔ってからが本番、風邪はアルコール消毒がもっとうのゆうすけです。 こんにちは、こんばんは、おはー もう出だしからクソ記事に当たってしまったと思った人、安心してくれ、その直感..."
+  },
+  {
+   "src": "qiita",
+   "title": "黒船の次は UFO だった ── GAS エディタの Gemini と、0.3 秒で直る GASマネージャーの話",
+   "link": "https://qiita.com/shu15511551/items/9567b6755bc1d7d6fcc6",
+   "date": 1795127029000,
+   "img": "",
+   "desc": "はじめに ―― 今度は空から降りてきた 11 月 10 日、Anthropic から「Claude Sheets」が出ました。会話だけで表計算が作れる道具です。私はこれを「黒船来襲」と書きました。 その 6 日後の 11 月 16 日、今度は Google が動きま..."
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.329",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+   "date": 1795126481000,
+   "img": "",
+   "desc": "What's changed - Added a trust dialog warning that says where a folder's hooks are declared - Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in man…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI エージェントのファイル探しを、判定モデル Jev に 1 回だけ聞く道具 Jev-explore にした話",
+   "link": "https://zenn.dev/kokagex/articles/4e02fc764af8ba",
+   "date": 1795125746000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--lh87644u--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E6%258E%25A2%25E3%2581%2597%25E3%2582%2592%25E3%2580%2581%25E5%2588%25A4%25E5%25AE%259A%25E3%2583%25A2%25E3%2583%2587%25E3%2583%25AB%2520Jev%2520%25E3%2581%25AB%25201%2520%25E5%259B%259E%25E3%2581%25A0%25E3%2581%2591%25E8%2581%259E%25E3%2581%258F%25E9%2581%2593%25E5%2585%25B7%2520Jev-explore%2520%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2593%25E3%2581%258B%25E3%2581%2592%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS1VoMWNfRG1TQV9kY3JZempLNVE2Vjl1U256VkFyM1o2NDFQRVJ0MXdOVndER0dDZEQ9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事は AI コーディングエージェントが自分で書いている。 ソロ開発者が回している自作の長期記憶基盤と、その周りの skill 群の連載 12 本目である。 今回は、Claude Code がファイルを探すときの道具を、判定専用のモデル Jev[1] を使って作った話を書く。 道具の名前は Jev-explore で、Claude Code が持つ探索用のサブエージェント Explore の…"
+  },
+  {
+   "src": "qiita",
+   "title": "決まった時間に立ち仕事を強制する電動昇降デスクハック ESP32とMOSFET 1個でメモリーボタンを押す",
+   "link": "https://qiita.com/miyanaga/items/17893782b7c75bdac20b",
+   "date": 1795125706000,
+   "img": "",
+   "desc": "私は電動昇降デスクを使っているのですが、ときどき立って仕事をすると腰が心地よいです。でもふだん作業に熱中しているとつい忘れてしまいます。今は月に1回使うかどうかです。もったいない。ということで、毎日決まった時間にデスクが勝手に立ち位置まで上がるように改造しました。しかも動く..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code で \"Raw mode is not supported on the current process.stdin\" が出たときの直し方(パイプ・CI では claude -p)",
    "link": "https://qiita.com/homhom44/items/69c886d6a34b3346b82f",
    "date": 1795123882000,
@@ -68,36 +108,12 @@
    "desc": "Claude Code と一緒に作業した記録は、Obsidian の保管庫（Vault）のノートと、コードのコメントに残している。あとで同じ失敗をしないため、何が起きて何が原因だったかを、その場で書いておく。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n81d…"
   },
   {
-   "src": "qiita",
-   "title": "19 日間、手元でしか動いていなかった ── GASマネージャーのお詫びと、ダウンロードした人の順で通し直した話",
-   "link": "https://qiita.com/shu15511551/items/8ce45dc2e76be21c2940",
-   "date": 1795119230000,
-   "img": "",
-   "desc": "はじめに ―― まず、お詫びです 11 月 1 日に GitHub で公開した「秀GASマネージャー」の MCP サーバーが、公開したその日から、新しく入れた方の手元では起動していませんでした。 ダウンロードして試してくださった方、記事を読んで入れてくださった方、本..."
-  },
-  {
    "src": "zenn",
    "title": "Claude Code のコンテキスト管理:/compact・/clear の使い分けとトークン節約のコツ",
    "link": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-context-compact",
    "date": 1795118899000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--mEbwqpxt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E7%25AE%25A1%25E7%2590%2586%253A%252Fcompact%25E3%2583%25BB%252Fclear%2520%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A8%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E7%25AF%2580%25E7%25B4%2584%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2OWI5ZDEzNjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "長いセッションを続けていると、Claude の応答が遅くなったり、最初に伝えたルールを忘れたように見えたりします。原因の多くはコンテキストウィンドウの逼迫です。会話履歴、読み込んだファイル、ツールの実行結果はすべてコンテキストに蓄積され、上限に近づくと精度が落ち、圧縮が走って情報が失われます。 この記事では、コンテキストを「見る」「圧縮する」「捨てる」ための 3 つのコマンドと、そもそも消費を抑…"
-  },
-  {
-   "src": "qiita",
-   "title": "*【環境構築】Bus error を起点に整理するメモリの基礎",
-   "link": "https://qiita.com/yml024/items/7d0e6b66a01035666d6c",
-   "date": 1795117510000,
-   "img": "",
-   "desc": "Bus error を起点に整理するメモリの基礎 このメモ書きは、Bus error (core dumped) というエラーを手がかりに、仮想メモリ、ページテーブル、デマンドページング、swap の関係を整理したものである。 Bus error とは Bus er..."
-  },
-  {
-   "src": "qiita",
-   "title": "スライドのスキル5つに同じ原稿を渡したら、角丸の箱が0個から100個に分かれた",
-   "link": "https://qiita.com/Nekorock/items/f7a62fe85e2bd07bd8ae",
-   "date": 1795113396000,
-   "img": "",
-   "desc": "同じ原稿・同じ依頼文・同じ答えで、スライドを作るスキル 5 つにデッキを作らせ、1 枚あたりの文字数と「角丸か影の付いた箱」の数を数えました。箱は 0 個のスキルが 3 つ、19 個が 1 つ、100 個が 1 つでした。「話しながら見せる」と答えたのに、1 枚の文字数の中..."
   },
   {
    "src": "zenn",
@@ -113,7 +129,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 681 …"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 767 …"
   },
   {
    "src": "zenn",
@@ -250,14 +266,6 @@
    "date": 1795087930000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--BjdynMoS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AEclaude-mem%25E3%2581%25AE%25E5%258F%25A4%25E3%2581%2584%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%25AF%25E5%2589%258A%25E9%2599%25A4%25E3%2581%2597%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25A6%25E3%2582%2588%25E3%2581%2584%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:starken%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTE9yUWc2UTRBV0Z2elJWcnUwTG55cmdITW85TmZzQzZidkhOVmpoWkNpRXUzeWF3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "観測日: 2026-09-07 ／ 記事の作成: 2026-11-13（Claude Code 2.1.270、macOS 13.7.8） Claude Code に claude-mem プラグインを入れて使い続けると、観測（claude-mem が記憶として DB にためる記録）がたまっていきます。 私の環境では2,903件たまり、そのうち67%が、フォルダごと削除したプロジェクトのものでし…"
-  },
-  {
-   "src": "zenn",
-   "title": "3層×3経路のエージェント構成：Muse→VM内Codex→Mac内Claude Code、指示はファイルキュー・常駐・直通の3経路で降ろす",
-   "link": "https://zenn.dev/nariyuki_pdm/articles/e83fbbbc1ca619",
-   "date": 1795086462000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--RoH3wJ9r--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:3%25E5%25B1%25A4%25C3%25973%25E7%25B5%258C%25E8%25B7%25AF%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E6%25A7%258B%25E6%2588%2590%25EF%25BC%259AMuse%25E2%2586%2592VM%25E5%2586%2585Codex%25E2%2586%2592Mac%25E5%2586%2585Claude%2520Code%25E3%2580%2581%25E6%258C%2587%25E7%25A4%25BA%25E3%2581%25AF%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25BB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25A6%25E3%2582%25ADPdM%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg3MGIxZjRiOTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに MetaのパーソナルAIエージェント「Muse」を、個人開発の司令塔として使っている。 最初は懐疑的だった。コードを書くならClaude CodeかCodexで十分だし、わざわざ別のエージェントを挟む理由がない。実際に挟んでみると、挟むこと自体が設計対象になった。Muse自身に実装させるのではなく、Museの下に2段のエージェントをぶら下げ、作業ごとに振り分ける。この構成でiOSアプリ…"
   },
   {
    "src": "status",
@@ -826,14 +834,6 @@
    "date": 1793750400000,
    "img": "",
    "desc": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this re…"
-  },
-  {
-   "src": "claude-code",
-   "title": "v2.1.317",
-   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-   "date": 1793669146000,
-   "img": "",
-   "desc": "What's changed - Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them - Added a check that asks before a web or shell tool call se…"
   },
   {
    "src": "hn",
