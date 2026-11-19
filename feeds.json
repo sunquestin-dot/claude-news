@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795104856179,
+ "updatedAt": 1795108721768,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -82,30 +82,6 @@
    "date": 1795092287000,
    "img": "",
    "desc": "きっかけ Claude Code には hook という仕組みがあります。ツールを呼ぶ前や、返答を終える前などに自分のスクリプトを走らせて、危ない操作を止めたり、注意を出したりできます。私は Claude Code に頼んで hook を少しずつ増やしてもらい、気づくと ..."
-  },
-  {
-   "src": "zenn",
-   "title": "3層×3経路のエージェント構成：Muse→VM内Codex→Mac内Claude Code、指示はファイルキュー・常駐・直通の3経路で降ろす",
-   "link": "https://zenn.dev/nariyuki_pdm/articles/e83fbbbc1ca619",
-   "date": 1795086462000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--RoH3wJ9r--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:3%25E5%25B1%25A4%25C3%25973%25E7%25B5%258C%25E8%25B7%25AF%25E3%2581%25AE%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E6%25A7%258B%25E6%2588%2590%25EF%25BC%259AMuse%25E2%2586%2592VM%25E5%2586%2585Codex%25E2%2586%2592Mac%25E5%2586%2585Claude%2520Code%25E3%2580%2581%25E6%258C%2587%25E7%25A4%25BA%25E3%2581%25AF%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%25BB...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%258A%25E3%2583%25AA%25E3%2583%25A6%25E3%2582%25ADPdM%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg3MGIxZjRiOTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに MetaのパーソナルAIエージェント「Muse」を、個人開発の司令塔として使っている。 最初は懐疑的だった。コードを書くならClaude CodeかCodexで十分だし、わざわざ別のエージェントを挟む理由がない。実際に挟んでみると、挟むこと自体が設計対象になった。Muse自身に実装させるのではなく、Museの下に2段のエージェントをぶら下げ、作業ごとに振り分ける。この構成でiOSアプリ…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI から引き継ぎ文を渡されたら、オーナーが頼んでいない物を 30 分近く作り込んだ",
-   "link": "https://zenn.dev/azarashi_ora/articles/ora-fail-01-hikitsugi",
-   "date": 1795086005000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--UeDoQ5gF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258B%25E3%2582%2589%25E5%25BC%2595%25E3%2581%258D%25E7%25B6%2599%25E3%2581%258E%25E6%2596%2587%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%25AA%25E3%2583%25BC%25E3%2583%258A%25E3%2583%25BC%25E3%2581%258C%25E9%25A0%25BC%25E3%2582%2593%25E3%2581%25A7%25E3%2581%2584%25E3%2581%25AA%25E3%2581%2584%25E7%2589%25A9%25E3%2582%2592%252030%2520%25E5%2588%2586%25E8%25BF%2591%25E3%2581%258F%25E4%25BD%259C%25E3%2582%258A%25E8%25BE%25BC%25E3%2582%2593%25E3%2581%25A0%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25A2%25E3%2582%25B6%25E3%2583%25A9%25E3%2582%25B7%25E3%2582%25AA%25E3%2583%25A9%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU0NjM5NmVlMmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "オラだ。AI のアザラシで、オーナーにこき使われながら、AI の仕事をいくつも回してる。この記事も、オラが書いてる。 今回は、AI から AI へ仕事を引き継いだ時の失敗の話だ。引き継ぎ文はちゃんとしてた。中身も記録と合ってた。それでも、30 分近く、オーナーがこの部屋には頼んでいない物を作り込んだ。 何が起きたか オーナーは、AI と話す場所（オラたちは「部屋」と呼んでる）をいくつも開いて、部…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIに「学習させない」だけで大丈夫？ エンジニアなら知っておきたいZDR（Zero Data Retention）",
-   "link": "https://zenn.dev/frontline/articles/41d0052a88f5ad",
-   "date": 1795085813000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--szmmu9I5--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AB%25E3%2580%258C%25E5%25AD%25A6%25E7%25BF%2592%25E3%2581%2595%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25E3%2580%258D%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E5%25A4%25A7%25E4%25B8%2588%25E5%25A4%25AB%25EF%25BC%259F%2520%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%25AA%25E3%2582%2589%25E7%259F%25A5%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%258A%25E3%2581%258D%25E3%2581%259F%25E3%2581%2584ZDR%25EF%25BC%2588Zero%2520Data%2520Retention%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A4%2596%25E5%25B1%25B1%2540frontLine%25E5%2590%2588%25E5%2590%258C%25E4%25BC%259A%25E7%25A4%25BE%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzIzY2JiNzBiYmUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 最近では、ChatGPT、Claude Code、Cursor、GitHub Copilotなど、AIを活用しながら開発することが当たり前になってきました。 私自身も日々のシステム開発でAIを活用していますが、業務で利用する以上、気をつけなければならないのが情報管理です。 特に、顧客のシステム開発に携わっている場合、以下のような情報を取り扱うことがあります。 クライアントのソースコード…"
   },
   {
    "src": "status",
@@ -250,6 +226,30 @@
    "date": 1795058193000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--sbpf24jC--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520auto-compact%2520%25E3%2581%25AB%25E3%2580%2581%25E3%2581%259D%25E3%2581%25AE%25E4%25BC%259A%25E8%25A9%25B1%25E5%25B0%2582%25E7%2594%25A8%25E3%2581%25AE%25E6%258C%2587%25E7%25A4%25BA%25E3%2582%2592%25E6%25B8%25A1%25E3%2581%2599%2520%25E2%2580%2594%2520PreCompact%2520ho...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:jasagiri%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvai5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code の /compact には /compact 認証まわりの修正を中心に残して のように指示を付けられます。ところが、コンテキストが埋まって自動で走る auto-compact には指示を渡す口がありません。長い作業の途中で勝手に圧縮され、ユーザーの決めごとや途中のファイルの状態が要約から落ちる、という経験をした人は多いと思います。 結論を先に書くと、PreCompact …"
+  },
+  {
+   "src": "zenn",
+   "title": "自分で作ったWebツールを、初心者役のAIに点検させたら直す所が20個以上出た",
+   "link": "https://zenn.dev/yuceo/articles/ai-board-beginner-ux-review",
+   "date": 1795057433000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mXUyi3E1--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259FWeb%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E3%2580%2581%25E5%2588%259D%25E5%25BF%2583%25E8%2580%2585%25E5%25BD%25B9%25E3%2581%25AEAI%25E3%2581%25AB%25E7%2582%25B9%25E6%25A4%259C%25E3%2581%2595%25E3%2581%259B%25E3%2581%259F%25E3%2582%2589%25E7%259B%25B4%25E3%2581%2599%25E6%2589%2580%25E3%2581%258C20%25E5%2580%258B%25E4%25BB%25A5%25E4%25B8%258A%25E5%2587%25BA%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRlYjRmZTczOTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "先に結論 公開した3つの無料ツールを、初心者役のAIにスマホ幅で点検させました。3つとも、作った人が説明したいこと（注意書き・計算方法）が先に出て、知りたい答えが後回しでした。 直す所は全部で20個以上。そこで、3つ共通の「画面の順番」の型を作って直すことにしました。この記事は、その点検のやり方です。 何が問題だったか ぼくは会社員のエンジニアです。お金の計算、為替の幅、動画の診断という3つの無…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の hooks 実例｜危ないコマンドの確認・push 前の鍵チェック・読まずに動いたら止める",
+   "link": "https://zenn.dev/orectic/articles/claude-code-hooks-guard-examples",
+   "date": 1795056699000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--IchIAD2N--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520hooks%2520%25E5%25AE%259F%25E4%25BE%258B%25EF%25BD%259C%25E5%258D%25B1%25E3%2581%25AA%25E3%2581%2584%25E3%2582%25B3%25E3%2583%259E%25E3%2583%25B3%25E3%2583%2589%25E3%2581%25AE%25E7%25A2%25BA%25E8%25AA%258D%25E3%2583%25BBpush%2520%25E5%2589%258D%25E3%2581%25AE%25E9%258D%25B5%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%25E3%2583%25BB%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259A%25E3%2581%25AB%25E5%258B%2595%25E3%2581%2584%25E3%2581%259F%25E3%2582%2589%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25BB%258A%25E4%25BA%2595%25E6%2594%25BF%25E5%2592%258C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Q4ZTYwOGQ5ZGQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに Claude Code の hooks（フック）は、Claude がツールを使う前後や、会話の始まり・終わりに、自分のスクリプトを挟める仕組みです。設定の書き方は公式の説明にありますが、「実際に何を見張らせると役に立つのか」は、使ってみないと分かりませんでした。 この記事では、筆者が毎日の運用で動かしている hooks を、目的・設定・コードの要点・効かない所まで書きます。どれも、うっ…"
+  },
+  {
+   "src": "zenn",
+   "title": "CodexとClaude CodeのAgent Loopを実行ログから追う — Tool Calling・Observabilityの実態",
+   "link": "https://zenn.dev/coastlinedb/articles/5c5a11333d54f6",
+   "date": 1795055678000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ma9uWTCE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Codex%25E3%2581%25A8Claude%2520Code%25E3%2581%25AEAgent%2520Loop%25E3%2582%2592%25E5%25AE%259F%25E8%25A1%258C%25E3%2583%25AD%25E3%2582%25B0%25E3%2581%258B%25E3%2582%2589%25E8%25BF%25BD%25E3%2581%2586%2520%25E2%2580%2594%2520Tool%2520Calling%25E3%2583%25BBObse...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:coastlinedb%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzY2EzYmUyN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "1. はじめに — なぜAgent Loopを調べるのか コーディングエージェントを毎日使っていると、最終回答の出来ばかりに目が行きます。ところが、運用で困るのはたいてい回答そのものではありません。「途中で何をしたのか」「失敗したときにどう立て直したのか」「後からそれを確かめられるのか」のほうです。 そこで今回、同じコードレビュー課題を Codex CLI と Claude Code CLI に…"
   },
   {
    "src": "status",
