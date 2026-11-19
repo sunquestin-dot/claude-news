@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795115503569,
+ "updatedAt": 1795119338104,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "19 日間、手元でしか動いていなかった ── GASマネージャーのお詫びと、ダウンロードした人の順で通し直した話",
+   "link": "https://qiita.com/shu15511551/items/8ce45dc2e76be21c2940",
+   "date": 1795119230000,
+   "img": "",
+   "desc": "はじめに ―― まず、お詫びです 11 月 1 日に GitHub で公開した「秀GASマネージャー」の MCP サーバーが、公開したその日から、新しく入れた方の手元では起動していませんでした。 ダウンロードして試してくださった方、記事を読んで入れてくださった方、本..."
+  },
+  {
+   "src": "qiita",
+   "title": "*【環境構築】Bus error を起点に整理するメモリの基礎",
+   "link": "https://qiita.com/yml024/items/7d0e6b66a01035666d6c",
+   "date": 1795117510000,
+   "img": "",
+   "desc": "Bus error を起点に整理するメモリの基礎 このメモ書きは、Bus error (core dumped) というエラーを手がかりに、仮想メモリ、ページテーブル、デマンドページング、swap の関係を整理したものである。 Bus error とは Bus er..."
+  },
+  {
+   "src": "qiita",
    "title": "スライドのスキル5つに同じ原稿を渡したら、角丸の箱が0個から100個に分かれた",
    "link": "https://qiita.com/Nekorock/items/f7a62fe85e2bd07bd8ae",
    "date": 1795113396000,
@@ -60,28 +76,12 @@
    "desc": "開示: 筆者は Skillselion(Claude Code・Codex・Cursor 向け拡張機能の独立ディレクトリ)の運営に関わっています。HeyGen、Remotion、Anthropic とは提携していません。本記事は AI の補助を受けて作成し、引用はすべてリン..."
   },
   {
-   "src": "qiita",
-   "title": "2026-11-19 の公式ドキュメント更新：分類器の判定材料、フックの入力書き換え、サブエージェントの圧縮設定",
-   "link": "https://qiita.com/akihidem/items/ccd55bfec051300fae15",
-   "date": 1795110993000,
-   "img": "",
-   "desc": "この日の追加は、Claude Code が許可・拒否・圧縮といった判断を「何を材料に、どの順序で行うか」の説明の補足に集まっています。自動モードの分類器、フックの updatedInput、サブエージェントの自動圧縮ウィンドウ、テレメトリのホスト情報が主な対象です。10 ペ..."
-  },
-  {
-   "src": "qiita",
-   "title": "CLAUDE.md を組織とチームで運用する：層の責務分担と、起動時ロード量を CI で見張る方法",
-   "link": "https://qiita.com/akihidem/items/2f3c378f62fa24f9962d",
-   "date": 1795110902000,
-   "img": "",
-   "desc": "CLAUDE.md は誰でも追記できます。その一方で、消す責任者が決まっていないことが多いファイルです。レビューで指摘されるたびに 1 行足され、似た規則が別の言い方で重なり、組織の注意書きが全リポジトリに貼られていきます。本稿では、2026-11-19 時点の公式 doc..."
-  },
-  {
    "src": "hn",
    "title": "Anthropic hits $2T in Nasdaq debut",
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 329 …"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 490 …"
   },
   {
    "src": "youtube",
@@ -98,22 +98,6 @@
    "date": 1795080798000,
    "img": "",
    "desc": "Nov 19 , 09:33 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 00:56 PT / 08:56 UTC to 01:11 PT / 09:11 UTC. Nov 1…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code と gws で Gmail 3万通を掃除した",
-   "link": "https://zenn.dev/submax/articles/cfeac47d660f27",
-   "date": 1795080091000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--rfr_4JSI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A8%2520gws%2520%25E3%2581%25A7%2520Gmail%25203%25E4%25B8%2587%25E9%2580%259A%25E3%2582%2592%25E6%258E%2583%25E9%2599%25A4%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:submax%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I4ZDIxZmEyYzUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "長年使っていた個人用の Gmail アドレスが、サービスのメールとか、スパムとか、スパムとか、でメールBOX内容量が凄いことになっていた。メール累計3万通、2.4GBくらい。 一括で消すとなにか重要なメールが消えるかもしれない。 ただ人間が見て回るには多すぎる。 AI に重要なメールと消して良いメールを区別させた。 Claude Code 計画は opus 削除するメール分別は haiku で十…"
-  },
-  {
-   "src": "zenn",
-   "title": "54歳おじさん、バイブコーディングを始める。",
-   "link": "https://zenn.dev/eka_s/articles/655fb73dd6086b",
-   "date": 1795079005000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--LMyvpmsP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:54%25E6%25AD%25B3%25E3%2581%258A%25E3%2581%2598%25E3%2581%2595%25E3%2582%2593%25E3%2580%2581%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2588%25E3%2581%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzljYTUwMzg2MTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "54歳おじさんが初めてバイブコーディングをした記録と感想です。 ※AIは1年ほど前からコーディングに使用していますが、大きめのアプリをバイブコーディングで作り切ったのはこれが初めてです。 ※Zenn初投稿です。 ※この記事は自分の手で書いています。 作ったもの 複数のAIエージェントを、艦のクルーとして指揮するWebアプリ、make-it-so を作りました。 https://github.co…"
   },
   {
    "src": "zenn",
@@ -268,6 +252,22 @@
    "desc": "Nov 19 , 02:15 UTC Resolved - Claude Meetings (beta) is joining calls normally. Enterprise and Team customers can add Claude to calls. Auto-join is available for all Enterprise customers and some Tea…"
   },
   {
+   "src": "zenn",
+   "title": "DiscordからClaude Codeに作業を任せる方法！報告も質問もスマホで受け取る",
+   "link": "https://zenn.dev/spa77k/articles/discord-claude-code-ask-relay",
+   "date": 1795054197000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--u4xWspdm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Discord%25E3%2581%258B%25E3%2582%2589Claude%2520Code%25E3%2581%25AB%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25EF%25BC%2581%25E5%25A0%25B1%25E5%2591%258A%25E3%2582%2582%25E8%25B3%25AA%25E5%2595%258F%25E3%2582%2582%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25A7%25E5%258F%2597%25E3%2581%2591%25E5%258F%2596%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:spa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJmNGEwNzQ4NTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "外出先からもClaude Codeに作業を頼めるよう、依頼も、終わった報告も選択式の質問も、スマホのDiscordでやり取りできるようにしています。 僕はDiscordの1つのチャンネルとダイレクトメッセージ（DM）を、記憶を持つ会話役のCCちゃんとの1本の会話にしました。 CCちゃんという名前は、Claude Codeの頭文字を取っただけの安直な名前です。 頼まれた作業は、CCちゃんがOrca…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeで書き間違えた deny は警告される？ 2.1.326の新しい警告は4つに出て、閉じ括弧が1つ多い形は出ませんでした",
+   "link": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-permission-typo-warning-20261119",
+   "date": 1795054044000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HNJrv9jL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258D%25E9%2596%2593%25E9%2581%2595%25E3%2581%2588%25E3%2581%259F%2520deny%2520%25E3%2581%25AF%25E8%25AD%25A6%25E5%2591%258A%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25EF%25BC%259F%25202.1.326%25E3%2581%25AE%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E8%25AD%25A6%25E5%2591%258A%25E3%2581%25AF4%25E3%2581%25A4%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%25A6%25E3%2580%2581%25E9%2596%2589%25E3%2581%2598%25E6%258B%25AC%25E5%25BC%25A7%25E3%2581%258C...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2598%25E3%2581%2595%25E3%2582%2593AI%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZhYjlkMjRhMmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "deny に Read(./.env) と1行書いておけば、Claude Code は .env を読まない。おじさんはそう思って使っていました。でも、その1行の括弧を1つ書き間違えていたら、どうなるのでしょう。 前回（Claude Codeで deny した .env は cd の後も守られる？ 2.1.323までは読めて、2.1.324から止まりました）は、正しく書いた deny 規則が c…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.328",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
@@ -329,7 +329,7 @@
    "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
    "date": 1794918117000,
    "img": "",
-   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 140 # Comments: 75"
+   "desc": "Article URL: https://nitter.cf/kevinnbass/status/2099621874279817638 Comments URL: https://news.ycombinator.com/item?id=50530450 Points: 140 # Comments: 76"
   },
   {
    "src": "hn",
