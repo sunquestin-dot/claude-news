@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795065457680,
+ "updatedAt": 1795073425763,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "awesome-copilot のスキル6本を Claude Code にコピーする前に frontmatter を比べたら、4本は name と description だけでした",
+   "link": "https://qiita.com/Skillselion/items/805bf43996b07a0dd4f5",
+   "date": 1795071292000,
+   "img": "",
+   "desc": "筆者は Skillselion の開発に携わっています。Skillselion は Claude Code、Codex、Cursor 向け拡張を扱う独立したディレクトリで、GitHub とも Anthropic とも提携していません。 GitHub のコミュニティリ..."
+  },
   {
    "src": "qiita",
    "title": "M5Stack から 1 秒ごとのデータを送る ― FactorEye 開発記(3)",
@@ -68,14 +76,6 @@
    "desc": "この記事でわかること Playwright の launch_persistent_context で、パスワードを保存せずに、2回目から自動でログインした状態にする方法 同期版の Playwright で time.sleep() を使うと page.url が古いま..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code 2.1.323入門、enginesはgit配布でだけ弾く",
-   "link": "https://qiita.com/kai_kou/items/4c44527172ec054f9934",
-   "date": 1795057763000,
-   "img": "",
-   "desc": "はじめに Claude Code 2.1.323 の CHANGELOG には、plugin.json に engines[\"claude-code\"] を書けるようになったと載っています。「指定した Claude Code のバージョン範囲の外では、プラグインのインスト..."
-  },
-  {
    "src": "status",
    "title": "Claude Meetings auto-join limited on the Team plan",
    "link": "https://status.claude.com/incidents/b5cq662qf2wm",
@@ -90,6 +90,14 @@
    "date": 1795050844000,
    "img": "",
    "desc": "What's changed - Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permissio…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude CodeでiPhoneアプリを作ってApp Storeに出す —— SwiftUI・シミュレータ検証から審査提出の直前まで",
+   "link": "https://zenn.dev/joinclass/books/claude-code-ios-app-release",
+   "date": 1795043278000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--T2KO6Rp0--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9kZGM2ZDRmOGY5LnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
+   "desc": "Swiftをほぼ書いたことがないWebエンジニアが、Claude Codeと一緒に習慣チェックアプリ「まいにちチェック」を1本作り、App Storeの審査提出の直前まで通しで進めるハンズオン。xcodebuildとsimctlでビルド→起動→スクリーンショットを回し、Claude Code自身が画面を見て直す検証ループを軸に、SwiftUI・SwiftData・テスト・通知・多言語化・ストア用…"
   },
   {
    "src": "zenn",
@@ -162,6 +170,14 @@
    "date": 1795015050000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--uRbX1jFO--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520WebFetch%2520%25E3%2582%2592%25E7%2589%25B9%25E5%25AE%259A%25E3%2583%2589%25E3%2583%25A1%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25A0%25E3%2581%2591%25E8%25A8%25B1%25E5%258F%25AF%25E3%2581%2599%25E3%2582%258B%25E8%25A8%25AD%25E5%25AE%259A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2OWI5ZDEzNjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude に調べ物をさせたいが、任意のサイトへ自由にアクセスさせたくない。この要求は permissions の WebFetch(domain:...) ルールで表現できます。 ルールはリクエスト先のホスト名に対して照合されます。大文字小文字は区別されず、末尾のドットは無視されるため、example.com. と example.com は同じ扱いです。 要点 この記事で分かること Web…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeチームが並列の前に置く検証と失敗した検査の渡し方",
+   "link": "https://zenn.dev/suwash/articles/claude-code-e2e-claude-dev-p5_20261118",
+   "date": 1795014000000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--uGF6PnmV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2583%2581%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%258C%25E4%25B8%25A6%25E5%2588%2597%25E3%2581%25AE%25E5%2589%258D%25E3%2581%25AB%25E7%25BD%25AE%25E3%2581%258F%25E6%25A4%259C%25E8%25A8%25BC%25E3%2581%25A8%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%2597%25E3%2581%259F%25E6%25A4%259C%25E6%259F%25BB%25E3%2581%25AE%25E6%25B8%25A1%25E3%2581%2597%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:suwa-sh%2520%252F%2520%25E8%25AB%258F%25E8%25A8%25AA%25E7%259C%259F%25E4%25B8%2580%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNlQ0cjdIdGJrWG10aG42OE53dmlHWXBLcGI5VWQ5N3hnRS1aQnM9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Addy Osmani が 2026-11-16 に claude.dev で公開した How the Claude Code team thinks about verification は、Claude Code チームが変更を証拠で確認するときのテストの選び方と、確認が失敗したときの人への渡し方を書いています。肩書は Member of Technical Staff です。出典は、チーム…"
   },
   {
    "src": "zenn",
@@ -244,22 +260,6 @@
    "desc": "先に結論 ひとりで決めると迷うので、AIの役員たちに会議をしてもらい、最後に自分が決めることにしました。 5日間で会議は27回。サイトを2つ公開できました。失敗も3つあったので、それもそのまま書きます。 どうして作ったか ぼくは会社員のエンジニアです。副業に使える時間は、1日1.5時間だけです。 「何を作る？」「何を発信する？」をひとりで考えると、それだけで時間がなくなります。そこで、相談相手を…"
   },
   {
-   "src": "zenn",
-   "title": "SNSの投稿は、入力までAI・ボタンは人。Claude in Chromeで5つのSNSに入れてつまずいたこと",
-   "link": "https://zenn.dev/atsushi_apps/articles/claude-in-chrome-sns-posting-split",
-   "date": 1794996344000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--2_EDGIeP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SNS%25E3%2581%25AE%25E6%258A%2595%25E7%25A8%25BF%25E3%2581%25AF%25E3%2580%2581%25E5%2585%25A5%25E5%258A%259B%25E3%2581%25BE%25E3%2581%25A7AI%25E3%2583%25BB%25E3%2583%259C%25E3%2582%25BF%25E3%2583%25B3%25E3%2581%25AF%25E4%25BA%25BA%25E3%2580%2582Claude%2520in%2520Chrome%25E3%2581%25A75%25E3%2581%25A4%25E3%2581%25AESNS%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E3%2581%25A4%25E3%2581%25BE%25E3%2581%259A%25E3%2581%2584%25E3%2581%259F%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Atsushi%25EF%25BD%259C%25E5%2580%258B%25E4%25BA%25BA%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E9%2596%258B%25E7%2599%25BA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQzMWZjMzI5OTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "iPhoneアプリを一人で作っている Atsushi です。アプリの告知は、X・Threads・Instagram・TikTok・YouTube に出しています。 投稿の準備は、Claude in Chrome（Chrome の拡張機能で、Claude が私のブラウザを操作するもの）に任せています。ただし、投稿・予約・公開のボタンだけは、私が押す分担にしています。 この記事では、その分担のしかた…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の statusLine が渡す rate_limits を読んで、推測しない使用量メーターを作る",
-   "link": "https://zenn.dev/s3onghyun/articles/2e99d77e6a5a03",
-   "date": 1794994213000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--oFu5UvCc--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520statusLine%2520%25E3%2581%258C%25E6%25B8%25A1%25E3%2581%2599%2520rate_limits%2520%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2593%25E3%2581%25A7%25E3%2580%2581%25E6%258E%25A8%25E6%25B8%25AC%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E4%25BD%25BF%25E7%2594%25A8%25E9%2587%258F%25E3%2583%25A1%25E3%2583%25BC%25E3%2582%25BF...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:s3onghyun%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSkhFekNIX0tIYnNETVY4eFBuNks4YmU5YXg0Q3BMb0JSSXJqZkI0cm5BMDdleEFjWT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code の使用量を表示するツールは、セッションログのトークン数から上限を推定するものが多いです。この記事では推定をやめて、Claude Code 自身が statusLine コマンドに渡している rate_limits だけを読むメーターを作ったときの仕組みと、実際に踏んだ落とし穴をまとめます。 対象: macOS で Claude Code を使っていて、5 時間上限・週間上…"
-  },
-  {
    "src": "status",
    "title": "Elevated errors affecting the Google Docs connector",
    "link": "https://status.claude.com/incidents/6prv10gjdpz1",
@@ -293,6 +293,14 @@
   },
   {
    "src": "hn",
+   "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+   "link": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+   "date": 1794942525000,
+   "img": "",
+   "desc": "Article URL: https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc Comments URL: https://news.ycombinator.com/item?id=50536565 Poi…"
+  },
+  {
+   "src": "hn",
    "title": "Regulatory Capture by Anthropic Through METR",
    "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
    "date": 1794918117000,
@@ -305,7 +313,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 292 # Comments: 230"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 294 # Comments: 233"
   },
   {
    "src": "research",
@@ -842,14 +850,6 @@
    "date": 1793577600000,
    "img": "",
    "desc": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve."
-  },
-  {
-   "src": "hn",
-   "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
-   "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-   "date": 1793480878000,
-   "img": "",
-   "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 124"
   },
   {
    "src": "status",
