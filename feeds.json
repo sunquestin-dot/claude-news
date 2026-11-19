@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795108721768,
+ "updatedAt": 1795115503569,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -45,19 +45,43 @@
  "items": [
   {
    "src": "qiita",
-   "title": "dev-orchestra で、複数のAIの指摘をトリアージして直させてみた",
-   "link": "https://qiita.com/istb16/items/b413a98f27706f850f6b",
-   "date": 1795103720000,
+   "title": "スライドのスキル5つに同じ原稿を渡したら、角丸の箱が0個から100個に分かれた",
+   "link": "https://qiita.com/Nekorock/items/f7a62fe85e2bd07bd8ae",
+   "date": 1795113396000,
    "img": "",
-   "desc": "はじめに 前回は、dev-orchestra のレビューだけを使って、手元のブランチを 4 人の AI に見せました。指摘は 14 件でした。 dev-orchestra は、1 文の依頼から設計・実装・テスト・複数の AI によるレビュー・修正までを回す、Claude ..."
+   "desc": "同じ原稿・同じ依頼文・同じ答えで、スライドを作るスキル 5 つにデッキを作らせ、1 枚あたりの文字数と「角丸か影の付いた箱」の数を数えました。箱は 0 個のスキルが 3 つ、19 個が 1 つ、100 個が 1 つでした。「話しながら見せる」と答えたのに、1 枚の文字数の中..."
   },
   {
    "src": "qiita",
-   "title": "【初投稿】家庭用の LLM Wiki を職場に持ち込んだ話",
-   "link": "https://qiita.com/ekrsw/items/2b57d7826619cc1f30a5",
-   "date": 1795101518000,
+   "title": "HyperFrames と Remotion、エージェントに動画を書かせるならまずライセンスを確認する",
+   "link": "https://qiita.com/Skillselion/items/c83e123ba9a8c2ac14d4",
+   "date": 1795111890000,
    "img": "",
-   "desc": "はじめに はじめまして！これが Qiita への初投稿になります。家では、家庭のこまごまとしたことを Claude Code に管理してもらっています。 記録: 家族が資料を渡したり、思いついたことを話したりすると、Claude が wiki に整理して、あとから調べ..."
+   "desc": "開示: 筆者は Skillselion(Claude Code・Codex・Cursor 向け拡張機能の独立ディレクトリ)の運営に関わっています。HeyGen、Remotion、Anthropic とは提携していません。本記事は AI の補助を受けて作成し、引用はすべてリン..."
+  },
+  {
+   "src": "qiita",
+   "title": "2026-11-19 の公式ドキュメント更新：分類器の判定材料、フックの入力書き換え、サブエージェントの圧縮設定",
+   "link": "https://qiita.com/akihidem/items/ccd55bfec051300fae15",
+   "date": 1795110993000,
+   "img": "",
+   "desc": "この日の追加は、Claude Code が許可・拒否・圧縮といった判断を「何を材料に、どの順序で行うか」の説明の補足に集まっています。自動モードの分類器、フックの updatedInput、サブエージェントの自動圧縮ウィンドウ、テレメトリのホスト情報が主な対象です。10 ペ..."
+  },
+  {
+   "src": "qiita",
+   "title": "CLAUDE.md を組織とチームで運用する：層の責務分担と、起動時ロード量を CI で見張る方法",
+   "link": "https://qiita.com/akihidem/items/2f3c378f62fa24f9962d",
+   "date": 1795110902000,
+   "img": "",
+   "desc": "CLAUDE.md は誰でも追記できます。その一方で、消す責任者が決まっていないことが多いファイルです。レビューで指摘されるたびに 1 行足され、似た規則が別の言い方で重なり、組織の注意書きが全リポジトリに貼られていきます。本稿では、2026-11-19 時点の公式 doc..."
+  },
+  {
+   "src": "hn",
+   "title": "Anthropic hits $2T in Nasdaq debut",
+   "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "date": 1795107760000,
+   "img": "",
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 329 …"
   },
   {
    "src": "youtube",
@@ -66,22 +90,6 @@
    "date": 1795100569000,
    "img": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
    "desc": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a develo…"
-  },
-  {
-   "src": "qiita",
-   "title": "“そのまま”移行せよ ― Claude Codeチームの検証論を単体試験に落とし込む",
-   "link": "https://qiita.com/aaaaa_326/items/59a09fe12da31a77f9dc",
-   "date": 1795093091000,
-   "img": "",
-   "desc": "はじめに 単体試験は、突き詰めればどこまでもできます。だからこそ「どこまでやるか」「どうやるか」を決めないと、いつまでも終わらないか、正常系だけ書いて終わるかのどちらかになりがちです。 正常系と、仕様書に書いてある準正常系は、誰でも書きます。品質の差がつくのはその先、異常..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code に作ってもらった hook の警告が、Claude に届いていなかった",
-   "link": "https://qiita.com/ussu_ussu_ussu/items/2e2517c6a9fc30f805f4",
-   "date": 1795092287000,
-   "img": "",
-   "desc": "きっかけ Claude Code には hook という仕組みがあります。ツールを呼ぶ前や、返答を終える前などに自分のスクリプトを走らせて、危ない操作を止めたり、注意を出したりできます。私は Claude Code に頼んで hook を少しずつ増やしてもらい、気づくと ..."
   },
   {
    "src": "status",
@@ -329,7 +337,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 294 # Comments: 233"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 295 # Comments: 233"
   },
   {
    "src": "research",
@@ -577,7 +585,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1007 # Comments: 922"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1008 # Comments: 922"
   },
   {
    "src": "hn",
@@ -842,22 +850,6 @@
    "date": 1793637629000,
    "img": "",
    "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 353 # Comments: 2…"
-  },
-  {
-   "src": "hn",
-   "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
-   "link": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
-   "date": 1793636733000,
-   "img": "",
-   "desc": "Article URL: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now Comments URL: https://news.ycombinator.com/item?id=50339224 Points: 106 # Comments: 38"
-  },
-  {
-   "src": "hn",
-   "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
-   "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-   "date": 1793630325000,
-   "img": "",
-   "desc": "Article URL: https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html Comments URL: https://news.ycombinator.com/item?id=50337439 Points: 239 # Comments: 286"
   },
   {
    "src": "research",
