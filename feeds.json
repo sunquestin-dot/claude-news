@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795057291465,
+ "updatedAt": 1795061365975,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "Claude Code 2.1.323入門、enginesはgit配布でだけ弾く",
+   "link": "https://qiita.com/kai_kou/items/4c44527172ec054f9934",
+   "date": 1795057763000,
+   "img": "",
+   "desc": "はじめに Claude Code 2.1.323 の CHANGELOG には、plugin.json に engines[\"claude-code\"] を書けるようになったと載っています。「指定した Claude Code のバージョン範囲の外では、プラグインのインスト..."
+  },
   {
    "src": "qiita",
    "title": "Databricks Unity Gateway の Insights でコーディングエージェントの使われ方をレポートにする",
@@ -76,20 +84,36 @@
    "desc": "AIコーディングのコストを測っていても、成果を定量的に説明できる人は少ないのではないでしょうか。今回はAIコーディング環境のさまざまな情報を観測できるPreflightについて紹介します。 はじめに AIエージェントにいくら払い、どれだけの価値が本当に出たのか、この問いに..."
   },
   {
-   "src": "qiita",
-   "title": "2026年11月19日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "link": "https://qiita.com/ennagara128/items/376980e8bc6bd6f41641",
-   "date": 1795052256000,
-   "img": "",
-   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 もういい加減\"技術勉強会\"やめませんか？ ht..."
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.328",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
    "date": 1795050844000,
    "img": "",
    "desc": "What's changed - Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permissio…"
+  },
+  {
+   "src": "zenn",
+   "title": "Apple container で Claude Code の隔離した作業環境を作る",
+   "link": "https://zenn.dev/gixo/articles/claude-code-apple-container-setup",
+   "date": 1795048205000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Q0brS3IW--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Apple%2520container%2520%25E3%2581%25A7%2520Claude%2520Code%2520%25E3%2581%25AE%25E9%259A%2594%25E9%259B%25A2%25E3%2581%2597%25E3%2581%259F%25E4%25BD%259C%25E6%25A5%25AD%25E7%2592%25B0%25E5%25A2%2583%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Yuji%2520Tsuritani%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkYTBiZjE4NjMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%25A0%25AA%25E5%25BC%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%25AE%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2JkYzZkZjE2NmMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに どうも。株式会社ギックスの釣谷です。 Claude Code、まだ Mac の上でそのまま動かしていませんか。隔離した環境で動かす話はひととおり出揃っていますが、手を付けていない人もまだいると思います。 この記事では Apple container を使って、エージェントが読めるファイルと通信できる宛先を絞った作業環境を作る方法を紹介します。なぜ隔離するのか、何を守るのかは以前の記事に…"
+  },
+  {
+   "src": "zenn",
+   "title": "T3 Code で Antigravity（agy）が「Not found」になるときの設定",
+   "link": "https://zenn.dev/trellis/articles/t3code-antigravity-cli-setup",
+   "date": 1795046400000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hIjMTfio--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:T3%2520Code%2520%25E3%2581%25A7%2520Antigravity%25EF%25BC%2588agy%25EF%25BC%2589%25E3%2581%258C%25E3%2580%258CNot%2520found%25E3%2580%258D%25E3%2581%25AB%25E3%2581%25AA%25E3%2582%258B%25E3%2581%25A8%25E3%2581%258D%25E3%2581%25AE%25E8%25A8%25AD%25E5%25AE%259A%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Trellis%25EF%25BC%2588%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25AA%25E3%2582%25B9%25EF%25BC%2589%25EF%25BD%259C%25E7%25A6%258F%25E5%25B2%25A1%25E3%2581%25AEA...%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RhZGM1Yjk2MGEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Trellis%25EF%25BC%2588%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25AA%25E3%2582%25B9%25EF%25BC%2589%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI5OGFkZWUwMzMuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "最近、Antigravity や Gemini 4 系モデルが話題です。 Argon に続いて Hydrogen や Carbon も登場し、特に高速・高コスパな Hydrogen の登場で、GPT 系から Antigravity / Gemini 系へ軸足を移す人が増えています。 私もいま T3 Code 上で Gemini 4 Hydrogen を使って作業しています。 ただ、最初に T3 …"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code を起動する前に、作業フォルダの「置いてはいけないもの」を自動で点検する(Windows・PowerShell)",
+   "link": "https://zenn.dev/chukidx_dev/articles/claudecode-workspace-check",
+   "date": 1795044027000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--PSX4u3Fs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2592%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%2599%25E3%2582%258B%25E5%2589%258D%25E3%2581%25AB%25E3%2580%2581%25E4%25BD%259C%25E6%25A5%25AD%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AB%25E3%2583%2580%25E3%2581%25AE%25E3%2580%258C%25E7%25BD%25AE%25E3%2581%2584%25E3%2581%25A6%25E3%2581%25AF%25E3%2581%2584%25E3%2581%2591%25E3%2581%25AA%25E3%2581%2584%25E3%2582%2582%25E3%2581%25AE%25E3%2580%258D%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7%25E7%2582%25B9%25E6%25A4%259C%25E3%2581%2599%25E3%2582%258B%2528Windows%25E3%2583%25BBP...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E5%25B0%258FDX%25E3%2583%25A9%25E3%2583%259C%2528chukidx%2529%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UyZTIzYmM5NzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code(Anthropic 社が提供する、ターミナルで動く AI コーディングエージェント)に業務情報を渡さないための対策のうち、「作業フォルダに置かないと決めたものが、本当に置かれていないか」を起動のたびに機械で点検する仕組みを、スクリプト・設定ファイル・手順まで含めて公開します。 この記事で手に入るもの: 作業フォルダから、置かないと決めた種類のファイルと、書いてはいけない語…"
   },
   {
    "src": "zenn",
@@ -236,30 +260,6 @@
    "desc": "みなさん、こんにちは！ 「ALPHA FORGE 開発秘話」の第35話です。 「AIにペルソナを与えましょうか」。そう聞いたら、AIは「役柄は付けない方がいいです」と返してきました。 代わりに出てきたのは、今のプロンプトを1文字も変えずに、新しい版を横で走らせて成績で比べる案です🥊 日本株のデータ分析端末「ALPHA FORGE（アルファフォージ）」を、Claude Code と二人三脚で個人…"
   },
   {
-   "src": "zenn",
-   "title": "Claude Code のルールの置き場を判定表で決めた。3か月後に数えたら、増え方は止まっていなかった",
-   "link": "https://zenn.dev/handa_lab/articles/11-rules-placement-table",
-   "date": 1794999845000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--nLt77tgQ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AE%25E7%25BD%25AE%25E3%2581%258D%25E5%25A0%25B4%25E3%2582%2592%25E5%2588%25A4%25E5%25AE%259A%25E8%25A1%25A8%25E3%2581%25A7%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F%25E3%2580%25823%25E3%2581%258B%25E6%259C%2588%25E5%25BE%258C%25E3%2581%25AB%25E6%2595%25B0%25E3%2581%2588%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%25A2%2597%25E3%2581%2588%25E6%2596%25B9%25E3%2581%25AF%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:HandaLab%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U0ZjdjZDM1ODUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "月次の棚卸しレポートに、毎月同じ行が出る。実装前確認.md が10項目を超えている、という指摘だ。9月は17項目、10月は18項目、11月は21項目。1ファイルが10項目を超えたら分割か統合を検討する、という出口の基準を決めたのは自分で、ルールの置き場を判定表で決める設計を作ったのも自分だ。 この記事は、その設計の記録になる。何を決めて、何を却下したか。3か月後の数字は何を示していて、何を示して…"
-  },
-  {
-   "src": "zenn",
-   "title": "「検査は走っていた。それでもpushされた」——Claude Codeの3か月の記録と、SAPの移送ゲート",
-   "link": "https://zenn.dev/dantarg/articles/claude-code-playbook-gates",
-   "date": 1794997991000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Oxm-tcj4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E6%25A4%259C%25E6%259F%25BB%25E3%2581%25AF%25E8%25B5%25B0%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%25E3%2580%2582%25E3%2581%259D%25E3%2582%258C%25E3%2581%25A7%25E3%2582%2582push%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%25E3%2580%258D%25E2%2580%2594%25E2%2580%2594Claude%2520Code%25E3%2581%25AE3%25E3%2581%258B%25E6%259C%2588%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%25A8%25E3%2580%2581SAP%25E3%2581%25AE%25E7%25A7%25BB%25E9%2580%2581%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25B0%258F%25E9%2587%258E%2520%25E6%2598%25AD%25E4%25B9%2585%2528PN%253A%25E5%258F%25A4%25E6%2598%258E%25E5%259C%25B0%25E3%2582%2586%25E3%2581%25A8%25E3%2582%258A%252FID...%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRkNjMwYzRiMTAuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "規程はある。手順書もある。研修資料も、マニュアルもある。 それでも、事故は起きる。 「ある」だけでは、効かないのです。 フォローしている著者の3か月の記録が、その話をAIエージェントの世界で、数字つきでやっていました。 @tottoko_hamuさんの「Claude Codeの手順書は、指定しても読まれない」です。 ローカルで動くエージェントを、「注意」ではなく「仕組み」で止める話として読みます…"
-  },
-  {
-   "src": "zenn",
-   "title": "会社員エンジニアが Claude Code で「AI役員会議」の会社を作って5日回した",
-   "link": "https://zenn.dev/yuceo/articles/ai-board-claude-code",
-   "date": 1794997708000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--QdOBrlVQ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E4%25BC%259A%25E7%25A4%25BE%25E5%2593%25A1%25E3%2582%25A8%25E3%2583%25B3%25E3%2582%25B8%25E3%2583%258B%25E3%2582%25A2%25E3%2581%258C%2520Claude%2520Code%2520%25E3%2581%25A7%25E3%2580%258CAI%25E5%25BD%25B9%25E5%2593%25A1%25E4%25BC%259A%25E8%25AD%25B0%25E3%2580%258D%25E3%2581%25AE%25E4%25BC%259A%25E7%25A4%25BE%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A65%25E6%2597%25A5%25E5%259B%259E%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRlYjRmZTczOTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "先に結論 ひとりで決めると迷うので、AIの役員たちに会議をしてもらい、最後に自分が決めることにしました。 5日間で会議は27回。サイトを2つ公開できました。失敗も3つあったので、それもそのまま書きます。 どうして作ったか ぼくは会社員のエンジニアです。副業に使える時間は、1日1.5時間だけです。 「何を作る？」「何を発信する？」をひとりで考えると、それだけで時間がなくなります。そこで、相談相手を…"
-  },
-  {
    "src": "status",
    "title": "Elevated errors affecting the Google Docs connector",
    "link": "https://status.claude.com/incidents/6prv10gjdpz1",
@@ -305,7 +305,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 290 # Comments: 230"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 292 # Comments: 230"
   },
   {
    "src": "research",
@@ -561,7 +561,7 @@
    "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
    "date": 1794461364000,
    "img": "",
-   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 456 # Comments: 242"
+   "desc": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 456 # Comments: 244"
   },
   {
    "src": "reddit",
@@ -850,14 +850,6 @@
    "date": 1793480878000,
    "img": "",
    "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 196 # Comments: 124"
-  },
-  {
-   "src": "hn",
-   "title": "Anthropic blocks users for anything touching training larger models",
-   "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-   "date": 1793475559000,
-   "img": "",
-   "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 497 # Comments: 273"
   },
   {
    "src": "status",
