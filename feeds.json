@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795090195249,
+ "updatedAt": 1795094972960,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "“そのまま”移行せよ ― Claude Codeチームの検証論を単体試験に落とし込む",
+   "link": "https://qiita.com/aaaaa_326/items/59a09fe12da31a77f9dc",
+   "date": 1795093091000,
+   "img": "",
+   "desc": "はじめに 単体試験は、突き詰めればどこまでもできます。だからこそ「どこまでやるか」「どうやるか」を決めないと、いつまでも終わらないか、正常系だけ書いて終わるかのどちらかになりがちです。 正常系と、仕様書に書いてある準正常系は、誰でも書きます。品質の差がつくのはその先、異常..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code に作ってもらった hook の警告が、Claude に届いていなかった",
+   "link": "https://qiita.com/ussu_ussu_ussu/items/2e2517c6a9fc30f805f4",
+   "date": 1795092287000,
+   "img": "",
+   "desc": "きっかけ Claude Code には hook という仕組みがあります。ツールを呼ぶ前や、返答を終える前などに自分のスクリプトを走らせて、危ない操作を止めたり、注意を出したりできます。私は Claude Code に頼んで hook を少しずつ増やしてもらい、気づくと ..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Codeチームのコードレビュー：読む作業を機械に移し、人の時間を危ない所に使う",
    "link": "https://qiita.com/pitaspot/items/9ae99d32e3acc10329fa",
    "date": 1795086938000,
@@ -60,44 +76,12 @@
    "desc": "AIに頼んだら、アプリができた。ボタンを押すと動くし、見た目もそれらしい。 ここまではうれしい。でも、誰かに使ってもらおうとすると、急に気になるところが出てくる。最初に何を入力すればいいか分かるだろうか。間違えて消したらどうなるだろうか。「もっと使いやすくして」と頼みたくな..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Codeに「1日いくらまで」の上限をかける方法(API破産対策)",
-   "link": "https://qiita.com/ut181749ut/items/da187f846104ba22b346",
-   "date": 1795085892000,
-   "img": "",
-   "desc": "Claude CodeをAPIキーで動かしていると、手元にはお金の使いすぎを止める仕組みがありません。夜中にAIが同じ処理をくり返し始めると、朝起きるまで止まりません。 自分は「1日いくらまで」で止まるようにしています。最悪でも「1,000円で止まっていた」で済み、「請求を..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Codeの「/remote-control」で、ディズニーの長い待ち時間中も開発したい",
-   "link": "https://qiita.com/inoyu-qiita/items/f7cdc72b8673a7d94fa5",
-   "date": 1795084642000,
-   "img": "",
-   "desc": "はじめに ディズニーの長い待ち時間、スマホをただ眺めるだけじゃなくてAI駆動開発も進めたい、、！ 今回はそんな願いを叶えるClaude Codeの「/remote-control」とCodexのRemoteを紹介します。 どちらもPC上の開発作業をスマホから続けられます。..."
-  },
-  {
    "src": "status",
    "title": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
    "link": "https://status.claude.com/incidents/c1kmrkmv5f3d",
    "date": 1795080798000,
    "img": "",
    "desc": "Nov 19 , 09:33 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 00:56 PT / 08:56 UTC to 01:11 PT / 09:11 UTC. Nov 1…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code と gws で Gmail 3万通を掃除した",
-   "link": "https://zenn.dev/submax/articles/cfeac47d660f27",
-   "date": 1795080091000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--rfr_4JSI--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25A8%2520gws%2520%25E3%2581%25A7%2520Gmail%25203%25E4%25B8%2587%25E9%2580%259A%25E3%2582%2592%25E6%258E%2583%25E9%2599%25A4%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:submax%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2I4ZDIxZmEyYzUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "長年使っていた個人用の Gmail アドレスが、サービスのメールとか、スパムとか、スパムとか、でメールBOX内容量が凄いことになっていた。メール累計3万通、2.4GBくらい。 一括で消すとなにか重要なメールが消えるかもしれない。 ただ人間が見て回るには多すぎる。 AI に重要なメールと消して良いメールを区別させた。 Claude Code 計画は opus 削除するメール分別は haiku で十…"
-  },
-  {
-   "src": "zenn",
-   "title": "54歳おじさん、バイブコーディングを始める。",
-   "link": "https://zenn.dev/eka_s/articles/655fb73dd6086b",
-   "date": 1795079005000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--LMyvpmsP--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:54%25E6%25AD%25B3%25E3%2581%258A%25E3%2581%2598%25E3%2581%2595%25E3%2582%2593%25E3%2580%2581%25E3%2583%2590%25E3%2582%25A4%25E3%2583%2596%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%2592%25E5%25A7%258B%25E3%2582%2581%25E3%2582%258B%25E3%2580%2582%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2588%25E3%2581%258B%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzljYTUwMzg2MTQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "54歳おじさんが初めてバイブコーディングをした記録と感想です。 ※AIは1年ほど前からコーディングに使用していますが、大きめのアプリをバイブコーディングで作り切ったのはこれが初めてです。 ※Zenn初投稿です。 ※この記事は自分の手で書いています。 作ったもの 複数のAIエージェントを、艦のクルーとして指揮するWebアプリ、make-it-so を作りました。 https://github.co…"
   },
   {
    "src": "zenn",
@@ -250,6 +234,22 @@
    "date": 1795054505000,
    "img": "",
    "desc": "Nov 19 , 02:15 UTC Resolved - Claude Meetings (beta) is joining calls normally. Enterprise and Team customers can add Claude to calls. Auto-join is available for all Enterprise customers and some Tea…"
+  },
+  {
+   "src": "zenn",
+   "title": "DiscordからClaude Codeに作業を任せる方法！報告も質問もスマホで受け取る",
+   "link": "https://zenn.dev/spa77k/articles/discord-claude-code-ask-relay",
+   "date": 1795054197000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--u4xWspdm--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Discord%25E3%2581%258B%25E3%2582%2589Claude%2520Code%25E3%2581%25AB%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%25E6%2596%25B9%25E6%25B3%2595%25EF%25BC%2581%25E5%25A0%25B1%25E5%2591%258A%25E3%2582%2582%25E8%25B3%25AA%25E5%2595%258F%25E3%2582%2582%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25A7%25E5%258F%2597%25E3%2581%2591%25E5%258F%2596%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:spa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzJmNGEwNzQ4NTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "外出先からもClaude Codeに作業を頼めるよう、依頼も、終わった報告も選択式の質問も、スマホのDiscordでやり取りできるようにしています。 僕はDiscordの1つのチャンネルとダイレクトメッセージ（DM）を、記憶を持つ会話役のCCちゃんとの1本の会話にしました。 CCちゃんという名前は、Claude Codeの頭文字を取っただけの安直な名前です。 頼まれた作業は、CCちゃんがOrca…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeで書き間違えた deny は警告される？ 2.1.326の新しい警告は4つに出て、閉じ括弧が1つ多い形は出ませんでした",
+   "link": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-permission-typo-warning-20261119",
+   "date": 1795054044000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HNJrv9jL--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258D%25E9%2596%2593%25E9%2581%2595%25E3%2581%2588%25E3%2581%259F%2520deny%2520%25E3%2581%25AF%25E8%25AD%25A6%25E5%2591%258A%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25EF%25BC%259F%25202.1.326%25E3%2581%25AE%25E6%2596%25B0%25E3%2581%2597%25E3%2581%2584%25E8%25AD%25A6%25E5%2591%258A%25E3%2581%25AF4%25E3%2581%25A4%25E3%2581%25AB%25E5%2587%25BA%25E3%2581%25A6%25E3%2580%2581%25E9%2596%2589%25E3%2581%2598%25E6%258B%25AC%25E5%25BC%25A7%25E3%2581%258C...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2598%25E3%2581%2595%25E3%2582%2593AI%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZhYjlkMjRhMmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "deny に Read(./.env) と1行書いておけば、Claude Code は .env を読まない。おじさんはそう思って使っていました。でも、その1行の括弧を1つ書き間違えていたら、どうなるのでしょう。 前回（Claude Codeで deny した .env は cd の後も守られる？ 2.1.323までは読めて、2.1.324から止まりました）は、正しく書いた deny 規則が c…"
   },
   {
    "src": "claude-code",
@@ -737,7 +737,7 @@
    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "date": 1794084332000,
    "img": "",
-   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 628 # Comments: 431"
+   "desc": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 629 # Comments: 431"
   },
   {
    "src": "claude-code",
