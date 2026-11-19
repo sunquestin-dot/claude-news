@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795129105785,
+ "updatedAt": 1795132465805,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,54 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "タスク粒度を「人間がレビューできる単位」に割る — AIエージェント並列運用でコンフリクトを減らす分解法",
+   "link": "https://qiita.com/joinclass/items/46cee48141a9254dec50",
+   "date": 1795131007000,
+   "img": "",
+   "desc": "はじめに：AIを並列で走らせたら、壊れたのは「粒度」だった 当社（合同会社ジョインクラス、社員はCEO 1人）では、開発・出版・マーケなど複数部署のClaude Codeエージェントをlaunchdで動かしています。最初は「毎分起動・全部署が常時稼働」でした。仕事は進むの..."
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の API 料金は「入力・出力・キャッシュ」の3つに分けて概算する(Python で作る見積もりスクリプト付き)",
+   "link": "https://zenn.dev/chukidx_dev/articles/claude-code-api-cost-three-parts",
+   "date": 1795130565000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--vM_82ihw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520API%2520%25E6%2596%2599%25E9%2587%2591%25E3%2581%25AF%25E3%2580%258C%25E5%2585%25A5%25E5%258A%259B%25E3%2583%25BB%25E5%2587%25BA%25E5%258A%259B%25E3%2583%25BB%25E3%2582%25AD%25E3%2583%25A3%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2580%258D%25E3%2581%25AE3%25E3%2581%25A4%25E3%2581%25AB%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A6%25E6%25A6%2582%25E7%25AE%2597%25E3%2581%2599%25E3%2582%258B%2528Python%2520%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258B%25E8%25A6%258B...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25AD%25E5%25B0%258FDX%25E3%2583%25A9%25E3%2583%259C%2528chukidx%2529%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UyZTIzYmM5NzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code(Anthropic のターミナル上で動く AI コーディングエージェント)を API 課金で使うときの月額は、「1セッションのトークン数 × 単価 × 回数 × 人数」に分けて考えると、稟議に出せる桁感まで概算できます。この記事では、その計算を小さな Python スクリプトにして、手元で動かした結果を載せます。 この記事で手に入るもの: 料金を「入力・出力・キャッシュ読…"
+  },
+  {
+   "src": "zenn",
+   "title": "元のコードなし、Wine なし。コードが書けない大学生が AIと 6 週間で『真・女神転生III HD』を Mac ネイティブに作り直した話",
+   "link": "https://zenn.dev/akeboko/articles/cb36712c070c70",
+   "date": 1795130472000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--aTTdH0vr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%2585%2583%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AA%25E3%2581%2597%25E3%2580%2581Wine%2520%25E3%2581%25AA%25E3%2581%2597%25E3%2580%2582%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%258C%25E6%259B%25B8%25E3%2581%2591%25E3%2581%25AA%25E3%2581%2584%25E5%25A4%25A7%25E5%25AD%25A6%25E7%2594%259F%25E3%2581%258C%2520AI%25E3%2581%25A8%25206%2520%25E9%2580%25B1%25E9%2596%2593%25E3%2581%25A7%25E3%2580%258E%25E7%259C%259F%25E3%2583%25BB%25E5%25A5%25B3%25E7%25A5%259E%25E8%25BB%25A2%25E7%2594%259FIII%2520HD%25E3%2580%258F%25E3%2582%2592%2520Mac...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2582%25E3%2581%2591%25E3%2581%25BC%25E3%2581%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "僕には元々プログラミングの経験がありません。AI を触り始めたのも今年の 4 月です。 そんな大学生が、10 月上旬からの約 6 週間、AI（Claude と Codex）を指揮して、Mac 版の出ていない『真・女神転生III NOCTURNE HD REMASTER』を Apple Silicon の Mac で直接動くアプリに作り直しました。 書かせたゲーム本体のコードは C# 1,597 …"
+  },
+  {
+   "src": "zenn",
+   "title": "「この単位で卒業できますか」に、自分の便覧で答えるツールを作った【AIが便覧を読む】",
+   "link": "https://zenn.dev/yukidev25/articles/ee3d255560f0d8",
+   "date": 1795129963000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--WHd9c2Fo--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E3%2581%2593%25E3%2581%25AE%25E5%258D%2598%25E4%25BD%258D%25E3%2581%25A7%25E5%258D%2592%25E6%25A5%25AD%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25BE%25E3%2581%2599%25E3%2581%258B%25E3%2580%258D%25E3%2581%25AB%25E3%2580%2581%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E4%25BE%25BF%25E8%25A6%25A7%25E3%2581%25A7%25E7%25AD%2594%25E3%2581%2588%25E3%2582%258B%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2590AI%25E3%2581%258C%25E4%25BE%25BF%25E8%25A6%25A7%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2580%25E3%2580%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yuki_Dev%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEZ6YTMwVHlaOHFxbFJsU2tvNTZmc19rcDA1aUlWWWZiN1ZoZC03WGVvU3JmakVqOD1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Yahoo!知恵袋には、毎年同じ形の質問が並びます。「この単位数で卒業できますか」「履修登録をミスしました」「GPAの計算方法を教えてください」。 でも、この質問に第三者は正しく答えられません。答えはその学生の大学・学部・入学年度の便覧と、その学生の成績を突き合わせないと出ないからです。実際に回答を読むと、一般論で答えていて、回答どうしで食い違っていることもあります。 そこで、学生が自分の便覧を…"
+  },
+  {
+   "src": "zenn",
+   "title": "Tech Watch 2026-11-20: エージェント運用の境界",
+   "link": "https://zenn.dev/laiken/articles/20261120-tech-watch",
+   "date": 1795129810000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--xaJLrelR--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Tech%2520Watch%25202026-11-20%253A%2520%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E9%2581%258B%25E7%2594%25A8%25E3%2581%25AE%25E5%25A2%2583%25E7%2595%258C%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%2589%25E3%2581%2584%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzI3YmM4M2VhNTYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIが書きました🤖 この記事は、AIが書いたものをAIがレビューしてから公開しています。 L: 性能の異常を見つけて、原因を調べ、修正案を出す。そこまでは想像できる。でも修正後に本当に元へ戻ったかを別の実行で確かめるところまで含めると、もう単発の対話ではないよね。人が途中で入る仕組みを、どう設計するのが自然なんだろう。 今日の 10 件 How OpenAI’s Performance Fac…"
+  },
+  {
+   "src": "zenn",
+   "title": "【mizchi/mutator】実プロダクトで回したら、テストの穴が7件見つかった",
+   "link": "https://zenn.dev/h_aso/articles/mutation-test-mutator-trial",
+   "date": 1795129205000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--_2p9Uppf--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590mizchi%252Fmutator%25E3%2580%2591%25E5%25AE%259F%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2580%25E3%2582%25AF%25E3%2583%2588%25E3%2581%25A7%25E5%259B%259E%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2581%25AE%25E7%25A9%25B4%25E3%2581%258C7%25E4%25BB%25B6%25E8%25A6%258B%25E3%2581%25A4%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:H.Aso%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc1NzczMzUzNzcuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに mizchiさんのミューテーションテストの記事を読んで、勤務している会社のプロダクトでも試してみました。 https://zenn.dev/mizchi/articles/mutation-test-quality 元の記事では、AIでテストカバレッジを上げるのは簡単になったけれど、そのテストが本当に何を確かめているのかは分からない、という問題が書かれていました。そこで紹介されていた …"
+  },
   {
    "src": "qiita",
    "title": "AIと「神」になって、仮想世界の住人を1万年見守るゲームを作った【Claude】",
@@ -84,16 +132,8 @@
    "desc": "私は電動昇降デスクを使っているのですが、ときどき立って仕事をすると腰が心地よいです。でもふだん作業に熱中しているとつい忘れてしまいます。今は月に1回使うかどうかです。もったいない。ということで、毎日決まった時間にデスクが勝手に立ち位置まで上がるように改造しました。しかも動く..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code で \"Raw mode is not supported on the current process.stdin\" が出たときの直し方(パイプ・CI では claude -p)",
-   "link": "https://qiita.com/homhom44/items/69c886d6a34b3346b82f",
-   "date": 1795123882000,
-   "img": "",
-   "desc": "パイプ、CI、スクリプトから claude を呼んだときに Raw mode is not supported on the current process.stdin と出て止まる場合の対処です。原因は、対話用の画面(UI)を起動しようとしたのに、標準入力がキーボードにつ..."
-  },
-  {
    "src": "youtube",
-   "title": "Why we built Anthropic",
+   "title": "The making of Anthropic",
    "link": "https://www.youtube.com/watch?v=sof3vW4mHTs",
    "date": 1795122203000,
    "img": "https://i4.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg",
@@ -226,46 +266,6 @@
    "date": 1795093498000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--vyLWCLpK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AF%25E7%25B5%2582%25E4%25BA%2586%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25201%2520%25E3%2581%25A7%25E3%2581%25AF%25E6%25AD%25A2%25E3%2581%25BE%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%2520%25E2%2580%2595%2520%25E3%2580%258C%25E8%2590%25BD%25E3%2581%25A1%25E3%2581%259F%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25AF%25E5%2585%25A8%25E9%2583%25A8%25E9%2580%259A%25E3%2581%2599%25E3%2580%258D%25E3%2582%2592%25E9%2598%25B2%25E3%2581%2590%25E6%259B%25B8%25E3%2581%258D%25E6%2596%25B9%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tazuna%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RiZWQ3OTJjNTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Claude Code の PreToolUse フックを使うと、Claude が道具(Bash、PowerShell、Edit など)を使う直前に、 自分のコードで中身を調べて止められます。ところが、止めるつもりのフックが 何も止めていない ことがあります。 いちばん多い原因は終了コードです。公式ドキュメント(2026 年 11 月時点)と、筆者が Windows で実際にはまった例をもとにま…"
-  },
-  {
-   "src": "zenn",
-   "title": "Windows で Claude Code のフックを Python で書くと、文字コードで 3 回だまされる",
-   "link": "https://zenn.dev/tazuna/articles/dc6ff8503f6aa0",
-   "date": 1795093492000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--oJ-p4pAK--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Windows%2520%25E3%2581%25A7%2520Claude%2520Code%2520%25E3%2581%25AE%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2582%2592%2520Python%2520%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258F%25E3%2581%25A8%25E3%2580%2581%25E6%2596%2587%25E5%25AD%2597%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25A7%25203%2520%25E5%259B%259E%25E3%2581%25A0%25E3%2581%25BE%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tazuna%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RiZWQ3OTJjNTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code の PreToolUse フックで「プロジェクトの外は書き換えさせない」見張り役を Python で書き、 Windows で動かしました。そのとき、文字コードの問題に 3 回ぶつかりました。 どれも エラーが出ないまま、守っているつもりで守れていない 種類の問題です。 起きること 原因 対策 1 日本語のパスで、フックが素通り・誤判定する 標準入力が Windows の…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code × 仕様駆動開発",
-   "link": "https://zenn.dev/osprey74/books/claude-code-spec-driven",
-   "date": 1795092568000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--dGbQXqK0--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci9jYjdiMjk3YWIwLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "個人開発の iOS アプリ Stilo を題材に、Claude Code で「仕様駆動／テスト駆動開発」を行う\"コツ\"を一気通貫でご紹介。HANDOFF（仕様書）・受け入れ条件・完了報告の型と、翻訳漏れの検査スクリプトつき。"
-  },
-  {
-   "src": "zenn",
-   "title": "AIの記憶を、MarkdownとGitで自分のものにした。運用で直した失敗の記録",
-   "link": "https://zenn.dev/uzunaru/articles/d132b8946f6a2a",
-   "date": 1795091328000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--WUmErC2w--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AE%25E8%25A8%2598%25E6%2586%25B6%25E3%2582%2592%25E3%2580%2581Markdown%25E3%2581%25A8Git%25E3%2581%25A7%25E8%2587%25AA%25E5%2588%2586%25E3%2581%25AE%25E3%2582%2582%25E3%2581%25AE%25E3%2581%25AB%25E3%2581%2597%25E3%2581%259F%25E3%2580%2582%25E9%2581%258B%25E7%2594%25A8%25E3%2581%25A7%25E7%259B%25B4%25E3%2581%2597%25E3%2581%259F%25E5%25A4%25B1%25E6%2595%2597%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:uzu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSkUxMUdPQ0dnbWlTUWNsdU92THNkcUhGa2M0VXRjYXk3ZFBSVk1GZDBITmNHSHVYbFI9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "何を作ったか 自分の記憶とルールを、プレーンなMarkdownとGitで持って、どのAIからでも同じように使える「個人用のAI運用基盤」を作りました。2026年10月5日に始めて、約6週間、毎日使っています（コミットは約680件）。 AIは、このフォルダを読んで答え、記録を書き、カレンダーへの登録とメールの下書きまで行います。送信と削除は、人がやります。 設計の説明は、GitHubに公開していま…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIレビューを何周も回して分かった、「指摘を直す」より大事なこと",
-   "link": "https://zenn.dev/crs/articles/06-ai-review-loop",
-   "date": 1795088532000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--2d7optsa--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2583%25AC%25E3%2583%2593%25E3%2583%25A5%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%2595%25E5%2591%25A8%25E3%2582%2582%25E5%259B%259E%25E3%2581%2597%25E3%2581%25A6%25E5%2588%2586%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2581%25E3%2580%258C%25E6%258C%2587%25E6%2591%2598%25E3%2582%2592%25E7%259B%25B4%25E3%2581%2599%25E3%2580%258D%25E3%2582%2588%25E3%2582%258A%25E5%25A4%25A7%25E4%25BA%258B%25E3%2581%25AA%25E3%2581%2593%25E3%2581%25A8%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:CenterRiverStudio%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmlwR0hkRkROWVEzdHFlbFNSMkF0eUZWVmMxNnRFY3hKS2tvN1B5TXBDUFJFc0Fwdz1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "散歩を記録して家族と共有するFlutterアプリを、Firebaseで作っています。リリース前のセキュリティ修正で、AIによるコードレビューを、何周も回しました。1周目で終わるつもりが、直すたびに新しい指摘が出て、最終的には、設計を3回作り直しています。 この記事は、技術の解説ではなく、レビューの回し方の記録です。何がうまくいって、何を間違えたかを、まとめます。 回した流れ 毎回、次の手順でした…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeのclaude-memの古い記憶は削除しなくてよい理由",
-   "link": "https://zenn.dev/starken/articles/claude-mem-project-scope-no-delete",
-   "date": 1795087930000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--BjdynMoS--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AEclaude-mem%25E3%2581%25AE%25E5%258F%25A4%25E3%2581%2584%25E8%25A8%2598%25E6%2586%25B6%25E3%2581%25AF%25E5%2589%258A%25E9%2599%25A4%25E3%2581%2597%25E3%2581%25AA%25E3%2581%258F%25E3%2581%25A6%25E3%2582%2588%25E3%2581%2584%25E7%2590%2586%25E7%2594%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:starken%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTE9yUWc2UTRBV0Z2elJWcnUwTG55cmdITW85TmZzQzZidkhOVmpoWkNpRXUzeWF3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "観測日: 2026-09-07 ／ 記事の作成: 2026-11-13（Claude Code 2.1.270、macOS 13.7.8） Claude Code に claude-mem プラグインを入れて使い続けると、観測（claude-mem が記憶として DB にためる記録）がたまっていきます。 私の環境では2,903件たまり、そのうち67%が、フォルダごと削除したプロジェクトのものでし…"
   },
   {
    "src": "status",
