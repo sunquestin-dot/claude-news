@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795198105324,
+ "updatedAt": 1795202041437,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "作るのは Gemini、撃つのは 0.5 秒 ── AI を外した GASクイックの話",
+   "link": "https://qiita.com/shu15511551/items/b216c0d903e24d87cb6a",
+   "date": 1795202029000,
+   "img": "",
+   "desc": "はじめに ―― 予告どおり、AI を外しました 前の記事の終わりに、私はこう書きました。次は、AI がなくても使えるコンボを作ります、と。 あの記事で書いたとおり、11 月 16 日に Google が、Apps Script のエディタに入った Gemini を正..."
+  },
   {
    "src": "qiita",
    "title": "11/20 の公式ドキュメント更新：バックグラウンド処理の戻り先と、承認が出る条件の明文化",
@@ -68,28 +76,12 @@
    "desc": "Claude Code の Changelog（2026-11-20 取得）から、fast mode の対象モデル、料金、標準速度へのフォールバック、状態表示、Vertex を含むサードパーティプロバイダー上での扱い、組織ポリシー、非推奨予定を版ごとに整理します。出典は C..."
   },
   {
-   "src": "qiita",
-   "title": "【Chromebook】Crostini（Linux環境）に nvm ・ Claude Code ・ Claude Code Router (CCR) を一挙導入する手順",
-   "link": "https://qiita.com/mi25/items/0286e8a8ce2a753212a6",
-   "date": 1795194950000,
-   "img": "",
-   "desc": "【Chromebook】Crostini（Linux環境）に nvm ・ Claude Code ・ Claude Code Router (CCR) を一挙導入する手順 ChromebookのLinux環境（Crostini）において、Node.jsのバージョン管理ツー..."
-  },
-  {
-   "src": "hn",
-   "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-   "link": "https://alpo.ge/remark.pdf",
-   "date": 1795184181000,
-   "img": "",
-   "desc": "Article URL: https://alpo.ge/remark.pdf Comments URL: https://news.ycombinator.com/item?id=50574968 Points: 848 # Comments: 503"
-  },
-  {
    "src": "hn",
    "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 109 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 167 # Comments: …"
   },
   {
    "src": "zenn",
@@ -281,7 +273,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1111…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1122…"
   },
   {
    "src": "youtube",
@@ -513,7 +505,7 @@
    "link": "https://claude.com/resources/articles/projects-redesigned",
    "date": 1794616091000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 101 # Comments: 97"
+   "desc": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 101 # Comments: 98"
   },
   {
    "src": "hn",
@@ -521,7 +513,7 @@
    "link": "https://claude.com/resources/articles/claude-meetings",
    "date": 1794609555000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 113 # Comments: 89"
+   "desc": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 113 # Comments: 90"
   },
   {
    "src": "status",
@@ -866,6 +858,14 @@
    "date": 1793658800000,
    "img": "",
    "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 228 # Comments: 280"
+  },
+  {
+   "src": "hn",
+   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+   "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+   "date": 1793658647000,
+   "img": "",
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 406 # Comments: 324"
   },
   {
    "src": "research",
