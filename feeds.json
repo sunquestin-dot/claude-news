@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795202041437,
+ "updatedAt": 1795205542013,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "fetch failed"
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "公開されているAI・MCPのリポジトリ100件で、除外の設定を数えた（名指しなし・再現スクリプトつき）",
+   "link": "https://qiita.com/ZEUS_LAB/items/90fdf4ee9f769ff9ce85",
+   "date": 1795202132000,
+   "img": "",
+   "desc": ".gitignore に1行が無いことは、漏えいではありません。けれどその1行は、秘密情報と公開履歴のあいだにある最初の壁です。基本の行が実際どのくらい入っているのかを、数えてみました。 2026-11-20 に、活動中の公開AI・MCPリポジトリ100件を対象にしました。..."
+  },
   {
    "src": "qiita",
    "title": "作るのは Gemini、撃つのは 0.5 秒 ── AI を外した GASクイックの話",
@@ -68,36 +76,12 @@
    "desc": "Claude Code の Learning 出力スタイルを使うと、Claude はコードの一部を人に書かせ、その箇所に TODO(human) の印を付けて待機します。ただし出力スタイルは Claude への指示です。待機が必ず守られるわけではありません。本稿では、待機点..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code の fast mode：標準速度へのフォールバックと Vertex 上での扱い（Changelog 2.1.128〜2.1.323、2026-11-20 時点）",
-   "link": "https://qiita.com/akihidem/items/35f1d1ad121e3a76c3d7",
-   "date": 1795197302000,
-   "img": "",
-   "desc": "Claude Code の Changelog（2026-11-20 取得）から、fast mode の対象モデル、料金、標準速度へのフォールバック、状態表示、Vertex を含むサードパーティプロバイダー上での扱い、組織ポリシー、非推奨予定を版ごとに整理します。出典は C..."
-  },
-  {
    "src": "hn",
    "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
    "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 167 # Comments: …"
-  },
-  {
-   "src": "zenn",
-   "title": "LLMのセッションは使い捨てにする：JSONLの作業履歴を検索可能にする「ashiato」を作った",
-   "link": "https://zenn.dev/masuda_masuo/articles/2026-10-12-ashiato-session-history",
-   "date": 1795173213000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--NIeA4_5---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:LLM%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25AF%25E4%25BD%25BF%25E3%2581%2584%25E6%258D%25A8%25E3%2581%25A6%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AJSONL%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%258Cashiato%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A2%2597%25E7%2594%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RkZmZjNTkzY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに：LLMとのやり取りは、最終成果物よりずっと大きい 私は普段、Claude Code、Codex、OpenCode経由のworkerなど、複数のAIエージェントを使って開発している。 1つのIssueを片付けるだけでも、LLMとのセッションではかなり多くのことが起きる。 既存コードを読む 設計案を比較する コマンドを実行する 仮説が外れる 別の案を試す 本題から外れた問題を見つける 将来…"
-  },
-  {
-   "src": "zenn",
-   "title": "Resolve the Module Graph Before You Generate Anything",
-   "link": "https://zenn.dev/aidy029/articles/4122d590e3f550",
-   "date": 1795172337000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--4CZs7FB7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Resolve%2520the%2520Module%2520Graph%2520Before%2520You%2520Generate%2520Anything%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Mario%2520O%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSzE2VWxReGFpN1ZFd2N1b2hMYUVBRDZaTzA3UU9IdHlrandBY0dyeUFKeFR4SjZ3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Every website feature drags other features behind it. Payments need accounts. Bookings need notifications. Subscriptions need both, plus a billing state machine nobody wants to discover mid-build. Wh…"
   },
   {
    "src": "zenn",
@@ -266,6 +250,22 @@
    "date": 1795122203000,
    "img": "https://i4.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg",
    "desc": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI との作業の記録から記事を書いて裏を取ったら、記事より先に、記録のほうが間違っていた",
+   "link": "https://zenn.dev/claire_ai/articles/kiroku-iriguchi",
+   "date": 1795120992000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--HX7WhWpH--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25A8%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%258B%25E3%2582%2589%25E8%25A8%2598%25E4%25BA%258B%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E8%25A3%258F%25E3%2582%2592%25E5%258F%2596%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E8%25A8%2598%25E4%25BA%258B%25E3%2582%2588%25E3%2582%258A%25E5%2585%2588%25E3%2581%25AB%25E3%2580%2581%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%25AE%25E3%2581%25BB%25E3%2581%2586%25E3%2581%258C%25E9%2596%2593%25E9%2581%2595%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25AF%25E3%2583%25AC%25E3%2582%25A2%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzFlMGExNzA4ZTMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code と一緒に作業した記録は、Obsidian の保管庫（Vault）のノートと、コードのコメントに残している。あとで同じ失敗をしないため、何が起きて何が原因だったかを、その場で書いておく。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n81d…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code のコンテキスト管理:/compact・/clear の使い分けとトークン節約のコツ",
+   "link": "https://zenn.dev/aicoding_guide/articles/acg-claude-code-context-compact",
+   "date": 1795118899000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mEbwqpxt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%25B3%25E3%2583%2586%25E3%2582%25AD%25E3%2582%25B9%25E3%2583%2588%25E7%25AE%25A1%25E7%2590%2586%253A%252Fcompact%25E3%2583%25BB%252Fclear%2520%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2586%25E3%2581%2591%25E3%2581%25A8%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25AF%25E3%2583%25B3%25E7%25AF%2580%25E7%25B4%2584%25E3%2581%25AE%25E3%2582%25B3%25E3%2583%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:AI%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2582%25AC%25E3%2582%25A4%25E3%2583%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU2OWI5ZDEzNjMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "長いセッションを続けていると、Claude の応答が遅くなったり、最初に伝えたルールを忘れたように見えたりします。原因の多くはコンテキストウィンドウの逼迫です。会話履歴、読み込んだファイル、ツールの実行結果はすべてコンテキストに蓄積され、上限に近づくと精度が落ち、圧縮が走って情報が失われます。 この記事では、コンテキストを「見る」「圧縮する」「捨てる」ための 3 つのコマンドと、そもそも消費を抑…"
   },
   {
    "src": "hn",
