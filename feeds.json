@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795147534501,
+ "updatedAt": 1795151604025,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AWS 認定データエンジニア – アソシエイト（DEA-C01）合格体験記 ― 教材 2 冊と模擬問題 5 セット、自信度 ○△× で分かったこと",
-   "link": "https://qiita.com/macchi23/items/00c767375be7eabc6a81",
-   "date": 1795146736000,
+   "title": "Claude Code を陳腐化させないためにやっていること - 点検で実際に見つかったもの",
+   "link": "https://qiita.com/fantatchi/items/83f74536f17bee4442d8",
+   "date": 1795151267000,
    "img": "",
-   "desc": "AWS 認定データエンジニア – アソシエイト（DEA-C01）合格体験記 ― 教材 2 冊と模擬問題 5 セット、自信度 ○△× で分かったこと はじめに 2026-11-14 に、AWS 認定 データエンジニア – アソシエイト（DEA-C01）に合格しました。スコ..."
+   "desc": "この記事は個人ブログ fantatchi's notes からの転載です。 「Claude Code を陳腐化させないためにやっていること」では、育てた設定を週 1 回点検していると書いた。ただ、そこで書いたのは何を点検しているかの一覧だけだった。この記事はその具体編で..."
   },
   {
    "src": "qiita",
-   "title": "herdr で新しいタブを開くたびに claude と打つ手間をなくす",
-   "link": "https://qiita.com/tamabe/items/2868ef5c51ff74217064",
-   "date": 1795145289000,
+   "title": "Swift で作る 10×5 マスの数字パズル：計算と演出の分離、ボット1,000回での難易度校正、Claude Code での開発",
+   "link": "https://qiita.com/andygrave/items/6d7f4d4807b302c22a4f",
+   "date": 1795149487000,
    "img": "",
-   "desc": "herdr で、1 回のキー操作で新しいタブを開いて Claude Code（claude）を立ち上げる設定を紹介します。 herdr tab create には、起動するコマンドを渡す引数がありません1。 そこで、キー割り当て [[keys.command]] から CL..."
+   "desc": "コード・数値・設計の記述は、2026-11-18 時点の情報です。もとにしたのは非公開リポジトリの 2026-11-10 時点の設計書とソースコードで、テストとボットもその日に実行しました。 iPhone 向けの「置く」数字パズル「GRID BLAST 50」を、..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeの実装と動作確認の分担",
-   "link": "https://qiita.com/kentasatomi/items/87abee196ad0354dab94",
-   "date": 1795144185000,
+   "title": "起動中の Claude Code セッションとサブエージェントを ~/.claude の記録から可視化する macOS アプリ「Agent Atlas」の仕組み",
+   "link": "https://qiita.com/andygrave/items/b3ec81456abe39aa9d28",
+   "date": 1795149484000,
    "img": "",
-   "desc": "AIに機能の実装を任せるときは、完成した機能をどう確かめるかも考えておきたいところです。この記事では、Claude Codeで実装と動作確認を別々のチャットに分け、確認役のClaudeにユーザーと同じ操作を試してもらう方法を紹介します。 実装と動作確認を分けるヒントになった..."
+   "desc": "2026-10-11 時点の情報です。Claude Code の記録の形式や Claude のデスクトップ版の仕様が変わると、ここに書いた挙動も変わる可能性があります。 Claude Code のセッションを複数並べて走らせると、5時間枠の残りが気づかないうちに減..."
   },
   {
    "src": "qiita",
-   "title": "Muse Code導入、Claude Codeのスキルを自動検出していた",
-   "link": "https://qiita.com/kai_kou/items/26a88189083e4807199e",
-   "date": 1795144152000,
+   "title": "Claude Code のトークンは96.6%がキャッシュ再読、でもコストの約4割は書き込みだった：自分のログ20セッションを分解",
+   "link": "https://qiita.com/andygrave/items/6d69acca3cd82b3e516a",
+   "date": 1795149481000,
    "img": "",
-   "desc": "はじめに Metaが2026年8月5日にリリースしたターミナル向けコーディングエージェント「Muse Code」を、Claude Codeのクラウド実行環境にインストールして動かしてみました。対象読者は、複数のコーディングエージェントCLIを併用していて、それぞれの設定..."
+   "desc": "2026-10-06 時点の情報です。単価の倍率やキャッシュの有効期間は、公式ドキュメントの当時の記載に基づきます。Claude Code やモデルの仕様は更新されることがあります。 自分の Claude Code のログ（直近20セッション）を、トークンの件数で..."
   },
   {
    "src": "zenn",
@@ -137,7 +137,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 951 …"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1014…"
   },
   {
    "src": "zenn",
