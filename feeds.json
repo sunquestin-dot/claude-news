@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795155514165,
+ "updatedAt": 1795163202547,
  "sources": {
   "news": {
    "ok": true,
@@ -45,67 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "AI に作らせた Skill を「期待値」で評価する",
-   "link": "https://qiita.com/rioriver/items/17308685b10b3a413427",
-   "date": 1795154628000,
+   "title": "【Day 0】明日から年末まで、毎日書きます。インフラ屋が Claude Code を相棒にするまでの40日間",
+   "link": "https://qiita.com/FPT_Oshima/items/b500d5458dcb6b18fc82",
+   "date": 1795163193000,
    "img": "",
-   "desc": "はじめに こんにちは。KDDIテクノロジーのRioriverです。 私たちのチームは、AI を使った開発の進め方を調べて試し、そこで作ったハーネスや Skill を社内の開発チームへ広げる活動をしています。自分たちで使うぶんには、使いながら直していけば済みます。しかし、ほ..."
-  },
-  {
-   "src": "zenn",
-   "title": "AIエージェントの「読み取り専用」は何を止めるのか — CodexとClaude Codeで7操作を実測",
-   "link": "https://zenn.dev/coastlinedb/articles/8fdd1338ca65cb",
-   "date": 1795154163000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Sa0yRHdn--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2580%258C%25E8%25AA%25AD%25E3%2581%25BF%25E5%258F%2596%25E3%2582%258A%25E5%25B0%2582%25E7%2594%25A8%25E3%2580%258D%25E3%2581%25AF%25E4%25BD%2595%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%2520%25E2%2580%2594%2520Codex%25E3%2581%25A8Claude%2520Code%25E3%2581%25A77%25E6%2593%258D%25E4%25BD%259C%25E3%2582%2592%25E5%25AE%259F%25E6%25B8%25AC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:coastlinedb%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzY2EzYmUyN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. ユースケース「変更はさせない、検証はさせる」 AI にコードレビューを任せるとき、私がいちばん欲しい権限はかなり具体的です。 リポジトリのファイルは 変更させたくない 外部への 通信もさせたくない でも、気になった箇所は 手元の Python で再現・検証してほしい 前回の記事（Codex CLI と Claude Code の Agent Loop を実行ログから追ったもの）では、同じ「…"
+   "desc": "連載「インフラ一筋23年、実務でコードを書いたことがない私が Claude Code で社内業務を“自動運転”にするまで」予告編 〜 show run は指が覚えているのに、Linux と Python には苦手意識しかないエンジニアの40日間 〜 はじめまして F..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code を陳腐化させないためにやっていること - 点検で実際に見つかったもの",
-   "link": "https://qiita.com/fantatchi/items/83f74536f17bee4442d8",
-   "date": 1795151267000,
+   "title": "CC SwitchでClaude CodeとCodexをカスタムAPIに接続する",
+   "link": "https://qiita.com/niceaidev/items/2e024cc01e58b44b969a",
+   "date": 1795160626000,
    "img": "",
-   "desc": "この記事は個人ブログ fantatchi's notes からの転載です。 「Claude Code を陳腐化させないためにやっていること」では、育てた設定を週 1 回点検していると書いた。ただ、そこで書いたのは何を点検しているかの一覧だけだった。この記事はその具体編で..."
-  },
-  {
-   "src": "zenn",
-   "title": "Vibe Coding で使うサービス・ツール別 Claude Code のセキュリティ監査スキル",
-   "link": "https://zenn.dev/singularity/articles/claude-code-security-skills-by-service",
-   "date": 1795150668000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--MT89utec--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Vibe%2520Coding%2520%25E3%2581%25A7%25E4%25BD%25BF%25E3%2581%2586%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2593%25E3%2582%25B9%25E3%2583%25BB%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E5%2588%25A5%2520Claude%2520Code%2520%25E3%2581%25AE%25E3%2582%25BB%25E3%2582%25AD%25E3%2583%25A5%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E7%259B%25A3%25E6%259F%25BB%25E3%2582%25B9%25E3%2582%25AD%25E3%2583%25AB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Isamu%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZiNjM5MTg4YzEuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E3%2582%25B7%25E3%2583%25B3%25E3%2582%25AE%25E3%2583%25A5%25E3%2583%25A9%25E3%2583%25AA%25E3%2583%2586%25E3%2582%25A3%25E3%2583%25BB%25E3%2582%25BD%25E3%2582%25B5%25E3%2582%25A8%25E3%2583%2586%25E3%2582%25A3%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2g3ODg4Mk5lcU4xYUxYZWxhbjZ5TDYzUVBVdGs3MjQ0aGs0QjdBdWc9czI1MC1j%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI でアプリを作れるようになって、「動くもの」はすぐにできるようになりました。でも、作ったあとにふと不安になります。 「このアプリ、他人のデータが丸見えになっていないだろうか？」 セキュリティの専門家にレビューを頼めれば安心ですが、個人開発ではなかなか難しい。そこで使えるのが、Claude Code の スキル（skill） です。スキルは、専門家のチェック手順を AI 向けにまとめたファイル…"
+   "desc": "Claude Codeのsettings.jsonやCodexのconfig.tomlを、プロバイダを変えるたびに手で直すと、ミスしやすいです。とくに多いのがベースURLの/v1です。Anthropic系クライアントは自分で/v1/messagesを付けるので、オリジンだけ..."
   },
   {
    "src": "qiita",
-   "title": "Swift で作る 10×5 マスの数字パズル：計算と演出の分離、ボット1,000回での難易度校正、Claude Code での開発",
-   "link": "https://qiita.com/andygrave/items/6d7f4d4807b302c22a4f",
-   "date": 1795149487000,
+   "title": "Claude Code の auto mode が、予約タスクの合図だけでは記事を公開させなかった — 外向きの操作は人の一言で動かす",
+   "link": "https://qiita.com/Suisei498/items/7e5702d52303da060514",
+   "date": 1795159943000,
    "img": "",
-   "desc": "コード・数値・設計の記述は、2026-11-18 時点の情報です。もとにしたのは非公開リポジトリの 2026-11-10 時点の設計書とソースコードで、テストとボットもその日に実行しました。 iPhone 向けの「置く」数字パズル「GRID BLAST 50」を、..."
+   "desc": "この記事は Zenn と note にも同じ内容を載せています。Zenn: https://zenn.dev/suisei498/articles/5e0ba451290313 ／ note: https://note.com/suisei498/n/neab3999e6..."
   },
   {
    "src": "qiita",
-   "title": "起動中の Claude Code セッションとサブエージェントを ~/.claude の記録から可視化する macOS アプリ「Agent Atlas」の仕組み",
-   "link": "https://qiita.com/andygrave/items/b3ec81456abe39aa9d28",
-   "date": 1795149484000,
+   "title": "Claude Code 2.1.327入門、MCPトークンをstdinで渡し履歴に残さない",
+   "link": "https://qiita.com/kai_kou/items/43f87a45160e3d4c2a5a",
+   "date": 1795158605000,
    "img": "",
-   "desc": "2026-10-11 時点の情報です。Claude Code の記録の形式や Claude のデスクトップ版の仕様が変わると、ここに書いた挙動も変わる可能性があります。 Claude Code のセッションを複数並べて走らせると、5時間枠の残りが気づかないうちに減..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeで作る 自動化パイプライン入門 — 動画処理ワークフローを題材に",
-   "link": "https://zenn.dev/automation_lab/books/claude-code-automation",
-   "date": 1795147635000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--k5JILhy6--/g_center%2Ch_280%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYm9va19jb3Zlci8wOTM5MmEyODZkLnBuZw==%2Cw_200/v1627283836/default/og-base-book_yz4z02.jpg?_a=BACMTiAE",
-   "desc": "Claude Codeに自動化パイプラインを作らせる実践入門。取得・変換・生成・書き出しの4層設計、検証ゲート、ライセンス確認までを、動画処理ワークフローを題材に解説します。第1章・第2章は無料で読めます。"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の Stop フックで自動チェックを作ったら、エラーの中身が4か月半 Claude に届いていなかった",
-   "link": "https://zenn.dev/alu_programming/articles/claude-code-stop-hook-docs-gate",
-   "date": 1795139368000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--hAjb7l_l--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520Stop%2520%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2581%25A7%25E8%2587%25AA%25E5%258B%2595%25E3%2583%2581%25E3%2582%25A7%25E3%2583%2583%25E3%2582%25AF%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E3%2582%25A8%25E3%2583%25A9%25E3%2583%25BC%25E3%2581%25AE%25E4%25B8%25AD%25E8%25BA%25AB%25E3%2581%258C4%25E3%2581%258B%25E6%259C%2588%25E5%258D%258A%2520Claude%2520%25E3%2581%25AB%25E5%25B1%258A%25E3%2581%2584...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E9%259D%2592%25E5%25B1%25B1%25E6%2588%2596%25E8%2591%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzk2ZjY1NDhhMDUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "社内で決めたことの記録やメモを、AI に書かせています。使っているの..."
+   "desc": "はじめに MCP サーバーを claude mcp add-json で登録するとき、サーバー定義の JSON はコマンドライン引数として渡すのがこれまでの形でした。JSON の中に API トークンが入っていれば、そのトークンはコマンドラインの一部になります。シェルの設..."
   },
   {
    "src": "zenn",
@@ -225,7 +193,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1035…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1063…"
   },
   {
    "src": "zenn",
@@ -266,6 +234,38 @@
    "date": 1795098792000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--btVxhAoF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%259F%25E7%2594%25BB%25E9%259D%25A2%25E3%2581%25AF%25E3%2581%258D%25E3%2582%258C%25E3%2581%2584%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%2581%25E6%2596%2587%25E5%25AD%2597%25E3%2581%258C%25E5%25B0%258F%25E3%2581%2595%25E3%2581%258F%25E8%2589%25B2%25E3%2581%258C%25E8%2596%2584%25E3%2581%2584%25E3%2580%2582%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%25A7%25E9%2596%258B%25E3%2581%2584%25E3%2581%25A6%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2520Skill%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%25A8%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGR1dnJoLWxxdHVhOUU2bzI2Vy1NeDQyY3ZYc2xpRnlEcWlmajIyOG5fVUdhVVZZST1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI に「申し込みフォームの見た目を整えて」と頼むと、コードの上ではきれいに整います。ところが測ってみると、送信ボタンの白い文字と青の背景の明るさの比は 3.5 でした（読みやすさの基準の WCAG では 4.5 以上）。注意書きは 13px のまま、未入力のエラーは、どの欄が足りないか分からないポップアップのままです。そしてブラウザで開かずに「実機で一度見てください」と渡します。web-ui-…"
+  },
+  {
+   "src": "zenn",
+   "title": "Chrome の Modern Web Guidance を Claude に入れると、書くコードはどう変わるのか（72 実装で検証）",
+   "link": "https://zenn.dev/revo1290/articles/modern-web-guidance-ab-test",
+   "date": 1795098374000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--JMErPZwG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Chrome%2520%25E3%2581%25AE%2520Modern%2520Web%2520Guidance%2520%25E3%2582%2592%2520Claude%2520%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E3%2581%25A8%25E3%2580%2581%25E6%259B%25B8%25E3%2581%258F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2586%25E5%25A4%2589%25E3%2582%258F%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%258A%25E3%2582%2587%25E3%2581%2586%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2NvMk9aWGdZNWlmblBPT2R6Q01pcTduUVNzbGNoVW5mazh6X2J5LURjaTFReUJRPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに Google Chrome チームが公開している Modern Web Guidance（以下 MWG）は、AI コーディングエージェントに「今のブラウザで使える、今どきの書き方」を教えるためのスキルです。Claude Code ならプラグインとして入れるだけで、HTML / CSS / クライアント JS の作業時にガイドを検索して参照してくれるようになります。 気になったのは、実際…"
+  },
+  {
+   "src": "zenn",
+   "title": "\"メインフレームの日本語データ（EBCDIC）を開発PCとAIで読み書きするツールを作った【依存ゼロ・MCP対応】\"",
+   "link": "https://zenn.dev/yukidev25/articles/4950a2821d533c",
+   "date": 1795097877000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--_pw0GDpd--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%2522%25E3%2583%25A1%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2595%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%25A0%25E3%2581%25AE%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2583%2587%25E3%2583%25BC%25E3%2582%25BF%25EF%25BC%2588EBCDIC%25EF%25BC%2589%25E3%2582%2592%25E9%2596%258B%25E7%2599%25BAPC%25E3%2581%25A8AI%25E3%2581%25A7%25E8%25AA%25AD%25E3%2581%25BF%25E6%259B%25B8%25E3%2581%258D%25E3%2581%2599%25E3%2582%258B%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E3%2580%2590%25E4%25BE%259D%25E5%25AD%2598%25E3%2582%25BC%25E3%2583%25AD%25E3%2583%25BBMCP%25E5%25AF%25BE%25E5%25BF%259C%25E3%2580%2591%2522%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yuki_Dev%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEZ6YTMwVHlaOHFxbFJsU2tvNTZmc19rcDA1aUlWWWZiN1ZoZC03WGVvU3JmakVqOD1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "メインフレームの移行や保守の現場では、本番から抜いた固定長のデータを、コピーブック（COBOL のレコード定義）と一緒に受け取って、開発PCで中身を確かめる場面がよくあります。 ところが、日本語のデータになると急に手が止まります。カナや漢字が入った EBCDIC を読む手段が、手元に無いことが多いからです。そこで、メインフレームの日本語データを、開発PCや AI エージェントから読み書きするツー…"
+  },
+  {
+   "src": "zenn",
+   "title": "CLAUDE.md や SKILL.md のルールを Turtle で書き、ルールの書き間違いや矛盾を lint で検査してみた話",
+   "link": "https://zenn.dev/hma2moto/articles/turtle-agent-rules-pros-cons",
+   "date": 1795097637000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--Thdeli2A--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2582%2584%2520SKILL.md%2520%25E3%2581%25AE%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%2520Turtle%2520%25E3%2581%25A7%25E6%259B%25B8%25E3%2581%258D%25E3%2580%2581%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E9%2596%2593%25E9%2581%2595%25E3%2581%2584%25E3%2582%2584%25E7%259F%259B%25E7%259B%25BE%25E3%2582%2592%2520lint%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:hma2moto%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2ViOTE2OTYyYTkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code では、エージェントに守ってほしい決まりを CLAUDE.md や SKILL.md に書いておくと、エージェントはそれを読んで作業します。私も最初はこうしたルールを普通の Markdown で書いていました。ところがルールが増えるにつれて、どの行がどのルールの例外か、同じ行為を別の場所で禁じていないか、なぜそのルールがあるのかが、読み返さないと分からなくなりました。 YA…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code や Cursor で「今後は確認しない」を押した人へ。AIに任せっぱなしの許可を一覧にするツールを作りました",
+   "link": "https://zenn.dev/kalda/articles/32e5d2f22df106",
+   "date": 1795095537000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--aJeFFZ2J--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2582%2584%2520Cursor%2520%25E3%2581%25A7%25E3%2580%258C%25E4%25BB%258A%25E5%25BE%258C%25E3%2581%25AF%25E7%25A2%25BA%25E8%25AA%258D%25E3%2581%2597%25E3%2581%25AA%25E3%2581%2584%25E3%2580%258D%25E3%2582%2592%25E6%258A%25BC%25E3%2581%2597%25E3%2581%259F%25E4%25BA%25BA%25E3%2581%25B8%25E3%2580%2582AI%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2581%25A3%25E3%2581%25B1%25E3%2581%25AA%25E3%2581%2597%25E3%2581%25AE%25E8%25A8%25B1%25E5%258F%25AF%25E3%2582%2592%25E4%25B8%2580%25E8%25A6%25A7%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kalda%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTDJsRlhINENnMHpya0tUZEl5a2tEUkdDLXl0am5OYkZQbjI5ZHg2c1pYVmJPc3hRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事は誰向けか Claude Code や Cursor を使っていて、AIがコマンドを実行する前の確認で「今後は確認しない」を押したことがある人向けです。 何が問題か 「今後は確認しない」で許可したコマンドは、自分で消すまでずっと有効です。 AIは、作業中に読んだファイルやWebページに書かれた指示に従ってしまうことがあります。たとえば、クローンした他人のリポジトリに指示が仕込まれていた場…"
   },
   {
    "src": "status",
@@ -353,7 +353,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 296 # Comments: 233"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 296 # Comments: 234"
   },
   {
    "src": "research",
@@ -601,7 +601,7 @@
    "link": "https://ipo.anthropic.com/us/",
    "date": 1794484001000,
    "img": "",
-   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1008 # Comments: 922"
+   "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 1009 # Comments: 922"
   },
   {
    "src": "hn",
