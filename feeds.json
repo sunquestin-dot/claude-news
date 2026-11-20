@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795163202547,
+ "updatedAt": 1795169861137,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "【Day 0】明日から年末まで、毎日書きます。インフラ屋が Claude Code を相棒にするまでの40日間",
-   "link": "https://qiita.com/FPT_Oshima/items/b500d5458dcb6b18fc82",
-   "date": 1795163193000,
+   "title": "Give the Agent a Procedure, Not a Prompt",
+   "link": "https://qiita.com/aidy029/items/c625d2d9f4aa9d16aafc",
+   "date": 1795169450000,
    "img": "",
-   "desc": "連載「インフラ一筋23年、実務でコードを書いたことがない私が Claude Code で社内業務を“自動運転”にするまで」予告編 〜 show run は指が覚えているのに、Linux と Python には苦手意識しかないエンジニアの40日間 〜 はじめまして F..."
+   "desc": "Long tasks are where coding agents quietly fall apart. Building a complete website is not one task; it is fifty interdependent ones — sco..."
   },
   {
    "src": "qiita",
-   "title": "CC SwitchでClaude CodeとCodexをカスタムAPIに接続する",
-   "link": "https://qiita.com/niceaidev/items/2e024cc01e58b44b969a",
-   "date": 1795160626000,
+   "title": "評価駆動開発の大人数・多数のエージェントへの拡張 — OpenAI、Anthropic、SpaceX の公開資料から",
+   "link": "https://qiita.com/hisashi-ito/items/914454bfb6652afcbe79",
+   "date": 1795168848000,
    "img": "",
-   "desc": "Claude Codeのsettings.jsonやCodexのconfig.tomlを、プロバイダを変えるたびに手で直すと、ミスしやすいです。とくに多いのがベースURLの/v1です。Anthropic系クライアントは自分で/v1/messagesを付けるので、オリジンだけ..."
+   "desc": "前回の記事で、評価を先に固め、それを満たすまで AI に実装を作り直させる評価駆動開発(EDD)を紹介しました。一人なら、この進め方はとても回しやすいです。評価を書くのも、通らない項目を切り分けるのも、採用を決めるのも、同じ一人だからです。では、複雑なシステムを大人数で作る..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code の auto mode が、予約タスクの合図だけでは記事を公開させなかった — 外向きの操作は人の一言で動かす",
-   "link": "https://qiita.com/Suisei498/items/7e5702d52303da060514",
-   "date": 1795159943000,
+   "title": "【第9回】ゼロから目指す! CCDV-F合格への道：APIの応用機能",
+   "link": "https://qiita.com/Ray_T/items/c6d3e565dc764fd19521",
+   "date": 1795168011000,
    "img": "",
-   "desc": "この記事は Zenn と note にも同じ内容を載せています。Zenn: https://zenn.dev/suisei498/articles/5e0ba451290313 ／ note: https://note.com/suisei498/n/neab3999e6..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第9回です。（Anthropic社とは関係ありません） 公式の試験ガイド..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code 2.1.327入門、MCPトークンをstdinで渡し履歴に残さない",
-   "link": "https://qiita.com/kai_kou/items/43f87a45160e3d4c2a5a",
-   "date": 1795158605000,
+   "title": "第8回 自分のトレードルールを「言葉」で書き出してAIに渡すコツ",
+   "link": "https://qiita.com/oanda2/items/9726cd47ac45a905e63a",
+   "date": 1795167637000,
    "img": "",
-   "desc": "はじめに MCP サーバーを claude mcp add-json で登録するとき、サーバー定義の JSON はコマンドライン引数として渡すのがこれまでの形でした。JSON の中に API トークンが入っていれば、そのトークンはコマンドラインの一部になります。シェルの設..."
+   "desc": "本記事は連載 「非エンジニアでもわかる！AIと作るFX自動売買入門」 の1本です。 第7回では、OANDA APIで過去データを取得し、CSVファイルに保存しました。 ◀️ 前の記事：第7回 OANDAの過去データをAIに取得させる 本記事では、そのデータに当てはめる売..."
   },
   {
    "src": "zenn",
@@ -193,7 +193,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1063…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1083…"
   },
   {
    "src": "zenn",
@@ -353,7 +353,7 @@
    "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
    "date": 1794910840000,
    "img": "",
-   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 296 # Comments: 234"
+   "desc": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 296 # Comments: 235"
   },
   {
    "src": "research",
