@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795181154953,
+ "updatedAt": 1795187218761,
  "sources": {
   "news": {
    "ok": true,
@@ -77,30 +77,6 @@
   },
   {
    "src": "zenn",
-   "title": "Claude Code の auto mode が、予約タスクの合図だけでは記事を公開させなかった — 外向きの操作は人の一言で動かす",
-   "link": "https://zenn.dev/suisei498/articles/5e0ba451290313",
-   "date": 1795160062000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ymdrpYID--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%2520auto%2520mode%2520%25E3%2581%258C%25E3%2580%2581%25E4%25BA%2588%25E7%25B4%2584%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25AF%25E3%2581%25AE%25E5%2590%2588%25E5%259B%25B3%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A7%25E3%2581%25AF%25E8%25A8%2598%25E4%25BA%258B%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2595%25E3%2581%259B%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2594%2520%25E5%25A4%2596%25E5%2590%2591%25E3%2581%258D%25E3%2581%25AE%25E6%2593%258D...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Suisei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg5YTk4YjM0NWIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は Qiita と note にも同じ内容を載せています。Qiita: https://qiita.com/Suisei498/items/7e5702d52303da060514 ／ note: https://note.com/suisei498/n/neab3999e66aa Claude Code のセッションを1台の PC でいくつも並べ、決まった時刻には予約タスクに起こしても…"
-  },
-  {
-   "src": "zenn",
-   "title": "AST で Tkinter アプリの“画面の決まり”を自動点検する",
-   "link": "https://zenn.dev/cutlet_of_pork/articles/tkinter-ui-rules-ast-lint",
-   "date": 1795157923000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Hty80Ok9--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AST%2520%25E3%2581%25A7%2520Tkinter%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25AE%25E2%2580%259C%25E7%2594%25BB%25E9%259D%25A2%25E3%2581%25AE%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%25E2%2580%259D%25E3%2582%2592%25E8%2587%25AA%25E5%258B%2595%25E7%2582%25B9%25E6%25A4%259C%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25A8%25E3%2582%2593%25E3%2581%25AE%25E3%2581%258B%25E3%2581%25A4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUp5QXFrWGZSb2FxNHNaNVdvMHItMEJPQWVja29BdGlMRGFEeUw3NGNEYTRKSUJ4UT1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Tkinterの画面を持つ小さなPythonのツールを、数十本まとめて直してきた。画面の決まりを文書にまとめ、全部のツールをそろえた。たとえば次のような決まりだ。 実行中の処理を止めるボタンは「停止」と書く（「中止」「中断」「キャンセル」を混ぜない）。 実行はF5、停止はEsc。ボタンには「実行 (F5)」「停止 (Esc)」とキーを書く。 同じツールを2つ同時に起動できないようにする（Tkのル…"
-  },
-  {
-   "src": "zenn",
-   "title": "AIエージェントの「読み取り専用」は何を止めるのか — CodexとClaude Codeで7操作を実測",
-   "link": "https://zenn.dev/coastlinedb/articles/8fdd1338ca65cb",
-   "date": 1795154163000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--Sa0yRHdn--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AE%25E3%2580%258C%25E8%25AA%25AD%25E3%2581%25BF%25E5%258F%2596%25E3%2582%258A%25E5%25B0%2582%25E7%2594%25A8%25E3%2580%258D%25E3%2581%25AF%25E4%25BD%2595%25E3%2582%2592%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%2520%25E2%2580%2594%2520Codex%25E3%2581%25A8Claude%2520Code%25E3%2581%25A77%25E6%2593%258D%25E4%25BD%259C%25E3%2582%2592%25E5%25AE%259F%25E6%25B8%25AC%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:coastlinedb%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2MzY2EzYmUyN2UuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "1. ユースケース「変更はさせない、検証はさせる」 AI にコードレビューを任せるとき、私がいちばん欲しい権限はかなり具体的です。 リポジトリのファイルは 変更させたくない 外部への 通信もさせたくない でも、気になった箇所は 手元の Python で再現・検証してほしい 前回の記事（Codex CLI と Claude Code の Agent Loop を実行ログから追ったもの）では、同じ「…"
-  },
-  {
-   "src": "zenn",
    "title": "Vibe Coding で使うサービス・ツール別 Claude Code のセキュリティ監査スキル",
    "link": "https://zenn.dev/singularity/articles/claude-code-security-skills-by-service",
    "date": 1795150668000,
@@ -146,6 +122,14 @@
    "date": 1795132863000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--sjWCcE50--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E8%25B5%25B7%25E5%258B%2595%25E6%2599%2582%25E3%2581%25AB%25E4%25BE%259D%25E5%25AD%2598%25E3%2583%2591%25E3%2583%2583%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B8%25E3%2581%25AE%25E8%2584%2586%25E5%25BC%25B1%25E6%2580%25A7%25E3%2582%2592%25E8%25AA%25BF%25E3%2581%25B9%25E3%2582%258B%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2582%2592%25E3%2580%2581%25E6%2597%25A2%25E8%25A3%25BD%25E5%2593%2581%25E3%2581%25A8%25E6%25AF%2594%25E3%2581%25B9%25E3%2581%259F%25E3%2581%2586%25E3%2581%2588%25E3%2581%25A7%25E8%2587%25AA%25E4%25BD%259C%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:no215%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Y0ZmM0NjVhNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "ここ1か月ほど、X のタイムラインに脆弱性の話題が流れてこない日がありません。PHP は10月21日に、認証なしで外からプログラムを動かされうる重大な脆弱性2件の修正版を出し、11月19日にも再びセキュリティリリースを出しました。Node.js は11月11日に16件、nginx は11月18日に10件の脆弱性を直した版を出しています。全部を追いかけていたら、それだけで1日が終わりそうです。 こ…"
+  },
+  {
+   "src": "news",
+   "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+   "link": "https://www.anthropic.com/news/ipo-close",
+   "date": 1795132800000,
+   "img": "",
+   "desc": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including…"
   },
   {
    "src": "zenn",
@@ -260,12 +244,36 @@
    "desc": "第1章では、これまでの「人間がコードを書く」自動化から、「エージェントに意図を伝えて完遂させる」自動化へのパラダイムシフトについて解説しました。本章からは実際に手を動かし、Claude Codeを用いた自動化の実践に入ります。 まずは、ツールが自由に動ける「砂場（サンドボックス）」を整え、ファイル操作やテキスト整形といった基本的なタスクを通じて、エージェントを安全かつ正確に操るための「型」を学び…"
   },
   {
+   "src": "zenn",
+   "title": "なぜ「スクリプトを書く」のではなく「エージェントに作らせる」のか",
+   "link": "https://zenn.dev/automation_lab/articles/claude-code-automation-01",
+   "date": 1795104336000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--kmjqDsEr--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%25AA%25E3%2581%259C%25E3%2580%258C%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%2597%25E3%2583%2588%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%25E3%2580%258D%25E3%2581%25AE%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258F%25E3%2580%258C%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2582%258B%25E3%2580%258D%25E3%2581%25AE%25E3%2581%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:automation_lab%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2RhcmsvYS5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "「自動化」という言葉を聞いて、あなたは何を思い浮かべるでしょうか。多くのエンジニアやクリエイターにとって、それは「Pythonでスクリプトを書くこと」や「シェルスクリプトで定型処理を組むこと」を意味してきました。 しかし、2025年、その常識は劇的な転換点を迎えています。Anthropicが提供する「Claude Code」のような、ターミナル上で自律的に動作するAIエージェントの登場により、私…"
+  },
+  {
    "src": "youtube",
    "title": "What we make of this moment, will make this moment.",
    "link": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
    "date": 1795100569000,
    "img": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
-   "desc": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a develo…"
+   "desc": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating fish robot, a first-time builder mapping 800 years of Indian history, a developer tr…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI に作らせた画面はきれいなのに、文字が小さく色が薄い。ブラウザで開いて確かめさせる Skill",
+   "link": "https://zenn.dev/itoken_lab/articles/web-ui-quality-baseline",
+   "date": 1795098792000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--btVxhAoF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E4%25BD%259C%25E3%2582%2589%25E3%2581%259B%25E3%2581%259F%25E7%2594%25BB%25E9%259D%25A2%25E3%2581%25AF%25E3%2581%258D%25E3%2582%258C%25E3%2581%2584%25E3%2581%25AA%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%2581%25E6%2596%2587%25E5%25AD%2597%25E3%2581%258C%25E5%25B0%258F%25E3%2581%2595%25E3%2581%258F%25E8%2589%25B2%25E3%2581%258C%25E8%2596%2584%25E3%2581%2584%25E3%2580%2582%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%25A7%25E9%2596%258B%25E3%2581%2584%25E3%2581%25A6%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2520Skill%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%25A8%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGR1dnJoLWxxdHVhOUU2bzI2Vy1NeDQyY3ZYc2xpRnlEcWlmajIyOG5fVUdhVVZZST1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI に「申し込みフォームの見た目を整えて」と頼むと、コードの上ではきれいに整います。ところが測ってみると、送信ボタンの白い文字と青の背景の明るさの比は 3.5 でした（読みやすさの基準の WCAG では 4.5 以上）。注意書きは 13px のまま、未入力のエラーは、どの欄が足りないか分からないポップアップのままです。そしてブラウザで開かずに「実機で一度見てください」と渡します。web-ui-…"
+  },
+  {
+   "src": "zenn",
+   "title": "Chrome の Modern Web Guidance を Claude に入れると、書くコードはどう変わるのか（72 実装で検証）",
+   "link": "https://zenn.dev/revo1290/articles/modern-web-guidance-ab-test",
+   "date": 1795098374000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--JMErPZwG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Chrome%2520%25E3%2581%25AE%2520Modern%2520Web%2520Guidance%2520%25E3%2582%2592%2520Claude%2520%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E3%2581%25A8%25E3%2580%2581%25E6%259B%25B8%25E3%2581%258F%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2581%25AF%25E3%2581%25A9%25E3%2581%2586%25E5%25A4%2589%25E3%2582%258F%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%258A%25E3%2582%2587%25E3%2581%2586%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS2NvMk9aWGdZNWlmblBPT2R6Q01pcTduUVNzbGNoVW5mazh6X2J5LURjaTFReUJRPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに Google Chrome チームが公開している Modern Web Guidance（以下 MWG）は、AI コーディングエージェントに「今のブラウザで使える、今どきの書き方」を教えるためのスキルです。Claude Code ならプラグインとして入れるだけで、HTML / CSS / クライアント JS の作業時にガイドを検索して参照してくれるようになります。 気になったのは、実際…"
   },
   {
    "src": "status",
@@ -1274,14 +1282,6 @@
    "date": 1788285751000,
    "img": "https://i3.ytimg.com/vi/ROF2Nv_KjOM/hqdefault.jpg",
    "desc": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to…"
-  },
-  {
-   "src": "news",
-   "title": "Developing Enterprise Frontier Safeguards with our customers",
-   "link": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-   "date": 1788220800000,
-   "img": "",
-   "desc": "We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecting misuse. EFS works by storing data in …"
   },
   {
    "src": "youtube",
