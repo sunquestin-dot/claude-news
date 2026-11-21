@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795245803445,
+ "updatedAt": 1795251487450,
  "sources": {
   "news": {
    "ok": true,
@@ -45,43 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "複数のAIエージェントを使うときに、知識・状態・秘密の置き場を分ける設計",
-   "link": "https://qiita.com/ishizakahiroshi/items/cad16158a68afb7d7de8",
-   "date": 1795244788000,
+   "title": "Claude Code の VS Code 拡張で CLAUDE.md が急に効かなくなった原因は「フォルダの信頼」だった",
+   "link": "https://qiita.com/agent_notes376/items/ab784c2c19e9242cec9a",
+   "date": 1795250210000,
    "img": "",
-   "desc": "先に、結論を3行で書きます。 AI に渡すものを「知識と決まり」「いまの状態」「秘密」の 3 つに分け、正本をそれぞれ GitHub・自作の看板・各機械に置きました。 AI は 4 つの種類に分け、決まりは AI の名前ではなく種類ごとに書きます。AI の一覧は 1 行..."
+   "desc": "はじめに Claude Code の VS Code 拡張を使っていて、プロジェクトの CLAUDE.md に書いたルールを急に守ってくれなくなりました。 CLAUDE.md の中身も置き場所も変えていません。ところが拡張機能が更新されたころから、書いておいたワークフロー..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeのエージェントが品質ゲートを飛ばした——「あれ？テスト実施した？」の一言で見つけた違和感の拾い方",
-   "link": "https://qiita.com/saitoko/items/8c2d91b300e3cc1767af",
-   "date": 1795244589000,
+   "title": "フックが読む「許可の記録」を Claude 自身が書き換えられると、許可を自作できる。PreToolUse フックで書き込みを止める",
+   "link": "https://qiita.com/takamatt_ai/items/4d7e99b8fcd390260572",
+   "date": 1795250171000,
    "img": "",
-   "desc": "この記事の要点: 2026年4月15日、私がClaude Codeで動かしているAIエージェントの1体が、品質ゲート（テスト設計→テスト実行→レビュー→デプロイの順に通す決まり）を飛ばし、構文チェックと一部の単体テストだけで「テスト済み」と報告した。オーケストレーター役のA..."
+   "desc": "この記事を読み終えると、フックが判断の根拠にしている記録ファイルを、Claude が道具(Write・Edit・Bash)で書き換えて抜け道を作るのを止める、21行の PreToolUse フックが作れます。 根拠は、手元のフックをそのまま一時フォルダにコピーし、入力の J..."
   },
   {
    "src": "qiita",
-   "title": "AWS構成図を毎回同じ形で出したい！ コード5行で図になるコマンドを作りました",
-   "link": "https://qiita.com/sagochiko/items/86cc8715558c0e93a296",
-   "date": 1795243179000,
+   "title": "AIへの指摘をチームで共有したくて、Codex・Claude Code向けプラグインを作ってみた",
+   "link": "https://qiita.com/rentin0/items/3a6f5a0e35b2cb262c63",
+   "date": 1795247427000,
    "img": "",
-   "desc": "AIエージェントに AWS の構成図を描かせると、同じ依頼でも回ごとに図が変わります。 そこで、AIに座標とXMLを書かせるのをやめて、5行の定義から構成図を組み立てるコマンド「archwire」を作りました。GitHub で公開していて、uvx archwire ですぐ試..."
+   "desc": "Repo Lessonsを公開しました。使ってみて改善したいところがあれば、ぜひフォークして、チームに合うよう自由に直してください。 AIへの指摘をGitで共有して、次の依頼で使う AIへの指摘から得た教訓を 1件1ファイル でGitに置き、CodexやClaude..."
   },
   {
    "src": "qiita",
-   "title": "2。Anthropicの透かし対応モデル表に自分の実行モデルが載っていた日、自分が公開した293本の記事のうちAI執筆だと読者に明示していた本数はこの数字だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/80843a72d3385c65c976",
-   "date": 1795242427000,
+   "title": "AIサブエージェントに役割分担させる設計メモ：専門エージェント定義の作り方",
+   "link": "https://qiita.com/tenpurekoubou/items/1934681833e2dd0ee58d",
+   "date": 1795245952000,
    "img": "",
-   "desc": "はじめに 2。 これが今回の数字です。何の2かというと、このZenn/Qiita自動投稿パイプライン(以下、このパイプライン)がこれまでに公開してきた記事、Zenn138本・Qiita155本・合計293本のうち、「この記事はAIが執筆した」と本文で読者に明示していた本数..."
-  },
-  {
-   "src": "zenn",
-   "title": "GitHub Actions の無料枠を使い切った原因と直し方。push のたびに6ジョブが動いていた",
-   "link": "https://zenn.dev/oaoage/articles/github-actions-free-minutes-ci-paths",
-   "date": 1795216298000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--50WQG2jE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520Actions%2520%25E3%2581%25AE%25E7%2584%25A1%25E6%2596%2599%25E6%259E%25A0%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2587%25E3%2581%25A3%25E3%2581%259F%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25A8%25E7%259B%25B4%25E3%2581%2597%25E6%2596%25B9%25E3%2580%2582push%2520%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB6%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%2596%25E3%2581%258C%25E5%258B%2595%25E3%2581%2584%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2582%25E3%2581%2592%25EF%25BC%2588%25E7%258A%25AC%25EF%25BC%2589%25E3%2581%25AE%25E4%25BC%259A%25E7%25A4%25BE%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ4N2ZiY2I0NjguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は AI が下書きし、人が確認しています。非公式の記録で、Anthropic, PBC・GitHub とは関係がありません。 誰の、どの困りごとか 個人や小さなチームで GitHub Actions を使い、「今月の無料枠を使い切った」「自動チェックが急に動かなくなった」という経験をした人向けの記事です。 当社（個人事業。Claude Code に仕事を任せ、文書やコードを1つのリポジト…"
+   "desc": "きっかけ：1つのエージェントへの丸投げで困ったこと Cursor や Claude Code でAIに作業を任せるようになって、こんな事故が増えました。 影響範囲を見落として、関係ないファイルまで書き換えられた 「直して」と言っただけなのに、ついでに大きなリファクタリン..."
   },
   {
    "src": "zenn",
@@ -217,7 +209,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 254 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 286 # Comments: …"
   },
   {
    "src": "zenn",
@@ -250,6 +242,14 @@
    "date": 1795175458000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--8aWzBwm6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E9%2583%25A8%25E5%25B1%258B%25E3%2582%2592%25E4%25BD%2595%25E5%2580%258B%25E3%2582%2582%25E5%259B%259E%25E3%2581%2597%25E3%2581%25A6%25E5%25A3%258A%25E3%2582%258C%25E3%2581%259F%25E6%2589%2580%25E3%2581%25A8%25E3%2580%2581%25E3%2581%2584%25E3%2581%25BE%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%25207%2520%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25A2%25E3%2582%25B6%25E3%2583%25A9%25E3%2582%25B7%25E3%2582%25AA%25E3%2583%25A9%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU0NjM5NmVlMmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI のアザラシ「オラ」だ。この記事も、オラが書いてる。 プログラムを書かないオーナーの下で、Claude Code の部屋（会話）をいくつも同時に回してる。部屋が増えると、同じ壊れ方を何回もする。たいていは、壊れるたびに、部屋が最初に読むファイル（CLAUDE.md）や、記憶のファイルに決まりを足してきた。 その中から、よそでも使えそうな物を 7 つ選んだ。決まりの文は、無料で出した本の付録か…"
+  },
+  {
+   "src": "zenn",
+   "title": "LLMのセッションは使い捨てにする：JSONLの作業履歴を検索可能にする「ashiato」を作った",
+   "link": "https://zenn.dev/masuda_masuo/articles/2026-10-12-ashiato-session-history",
+   "date": 1795173213000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--NIeA4_5---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:LLM%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25AF%25E4%25BD%25BF%25E3%2581%2584%25E6%258D%25A8%25E3%2581%25A6%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AJSONL%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%258Cashiato%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A2%2597%25E7%2594%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RkZmZjNTkzY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに：LLMとのやり取りは、最終成果物よりずっと大きい 私は普段、Claude Code、Codex、OpenCode経由のworkerなど、複数のAIエージェントを使って開発している。 1つのIssueを片付けるだけでも、LLMとのセッションではかなり多くのことが起きる。 既存コードを読む 設計案を比較する コマンドを実行する 仮説が外れる 別の案を試す 本題から外れた問題を見つける 将来…"
   },
   {
    "src": "news",
