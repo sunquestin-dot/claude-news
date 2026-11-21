@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795294356776,
+ "updatedAt": 1795297948433,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,14 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code で \"JavaScript heap out of memory\" が出て落ちるときの対処(再起動・/compact・--safe-mode・/heapdump)",
+   "link": "https://qiita.com/homhom44/items/e41dca096fb741f1b3b0",
+   "date": 1795296705000,
+   "img": "",
+   "desc": "Claude Code が作業の途中で突然終了し、端末に FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory と出たときの手順です。これは Claude Code..."
+  },
+  {
+   "src": "qiita",
    "title": "手元で磨いた GASクイックを GitHub に出しました ── 棚 133 本と、コピペで置けるライブラリ版の話",
    "link": "https://qiita.com/shu15511551/items/31720f7154e39924f552",
    "date": 1795291141000,
@@ -66,14 +74,6 @@
    "date": 1795283793000,
    "img": "",
    "desc": "サブエージェントの定義は、書き方を誤ってもエラーにならず、意図と違う状態で動き続ける場合があります。本稿は公式ドキュメント（取得日 2026-11-21）の記述を、本番運用で判断が分かれる順に整理した仕様メモです。 ロード規則：必須は name と description..."
-  },
-  {
-   "src": "qiita",
-   "title": "セルフホスト版 Claude Managed Agents におけるモデルリクエストの送信先と観測手段（2026-11-21 時点）",
-   "link": "https://qiita.com/akihidem/items/6b1774265431b0c996a5",
-   "date": 1795283702000,
-   "img": "",
-   "desc": "本稿は、Claude Platform release notes [1] の記載（取得日 2026-11-21）から、セルフホスト版 Claude Managed Agents のモデルリクエストの送信先と、それを観測する手段を整理します。あわせて、送信先を利用者が自分の..."
   },
   {
    "src": "zenn",
@@ -249,7 +249,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 481 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 487 # Comments: …"
   },
   {
    "src": "news",
