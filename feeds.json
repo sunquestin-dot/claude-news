@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795297948433,
+ "updatedAt": 1795301541742,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
+   "title": "Claude Code の定期実行で「期限が来たら確実に止まる」自律エージェントを作る",
+   "link": "https://qiita.com/minatoAI00/items/cc2485b65ab50e9661f0",
+   "date": 1795300609000,
+   "img": "",
+   "desc": "はじめに Claude Code デスクトップアプリの「定期実行タスク」を使って、1時間ごとに自分で起動し、期限が来たら確実に止まる自律エージェントを作りました。 この記事では、実際に動かしている構成をそのまま紹介します。 毎回記憶がリセットされるエージェントに、作業を..."
+  },
+  {
+   "src": "qiita",
+   "title": "乗っ取られたAIエージェントは「正規ユーザー」になる ― いちばん見つけにくい攻撃と、Devin / Claude Code での防ぎ方",
+   "link": "https://qiita.com/startdevin/items/10287138c5981c465a96",
+   "date": 1795299427000,
+   "img": "",
+   "desc": "🚀 Devin専門の解説メディア「StartDevin」を運営中！ Devinの導入・使い方・最新アップデート・活用事例を、日本語でまとめています。 👉 StartDevin をチェックする（startdevin.jp） この記事にぜひ いいね❤️ していただけると励み..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code のスキルを自作する前に、既存の 59,700 件以上を検索する方法",
+   "link": "https://qiita.com/Skillselion/items/baccede17cf8683ade4c",
+   "date": 1795298911000,
+   "img": "",
+   "desc": "コーディングエージェントに新しい仕事を任せたいとき（マイグレーションのレビュー、Playwright のテスト作成、Stripe の Webhook 実装など）、まず SKILL.md を自作しようと考えがちです。しかし、同じスキルがすでに誰かによって書かれ、公開されている..."
+  },
+  {
+   "src": "qiita",
    "title": "Claude Code で \"JavaScript heap out of memory\" が出て落ちるときの対処(再起動・/compact・--safe-mode・/heapdump)",
    "link": "https://qiita.com/homhom44/items/e41dca096fb741f1b3b0",
    "date": 1795296705000,
    "img": "",
    "desc": "Claude Code が作業の途中で突然終了し、端末に FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory と出たときの手順です。これは Claude Code..."
-  },
-  {
-   "src": "qiita",
-   "title": "手元で磨いた GASクイックを GitHub に出しました ── 棚 133 本と、コピペで置けるライブラリ版の話",
-   "link": "https://qiita.com/shu15511551/items/31720f7154e39924f552",
-   "date": 1795291141000,
-   "img": "",
-   "desc": "はじめに ―― 前回の記事の続き、そして GitHub 公開のお知らせ 前回の記事で、Google スプレッドシートの操作窓から AI を使わずに棚（決まった手）と自作マクロを一覧から一瞬で撃つ道具「GASクイック」を紹介しました。 あの時点では「まだ手元で磨いてい..."
-  },
-  {
-   "src": "qiita",
-   "title": "11/21 の公式ドキュメント更新：サンドボックス・フック・ワークツリーの挙動の明文化",
-   "link": "https://qiita.com/akihidem/items/b24ae1952e4e38a94f23",
-   "date": 1795283884000,
-   "img": "",
-   "desc": "2026-11-21 の追加文は、Claude Code が「失敗したとき」「再開したとき」「同名のものがあったとき」にどう振る舞うかを書き足したものが中心です。サンドボックス、フック、ワークツリー、サブエージェント、スキルの読み込み範囲、ステータスラインの null の扱..."
-  },
-  {
-   "src": "qiita",
-   "title": "サブエージェントの frontmatter 仕様整理：ロード規則・ツール制限・権限モード・フックの効き方（2026-11-21 時点）",
-   "link": "https://qiita.com/akihidem/items/430b027676351ef13624",
-   "date": 1795283793000,
-   "img": "",
-   "desc": "サブエージェントの定義は、書き方を誤ってもエラーにならず、意図と違う状態で動き続ける場合があります。本稿は公式ドキュメント（取得日 2026-11-21）の記述を、本番運用で判断が分かれる順に整理した仕様メモです。 ロード規則：必須は name と description..."
   },
   {
    "src": "zenn",
@@ -249,7 +249,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 487 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 491 # Comments: …"
   },
   {
    "src": "news",
