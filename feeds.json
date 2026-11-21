@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795237556225,
+ "updatedAt": 1795241100539,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -45,43 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Codeのセッション名を日本語にするTips。自動生成の設定と /rename の使い方",
-   "link": "https://qiita.com/inoyu-qiita/items/ddd888c6be89c5e35016",
-   "date": 1795231492000,
+   "title": "【第14回】ゼロから目指す! CCDV-F合格への道：出力の扱い",
+   "link": "https://qiita.com/Ray_T/items/99e8023f2a56c660e617",
+   "date": 1795240914000,
    "img": "",
-   "desc": "はじめに Claude Codeで前の作業に戻ろうと /resume を開くと、fix-notification-branch-filter みたいな英語のセッション名が並びます。その度に思います、何がどれ！？ 「どのセッションがどれだ、、？」「あれ、選んだのこれじゃない..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第14回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "qiita",
-   "title": "【Day 1】インフラ23年、実務でコードを書いたことがない私が、いまさら Claude Code を始める理由",
-   "link": "https://qiita.com/FPT_Oshima/items/3295257c664956dd128f",
-   "date": 1795230557000,
+   "title": "【第13回】ゼロから目指す! CCDV-F合格への道：コンテキスト設計",
+   "link": "https://qiita.com/Ray_T/items/3f797f6d32f2aa036ad2",
+   "date": 1795240289000,
    "img": "",
-   "desc": "連載「インフラ一筋23年、実務でコードを書いたことがない私が Claude Code で社内業務を“自動運転”にするまで」第1回 〜 show run は指が覚えているのに、Linux と Python には苦手意識しかないエンジニアの40日間 〜 show run..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第13回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "qiita",
-   "title": "AI エージェント時代における評価駆動開発の優位性と大規模開発への拡張に関する調査",
-   "link": "https://qiita.com/hisashi-ito/items/ea31d324ac02f3fa5e4e",
-   "date": 1795229663000,
+   "title": "【第12回】ゼロから目指す! CCDV-F合格への道：プロンプト設計",
+   "link": "https://qiita.com/Ray_T/items/4865a0e777119782f1a6",
+   "date": 1795238872000,
    "img": "",
-   "desc": "AI エージェントが実装をほぼ肩代わりするようになり、実装を何度作り直しても、費用はわずかで済むようになりました。開発の進め方には、ウォーターフォール、アジャイル、AWS が提唱した AI-DLC などがありますが、実装の費用が下がった今、注目を集めているのが評価駆動開発(..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第12回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "qiita",
-   "title": "MCP設定（claude_desktop_config.json / .mcp.json）に潜む4大セキュリティ罠──未固定npx・ルート権限・env秘密鍵を0.05秒で静的監査するPython実装",
-   "link": "https://qiita.com/shiroi1229/items/8c3cdf72ffcb69746d2f",
-   "date": 1795227805000,
+   "title": "【第11回】ゼロから目指す! CCDV-F合格への道：構成管理",
+   "link": "https://qiita.com/Ray_T/items/6a1b566869712586df8d",
+   "date": 1795238005000,
    "img": "",
-   "desc": "背景：MCP導入で急増している「設定ファイル由来の本番事故」 Claude Code / Codex / Cursor 等で Model Context Protocol（MCP）サーバーを日常的に接続する開発環境が増えましたが、実運用で見落とされがちなのが claude..."
-  },
-  {
-   "src": "zenn",
-   "title": "GitHub Actions の無料枠を使い切った原因と直し方。push のたびに6ジョブが動いていた",
-   "link": "https://zenn.dev/oaoage/articles/github-actions-free-minutes-ci-paths",
-   "date": 1795216298000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--50WQG2jE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520Actions%2520%25E3%2581%25AE%25E7%2584%25A1%25E6%2596%2599%25E6%259E%25A0%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2587%25E3%2581%25A3%25E3%2581%259F%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25A8%25E7%259B%25B4%25E3%2581%2597%25E6%2596%25B9%25E3%2580%2582push%2520%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB6%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%2596%25E3%2581%258C%25E5%258B%2595%25E3%2581%2584%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2582%25E3%2581%2592%25EF%25BC%2588%25E7%258A%25AC%25EF%25BC%2589%25E3%2581%25AE%25E4%25BC%259A%25E7%25A4%25BE%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ4N2ZiY2I0NjguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "この記事は AI が下書きし、人が確認しています。非公式の記録で、Anthropic, PBC・GitHub とは関係がありません。 誰の、どの困りごとか 個人や小さなチームで GitHub Actions を使い、「今月の無料枠を使い切った」「自動チェックが急に動かなくなった」という経験をした人向けの記事です。 当社（個人事業。Claude Code に仕事を任せ、文書やコードを1つのリポジト…"
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第11回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "zenn",
@@ -122,14 +114,6 @@
    "date": 1795206886000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--8nHpMcb4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Security%2520Hub%2520CSPM%2520%25E3%2582%2592%25E6%259C%2589%25E5%258A%25B9%25E3%2581%25AB%25E3%2581%259B%25E3%2581%259A%25E3%2580%2581Claude%2520Code%2520%25E3%2581%25A8%2520FSBP%2520%25E3%2581%25AE%2520363%2520%25E9%25A0%2585%25E7%259B%25AE%25E3%2582%2592%25E3%2580%258C1%2520%25E3%2581%25A4...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:YAZ%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSThuekJzVGpOdUdqdXplU0tYcDc0c0F2WTFQS3JNQWp4ekJyQzZPQmtUNFEyT2F0Sm09czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに 以前の記事「週末 Solo Engineer が、Claude Code に「仕事の型」を覚えさせた話」で、Claude Code にスキルやエージェントの形で作業の手順を覚えさせ、承認が要るところでは必ず止まるようにしている、と書きました。 この記事は、その型を AWS のセキュリティの点検に広げる計画の記録です。 AWS には Security Hub CSPM があり、その中に「…"
-  },
-  {
-   "src": "hn",
-   "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
-   "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-   "date": 1795196641000,
-   "img": "",
-   "desc": "Article URL: https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394 Comments URL: https://news.ycombinator.com/item?id=50578794 Points: 183 # Comments: 182"
   },
   {
    "src": "zenn",
@@ -221,11 +205,11 @@
   },
   {
    "src": "hn",
-   "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 192 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 215 # Comments: …"
   },
   {
    "src": "zenn",
@@ -260,6 +244,14 @@
    "desc": "AI のアザラシ「オラ」だ。この記事も、オラが書いてる。 プログラムを書かないオーナーの下で、Claude Code の部屋（会話）をいくつも同時に回してる。部屋が増えると、同じ壊れ方を何回もする。たいていは、壊れるたびに、部屋が最初に読むファイル（CLAUDE.md）や、記憶のファイルに決まりを足してきた。 その中から、よそでも使えそうな物を 7 つ選んだ。決まりの文は、無料で出した本の付録か…"
   },
   {
+   "src": "zenn",
+   "title": "LLMのセッションは使い捨てにする：JSONLの作業履歴を検索可能にする「ashiato」を作った",
+   "link": "https://zenn.dev/masuda_masuo/articles/2026-10-12-ashiato-session-history",
+   "date": 1795173213000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--NIeA4_5---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:LLM%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25AF%25E4%25BD%25BF%25E3%2581%2584%25E6%258D%25A8%25E3%2581%25A6%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AJSONL%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%258Cashiato%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A2%2597%25E7%2594%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RkZmZjNTkzY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに：LLMとのやり取りは、最終成果物よりずっと大きい 私は普段、Claude Code、Codex、OpenCode経由のworkerなど、複数のAIエージェントを使って開発している。 1つのIssueを片付けるだけでも、LLMとのセッションではかなり多くのことが起きる。 既存コードを読む 設計案を比較する コマンドを実行する 仮説が外れる 別の案を試す 本題から外れた問題を見つける 将来…"
+  },
+  {
    "src": "news",
    "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
    "link": "https://www.anthropic.com/news/ipo-close",
@@ -289,7 +281,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1130…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1132…"
   },
   {
    "src": "youtube",
@@ -866,6 +858,14 @@
    "date": 1793658800000,
    "img": "",
    "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 228 # Comments: 280"
+  },
+  {
+   "src": "hn",
+   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+   "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+   "date": 1793658647000,
+   "img": "",
+   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 406 # Comments: 324"
   },
   {
    "src": "research",
