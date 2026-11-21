@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795290903988,
+ "updatedAt": 1795294356776,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "手元で磨いた GASクイックを GitHub に出しました ── 棚 133 本と、コピペで置けるライブラリ版の話",
+   "link": "https://qiita.com/shu15511551/items/31720f7154e39924f552",
+   "date": 1795291141000,
+   "img": "",
+   "desc": "はじめに ―― 前回の記事の続き、そして GitHub 公開のお知らせ 前回の記事で、Google スプレッドシートの操作窓から AI を使わずに棚（決まった手）と自作マクロを一覧から一瞬で撃つ道具「GASクイック」を紹介しました。 あの時点では「まだ手元で磨いてい..."
+  },
   {
    "src": "qiita",
    "title": "11/21 の公式ドキュメント更新：サンドボックス・フック・ワークツリーの挙動の明文化",
@@ -68,12 +76,12 @@
    "desc": "本稿は、Claude Platform release notes [1] の記載（取得日 2026-11-21）から、セルフホスト版 Claude Managed Agents のモデルリクエストの送信先と、それを観測する手段を整理します。あわせて、送信先を利用者が自分の..."
   },
   {
-   "src": "qiita",
-   "title": "Slay the Spire風ローグライクを素のJavaScriptで1日で作った——カードを「データ」にすると開発が止まらなくなる",
-   "link": "https://qiita.com/mnoguchi/items/2532860c321e7ae79659",
-   "date": 1795283092000,
-   "img": "",
-   "desc": "はじめに エンジニアの開発現場をテーマにしたデッキ構築ローグライク「デスマーチ・スパイア」を作った。 敵は「バグ🐛」「仕様変更📋」「本番障害🚨」、ボスは「リリースデッドライン⏰」 カードは「実装」「テストコード」「リファクタリング」「残業」（残業はメンタルが削れる） レ..."
+   "src": "zenn",
+   "title": "週3時間・スマホだけで2本のゲームを公開した。1か月で、ほとんど誰にも届かなかった",
+   "link": "https://zenn.dev/ikokeba/articles/first-month-side-projects",
+   "date": 1795260866000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hgTwyUzT--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%2580%25B13%25E6%2599%2582%25E9%2596%2593%25E3%2583%25BB%25E3%2582%25B9%25E3%2583%259E%25E3%2583%259B%25E3%2581%25A0%25E3%2581%2591%25E3%2581%25A72%25E6%259C%25AC%25E3%2581%25AE%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%25E3%2582%2592%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E3%2580%25821%25E3%2581%258B%25E6%259C%2588%25E3%2581%25A7%25E3%2580%2581%25E3%2581%25BB%25E3%2581%25A8%25E3%2582%2593%25E3%2581%25A9%25E8%25AA%25B0%25E3%2581%25AB%25E3%2582%2582%25E5%25B1%258A%25E3%2581%258B%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25A4%25E3%2582%25B3%25E3%2582%25B1%25E3%2583%2590%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS3NHMm5nRlE0SEhKc242RmlVMjdkY3hZdTdtM2lVcDkyYktVOHY5SFNnajhIRFlTQT1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "本業のエンジニアの仕事とは別に、2026年10月から副業として、子ども向けの知育アプリと戦術ゲームを作って公開しました。使える時間は週3時間未満で、作業はほぼスマホから AI（Claude）に頼んで進めています。 公開から1か月の結果は、知育アプリがプレイ50回未満・コメント0件、戦術ゲームが3週間でプレイ100回未満でした。この記事では、何を作り、どう進め、なぜ届かなかったと考えているかを書き…"
   },
   {
    "src": "zenn",
@@ -228,14 +236,6 @@
    "desc": "はじめに AI エージェントで Kindle の脱獄ができたというポストを見かけて、ちょうどうちにも Kindle が余っててたので、検証してみました。 脱獄するだけだと芸がないので、天気予報を表示できるようにして、ちょうど屋外の気温センサーもあったので、そのデータも表示できるようにしました。 屋外温度センサーの電波を ESP32 で拾って、 Cloudflare に貯めて、 天気予報と一緒に、…"
   },
   {
-   "src": "zenn",
-   "title": "Stop hook と見る役 subagent を入れて詰まった 10 か所 (Claude Code 2.1.325)",
-   "link": "https://zenn.dev/automateaugment/articles/7a172e69a25fa3",
-   "date": 1795223635000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--ehpafl3Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Stop%2520hook%2520%25E3%2581%25A8%25E8%25A6%258B%25E3%2582%258B%25E5%25BD%25B9%2520subagent%2520%25E3%2582%2592%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%252010%2520%25E3%2581%258B%25E6%2589%2580%2520%2528Claude%2520Code%25202.1.325%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:A%2526A%2520%252F%2520Automate%2520%2526%2520A...%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "部品 (DONE.md・reviewer・Stop hook・settings) の説明と全文は正本に置いています: https://www.automateaugment.com/ja/guides/ai-agent-verify-done この記事は、その部品を Claude Code に入れて実際に走らせた時に、詰まった所だけの記録です。仕組みの説明は繰り返しません。部品は「見る役 (re…"
-  },
-  {
    "src": "claude-code",
    "title": "v2.1.330",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
@@ -249,7 +249,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 467 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 481 # Comments: …"
   },
   {
    "src": "news",
@@ -281,7 +281,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1137…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1139…"
   },
   {
    "src": "youtube",
