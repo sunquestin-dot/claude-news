@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795262104851,
+ "updatedAt": 1795266593960,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "fetch failed"
   },
   "reddit": {
    "ok": false,
@@ -45,35 +45,59 @@
  "items": [
   {
    "src": "qiita",
-   "title": "個人開発のUnityゲームをiOS・Android・Mac・Steam・Nintendo Switch™の5つに出して分かったストアごとの違い",
-   "link": "https://qiita.com/notfolder/items/226ccc9db517fb54723b",
-   "date": 1795259818000,
+   "title": "【第19回】ゼロから目指す! CCDV-F合格への道：Claudeでエージェントを作る",
+   "link": "https://qiita.com/Ray_T/items/1eaa0892c3ed5d89300b",
+   "date": 1795264871000,
    "img": "",
-   "desc": "はじめに Unityで作った『ことづての庭』という砂と石で庭を作るゲームを、個人で5つのストアに出しました。App StoreのiOS版とMac版、Google Play、Steam、Nintendo Switchです。最初の審査提出が2026年8月22日、Switch版..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第19回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "qiita",
-   "title": "Claude Code に守らせていたつもりの hookify のルールを確かめたら、1 本は一度も動いておらず、残りも止めていなかった",
-   "link": "https://qiita.com/hasegawa--2025/items/601956e863bac83da01d",
-   "date": 1795258913000,
+   "title": "AIにMinecraftの建築を任せるMCPサーバーを作った（RCON経由でMod不要）",
+   "link": "https://qiita.com/Lapius7/items/25dfecd603a5719aad6f",
+   "date": 1795264784000,
    "img": "",
-   "desc": "Claude Code に「忘れても止まる仕組み」を持たせたくて、hookify（Claude Code の公式のプラグイン）でルールを 4 本書いていました。 ルール いつ 書いた意図 skill-gate 依頼を送ったとき 「直して」「調べて」などの言葉が..."
+   "desc": "「Steveの隣に石レンガの塔を建てて」と頼むと、AIがMinecraftのサーバーに建築してくれるMCPサーバー「mcp-minecraft-controller」を作りました。ClaudeやCodexなどのMCPクライアントから使えます。サーバーとはRCONでつなぐので..."
   },
   {
    "src": "qiita",
-   "title": "CLAUDE セキュリティ対策➀通信履歴",
-   "link": "https://qiita.com/don_don/items/af55c3a3c7f25ab3f85a",
-   "date": 1795257343000,
+   "title": "【第18回】ゼロから目指す! CCDV-F合格への道：エージェントとワークフロー",
+   "link": "https://qiita.com/Ray_T/items/ae0583ea0256ecfe3716",
+   "date": 1795264277000,
    "img": "",
-   "desc": "uname -a hostname env | grep -E 'DOCKER|CONTAINER|REMOTE_CONTAINERS' echo \"$HOME\" echo \"$CLAUDE_CONFIG_DIR\" ps aux | grep -E 'claude|curl..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第18回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "qiita",
-   "title": "自宅が止まっても戻せるように、AWS に控えを置く ― FactorEye 開発記(4)",
-   "link": "https://qiita.com/hayahide23/items/852e03ca440ee0d406e5",
-   "date": 1795257196000,
+   "title": "【第17回】ゼロから目指す! CCDV-F合格への道：拡張手段の選び方",
+   "link": "https://qiita.com/Ray_T/items/8a04fc572d33d614d21a",
+   "date": 1795263466000,
    "img": "",
-   "desc": "この記事で書くこと 工場の設備を見える化する OSS「FactorEye」の開発記、最終回です。 個人で「AI の会社」を作って、工場監視 OSS を作り始めた 自宅サーバーで SaaS にして、OSS として公開するまで M5Stack から 1 秒ごとのデータを送る..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第17回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の費用は、書かせた量ではなく読み直しで決まっていた",
+   "link": "https://zenn.dev/kumukumu/articles/claude-code-cost-is-rereading",
+   "date": 1795237242000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mLVb7ZUt--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E8%25B2%25BB%25E7%2594%25A8%25E3%2581%25AF%25E3%2580%2581%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2581%259F%25E9%2587%258F%25E3%2581%25A7%25E3%2581%25AF%25E3%2581%25AA%25E3%2581%258F%25E8%25AA%25AD%25E3%2581%25BF%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25A7%25E6%25B1%25BA%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kumu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnBPb1NPdlZDWUQ4QjRJX0w1dmVFX3NDTTFNdUNlelB0ZjIxOE9ob2Rzc0M1WlFBPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI のコーディングツールの費用を見積もるとき、出力の単価を比べたくなります。何を書かせたかが成果なので、そこにお金がかかっていると考えるのは自然です。 ただ、Claude Code のように会話を積み重ねて作業する使い方では、その見方は大きく外れるかもしれません。自分の Claude Code の利用ログ128日分を数えてみたところ、API で払った場合の費用のうち、書かせた分（出力）は1割ほ…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Code の「全部拒否する」フックが、日本語のフォルダでだけ書き込みを通した",
+   "link": "https://zenn.dev/kamijo_aoto/articles/claude-code-hook-japanese-path",
+   "date": 1795235740000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--JP_S07el--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E3%2580%258C%25E5%2585%25A8%25E9%2583%25A8%25E6%258B%2592%25E5%2590%25A6%25E3%2581%2599%25E3%2582%258B%25E3%2580%258D%25E3%2583%2595%25E3%2583%2583%25E3%2582%25AF%25E3%2581%258C%25E3%2580%2581%25E6%2597%25A5%25E6%259C%25AC%25E8%25AA%259E%25E3%2581%25AE%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25AB%25E3%2583%2580%25E3%2581%25A7%25E3%2581%25A0%25E3%2581%2591%25E6%259B%25B8%25E3%2581%258D%25E8%25BE%25BC%25E3%2581%25BF%25E3%2582%2592%25E9%2580%259A%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%258A%25E6%259D%25A1%25E7%25A2%25A7%25E6%2596%2597%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UwNjY3ZGViNGIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "Claude Code の PreToolUse フックで「ファイルの書き込みを全部拒否する」安全装置を Python で書き、日本語 Windows で試しました。 書き込み先のフォルダ 結果 work（英数字） 止めた 日本語 書き込まれた 同じフック、同じ設定で、フォルダの名前が日本語のときだけ、書き込みが通りました。画面にもエラーは出ません。 原因と、直し方は2行です。 再現した環境 W…"
+  },
+  {
+   "src": "zenn",
+   "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+   "link": "https://zenn.dev/karamage/articles/73027ee36796dc",
+   "date": 1795227159000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--EstRBN16--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590TLA%252B%25E3%2580%2591AI%25E3%2581%25AB%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B9%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%25E3%2581%25AA%25E3%2580%2582%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%2592%25E6%259B%25B8%25E3%2581%2591%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:karamage%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzc0NTAwMmJiMzQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "「はて、このテストケース、誰が考えたんだっけ？ ほんとにだいじょぶ？」 AIに頼めば、実装もテストも数秒で出て、CIが全部グリーンになって Approveボタンを押そうとしたとき、ふと背筋がゾッとして手が止まりました。 なんか嫌な予感。。。 実装を書いたのはAI レビューしたのもAI テストを書いたのも同じAI ま、だいじょぶでしょ！(大丈夫じゃない) えぇい、ままよ！ マージしちゃえ！ 問い:…"
   },
   {
    "src": "zenn",
@@ -205,11 +229,11 @@
   },
   {
    "src": "zenn",
-   "title": "AIが口調の指示文まで読み上げた。冒頭を切って使った話",
+   "title": "AIに台本の読み上げを頼んだら、「少し速めに」まで読み上げた",
    "link": "https://zenn.dev/yuceo/articles/ai-voice-tts-one-shot-script",
    "date": 1795187784000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--uBvyqelX--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%258C%25E5%258F%25A3%25E8%25AA%25BF%25E3%2581%25AE%25E6%258C%2587%25E7%25A4%25BA%25E6%2596%2587%25E3%2581%25BE%25E3%2581%25A7%25E8%25AA%25AD%25E3%2581%25BF%25E4%25B8%258A%25E3%2581%2592%25E3%2581%259F%25E3%2580%2582%25E5%2586%2592%25E9%25A0%25AD%25E3%2582%2592%25E5%2588%2587%25E3%2581%25A3%25E3%2581%25A6%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRlYjRmZTczOTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "先に結論 動画の声づくりを、台本をAIに一括で読ませる方法に変える試しをしました。すると、口調の指示文まで声に出して読まれました。文字起こしで気づき、冒頭を切って使いました。次は「指示文と台本を分けて送る」ことを試す予定です（まだ試していません）。この記事は、その流れと失敗の記録です。 何が問題だったか ぼくは会社員のエンジニアで、AIの役員たちと毎日会議をしています。会議の様子を、1本約1分の…"
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--mWvq7RY_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2581%25AB%25E5%258F%25B0%25E6%259C%25AC%25E3%2581%25AE%25E8%25AA%25AD%25E3%2581%25BF%25E4%25B8%258A%25E3%2581%2592%25E3%2582%2592%25E9%25A0%25BC%25E3%2582%2593%25E3%2581%25A0%25E3%2582%2589%25E3%2580%2581%25E3%2580%258C%25E5%25B0%2591%25E3%2581%2597%25E9%2580%259F%25E3%2582%2581%25E3%2581%25AB%25E3%2580%258D%25E3%2581%25BE%25E3%2581%25A7%25E8%25AA%25AD%25E3%2581%25BF%25E4%25B8%258A%25E3%2581%2592%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRlYjRmZTczOTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! AIに台本を読ませたら、「少し速めに、…読んでください」というお願いの文まで声に出た。 文字起こしで気づき、冒頭を切って使いました。次は指示文と台本を分けて送ります（未試行）。 声づくりが手作業で、毎回つらい ぼくは会社員のエンジニアです。AIの役員たちと毎日会議をして、様子を1本約1分の動画にしています。 声は手作業でした。Gemini で作った動画から、声だけを抜き出していました。台本か…"
   },
   {
    "src": "zenn",
@@ -218,30 +242,6 @@
    "date": 1795186904000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--3qjGYQQd--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:SNS%25E3%2581%25AE%25E3%2580%258C%25E3%2581%2582%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E3%2581%2584%25E3%2581%2584%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%258D%25E3%2582%2592%25E9%259B%2586%25E3%2582%2581%25E3%2581%25A6%25E6%25AF%258E%25E9%2580%25B1%25E3%2583%25A9%25E3%2583%25B3%25E3%2582%25AD%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2583%2584%25E3%2583%25BC%25E3%2583%25AB%25E3%2582%25920%25E5%2586%2586%25E3%2581%25A7%25E4%25BD%259C%25E3%2582%258A%25E5%25A7%258B%25E3%2582%2581%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:oseisei%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0lDRTY1RG1Wd2xOZ1VDYThNQzZjMW5reDdEVmJQcEpGa2txbUJYaUJIdFhBOHhRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに 個人開発で「何を作るか」がいちばん難しい、と感じています。 そこで、SNS に流れている「こういうのあったらいいのに」「誰か作って」という声を集めれば、題材探しそのものを仕組みにできるのでは、と考えて needs-radar というツールを作り始めました。 この記事では、作り始める前に調べたことと、最初の版で決めたことをまとめます。 作っているもの 流れはシンプルです。 収集：Blue…"
-  },
-  {
-   "src": "zenn",
-   "title": "勾配降下なしでLLMに重みを書かせる「Weight-Space Programming」を公式ハーネスで再現した",
-   "link": "https://zenn.dev/matsushima_a/articles/day-052-weight-space-programming-arc",
-   "date": 1795185463000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--FHu27Dma--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%258B%25BE%25E9%2585%258D%25E9%2599%258D%25E4%25B8%258B%25E3%2581%25AA%25E3%2581%2597%25E3%2581%25A7LLM%25E3%2581%25AB%25E9%2587%258D%25E3%2581%25BF%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258B%25E3%2581%259B%25E3%2582%258B%25E3%2580%258CWeight-Space%2520Programming%25E3%2580%258D%25E3%2582%2592%25E5%2585%25AC%25E5%25BC%258F%25E3%2583%258F%25E3%2583%25BC%25E3%2583%258D%25E3%2582%25B9%25E3%2581%25A7%25E5%2586%258D%25E7%258F%25BE%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:matsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkY2YwMTZjYWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "勾配降下を使わずにモデルの重みを「書く」という発想 機械学習のモデルは、ふつう勾配降下法で重みを少しずつ更新して学習する。 POSTECHのHyunjong OkさんとJaeho Leeさんが発表したWeight-Space Programming Doesn't Need Transformers(arXiv 2611.22055)は、その前提をひっくり返す。 LLMに勾配降下を一切使わせず、…"
-  },
-  {
-   "src": "zenn",
-   "title": "「一から組むなら」を4つの案で比べ、先に数えてから1段目だけ入れた記録",
-   "link": "https://zenn.dev/hiroxasobiba/articles/rebuild-from-scratch-four-plans",
-   "date": 1795184679000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--aJo5PJdy--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E4%25B8%2580%25E3%2581%258B%25E3%2582%2589%25E7%25B5%2584%25E3%2582%2580%25E3%2581%25AA%25E3%2582%2589%25E3%2580%258D%25E3%2582%25924%25E3%2581%25A4%25E3%2581%25AE%25E6%25A1%2588%25E3%2581%25A7%25E6%25AF%2594%25E3%2581%25B9%25E3%2580%2581%25E5%2585%2588%25E3%2581%25AB%25E6%2595%25B0%25E3%2581%2588%25E3%2581%25A6%25E3%2581%258B%25E3%2582%25891%25E6%25AE%25B5%25E7%259B%25AE%25E3%2581%25A0%25E3%2581%2591%25E5%2585%25A5%25E3%2582%258C%25E3%2581%259F%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25B2%25E3%2582%258D%25EF%25BC%25A0AI%25E9%2581%258A%25E3%2581%25B3%25E5%25A0%25B4%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0ZMU1U4SndVdG1LVklfQS1TYzN2OHY5S1VuWTNMWnY0eHlnSVNGVVdvNzFIei1BPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "個人で Android アプリを作っています。ターミナルのタブを複数並べてそれぞれで Claude Code を動かし、司令役のタブ（main）が別のタブへ依頼を出して完了報告を受け取る、という形で開発しています（受け渡しの仕組みは前の記事に書きました）。 2026年11月19日の夜、main に「あなたが一から仕組みを考えるとしたら、どのような仕組みを組みますか」と聞きました。この記事は、その…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の作業を Notion に自動で記録して、「共通の脳」にする",
-   "link": "https://zenn.dev/ysk1to/articles/claude-code-notion-work-log",
-   "date": 1795181825000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--H4kkYhti--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%2520Notion%2520%25E3%2581%25AB%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7%25E8%25A8%2598%25E9%258C%25B2%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E3%2580%258C%25E5%2585%25B1%25E9%2580%259A%25E3%2581%25AE%25E8%2584%25B3%25E3%2580%258D%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yusuke%2520Ito%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg1M2ZhYTY0YzUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Claude Code に作業を任せる時間が増えると、何をなぜそう決めたのかを自分が覚えていない、ということが起きます。会話の中には経緯が残っていますが、セッションを閉じたり、コンテキストが圧縮されたりすると追えなくなります。 そこで、Claude Code が作業の区切りごとに Notion へ記録を残す仕組みを作りました。Claude Desktop も同じ Notion を読み書きするので…"
   },
   {
    "src": "hn",
