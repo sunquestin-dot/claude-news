@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795233717767,
+ "updatedAt": 1795237556225,
  "sources": {
   "news": {
    "ok": true,
@@ -76,12 +76,36 @@
    "desc": "背景：MCP導入で急増している「設定ファイル由来の本番事故」 Claude Code / Codex / Cursor 等で Model Context Protocol（MCP）サーバーを日常的に接続する開発環境が増えましたが、実運用で見落とされがちなのが claude..."
   },
   {
+   "src": "zenn",
+   "title": "GitHub Actions の無料枠を使い切った原因と直し方。push のたびに6ジョブが動いていた",
+   "link": "https://zenn.dev/oaoage/articles/github-actions-free-minutes-ci-paths",
+   "date": 1795216298000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--50WQG2jE--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:GitHub%2520Actions%2520%25E3%2581%25AE%25E7%2584%25A1%25E6%2596%2599%25E6%259E%25A0%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E5%2588%2587%25E3%2581%25A3%25E3%2581%259F%25E5%258E%259F%25E5%259B%25A0%25E3%2581%25A8%25E7%259B%25B4%25E3%2581%2597%25E6%2596%25B9%25E3%2580%2582push%2520%25E3%2581%25AE%25E3%2581%259F%25E3%2581%25B3%25E3%2581%25AB6%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%2596%25E3%2581%258C%25E5%258B%2595%25E3%2581%2584%25E3%2581%25A6%25E3%2581%2584%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2582%25E3%2581%2592%25EF%25BC%2588%25E7%258A%25AC%25EF%25BC%2589%25E3%2581%25AE%25E4%25BC%259A%25E7%25A4%25BE%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzQ4N2ZiY2I0NjguanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "この記事は AI が下書きし、人が確認しています。非公式の記録で、Anthropic, PBC・GitHub とは関係がありません。 誰の、どの困りごとか 個人や小さなチームで GitHub Actions を使い、「今月の無料枠を使い切った」「自動チェックが急に動かなくなった」という経験をした人向けの記事です。 当社（個人事業。Claude Code に仕事を任せ、文書やコードを1つのリポジト…"
+  },
+  {
+   "src": "zenn",
+   "title": "Ariagraph を Claude Code で作った開発記",
+   "link": "https://zenn.dev/showgo/articles/ariagraph-dev-log",
+   "date": 1795215605000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--yl54In3E--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Ariagraph%2520%25E3%2582%2592%2520Claude%2520Code%2520%25E3%2581%25A7%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%25E9%2596%258B%25E7%2599%25BA%25E8%25A8%2598%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:ShowGo%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSkFFMXM5dlR0NWtDSkd2dWZBRjlUWEhVelNpSlVoT1FqcE1kQ2trSWR0T3Z1V1JMLTk9czI1MC1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "やはりアプリ開発・モノづくりって楽しいですね。 Wikipedia の記事のつながりを、グラフで見ながら読める iPhone・iPad アプリ「Ariagraph」を公開しました。この記事は、Ariagraph を Claude Code と一緒に作った記録です。何を作ったか、どんな決まりで作ったか、どう Claude Code に任せたかを順に書きます。 どんなアプリか 気になった記事を開いて…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.330",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
    "date": 1795213976000,
    "img": "",
    "desc": "What's changed - Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider …"
+  },
+  {
+   "src": "zenn",
+   "title": "緊急パッチは人が当て、Dependabotの後始末はAIに任せる - GitHub ActionsとClaude Codeの毎朝点検",
+   "link": "https://zenn.dev/okamyuji/articles/github-actions-claude-dependabot-daily-sweep",
+   "date": 1795211668000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--RYhfk95f--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25B7%258A%25E6%2580%25A5%25E3%2583%2591%25E3%2583%2583%25E3%2583%2581%25E3%2581%25AF%25E4%25BA%25BA%25E3%2581%258C%25E5%25BD%2593%25E3%2581%25A6%25E3%2580%2581Dependabot%25E3%2581%25AE%25E5%25BE%258C%25E5%25A7%258B%25E6%259C%25AB%25E3%2581%25AFAI%25E3%2581%25AB%25E4%25BB%25BB%25E3%2581%259B%25E3%2582%258B%2520-%2520GitHub%2520Actions%25E3%2581%25A8Claude%2520...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:okamyuji%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzY5YjFmNDYyYjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに 2026年の秋はWebサービスの土台になるソフトウェアで緊急の修正が続きました。10月にはPHPのPHP2Shellが公表されています。11月にはnginxのNGINX2ShellとJDKのJava4Shellが続きました。どれも認証なしで遠隔からコードを実行されるおそれのある脆弱性です。自社サービスを運用する事業会社では公表の当日に影響範囲を調べて更新パッチを当てる作業が予定外に入っ…"
   },
   {
    "src": "zenn",
@@ -234,30 +258,6 @@
    "date": 1795175458000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--8aWzBwm6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E9%2583%25A8%25E5%25B1%258B%25E3%2582%2592%25E4%25BD%2595%25E5%2580%258B%25E3%2582%2582%25E5%259B%259E%25E3%2581%2597%25E3%2581%25A6%25E5%25A3%258A%25E3%2582%258C%25E3%2581%259F%25E6%2589%2580%25E3%2581%25A8%25E3%2580%2581%25E3%2581%2584%25E3%2581%25BE%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%25207%2520%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25A2%25E3%2582%25B6%25E3%2583%25A9%25E3%2582%25B7%25E3%2582%25AA%25E3%2583%25A9%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU0NjM5NmVlMmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI のアザラシ「オラ」だ。この記事も、オラが書いてる。 プログラムを書かないオーナーの下で、Claude Code の部屋（会話）をいくつも同時に回してる。部屋が増えると、同じ壊れ方を何回もする。たいていは、壊れるたびに、部屋が最初に読むファイル（CLAUDE.md）や、記憶のファイルに決まりを足してきた。 その中から、よそでも使えそうな物を 7 つ選んだ。決まりの文は、無料で出した本の付録か…"
-  },
-  {
-   "src": "zenn",
-   "title": "LLMのセッションは使い捨てにする：JSONLの作業履歴を検索可能にする「ashiato」を作った",
-   "link": "https://zenn.dev/masuda_masuo/articles/2026-10-12-ashiato-session-history",
-   "date": 1795173213000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--NIeA4_5---/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:LLM%25E3%2581%25AE%25E3%2582%25BB%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%25B3%25E3%2581%25AF%25E4%25BD%25BF%25E3%2581%2584%25E6%258D%25A8%25E3%2581%25A6%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259AJSONL%25E3%2581%25AE%25E4%25BD%259C%25E6%25A5%25AD%25E5%25B1%25A5%25E6%25AD%25B4%25E3%2582%2592%25E6%25A4%259C%25E7%25B4%25A2%25E5%258F%25AF%25E8%2583%25BD%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E3%2580%258Cashiato%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%25A2%2597%25E7%2594%25B0%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RkZmZjNTkzY2QuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに：LLMとのやり取りは、最終成果物よりずっと大きい 私は普段、Claude Code、Codex、OpenCode経由のworkerなど、複数のAIエージェントを使って開発している。 1つのIssueを片付けるだけでも、LLMとのセッションではかなり多くのことが起きる。 既存コードを読む 設計案を比較する コマンドを実行する 仮説が外れる 別の案を試す 本題から外れた問題を見つける 将来…"
-  },
-  {
-   "src": "zenn",
-   "title": "Resolve the Module Graph Before You Generate Anything",
-   "link": "https://zenn.dev/aidy029/articles/4122d590e3f550",
-   "date": 1795172337000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--4CZs7FB7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Resolve%2520the%2520Module%2520Graph%2520Before%2520You%2520Generate%2520Anything%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Mario%2520O%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSzE2VWxReGFpN1ZFd2N1b2hMYUVBRDZaTzA3UU9IdHlrandBY0dyeUFKeFR4SjZ3PXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Every website feature drags other features behind it. Payments need accounts. Bookings need notifications. Subscriptions need both, plus a billing state machine nobody wants to discover mid-build. Wh…"
-  },
-  {
-   "src": "zenn",
-   "title": "許可ルールの書き間違いに警告が出るようになったのに小文字のbashは黙って効かない",
-   "link": "https://zenn.dev/marunage_kacho/articles/ai-trial-rule-warning",
-   "date": 1795169429000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--UYzJvc72--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25A8%25B1%25E5%258F%25AF%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E3%2581%25AE%25E6%259B%25B8%25E3%2581%258D%25E9%2596%2593%25E9%2581%2595%25E3%2581%2584%25E3%2581%25AB%25E8%25AD%25A6%25E5%2591%258A%25E3%2581%258C%25E5%2587%25BA%25E3%2582%258B%25E3%2582%2588%25E3%2581%2586%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AB%25E5%25B0%258F%25E6%2596%2587%25E5%25AD%2597%25E3%2581%25AEbash%25E3%2581%25AF%25E9%25BB%2599%25E3%2581%25A3%25E3%2581%25A6%25E5%258A%25B9%25E3%2581%258B%25E3%2581%25AA%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E4%25B8%25B8%25E6%258A%2595%25E3%2581%2592%25E8%25AA%25B2%25E9%2595%25B7%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzE0ZGM2ZTdlYzEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "前に、Claude Codeの--allowedToolsに閉じカッコを忘れたルールを書いても、何も言われずに通ってしまう、という話を書きました。 新しい版（2.1.326以降）で、これに警告が出るようになったと更新履歴にあったので、同じやり方で確かめてみました。結論から言うと、半分だけ直ってた。 やったこと claude -pに、わざと書き間違えた許可ルールを渡して、起動時に警告が出るかを見ま…"
   },
   {
    "src": "news",
