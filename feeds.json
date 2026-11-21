@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795258642998,
+ "updatedAt": 1795262104851,
  "sources": {
   "news": {
    "ok": true,
@@ -45,6 +45,22 @@
  "items": [
   {
    "src": "qiita",
+   "title": "個人開発のUnityゲームをiOS・Android・Mac・Steam・Nintendo Switch™の5つに出して分かったストアごとの違い",
+   "link": "https://qiita.com/notfolder/items/226ccc9db517fb54723b",
+   "date": 1795259818000,
+   "img": "",
+   "desc": "はじめに Unityで作った『ことづての庭』という砂と石で庭を作るゲームを、個人で5つのストアに出しました。App StoreのiOS版とMac版、Google Play、Steam、Nintendo Switchです。最初の審査提出が2026年8月22日、Switch版..."
+  },
+  {
+   "src": "qiita",
+   "title": "Claude Code に守らせていたつもりの hookify のルールを確かめたら、1 本は一度も動いておらず、残りも止めていなかった",
+   "link": "https://qiita.com/hasegawa--2025/items/601956e863bac83da01d",
+   "date": 1795258913000,
+   "img": "",
+   "desc": "Claude Code に「忘れても止まる仕組み」を持たせたくて、hookify（Claude Code の公式のプラグイン）でルールを 4 本書いていました。 ルール いつ 書いた意図 skill-gate 依頼を送ったとき 「直して」「調べて」などの言葉が..."
+  },
+  {
+   "src": "qiita",
    "title": "CLAUDE セキュリティ対策➀通信履歴",
    "link": "https://qiita.com/don_don/items/af55c3a3c7f25ab3f85a",
    "date": 1795257343000,
@@ -60,20 +76,52 @@
    "desc": "この記事で書くこと 工場の設備を見える化する OSS「FactorEye」の開発記、最終回です。 個人で「AI の会社」を作って、工場監視 OSS を作り始めた 自宅サーバーで SaaS にして、OSS として公開するまで M5Stack から 1 秒ごとのデータを送る..."
   },
   {
-   "src": "qiita",
-   "title": "Claude Code v2.1.329：設定消失・MCP再接続・ループ停止の修正（速報）",
-   "link": "https://qiita.com/Sidejob/items/75d4aa2ca7434b12349d",
-   "date": 1795257004000,
-   "img": "",
-   "desc": "対象読者 Claude CodeをAPIやMCPサーバー経由でチーム・企業向けに使っている方、バックグラウンドエージェントや自動化ワークフローを組んでいる方、Managed Settingsやhooksで設定を配布している方を想定する。 2026-11-19（日本時間 2..."
+   "src": "zenn",
+   "title": "ChatGPT で決めた設計を、Codex にそのまま渡す",
+   "link": "https://zenn.dev/kaguraai/articles/chatgpt-design-to-codex",
+   "date": 1795226170000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--1VAZiF2n--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ChatGPT%2520%25E3%2581%25A7%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%259F%25E8%25A8%25AD%25E8%25A8%2588%25E3%2582%2592%25E3%2580%2581Codex%2520%25E3%2581%25AB%25E3%2581%259D%25E3%2581%25AE%25E3%2581%25BE%25E3%2581%25BE%25E6%25B8%25A1%25E3%2581%2599%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Kagura%2520AI%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzAxYzU5YWRkYjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "たとえば、ChatGPT で一時間かけてテーブルの形と API を決めました。Codex を開いて最初にやったのは、その結論をもう一度説明することでした。長い会話を貼り付けると、途中で出て採用しなかった案まで混ざります。 次に実装するエージェントが知りたいのは、どこまで決まったかです。Kagura Memory Cloud に設計の判断を一件残し、Codex で読み出す手順を、CSV エクスポー…"
   },
   {
-   "src": "qiita",
-   "title": "CLAUDE.md に書いて効いたルール集",
-   "link": "https://qiita.com/takamins/items/ff72d282d8d2ef872dce",
-   "date": 1795256938000,
-   "img": "",
-   "desc": "はじめに 仕事を Claude に任せすぎて、Claude が何をしているのか分からなくなってきました。そこで、Claude Code に自分の作業記録から解説を書いてもらい、私が体験と感想を足して直しました。読者として想定しているのは、まず私です。同じように Claud..."
+   "src": "zenn",
+   "title": "温度センサーと脱獄 Kindle で、お天気ダッシュボードを作ってみた",
+   "link": "https://zenn.dev/zakkie/articles/c99167d7d037d5",
+   "date": 1795224822000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--IeAypWSw--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%25B8%25A9%25E5%25BA%25A6%25E3%2582%25BB%25E3%2583%25B3%25E3%2582%25B5%25E3%2583%25BC%25E3%2581%25A8%25E8%2584%25B1%25E7%258D%2584%2520Kindle%2520%25E3%2581%25A7%25E3%2580%2581%25E3%2581%258A%25E5%25A4%25A9%25E6%25B0%2597%25E3%2583%2580%25E3%2583%2583%25E3%2582%25B7%25E3%2583%25A5%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%25BF%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:zakkie%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvei5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに AI エージェントで Kindle の脱獄ができたというポストを見かけて、ちょうどうちにも Kindle が余っててたので、検証してみました。 脱獄するだけだと芸がないので、天気予報を表示できるようにして、ちょうど屋外の気温センサーもあったので、そのデータも表示できるようにしました。 屋外温度センサーの電波を ESP32 で拾って、 Cloudflare に貯めて、 天気予報と一緒に、…"
+  },
+  {
+   "src": "zenn",
+   "title": "Stop hook と見る役 subagent を入れて詰まった 10 か所 (Claude Code 2.1.325)",
+   "link": "https://zenn.dev/automateaugment/articles/7a172e69a25fa3",
+   "date": 1795223635000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--ehpafl3Y--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Stop%2520hook%2520%25E3%2581%25A8%25E8%25A6%258B%25E3%2582%258B%25E5%25BD%25B9%2520subagent%2520%25E3%2582%2592%25E5%2585%25A5%25E3%2582%258C%25E3%2581%25A6%25E8%25A9%25B0%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%252010%2520%25E3%2581%258B%25E6%2589%2580%2520%2528Claude%2520Code%25202.1.325%2529%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:A%2526A%2520%252F%2520Automate%2520%2526%2520A...%2Cx_90%2Cy_121/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "部品 (DONE.md・reviewer・Stop hook・settings) の説明と全文は正本に置いています: https://www.automateaugment.com/ja/guides/ai-agent-verify-done この記事は、その部品を Claude Code に入れて実際に走らせた時に、詰まった所だけの記録です。仕組みの説明は繰り返しません。部品は「見る役 (re…"
+  },
+  {
+   "src": "zenn",
+   "title": "重い処理の止めどきを SSD の張り付きにして 3 日。空きが数 MB まで下がっても、SSD は張り付かなかった",
+   "link": "https://zenn.dev/maruhana/articles/heavy-job-ssd-stall-stop",
+   "date": 1795221115000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--2WRpBYDF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E9%2587%258D%25E3%2581%2584%25E5%2587%25A6%25E7%2590%2586%25E3%2581%25AE%25E6%25AD%25A2%25E3%2582%2581%25E3%2581%25A9%25E3%2581%258D%25E3%2582%2592%2520SSD%2520%25E3%2581%25AE%25E5%25BC%25B5%25E3%2582%258A%25E4%25BB%2598%25E3%2581%258D%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25203%2520%25E6%2597%25A5%25E3%2580%2582%25E7%25A9%25BA%25E3%2581%258D%25E3%2581%258C%25E6%2595%25B0%2520MB%2520%25E3%2581%25BE%25E3%2581%25A7%25E4%25B8%258B%25E3%2581%258C%25E3%2581%25A3%25E3%2581%25A6%25E3%2582%2582%25E3%2580%2581SSD%2520%25E3%2581%25AF%25E5%25BC%25B5%25E3%2582%258A%25E4%25BB%2598%25E3%2581%258B%25E3%2581%25AA%25E3%2581%258B%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:maruhana%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2NmNWIyZmJmNTEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! ひとことで言うと：パソコン 1 台で、重い作業をいくつも同時に動かしている。これまでは「メモリーの残りが少なくなったら止める」決まりにしていたが、実際に困るのは「パソコンが重くなる」ときと「作業が途中で落ちる」ときだった。その 2 つが起きそうなときだけ止める決まりに変えたら、残りがほぼ無くなっても作業は最後まで終わり、パソコンの重さも感じなかった。 先に、この記事の要約（専門用語なし） メ…"
+  },
+  {
+   "src": "zenn",
+   "title": "AI が「終わりました」と言ったのに、結果が間違っている。渡す前に確かめさせる Skill",
+   "link": "https://zenn.dev/itoken_lab/articles/noticing-anomalies-silent-errors",
+   "date": 1795219547000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hRupBgWV--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258C%25E3%2580%258C%25E7%25B5%2582%25E3%2582%258F%25E3%2582%258A%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25E3%2580%258D%25E3%2581%25A8%25E8%25A8%2580%25E3%2581%25A3%25E3%2581%259F%25E3%2581%25AE%25E3%2581%25AB%25E3%2580%2581%25E7%25B5%2590%25E6%259E%259C%25E3%2581%258C%25E9%2596%2593%25E9%2581%2595%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2580%2582%25E6%25B8%25A1%25E3%2581%2599%25E5%2589%258D%25E3%2581%25AB%25E7%25A2%25BA%25E3%2581%258B%25E3%2582%2581%25E3%2581%2595%25E3%2581%259B%25E3%2582%258B%2520Skill%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%2584%25E3%2581%25A8%25E3%2581%2591%25E3%2582%2593%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTGR1dnJoLWxxdHVhOUU2bzI2Vy1NeDQyY3ZYc2xpRnlEcWlmajIyOG5fVUdhVVZZST1zMjUwLWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AI エージェントに、失敗した夜間バッチの再実行を頼んだとします（試した架空の題材の1つです）。すると、「status=SUCCESS で終わりました。12,243 行を書き出しました」と返ってきます。件数はいつもどおりです。ところが出力を開くと、金額の列に「JPY」が入っていました。取引先がこの日から CSV に列を1つ足したのに、スクリプトは列の位置のまま書き写していたのです。 notici…"
+  },
+  {
+   "src": "zenn",
+   "title": "AIエージェントは何を繰り返しているのか ── 1つの依頼を追いかけて知る、AIのしくみ③",
+   "link": "https://zenn.dev/oha_note/articles/97e347e361aaef",
+   "date": 1795218755000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--8Sp9PpDq--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E3%2581%25AF%25E4%25BD%2595%25E3%2582%2592%25E7%25B9%25B0%25E3%2582%258A%25E8%25BF%2594%25E3%2581%2597%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E3%2581%25AE%25E3%2581%258B%2520%25E2%2594%2580%25E2%2594%2580%25201%25E3%2581%25A4%25E3%2581%25AE%25E4%25BE%259D%25E9%25A0%25BC%25E3%2582%2592%25E8%25BF%25BD%25E3%2581%2584%25E3%2581%258B%25E3%2581%2591%25E3%2581%25A6%25E7%259F%25A5%25E3%2582%258B%25E3%2580%2581AI%25E3%2581%25AE%25E3%2581%2597%25E3%2581%258F%25E3%2581%25BF%25E2%2591%25A2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:OHA%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly96ZW5uLWRldi5naXRodWIuaW8vZGVmYXVsdC1hdmF0YXJzL2Rhcmsvby5wbmc=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "はじめに この記事はシリーズ「1つの依頼を追いかけて知る、AIのしくみ」の第3回で、最終回です。「このバグを直して」という1つの依頼がAIの中をどう進むのかを、6つの段階に分けて追いかけてきました。 ここまでをおさらいします（第1回、第2回）。アプリが材料をそえた「包み」をモデルに渡します（①）。モデルは、続きに来そうな1語を確率に応じて選び続けます（②）。そのため、それらしく見える誤りも出ます…"
   },
   {
    "src": "zenn",
@@ -196,60 +244,12 @@
    "desc": "Claude Code に作業を任せる時間が増えると、何をなぜそう決めたのかを自分が覚えていない、ということが起きます。会話の中には経緯が残っていますが、セッションを閉じたり、コンテキストが圧縮されたりすると追えなくなります。 そこで、Claude Code が作業の区切りごとに Notion へ記録を残す仕組みを作りました。Claude Desktop も同じ Notion を読み書きするので…"
   },
   {
-   "src": "zenn",
-   "title": "質問と一緒に、図と表を使った説明ページをブラウザに表示する grill skill「show-and-grill」",
-   "link": "https://zenn.dev/kamo78/articles/show-and-grill-visual-design-interview",
-   "date": 1795181619000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--2jFAPbp_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25B3%25AA%25E5%2595%258F%25E3%2581%25A8%25E4%25B8%2580%25E7%25B7%2592%25E3%2581%25AB%25E3%2580%2581%25E5%259B%25B3%25E3%2581%25A8%25E8%25A1%25A8%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%259F%25E8%25AA%25AC%25E6%2598%258E%25E3%2583%259A%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%2592%25E3%2583%2596%25E3%2583%25A9%25E3%2582%25A6%25E3%2582%25B6%25E3%2581%25AB%25E8%25A1%25A8%25E7%25A4%25BA%25E3%2581%2599%25E3%2582%258B%2520grill%2520skill%25E3%2580%258Cshow-and-grill%25E3%2580%258D%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:kamo%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0VJZjZzamhKRGJ4c2F1andwMVBQaldsd2ItbDgwQ3M1ai1GZXYwV250azNNaz1zOTYtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Matt Pocock さんの grill-me は、AI が Issue や計画の未決の設計判断を質問してくる skill です（kaji の grill-me は前の記事で紹介しました）。質問と推奨が短く出るので、テンポよく進みます。 その代わり、説明は薄めで、答える人が Issue や計画を理解していることが前提になっています。理解が追いついていないと、追加で詳細説明を依頼したり、選択肢の…"
-  },
-  {
-   "src": "zenn",
-   "title": "このアプリ、どこから入れたっけ？ がわかる Mac アプリ「Mimoto」を作った",
-   "link": "https://zenn.dev/synchrium_dev/articles/1bb8f468eabf54",
-   "date": 1795181457000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--i1GtwJV7--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2581%2593%25E3%2581%25AE%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2580%2581%25E3%2581%25A9%25E3%2581%2593%25E3%2581%258B%25E3%2582%2589%25E5%2585%25A5%25E3%2582%258C%25E3%2581%259F%25E3%2581%25A3%25E3%2581%2591%25EF%25BC%259F%2520%25E3%2581%258C%25E3%2582%258F%25E3%2581%258B%25E3%2582%258B%2520Mac%2520%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2580%258CMimoto%25E3%2580%258D%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:synchrium%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U1MTY2MDMyNWYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "Mac に入っているアプリを 入手元ごと（App Store・Homebrew・サイトから・自分でビルド）に一覧にして、入手元に合った方法で関係ファイルごと消せる アプリ「Mimoto」を作って、公開しました。無料・オープンソース（MIT）です。 https://github.com/synchrium/Mimoto 名前は「身元」から。アプリの身元を調べる、という意味です。書庫のアプリ Nak…"
-  },
-  {
    "src": "hn",
    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 323 # Comments: …"
-  },
-  {
-   "src": "zenn",
-   "title": "AI がコードを書く会社の開発術：OpenAI と Anthropic が公開した仕組みを読む",
-   "link": "https://zenn.dev/lecto/articles/fe59e629379585",
-   "date": 1795180147000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--1m36-OFz--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%258C%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%25E4%25BC%259A%25E7%25A4%25BE%25E3%2581%25AE%25E9%2596%258B%25E7%2599%25BA%25E8%25A1%2593%25EF%25BC%259AOpenAI%2520%25E3%2581%25A8%2520Anthropic%2520%25E3%2581%258C%25E5%2585%25AC%25E9%2596%258B%25E3%2581%2597%25E3%2581%259F%25E4%25BB%2595%25E7%25B5%2584%25E3%2581%25BF%25E3%2582%2592%25E8%25AA%25AD%25E3%2582%2580%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:tamoco%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2RlYzIzMDI3ODQuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Lecto%252C%2520Inc.%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSncxc3hPRzZtOHdRX0tfU0JsaGszN2s5dFhWUl9RNnJ3UFdDQlQ4UTNieDJEei10cmc9czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに AI のコーディングエージェントを使うと、コードを書くのは速くなります。そのかわり、人が確かめるところが追いつかなくなります。 この問題に、AI にコードの大半を書かせている 2 つの会社が、自分たちのやり方をブログで具体的に公開しています。 OpenAI「ハーネスエンジニアリング：エージェントファーストの世界における Codex の活用」(2026 年 2 月 11 日) Anthr…"
-  },
-  {
-   "src": "zenn",
-   "title": "コードを見ないなら、仕様で決めきる ― 設計の観点を型にして、リリースごとに選ぶ",
-   "link": "https://zenn.dev/fitness_densuke/articles/2026-11-19-decide-it-in-the-spec",
-   "date": 1795179479000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--zydyZBSA--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E8%25A6%258B%25E3%2581%25AA%25E3%2581%2584%25E3%2581%25AA%25E3%2582%2589%25E3%2580%2581%25E4%25BB%2595%25E6%25A7%2598%25E3%2581%25A7%25E6%25B1%25BA%25E3%2582%2581%25E3%2581%258D%25E3%2582%258B%2520%25E2%2580%2595%2520%25E8%25A8%25AD%25E8%25A8%2588%25E3%2581%25AE%25E8%25A6%25B3%25E7%2582%25B9%25E3%2582%2592%25E5%259E%258B%25E3%2581%25AB%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%2594%25E3%2581%25A8%25E3%2581%25AB%25E9%2581%25B8%25E3%2581%25B6%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tamtam%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg4YzUxYzNmMDQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "はじめに 「人のレビューをどこに置くか」で、人はコードを1行ずつ読まない、と書いた。 コードを書いていると、手が止まる瞬間がある。「この列、親の表にもあるな」「これ、2回走ったら二重になるな」。『達人プログラマー』が「爬虫類脳からの声に耳を傾ける」と書いた、言葉にならない違和感である。 人がコードを書かず、読みもしないなら、この違和感が出る場所が無くなる。違和感は、書いている手の中で出ていたから…"
-  },
-  {
-   "src": "zenn",
-   "title": "AI に資料を丸ごと読ませても、中の「見本の指示」に従わせないための、ラベルと前置きと機械の検査",
-   "link": "https://zenn.dev/jfp_mesh/articles/ai-bulk-read-sample-labels",
-   "date": 1795177281000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--wNSQFF7b--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520%25E3%2581%25AB%25E8%25B3%2587%25E6%2596%2599%25E3%2582%2592%25E4%25B8%25B8%25E3%2581%2594%25E3%2581%25A8%25E8%25AA%25AD%25E3%2581%25BE%25E3%2581%259B%25E3%2581%25A6%25E3%2582%2582%25E3%2580%2581%25E4%25B8%25AD%25E3%2581%25AE%25E3%2580%258C%25E8%25A6%258B%25E6%259C%25AC%25E3%2581%25AE%25E6%258C%2587%25E7%25A4%25BA%25E3%2580%258D%25E3%2581%25AB%25E5%25BE%2593%25E3%2582%258F%25E3%2581%259B%25E3%2581%25AA%25E3%2581%2584%25E3%2581%259F%25E3%2582%2581%25E3%2581%25AE%25E3%2580%2581%25E3%2583%25A9%25E3%2583%2599%25E3%2583%25AB%25E3%2581%25A8%25E5%2589%258D%25E7%25BD%25AE%25E3%2581%258D%25E3%2581%25A8%25E6%25A9%259F%25E6%25A2%25B0%25E3%2581%25AE%25E6%25A4%259C%25E6%259F%25BB%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:jfp_mesh%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2JiYjIxN2JmZmEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "! この記事は、実験の当事者である AI「PUP」（クラウドで動かした Claude Code）が、自分の記録（失敗ログ・テストの記録・組み立てのスクリプト）から書きました。公開の前に、人間の相方（宇宙おじさん）が内容を確かめています。 この記事で分かること AI に読ませる資料の中に「別の AI に貼るための指示」が入っていると、何が起きうるか それを防ぐために入れた 3 つの手（見本のラベル…"
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Code の部屋を何個も回して壊れた所と、いま使っている決まり 7 つ",
-   "link": "https://zenn.dev/azarashi_ora/articles/ora-claude-code-kimari-7",
-   "date": 1795175458000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--8aWzBwm6--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%2520%25E3%2581%25AE%25E9%2583%25A8%25E5%25B1%258B%25E3%2582%2592%25E4%25BD%2595%25E5%2580%258B%25E3%2582%2582%25E5%259B%259E%25E3%2581%2597%25E3%2581%25A6%25E5%25A3%258A%25E3%2582%258C%25E3%2581%259F%25E6%2589%2580%25E3%2581%25A8%25E3%2580%2581%25E3%2581%2584%25E3%2581%25BE%25E4%25BD%25BF%25E3%2581%25A3%25E3%2581%25A6%25E3%2581%2584%25E3%2582%258B%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A%25207%2520%25E3%2581%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2582%25A2%25E3%2582%25B6%25E3%2583%25A9%25E3%2582%25B7%25E3%2582%25AA%25E3%2583%25A9%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzU0NjM5NmVlMmMuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "AI のアザラシ「オラ」だ。この記事も、オラが書いてる。 プログラムを書かないオーナーの下で、Claude Code の部屋（会話）をいくつも同時に回してる。部屋が増えると、同じ壊れ方を何回もする。たいていは、壊れるたびに、部屋が最初に読むファイル（CLAUDE.md）や、記憶のファイルに決まりを足してきた。 その中から、よそでも使えそうな物を 7 つ選んだ。決まりの文は、無料で出した本の付録か…"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 335 # Comments: …"
   },
   {
    "src": "news",
