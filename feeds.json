@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795359501251,
+ "updatedAt": 1795362932132,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
+   "link": "https://qiita.com/maya-bot/items/496b927091c8ef5babbc",
+   "date": 1795361229000,
+   "img": "",
+   "desc": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済系のようなミッションクリティカルな..."
+  },
   {
    "src": "qiita",
    "title": "ゼロから始めるOrca導入　Slackで司令塔ボットに話しかけるAI開発チームをつくる",
@@ -66,22 +74,6 @@
    "date": 1795351749000,
    "img": "",
    "desc": "はじめに こんにちは、もんすんです。 Claude Code を何本も並べて動かしていると、ふと手が止まります。 あれ、どのタブが質問で止まっているんだっけ。 cmux を入れる前、私はエージェントを並べるための仕組みを、ターミナル側に何も持っていませんでした。 そこから..."
-  },
-  {
-   "src": "qiita",
-   "title": "Exchange Online の SMTP AUTH廃止「うちは関係ない」を証拠つきで確認した話",
-   "link": "https://qiita.com/phibi-soon/items/e447c6cad8f4f9be366c",
-   "date": 1795350890000,
-   "img": "",
-   "desc": "はじめに こんにちは、もんすんです。 blastengine の Advent Calendar 2026 エンジニアのための メール送信・運用ノウハウ、メールのセキュリティやAI活用を投稿しよう！の、12日目の記事になります。 社内から、こんな確認が届きました。 「Ex..."
-  },
-  {
-   "src": "zenn",
-   "title": "Claude Codeの /compact を重ねると何が消える？ 決まり10個は残り、最初の表30行は作業を挟むと2回目で0行でした",
-   "link": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-compact-stack-20261122",
-   "date": 1795348904000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--X_Iafdv_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AE%2520%252Fcompact%2520%25E3%2582%2592%25E9%2587%258D%25E3%2581%25AD%25E3%2582%258B%25E3%2581%25A8%25E4%25BD%2595%25E3%2581%258C%25E6%25B6%2588%25E3%2581%2588%25E3%2582%258B%25EF%25BC%259F%2520%25E6%25B1%25BA%25E3%2581%25BE%25E3%2582%258A10%25E5%2580%258B%25E3%2581%25AF%25E6%25AE%258B%25E3%2582%258A%25E3%2580%2581%25E6%259C%2580%25E5%2588%259D%25E3%2581%25AE%25E8%25A1%25A830%25E8%25A1%258C%25E3%2581%25AF%25E4%25BD%259C%25E6%25A5%25AD%25E3%2582%2592%25E6%258C%259F%25E3%2582%2580...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%258A%25E3%2581%2598%25E3%2581%2595%25E3%2582%2593AI%25E3%2583%25A9%25E3%2583%259C%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZhYjlkMjRhMmYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "長い作業の途中で /compact を打つと、それまでの会話が要約に置き換わります。公式ドキュメントには、そのとき「会話の初めの細かい指示は失われることがある。残したい決まりは CLAUDE.md に書く」とあります。では実際に、何が残って、何が消えるのでしょうか。 前に（Claude Code v2.1.311で200K超の扱いは変わった？ 手元では前と同じく、そのまま通って次で圧縮でした）は…"
   },
   {
    "src": "zenn",
@@ -242,6 +234,14 @@
    "date": 1795308238000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--kw7aj9ES--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Muse%2520%25E3%2581%25A8%2520T3%2520Code%2520%25E3%2581%25A7%25E7%25AE%25A1%25E7%2590%2586%25E3%2581%2599%25E3%2582%258B%25E3%2580%25813%25E5%258F%25B0%25E3%2581%25AE%25E8%2587%25AA%25E5%25AE%2585%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2581%25A7%2520Claude%2520%252F%2520Codex%2520%25E3%2582%2592%25E5%258B%2595%25E3%2581%258B%25E3%2581%2599%25E3%2582%25AA%25E3%2583%25BC%25E3%2582%25B1%25E3%2582%25B9%25E3%2583%2588%25E3%2583%25AC%25E3%2583%25BC...%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tom%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzZmOWVjOTE5YjEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "Meta の Muse に依頼の受付とジョブの指揮を任せ、作業と検証は自宅の3台で動く Claude Code と Codex にやらせています。依頼がジョブになるまでの経路と、検証の分け方、ホストの選び方を紹介します。 TL;DR スマホの iOS アプリか LINE から依頼すると、Muse が自宅サーバ3台の Claude Code や Codex にジョブを送ってくれます。 Muse に…"
+  },
+  {
+   "src": "zenn",
+   "title": "Claude Codeで自動投稿を作ろうとしたら、役員AIに止められた",
+   "link": "https://zenn.dev/yuceo/articles/line-openchat-post-tool-claude-code",
+   "date": 1795308059000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--xmtsQCMF--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25A7%25E8%2587%25AA%25E5%258B%2595%25E6%258A%2595%25E7%25A8%25BF%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258D%25E3%2581%2586%25E3%2581%25A8%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589%25E3%2580%2581%25E5%25BD%25B9%25E5%2593%25A1AI%25E3%2581%25AB%25E6%25AD%25A2%25E3%2582%2581%25E3%2582%2589%25E3%2582%258C%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzRlYjRmZTczOTUuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! LINEのオープンチャットには、公式の自動投稿の仕組みが無く、非公式にやると規約違反でチャットごと止められるおそれがありました。 そこで、投稿する文を作ってクリップボードに入れるところまでを Python で自動にしました。送るのは手です。 自動投稿は、役員AIに止められた LINEのオープンチャット（みんなで話せる部屋）に、記事を自動で流したい。Claude Code の中で毎日開いている…"
   },
   {
    "src": "claude-code",
