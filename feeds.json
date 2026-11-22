@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795304939117,
+ "updatedAt": 1795310519073,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -45,27 +45,43 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？と思った話。",
-   "link": "https://qiita.com/yamac_tech/items/2f1d598288990c381f2d",
-   "date": 1795304325000,
+   "title": "2026年11月22日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+   "link": "https://qiita.com/ennagara128/items/70ce7e25f1122e7d56ce",
+   "date": 1795310355000,
    "img": "",
-   "desc": "Claude Codeとか、Codex、使ってますか。もちろん私はがっつり使ってます。Claude Codeに代表されるAI Coding Agentをつかってるとだんだん「毎回確認したり面倒だな～」となってくると思います。今はClaudeではAuto modeがデフォル..."
+   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 【朗報】Microsoft 365 Copil..."
   },
   {
    "src": "qiita",
-   "title": "Claude Codeの--fallback-modelで無人ジョブを止めない：混雑・利用上限・終了コードの3つの落とし穴と実装",
-   "link": "https://qiita.com/joinclass/items/080927f3b092b9de46e6",
-   "date": 1795303807000,
+   "title": "0。GitHub Copilot Fusionが『モデルではなく難易度を選ぶ』形で全プランに展開された日、自分の指示書がタスクの重さに応じてモデルを選び直していた回数はこの数字だった",
+   "link": "https://qiita.com/Hideki_Tamae/items/c0e22f681c310d554441",
+   "date": 1795308359000,
    "img": "",
-   "desc": "はじめに：朝起きたらジョブが全部落ちていた 当社（合同会社ジョインクラス）は、記事作成・朝のレポート・各部署の作業など30以上のジョブを launchd から claude -p で無人実行しています。 2026年9月、朝のログを見ると複数のジョブが同じ時間帯にまとめて失..."
+   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプラインの定期実行(この記事を書いている回を含む)の中で、「今やっている作業がどれくらい重いか」に応じて、使うモデルやエージェントの実行強度(effort)を自分で選び直していた回..."
   },
   {
    "src": "qiita",
-   "title": "Claude CodeにMCPで解析ツールを3,355回呼ばせた結果、参照値との差は中央値0.13%・最大8.3%だった",
-   "link": "https://qiita.com/NovaSolver/items/a4456c4a83b61d2ccb1e",
-   "date": 1795302004000,
+   "title": "worktreeにマウントを切り替えたのに、前のブランチのクラスが動いた！？",
+   "link": "https://qiita.com/phibi-soon/items/eb49af18ba1918d24aef",
+   "date": 1795307197000,
    "img": "",
-   "desc": "構造・熱・流れ・静電場・電流の解析を、AI（Claude Code）に回させました。参照値と比べた照合は 140 件です。上の GIF は、その差を1件ずつ置いていったものです。 先に結果を書きます。 項目 値 MCP ツールの呼び出し 3,355 回（ログ..."
+   "desc": "こんにちは、もんすんです。 Claude Code に git worktree で実装してもらったあと、画面で動かして確かめるとき、みなさんはどうしていますか？ 私は、worktree を消していました。 VSCode で worktree の差分を確認する git ..."
+  },
+  {
+   "src": "qiita",
+   "title": "アプリとFigmaを画面単位で同期する定番は無かった - 層ごとに正を決め、Figma MCPでブランチに画面案を起こす",
+   "link": "https://qiita.com/zucky-quest/items/31d18d4e6560b2a29962",
+   "date": 1795306803000,
+   "img": "",
+   "desc": "TL;DR AI エージェントに、Figma へ新しい画面案を起こさせる仕組みを作りました。あわせて、Figma とアプリの見た目が食い違っていくのを防ぐ方法を調べました 調べた結論は、アプリと Figma を画面単位で同期し続ける定番の方法は無い、です。そこで、層ごと..."
+  },
+  {
+   "src": "zenn",
+   "title": "朝7時半、Claude Codeからの電話で起こされた",
+   "link": "https://zenn.dev/chobitnet/articles/mikoto-voice-call",
+   "date": 1795305305000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--hV9itdjG--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E6%259C%259D7%25E6%2599%2582%25E5%258D%258A%25E3%2580%2581Claude%2520Code%25E3%2581%258B%25E3%2582%2589%25E3%2581%25AE%25E9%259B%25BB%25E8%25A9%25B1%25E3%2581%25A7%25E8%25B5%25B7%25E3%2581%2593%25E3%2581%2595%25E3%2582%258C%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:chobitnet%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVjZjYyYjg1YjkuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "AIエージェントから、iPhoneに電話がかかってくるようにしました。アプリを閉じていても、普通の着信画面が出ます。 朝7時半に、これで起こされました きっかけは、Grokで動かしているAIエージェント（Grok Bot）との通話でした。この体験がすごくよかったんです。話しながらいろいろ指示できるし、話すこと自体が楽しい。こういうことをClaude側でもできるといいなと常々思っていました。（正直…"
   },
   {
    "src": "zenn",
@@ -82,14 +98,6 @@
    "date": 1795301191000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--Y43Kmdue--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Epic%2520%25E3%2581%25A7%25E3%2581%25AF%25E3%2580%2581%25E5%25BE%258C%25E3%2581%25AE%25E3%2583%25AA%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25B9%25E3%2581%258C%25E5%2589%258D%25E6%258F%2590%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258B%25E7%2589%25A9%25E3%2581%25A0%25E3%2581%2591%25E3%2582%2592%25E6%25B1%25BA%25E3%2582%2581%25E3%2582%258B%2520%25E2%2580%2595%2520%25E7%25B7%259A%25E3%2582%2592%25E5%25BC%2595%25E3%2581%258D%25E3%2580%2581%25E4%25BD%2595%25E3%2582%2592%25E4%25BD%259C%25E3%2582%258B%25E3%2581%258B%2520%25E2%2586%2592%2520%25E3%2581%25A9%25E3%2581%2586%25E5%25AE%2588%25E3%2582%258B%25E3%2581%258B%2520%25E2%2586%2592%2520%25E5%2588%2586%25E3%2581%2591%25E6%2596%25B9%25E3%2581%25AE%25E9%25A0%2586%25E3%2581%25AB%25E6%25B1%25BA%25E3%2582%2581%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Tamtam%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzg4YzUxYzNmMDQuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "はじめに いくつかのリリースにまたがる機能のまとまりを、本記事では Epic と呼ぶ。Epic の段で何を決めるかを外すと、2つの形で困る。 Epic で全部決めると、ボタンや列の細部まで Epic のページに書く。リリースで詳しく決めるたびに、2か所を直す リリースで全部決めると、後のリリースが前提にする物（何を1つと数えるか、外に出す名前）が、最初のリリースで決まる。後で覆したくなっても、も…"
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code の定期実行で「期限が来たら確実に止まる」自律エージェントを作る",
-   "link": "https://qiita.com/minatoAI00/items/cc2485b65ab50e9661f0",
-   "date": 1795300609000,
-   "img": "",
-   "desc": "はじめに Claude Code デスクトップアプリの「定期実行タスク」を使って、1時間ごとに自分で起動し、期限が来たら確実に止まる自律エージェントを作りました。 この記事では、実際に動かしている構成をそのまま紹介します。 毎回記憶がリセットされるエージェントに、作業を..."
   },
   {
    "src": "zenn",
@@ -226,14 +234,6 @@
    "date": 1795252152000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--opLlEPOZ--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E5%25A0%2585%25E7%2589%25A2%25E3%2581%25AA%25E5%258F%2597%25E3%2581%2591%25E5%2585%25A5%25E3%2582%258C%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2582%2592%25E6%259B%25B8%25E3%2581%258F%25E3%2581%25AB%25E3%2581%25AF%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yasuaki%2520Omokawa%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmOTUyODI3YjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "AI コーディングエージェントにテストを書かせると、実装を少し変えただけで壊れるテストができることがあります。この記事はそうならないテストを書かせる手順を 4 つにまとめたものです。筆者が自分のプロダクトで 15 日間試した結果を反映しています。 対象読者 次のどれかに当てはまる開発者に向けて書きました。 AI コーディングエージェント (Claude Code、Codex など) に、実装の前…"
-  },
-  {
-   "src": "zenn",
-   "title": "PRのapproveとmergeをまとめて捌くgh extensionを作った",
-   "link": "https://zenn.dev/babarot/articles/gh-desk-terminal-pr-review",
-   "date": 1795251259000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--OFHhIQy_--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:PR%25E3%2581%25AEapprove%25E3%2581%25A8merge%25E3%2582%2592%25E3%2581%25BE%25E3%2581%25A8%25E3%2582%2581%25E3%2581%25A6%25E6%258D%258C%25E3%2581%258Fgh%2520extension%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:babarot%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUZjTndjbUxlTHdLZklUSEV1UkdLX1FlbzFyaklGeUhCNnFadXZQUk96b29WR1prZjk9czk2LWM=%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "ターミナルから PR をたくさん捌くための gh extension、gh-desk の紹介です。 https://github.com/babarot/gh-desk gh-desk を起動したところ。データは架空のもの PRを何で見る? 最近は Codex app、Claude Desktop、GitHub Copilot app のように、GUI に戻る流れも出てきています。そんな中でも、…"
   },
   {
    "src": "claude-code",
