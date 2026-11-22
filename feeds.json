@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795327617128,
+ "updatedAt": 1795332262404,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "【第21回】ゼロから目指す! CCDV-F合格への道：セキュリティ（攻撃と対策）",
+   "link": "https://qiita.com/Ray_T/items/041345635a4831610841",
+   "date": 1795332253000,
+   "img": "",
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第21回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
+  },
   {
    "src": "qiita",
    "title": "Claude Codeでタスク管理するなら、TASKS.mdをAIに書かせる──Obsidian Tasks書式のToDoを6週間運用した型",
@@ -66,14 +74,6 @@
    "date": 1795321318000,
    "img": "",
    "desc": "先に、結論を3行で書きます。 AI にブラウザを操作させると、拡張をつないだ Chrome のプロフィールにタブが開きます。メインにつないでいたので、作業中の画面に AI のタブが増え続けていました。 Chrome のプロフィールを役割ごとに 6 つに分け、メインからは..."
-  },
-  {
-   "src": "qiita",
-   "title": "Wordをjsで読み込んでブラウザに表示させたい",
-   "link": "https://qiita.com/ifiwereabird/items/e6a4c9595d28e4a0044f",
-   "date": 1795320428000,
-   "img": "",
-   "desc": "はじめに wordで書いた漢文の白文にきれいに、行や列を崩さずに返り点を付けたいと考えています。 漢詩文とかの場合、五文字とか七文字にきれいにそろえたいですし、対句とかそろってた方がわかりいいですし、上付き文字、下付き文字だとなんか微妙にずれるなと思ったのでなんかきれいに..."
   },
   {
    "src": "zenn",
