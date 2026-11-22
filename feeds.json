@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795362932132,
+ "updatedAt": 1795366638424,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -77,14 +77,6 @@
   },
   {
    "src": "zenn",
-   "title": "「社員全員がClaude Codeを使いこなす」を目指して、共有サーバーを作った",
-   "link": "https://zenn.dev/dionnam/articles/a8e6ce6ec60011",
-   "date": 1795346497000,
-   "img": "https://res.cloudinary.com/zenn/image/upload/s--OREIQPer--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258C%25E7%25A4%25BE%25E5%2593%25A1%25E5%2585%25A8%25E5%2593%25A1%25E3%2581%258CClaude%2520Code%25E3%2582%2592%25E4%25BD%25BF%25E3%2581%2584%25E3%2581%2593%25E3%2581%25AA%25E3%2581%2599%25E3%2580%258D%25E3%2582%2592%25E7%259B%25AE%25E6%258C%2587%25E3%2581%2597%25E3%2581%25A6%25E3%2580%2581%25E5%2585%25B1%25E6%259C%2589%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E3%2582%2592%25E4%25BD%259C%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Dion%2520Nam%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVFLZWx4NEd3UFE5ajAwR0ZCcTFEbVdEQ0ljSWVpNEdnSUM2UG9lUThlLTV5RDZRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-   "desc": "結論 お客さんの会社にClaude Codeを入れる仕事をしていますが、チーム全員に使いこなしてもらうのは本当に難しいです。入れても、結局使うのは一部の人だけ、ということがよくあります。 各自のClaude Codeは、会社のことを何も知らない空のフォルダーから始まります。便利なスキルを作った人がいても、それはその人のノートPCにしか入っていません。 そこで、チームのフォルダーとスキルをサーバー…"
-  },
-  {
-   "src": "zenn",
    "title": "AIに編集を禁止したディレクトリを、AIが python で書き換えていた",
    "link": "https://zenn.dev/sutokei/articles/edit-deny-python-bypass",
    "date": 1795345206000,
@@ -121,7 +113,7 @@
    "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
    "date": 1795337854000,
    "img": "",
-   "desc": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 325 # Comments: 4…"
+   "desc": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 472 # Comments: 5…"
   },
   {
    "src": "zenn",
@@ -244,6 +236,14 @@
    "desc": "! LINEのオープンチャットには、公式の自動投稿の仕組みが無く、非公式にやると規約違反でチャットごと止められるおそれがありました。 そこで、投稿する文を作ってクリップボードに入れるところまでを Python で自動にしました。送るのは手です。 自動投稿は、役員AIに止められた LINEのオープンチャット（みんなで話せる部屋）に、記事を自動で流したい。Claude Code の中で毎日開いている…"
   },
   {
+   "src": "zenn",
+   "title": "Windows Update の再起動で朝の定期実行が全部止まった — ログオンまでの11時間と、拾い直しの記録",
+   "link": "https://zenn.dev/crossclub_lab/articles/windows-update-reboot-scheduled-tasks-missed",
+   "date": 1795307722000,
+   "img": "https://res.cloudinary.com/zenn/image/upload/s--AT2utBV0--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Windows%2520Update%2520%25E3%2581%25AE%25E5%2586%258D%25E8%25B5%25B7%25E5%258B%2595%25E3%2581%25A7%25E6%259C%259D%25E3%2581%25AE%25E5%25AE%259A%25E6%259C%259F%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%258C%25E5%2585%25A8%25E9%2583%25A8%25E6%25AD%25A2%25E3%2581%25BE%25E3%2581%25A3%25E3%2581%259F%2520%25E2%2580%2594%2520%25E3%2583%25AD%25E3%2582%25B0%25E3%2582%25AA%25E3%2583%25B3%25E3%2581%25BE%25E3%2581%25A7%25E3%2581%25AE11%25E6%2599%2582%25E9%2596%2593%25E3%2581%25A8%25E3%2580%2581%25E6%258B%25BE%25E3%2581%2584%25E7%259B%25B4%25E3%2581%2597%25E3%2581%25AE%25E8%25A8%2598%25E9%258C%25B2%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:crossclub%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSnZILThHXzdIc2NjVkJkN2NFNXdwZmFPM2l1NjY0OVVHV3prakZLaGRRT2k4QmVRPXMyNTAtYw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
+   "desc": "! この記事は、筆者の Zenn の本・有料 note の案内（PR）を含みます。 筆者は、Windows 11 の PC 1台で、タスクスケジューラから claude -p や node のスクリプトを約40個のタスクで動かしています。2026-11-21（土）の未明、Windows Update の自動再起動で、朝に動くはずの定期実行がまとめて動きませんでした。この記事は、何がいつ止まり、ど…"
+  },
+  {
    "src": "claude-code",
    "title": "v2.1.330",
    "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
@@ -257,7 +257,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 517 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 521 # Comments: …"
   },
   {
    "src": "news",
@@ -521,7 +521,7 @@
    "link": "https://claude.com/resources/articles/projects-redesigned",
    "date": 1794616091000,
    "img": "",
-   "desc": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 101 # Comments: 98"
+   "desc": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 101 # Comments: 99"
   },
   {
    "src": "hn",
