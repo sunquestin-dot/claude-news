@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795388093659,
+ "updatedAt": 1795391601581,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": true,
-   "count": 29
+   "ok": false,
+   "error": "HTTP 502"
   },
   "reddit": {
    "ok": false,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code の VS Code 拡張で \"Unhandled case: [object Object]\" / \"command 'claude-vscode.editor.openLast' not found\" / \"process exited with code 1\" と出たときの直し方",
-   "link": "https://qiita.com/homhom44/items/daf1298c7795a603466e",
-   "date": 1795383132000,
+   "title": "Claude Code v2.1.330：Enterprise管理コンソール対応・チャートmod追加と企業で確認したい修正5点（2026年速報）",
+   "link": "https://qiita.com/Sidejob/items/69494e3a80e52e0396c4",
+   "date": 1795391109000,
    "img": "",
-   "desc": "VS Code の Claude Code 拡張で、赤いバナーに Unhandled case: [object Object] と出る、Claude のアイコンを押すと command 'claude-vscode.editor.openLast' not found と..."
+   "desc": "この記事で分かること： v2.1.330で追加された3つの主要機能（Enterprise対応・チャート・self-hosted runner改善） 企業利用で気になる修正5点（MCP多数時の問題・settings消失・worktree削除ほか） 大企業でAI推進を担当す..."
   },
   {
    "src": "qiita",
-   "title": "何もしてないのにパソコンが唸る：一時停止したら83℃が51℃に！",
-   "link": "https://qiita.com/blogjiraiya377/items/aafab8ab51c8af2be98d",
-   "date": 1795373143000,
+   "title": "CLAUDE.md に書いても止まらない：Claude Code のお願いと強制の違いを実行して比べる",
+   "link": "https://qiita.com/charge0315/items/a97bd8584df044368e02",
+   "date": 1795390482000,
    "img": "",
-   "desc": "はじめに 唸り出したのはClaudeを使い始めた後だったので、重いのはClaudeだと思っていました。 実際に数字を並べて見つけた犯人とその手順が分かります。 測ったのは私のパソコン1台での1回の出来事です。 何が起きたか はずだった：起動してから唸るのでClaude..."
+   "desc": "CLAUDE.md に「git push は、ユーザーに確認を取ってから実行する」と 1 行書きました。 「リモートへの反映まで終わらせて」と頼むと、Claude Code はコミットで止まり、push してよいかを聞き返してきました。3 回とも同じでした。 ところが「急い..."
   },
   {
    "src": "qiita",
-   "title": "11/22 の公式ドキュメント更新：web-fetch サブエージェントを軸にした権限・フック・環境変数の追記",
-   "link": "https://qiita.com/akihidem/items/97eac4cb7a451c94a60a",
-   "date": 1795370102000,
+   "title": "Claude Codeのセッションを分岐して並行作業する：/fork と --fork-session の手順・落とし穴・検証方法",
+   "link": "https://qiita.com/joinclass/items/8b30d5453db55388966a",
+   "date": 1795390207000,
    "img": "",
-   "desc": "2026-11-22 の追加文は、Claude Code が Web ページを読む処理を担う組み込みサブエージェント「web-fetch」を中心にまとまっています。サブエージェント、フック、auto mode の分類器、環境変数の各ページに、この仕組みを前提とした例外や条件..."
+   "desc": "はじめに 当社（合同会社ジョインクラス）は、社員のいない会社を Claude Code で回しています。launchd のジョブが 30 本ほど毎日 claude -p を呼び、部署ごとの仕事をしています。 僕が対話セッションでいちばん困っていたのは、長いセッションで調べ..."
   },
   {
    "src": "qiita",
-   "title": "受託開発でAI開発環境を工程別に見積もる：閉域構成・費用・契約の注意点",
-   "link": "https://qiita.com/maya-bot/items/496b927091c8ef5babbc",
-   "date": 1795361229000,
+   "title": "AIの「確認しました」が空振りした5つの形。検査器が動いていなくてもOKは出る",
+   "link": "https://qiita.com/hc_terashima/items/8028f988e6a83372a013",
+   "date": 1795389669000,
    "img": "",
-   "desc": "はじめに 「AIを開発に使いたい。でも、いくらかかるのか説明できない」。 受託開発の現場では、この壁で止まることがよくあります。 この記事では、AI開発環境の費用を 工程ごとに 見積もる方法を、具体的な金額つきで解説します。 題材は、決済系のようなミッションクリティカルな..."
+   "desc": "記事の公開前に、画像のメタデータを検査したら「EXIF OK」と出ました。ところが検査に使うツール（exiftool）はこの環境に入っておらず、検査は1枚も見ていませんでした。AIエージェントの「確認しました」は、それだけでは、確認の手段が動いたことも、確かめた範囲が足りて..."
   },
   {
    "src": "zenn",
