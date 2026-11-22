@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795310519073,
+ "updatedAt": 1795316357600,
  "sources": {
   "news": {
    "ok": true,
@@ -45,35 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "2026年11月22日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-   "link": "https://qiita.com/ennagara128/items/70ce7e25f1122e7d56ce",
-   "date": 1795310355000,
+   "title": "Claude Codeのタスク管理は3つの型に分かれる——GitHub IssuesをGTDの台帳にするやり方は何が違うのか",
+   "link": "https://qiita.com/saitoko/items/43b2d2251f90574a0588",
+   "date": 1795316115000,
    "img": "",
-   "desc": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 【朗報】Microsoft 365 Copil..."
+   "desc": "この記事のまとめ（2026年11月21日時点）: Claude Code でのタスク管理を扱う公開記事・リポジトリ・公式ドキュメントなど16件を調べ、うち12件を保存先で分けると「Markdownファイル型」「既存のタスク管理サービス連携型」「開発タスク分解型」の3つになっ..."
   },
   {
    "src": "qiita",
-   "title": "0。GitHub Copilot Fusionが『モデルではなく難易度を選ぶ』形で全プランに展開された日、自分の指示書がタスクの重さに応じてモデルを選び直していた回数はこの数字だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/c0e22f681c310d554441",
-   "date": 1795308359000,
+   "title": "エージェントの「ハーネス」は何を引き受けているのか：ループ、コスト、一度きりの実行、永続化、仕様の権限をめぐる8本",
+   "link": "https://qiita.com/redreamality/items/2d25cec53f1bf9760a50",
+   "date": 1795314047000,
    "img": "",
-   "desc": "はじめに 0。 これが今回の数字です。何の0かというと、このZenn/Qiita自動投稿パイプラインの定期実行(この記事を書いている回を含む)の中で、「今やっている作業がどれくらい重いか」に応じて、使うモデルやエージェントの実行強度(effort)を自分で選び直していた回..."
+   "desc": "「エージェントハーネス」という言葉、最近あちこちで見かけますが、指しているものは人によってかなり違います。モデル呼び出しを回す while ループのことだったり、リトライの仕組みだったり、仕様チェッカーや永続ストア、あるいはエージェントが作業するリポジトリそのものだったり。..."
   },
   {
    "src": "qiita",
-   "title": "worktreeにマウントを切り替えたのに、前のブランチのクラスが動いた！？",
-   "link": "https://qiita.com/phibi-soon/items/eb49af18ba1918d24aef",
-   "date": 1795307197000,
+   "title": "【Claude Code / Antigravity】外部通信が「HTTP 403」や「pre-tool hook ポリシー違反」で止まる原因とSKILL.md記述の4原則",
+   "link": "https://qiita.com/ai-nexus/items/befebdc57aeb23667f45",
+   "date": 1795313526000,
    "img": "",
-   "desc": "こんにちは、もんすんです。 Claude Code に git worktree で実装してもらったあと、画面で動かして確かめるとき、みなさんはどうしていますか？ 私は、worktree を消していました。 VSCode で worktree の差分を確認する git ..."
+   "desc": "はじめに Claude Code や Antigravity、Cursor 等で外部通信を含むPythonスクリプトやスキル（SKILL.md）を実行すると、以下のエラーで止まることがあります。 urllib.error.URLError（Tunnel connect..."
   },
   {
    "src": "qiita",
-   "title": "アプリとFigmaを画面単位で同期する定番は無かった - 層ごとに正を決め、Figma MCPでブランチに画面案を起こす",
-   "link": "https://qiita.com/zucky-quest/items/31d18d4e6560b2a29962",
-   "date": 1795306803000,
+   "title": "【第20回】ゼロから目指す! CCDV-F合格への道：パターンとフレームワーク",
+   "link": "https://qiita.com/Ray_T/items/d9a7621d1c2fcc54ffcc",
+   "date": 1795312840000,
    "img": "",
-   "desc": "TL;DR AI エージェントに、Figma へ新しい画面案を起こさせる仕組みを作りました。あわせて、Figma とアプリの見た目が食い違っていくのを防ぐ方法を調べました 調べた結論は、アプリと Figma を画面単位で同期し続ける定番の方法は無い、です。そこで、層ごと..."
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第20回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
   },
   {
    "src": "zenn",
