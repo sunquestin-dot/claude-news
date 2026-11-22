@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795341441861,
+ "updatedAt": 1795344960669,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -43,6 +43,14 @@
   }
  },
  "items": [
+  {
+   "src": "qiita",
+   "title": "【第22回】ゼロから目指す! CCDV-F合格への道：セキュリティ（守りの設計）",
+   "link": "https://qiita.com/Ray_T/items/4deffcedaab579c047ac",
+   "date": 1795341518000,
+   "img": "",
+   "desc": "この記事について Anthropic社の公式認定資格「Claude Certified Developer – Foundations(CCDV-F)」に向けた、非公式の学習シリーズ(全24回)の第22回です。（Anthropic社とは関係ありません） 公式の試験ガイ..."
+  },
   {
    "src": "qiita",
    "title": "Claude Code の許可リストを棚卸しする PowerShell の 1 行：「次から聞かない」の溜まりを洗い出す",
@@ -68,12 +76,12 @@
    "desc": "はじめに 毎朝8時に、その日の技術ニュースを Discord に投稿する scheduled task を動かしています。 このタスクのプロンプトは、claude.ai の GUI で管理していました。 しかし、GUI で管理し続けることに抵抗感があったので、タスクの定義..."
   },
   {
-   "src": "qiita",
-   "title": "AIに「説明して」と頼むと長文が返ってくる。説明を動画で作らせたら、中で起きていることをすぐ追えるようになった（Claude Code＋Playwright＋ffmpeg）",
-   "link": "https://qiita.com/ViewsEngineer/items/c9c77e1c95b8ca187072",
-   "date": 1795338024000,
+   "src": "hn",
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "date": 1795337854000,
    "img": "",
-   "desc": "AI にコードを書かせて、「説明して」と頼む。長い文章が返ってきます。合っていそうです。でも、読んでも頭に絵が浮かびません。 説明を文章ではなく動画で作らせてみたら、中で起きていることを、すぐに追えるようになりました。 題材は選びません。どんな難問をやらせても、どんなに専門..."
+   "desc": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 139 # Comments: 1…"
   },
   {
    "src": "zenn",
@@ -249,7 +257,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 507 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 512 # Comments: …"
   },
   {
    "src": "news",
@@ -281,7 +289,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1139…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1140…"
   },
   {
    "src": "youtube",
@@ -858,14 +866,6 @@
    "date": 1793658800000,
    "img": "",
    "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 228 # Comments: 280"
-  },
-  {
-   "src": "hn",
-   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-   "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-   "date": 1793658647000,
-   "img": "",
-   "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 406 # Comments: 324"
   },
   {
    "src": "research",
