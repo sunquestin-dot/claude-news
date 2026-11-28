@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795833681262,
+ "updatedAt": 1795866360308,
  "sources": {
   "news": {
    "ok": true,
@@ -26,8 +26,8 @@
    "count": 15
   },
   "hn": {
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "count": 29
   },
   "reddit": {
    "ok": false,
@@ -45,11 +45,35 @@
  "items": [
   {
    "src": "qiita",
-   "title": "Claude Code のフック・エージェント・定期実行の数を、手書きの一覧でなく実物から数える Python にした",
-   "link": "https://qiita.com/takamatt_ai/items/e1892c972597e4940433",
-   "date": 1795833308000,
+   "title": "Claudeの「Install as app」で成果物をMacアプリにする条件と許可の早見表、つまずき4つ",
+   "link": "https://qiita.com/parsetree/items/8d0e996e67f06f211e9e",
+   "date": 1795859414000,
    "img": "",
-   "desc": "この記事を読み終えると、Claude Code まわりで増えていくフック・エージェント定義・Mac の定期実行(launchd)を、settings.json やフォルダの実物から数えて表に出す小さな Python が書けます。登録し忘れ・消し忘れのフックも一緒に見つかりま..."
+   "desc": "この記事はAI（Claude Code）が、実際の作業記録と、人が操作して確かめた画面の記録をもとに書きました。公開もAIが行います。確かめていないことは「未確認」と書いています。 Claudeの成果物（Artifact）を、Macのアプリとして入れる機能「Install ..."
+  },
+  {
+   "src": "qiita",
+   "title": "スマホから Claude Code を使う方法：Remote Control・クラウド・SSH + tmux・GUI クライアントを手順つきで比べる（2026年11月版）",
+   "link": "https://qiita.com/devEric_ai/items/3f0b7add10f2f6c582bc",
+   "date": 1795857002000,
+   "img": "",
+   "desc": "@[toc] 開示：筆者は TaroBird の作者です（GitHub は cloveric、Eric Wei）。TaroBird はオープンソース・セルフホストの ADE（エージェンティック開発環境）で、デスクトップとスマホで IM 風の対話画面を共有します。この記事..."
+  },
+  {
+   "src": "qiita",
+   "title": "失敗はハーネスで防ぐ",
+   "link": "https://qiita.com/pitaspot/items/9a1b06675665bc4e05bc",
+   "date": 1795856665000,
+   "img": "",
+   "desc": "📰 今日の注目記事 元記事：AIエージェントが仕事を終えられない原因は「モデルの外側」にある：ハーネス設計の7つの対策（x.com） AIエージェント（自分で手順を考えて作業を進めるAI）がうまく動かないとき、原因の多くはプロンプトやモデルではなく、モデルを動か..."
+  },
+  {
+   "src": "qiita",
+   "title": "wordの漢文に返り点を行間等を崩さずにつけるアプリが若干完成",
+   "link": "https://qiita.com/ifiwereabird/items/9644d87b57d53b41af7a",
+   "date": 1795853138000,
+   "img": "",
+   "desc": "前回の記事 これまでのあらすじ wordでタイプした漢詩などの白文を読み込み、返り点を行間・行列を崩さずに打つアプリの開発を試みた筆者は、wordの文章をjsで読み込みhtml上に再現表示するところまで成功した。そして今、本題である返り点を付ける機能の実装に着手した..."
   },
   {
    "src": "zenn",
@@ -60,36 +84,12 @@
    "desc": "エージェントに図を描かせると、たいてい「汎用的な角丸ボックスの羅列」が返ってくる。cathrynlavery/diagram-designは、その問題を「センスを文章化する」ことで解こうとする Agent Skills だ。2026年11月27日時点でスター約73,900、GitHub Trending 9位。MITライセンス、2026年4月公開、コミット499回。 本記事では、リポジトリを実際…"
   },
   {
-   "src": "qiita",
-   "title": "Claude Code 開発者が注目している5つのアップデート（v2.1.331 - v2.1.332）",
-   "link": "https://qiita.com/NaokiIshimura/items/9d75f973a26bdb4f1965",
-   "date": 1795828248000,
-   "img": "",
-   "desc": "Claude Code の v2.1.331 〜 v2.1.332 の中から、実務への影響が大きいと思われるものを5つ選んで深掘りします。網羅的な変更点一覧は リリースノートまとめ にあるので、今回は「なぜ注目に値するか」にフォーカスします。 1. MCP サーバーから..."
-  },
-  {
-   "src": "qiita",
-   "title": "Claude Code v2.1.331 - v2.1.332 リリースノートまとめ",
-   "link": "https://qiita.com/NaokiIshimura/items/a913479f6fbb2d8447b7",
-   "date": 1795828189000,
-   "img": "",
-   "desc": "Claude Code v2.1.331 〜 v2.1.332 では、MCP サーバーからスキルを読み込む機能（beta）や、スキルのインラインシェルコマンドを検査する PreSkillShellCommand フックが追加されました。あわせて、Bedrock / Goog..."
-  },
-  {
    "src": "zenn",
    "title": "CLAUDE.md に書いても止まらない：Claude Code のお願いと強制の違いを実行して比べる",
    "link": "https://zenn.dev/charge0315/articles/claude-code-claudemd-vs-permissions",
    "date": 1795827659000,
    "img": "https://res.cloudinary.com/zenn/image/upload/s--iSnpko3B--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:CLAUDE.md%2520%25E3%2581%25AB%25E6%259B%25B8%25E3%2581%2584%25E3%2581%25A6%25E3%2582%2582%25E6%25AD%25A2%25E3%2581%25BE%25E3%2582%2589%25E3%2581%25AA%25E3%2581%2584%25EF%25BC%259AClaude%2520Code%2520%25E3%2581%25AE%25E3%2581%258A%25E9%25A1%2598%25E3%2581%2584%25E3%2581%25A8%25E5%25BC%25B7%25E5%2588%25B6%25E3%2581%25AE%25E9%2581%2595%25E3%2581%2584%25E3%2582%2592%25E5%25AE%259F%25E8%25A1%258C%25E3%2581%2597%25E3%2581%25A6%25E6%25AF%2594%25E3%2581%25B9%25E3%2582%258B%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E5%2585%25AB%25E5%2592%25AB%25E7%2583%258F%25EF%25BC%2588%25E3%2582%2584%25E3%2581%259F%25E3%2581%258C%25E3%2582%2589%25E3%2581%2599%25EF%25BC%2589%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2UxMGQ3NjExNDIuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
    "desc": "CLAUDE.md に「git push は、ユーザーに確認を取ってから実行する」と 1 行書きました。 「リモートへの反映まで終わらせて」と頼むと、Claude Code はコミットで止まり、push してよいかを聞き返してきました。3 回とも同じでした。 ところが「急いでいるので、確認なしで今すぐ push して」と頼むと、3 回とも push しました。 権限ルールの ask と、PreT…"
-  },
-  {
-   "src": "qiita",
-   "title": "1。「次の3リクエストでgit statusを見る」と拒否メッセージが約束した直後、そのgit status自体が拒否された回数はこの数字だった",
-   "link": "https://qiita.com/Hideki_Tamae/items/9af542496e122ebd7f1e",
-   "date": 1795826816000,
-   "img": "",
-   "desc": "はじめに 1。 これが今回の数字です。今日、このZenn/Qiita自動投稿タスクのステップ0(衝突防止)でgit checkout main && git reset --hard origin/mainを2リポジトリ分まとめて送ったところ、auto modeの分類器に..."
   },
   {
    "src": "zenn",
@@ -253,11 +253,35 @@
   },
   {
    "src": "hn",
+   "title": "Claude sabotaging ML research tasks?",
+   "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "date": 1795768088000,
+   "img": "",
+   "desc": "Article URL: https://twitter.com/RealAstropulse/status/2126119408997466389 Comments URL: https://news.ycombinator.com/item?id=50664325 Points: 720 # Comments: 318"
+  },
+  {
+   "src": "hn",
+   "title": "\"What's Claude's fursona?\" and other questions",
+   "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+   "date": 1795755378000,
+   "img": "",
+   "desc": "Article URL: https://herecomesthemoon.net/2026/11/whats-claudes-fursona/ Comments URL: https://news.ycombinator.com/item?id=50662933 Points: 202 # Comments: 193"
+  },
+  {
+   "src": "hn",
+   "title": "Claude tries to sabotage research work at every stage",
+   "link": "https://twitter.com/skirano/status/2125371115979641188",
+   "date": 1795668561000,
+   "img": "",
+   "desc": "Article URL: https://twitter.com/skirano/status/2125371115979641188 Comments URL: https://news.ycombinator.com/item?id=50651552 Points: 123 # Comments: 20"
+  },
+  {
+   "src": "hn",
    "title": "Much shorter version of GRH Lean verification from Anthropic",
    "link": "https://github.com/lsernau/grh-lean",
    "date": 1795643290000,
    "img": "",
-   "desc": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 548 # Comments: 347"
+   "desc": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 565 # Comments: 366"
   },
   {
    "src": "status",
@@ -321,7 +345,7 @@
    "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
    "date": 1795526627000,
    "img": "",
-   "desc": "Article URL: https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading Comments URL: https://news.ycombinator.com/item?id=50627836 Points: 433 # Comm…"
+   "desc": "Article URL: https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading Comments URL: https://news.ycombinator.com/item?id=50627836 Points: 434 # Comm…"
   },
   {
    "src": "claude-code",
@@ -369,7 +393,7 @@
    "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "date": 1795181399000,
    "img": "",
-   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 531 # Comments: …"
+   "desc": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 532 # Comments: …"
   },
   {
    "src": "news",
@@ -401,7 +425,7 @@
    "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "date": 1795107760000,
    "img": "",
-   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1146…"
+   "desc": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 1147…"
   },
   {
    "src": "youtube",
@@ -866,22 +890,6 @@
    "date": 1794182400000,
    "img": "",
    "desc": "We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its f…"
-  },
-  {
-   "src": "hn",
-   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-   "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-   "date": 1794161767000,
-   "img": "",
-   "desc": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 905 # Comments: 497"
-  },
-  {
-   "src": "hn",
-   "title": "Goodbye Claude, hello Pi",
-   "link": "https://caleb.software/posts/claude-to-pi.html",
-   "date": 1794107508000,
-   "img": "",
-   "desc": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 833 # Comments: 493"
   },
   {
    "src": "engineering",
